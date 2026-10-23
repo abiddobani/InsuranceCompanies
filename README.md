@@ -1,6 +1,6 @@
 # Insurance Companies
 
-Life insurance companies operating in Canada.
+The Canadian life and health insurance companies to use in all analysis in this project.
 
 | Company | Notes |
 | --- | --- |
