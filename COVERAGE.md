@@ -45,11 +45,11 @@ Each cell lists the quarters (1 to 4) with at least one downloaded document; `·
 | Assumption Life | 5 |  |  |  | ···4 | ···4 | ···4 |  |
 | Beneva (SSQ + La Capitale) | 4 |  |  | ···4 | ···4 | ···4 | ···4 |  |
 | BMO Life Assurance Company | 796 | 1234 | 1234 | 1234 | 1234 | 1234 | 1234 | 123· |
-| Canada Life (Great-West Life + London Life + Canada Life) | 59 |  |  |  | ·234 | 1234 | 1234 | 12·· |
+| Canada Life (Great-West Life + London Life + Canada Life) | 83 | 1234 | 1234 | 1234 | ·234 | 1234 | 1234 | 12·· |
 | Canada Protection Plan | 1 |  |  |  |  |  |  |  |
 | Canadian Premier Life Insurance Company | 5 |  |  |  | ···4 | ···4 | ···4 |  |
 | Co-operators Life Insurance Company | 21 | ···4 | ···4 | ···4 | ···4 | ···4 | ···4 | ···4 |
-| Desjardins Insurance (Desjardins Financial Security) | 34 |  |  |  | 1234 | 1234 | 1234 | 12·· |
+| Desjardins Insurance (Desjardins Financial Security) | 64 | 1234 | 1234 | 1234 | 1234 | 1234 | 1234 | 12·· |
 | Empire Life Insurance Company | 10 |  |  |  | ···4 | ···4 | ···4 | 12·· |
 | Equitable Life Insurance Company of Canada | 10 |  | ···4 | ···4 | ···4 | ···4 | ···4 |  |
 | Foresters Life Insurance Company | 30 |  | ···4 | ···4 | ···4 | ···4 | ···4 |  |
@@ -59,6 +59,6 @@ Each cell lists the quarters (1 to 4) with at least one downloaded document; `·
 | Manulife Financial (incl. former Standard Life and Maritime Life) | 561 | 1234 | 1234 | 1234 | 1234 | 1234 | 1234 | 12·· |
 | Primerica Life Insurance Company of Canada | 7 |  |  |  |  |  | ···4 | ·2·· |
 | RBC Life Insurance Company | 8 | ···4 | ···4 |  | ···4 | ···4 | ···4 |  |
-| Sun Life Financial | 152 |  |  | 1234 | 1234 | 1234 | 1234 | 12·· |
+| Sun Life Financial | 425 | 1234 | 1234 | 1234 | 1234 | 1234 | 1234 | 12·· |
 | UV Insurance | 0 |  |  |  |  |  |  |  |
 | Wawanesa Life | 5 |  |  |  |  | ···4 | ···4 |  |
