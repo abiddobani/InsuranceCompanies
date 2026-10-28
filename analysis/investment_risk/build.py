@@ -36,6 +36,7 @@ OSFI = os.path.join(ROOT, "data", "osfi")
 PC = os.path.join(ROOT, "analysis", "portfolio_composition")
 OUT = os.path.join(HERE, "dashboard")
 FOCUS = "rbc_life"
+EAR_BOOK_CAD_MM = 25000  # earnings at risk is shown for a C$25Bn portfolio
 YEAR, QUARTER = "2025", "Q4"
 
 # The 20 peers, in order of general-account size.
@@ -253,6 +254,41 @@ def portfolio_metrics():
     return out, tiers
 
 
+def earnings_at_risk(sens):
+    """Loss from each factor's adverse shock, scaled to EAR_BOOK_CAD_MM of invested assets.
+
+    Rates take the worse of +50 bp and -50 bp; spreads +50 bp; public equity and
+    alternatives -10%. A shock that produces a gain counts as zero (no offset),
+    and the total is the undiversified sum of the four.
+    """
+    by = collections.defaultdict(dict)
+    for s in sens:
+        if s["invested_cad_mm"]:
+            by[s["company_id"]][s["factor"]] = s
+    rows = []
+    for co, f in by.items():
+        scale = EAR_BOOK_CAD_MM / next(iter(f.values()))["invested_cad_mm"]
+        loss = lambda key: max(0.0, -f[key]["ni_impact_cad_mm"] * scale) if key in f else None
+        rate_keys = [k for k in ("Rates +50 bp", "Rates -50 bp") if k in f]
+        rate_key = min(rate_keys, key=lambda k: f[k]["ni_impact_cad_mm"]) if rate_keys else None
+        parts = {
+            "rates_cad_mm": loss(rate_key) if rate_key else None,
+            "spreads_cad_mm": loss("Credit spreads +50 bp"),
+            "equity_cad_mm": loss("Public equity -10%"),
+            "alts_cad_mm": loss("Real estate and alternatives -10%"),
+        }
+        rows.append(dict(
+            company_id=co, company=COMPANIES[co], is_focus=int(co == FOCUS), book_cad_mm=EAR_BOOK_CAD_MM,
+            rate_shock_used=rate_key.replace("Rates ", "") if rate_key else "",
+            **{k: (round(v, 1) if v is not None else None) for k, v in parts.items()},
+            total_cad_mm=round(sum(v for v in parts.values() if v is not None), 1),
+            factors_disclosed=sum(v is not None for v in parts.values()),
+            tax_basis=next(iter(f.values()))["tax_basis"],
+        ))
+    rows.sort(key=lambda r: -r["total_cad_mm"])
+    return rows
+
+
 def sensitivities(osfi):
     rows = []
     for r in read_csv(os.path.join(HERE, "disclosed_sensitivities.csv")):
@@ -369,6 +405,8 @@ def main():
     write_csv("liquidity_tiers.csv", tiers, list(tiers[0].keys()))
     write_csv("sector_mix.csv", sectors, list(sectors[0].keys()))
     write_csv("coverage.csv", coverage, list(coverage[0].keys()))
+    ear = earnings_at_risk(sens)
+    write_csv("earnings_at_risk.csv", ear, list(ear[0].keys()))
     print(f"wrote {len(landscape)} insurers, {len(sens)} sensitivities, {len(rate)} rating rows to {OUT}")
 
 

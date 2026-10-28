@@ -16,6 +16,7 @@ composition outputs in `analysis/portfolio_composition/`, and the three hand-ent
 | `dashboard/landscape.csv` | One row per insurer with every headline metric |
 | `dashboard/osfi_metrics.csv` | OSFI-derived detail: LICAT credit/market/insurance capital, bond mix, ECL, mortgage arrears, sector concentration |
 | `dashboard/sensitivities.csv` | Disclosed sensitivities normalised to bps of invested assets |
+| `dashboard/earnings_at_risk.csv` | Undiversified earnings at risk on a C$25Bn book: worse of rates ±50 bp, spreads +50 bp, equity −10%, alternatives −10% (gains count as zero) |
 | `dashboard/bond_ratings.csv`, `liquidity_tiers.csv`, `sector_mix.csv`, `coverage.csv` | Chart data |
 | `dashboard/index.html` | The dashboard page as published |
 

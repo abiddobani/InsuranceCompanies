@@ -120,6 +120,18 @@
   </section>
 
   <section class="ir-page" id="market" data-page="market" hidden>
+    <div class="ir-card" id="earnings-at-risk">
+      <h2>Earnings at risk on a C$25Bn portfolio</h2>
+      <div class="ir-legend">
+        <span><i class="ir-sw" data-color="0"></i>Rates (worse of ±50 bp)</span>
+        <span><i class="ir-sw" data-color="1"></i>Credit spreads +50 bp</span>
+        <span><i class="ir-sw" data-color="2"></i>Public equity −10%</span>
+        <span><i class="ir-sw" data-color="3"></i>Real estate and alternatives −10%</span>
+        <span><i class="ir-sw ir-sw-dash"></i>Your earnings-risk limit, pro-rated from C$28Bn to C$25Bn</span>
+      </div>
+      <p class="ir-note">Each peer’s disclosed net income loss under each shock, divided by its invested assets and multiplied by C$25Bn, then added up. The total is undiversified: shocks are applied one at a time and summed, and a shock that produces a gain counts as zero rather than offsetting the others. Bars with fewer than four parts mean the peer does not disclose that factor. Empire Life and Wawanesa Life report profit or loss without saying whether it is after tax, and Foresters Life’s figures are pre-tax and derived from its notes; the rest are after tax. Hover a bar for the split.</p>
+      <div class="ir-chart" data-draw="ear" data-source="ear"></div>
+    </div>
     <div class="ir-card" id="sensitivities">
       <div class="ir-card-head">
         <h2>Disclosed market sensitivities</h2>
@@ -651,6 +663,65 @@
     if (!rows.length) { el.textContent = '—'; return; }
     irBars(el, rows, { fmt: '.1f', unit: m === 'licat_pts' ? ' pts' : ' bps', tickUnit: '', signed: true,
       median: rows.length > 2 ? d3.median(rows, (r) => r.v) : null, missing, missingLabel: 'Not disclosed for this shock: ' });
+  });
+
+  dash.draw('ear', (el) => {
+    const d = dash.data('ear');
+    if (d.status !== 'ok') { irFail(el, d); return; }
+    el.replaceChildren();
+    const limit = 35 * 25 / 28;
+    const parts = [['rates_cad_mm', 'Rates'], ['spreads_cad_mm', 'Credit spreads'], ['equity_cad_mm', 'Public equity'], ['alts_cad_mm', 'Alternatives']];
+    const rows = d.data.map((r) => ({ name: r.company, total: irNum(r.total_cad_mm) || 0, basis: r.tax_basis, rate: r.rate_shock_used,
+      parts: parts.map(([k, lab], i) => ({ key: lab, v: irNum(r[k]), color: dash.colors[i] })) }))
+      .sort((a, b) => b.total - a.total);
+    const W = Math.max(el.clientWidth, 300);
+    const svg = d3.select(el).append('svg').attr('width', '100%');
+    const fmt = d3.format(',.0f');
+    const names = rows.map((r) => r.name).concat([irFocus]);
+    const labelW = Math.min(irMeasure(svg, names) + 10, W * 0.38);
+    const valW = irMeasure(svg, rows.map((r) => `C$${fmt(r.total)}MM`).concat(['Not disclosed'])) + 12;
+    const rowH = 28, top = 22, H = top + (rows.length + 1) * rowH + 18;
+    svg.attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    const x = d3.scaleLinear([0, Math.max(d3.max(rows, (r) => r.total) || 1, limit)], [labelW, W - valW]).nice();
+    const ticks = x.ticks(Math.max(2, Math.floor((W - labelW - valW) / 80)));
+    svg.append('g').selectAll('line').data(ticks).join('line').attr('x1', (t) => x(t)).attr('x2', (t) => x(t))
+      .attr('y1', top - 4).attr('y2', H - 18).attr('stroke', (t) => t === 0 ? 'var(--cds-chart-axis)' : 'var(--cds-chart-grid)');
+    svg.append('g').selectAll('text').data(ticks).join('text').attr('x', (t) => x(t)).attr('y', 11).attr('text-anchor', 'middle')
+      .attr('class', 'ir-muted-t').text((t) => `${fmt(t)}`);
+    svg.append('text').attr('x', W - valW).attr('y', 11).attr('text-anchor', 'end').attr('class', 'ir-muted-t').text('C$MM');
+    const tip = irTip(el);
+    const all = [{ name: irFocus, missing: true }].concat(rows);
+    all.forEach((r, i) => {
+      const g = svg.append('g').attr('transform', `translate(0,${top + i * rowH})`);
+      g.append('text').attr('x', labelW - 8).attr('y', rowH / 2).attr('dy', '0.35em').attr('text-anchor', 'end')
+        .attr('class', r.name === irFocus ? 'ir-focus-t' : null).text(r.name);
+      if (r.missing) {
+        g.append('rect').attr('x', x(0)).attr('y', 5).attr('width', Math.max(x(limit) - x(0), 1)).attr('height', rowH - 10).attr('rx', 2)
+          .attr('fill', 'none').attr('stroke', dash.colors[0]).attr('stroke-dasharray', '3 3');
+        g.append('text').attr('x', W - valW + 6).attr('y', rowH / 2).attr('dy', '0.35em').attr('class', 'ir-muted-t').text('Not disclosed');
+        g.append('rect').attr('x', 0).attr('y', 0).attr('width', W).attr('height', rowH).attr('fill', 'transparent')
+          .on('pointermove', (ev) => tip.show(ev, [['ir-tip-co', irFocus], ['', 'Publishes no market sensitivities, so its earnings at risk cannot be computed from disclosures.']]))
+          .on('pointerleave', () => tip.hide());
+        return;
+      }
+      let acc = 0;
+      r.parts.forEach((p) => {
+        if (!p.v) return;
+        g.append('rect').attr('x', x(acc)).attr('y', 5).attr('width', Math.max(x(acc + p.v) - x(acc) - 1, 0.5)).attr('height', rowH - 10)
+          .attr('rx', 2).attr('fill', p.color);
+        acc += p.v;
+      });
+      g.append('text').attr('x', W - valW + 6).attr('y', rowH / 2).attr('dy', '0.35em').style('font-weight', 600).text(`C$${fmt(r.total)}MM`);
+      g.append('rect').attr('x', 0).attr('y', 0).attr('width', W).attr('height', rowH).attr('fill', 'transparent')
+        .on('pointermove', (ev) => tip.show(ev, [['ir-tip-co', r.name]]
+          .concat(r.parts.map((p) => ['', `${p.key}${p.key === 'Rates' && r.rate ? ` (${r.rate})` : ''}: ${p.v === null ? 'not disclosed' : `C$${fmt(p.v)}MM`}`]))
+          .concat([['ir-tip-v', `Total C$${fmt(r.total)}MM`], ['ir-tip-co', r.basis]])))
+        .on('pointerleave', () => tip.hide());
+    });
+    const yEnd = top + all.length * rowH;
+    svg.append('line').attr('x1', x(limit)).attr('x2', x(limit)).attr('y1', top - 4).attr('y2', yEnd)
+      .attr('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '4 3').attr('stroke-width', 1.5);
+    svg.append('text').attr('x', x(limit) + 4).attr('y', yEnd + 13).attr('class', 'ir-muted-t').text(`Limit C$${fmt(limit)}MM`);
   });
 
   dash.draw('sensTable', (tb) => {
