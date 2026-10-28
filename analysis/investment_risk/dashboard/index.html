@@ -1,0 +1,736 @@
+<meta name="dash-one-writer">
+<style>
+  .ir { display: flex; flex-direction: column; gap: var(--cds-gap-lg); font-family: var(--font-anthropic-sans); color: var(--color-fg); }
+  .ir-head { display: flex; flex-direction: column; gap: var(--cds-gap-sm); max-width: 64rem; }
+  .ir-head h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+  .ir-take { font-size: var(--cds-font-size-body); margin: 0; line-height: 1.55; }
+  .ir .ir-take b { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .ir-scope { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; line-height: 1.5; }
+  .ir-tabs { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); border-bottom: 1px solid var(--color-border-line); }
+  .ir-tabs button { font: inherit; font-size: var(--cds-font-size-body); padding: var(--cds-pad-sm) var(--cds-pad-md); background: transparent; color: var(--color-fg-muted); border: 0; border-bottom: 2px solid transparent; cursor: pointer; margin-bottom: -1px; }
+  .ir-tabs button[aria-selected="true"] { color: var(--color-fg); border-bottom-color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+  .ir-tabs button:focus-visible { outline: 2px solid var(--color-fg); outline-offset: -2px; }
+  .ir-page { display: flex; flex-direction: column; gap: var(--cds-gap-md); }
+  .ir-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr)); gap: var(--cds-gap-md); }
+  .ir-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-sm); min-width: 0; }
+  .ir-card h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; text-wrap: balance; }
+  .ir-card-head { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: var(--cds-gap-sm); }
+  .ir-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; line-height: 1.5; max-width: 72rem; }
+  .ir-toggle { display: inline-flex; flex-wrap: wrap; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); overflow: hidden; }
+  .ir-toggle button { font: inherit; font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) var(--cds-pad-sm); background: transparent; color: var(--color-fg-muted); border: 0; cursor: pointer; }
+  .ir-toggle button + button { border-left: 1px solid var(--color-border-line); }
+  .ir-toggle button[aria-pressed="true"] { background: var(--color-bg); color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+  .ir-toggle button:focus-visible { outline: 2px solid var(--color-fg); outline-offset: -2px; }
+  .ir-chart { position: relative; min-height: 14rem; }
+  .ir-chart-lg { min-height: 30rem; }
+  .ir-chart svg { display: block; overflow: visible; }
+  .ir-chart text { font-family: var(--font-anthropic-sans); font-size: 12px; fill: var(--color-fg); }
+  .ir-chart .ir-muted-t { fill: var(--color-fg-muted); }
+  .ir-chart .ir-focus-t { font-weight: 600; }
+  .ir-miss { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: var(--cds-gap-xs) 0 0; line-height: 1.5; }
+  .ir .ir-miss b { font-weight: 600; color: var(--color-fg); }
+  .ir-tip { position: absolute; z-index: 5; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); line-height: 1.45; max-width: 18rem; }
+  .ir-tip-co { color: var(--cds-text-secondary); }
+  .ir-tip-v { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .ir-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs) var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .ir-legend span { display: inline-flex; align-items: center; gap: 0.35rem; }
+  .ir-sw { width: 0.75rem; height: 0.75rem; border-radius: 3px; flex: none; background: var(--cds-chart-muted); }
+  .ir-sw-dash { background: transparent; border: 1px dashed var(--color-fg-muted); }
+  .ir-heat { position: relative; overflow-x: auto; min-height: 18rem; }
+  .ir-hgrid { display: grid; gap: 2px; font-size: var(--cds-font-size-caption); min-width: 36rem; }
+  .ir-hcol { color: var(--color-fg-muted); text-align: center; line-height: 1.2; padding: 0 2px 4px; align-self: end; }
+  .ir-hrow { white-space: nowrap; padding-right: var(--cds-pad-sm); align-self: center; position: sticky; left: 0; background: var(--color-panel); z-index: 1; }
+  .ir-hrow.is-focus { font-weight: 600; }
+  .ir-hcell { position: relative; height: 1.9rem; display: flex; align-items: center; justify-content: center; font-variant-numeric: tabular-nums; }
+  .ir-hfill { position: absolute; inset: 0; border-radius: 3px; }
+  .ir-hempty { position: absolute; inset: 0; border-radius: 3px; border: 1px dashed var(--color-border-line); }
+  .ir-hval { position: relative; }
+  .ir-hcell.is-focus .ir-hfill, .ir-hcell.is-focus .ir-hempty { outline: 2px solid var(--color-fg); outline-offset: 0; }
+  .ir-tablebox { overflow: auto; max-height: 36rem; }
+  .ir table { border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; width: 100%; }
+  .ir th { position: sticky; top: 0; background: var(--color-panel); text-align: right; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: bottom; z-index: 1; }
+  .ir td { text-align: right; padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+  .ir th.ir-l, .ir td.ir-l { text-align: left; }
+  .ir td.ir-wrap { min-width: 14rem; max-width: 30rem; white-space: normal; line-height: 1.45; }
+  .ir tr.is-focus td { font-weight: 600; background: color-mix(in srgb, var(--color-fg) 6%, transparent); }
+  .ir-fail { display: flex; align-items: center; justify-content: center; gap: .5rem; min-height: inherit; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .ir-fail i { width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); }
+  .ir-defs { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.55; margin: 0; padding-left: 1.1rem; display: flex; flex-direction: column; gap: 0.3rem; max-width: 72rem; }
+  .ir .ir-defs b { color: var(--color-fg); font-weight: 600; }
+  [data-dash-source-state=empty] { color: transparent; }
+  [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+</style>
+
+<div class="ir">
+  <header class="ir-head">
+    <h1>Peer investment risk benchmark</h1>
+    <p class="ir-take" data-read>RBC Life holds LICAT market risk capital of <b data-draw="t" data-key="market_cap_pct_inv:rbc" data-source="peerStats" data-field="rbc" data-where="metric=market_cap_pct_inv">—</b>% of invested assets against a peer median of <b data-draw="t" data-key="market_cap_pct_inv:median" data-source="peerStats" data-field="median" data-where="metric=market_cap_pct_inv">—</b>%, and credit risk capital of <b data-draw="t" data-key="credit_cap_pct_inv:rbc" data-source="peerStats" data-field="rbc" data-where="metric=credit_cap_pct_inv">—</b>% (median <b data-draw="t" data-key="credit_cap_pct_inv:median" data-source="peerStats" data-field="median" data-where="metric=credit_cap_pct_inv">—</b>%). Its bonds are almost all investment grade, but <b data-draw="t" data-key="energy_pct_corp:rbc" data-source="peerStats" data-field="rbc" data-where="metric=energy_pct_corp">—</b>% of its corporate bonds are energy issuers (peer median <b data-draw="t" data-key="energy_pct_corp:median" data-source="peerStats" data-field="median" data-where="metric=energy_pct_corp">—</b>%), and repos fund <b data-draw="t" data-key="repo_pct:rbc" data-source="peerStats" data-field="rbc" data-where="metric=repo_pct">—</b>% of its portfolio, rank <b data-draw="t" data-key="repo_pct:rank" data-source="peerStats" data-field="rank" data-where="metric=repo_pct">—</b> of <b data-draw="t" data-key="repo_pct:n" data-source="peerStats" data-field="n" data-where="metric=repo_pct">—</b> peers. RBC Life publishes no market sensitivities, so those charts compare the peers that do.</p>
+    <p class="ir-scope">Framework: market, credit and liquidity risk as set out in R. Doff, “Investment risks: market, credit and liquidity risk” (Risk Management for Insurers, Risk.net). Sensitivities and rating splits are as disclosed at 31 December 2025 (31 October 2025 for RBC Life and BMO Life). Regulatory measures come from OSFI LICAT and life returns for fiscal 2025 Q4, legal-entity basis. Liquidity tiers use each peer’s latest general-account mix. RBC Life is highlighted throughout.</p>
+  </header>
+
+  <nav class="ir-tabs" role="tablist" aria-label="Risk area">
+    <button type="button" role="tab" id="tab-overview" data-tab="overview" aria-selected="true">Overview</button>
+    <button type="button" role="tab" id="tab-market" data-tab="market" aria-selected="false">Market risk</button>
+    <button type="button" role="tab" id="tab-credit" data-tab="credit" aria-selected="false">Credit risk</button>
+    <button type="button" role="tab" id="tab-liquidity" data-tab="liquidity" aria-selected="false">Liquidity risk</button>
+    <button type="button" role="tab" id="tab-disclosure" data-tab="disclosure" aria-selected="false">Disclosure map</button>
+  </nav>
+
+  <section class="ir-page" id="overview" data-page="overview">
+    <div class="ir-card" id="where-rbc-sits">
+      <div class="ir-card-head">
+        <h2>Where RBC Life sits on each metric</h2>
+      </div>
+      <p class="ir-note">Each row is one metric on its own scale. Grey dots are the other peers, the tick is the peer median, and the coloured dot is RBC Life. Hover a dot for the insurer and value.</p>
+      <div class="ir-chart ir-chart-lg" data-draw="strip" data-source="landscape peerStats"></div>
+    </div>
+    <div class="ir-card" id="landscape-table">
+      <div class="ir-card-head">
+        <h2>All metrics by insurer</h2>
+      </div>
+      <p class="ir-note">Ordered by general-account size. Blank cells are not published or not in regulatory data. Capital ratio is LICAT total ratio for OSFI filers (fiscal 2025 Q4) and the latest published CARLI or solvency ratio for the others. Sensitivities are after-tax net income impact in basis points of invested assets unless the Market risk tab notes otherwise.</p>
+      <div class="ir-tablebox">
+        <table data-source="landscape" data-row-key="company">
+          <thead>
+            <tr>
+              <th class="ir-l" data-field="company">Insurer</th>
+              <th data-field="regulator">Regulator</th>
+              <th data-field="portfolio_cad_mm">General account (C$Bn)</th>
+              <th data-field="capital_ratio_pct">Capital ratio (%)</th>
+              <th data-field="market_cap_pct_inv">Market risk capital (% inv.)</th>
+              <th data-field="credit_cap_pct_inv">Credit risk capital (% inv.)</th>
+              <th data-field="risk_assets_pct">Equity, RE and PE (%)</th>
+              <th data-field="private_credit_pct">Private credit (%)</th>
+              <th data-field="below_ig_pct_bonds">Below IG (% bonds)</th>
+              <th data-field="bbb_pct_bonds">BBB (% bonds)</th>
+              <th data-field="energy_pct_corp">Energy (% corp. bonds)</th>
+              <th data-field="liquid_tier12_pct">Public and liquid (%)</th>
+              <th data-field="weighted_liquidity_pct">Weighted liquidity (%)</th>
+              <th data-field="repo_pct">Repos (% port.)</th>
+              <th data-field="rates_up50_bps">Rates +50 bp (bps)</th>
+              <th data-field="spreads_up50_bps">Spreads +50 bp (bps)</th>
+              <th data-field="equity_down10_bps">Equity −10% (bps)</th>
+              <th data-field="alts_down10_bps">Alternatives −10% (bps)</th>
+            </tr>
+          </thead>
+          <tbody data-draw="landscapeTable"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="ir-page" id="market" data-page="market" hidden>
+    <div class="ir-card" id="sensitivities">
+      <div class="ir-card-head">
+        <h2>Disclosed market sensitivities</h2>
+        <div class="ir-toggle" role="group" aria-label="Measure">
+          <button type="button" data-sens-measure="ni_bps_invested" aria-pressed="true">Earnings, bps of invested assets</button>
+          <button type="button" data-sens-measure="licat_pts" aria-pressed="false">Capital ratio, points</button>
+        </div>
+      </div>
+      <div class="ir-toggle" role="group" aria-label="Shock">
+        <button type="button" data-sens-factor="Rates +50 bp" aria-pressed="false">Rates +50 bp</button>
+        <button type="button" data-sens-factor="Rates -50 bp" aria-pressed="false">Rates −50 bp</button>
+        <button type="button" data-sens-factor="Credit spreads +50 bp" aria-pressed="false">Spreads +50 bp</button>
+        <button type="button" data-sens-factor="Public equity -10%" aria-pressed="true">Equity −10%</button>
+        <button type="button" data-sens-factor="Real estate and alternatives -10%" aria-pressed="false">Alternatives −10%</button>
+      </div>
+      <p class="ir-note">Immediate impact on net income as each insurer discloses it, divided by its invested assets (1 bp of a C$10Bn portfolio is C$1MM). Group-level figures for Manulife, Sun Life, Great-West Lifeco (shown as Canada Life) and iA. Where a peer disclosed a different shock (Beneva and Desjardins equity at −15%, several rate shocks at ±100 bp) the figure is scaled linearly and flagged in the tooltip. Desjardins publishes no invested-asset base for its life company, so it appears only in the table below.</p>
+      <div class="ir-chart" data-draw="sens" data-source="sens"></div>
+    </div>
+    <div class="ir-grid">
+      <div class="ir-card" id="market-capital">
+        <h2>LICAT market risk capital</h2>
+        <p class="ir-note">Market risk requirement for non-participating products as a share of invested assets, OSFI LCQ fiscal 2025 Q4. It captures interest rate, equity, real estate and currency risk under the regulator’s standard shocks, so it is the one market risk measure every OSFI filer reports on the same basis.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="market_cap_pct_inv" data-source="landscape"></div>
+      </div>
+      <div class="ir-card" id="risk-assets">
+        <h2>Public equity, real estate and private equity</h2>
+        <p class="ir-note">Share of the latest general-account portfolio in common and preferred shares, real estate, infrastructure equity and other private equity (portfolio composition work). These are the assets behind the equity and alternatives shocks.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="risk_assets_pct" data-source="landscape"></div>
+      </div>
+    </div>
+    <div class="ir-card" id="sens-table">
+      <h2>Sensitivity disclosures as published</h2>
+      <p class="ir-note">Every disclosed figure used above, with its source and basis. C$ millions.</p>
+      <div class="ir-tablebox">
+        <table>
+          <thead>
+            <tr>
+              <th class="ir-l">Insurer</th>
+              <th class="ir-l">Shock</th>
+              <th>Net income (C$MM)</th>
+              <th>bps of invested</th>
+              <th>Capital ratio (pts)</th>
+              <th class="ir-l">Basis</th>
+              <th class="ir-l">Source and note</th>
+            </tr>
+          </thead>
+          <tbody data-draw="sensTable" data-source="sens"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="ir-page" id="credit" data-page="credit" hidden>
+    <div class="ir-grid">
+      <div class="ir-card" id="credit-capital">
+        <h2>LICAT credit risk capital</h2>
+        <p class="ir-note">Credit risk requirement (default and migration on assets, non-participating products) as a share of invested assets, OSFI LCQ fiscal 2025 Q4.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="credit_cap_pct_inv" data-source="landscape"></div>
+      </div>
+      <div class="ir-card" id="private-credit">
+        <h2>Private credit and mortgages</h2>
+        <p class="ir-note">Share of the latest general-account portfolio in commercial mortgages, private placements, private loans and other private debt. These carry more default and loss-given-default uncertainty than public bonds and are also less liquid.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="private_credit_pct" data-source="landscape"></div>
+      </div>
+    </div>
+    <div class="ir-card" id="ratings">
+      <h2>Bond portfolio by credit rating</h2>
+      <div class="ir-legend">
+        <span><i class="ir-sw" data-color="0"></i>A or higher</span>
+        <span><i class="ir-sw" data-color="1"></i>BBB</span>
+        <span><i class="ir-sw" data-color="3"></i>Below investment grade</span>
+        <span><i class="ir-sw"></i>Unrated or government not rated</span>
+        <span><i class="ir-sw" data-color="4"></i>Investment grade, split not published (OSFI)</span>
+      </div>
+      <p class="ir-note">Peers that publish a rating table are shown with their split as at YE2025; for other OSFI filers only the investment-grade versus below-investment-grade split is available from the OSFI return. Beneva’s note does not rate its government bonds (53% of bonds). Co-operators Life’s parent group report covers the P&amp;C company, so it is not used.</p>
+      <div class="ir-chart ir-chart-lg" data-draw="ratings" data-source="ratings"></div>
+    </div>
+    <div class="ir-card" id="sectors">
+      <h2>Corporate bond sector concentration</h2>
+      <p class="ir-note">Corporate bonds by issuer sector as a share of each OSFI filer’s total, OSFI LF3 fiscal 2025. Darker cells are larger shares. Sector coding is the insurer’s own, so pipelines and power producers may sit in Energy for one insurer and Utilities for another.</p>
+      <div class="ir-heat" data-draw="sectors" data-source="sectors"></div>
+    </div>
+    <div class="ir-grid">
+      <div class="ir-card" id="below-ig">
+        <h2>Below-investment-grade bonds</h2>
+        <p class="ir-note">Share of bonds rated below BBB−, from the disclosed rating table where there is one and the OSFI return otherwise.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="below_ig_pct_bonds" data-source="landscape"></div>
+      </div>
+      <div class="ir-card" id="ecl">
+        <h2>Credit loss allowances</h2>
+        <p class="ir-note">Expected credit loss provisions (stages 1 to 3) on invested assets, basis points, OSFI LF2 fiscal 2025 Q4. Problem mortgages (delinquent, restructured or impaired) are in the table on the Overview tab.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="ecl_bps_inv" data-source="landscape"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ir-page" id="liquidity" data-page="liquidity" hidden>
+    <div class="ir-card" id="tiers">
+      <h2>Portfolio by liquidity tier</h2>
+      <div class="ir-legend">
+        <span><i class="ir-sw" data-color="0"></i>Cash and government bonds</span>
+        <span><i class="ir-sw" data-color="1"></i>Public bonds and shares</span>
+        <span><i class="ir-sw" data-color="2"></i>Mortgages and private loans</span>
+        <span><i class="ir-sw" data-color="3"></i>Real estate and private equity</span>
+      </div>
+      <p class="ir-note">Doff’s time-bucket view of liquidity applied to the asset side: how much of each latest general-account portfolio could be sold or repo’d within days, within weeks, or only over months. Policy loans sit with private loans.</p>
+      <div class="ir-chart ir-chart-lg" data-draw="tiers" data-source="tiers"></div>
+    </div>
+    <div class="ir-grid">
+      <div class="ir-card" id="weighted-liquidity">
+        <h2>Liquidity-weighted assets</h2>
+        <p class="ir-note">Doff’s weighted liquidity ratio uses assets weighted by how readily they turn into cash. Weights here are illustrative: cash 100%, government bonds 95%, public corporate bonds 85%, ABS and listed shares 70%, mortgages and private liquid loans 50%, private placements and other private debt 40%, real estate and private equity 20%, policy loans 0%. Liability-side outflows are not public, so this is the numerator only, as a share of the portfolio.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="weighted_liquidity_pct" data-source="landscape"></div>
+      </div>
+      <div class="ir-card" id="repos">
+        <h2>Repo funding</h2>
+        <p class="ir-note">Securities sold under repurchase agreements as a share of the general-account portfolio, OSFI LF3 fiscal 2025 (iA and Manulife from their Q2 2026 notes). Repos raise contingent liquidity needs: collateral calls rise when rates move.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="repo_pct" data-source="landscape"></div>
+      </div>
+    </div>
+    <div class="ir-grid">
+      <div class="ir-card" id="derivatives">
+        <h2>Derivative notionals</h2>
+        <p class="ir-note">Gross notional of interest rate, currency, equity and credit derivatives as a share of the portfolio, OSFI LF3 fiscal 2025 (iA from its Q2 2026 notes). A rough gauge of margin and collateral calls under stress.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="derivative_notional_pct" data-source="landscape"></div>
+      </div>
+      <div class="ir-card" id="disclosed-liquidity">
+        <h2>Published liquid-asset measures</h2>
+        <p class="ir-note">Only two peers publish a liquid-asset total. Manulife counts cash plus investment-grade government, corporate and securitized bonds and public equities; Great-West Lifeco counts net liquid assets after removing pledged and non-liquid holdings. Both are shown against invested assets. Sun Life and iA describe liquidity stress tests without publishing the ratios.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="disclosed_liquidity_pct" data-nomiss="1" data-source="landscape"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ir-page" id="disclosure" data-page="disclosure" hidden>
+    <div class="ir-card" id="coverage">
+      <h2>What each peer publishes</h2>
+      <div class="ir-legend">
+        <span><i class="ir-sw" data-color="0"></i>Disclosed by the insurer</span>
+        <span><i class="ir-sw" data-color="4"></i>Available from regulatory data only</span>
+        <span><i class="ir-sw ir-sw-dash"></i>Not available</span>
+      </div>
+      <p class="ir-note">The large listed groups disclose a full set of market sensitivities and rating tables; most smaller peers publish only partial notes; RBC Life, BMO Life, ivari, Co-operators Life, Canadian Premier and Primerica publish no investment risk metrics of their own, so OSFI returns are the only view. Canada Protection Plan reports inside Foresters. Desjardins, Humania and UV publish little at the life-company level.</p>
+      <div class="ir-heat" data-draw="coverage" data-source="coverage"></div>
+    </div>
+    <div class="ir-card" id="method">
+      <h2>How the metrics map to the framework</h2>
+      <ul class="ir-defs">
+        <li><b>Market risk.</b> Doff measures market risk as the change in the market-value balance sheet under shocks to rates, spreads, equity and real estate. The disclosed IFRS 17 sensitivities are that measure for earnings and the capital ratio; LICAT market risk capital is the regulator’s standard version of the same shocks.</li>
+        <li><b>Credit risk.</b> Doff builds credit risk from ratings (probability of default), loss given default and concentration. Here: rating mix, below-investment-grade share, private credit and mortgage share (higher loss given default uncertainty), LICAT credit risk capital, credit loss allowances, problem mortgages and sector concentration.</li>
+        <li><b>Liquidity risk.</b> Doff’s liquidity ratio is liquid assets over liquid liabilities by time bucket. Insurers do not publish the liability side, so the dashboard shows the asset side: liquidity tiers, a liquidity-weighted asset share, repo funding and derivative notionals that drive collateral calls.</li>
+        <li><b>Scope.</b> OSFI figures are for the regulated legal entity (Canada Life Assurance, Manufacturers Life, Sun Life Assurance of Canada), while their disclosed sensitivities are group-wide. LICAT credit and market capital cover non-participating products only.</li>
+      </ul>
+    </div>
+  </section>
+</div>
+
+<script>
+  window.irFocus = 'RBC Life';
+  window.irSens = { factor: 'Public equity -10%', measure: 'ni_bps_invested' };
+  window.irMetricInfo = {
+    market_cap_pct_inv: { fmt: '.2f', unit: '%' },
+    credit_cap_pct_inv: { fmt: '.2f', unit: '%' },
+    risk_assets_pct: { fmt: '.1f', unit: '%' },
+    private_credit_pct: { fmt: '.1f', unit: '%' },
+    below_ig_pct_bonds: { fmt: '.2f', unit: '%' },
+    ecl_bps_inv: { fmt: '.1f', unit: ' bps' },
+    weighted_liquidity_pct: { fmt: '.1f', unit: '%' },
+    repo_pct: { fmt: '.2f', unit: '%' },
+    derivative_notional_pct: { fmt: '.1f', unit: '%' },
+    disclosed_liquidity_pct: { fmt: '.1f', unit: '%' },
+  };
+  window.irNum = (v) => (v === '' || v === null || v === undefined || isNaN(Number(v))) ? null : Number(v);
+
+  dash.calc('peerStats', {
+    title: 'RBC Life against the peer median',
+    description: 'For each metric: peers with a value, their median, RBC Life’s value and its rank from the highest.',
+    inputs: ['landscape'],
+    fn: (landscape) => {
+      const metrics = ['capital_ratio_pct', 'market_cap_pct_inv', 'credit_cap_pct_inv', 'risk_assets_pct',
+        'private_credit_pct', 'below_ig_pct_bonds', 'energy_pct_corp', 'liquid_tier12_pct',
+        'weighted_liquidity_pct', 'repo_pct', 'derivative_notional_pct'];
+      const num = (v) => (v === '' || v == null || isNaN(Number(v))) ? null : Number(v);
+      return metrics.map((metric) => {
+        const vals = landscape.map((r) => ({ co: r.company, v: num(r[metric]) })).filter((d) => d.v !== null);
+        const sorted = vals.map((d) => d.v).sort((a, b) => a - b);
+        const mid = sorted.length / 2;
+        const median = sorted.length ? (sorted.length % 2 ? sorted[Math.floor(mid)] : (sorted[mid - 1] + sorted[mid]) / 2) : null;
+        const rbc = vals.find((d) => d.co === 'RBC Life');
+        const rank = rbc ? 1 + vals.filter((d) => d.v > rbc.v).length : null;
+        return { metric, n: vals.length, median: median === null ? null : Math.round(median * 100) / 100,
+          rbc: rbc ? rbc.v : null, rank };
+      });
+    },
+  });
+
+  // Tabs.
+  window.irShowTab = (name) => {
+    document.querySelectorAll('[data-page]').forEach((s) => { s.hidden = s.dataset.page !== name; });
+    document.querySelectorAll('[data-tab]').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.tab === name)));
+  };
+  document.querySelectorAll('[data-tab]').forEach((b) => b.addEventListener('click', () => {
+    irShowTab(b.dataset.tab);
+    dash.setLink(b.dataset.tab);
+  }));
+  const irStart = document.getElementById(location.hash.slice(1));
+  if (irStart) {
+    const page = irStart.closest('[data-page]');
+    if (page) irShowTab(page.dataset.page);
+  }
+
+  // Legend swatches take the series colors.
+  document.querySelectorAll('.ir-sw[data-color]').forEach((s) => { s.style.background = dash.colors[Number(s.dataset.color)]; });
+
+  // Sensitivity toggles.
+  document.querySelectorAll('[data-sens-factor]').forEach((b) => b.addEventListener('click', () => {
+    irSens.factor = b.dataset.sensFactor;
+    document.querySelectorAll('[data-sens-factor]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    dash.draw('sens');
+  }));
+  document.querySelectorAll('[data-sens-measure]').forEach((b) => b.addEventListener('click', () => {
+    irSens.measure = b.dataset.sensMeasure;
+    document.querySelectorAll('[data-sens-measure]').forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+    dash.draw('sens');
+  }));
+</script>
+
+<script>
+  // Shared drawing helpers.
+  window.irFail = (el, d) => {
+    el.replaceChildren();
+    if (d.status === 'error' || d.status === 'connect' || d.status === 'declined') {
+      const f = document.createElement('div');
+      f.className = 'ir-fail';
+      f.append(document.createElement('i'), document.createTextNode('Failed to load'));
+      el.append(f);
+    } else {
+      el.textContent = '—';
+    }
+  };
+
+  window.irTip = (el) => {
+    const tip = document.createElement('div');
+    tip.className = 'ir-tip';
+    tip.hidden = true;
+    el.append(tip);
+    return {
+      show(ev, lines) {
+        tip.replaceChildren(...lines.map(([cls, text]) => { const d = document.createElement('div'); d.className = cls; d.textContent = text; return d; }));
+        tip.hidden = false;
+        const box = el.getBoundingClientRect();
+        let x = ev.clientX - box.left + 12, y = ev.clientY - box.top + 12;
+        const w = tip.offsetWidth, h = tip.offsetHeight;
+        if (x + w > el.clientWidth) x = Math.max(0, ev.clientX - box.left - w - 12);
+        if (y + h > el.clientHeight) y = Math.max(0, ev.clientY - box.top - h - 12);
+        tip.style.left = `${x}px`; tip.style.top = `${y}px`;
+      },
+      hide() { tip.hidden = true; },
+    };
+  };
+
+  window.irMeasure = (svg, texts) => {
+    const g = svg.append('g').attr('opacity', 0);
+    let w = 0;
+    texts.forEach((t) => { const n = g.append('text').text(t).node(); w = Math.max(w, n.getComputedTextLength()); });
+    g.remove();
+    return w;
+  };
+
+  // Horizontal bars, one per row: {name, v, note?}. Focus row in the first series color, others muted.
+  window.irBars = (el, rows, opt) => {
+    el.replaceChildren();
+    const fmt = d3.format(opt.fmt || '.1f');
+    const label = (v) => (opt.signed && v > 0 ? '+' : '') + fmt(v) + (opt.unit || '');
+    const W = Math.max(el.clientWidth, 280);
+    const svg = d3.select(el).append('svg').attr('width', '100%');
+    const labelW = Math.min(irMeasure(svg, rows.map((r) => r.name).concat(opt.extra || [])) + 10, W * 0.42);
+    const valW = irMeasure(svg, rows.map((r) => label(r.v))) + 12;
+    const rowH = 24, top = 22;
+    const H = top + rows.length * rowH + 4;
+    svg.attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    const lo = Math.min(0, d3.min(rows, (r) => r.v)), hi = Math.max(0, d3.max(rows, (r) => r.v));
+    const x = d3.scaleLinear([lo, hi === lo ? lo + 1 : hi], [labelW, W - valW]).nice();
+    const ticks = x.ticks(Math.max(2, Math.floor((W - labelW - valW) / 90)));
+    svg.append('g').selectAll('line').data(ticks).join('line')
+      .attr('x1', (t) => x(t)).attr('x2', (t) => x(t)).attr('y1', top - 4).attr('y2', H)
+      .attr('stroke', (t) => t === 0 ? 'var(--cds-chart-axis)' : 'var(--cds-chart-grid)').attr('stroke-width', 1);
+    svg.append('g').selectAll('text').data(ticks).join('text')
+      .attr('x', (t) => x(t)).attr('y', 11).attr('text-anchor', 'middle').attr('class', 'ir-muted-t')
+      .text((t) => d3.format(opt.tickFmt || '~f')(t) + (opt.tickUnit === undefined ? (opt.unit || '').trim() : opt.tickUnit));
+    if (opt.median !== null && opt.median !== undefined) {
+      svg.append('line').attr('x1', x(opt.median)).attr('x2', x(opt.median)).attr('y1', top - 4).attr('y2', H)
+        .attr('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '4 3').attr('stroke-width', 1);
+    }
+    const tip = irTip(el);
+    const g = svg.append('g').selectAll('g').data(rows).join('g')
+      .attr('transform', (r, i) => `translate(0,${top + i * rowH})`);
+    g.append('text').attr('x', labelW - 8).attr('y', rowH / 2).attr('dy', '0.35em').attr('text-anchor', 'end')
+      .attr('class', (r) => r.name === irFocus ? 'ir-focus-t' : null).text((r) => r.name);
+    g.append('rect')
+      .attr('x', (r) => Math.min(x(0), x(r.v))).attr('y', 4).attr('height', rowH - 8)
+      .attr('width', (r) => Math.max(Math.abs(x(r.v) - x(0)), r.v === 0 ? 0 : 1)).attr('rx', 2)
+      .attr('fill', (r) => r.name === irFocus ? dash.colors[0] : 'var(--cds-chart-muted)');
+    g.append('text').attr('x', W - valW + 6).attr('y', rowH / 2).attr('dy', '0.35em')
+      .attr('class', (r) => r.name === irFocus ? 'ir-focus-t' : null).text((r) => label(r.v));
+    g.append('rect').attr('x', 0).attr('y', 0).attr('width', W).attr('height', rowH).attr('fill', 'transparent')
+      .on('pointermove', (ev, r) => tip.show(ev, [['ir-tip-co', r.name], ['ir-tip-v', label(r.v)]].concat(r.note ? [['', r.note]] : [])))
+      .on('pointerleave', () => tip.hide());
+    if (opt.median !== null && opt.median !== undefined) {
+      svg.append('text').attr('x', x(opt.median) + 4).attr('y', H - 4).attr('class', 'ir-muted-t').text(`Median ${label(opt.median)}`);
+    }
+    if (opt.missing && opt.missing.length) {
+      const p = document.createElement('p');
+      p.className = 'ir-miss';
+      p.append(document.createTextNode(opt.missingLabel || 'Not available: '));
+      opt.missing.forEach((m, i) => {
+        if (i) p.append(document.createTextNode(', '));
+        if (m === irFocus) { const b = document.createElement('b'); b.textContent = m; p.append(b); } else p.append(document.createTextNode(m));
+      });
+      el.append(p);
+    }
+  };
+
+  // 100% stacked bars: rows {name, parts: [{key, v, color}]}.
+  window.irStack = (el, rows, opt) => {
+    el.replaceChildren();
+    const W = Math.max(el.clientWidth, 280);
+    const svg = d3.select(el).append('svg').attr('width', '100%');
+    const labelW = Math.min(irMeasure(svg, rows.map((r) => r.name)) + 10, W * 0.42);
+    const rowH = 26, top = 22, H = top + rows.length * rowH + 4;
+    svg.attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    const x = d3.scaleLinear([0, 100], [labelW, W - 8]);
+    const ticks = [0, 25, 50, 75, 100];
+    svg.append('g').selectAll('line').data(ticks).join('line')
+      .attr('x1', (t) => x(t)).attr('x2', (t) => x(t)).attr('y1', top - 4).attr('y2', H)
+      .attr('stroke', 'var(--cds-chart-grid)');
+    svg.append('g').selectAll('text').data(ticks).join('text')
+      .attr('x', (t) => x(t)).attr('y', 11).attr('text-anchor', (t) => t === 0 ? 'start' : t === 100 ? 'end' : 'middle')
+      .attr('class', 'ir-muted-t').text((t) => `${t}%`);
+    const tip = irTip(el);
+    const fmt = d3.format('.1f');
+    rows.forEach((r, i) => {
+      const g = svg.append('g').attr('transform', `translate(0,${top + i * rowH})`);
+      g.append('text').attr('x', labelW - 8).attr('y', rowH / 2).attr('dy', '0.35em').attr('text-anchor', 'end')
+        .attr('class', r.name === irFocus ? 'ir-focus-t' : null).text(r.name);
+      let acc = 0;
+      const total = d3.sum(r.parts, (p) => p.v) || 1;
+      r.parts.forEach((p) => {
+        const share = 100 * p.v / total;
+        if (share <= 0) return;
+        const x0 = x(acc), x1 = x(acc + share);
+        acc += share;
+        g.append('rect').attr('x', x0).attr('y', 4).attr('width', Math.max(x1 - x0 - 1, 0.5)).attr('height', rowH - 8)
+          .attr('rx', 2).attr('fill', p.color);
+        if (x1 - x0 > 34) {
+          g.append('text').attr('x', (x0 + x1) / 2).attr('y', rowH / 2).attr('dy', '0.35em').attr('text-anchor', 'middle')
+            .style('fill', 'var(--color-bg)').style('font-weight', 600).style('pointer-events', 'none').text(fmt(share));
+        }
+      });
+      if (r.name === irFocus) {
+        g.append('rect').attr('x', x(0) - 2).attr('y', 2).attr('width', x(100) - x(0) + 3).attr('height', rowH - 4)
+          .attr('rx', 3).attr('fill', 'none').attr('stroke', 'var(--color-fg)').attr('stroke-width', 1.5);
+      }
+      g.append('rect').attr('x', 0).attr('y', 0).attr('width', W).attr('height', rowH).attr('fill', 'transparent')
+        .on('pointermove', (ev) => tip.show(ev, [['ir-tip-co', r.name]].concat(r.parts.filter((p) => p.v > 0).map((p) => ['', `${p.key}: ${fmt(100 * p.v / total)}%`])).concat(r.note ? [['ir-tip-co', r.note]] : [])))
+        .on('pointerleave', () => tip.hide());
+    });
+  };
+
+  // Heat grid: rows (insurers) x columns, cells {v, text, fill, opacity} or null for empty.
+  window.irHeat = (el, rowNames, cols, cell, opt) => {
+    el.replaceChildren();
+    const grid = document.createElement('div');
+    grid.className = 'ir-hgrid';
+    grid.style.gridTemplateColumns = `minmax(9rem, max-content) repeat(${cols.length}, minmax(${opt.colW || '4rem'}, 1fr))`;
+    grid.append(document.createElement('div'));
+    cols.forEach((c) => { const h = document.createElement('div'); h.className = 'ir-hcol'; h.textContent = c; grid.append(h); });
+    const tip = irTip(el);
+    rowNames.forEach((name) => {
+      const lab = document.createElement('div');
+      lab.className = 'ir-hrow' + (name === irFocus ? ' is-focus' : '');
+      lab.textContent = name;
+      grid.append(lab);
+      cols.forEach((c) => {
+        const d = cell(name, c);
+        const box = document.createElement('div');
+        box.className = 'ir-hcell' + (name === irFocus ? ' is-focus' : '');
+        const bg = document.createElement('div');
+        if (d && d.fill) { bg.className = 'ir-hfill'; bg.style.background = d.fill; bg.style.opacity = d.opacity ?? 1; } else bg.className = 'ir-hempty';
+        box.append(bg);
+        if (d && d.text) { const t = document.createElement('span'); t.className = 'ir-hval'; t.textContent = d.text; if (d.strong) t.style.color = 'var(--color-bg)'; box.append(t); }
+        box.addEventListener('pointermove', (ev) => tip.show(ev, [['ir-tip-co', name], ['', c], ['ir-tip-v', d ? d.tipText || d.text || '' : 'Not available']]));
+        box.addEventListener('pointerleave', () => tip.hide());
+        grid.append(box);
+      });
+    });
+    el.append(grid);
+  };
+</script>
+
+<script>
+  dash.draw('t', (el) => {
+    const d = dash.data('peerStats');
+    if (d.status !== 'ok') { el.textContent = '—'; return; }
+    const [metric, field] = el.dataset.key.split(':');
+    const row = d.data.find((r) => r.metric === metric);
+    const v = row ? row[field] : null;
+    if (v === null || v === undefined) { el.textContent = '—'; return; }
+    el.textContent = (field === 'rank' || field === 'n') ? String(v) : d3.format(metric.endsWith('_inv') ? '.2f' : '.1f')(v);
+  });
+
+  dash.draw('bar', (el) => {
+    const d = dash.data('landscape');
+    if (d.status !== 'ok') { irFail(el, d); return; }
+    const m = el.dataset.metric;
+    const info = irMetricInfo[m] || { fmt: '.1f', unit: '%' };
+    const all = d.data.filter((r) => r.company_id !== 'canada_protection_plan');
+    const rows = all.filter((r) => irNum(r[m]) !== null).map((r) => ({ name: r.company, v: irNum(r[m]) }))
+      .sort((a, b) => b.v - a.v);
+    const missing = all.filter((r) => irNum(r[m]) === null).map((r) => r.company);
+    const vals = rows.map((r) => r.v).sort((a, b) => a - b);
+    const median = vals.length > 2 ? d3.median(vals) : null;
+    irBars(el, rows, { fmt: info.fmt, unit: info.unit, tickUnit: info.unit.includes('bps') ? '' : undefined, median,
+      missing: el.dataset.nomiss ? [] : missing, missingLabel: 'No figure: ' });
+  });
+
+  dash.draw('strip', (el) => {
+    const d = dash.data('landscape'), s = dash.data('peerStats');
+    if (d.status !== 'ok' || s.status !== 'ok') { irFail(el, d.status !== 'ok' ? d : s); return; }
+    el.replaceChildren();
+    const metrics = [
+      ['capital_ratio_pct', 'Capital ratio', '%', 'higher is stronger'],
+      ['market_cap_pct_inv', 'Market risk capital, % invested', '%', ''],
+      ['credit_cap_pct_inv', 'Credit risk capital, % invested', '%', ''],
+      ['risk_assets_pct', 'Equity, real estate, PE, % portfolio', '%', ''],
+      ['private_credit_pct', 'Private credit, % portfolio', '%', ''],
+      ['below_ig_pct_bonds', 'Below investment grade, % bonds', '%', ''],
+      ['energy_pct_corp', 'Energy, % corporate bonds', '%', ''],
+      ['liquid_tier12_pct', 'Public and liquid assets, % portfolio', '%', 'higher is more liquid'],
+      ['weighted_liquidity_pct', 'Liquidity-weighted assets, %', '%', 'higher is more liquid'],
+      ['repo_pct', 'Repos, % portfolio', '%', ''],
+      ['derivative_notional_pct', 'Derivative notional, % portfolio', '%', ''],
+    ];
+    const W = Math.max(el.clientWidth, 300);
+    const narrow = W < 560;
+    const svg = d3.select(el).append('svg').attr('width', '100%');
+    const labelW = narrow ? 0 : Math.min(irMeasure(svg, metrics.map((m) => m[1])) + 16, W * 0.4);
+    const rowH = narrow ? 52 : 40, H = metrics.length * rowH + 8;
+    svg.attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    const tip = irTip(el);
+    const fmt = d3.format('.1f');
+    metrics.forEach(([key, name, unit, hint], i) => {
+      const g = svg.append('g').attr('transform', `translate(0,${i * rowH})`);
+      const vals = d.data.map((r) => ({ co: r.company, v: irNum(r[key]) })).filter((x) => x.v !== null);
+      const st = s.data.find((r) => r.metric === key) || {};
+      const x0 = narrow ? 8 : labelW, x1 = W - 70;
+      const yMid = narrow ? 34 : rowH / 2;
+      g.append('text').attr('x', narrow ? 0 : labelW - 12).attr('y', narrow ? 12 : yMid).attr('dy', narrow ? 0 : '0.35em')
+        .attr('text-anchor', narrow ? 'start' : 'end').text(name);
+      if (hint) g.append('text').attr('x', narrow ? W : labelW - 12).attr('y', narrow ? 12 : yMid + 13).attr('dy', narrow ? 0 : '0.35em')
+        .attr('text-anchor', 'end').attr('class', 'ir-muted-t').style('font-size', '10px').text(hint);
+      g.append('line').attr('x1', x0).attr('x2', x1).attr('y1', yMid).attr('y2', yMid).attr('stroke', 'var(--cds-chart-grid)');
+      if (!vals.length) return;
+      const ext = d3.extent(vals, (v) => v.v);
+      const x = d3.scaleLinear([Math.min(0, ext[0]), ext[1] === ext[0] ? ext[0] + 1 : ext[1]], [x0 + 6, x1 - 6]);
+      g.append('text').attr('x', x0).attr('y', yMid + 15).attr('class', 'ir-muted-t').style('font-size', '10px')
+        .text(fmt(x.domain()[0]) + unit);
+      g.append('text').attr('x', x1).attr('y', yMid + 15).attr('text-anchor', 'end').attr('class', 'ir-muted-t').style('font-size', '10px')
+        .text(fmt(x.domain()[1]) + unit);
+      if (st.median !== null && st.median !== undefined) {
+        g.append('line').attr('x1', x(st.median)).attr('x2', x(st.median)).attr('y1', yMid - 9).attr('y2', yMid + 9)
+          .attr('stroke', 'var(--cds-chart-reference)').attr('stroke-width', 2);
+      }
+      const others = vals.filter((v) => v.co !== irFocus);
+      g.append('g').selectAll('circle').data(others).join('circle')
+        .attr('cx', (v) => x(v.v)).attr('cy', yMid).attr('r', 5)
+        .attr('fill', 'var(--cds-chart-muted)').attr('fill-opacity', 0.75)
+        .on('pointermove', (ev, v) => tip.show(ev, [['ir-tip-co', v.co], ['', name], ['ir-tip-v', fmt(v.v) + unit]]))
+        .on('pointerleave', () => tip.hide());
+      const focus = vals.find((v) => v.co === irFocus);
+      if (focus) {
+        g.append('circle').attr('cx', x(focus.v)).attr('cy', yMid).attr('r', 7).attr('fill', dash.colors[0])
+          .attr('stroke', 'var(--color-panel)').attr('stroke-width', 2)
+          .on('pointermove', (ev) => tip.show(ev, [['ir-tip-co', irFocus], ['', name], ['ir-tip-v', `${fmt(focus.v)}${unit} (median ${fmt(st.median)}${unit}, rank ${st.rank} of ${st.n})`]]))
+          .on('pointerleave', () => tip.hide());
+        g.append('text').attr('x', W).attr('y', yMid).attr('dy', '0.35em').attr('text-anchor', 'end').attr('class', 'ir-focus-t')
+          .style('fill', dash.colors[0]).text(fmt(focus.v) + unit);
+      } else {
+        g.append('text').attr('x', W).attr('y', yMid).attr('dy', '0.35em').attr('text-anchor', 'end').attr('class', 'ir-muted-t')
+          .text('n/a');
+      }
+    });
+  });
+
+  dash.draw('landscapeTable', (tb) => {
+    const d = dash.data('landscape');
+    tb.replaceChildren();
+    if (d.status !== 'ok') return;
+    const cols = ['company', 'regulator', 'portfolio_cad_mm', 'capital_ratio_pct', 'market_cap_pct_inv', 'credit_cap_pct_inv',
+      'risk_assets_pct', 'private_credit_pct', 'below_ig_pct_bonds', 'bbb_pct_bonds', 'energy_pct_corp', 'liquid_tier12_pct',
+      'weighted_liquidity_pct', 'repo_pct', 'rates_up50_bps', 'spreads_up50_bps', 'equity_down10_bps', 'alts_down10_bps'];
+    const f1 = d3.format('.1f'), f2 = d3.format('.2f'), fs = d3.format('+.1f');
+    d.data.forEach((r) => {
+      const tr = document.createElement('tr');
+      if (r.company === irFocus) tr.className = 'is-focus';
+      cols.forEach((c, i) => {
+        const td = document.createElement('td');
+        if (i === 0) { td.className = 'ir-l'; td.textContent = r.company; } else if (c === 'regulator') td.textContent = r.regulator;
+        else {
+          const v = irNum(r[c]);
+          td.textContent = v === null ? '' : c === 'portfolio_cad_mm' ? f1(v / 1000) : c.endsWith('_bps') ? fs(v)
+            : (c.endsWith('_inv') || c === 'repo_pct' || c === 'below_ig_pct_bonds') ? f2(v) : f1(v);
+        }
+        tr.append(td);
+      });
+      tb.append(tr);
+    });
+  });
+
+  dash.draw('sens', (el) => {
+    const d = dash.data('sens'), l = dash.data('landscape');
+    if (d.status !== 'ok') { irFail(el, d); return; }
+    const m = irSens.measure;
+    const rows = d.data.filter((r) => r.factor === irSens.factor && irNum(r[m]) !== null)
+      .map((r) => ({ name: r.company, v: irNum(r[m]), note: `C$${r.ni_impact_cad_mm}MM net income, ${r.tax_basis}. ${r.note || ''}`.trim() }))
+      .sort((a, b) => a.v - b.v);
+    const have = new Set(d.data.filter((r) => r.factor === irSens.factor && (m !== 'licat_pts' || irNum(r.licat_pts) !== null)).map((r) => r.company));
+    const missing = l.status === 'ok' ? l.data.map((r) => r.company).filter((c) => !have.has(c)) : [];
+    if (!rows.length) { el.textContent = '—'; return; }
+    irBars(el, rows, { fmt: '.1f', unit: m === 'licat_pts' ? ' pts' : ' bps', tickUnit: '', signed: true,
+      median: rows.length > 2 ? d3.median(rows, (r) => r.v) : null, missing, missingLabel: 'Not disclosed for this shock: ' });
+  });
+
+  dash.draw('sensTable', (tb) => {
+    const d = dash.data('sens');
+    tb.replaceChildren();
+    if (d.status !== 'ok') return;
+    const fs = d3.format('+.1f');
+    d.data.forEach((r) => {
+      const tr = document.createElement('tr');
+      if (r.company === irFocus) tr.className = 'is-focus';
+      const cells = [
+        ['ir-l', r.company], ['ir-l', r.factor], ['', d3.format(',.1f')(Number(r.ni_impact_cad_mm))],
+        ['', irNum(r.ni_bps_invested) === null ? '' : fs(irNum(r.ni_bps_invested))],
+        ['', irNum(r.licat_pts) === null ? '' : fs(irNum(r.licat_pts))], ['ir-l', r.tax_basis],
+        ['ir-l ir-wrap', r.note ? `${r.source}. ${r.note}` : r.source],
+      ];
+      cells.forEach(([cls, text]) => { const td = document.createElement('td'); if (cls) td.className = cls; td.textContent = text; tr.append(td); });
+      tb.append(tr);
+    });
+  });
+
+  dash.draw('ratings', (el) => {
+    const d = dash.data('ratings');
+    if (d.status !== 'ok') { irFail(el, d); return; }
+    const c = dash.colors;
+    const rows = d.data.map((r) => {
+      const disclosed = r.basis === 'Rating split disclosed';
+      const parts = disclosed ? [
+        { key: 'A or higher', v: irNum(r.a_or_higher_pct) || 0, color: c[0] },
+        { key: 'BBB', v: irNum(r.bbb_pct) || 0, color: c[1] },
+        { key: 'Below investment grade', v: irNum(r.below_ig_pct) || 0, color: c[3] },
+        { key: 'Unrated', v: irNum(r.unrated_pct) || 0, color: 'var(--cds-chart-muted)' },
+      ] : [
+        { key: 'Investment grade (split not published)', v: irNum(r.investment_grade_pct) || 0, color: c[4] },
+        { key: 'Below investment grade', v: irNum(r.below_ig_pct) || 0, color: c[3] },
+      ];
+      return { name: r.company, parts, disclosed, note: r.scope };
+    });
+    rows.sort((a, b) => (b.disclosed - a.disclosed) || (a.parts[0].v - b.parts[0].v));
+    irStack(el, rows, {});
+  });
+
+  dash.draw('tiers', (el) => {
+    const d = dash.data('tiers');
+    if (d.status !== 'ok') { irFail(el, d); return; }
+    const order = ['Cash and government bonds', 'Public bonds and shares', 'Mortgages and private loans', 'Real estate and private equity'];
+    const by = d3.group(d.data, (r) => r.company);
+    const rows = Array.from(by, ([name, rs]) => ({
+      name, parts: order.map((k, i) => ({ key: k, v: irNum((rs.find((r) => r.tier === k) || {}).pct) || 0, color: dash.colors[i] })),
+    }));
+    rows.sort((a, b) => (b.parts[0].v + b.parts[1].v) - (a.parts[0].v + a.parts[1].v));
+    irStack(el, rows, {});
+  });
+
+  dash.draw('sectors', (el) => {
+    const d = dash.data('sectors');
+    if (d.status !== 'ok') { irFail(el, d); return; }
+    const cols = Array.from(new Set(d.data.map((r) => r.sector)));
+    const names = Array.from(new Set(d.data.map((r) => r.company)));
+    const max = d3.max(d.data, (r) => irNum(r.pct_of_corporates)) || 1;
+    const look = new Map(d.data.map((r) => [`${r.company}|${r.sector}`, irNum(r.pct_of_corporates)]));
+    irHeat(el, names, cols, (n, col) => {
+      const v = look.get(`${n}|${col}`);
+      if (v === null || v === undefined) return null;
+      const op = 0.12 + 0.88 * v / max;
+      return { fill: n === irFocus ? dash.colors[0] : dash.colors[4], opacity: op, text: d3.format('.0f')(v), strong: op > 0.55, tipText: `${d3.format('.1f')(v)}% of corporate bonds` };
+    }, { colW: '4.2rem' });
+  });
+
+  dash.draw('coverage', (el) => {
+    const d = dash.data('coverage');
+    if (d.status !== 'ok') { irFail(el, d); return; }
+    const cols = Array.from(new Set(d.data.map((r) => r.metric)));
+    const names = Array.from(new Set(d.data.map((r) => r.company)));
+    const look = new Map(d.data.map((r) => [`${r.company}|${r.metric}`, r.status]));
+    irHeat(el, names, cols, (n, col) => {
+      const st = look.get(`${n}|${col}`);
+      if (st === 'Disclosed') return { fill: dash.colors[0], opacity: 0.85, tipText: st };
+      if (st === 'Regulatory data') return { fill: dash.colors[4], opacity: 0.55, tipText: st };
+      return null;
+    }, { colW: '4.6rem' });
+  });
+</script>

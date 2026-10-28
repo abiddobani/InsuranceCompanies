@@ -1,0 +1,21 @@
+company_id,company,regulator,is_focus,portfolio_cad_mm,portfolio_as_of,capital_ratio_pct,capital_ratio_source,market_cap_pct_inv,credit_cap_pct_inv,risk_assets_pct,private_credit_pct,below_ig_pct_bonds,bbb_pct_bonds,mortgage_problem_pct,ecl_bps_inv,energy_pct_corp,top_sector,top_sector_pct,liquid_tier1_pct,liquid_tier12_pct,weighted_liquidity_pct,repo_pct,derivative_notional_pct,equity_down10_bps,rates_up50_bps,spreads_up50_bps,alts_down10_bps,disclosed_liquidity_pct
+manulife,Manulife,OSFI,0,451331.0,2026-06-30,135.57,OSFI LCQ FY2025 Q4,5.75,2.79,24.5,18.9,4.0,26.0,0.44,19.3,9.5,Utilities,25.7,25.5,66.2,68.4,0.32,114.5,-9.8,-2.2,0.0,-47.8,60.0
+canada_life,Canada Life,OSFI,0,99082.0,2026-06-30,127.66,OSFI LCQ FY2025 Q4,2.49,2.25,7.8,38.0,2.0,28.0,0.07,1.6,6.6,Utilities,29.5,30.8,57.4,69.1,0.0,62.0,-2.0,1.0,6.0,-24.0,50.9
+sun_life,Sun Life,OSFI,0,208626.0,2026-06-30,139.63,OSFI LCQ FY2025 Q4,2.51,2.47,19.9,28.3,1.0,22.0,1.17,5.3,6.1,Financials,24.9,21.7,58.6,64.8,1.37,38.7,-11.3,-1.3,-1.3,-23.8,
+ia,iA Financial Group,AMF,0,46180.0,2026-06-30,137.0,CARLI solvency ratio (AMF) 2026-06-30,,,20.1,15.5,1.0,31.0,,,,,,24.3,68.7,68.2,4.96,119.2,-21.7,-5.4,-5.4,-65.2,
+rbc_life,RBC Life,OSFI,1,25730.1,2026-07-31,132.0,OSFI LCQ FY2025 Q4,3.79,2.45,14.7,19.4,0.09,,0.0,0.7,37.6,Energy,37.6,33.2,78.5,77.2,14.09,29.4,,,,,
+bmo_life,BMO Life,OSFI,0,18244.3,2026-07-31,134.12,OSFI LCQ FY2025 Q4,4.31,4.19,17.7,2.8,0.0,,0.0,0.6,15.0,Utilities,32.6,24.8,88.5,79.6,0.0,17.8,,,,,
+beneva,Beneva,AMF,0,12145.4,2025-12-31,163.0,CARLI solvency ratio (AMF) 2025-12-31,,,25.2,8.3,1.2,19.4,,,,,,37.0,71.8,70.0,,,-49.0,0.2,,,
+ivari,ivari,OSFI,0,11799.1,2026-06-30,129.2,OSFI LCQ FY2025 Q4,3.53,2.22,35.5,7.6,0.04,,,0.0,16.7,Utilities,21.8,30.4,91.1,79.3,0.0,6.6,,,,,
+empire_life,Empire Life,OSFI,0,10206.6,2026-06-30,153.04,OSFI LCQ FY2025 Q4,5.08,1.63,14.2,7.3,1.0,28.0,0.0,0.0,18.0,Financials,36.2,42.8,90.8,82.8,0.0,26.1,-16.1,-47.1,,,
+equitable_life,Equitable Life,OSFI,0,7829.4,2026-06-30,158.98,OSFI LCQ FY2025 Q4,6.69,1.51,42.2,18.4,0.0,23.9,0.0,0.0,24.5,Financials,42.0,15.4,75.0,69.4,0.0,8.0,-62.9,-1.8,2.0,-31.9,
+cooperators_life,Co-operators Life,OSFI,0,5974.4,2026-06-30,159.63,OSFI LCQ FY2025 Q4,6.92,1.63,22.3,7.3,1.73,,0.14,1.9,25.1,Financials,27.1,33.0,91.0,81.7,0.0,3.2,,,,,
+uv_insurance,UV Insurance,AMF,0,2388.9,2025-12-31,,,,,13.7,0.0,,,,,,,,3.5,93.5,79.5,,,,,,,
+wawanesa_life,Wawanesa Life,OSFI,0,1322.4,2026-06-30,166.61,OSFI LCQ FY2025 Q4,4.28,1.57,25.8,0.0,0.0,,,0.0,10.7,Financials,35.0,30.4,78.6,73.5,,,-78.4,-56.1,,,
+assumption_life,Assumption Life,FCNB,0,803.4,2025-12-31,167.0,Solvency ratio 2025-12-31,,,8.1,22.1,0.0,4.0,,,,,,56.1,77.6,81.7,,,0.0,0.8,7.3,,
+foresters_life,Foresters Life,OSFI,0,820.3,2026-06-30,207.87,OSFI LCQ FY2025 Q4,5.74,3.95,15.1,0.0,0.3,22.6,,0.0,8.2,Financials,54.3,36.8,94.3,83.8,,,0.0,-34.5,,,
+canadian_premier,Canadian Premier Life,OSFI,0,694.5,2026-06-30,163.9,OSFI LCQ FY2025 Q4,5.09,4.34,26.4,0.0,0.0,,,0.0,8.3,Financials,54.4,24.4,100.0,83.8,,,,,,,
+primerica_life,Primerica Life,OSFI,0,434.0,2026-06-30,194.3,OSFI LCQ FY2025 Q4,14.74,6.93,0.0,0.0,0.0,,,0.0,10.5,Financials,37.1,47.7,100.0,90.2,,,,,,,
+humania,Humania,AMF,0,406.1,2025-12-31,185.0,CARLI solvency ratio (AMF) 2024-12-31,,,8.5,0.8,,,,,,,,6.0,84.2,74.4,,,,,,,
+desjardins,Desjardins Insurance,AMF,0,,,,,,,,,,,,,,,,,,,,,,,,,
+canada_protection_plan,Canada Protection Plan,OSFI,0,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,17 @@
+company_id,company,basis,a_or_higher_pct,bbb_pct,below_ig_pct,unrated_pct,investment_grade_pct,scope,source,is_focus
+manulife,Manulife,Rating split disclosed,70.0,26.0,4.0,0.0,,Debt securities and private placements (265.9Bn),MFC 2025 annual MD&A Debt Securities and Private Placement Debt by Credit Quality,0
+canada_life,Canada Life,Rating split disclosed,70.0,28.0,2.0,0.0,,Great-West Lifeco bonds (174.5Bn),GWO 2025 annual MD&A Bond portfolio quality,0
+sun_life,Sun Life,Rating split disclosed,77.0,22.0,1.0,0.0,,Debt securities (85.6Bn); loans separately 96% IG,SLF 2025 annual MD&A Debt Securities by Credit Rating,0
+ia,iA Financial Group,Rating split disclosed,68.0,31.0,1.0,0.0,,Bonds (31.1Bn),iA 2025 annual MD&A Bonds by Credit Rating,0
+rbc_life,RBC Life,OSFI: investment grade vs below only,,,0.09,,99.91,"Legal-entity bonds, OSFI LF2 FY2025 Q4",OSFI LF2 P21012,1
+bmo_life,BMO Life,OSFI: investment grade vs below only,,,0.0,,100.0,"Legal-entity bonds, OSFI LF2 FY2025 Q4",OSFI LF2 P21012,0
+beneva,Beneva,Rating split disclosed,21.0,19.4,1.2,58.3,,"Bonds and private debt (6.8Bn): 52.9% government (Canada, Quebec, provinces, municipalities) not rated in the note, plus 5.5% unrated private debt",Beneva 2025 annual report note on credit risk,0
+ivari,ivari,OSFI: investment grade vs below only,,,0.04,,99.96,"Legal-entity bonds, OSFI LF2 FY2025 Q4",OSFI LF2 P21012,0
+empire_life,Empire Life,Rating split disclosed,71.0,28.0,1.0,0.0,,Bonds (7.9Bn),Empire Life 2025 FS note 24.4,0
+equitable_life,Equitable Life,Rating split disclosed,76.1,23.9,0.0,0.0,,Bonds (2.7Bn),Equitable 2025 annual report note (a)(iii),0
+cooperators_life,Co-operators Life,OSFI: investment grade vs below only,,,1.73,,98.27,"Legal-entity bonds, OSFI LF2 FY2025 Q4",OSFI LF2 P21012,0
+wawanesa_life,Wawanesa Life,OSFI: investment grade vs below only,,,0.0,,100.0,"Legal-entity bonds, OSFI LF2 FY2025 Q4",OSFI LF2 P21012,0
+assumption_life,Assumption Life,Rating split disclosed,89.1,4.0,0.0,6.9,,Debt securities (0.56Bn),Assumption Life 2025 annual report note on credit risk,0
+foresters_life,Foresters Life,Rating split disclosed,77.1,22.6,0.3,0.0,,Bonds (0.66Bn),Foresters Life 2025 FS note on credit risk,0
+canadian_premier,Canadian Premier Life,OSFI: investment grade vs below only,,,0.0,,100.0,"Legal-entity bonds, OSFI LF2 FY2025 Q4",OSFI LF2 P21012,0
+primerica_life,Primerica Life,OSFI: investment grade vs below only,,,0.0,,100.0,"Legal-entity bonds, OSFI LF2 FY2025 Q4",OSFI LF2 P21012,0

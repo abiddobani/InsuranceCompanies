@@ -1,0 +1,38 @@
+row_id,company_id,company,as_of,source,level1,level2,level3,amount_cad_mm,pct_of_portfolio
+obs001,bmo_life,BMO Life,2025-10-31,"OSFI LF3, BMO Life Assurance Company",Derivatives,Currency,"FX forwards, futures, swaps, options",848.3,0.0465
+obs002,bmo_life,BMO Life,2025-10-31,"OSFI LF3, BMO Life Assurance Company",Derivatives,Equity,Linear and non-linear (not split),234.4,0.0128
+obs003,bmo_life,BMO Life,2025-10-31,"OSFI LF3, BMO Life Assurance Company",Derivatives,Fixed Income,Linear,2169.7,0.1189
+obs004,cooperators_life,Co-operators Life,2025-12-31,"OSFI LF3, Co-operators Life Insurance Company",Derivatives,Currency,"FX forwards, futures, swaps, options",189.6,0.0317
+obs005,empire_life,Empire Life,2025-12-31,"OSFI LF3, The Empire Life Insurance Company",Derivatives,Currency,"FX forwards, futures, swaps, options",350.4,0.0343
+obs006,empire_life,Empire Life,2025-12-31,"OSFI LF3, The Empire Life Insurance Company",Derivatives,Equity,Linear and non-linear (not split),1309.7,0.1283
+obs007,empire_life,Empire Life,2025-12-31,"OSFI LF3, The Empire Life Insurance Company",Derivatives,Fixed Income,Linear,1000.0,0.098
+obs008,equitable_life,Equitable Life,2025-12-31,"OSFI LF3, The Equitable Life Insurance Company of Canada",Derivatives,Currency,"FX forwards, futures, swaps, options",623.2,0.0796
+obs009,ivari,ivari,2025-12-31,"OSFI LF3, ivari",Derivatives,Currency,"FX forwards, futures, swaps, options",-109.2,-0.0093
+obs010,ivari,ivari,2025-12-31,"OSFI LF3, ivari",Derivatives,Equity,Linear and non-linear (not split),888.5,0.0753
+obs011,rbc_life,RBC Life,2025-10-31,"OSFI LF3, RBC Life Insurance Company",Asset Financing,Encumbered Assets,Repos,3625.4,0.1409
+obs012,rbc_life,RBC Life,2025-10-31,"OSFI LF3, RBC Life Insurance Company",Derivatives,Currency,"FX forwards, futures, swaps, options",3813.4,0.1482
+obs013,rbc_life,RBC Life,2025-10-31,"OSFI LF3, RBC Life Insurance Company",Derivatives,Equity,Linear and non-linear (not split),179.4,0.007
+obs014,rbc_life,RBC Life,2025-10-31,"OSFI LF3, RBC Life Insurance Company",Derivatives,Fixed Income,Linear,2781.7,0.1081
+obs015,rbc_life,RBC Life,2025-10-31,"OSFI LF3, RBC Life Insurance Company",Derivatives,Fixed Income,Non-Linear,785.8,0.0305
+obs016,manulife,Manulife,2025-12-31,"OSFI LF3, The Manufacturers Life Insurance Company",Derivatives,Credit,Credit default swaps,109.3,0.0002
+obs017,manulife,Manulife,2025-12-31,"OSFI LF3, The Manufacturers Life Insurance Company",Derivatives,Currency,"FX forwards, futures, swaps, options",98873.7,0.2191
+obs018,manulife,Manulife,2025-12-31,"OSFI LF3, The Manufacturers Life Insurance Company",Derivatives,Equity,Linear and non-linear (not split),29647.7,0.0657
+obs019,manulife,Manulife,2025-12-31,"OSFI LF3, The Manufacturers Life Insurance Company",Derivatives,Fixed Income,Linear,383186.9,0.849
+obs020,manulife,Manulife,2025-12-31,"OSFI LF3, The Manufacturers Life Insurance Company",Derivatives,Fixed Income,Non-Linear,4875.6,0.0108
+obs021,sun_life,Sun Life,2025-12-31,"OSFI LF3, Sun Life Assurance Company of Canada",Asset Financing,Encumbered Assets,Repos,2860.7,0.0137
+obs022,sun_life,Sun Life,2025-12-31,"OSFI LF3, Sun Life Assurance Company of Canada",Derivatives,Credit,Credit default swaps,1417.7,0.0068
+obs023,sun_life,Sun Life,2025-12-31,"OSFI LF3, Sun Life Assurance Company of Canada",Derivatives,Currency,"FX forwards, futures, swaps, options",39664.4,0.1901
+obs024,sun_life,Sun Life,2025-12-31,"OSFI LF3, Sun Life Assurance Company of Canada",Derivatives,Equity,Linear and non-linear (not split),6229.6,0.0299
+obs025,sun_life,Sun Life,2025-12-31,"OSFI LF3, Sun Life Assurance Company of Canada",Derivatives,Fixed Income,Linear,30973.5,0.1485
+obs026,sun_life,Sun Life,2025-12-31,"OSFI LF3, Sun Life Assurance Company of Canada",Derivatives,Fixed Income,Non-Linear,2463.5,0.0118
+obs027,canada_life,Canada Life,2025-12-31,"OSFI LF3, The Canada Life Assurance Company",Derivatives,Currency,"FX forwards, futures, swaps, options",40165.3,0.4054
+obs028,canada_life,Canada Life,2025-12-31,"OSFI LF3, The Canada Life Assurance Company",Derivatives,Equity,Linear and non-linear (not split),4994.9,0.0504
+obs029,canada_life,Canada Life,2025-12-31,"OSFI LF3, The Canada Life Assurance Company",Derivatives,Fixed Income,Linear,12070.6,0.1218
+obs030,canada_life,Canada Life,2025-12-31,"OSFI LF3, The Canada Life Assurance Company",Derivatives,Fixed Income,Non-Linear,4245.5,0.0428
+obs031,canada_life,Canada Life,2025-12-31,"OSFI LF3, The Canada Life Assurance Company",Derivatives,Other,Other,0.2,0.0
+obs032,ia,iA Financial Group,2026-06-30,iA Q2 2026 FS note 6,Derivatives,Equity,Linear and non-linear (not split),10501,0.2274
+obs033,ia,iA Financial Group,2026-06-30,iA Q2 2026 FS note 6,Derivatives,Fixed Income,Linear and non-linear (not split),28447,0.616
+obs034,ia,iA Financial Group,2026-06-30,iA Q2 2026 FS note 6,Derivatives,Currency,"FX forwards, futures, swaps, options",16080,0.3482
+obs035,ia,iA Financial Group,2026-06-30,iA Q2 2026 FS fair value table,Asset Financing,Encumbered Assets,Repos,2291,0.0496
+obs036,manulife,Manulife,2026-06-30,MFC Q2 2026 note on securities lending,Asset Financing,Encumbered Assets,Security Lending,3113,0.0069
+obs037,manulife,Manulife,2026-06-30,MFC Q2 2026 note on securities lending,Asset Financing,Encumbered Assets,Repos,1422,0.0032
