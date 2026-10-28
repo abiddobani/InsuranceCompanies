@@ -1,0 +1,129 @@
+company_id,company,as_at,region,bucket,tenor,rate_pct,source_document,location
+ia,iA Financial Group,2025-12-31,Canada,least_illiquid,1,2.56,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,Canada,least_illiquid,5,3.24,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,Canada,least_illiquid,10,4.08,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,Canada,least_illiquid,20,4.93,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,Canada,least_illiquid,30,4.93,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,Canada,least_illiquid,70,4.35,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,Canada,most_illiquid,1,3.5,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,Canada,most_illiquid,5,4.39,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,Canada,most_illiquid,10,5.08,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,Canada,most_illiquid,20,5.62,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,Canada,most_illiquid,30,5.8,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,Canada,most_illiquid,70,5.15,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,U.S.A.,least_illiquid,1,4.03,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,U.S.A.,least_illiquid,5,4.45,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,U.S.A.,least_illiquid,10,5.05,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,U.S.A.,least_illiquid,20,5.88,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,U.S.A.,least_illiquid,30,6.05,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,U.S.A.,least_illiquid,70,4.9,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,U.S.A.,most_illiquid,1,4.28,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,U.S.A.,most_illiquid,5,4.7,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,U.S.A.,most_illiquid,10,5.3,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,U.S.A.,most_illiquid,20,6.13,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,U.S.A.,most_illiquid,30,6.3,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2025-12-31,U.S.A.,most_illiquid,70,5.15,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,Canada,least_illiquid,1,2.99,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,Canada,least_illiquid,5,3.3,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,Canada,least_illiquid,10,4.0,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,Canada,least_illiquid,20,4.46,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,Canada,least_illiquid,30,4.32,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,Canada,least_illiquid,70,4.35,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,Canada,most_illiquid,1,3.92,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,Canada,most_illiquid,5,4.44,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,Canada,most_illiquid,10,4.99,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,Canada,most_illiquid,20,5.4,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,Canada,most_illiquid,30,5.29,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,Canada,most_illiquid,70,5.15,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,U.S.A.,least_illiquid,1,4.82,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,U.S.A.,least_illiquid,5,5.13,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,U.S.A.,least_illiquid,10,5.48,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,U.S.A.,least_illiquid,20,5.84,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,U.S.A.,least_illiquid,30,5.77,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,U.S.A.,least_illiquid,70,4.9,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,U.S.A.,most_illiquid,1,5.07,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,U.S.A.,most_illiquid,5,5.38,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,U.S.A.,most_illiquid,10,5.73,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,U.S.A.,most_illiquid,20,6.09,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,U.S.A.,most_illiquid,30,6.02,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+ia,iA Financial Group,2024-12-31,U.S.A.,most_illiquid,70,5.15,docs/ia/2025/q4-2025-financial-statements-acc.pdf,"PDF p.73 (note 2 ii, Discount Rates)"
+desjardins,Desjardins Insurance,2025-12-31,Canada,least_illiquid,1,2.7,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2025-12-31,Canada,least_illiquid,5,3.1,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2025-12-31,Canada,least_illiquid,10,3.6,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2025-12-31,Canada,least_illiquid,15,3.9,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2025-12-31,Canada,least_illiquid,20,4.0,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2025-12-31,Canada,least_illiquid,30,4.0,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2025-12-31,Canada,least_illiquid,70,4.0,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2025-12-31,Canada,most_illiquid,1,3.0,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2025-12-31,Canada,most_illiquid,5,3.8,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2025-12-31,Canada,most_illiquid,10,4.6,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2025-12-31,Canada,most_illiquid,15,5.2,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2025-12-31,Canada,most_illiquid,20,5.5,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2025-12-31,Canada,most_illiquid,30,5.4,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2025-12-31,Canada,most_illiquid,70,5.2,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2024-12-31,Canada,least_illiquid,1,3.3,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2024-12-31,Canada,least_illiquid,5,3.1,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2024-12-31,Canada,least_illiquid,10,3.3,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2024-12-31,Canada,least_illiquid,15,3.5,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2024-12-31,Canada,least_illiquid,20,3.6,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2024-12-31,Canada,least_illiquid,30,3.3,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2024-12-31,Canada,least_illiquid,70,4.0,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2024-12-31,Canada,most_illiquid,1,3.7,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2024-12-31,Canada,most_illiquid,5,3.9,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2024-12-31,Canada,most_illiquid,10,4.6,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2024-12-31,Canada,most_illiquid,15,5.0,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2024-12-31,Canada,most_illiquid,20,5.1,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2024-12-31,Canada,most_illiquid,30,4.9,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+desjardins,Desjardins Insurance,2024-12-31,Canada,most_illiquid,70,5.2,docs/desjardins/2025/d50-etat-financier-mcd-2025-e.pdf,PDF p.78 (life and health insurance subsidiary yield curves)
+beneva,Beneva,2025-12-31,Canada,least_illiquid,1,3.6,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,least_illiquid,5,3.9,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,least_illiquid,10,4.6,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,least_illiquid,20,5.2,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,least_illiquid,30,4.4,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,least_illiquid,70,4.9,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,most_illiquid,1,3.1,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,most_illiquid,5,3.9,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,most_illiquid,10,4.7,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,most_illiquid,20,5.6,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,most_illiquid,30,5.3,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,most_illiquid,70,5.2,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,least_illiquid,1,4.0,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,least_illiquid,5,4.0,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,least_illiquid,10,4.5,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,least_illiquid,20,4.8,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,least_illiquid,30,4.3,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,least_illiquid,70,4.9,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,most_illiquid,1,3.8,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,most_illiquid,5,4.0,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,most_illiquid,10,4.5,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,most_illiquid,20,5.1,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,most_illiquid,30,4.8,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,most_illiquid,70,5.2,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+assumption_life,Assumption Life,2025-12-31,Canada,least_illiquid,1,2.53,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,least_illiquid,5,3.31,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,least_illiquid,10,4.09,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,least_illiquid,15,4.59,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,least_illiquid,20,4.84,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,least_illiquid,30,4.81,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,least_illiquid,ult,4.35,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,most_illiquid,1,2.95,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,most_illiquid,5,3.73,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,most_illiquid,10,4.51,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,most_illiquid,15,5.01,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,most_illiquid,20,5.26,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,most_illiquid,30,5.23,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,most_illiquid,ult,4.84,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,least_illiquid,1,3.1,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,least_illiquid,5,3.38,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,least_illiquid,10,3.98,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,least_illiquid,15,4.31,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,least_illiquid,20,4.4,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,least_illiquid,30,4.26,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,least_illiquid,ult,4.35,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,most_illiquid,1,3.52,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,most_illiquid,5,3.8,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,most_illiquid,10,4.4,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,most_illiquid,15,4.73,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,most_illiquid,20,4.82,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,most_illiquid,30,4.68,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,most_illiquid,ult,4.84,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
