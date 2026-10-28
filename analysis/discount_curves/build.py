@@ -102,6 +102,16 @@ def forwards_to_spot(points):
     return {t: round(float(spot[t - 1] * 100), 2) for t in points}
 
 
+def flat_curve(points):
+    """For a curve that is one roughly flat rate (range within 1 point once its most deviant point is set aside),
+    the points within half a point of its median; None if the curve is not flat."""
+    med = statistics.median(points.values())
+    rest = sorted(points.values(), key=lambda v: abs(v - med))[:-1]
+    if len(points) < 5 or max(rest) - min(rest) > 1.0:
+        return None
+    return {t: v for t, v in points.items() if abs(v - med) <= 0.5}
+
+
 # Stylised long-dated life liability: annual payments falling 4% a year for 80 years
 CF = 0.96 ** np.arange(80)
 
@@ -109,6 +119,18 @@ CF = 0.96 ** np.arange(80)
 def pv(points):
     r = interp_curve(points) / 100
     return float((CF / (1 + r) ** np.arange(1, 81)).sum())
+
+
+def flat_equivalent(points):
+    """The single rate that gives the stylised liability the same value as the curve."""
+    target, lo, hi = pv(points), 0.0, 0.2
+    for _ in range(60):
+        mid = (lo + hi) / 2
+        if (CF / (1 + mid) ** np.arange(1, 81)).sum() > target:
+            lo = mid
+        else:
+            hi = mid
+    return round(mid * 100, 2)
 
 
 def duration(points):
@@ -157,11 +179,21 @@ def main():
         return None
 
     # RBC files forwards: convert each curve to spot before anything else
+    anomalies = []
     rbc_curves = defaultdict(dict)
     for (cid, p, reg, lob, t), kv in vals.items():
         if cid in FORWARD_FILERS and "Discount Rates" in kv:
             rbc_curves[(cid, p, reg, lob)][t] = kv["Discount Rates"]
     for key, pts in rbc_curves.items():
+        flat = flat_curve(pts)
+        if flat is not None:
+            # One roughly flat rate (RBC's par line until fiscal Q4 2025) reads the same as spot or forward: keep it
+            # as filed, but drop stray points that break the flat line (its 70-year value) and log them
+            for t in set(pts) - set(flat):
+                anomalies.append(dict(company_id=key[0], period=key[1], region=key[2], lob=key[3], tenor=t,
+                                      filed=pts[t], reason="breaks an otherwise flat curve; dropped"))
+                del vals[key + (t,)]
+            continue
         for t, s in forwards_to_spot(pts).items():
             vals[key + (t,)]["Discount Rates (forward)"] = vals[key + (t,)].pop("Discount Rates")
             vals[key + (t,)]["Discount Rates"] = s
@@ -389,7 +421,39 @@ def main():
             curve_rows.append(dict(company="Peer median", period=p, product=prod, tenor=t,
                                    dr=round(statistics.median(g[t - 1] for g in grids), 3)))
     write("product_points.csv", points)
+    with open(os.path.join(HERE, "anomalies.csv"), "w", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=["company_id", "period", "region", "lob", "tenor", "filed", "reason"])
+        w.writeheader()
+        w.writerows(anomalies)
     write("product_curves.csv", curve_rows)
+
+    # Par: each insurer's par discount curve against the dividend scale interest rate it credits policyholders
+    dsir = {}
+    with open(os.path.join(HERE, "dsir.csv"), encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            dsir[r["company_id"]] = r
+    par_rows = []
+    for label, period_of, year in (("Year end 2025", lambda cid: "2025Q4", "2025"),
+                                    ("Latest quarter", lambda cid: latest_p.get(cid), "2026")):
+        for cid in NAMES:
+            p = period_of(cid)
+            pts = prod_curves.get((cid, p, "Participating")) if p else None
+            if not pts:
+                if cid in dsir and label == "Year end 2025":
+                    par_rows.append(dict(view=label, company=NAMES[cid], period="", as_at="", curve="No par curve filed",
+                                         dr_10y=None, dr_30y=None, dr_ult=None, flat_equivalent=None,
+                                         dsir=float(dsir[cid]["dsir_" + year]), dsir_less_flat_bp=None))
+                continue
+            curve = {t: v[0] for t, v in pts.items()}
+            fe = flat_equivalent(curve)
+            d = float(dsir[cid]["dsir_" + year]) if cid in dsir else None
+            par_rows.append(dict(
+                view=label, company=NAMES[cid], period=p, as_at=("Oct FY " if cid in OCT_FY else "") + p,
+                curve="Par curve (OSFI)" if cid in PRIMARY else "All-products curve (annual report)",
+                dr_10y=at(pts, 10, 0), dr_30y=at(pts, 30, 0),
+                dr_ult=fwd_ult.get((cid, p, "Participating", max(pts)), pts[max(pts)][0]), flat_equivalent=fe,
+                dsir=d, dsir_less_flat_bp=round((d - fe) * 100) if d is not None else None))
+    write("par_vs_dividend_rate.csv", par_rows)
 
     print(f"{len(rows)} curve points; {len(ye)} companies at 2025Q4; {len(latest)} at latest")
 

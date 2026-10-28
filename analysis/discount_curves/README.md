@@ -11,6 +11,9 @@ How the 20 peer insurers' IFRS 17 discount curves and illiquidity premiums compa
 | `landscape_latest.csv` | The same for each OSFI filer at its latest quarter |
 | `dashboard/product_points.csv` | By insurer, quarter and product (individual annuity, group annuity, individual life, par): discount rate and illiquidity premium at 5, 10, 30 years and ultimate, with a peer median row per product and quarter |
 | `dashboard/product_curves.csv` | The same curves at their published tenors, plus the peer median curve |
+| `dsir.csv` | Dividend scale interest rates 2022 to 2026 for the par writers, from PolicyAdvisor's table (RBC Life and Equitable Life confirmed on their own sites) |
+| `dashboard/par_vs_dividend_rate.csv` | Each par curve (10y, 30y, ultimate, flat-equivalent rate) beside the insurer's dividend scale interest rate |
+| `anomalies.csv` | Filed curve points dropped as errors, with the reason |
 | `dashboard/*.csv` | The other sources of the landscape dashboard |
 
 Method, in short:
@@ -22,4 +25,6 @@ Method, in short:
 - 2023Q1 is excluded: most insurers filed premiums as fractions that OSFI's open data rounds to 0.01 or 0.02, and Wawanesa filed risk-free rates in basis points.
 - BMO Life and RBC Life file on an October fiscal year.
 - By product: annual-report insurers publish one curve for all products, so they appear under every product. RBC Life's ultimate rate is its filed 80-year forward rate, since its spot curve is still converging at 80 years.
+- RBC Life's par line was one flat rate (about 5.4%) at every tenor until fiscal Q4 2025, repeated unchanged across 2024Q3-Q4 and 2025Q1-Q3, with stray 70-year values (3.38%, 3.60%) that are dropped and logged in anomalies.csv. Flat curves are used as filed; from fiscal Q4 2025 the par line has the same forward shape as RBC's other lines and is converted to spot.
+- Flat-equivalent rate: the single rate that gives the stylised liability the same value as the curve.
 - Not covered: Humania and UV Insurance publish only summary financial statements; Canada Protection Plan is a Foresters business.

@@ -7198,15 +7198,15 @@ rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Indivi
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Individual seg fund,60,,2.63,-0.93,derived spot from reported forwards,DR - peer median RFR (estimate),2.53
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Individual seg fund,70,,2.66,-0.99,derived spot from reported forwards,DR - peer median RFR (estimate),3.2
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Individual seg fund,80,,2.73,-0.92,derived spot from reported forwards,DR - peer median RFR (estimate),3.14
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Participating,1,,5.47,0.83,derived spot from reported forwards,DR - peer median RFR (estimate),5.47
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Participating,2,,5.45,1.34,derived spot from reported forwards,DR - peer median RFR (estimate),5.44
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Participating,5,,5.42,1.92,derived spot from reported forwards,DR - peer median RFR (estimate),5.37
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Participating,10,,5.41,1.94,derived spot from reported forwards,DR - peer median RFR (estimate),5.43
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Participating,20,,5.45,2.02,derived spot from reported forwards,DR - peer median RFR (estimate),5.53
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Participating,30,,5.41,2.07,derived spot from reported forwards,DR - peer median RFR (estimate),5.18
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Participating,60,,5.37,1.81,derived spot from reported forwards,DR - peer median RFR (estimate),5.48
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Participating,70,,5.35,1.7,derived spot from reported forwards,DR - peer median RFR (estimate),4.95
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Participating,80,,5.33,1.68,derived spot from reported forwards,DR - peer median RFR (estimate),5.42
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Participating,1,,5.47,0.83,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Participating,2,,5.44,1.33,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Participating,5,,5.37,1.87,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Participating,10,,5.43,1.96,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Participating,20,,5.53,2.1,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Participating,30,,5.18,1.84,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Participating,60,,5.48,1.92,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Participating,70,,4.95,1.3,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Participating,80,,5.42,1.77,reported,DR - peer median RFR (estimate),
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Reinsurance,1,,4.93,0.29,derived spot from reported forwards,DR - peer median RFR (estimate),4.93
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Reinsurance,2,,4.68,0.57,derived spot from reported forwards,DR - peer median RFR (estimate),4.44
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q1,Oct FY 2024Q1,Canada,most_illiquid,Reinsurance,5,,4.59,1.09,derived spot from reported forwards,DR - peer median RFR (estimate),4.56
@@ -7261,15 +7261,15 @@ rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Indivi
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Individual seg fund,60,,3.09,-0.49,derived spot from reported forwards,DR - peer median RFR (estimate),2.85
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Individual seg fund,70,,3.09,-0.56,derived spot from reported forwards,DR - peer median RFR (estimate),3.31
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Individual seg fund,80,,3.1,-0.55,derived spot from reported forwards,DR - peer median RFR (estimate),3.13
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Participating,1,,5.47,1.04,derived spot from reported forwards,DR - peer median RFR (estimate),5.47
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Participating,2,,5.46,1.5,derived spot from reported forwards,DR - peer median RFR (estimate),5.45
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Participating,5,,5.42,1.91,derived spot from reported forwards,DR - peer median RFR (estimate),5.36
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Participating,10,,5.42,1.9,derived spot from reported forwards,DR - peer median RFR (estimate),5.45
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Participating,20,,5.45,1.98,derived spot from reported forwards,DR - peer median RFR (estimate),5.53
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Participating,30,,5.41,2.03,derived spot from reported forwards,DR - peer median RFR (estimate),5.17
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Participating,60,,5.36,1.78,derived spot from reported forwards,DR - peer median RFR (estimate),5.45
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Participating,70,,5.37,1.72,derived spot from reported forwards,DR - peer median RFR (estimate),5.34
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Participating,80,,5.37,1.72,derived spot from reported forwards,DR - peer median RFR (estimate),5.42
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Participating,1,,5.47,1.04,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Participating,2,,5.45,1.49,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Participating,5,,5.36,1.85,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Participating,10,,5.45,1.93,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Participating,20,,5.53,2.06,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Participating,30,,5.17,1.79,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Participating,60,,5.45,1.87,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Participating,70,,5.34,1.69,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Participating,80,,5.42,1.77,reported,DR - peer median RFR (estimate),
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Reinsurance,1,,5.04,0.61,derived spot from reported forwards,DR - peer median RFR (estimate),5.04
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Reinsurance,2,,4.9,0.94,derived spot from reported forwards,DR - peer median RFR (estimate),4.77
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q2,Oct FY 2024Q2,Canada,most_illiquid,Reinsurance,5,,4.78,1.27,derived spot from reported forwards,DR - peer median RFR (estimate),4.65
@@ -7324,15 +7324,14 @@ rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Indivi
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Individual seg fund,60,,3.31,-0.22,derived spot from reported forwards,DR - peer median RFR (estimate),2.71
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Individual seg fund,70,,3.25,-0.4,derived spot from reported forwards,DR - peer median RFR (estimate),3.08
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Individual seg fund,80,,3.23,-0.42,derived spot from reported forwards,DR - peer median RFR (estimate),3.09
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Participating,1,,5.45,2.12,derived spot from reported forwards,DR - peer median RFR (estimate),5.45
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Participating,2,,5.44,2.54,derived spot from reported forwards,DR - peer median RFR (estimate),5.43
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Participating,5,,5.43,2.7,derived spot from reported forwards,DR - peer median RFR (estimate),5.42
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Participating,10,,5.4,2.4,derived spot from reported forwards,DR - peer median RFR (estimate),5.34
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Participating,20,,5.42,2.24,derived spot from reported forwards,DR - peer median RFR (estimate),5.52
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Participating,30,,5.4,2.21,derived spot from reported forwards,DR - peer median RFR (estimate),5.23
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Participating,60,,5.42,1.89,derived spot from reported forwards,DR - peer median RFR (estimate),5.63
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Participating,70,,5.27,1.62,derived spot from reported forwards,DR - peer median RFR (estimate),3.38
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Participating,80,,5.17,1.52,derived spot from reported forwards,DR - peer median RFR (estimate),5.42
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Participating,1,,5.45,2.12,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Participating,2,,5.43,2.53,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Participating,5,,5.42,2.69,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Participating,10,,5.34,2.34,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Participating,20,,5.52,2.34,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Participating,30,,5.23,2.04,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Participating,60,,5.63,2.1,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Participating,80,,5.42,1.77,reported,DR - peer median RFR (estimate),
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Reinsurance,1,,5.01,1.68,derived spot from reported forwards,DR - peer median RFR (estimate),5.01
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Reinsurance,2,,4.85,1.95,derived spot from reported forwards,DR - peer median RFR (estimate),4.69
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q3,Oct FY 2024Q3,Canada,most_illiquid,Reinsurance,5,,4.79,2.06,derived spot from reported forwards,DR - peer median RFR (estimate),4.79
@@ -7387,15 +7386,14 @@ rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Indivi
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Individual seg fund,60,,3.43,-0.14,derived spot from reported forwards,DR - peer median RFR (estimate),2.1
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Individual seg fund,70,,3.28,-0.37,derived spot from reported forwards,DR - peer median RFR (estimate),2.69
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Individual seg fund,80,,3.23,-0.42,derived spot from reported forwards,DR - peer median RFR (estimate),3.03
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Participating,1,,5.45,2.42,derived spot from reported forwards,DR - peer median RFR (estimate),5.45
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Participating,2,,5.44,2.51,derived spot from reported forwards,DR - peer median RFR (estimate),5.43
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Participating,5,,5.43,2.44,derived spot from reported forwards,DR - peer median RFR (estimate),5.42
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Participating,10,,5.4,2.13,derived spot from reported forwards,DR - peer median RFR (estimate),5.34
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Participating,20,,5.42,2.05,derived spot from reported forwards,DR - peer median RFR (estimate),5.52
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Participating,30,,5.4,2.02,derived spot from reported forwards,DR - peer median RFR (estimate),5.23
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Participating,60,,5.42,1.85,derived spot from reported forwards,DR - peer median RFR (estimate),5.63
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Participating,70,,5.27,1.62,derived spot from reported forwards,DR - peer median RFR (estimate),3.38
-rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Participating,80,,5.17,1.52,derived spot from reported forwards,DR - peer median RFR (estimate),5.42
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Participating,1,,5.45,2.42,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Participating,2,,5.43,2.5,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Participating,5,,5.42,2.43,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Participating,10,,5.34,2.07,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Participating,20,,5.52,2.15,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Participating,30,,5.23,1.85,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Participating,60,,5.63,2.06,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Participating,80,,5.42,1.77,reported,DR - peer median RFR (estimate),
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Reinsurance,1,,4.1,1.07,derived spot from reported forwards,DR - peer median RFR (estimate),4.1
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Reinsurance,2,,3.95,1.02,derived spot from reported forwards,DR - peer median RFR (estimate),3.8
 rbc_life,RBC Life,OSFI LF2,OSFI,2024Q4,Oct FY 2024Q4,Canada,most_illiquid,Reinsurance,5,,4.01,1.02,derived spot from reported forwards,DR - peer median RFR (estimate),4.18
@@ -7450,15 +7448,14 @@ rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Indivi
 rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Individual seg fund,60,,2.83,-0.73,derived spot from reported forwards,DR - peer median RFR (estimate),2.8
 rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Individual seg fund,70,,2.83,-0.82,derived spot from reported forwards,DR - peer median RFR (estimate),2.95
 rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Individual seg fund,80,,2.85,-0.8,derived spot from reported forwards,DR - peer median RFR (estimate),2.92
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Participating,1,,5.43,2.89,derived spot from reported forwards,DR - peer median RFR (estimate),5.43
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Participating,2,,5.39,2.92,derived spot from reported forwards,DR - peer median RFR (estimate),5.36
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Participating,5,,5.41,2.77,derived spot from reported forwards,DR - peer median RFR (estimate),5.46
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Participating,10,,5.41,2.38,derived spot from reported forwards,DR - peer median RFR (estimate),5.36
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Participating,20,,5.45,2.19,derived spot from reported forwards,DR - peer median RFR (estimate),5.61
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Participating,30,,5.42,2.1,derived spot from reported forwards,DR - peer median RFR (estimate),5.16
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Participating,60,,5.48,1.92,derived spot from reported forwards,DR - peer median RFR (estimate),5.91
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Participating,70,,5.36,1.71,derived spot from reported forwards,DR - peer median RFR (estimate),3.6
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Participating,80,,5.27,1.62,derived spot from reported forwards,DR - peer median RFR (estimate),5.42
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Participating,1,,5.43,2.89,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Participating,2,,5.36,2.89,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Participating,5,,5.46,2.82,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Participating,10,,5.36,2.33,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Participating,20,,5.61,2.35,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Participating,30,,5.16,1.84,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Participating,60,,5.91,2.35,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Participating,80,,5.42,1.77,reported,DR - peer median RFR (estimate),
 rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Reinsurance,1,,3.69,1.15,derived spot from reported forwards,DR - peer median RFR (estimate),3.69
 rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Reinsurance,2,,3.74,1.27,derived spot from reported forwards,DR - peer median RFR (estimate),3.8
 rbc_life,RBC Life,OSFI LF2,OSFI,2025Q1,Oct FY 2025Q1,Canada,most_illiquid,Reinsurance,5,,4.09,1.45,derived spot from reported forwards,DR - peer median RFR (estimate),4.58
@@ -7513,15 +7510,14 @@ rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Indivi
 rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Individual seg fund,60,,2.87,-0.78,derived spot from reported forwards,DR - peer median RFR (estimate),2.98
 rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Individual seg fund,70,,2.94,-0.71,derived spot from reported forwards,DR - peer median RFR (estimate),3.67
 rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Individual seg fund,80,,3.0,-0.65,derived spot from reported forwards,DR - peer median RFR (estimate),3.2
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Participating,1,,5.43,2.8,derived spot from reported forwards,DR - peer median RFR (estimate),5.43
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Participating,2,,5.39,2.77,derived spot from reported forwards,DR - peer median RFR (estimate),5.36
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Participating,5,,5.41,2.52,derived spot from reported forwards,DR - peer median RFR (estimate),5.46
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Participating,10,,5.41,2.06,derived spot from reported forwards,DR - peer median RFR (estimate),5.36
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Participating,20,,5.45,1.84,derived spot from reported forwards,DR - peer median RFR (estimate),5.61
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Participating,30,,5.42,1.75,derived spot from reported forwards,DR - peer median RFR (estimate),5.16
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Participating,60,,5.48,1.83,derived spot from reported forwards,DR - peer median RFR (estimate),5.91
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Participating,70,,5.36,1.71,derived spot from reported forwards,DR - peer median RFR (estimate),3.6
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Participating,80,,5.27,1.62,derived spot from reported forwards,DR - peer median RFR (estimate),5.42
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Participating,1,,5.43,2.8,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Participating,2,,5.36,2.74,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Participating,5,,5.46,2.57,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Participating,10,,5.36,2.01,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Participating,20,,5.61,2.0,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Participating,30,,5.16,1.49,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Participating,60,,5.91,2.26,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Participating,80,,5.42,1.77,reported,DR - peer median RFR (estimate),
 rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Reinsurance,1,,3.31,0.68,derived spot from reported forwards,DR - peer median RFR (estimate),3.31
 rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Reinsurance,2,,3.34,0.72,derived spot from reported forwards,DR - peer median RFR (estimate),3.37
 rbc_life,RBC Life,OSFI LF2,OSFI,2025Q2,Oct FY 2025Q2,Canada,most_illiquid,Reinsurance,5,,3.76,0.87,derived spot from reported forwards,DR - peer median RFR (estimate),4.37
@@ -7576,15 +7572,14 @@ rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Indivi
 rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Individual seg fund,60,,3.05,-0.63,derived spot from reported forwards,DR - peer median RFR (estimate),3.0
 rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Individual seg fund,70,,3.1,-0.55,derived spot from reported forwards,DR - peer median RFR (estimate),3.62
 rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Individual seg fund,80,,3.13,-0.52,derived spot from reported forwards,DR - peer median RFR (estimate),3.21
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Participating,1,,5.43,2.98,derived spot from reported forwards,DR - peer median RFR (estimate),5.43
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Participating,2,,5.39,2.9,derived spot from reported forwards,DR - peer median RFR (estimate),5.36
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Participating,5,,5.41,2.63,derived spot from reported forwards,DR - peer median RFR (estimate),5.46
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Participating,10,,5.41,2.15,derived spot from reported forwards,DR - peer median RFR (estimate),5.36
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Participating,20,,5.45,1.78,derived spot from reported forwards,DR - peer median RFR (estimate),5.61
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Participating,30,,5.42,1.64,derived spot from reported forwards,DR - peer median RFR (estimate),5.16
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Participating,60,,5.48,1.8,derived spot from reported forwards,DR - peer median RFR (estimate),5.91
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Participating,70,,5.36,1.71,derived spot from reported forwards,DR - peer median RFR (estimate),3.6
-rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Participating,80,,5.27,1.62,derived spot from reported forwards,DR - peer median RFR (estimate),5.42
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Participating,1,,5.43,2.98,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Participating,2,,5.36,2.87,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Participating,5,,5.46,2.68,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Participating,10,,5.36,2.1,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Participating,20,,5.61,1.94,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Participating,30,,5.16,1.38,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Participating,60,,5.91,2.23,reported,DR - peer median RFR (estimate),
+rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Participating,80,,5.42,1.77,reported,DR - peer median RFR (estimate),
 rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Reinsurance,1,,3.46,1.01,derived spot from reported forwards,DR - peer median RFR (estimate),3.46
 rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Reinsurance,2,,3.55,1.06,derived spot from reported forwards,DR - peer median RFR (estimate),3.64
 rbc_life,RBC Life,OSFI LF2,OSFI,2025Q3,Oct FY 2025Q3,Canada,most_illiquid,Reinsurance,5,,3.98,1.2,derived spot from reported forwards,DR - peer median RFR (estimate),4.57
