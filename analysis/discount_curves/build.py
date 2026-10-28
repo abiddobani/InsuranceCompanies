@@ -28,6 +28,7 @@ Conventions
   - BMO Life and RBC Life file on an October fiscal year, so their "Q4" is 31 October, two months before the others.
 """
 import csv
+import gzip
 import os
 import statistics
 from collections import defaultdict
@@ -158,6 +159,19 @@ def load_osfi():
             lob, kind = r["curve"].rsplit(", ", 1)
             vals[(cid, p, r["region"], LOB_SHORT[lob], t)][kind] = v
     return rfr, vals
+
+
+def load_line_revenue():
+    """Insurance revenue in Canada by line (OSFI LF3 page P45015, row 099, current year), $MM, by (cid, year)."""
+    cols = {"05": "Individual life", "10": "Individual annuity", "20": "Group annuity", "99": "All lines"}
+    out = defaultdict(dict)
+    with gzip.open(os.path.join(ROOT, "data/osfi/LF3_core.csv.gz"), "rt", encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            a = r["address"]
+            if PRIMARY.get(r["company_id"]) != r["entity"] or a[:9] != "P45015099" or a[9:] not in cols:
+                continue
+            out[(r["company_id"], int(r["fiscal_year"]))][cols[a[9:]]] = round(float(r["value"]) / 1000, 1)
+    return out
 
 
 def main():
@@ -398,6 +412,26 @@ def main():
         ts = [k for k in sorted(pts) if pts[k][i] is not None]
         return round(float(np.interp(t, ts, [pts[k][i] for k in ts])), 2) if ts else None
 
+    # Portfolio size, to order the tables. No public source gives assets or liabilities by product line, so annuities
+    # and individual life use the line's insurance revenue in Canada for the fiscal year (OSFI LF3, latest year for
+    # quarters after it); par uses the par account size published for advisers (par_account_size.csv).
+    revenue = load_line_revenue()
+    par_size = {}
+    with open(os.path.join(HERE, "par_account_size.csv"), encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            par_size[r["company_id"]] = float(r["par_account_mm"]) if r["par_account_mm"] else None
+
+    def line_revenue(cid, p, line):
+        years = [y for c, y in revenue if c == cid and y <= int(p[:4])]
+        return revenue[(cid, max(years))].get(line) if years else None
+
+    def size(cid, p, prod):
+        if prod == "Participating":
+            return par_size.get(cid), "Par account size" if par_size.get(cid) else "Not published"
+        v = line_revenue(cid, p, prod)
+        return v, (f"Insurance revenue in Canada, fiscal {min(int(p[:4]), max(y for c, y in revenue if c == cid))}"
+                   if v is not None else "No revenue filed for this line" if cid in PRIMARY else "Not published by line")
+
     PT = [5, 10, 20, 30, 80]  # tenors shown; beyond an annual-report curve's last tenor (70) its ultimate rate holds
     points, curve_rows = [], []
     for (cid, p, prod), pts in sorted(prod_curves.items(), key=lambda kv: (NAMES[kv[0][0]], period_key(kv[0][1]), kv[0][2])):
@@ -405,6 +439,8 @@ def main():
         rec = dict(company=NAMES[cid], source=f"Dividend scale interest rate {p[:4]}" if prod == "Participating" else
                    "OSFI LF2" if cid in PRIMARY else "Annual report, all products",
                    period=p, as_at=("Oct FY " if cid in OCT_FY else "") + p, product=prod)
+        rec["size_mm"], rec["size_basis"] = size(cid, p, prod)
+        rec["size_all_lines_mm"] = line_revenue(cid, p, "All lines")
         rec.update({f"dr_{t}y": at(pts, t, 0) for t in PT})
         rec.update({f"lp_{t}y": at(pts, t, 1) for t in PT})
         rec["last_tenor"] = ult
@@ -421,7 +457,8 @@ def main():
     for rec in points:
         groups[(rec["period"], rec["product"])].append(rec)
     for (p, prod), recs in sorted(groups.items(), key=lambda kv: (period_key(kv[0][0]), kv[0][1])):
-        med = dict(company="Peer median", source=f"Median of {len(recs)} insurers", period=p, as_at=p, product=prod)
+        med = dict(company="Peer median", source=f"Median of {len(recs)} insurers", period=p, as_at=p, product=prod,
+                   size_mm=None, size_basis="", size_all_lines_mm=None)
         for k in [f"{m}_{t}y" for m in ("dr", "lp") for t in PT]:
             vals = [rec[k] for rec in recs if rec[k] is not None]
             med[k] = round(statistics.median(vals), 2) if vals else None
@@ -450,6 +487,7 @@ def main():
             if not pts:
                 if cid in dsir and label == "Year end 2025":
                     par_rows.append(dict(view=label, company=NAMES[cid], period="", as_at="", curve="No par curve filed",
+                                         par_account_mm=par_size.get(cid),
                                          **{f"dr_{t}y": None for t in PT}, flat_equivalent=None,
                                          dsir=float(dsir[cid]["dsir_" + year]), dsir_less_flat_bp=None))
                 continue
@@ -458,7 +496,7 @@ def main():
             d = float(dsir[cid]["dsir_" + year]) if cid in dsir else None
             par_rows.append(dict(
                 view=label, company=NAMES[cid], period=p, as_at=("Oct FY " if cid in OCT_FY else "") + p,
-                curve="Par curve (OSFI)" if cid in PRIMARY else "All-products curve (annual report)",
+                par_account_mm=par_size.get(cid), curve="Par curve (OSFI)" if cid in PRIMARY else "All-products curve (annual report)",
                 **{f"dr_{t}y": at(pts, t, 0) for t in PT}, flat_equivalent=fe,
                 dsir=d, dsir_less_flat_bp=round((d - fe) * 100) if d is not None else None))
     write("par_vs_dividend_rate.csv", par_rows)

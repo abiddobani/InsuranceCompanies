@@ -13,6 +13,7 @@ How the 20 peer insurers' IFRS 17 discount curves and illiquidity premiums compa
 | `dashboard/product_curves.csv` | The same curves at their published tenors, plus the peer median curve |
 | `dsir.csv` | Dividend scale interest rates 2022 to 2026 for the par writers, from PolicyAdvisor's table (RBC Life and Equitable Life confirmed on their own sites) |
 | `dashboard/par_vs_dividend_rate.csv` | Each filed par curve (5, 10, 20, 30 and 80 years, flat-equivalent rate) beside the insurer's dividend scale interest rate |
+| `par_account_size.csv` | Par account size by insurer ($MM) as published for advisers (PolicyAdvisor 2026; Co-operators from its own par account report), with alternative figures noted |
 | `anomalies.csv` | Filed curve points dropped as errors, with the reason |
 | `dashboard/*.csv` | The other sources of the landscape dashboard |
 
@@ -27,5 +28,6 @@ Method, in short:
 - By product: annual-report insurers publish one curve for all products, so they appear under every product. Points are shown at 5, 10, 20, 30 and 80 years; annual-report curves end at 70 years, so their 80-year point is their ultimate rate. RBC Life's 80-year point is the spot rate derived from its forwards; its filed ultimate forward rate is 4.10%.
 - RBC Life's par line was one flat rate (about 5.4%) at every tenor until fiscal Q4 2025, repeated unchanged across 2024Q3-Q4 and 2025Q1-Q3, with stray 70-year values (3.38%, 3.60%) that are dropped and logged in anomalies.csv. Flat curves are used as filed; from fiscal Q4 2025 the par line has the same forward shape as RBC's other lines and is converted to spot.
 - Par (by product files): each insurer's dividend scale interest rate for the year, flat at every tenor, replaces the filed par curve; the par premium is that rate less the risk-free curve. Insurers with no published dividend scale (ivari, Wawanesa Life, Beneva) are left out of par. The filed par curves remain in curves_normalised.csv and par_vs_dividend_rate.csv.
+- Portfolio size (orders the product tables): no public source gives assets or liabilities by product line, so annuity and individual life tables use the line's insurance revenue in Canada for the fiscal year (OSFI LF3 page P45015, row 099; the latest year for quarters after it). Par tables use the par account size in par_account_size.csv. The premiums table uses insurance revenue in Canada across all lines. Annual-report insurers have no revenue split by line and sort last.
 - Flat-equivalent rate: the single rate that gives the stylised liability the same value as the curve.
 - Not covered: Humania and UV Insurance publish only summary financial statements; Canada Protection Plan is a Foresters business.
