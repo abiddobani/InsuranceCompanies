@@ -1,24 +1,24 @@
-view,company,period,as_at,curve,dr_10y,dr_30y,dr_ult,flat_equivalent,dsir,dsir_less_flat_bp
-Year end 2025,Canada Life,2025Q4,2025Q4,Par curve (OSFI),4.88,5.35,5.15,5.02,5.75,73
-Year end 2025,Co-operators Life,2025Q4,2025Q4,Par curve (OSFI),4.49,4.97,4.75,4.66,6.0,134
-Year end 2025,Empire Life,2025Q4,2025Q4,Par curve (OSFI),4.86,5.54,5.15,5.11,6.25,114
-Year end 2025,Equitable Life,2025Q4,2025Q4,Par curve (OSFI),6.42,6.42,6.42,6.42,6.4,-2
-Year end 2025,Foresters Life,,,No par curve filed,,,,,6.25,
-Year end 2025,ivari,2025Q4,2025Q4,Par curve (OSFI),4.8,5.45,5.15,5.02,,
-Year end 2025,Manulife,2025Q4,2025Q4,Par curve (OSFI),4.9,6.0,4.4,5.1,6.35,125
-Year end 2025,RBC Life,2025Q4,Oct FY 2025Q4,Par curve (OSFI),4.02,5.29,4.1,4.53,6.3,177
-Year end 2025,Sun Life,2025Q4,2025Q4,Par curve (OSFI),4.18,5.29,4.95,4.75,6.25,150
-Year end 2025,Wawanesa Life,2025Q4,2025Q4,Par curve (OSFI),4.83,5.38,5.15,5.02,,
-Year end 2025,iA Financial,2025Q4,2025Q4,All-products curve (annual report),5.08,5.8,5.15,5.26,6.35,109
-Year end 2025,Desjardins,2025Q4,2025Q4,All-products curve (annual report),4.6,5.4,5.2,4.96,6.3,134
-Year end 2025,Beneva,2025Q4,2025Q4,All-products curve (annual report),4.7,5.3,5.2,4.98,,
-Year end 2025,Assumption Life,2025Q4,2025Q4,All-products curve (annual report),4.51,5.23,4.84,4.8,5.75,95
-Latest quarter,Canada Life,2026Q2,2026Q2,Par curve (OSFI),4.8,5.26,5.15,4.96,6.0,104
-Latest quarter,Co-operators Life,2026Q2,2026Q2,Par curve (OSFI),4.4,4.99,4.75,4.64,6.0,136
-Latest quarter,Empire Life,2026Q2,2026Q2,Par curve (OSFI),4.78,5.5,5.15,5.08,6.25,117
-Latest quarter,Equitable Life,2026Q2,2026Q2,Par curve (OSFI),6.43,6.43,6.43,6.43,6.4,-3
-Latest quarter,ivari,2026Q2,2026Q2,Par curve (OSFI),4.74,5.45,5.15,5.0,,
-Latest quarter,Manulife,2026Q2,2026Q2,Par curve (OSFI),4.84,5.81,4.4,5.02,6.35,133
-Latest quarter,RBC Life,2026Q3,Oct FY 2026Q3,Par curve (OSFI),4.19,5.42,4.1,4.66,6.3,164
-Latest quarter,Sun Life,2026Q2,2026Q2,Par curve (OSFI),4.1,5.2,4.95,4.69,6.25,156
-Latest quarter,Wawanesa Life,2026Q2,2026Q2,Par curve (OSFI),4.77,5.41,5.15,5.0,,
+view,company,period,as_at,curve,dr_5y,dr_10y,dr_20y,dr_30y,dr_80y,flat_equivalent,dsir,dsir_less_flat_bp
+Year end 2025,Canada Life,2025Q4,2025Q4,Par curve (OSFI),4.38,4.88,5.24,5.35,5.15,5.02,5.75,73
+Year end 2025,Co-operators Life,2025Q4,2025Q4,Par curve (OSFI),3.7,4.49,5.07,4.97,4.75,4.66,6.0,134
+Year end 2025,Empire Life,2025Q4,2025Q4,Par curve (OSFI),4.13,4.86,5.6,5.54,5.15,5.11,6.25,114
+Year end 2025,Equitable Life,2025Q4,2025Q4,Par curve (OSFI),6.42,6.42,6.42,6.42,6.42,6.42,6.4,-2
+Year end 2025,Foresters Life,,,No par curve filed,,,,,,,6.25,
+Year end 2025,ivari,2025Q4,2025Q4,Par curve (OSFI),4.03,4.8,5.44,5.45,5.15,5.02,,
+Year end 2025,Manulife,2025Q4,2025Q4,Par curve (OSFI),3.81,4.9,5.61,6.0,4.4,5.1,6.35,125
+Year end 2025,RBC Life,2025Q4,Oct FY 2025Q4,Par curve (OSFI),3.16,4.02,5.15,5.29,4.19,4.53,6.3,177
+Year end 2025,Sun Life,2025Q4,2025Q4,Par curve (OSFI),3.69,4.18,5.36,5.29,4.95,4.75,6.25,150
+Year end 2025,Wawanesa Life,2025Q4,2025Q4,Par curve (OSFI),4.12,4.83,5.41,5.38,5.15,5.02,,
+Year end 2025,iA Financial,2025Q4,2025Q4,All-products curve (annual report),4.39,5.08,5.62,5.8,5.15,5.26,6.35,109
+Year end 2025,Desjardins,2025Q4,2025Q4,All-products curve (annual report),3.8,4.6,5.5,5.4,5.2,4.96,6.3,134
+Year end 2025,Beneva,2025Q4,2025Q4,All-products curve (annual report),3.9,4.7,5.6,5.3,5.2,4.98,,
+Year end 2025,Assumption Life,2025Q4,2025Q4,All-products curve (annual report),3.73,4.51,5.26,5.23,4.84,4.8,5.75,95
+Latest quarter,Canada Life,2026Q2,2026Q2,Par curve (OSFI),4.4,4.8,5.13,5.26,5.15,4.96,6.0,104
+Latest quarter,Co-operators Life,2026Q2,2026Q2,Par curve (OSFI),3.75,4.4,5.02,4.99,4.75,4.64,6.0,136
+Latest quarter,Empire Life,2026Q2,2026Q2,Par curve (OSFI),4.19,4.78,5.52,5.5,5.15,5.08,6.25,117
+Latest quarter,Equitable Life,2026Q2,2026Q2,Par curve (OSFI),6.43,6.43,6.43,6.43,6.43,6.43,6.4,-3
+Latest quarter,ivari,2026Q2,2026Q2,Par curve (OSFI),4.09,4.74,5.37,5.45,5.15,5.0,,
+Latest quarter,Manulife,2026Q2,2026Q2,Par curve (OSFI),3.85,4.84,5.48,5.81,4.4,5.02,6.35,133
+Latest quarter,RBC Life,2026Q3,Oct FY 2026Q3,Par curve (OSFI),3.45,4.19,5.18,5.42,4.28,4.66,6.3,164
+Latest quarter,Sun Life,2026Q2,2026Q2,Par curve (OSFI),3.75,4.1,5.25,5.2,4.95,4.69,6.25,156
+Latest quarter,Wawanesa Life,2026Q2,2026Q2,Par curve (OSFI),4.16,4.77,5.35,5.41,5.15,5.0,,

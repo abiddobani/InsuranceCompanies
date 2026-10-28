@@ -365,7 +365,6 @@ def main():
     products = {"Individual annuity": "Individual annuity", "Group annuity": "Group annuity",
                 "Individual insurance": "Individual life", "Participating": "Participating"}
     prod_curves = defaultdict(dict)  # (company_id, period, product) -> {tenor: (dr, lp)}
-    fwd_ult = {}  # RBC: the filed forward rate, whose last tenor is the ultimate rate
     for r in rows:
         if r["region"] != "Canada" or r["bucket"] != "most_illiquid" or r["dr"] is None:
             continue
@@ -373,8 +372,6 @@ def main():
             [products[r["lob"]]] if r["lob"] in products else [])
         for prod in targets:
             prod_curves[(r["company_id"], r["period"], prod)][r["tenor"]] = (r["dr"], r["lp"])
-            if r["dr_filed_forward"] is not None:
-                fwd_ult[(r["company_id"], r["period"], prod, r["tenor"])] = r["dr_filed_forward"]
 
     # Par: Abid asked (2026-10-28) to use each insurer's dividend scale interest rate (DSIR) as its par discount
     # rate, flat at every tenor, in place of the filed par curve; the premium is the DSIR less the risk-free curve.
@@ -401,7 +398,7 @@ def main():
         ts = [k for k in sorted(pts) if pts[k][i] is not None]
         return round(float(np.interp(t, ts, [pts[k][i] for k in ts])), 2) if ts else None
 
-    PT = [5, 10, 30]
+    PT = [5, 10, 20, 30, 80]  # tenors shown; beyond an annual-report curve's last tenor (70) its ultimate rate holds
     points, curve_rows = [], []
     for (cid, p, prod), pts in sorted(prod_curves.items(), key=lambda kv: (NAMES[kv[0][0]], period_key(kv[0][1]), kv[0][2])):
         ult = max(pts)
@@ -409,14 +406,8 @@ def main():
                    "OSFI LF2" if cid in PRIMARY else "Annual report, all products",
                    period=p, as_at=("Oct FY " if cid in OCT_FY else "") + p, product=prod)
         rec.update({f"dr_{t}y": at(pts, t, 0) for t in PT})
-        rec["dr_ult"] = pts[ult][0]
         rec.update({f"lp_{t}y": at(pts, t, 1) for t in PT})
-        rec["lp_ult"] = pts[ult][1]
-        rec["ult_tenor"] = ult
-        if prod != "Participating" and (cid, p, prod, ult) in fwd_ult:  # spot is still converging at 80y; the ultimate is the filed forward
-            rec["dr_ult"] = fwd_ult[(cid, p, prod, ult)]
-            base = peer_rfr(p, "Canada", ult)
-            rec["lp_ult"] = round(rec["dr_ult"] - base, 2) if base is not None else None
+        rec["last_tenor"] = ult
         rec["lp_basis"] = "Own risk-free curve" if (cid, p, "Canada", 30) in rfr else \
             "Peer median risk-free (estimate)"
         points.append(rec)
@@ -431,10 +422,10 @@ def main():
         groups[(rec["period"], rec["product"])].append(rec)
     for (p, prod), recs in sorted(groups.items(), key=lambda kv: (period_key(kv[0][0]), kv[0][1])):
         med = dict(company="Peer median", source=f"Median of {len(recs)} insurers", period=p, as_at=p, product=prod)
-        for k in [f"{m}_{t}" for m in ("dr", "lp") for t in ("5y", "10y", "30y", "ult")]:
+        for k in [f"{m}_{t}y" for m in ("dr", "lp") for t in PT]:
             vals = [rec[k] for rec in recs if rec[k] is not None]
             med[k] = round(statistics.median(vals), 2) if vals else None
-        med["ult_tenor"] = ""
+        med["last_tenor"] = ""
         med["lp_basis"] = ""
         points.append(med)
         cids = [cid for cid in NAMES if any(rec["company"] == NAMES[cid] for rec in recs)]
@@ -459,7 +450,7 @@ def main():
             if not pts:
                 if cid in dsir and label == "Year end 2025":
                     par_rows.append(dict(view=label, company=NAMES[cid], period="", as_at="", curve="No par curve filed",
-                                         dr_10y=None, dr_30y=None, dr_ult=None, flat_equivalent=None,
+                                         **{f"dr_{t}y": None for t in PT}, flat_equivalent=None,
                                          dsir=float(dsir[cid]["dsir_" + year]), dsir_less_flat_bp=None))
                 continue
             curve = {t: v[0] for t, v in pts.items()}
@@ -468,8 +459,7 @@ def main():
             par_rows.append(dict(
                 view=label, company=NAMES[cid], period=p, as_at=("Oct FY " if cid in OCT_FY else "") + p,
                 curve="Par curve (OSFI)" if cid in PRIMARY else "All-products curve (annual report)",
-                dr_10y=at(pts, 10, 0), dr_30y=at(pts, 30, 0),
-                dr_ult=fwd_ult.get((cid, p, "Participating", max(pts)), pts[max(pts)][0]), flat_equivalent=fe,
+                **{f"dr_{t}y": at(pts, t, 0) for t in PT}, flat_equivalent=fe,
                 dsir=d, dsir_less_flat_bp=round((d - fe) * 100) if d is not None else None))
     write("par_vs_dividend_rate.csv", par_rows)
 
