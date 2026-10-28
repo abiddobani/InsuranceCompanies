@@ -5,6 +5,7 @@ How the 20 peer insurers' IFRS 17 discount curves and illiquidity premiums compa
 | File | What it holds |
 | --- | --- |
 | `build.py` | Normalises OSFI LF2 curves, adds the annual-report curves, works out premiums and the liability each curve implies, and writes the files below |
+| `make_pdf.py` | Prints the by-product pages (tables, curve charts, par vs dividend rate, premiums, RBC Life over time) as a landscape PDF: `python3 analysis/discount_curves/make_pdf.py [period] [out.pdf]` |
 | `disclosed_curves.csv` | Least and most illiquid curves copied from the 2025 annual reports of iA, Desjardins, Beneva and Assumption Life (year ends 2024 and 2025), with the document and page |
 | `curves_normalised.csv` | Every curve point (company, quarter, region, line of business, tenor) with the risk-free rate, discount rate and illiquidity premium side by side, and how each was obtained |
 | `landscape_2025q4.csv` | One row per insurer at year end 2025: headline curve at 1, 5, 10, 20, 30 and 70 years, premiums at the same tenors, ultimate risk-free rate, and the liability on its curve vs the peer median |
