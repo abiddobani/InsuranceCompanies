@@ -51,6 +51,9 @@ Work in progress: an aggregated dataset of investor relations documents, OSFI re
 | `data/osfi/balance_sheet_assets.csv` | LF1 asset lines (current period) per entity and quarter, $000s |
 | `data/osfi/invested_assets.csv` | LF2 investment schedule at balance sheet value per entity and quarter, $000s: bonds by issuer type and investment grade vs below, mortgages, preferred and common shares, other loans, other invested assets |
 | `data/osfi/licat_ratios.csv` | LCQ LICAT summary per entity and quarter: total and core ratio (%), available capital, surplus allowance, eligible deposits, base solvency buffer and its components ($000s) |
+| `data/osfi/discount_curves.csv` | LF2 IFRS 17 discount curves, long format: risk-free rates, liquidity premiums and discount rates by line of business (par, non-par individual and group insurance, annuities, seg funds, reinsurance), Canada and U.S.A., tenors 1 to 80 years (%) |
+| `scripts/fetch_sec.py` | Downloads SEC EDGAR 40-F and 6-K filings for issuers whose sites refuse the script (Manulife; Bank of Montreal for BMO Life). Needs `SEC_CONTACT=<email>`; `--retag` re-reads downloaded filings to tag their fiscal quarter |
+| `scripts/coverage_summary.py` | Writes `COVERAGE.md` and `data/coverage_summary.csv`: per company, OSFI quarters available and which fiscal quarters have documents |
 | `data/osfi/entities_seen.csv` | Every OSFI entity name and the company it was mapped to |
 
 Notes:
@@ -58,7 +61,7 @@ Notes:
 - Five of the 20 are not OSFI-regulated, so OSFI data does not cover them: iA, Desjardins, Beneva, Humania and UV report to Quebec's AMF (CARLI), and Assumption Life to New Brunswick's FCNB.
 - OSFI's annual LICAT extract (LCA) only carries contractual service margin lines, but the quarterly extract (LCQ) has the full LICAT summary for every OSFI-regulated entity; it matches Empire Life's Q2 2026 MD&A to the $MM. AMF- and FCNB-regulated companies' ratios come from their own disclosures.
 - OSFI data point addresses are a 5-digit page, 3-digit row and 2-digit column (e.g. LF2 `P2101247940`: page 21012, row 479, column 40).
-- Manulife's site refuses the download script (HTTP 403), so Manulife documents are listed in the index but not downloaded.
+- Manulife's site and bmo.com refuse the download script, so their documents come from SEC EDGAR instead. BMO Life publishes no reports of its own; BMO Financial Group reports it within Wealth Management, and its OSFI data covers the life company itself.
 - Canada Protection Plan is a Foresters business with no separate financials; ivari is owned by Sagicor Financial and publishes no company financial statements.
 
-To build the files: `python3 scripts/fetch_osfi.py` and `python3 scripts/download_documents.py --crawl`. Both need open internet access.
+To build the files: `python3 scripts/fetch_osfi.py`, `python3 scripts/download_documents.py --crawl`, `SEC_CONTACT=<email> python3 scripts/fetch_sec.py`, then `python3 scripts/coverage_summary.py`. Both need open internet access.

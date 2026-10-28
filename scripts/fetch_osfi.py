@@ -19,6 +19,10 @@ into osfi/raw/, then for fiscal 2023 onward (IFRS 17 basis) writes:
                                    and core ratio (%), available capital, tier 1/2,
                                    surplus allowance, eligible deposits, base
                                    solvency buffer and its components
+  data/osfi/discount_curves.csv    LF2 IFRS 17 discount curves in long format:
+                                   risk-free rates, liquidity premiums and discount
+                                   rates by line of business, Canada and U.S.A.,
+                                   tenors 1 to 80 years (%)
   data/osfi/entities_seen.csv      every entity name in the files and the
                                    company_id it was mapped to (check this)
 
@@ -50,6 +54,10 @@ PIVOTS = {
     "invested_assets.csv": ("LF2", "P21012", "40"),
     "licat_ratios.csv": ("LCQ", "D10100", ""),
 }
+# LF2 "Risk free rates and liquidity premium by line of business" pages:
+# page -> region. Labels end "..., Year 20 (%), <curve>".
+DISCOUNT_PAGES = {"P35035": "Canada", "P35045": "U.S.A.", "P35055": "Canada", "P35065": "U.S.A."}
+
 # Identify the script honestly; open.canada.ca rejects a bare "Mozilla/5.0".
 USER_AGENT = "InsuranceCompanies-dataset/1.0 (+https://github.com/abiddobani/InsuranceCompanies)"
 
@@ -129,6 +137,7 @@ def extract():
     # file -> (company_id, entity, year, q) -> {address: value}; file -> {address: label}
     pivot = {f: collections.defaultdict(dict) for f in PIVOTS}
     pivot_labels = {f: {} for f in PIVOTS}
+    curves = []
     for ret in RETURNS:
         path = os.path.join(RAW, f"life_insurance_companies_quarterly_{ret.lower()}.csv")
         if not os.path.exists(path):
@@ -166,6 +175,11 @@ def extract():
                         if ret == p_ret and len(addr) == 11 and addr.startswith(page) and addr.endswith(column):
                             pivot_labels[fname][addr] = clean_label(row[c_label])
                             pivot[fname][(cid, ent, year, q)][addr] = row[c_val]
+                    if ret == "LF2" and addr[:6] in DISCOUNT_PAGES:
+                        m = re.search(r"Year (\d+) \(%\), (.*)$", re.sub(r"\s+", " ", row[c_label]))
+                        if m:
+                            curves.append([cid, ent, year, q, DISCOUNT_PAGES[addr[:6]],
+                                           m.group(2).strip(), int(m.group(1)), row[c_val], addr])
             print(f"{ret}: {n} rows -> {os.path.relpath(out_path, ROOT)}")
 
     for fname, rows in pivot.items():
@@ -178,6 +192,12 @@ def extract():
             for key in sorted(rows):
                 w.writerow(list(key) + [rows[key].get(a, "") for a in addrs])
         print(f"{fname}: {len(rows)} entity-quarters x {len(addrs)} lines")
+    with open(os.path.join(OUT, "discount_curves.csv"), "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f, lineterminator="\n")
+        w.writerow(["company_id", "entity", "fiscal_year", "quarter", "region", "curve",
+                    "tenor_years", "rate_pct", "address"])
+        w.writerows(sorted(curves, key=lambda r: r[:7]))
+    print(f"discount_curves.csv: {len(curves)} points")
     with open(os.path.join(OUT, "entities_seen.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f, lineterminator="\n")
         w.writerow(["entity", "company_id", "rows_since_2023"])
