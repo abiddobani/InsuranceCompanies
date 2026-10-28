@@ -1,0 +1,65 @@
+entity,company_id,rows_since_2023
+AWP Health & Life SA,,2679
+Aetna Life Insurance Company,,3953
+Alan CA Inc.,,646
+Allianz Life Insurance Company of North America,,1323
+Allstate Life Insurance Company of Canada,,471
+American Bankers Life Assurance Company of Florida,,5819
+American Health and Life Insurance Company,,3338
+American Income Life Insurance Company,,3980
+BMO Life Assurance Company,bmo_life,9191
+BMO Life Insurance Company,bmo_life,4533
+Blue Cross Life Insurance Company of Canada,,8426
+Blumont Annuity Company,,3060
+British Insurance Company of Cayman,,3143
+Brookfield Annuity Company,,4477
+CIBC Life Insurance Company Limited,,4953
+CIGNA Life Insurance Company of Canada,,7610
+Canadian Premier Life Insurance Company,canadian_premier,8960
+Chubb Life Insurance Company of Canada,,7638
+Co-operators Life Insurance Company,cooperators_life,14338
+Combined Insurance Company of America,,4228
+CompCorp Life Insurance Company,,1375
+Connecticut General Life Insurance Company,,4385
+Employers Reassurance Corporation,,4019
+Foresters Life Insurance Company,foresters_life,9850
+General Re Life Corporation,,3418
+Green Shield Canada Insurance,,2423
+Hannover Re (Ireland) Designated Activity Company,,5099
+Jackson National Life Insurance Company,,2137
+Life Insurance Company of North America,,3333
+MD Life Insurance Company,,1871
+Manulife Assurance Company of Canada,manulife,5379
+Manulife Financial Corporation,manulife,13428
+Metropolitan Life Insurance Company,,406
+Metropolitan Tower Life Insurance Company,,4299
+Munich Reinsurance Company,,6877
+New York Life Insurance Company,,5295
+Pacific Life Re International Limited,,4993
+Pacific Life Re Limited,,87
+PartnerRe Life Reinsurance Company of Canada,,7678
+Pavonia Life Insurance Company of Michigan,,2133
+Primerica Life Insurance Company of Canada,primerica_life,7022
+RBC Life Insurance Company,rbc_life,9411
+RGA Life Reinsurance Company of Canada,,10551
+ReliaStar Life Insurance Company,,1580
+Reliable Life Insurance Company,,4789
+SCOR SE,,6344
+Scotia Life Insurance Company,,1116
+Sun Life Assurance Company of Canada,sun_life,18438
+Sun Life Financial Inc.,sun_life,12596
+Sun Life Insurance (Canada) Limited,sun_life,8101
+Swiss Reinsurance Company Ltd,,7108
+TD Life Insurance Company,,6614
+The Canada Life Assurance Company,canada_life,17464
+The Canada Life Insurance Company of Canada,canada_life,8396
+The Empire Life Insurance Company,empire_life,13849
+The Equitable Life Insurance Company of Canada,equitable_life,11117
+The Manufacturers Life Insurance Company,manulife,19124
+The Wawanesa Life Insurance Company,wawanesa_life,9354
+Total Canadian Life Companies,industry_total,24008
+Total Foreign Life Companies,industry_total,10726
+TruStage Life of Canada,,6545
+United American Insurance Company,,221
+Wilton Re (Canada) Limited,,78
+ivari,ivari,7429

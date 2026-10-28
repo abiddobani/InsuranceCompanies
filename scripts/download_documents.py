@@ -28,8 +28,8 @@ MANIFEST = os.path.join(ROOT, "sources", "ir_documents.csv")
 SEEDS = os.path.join(ROOT, "sources", "seed_pages.csv")
 INDEX = os.path.join(ROOT, "data", "document_index.csv")
 DOCS = os.path.join(ROOT, "docs")
-UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
-      "(KHTML, like Gecko) Chrome/128.0 Safari/537.36")
+# Identify the script honestly; sites that refuse it are recorded as gaps.
+UA = "InsuranceCompanies-dataset/1.0 (+https://github.com/abiddobani/InsuranceCompanies)"
 FILE_EXT = (".pdf", ".xlsx", ".xls", ".csv")
 YEARS = ("2023", "2024", "2025", "2026")
 INDEX_FIELDS = ["company_id", "fiscal_year", "period", "doc_type", "title", "url",
@@ -67,31 +67,48 @@ def guess_period(text):
     return year, quarter
 
 
+def is_out_of_range(text):
+    """True when the link names only years before 2023 (e.g. a 2021 annual report)."""
+    years = set(re.findall(r"(?<!\d)(20[0-3]\d)(?!\d)", text))
+    years |= {"20" + y for y in re.findall(r"q[1-4][-_]?(2[0-9])\b", text.lower())}  # q422
+    return bool(years) and not years & set(YEARS)
+
+
 def crawl(seeds, companies):
     """Collect document links from seed pages with Playwright (JS-rendered pages)."""
-    from playwright.sync_api import sync_playwright  # preinstalled in Claude cloud envs
+    from playwright.sync_api import sync_playwright  # pip install playwright
 
     found = []
     with sync_playwright() as p:
-        browser = p.chromium.launch()
-        page = browser.new_page(user_agent=UA)
+        # Claude cloud envs ship one Chromium build; point at it if the pip
+        # playwright package expects a different one.
+        exe = os.environ.get("CHROMIUM_PATH", "/opt/pw-browsers/chromium")
+        browser = p.chromium.launch(executable_path=exe if os.path.exists(exe) else None)
         for seed in seeds:
             if companies and seed["company_id"] not in companies:
                 continue
+            # A fresh tab per seed: a page that timed out keeps navigating and
+            # would otherwise interrupt every later goto.
+            page = browser.new_page()
             try:
-                page.goto(seed["url"], wait_until="networkidle", timeout=60000)
+                page.goto(seed["url"], wait_until="domcontentloaded", timeout=45000)
+                page.wait_for_timeout(4000)  # let JS-built link lists render
+                links = page.eval_on_selector_all(
+                    "a[href]", "els => els.map(e => [e.href, (e.innerText || '').trim()])")
             except Exception as e:  # keep going; record nothing for this seed
                 print(f"  crawl failed {seed['url']}: {e}", file=sys.stderr)
                 continue
-            links = page.eval_on_selector_all(
-                "a[href]", "els => els.map(e => [e.href, (e.innerText || '').trim()])")
+            finally:
+                page.close()
+            print(f"  crawled {len(links):>4} links  {seed['url']}", file=sys.stderr)
             for href, text in links:
+                href = urllib.parse.urldefrag(href)[0]
                 path = urllib.parse.urlparse(href).path.lower()
                 if not path.endswith(FILE_EXT) and "/download" not in path and "getmedia" not in path:
                     continue
-                year, period = guess_period(href + " " + text)
-                if year and year not in YEARS:
+                if is_out_of_range(href + " " + text):
                     continue
+                year, period = guess_period(href + " " + text)
                 found.append({"company_id": seed["company_id"], "fiscal_year": year,
                               "period": period, "doc_type": guess_doc_type(href + " " + text),
                               "title": text[:200], "url": href, "found_via": "crawl"})
@@ -108,7 +125,9 @@ def local_name(row, url, content_type):
     return name
 
 
-def fetch(row, dest_root):
+def fetch(row, dest_root, stored):
+    """Download one URL. stored maps sha256 -> local path, so identical files
+    reached from different URLs are kept once."""
     url = row["url"]
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "*/*"})
     try:
@@ -124,11 +143,18 @@ def fetch(row, dest_root):
     year = row["fiscal_year"] or "undated"
     folder = os.path.join(dest_root, row["company_id"], year)
     os.makedirs(folder, exist_ok=True)
+    sha = hashlib.sha256(body).hexdigest()
+    meta = {"bytes": len(body), "sha256": sha, "content_type": ctype}
+    if sha in stored:
+        return {"status": "duplicate", "local_path": stored[sha], **meta}
     path = os.path.join(folder, local_name(row, url, ctype))
+    if os.path.exists(path):  # same file name, different content
+        stem, ext = os.path.splitext(path)
+        path = f"{stem}-{sha[:8]}{ext}"
     with open(path, "wb") as f:
         f.write(body)
-    return {"status": "ok", "local_path": os.path.relpath(path, ROOT), "bytes": len(body),
-            "sha256": hashlib.sha256(body).hexdigest(), "content_type": ctype}
+    stored[sha] = os.path.relpath(path, ROOT)
+    return {"status": "ok", "local_path": stored[sha], **meta}
 
 
 def main():
@@ -149,15 +175,17 @@ def main():
     if os.path.exists(INDEX):  # resume: keep earlier successes
         done = {r["url"]: r for r in read_csv(INDEX) if r["status"] == "ok"}
 
+    stored = {r["sha256"]: r["local_path"] for r in done.values()}
     seen, out = set(), []
     for row in rows:
+        row["url"] = urllib.parse.urldefrag(row["url"])[0]
         if row["url"] in seen:
             continue
         seen.add(row["url"])
         if row["url"] in done:
             out.append(done[row["url"]])
             continue
-        result = fetch(row, args.dest)
+        result = fetch(row, args.dest, stored)
         print(f"{result['status']:>12}  {row['company_id']:<18} {row['url']}")
         out.append({**{k: row.get(k, "") for k in INDEX_FIELDS}, **result})
         time.sleep(args.delay)

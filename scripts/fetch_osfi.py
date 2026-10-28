@@ -8,9 +8,17 @@ into osfi/raw/, then for fiscal 2023 onward (IFRS 17 basis) writes:
                                    OSFI entities plus the industry totals
   data/osfi/balance_sheet_assets.csv
                                    LF1 asset-side lines (current period) pivoted
-                                   to one row per entity and quarter, i.e. the
-                                   invested-asset mix (cash, bonds, mortgages,
-                                   equities, real estate, derivatives, ...)
+                                   to one row per entity and quarter (cash,
+                                   investments total, derivatives, investment
+                                   properties, seg funds, ...)
+  data/osfi/invested_assets.csv    LF2 investment schedule (balance sheet value)
+                                   pivoted the same way: bonds by issuer type and
+                                   IG/below-IG, mortgages, preferred and common
+                                   shares, other loans, other invested assets
+  data/osfi/licat_ratios.csv       LCQ LICAT summary pivoted the same way: total
+                                   and core ratio (%), available capital, tier 1/2,
+                                   surplus allowance, eligible deposits, base
+                                   solvency buffer and its components
   data/osfi/entities_seen.csv      every entity name in the files and the
                                    company_id it was mapped to (check this)
 
@@ -31,9 +39,19 @@ RAW = os.path.join(ROOT, "osfi", "raw")
 OUT = os.path.join(ROOT, "data", "osfi")
 RETURNS = ("LF1", "LF2", "LF3", "LCA", "LCQ")
 FIRST_YEAR = 2023
-# LF1 data point addresses look like P2000201001: page 20002 (assets), row 01,
-# column 001 (current period). Check entities_seen/labels output if OSFI changes this.
-ASSET_PAGE, CURRENT_COL = "P20002", "001"
+# Data point addresses are P + 5-digit page + 3-digit row + 2-digit column.
+# Pivots written to data/osfi: file -> (return, page, column). Values are $000s.
+#   LF1 P2000201001: page 20002 (assets), row 010, column 01 (current period, total).
+#   LF2 P2101247940: page 21012 (investments), row 479, column 40 (balance
+#   sheet value = FVTPL + FVOCI + amortized cost + ...).
+#   LCQ D1010010020: page D10100 (LICAT summary), one column; ratios are in %.
+PIVOTS = {
+    "balance_sheet_assets.csv": ("LF1", "P20002", "01"),
+    "invested_assets.csv": ("LF2", "P21012", "40"),
+    "licat_ratios.csv": ("LCQ", "D10100", ""),
+}
+# Identify the script honestly; open.canada.ca rejects a bare "Mozilla/5.0".
+USER_AGENT = "InsuranceCompanies-dataset/1.0 (+https://github.com/abiddobani/InsuranceCompanies)"
 
 # Patterns on normalized OSFI entity names -> company_id from data/companies.csv
 ENTITY_PATTERNS = [
@@ -64,6 +82,14 @@ def company_for(entity):
     return next((cid for pat, cid in ENTITY_PATTERNS if re.search(pat, n)), "")
 
 
+def clean_label(label):
+    """'LF2: Mortgage Loans, Balance Sheet Value\nCol. 11+16...' -> 'Mortgage Loans'"""
+    label = re.sub(r"\s+", " ", label).strip()
+    label = re.sub(r"^LF\d: |^LCQ, LICAT Ratios, Summary Calculations, ", "", label)
+    label = re.sub(r",\s*(Balance Sheet Value|Current Period).*$", "", label)
+    return label.replace("Coporate", "Corporate")
+
+
 def col(header, *prefixes):
     """Find a column by case-insensitive prefix (headers mix English/French)."""
     for p in prefixes:
@@ -80,13 +106,16 @@ def download(force=False):
             if r["dataset"] not in ("life_insurers", "who_we_regulate"):
                 continue
             dest = os.path.join(RAW, os.path.basename(r["url"]))
-            if os.path.exists(dest) and not force:
+            if os.path.exists(dest) and os.path.getsize(dest) > 1024 and not force:
                 continue
             print(f"downloading {r['resource']} ...")
-            req = urllib.request.Request(r["url"], headers={"User-Agent": "Mozilla/5.0"})
-            with urllib.request.urlopen(req, timeout=600) as resp, open(dest, "wb") as out:
-                while chunk := resp.read(1 << 20):
-                    out.write(chunk)
+            req = urllib.request.Request(r["url"], headers={"User-Agent": USER_AGENT})
+            with urllib.request.urlopen(req, timeout=600) as resp:
+                if "html" in resp.headers.get("Content-Type", ""):
+                    raise RuntimeError(f"{r['url']} returned an HTML page, not data")
+                with open(dest, "wb") as out:
+                    while chunk := resp.read(1 << 20):
+                        out.write(chunk)
 
 
 def quarter_of(value):
@@ -97,8 +126,9 @@ def quarter_of(value):
 def extract():
     os.makedirs(OUT, exist_ok=True)
     entities = collections.Counter()
-    assets = collections.defaultdict(dict)  # (company_id, entity, year, q) -> {label: value}
-    asset_labels = {}
+    # file -> (company_id, entity, year, q) -> {address: value}; file -> {address: label}
+    pivot = {f: collections.defaultdict(dict) for f in PIVOTS}
+    pivot_labels = {f: {} for f in PIVOTS}
     for ret in RETURNS:
         path = os.path.join(RAW, f"life_insurance_companies_quarterly_{ret.lower()}.csv")
         if not os.path.exists(path):
@@ -132,24 +162,27 @@ def extract():
                     w.writerow([cid, ent, year, q, ret, row[c_addr], row[c_label], row[c_val]])
                     n += 1
                     addr = row[c_addr]
-                    if ret == "LF1" and addr.startswith(ASSET_PAGE) and addr.endswith(CURRENT_COL):
-                        asset_labels[addr] = row[c_label]
-                        assets[(cid, ent, year, q)][addr] = row[c_val]
+                    for fname, (p_ret, page, column) in PIVOTS.items():
+                        if ret == p_ret and len(addr) == 11 and addr.startswith(page) and addr.endswith(column):
+                            pivot_labels[fname][addr] = clean_label(row[c_label])
+                            pivot[fname][(cid, ent, year, q)][addr] = row[c_val]
             print(f"{ret}: {n} rows -> {os.path.relpath(out_path, ROOT)}")
 
-    addrs = sorted(asset_labels)
-    with open(os.path.join(OUT, "balance_sheet_assets.csv"), "w", newline="", encoding="utf-8") as f:
-        w = csv.writer(f)
-        w.writerow(["company_id", "entity", "fiscal_year", "quarter"] + [asset_labels[a] for a in addrs])
-        w.writerow(["", "", "", "address"] + addrs)
-        for key in sorted(assets):
-            w.writerow(list(key) + [assets[key].get(a, "") for a in addrs])
+    for fname, rows in pivot.items():
+        labels = pivot_labels[fname]
+        addrs = sorted(labels)
+        with open(os.path.join(OUT, fname), "w", newline="", encoding="utf-8") as f:
+            w = csv.writer(f, lineterminator="\n")
+            w.writerow(["company_id", "entity", "fiscal_year", "quarter"] + [labels[a] for a in addrs])
+            w.writerow(["", "", "", "address"] + addrs)
+            for key in sorted(rows):
+                w.writerow(list(key) + [rows[key].get(a, "") for a in addrs])
+        print(f"{fname}: {len(rows)} entity-quarters x {len(addrs)} lines")
     with open(os.path.join(OUT, "entities_seen.csv"), "w", newline="", encoding="utf-8") as f:
-        w = csv.writer(f)
+        w = csv.writer(f, lineterminator="\n")
         w.writerow(["entity", "company_id", "rows_since_2023"])
         for (ent, cid), n in sorted(entities.items()):
             w.writerow([ent, cid, n])
-    print(f"balance_sheet_assets.csv: {len(assets)} entity-quarters x {len(addrs)} lines")
 
 
 def main():

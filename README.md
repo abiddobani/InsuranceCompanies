@@ -44,12 +44,21 @@ Work in progress: an aggregated dataset of investor relations documents, OSFI re
 | `sources/seed_pages.csv` | Each company's reports pages, for the crawler |
 | `sources/osfi_datasets.csv` | OSFI open data resources (LF1, LF2, LF3, LCA, LCQ returns, data dictionary) and guidance |
 | `scripts/download_documents.py` | Downloads every indexed document into `docs/<company>/<year>/` and writes `data/document_index.csv`; `--crawl` also discovers links on the seed pages with a headless browser |
-| `scripts/fetch_osfi.py` | Downloads OSFI life insurer open data into `osfi/raw/` and extracts the core companies from 2023 on into `data/osfi/`, including a pivot of LF1 balance sheet assets (investment mix) per entity and quarter |
+| `scripts/fetch_osfi.py` | Downloads OSFI life insurer open data into `osfi/raw/` and extracts the core companies from 2023 on into `data/osfi/` |
+| `docs/<company>/<year>/` | The downloaded documents (stored with Git LFS; run `git lfs pull` after cloning) |
+| `data/document_index.csv` | One row per document URL tried: status (`ok`, `duplicate`, `http_404`, `http_403`, ...), local path, size and SHA-256 |
+| `data/osfi/<RETURN>_core.csv.gz` | Every OSFI data point for the core companies' entities and the industry totals, fiscal 2023 on (LF1, LF2, LF3, LCA, LCQ) |
+| `data/osfi/balance_sheet_assets.csv` | LF1 asset lines (current period) per entity and quarter, $000s |
+| `data/osfi/invested_assets.csv` | LF2 investment schedule at balance sheet value per entity and quarter, $000s: bonds by issuer type and investment grade vs below, mortgages, preferred and common shares, other loans, other invested assets |
+| `data/osfi/licat_ratios.csv` | LCQ LICAT summary per entity and quarter: total and core ratio (%), available capital, surplus allowance, eligible deposits, base solvency buffer and its components ($000s) |
+| `data/osfi/entities_seen.csv` | Every OSFI entity name and the company it was mapped to |
 
 Notes:
 
 - Five of the 20 are not OSFI-regulated, so OSFI data does not cover them: iA, Desjardins, Beneva, Humania and UV report to Quebec's AMF (CARLI), and Assumption Life to New Brunswick's FCNB.
-- OSFI's public LICAT extract (LCA) only carries contractual service margin lines, so LICAT ratios come from each company's own disclosures.
+- OSFI's annual LICAT extract (LCA) only carries contractual service margin lines, but the quarterly extract (LCQ) has the full LICAT summary for every OSFI-regulated entity; it matches Empire Life's Q2 2026 MD&A to the $MM. AMF- and FCNB-regulated companies' ratios come from their own disclosures.
+- OSFI data point addresses are a 5-digit page, 3-digit row and 2-digit column (e.g. LF2 `P2101247940`: page 21012, row 479, column 40).
+- Manulife's site refuses the download script (HTTP 403), so Manulife documents are listed in the index but not downloaded.
 - Canada Protection Plan is a Foresters business with no separate financials; ivari is owned by Sagicor Financial and publishes no company financial statements.
 
 To build the files: `python3 scripts/fetch_osfi.py` and `python3 scripts/download_documents.py --crawl`. Both need open internet access.
