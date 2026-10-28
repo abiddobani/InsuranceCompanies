@@ -376,6 +376,27 @@ def main():
             if r["dr_filed_forward"] is not None:
                 fwd_ult[(r["company_id"], r["period"], prod, r["tenor"])] = r["dr_filed_forward"]
 
+    # Par: Abid asked (2026-10-28) to use each insurer's dividend scale interest rate (DSIR) as its par discount
+    # rate, flat at every tenor, in place of the filed par curve; the premium is the DSIR less the risk-free curve.
+    # The filed par curves are kept for the comparison in par_vs_dividend_rate.csv.
+    dsir = {}
+    with open(os.path.join(HERE, "dsir.csv"), encoding="utf-8") as f:
+        for r in csv.DictReader(f):
+            dsir[r["company_id"]] = r
+    filed_par = {k: prod_curves.pop(k) for k in [k for k in prod_curves if k[2] == "Participating"]}
+    PAR_TENORS = [1, 2, 5, 10, 20, 30, 60, 70, 80]
+    calendar_periods = {k[1] for k in prod_curves if k[0] in PRIMARY and k[0] not in OCT_FY}
+    for cid in dsir:
+        # The DSIR is public every year, so insurers without quarterly filings get every calendar quarter
+        own = {k[1] for k in prod_curves if k[0] == cid}
+        for p in (own if cid in PRIMARY else calendar_periods):
+            d = float(dsir[cid][f"dsir_{p[:4]}"])
+            pts = {}
+            for t in PAR_TENORS:
+                base = rfr.get((cid, p, "Canada", t), peer_rfr(p, "Canada", t))
+                pts[t] = (d, round(d - base, 2) if base is not None else None)
+            prod_curves[(cid, p, "Participating")] = pts
+
     def at(pts, t, i):
         ts = [k for k in sorted(pts) if pts[k][i] is not None]
         return round(float(np.interp(t, ts, [pts[k][i] for k in ts])), 2) if ts else None
@@ -384,18 +405,19 @@ def main():
     points, curve_rows = [], []
     for (cid, p, prod), pts in sorted(prod_curves.items(), key=lambda kv: (NAMES[kv[0][0]], period_key(kv[0][1]), kv[0][2])):
         ult = max(pts)
-        rec = dict(company=NAMES[cid], source="OSFI LF2" if cid in PRIMARY else "Annual report, all products",
+        rec = dict(company=NAMES[cid], source=f"Dividend scale interest rate {p[:4]}" if prod == "Participating" else
+                   "OSFI LF2" if cid in PRIMARY else "Annual report, all products",
                    period=p, as_at=("Oct FY " if cid in OCT_FY else "") + p, product=prod)
         rec.update({f"dr_{t}y": at(pts, t, 0) for t in PT})
         rec["dr_ult"] = pts[ult][0]
         rec.update({f"lp_{t}y": at(pts, t, 1) for t in PT})
         rec["lp_ult"] = pts[ult][1]
         rec["ult_tenor"] = ult
-        if (cid, p, prod, ult) in fwd_ult:  # spot is still converging at 80y; the ultimate is the filed forward
+        if prod != "Participating" and (cid, p, prod, ult) in fwd_ult:  # spot is still converging at 80y; the ultimate is the filed forward
             rec["dr_ult"] = fwd_ult[(cid, p, prod, ult)]
             base = peer_rfr(p, "Canada", ult)
             rec["lp_ult"] = round(rec["dr_ult"] - base, 2) if base is not None else None
-        rec["lp_basis"] = "Own risk-free curve" if cid in PRIMARY and cid not in FORWARD_FILERS else \
+        rec["lp_basis"] = "Own risk-free curve" if (cid, p, "Canada", 30) in rfr else \
             "Peer median risk-free (estimate)"
         points.append(rec)
         for t in sorted(set(pts) | {80}):
@@ -428,16 +450,12 @@ def main():
     write("product_curves.csv", curve_rows)
 
     # Par: each insurer's par discount curve against the dividend scale interest rate it credits policyholders
-    dsir = {}
-    with open(os.path.join(HERE, "dsir.csv"), encoding="utf-8") as f:
-        for r in csv.DictReader(f):
-            dsir[r["company_id"]] = r
     par_rows = []
     for label, period_of, year in (("Year end 2025", lambda cid: "2025Q4", "2025"),
                                     ("Latest quarter", lambda cid: latest_p.get(cid), "2026")):
         for cid in NAMES:
             p = period_of(cid)
-            pts = prod_curves.get((cid, p, "Participating")) if p else None
+            pts = filed_par.get((cid, p, "Participating")) if p else None
             if not pts:
                 if cid in dsir and label == "Year end 2025":
                     par_rows.append(dict(view=label, company=NAMES[cid], period="", as_at="", curve="No par curve filed",

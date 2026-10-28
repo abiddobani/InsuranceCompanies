@@ -26,5 +26,6 @@ Method, in short:
 - BMO Life and RBC Life file on an October fiscal year.
 - By product: annual-report insurers publish one curve for all products, so they appear under every product. RBC Life's ultimate rate is its filed 80-year forward rate, since its spot curve is still converging at 80 years.
 - RBC Life's par line was one flat rate (about 5.4%) at every tenor until fiscal Q4 2025, repeated unchanged across 2024Q3-Q4 and 2025Q1-Q3, with stray 70-year values (3.38%, 3.60%) that are dropped and logged in anomalies.csv. Flat curves are used as filed; from fiscal Q4 2025 the par line has the same forward shape as RBC's other lines and is converted to spot.
+- Par (by product files): each insurer's dividend scale interest rate for the year, flat at every tenor, replaces the filed par curve; the par premium is that rate less the risk-free curve. Insurers with no published dividend scale (ivari, Wawanesa Life, Beneva) are left out of par. The filed par curves remain in curves_normalised.csv and par_vs_dividend_rate.csv.
 - Flat-equivalent rate: the single rate that gives the stylised liability the same value as the curve.
 - Not covered: Humania and UV Insurance publish only summary financial statements; Canada Protection Plan is a Foresters business.
