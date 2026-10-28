@@ -1,0 +1,435 @@
+company_id,fiscal_year,period,doc_type,title,url,found_via
+assumption_life,2025,FY,annual_report,2025 complete annual report,https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf,ir_page
+assumption_life,2025,FY,climate_disclosure,B-15 climate-related risk disclosures,https://www.assomption.ca/getmedia/5944e22f-35b9-4b80-8f03-734618540fe8/Assomption-Vie-B15-Implementation_Reporting-template-May-20-2026_ENG.pdf,ir_page
+assumption_life,2025,FY,financial_statements,2025 financial statements (FIA YE2025 EFS),"https://www.assomption.ca/getmedia/960f1934-96db-4e8c-8723-717943948379/FIA-YE2025-EFS-FINAL-EN-(April-28,-2026).pdf",search
+assumption_life,2024,FY,annual_report,2024 complete annual report,https://www.assomption.ca/getmedia/7655c9dd-7e95-45a7-93f7-10856a2f3212/Assomption_Vie_RA2024_EN_Long.pdf,ir_page
+assumption_life,2023,FY,annual_report,2023 complete annual report,https://www.assomption.ca/getmedia/3a5af321-d8f3-4a05-8efb-547bf6c6543b/Assomption_Vie-AnnualReportl2023.pdf,ir_page
+beneva,2025,FY,annual_report,2025 annual report,https://www.beneva.ca/en/media/20911/download,ir_page
+beneva,2024,FY,annual_report,2024 annual report,https://www.beneva.ca/en/media/19136/download,ir_page
+beneva,2023,FY,annual_report,2023 annual report,https://www.beneva.ca/en/media/17021/download,ir_page
+bmo_life,,,financial_statements,BMO Life Assurance consolidated financial statements (latest),https://www.bmo.com/advisor/PDFs/bmo-life-assurance-company-consolidated-financial-statements-e.pdf,search
+bmo_life,,,licat_disclosure,BMO Life LICAT ratios public disclosure summary (latest),https://www.bmo.com/assets/pdfs/insurance/bmo_life_insurance_company_licat_ratios_public_disclosures_summary_827e.pdf,search
+canada_life,2026,Q1,mda,The Canada Life Assurance Company Q1 2026 MD&A,https://www.canadalife.com/content/dam/canadalife/documents/corporate/annual-reports/cla-q1-2026-mda-en.pdf,pattern
+canada_life,2026,Q1,presentation,Great-West Lifeco Q1 2026 earnings call slides,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2026/q1/q1-2026-earnings-call-slides.pdf,pattern
+canada_life,2026,Q1,presentation,Great-West Lifeco Q1 2026 investor overview,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2026/q1/q1-2026-investor-overview-presentation.pdf,pattern
+canada_life,2026,Q1,presentation,Great-West Lifeco Q1 2026 earnings call slides,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2026/q1/q1-2026-earnings-call-slides.pdf,pattern
+canada_life,2026,Q1,presentation,Great-West Lifeco Q1 2026 investor overview,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2026/q1/q1-2026-investor-overview-presentation.pdf,pattern
+canada_life,2026,Q1,shareholder_report,Great-West Lifeco Q1 2026 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2026/q1/lifeco-q1-2026-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2026,Q1,shareholder_report,Great-West Lifeco Q1 2026 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2026/q1/lifeco-q1-2026-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2026,Q1,supplementary_pdf,Great-West Lifeco Q1 2026 supplemental information package,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2026/q1/q1-2026-supplement.pdf,pattern
+canada_life,2026,Q1,supplementary_pdf,Great-West Lifeco Q1 2026 supplemental information package,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2026/q1/q1-2026-supplement.pdf,pattern
+canada_life,2026,Q2,mda,The Canada Life Assurance Company Q2 2026 MD&A,https://www.canadalife.com/content/dam/canadalife/documents/corporate/annual-reports/cla-q2-2026-mda-en.pdf,pattern
+canada_life,2026,Q2,presentation,Great-West Lifeco Q2 2026 earnings call slides,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2026/q2/q2-2026-earnings-call-slides.pdf,pattern
+canada_life,2026,Q2,presentation,Great-West Lifeco Q2 2026 investor overview,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2026/q2/q2-2026-investor-overview-presentation.pdf,pattern
+canada_life,2026,Q2,presentation,Great-West Lifeco Q2 2026 earnings call slides,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2026/q2/q2-2026-earnings-call-slides.pdf,pattern
+canada_life,2026,Q2,presentation,Great-West Lifeco Q2 2026 investor overview,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2026/q2/q2-2026-investor-overview-presentation.pdf,pattern
+canada_life,2026,Q2,shareholder_report,Great-West Lifeco Q2 2026 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2026/q2/lifeco-q2-2026-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2026,Q2,shareholder_report,Great-West Lifeco Q2 2026 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2026/q2/lifeco-q2-2026-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2026,Q2,supplementary_pdf,Great-West Lifeco Q2 2026 supplemental information package,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2026/q2/q2-2026-supplement.pdf,pattern
+canada_life,2026,Q2,supplementary_pdf,Great-West Lifeco Q2 2026 supplemental information package,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2026/q2/q2-2026-supplement.pdf,pattern
+canada_life,2025,FY,mda,Great-West Lifeco 2025 annual MD&A,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2025/q4/lifeco-q4-2025-mda.pdf,pattern
+canada_life,2025,FY,mda,Great-West Lifeco 2025 annual MD&A,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2025/q4/lifeco-q4-2025-mda.pdf,pattern
+canada_life,2025,Q1,mda,The Canada Life Assurance Company Q1 2025 MD&A,https://www.canadalife.com/content/dam/canadalife/documents/corporate/annual-reports/cla-q1-2025-mda-en.pdf,pattern
+canada_life,2025,Q1,presentation,Great-West Lifeco Q1 2025 earnings call slides,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2025/q1/q1-2025-earnings-call-slides.pdf,pattern
+canada_life,2025,Q1,presentation,Great-West Lifeco Q1 2025 investor overview,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2025/q1/q1-2025-investor-overview-presentation.pdf,pattern
+canada_life,2025,Q1,presentation,Great-West Lifeco Q1 2025 earnings call slides,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2025/q1/q1-2025-earnings-call-slides.pdf,pattern
+canada_life,2025,Q1,presentation,Great-West Lifeco Q1 2025 investor overview,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2025/q1/q1-2025-investor-overview-presentation.pdf,pattern
+canada_life,2025,Q1,shareholder_report,Great-West Lifeco Q1 2025 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2025/q1/lifeco-q1-2025-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2025,Q1,shareholder_report,Great-West Lifeco Q1 2025 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2025/q1/lifeco-q1-2025-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2025,Q1,supplementary_pdf,Great-West Lifeco Q1 2025 supplemental information package,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2025/q1/q1-2025-supplement.pdf,pattern
+canada_life,2025,Q1,supplementary_pdf,Great-West Lifeco Q1 2025 supplemental information package,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2025/q1/q1-2025-supplement.pdf,pattern
+canada_life,2025,Q2,mda,The Canada Life Assurance Company Q2 2025 MD&A,https://www.canadalife.com/content/dam/canadalife/documents/corporate/annual-reports/cla-q2-2025-mda-en.pdf,pattern
+canada_life,2025,Q2,presentation,Great-West Lifeco Q2 2025 earnings call slides,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2025/q2/q2-2025-earnings-call-slides.pdf,pattern
+canada_life,2025,Q2,presentation,Great-West Lifeco Q2 2025 investor overview,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2025/q2/q2-2025-investor-overview-presentation.pdf,pattern
+canada_life,2025,Q2,presentation,Great-West Lifeco Q2 2025 earnings call slides,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2025/q2/q2-2025-earnings-call-slides.pdf,pattern
+canada_life,2025,Q2,presentation,Great-West Lifeco Q2 2025 investor overview,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2025/q2/q2-2025-investor-overview-presentation.pdf,pattern
+canada_life,2025,Q2,shareholder_report,Great-West Lifeco Q2 2025 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2025/q2/lifeco-q2-2025-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2025,Q2,shareholder_report,Great-West Lifeco Q2 2025 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2025/q2/lifeco-q2-2025-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2025,Q2,supplementary_pdf,Great-West Lifeco Q2 2025 supplemental information package,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2025/q2/q2-2025-supplement.pdf,pattern
+canada_life,2025,Q2,supplementary_pdf,Great-West Lifeco Q2 2025 supplemental information package,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2025/q2/q2-2025-supplement.pdf,pattern
+canada_life,2025,Q3,mda,The Canada Life Assurance Company Q3 2025 MD&A,https://www.canadalife.com/content/dam/canadalife/documents/corporate/annual-reports/cla-q3-2025-mda-en.pdf,pattern
+canada_life,2025,Q3,presentation,Great-West Lifeco Q3 2025 earnings call slides,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2025/q3/q3-2025-earnings-call-slides.pdf,pattern
+canada_life,2025,Q3,presentation,Great-West Lifeco Q3 2025 investor overview,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2025/q3/q3-2025-investor-overview-presentation.pdf,pattern
+canada_life,2025,Q3,presentation,Great-West Lifeco Q3 2025 earnings call slides,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2025/q3/q3-2025-earnings-call-slides.pdf,pattern
+canada_life,2025,Q3,presentation,Great-West Lifeco Q3 2025 investor overview,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2025/q3/q3-2025-investor-overview-presentation.pdf,pattern
+canada_life,2025,Q3,shareholder_report,Great-West Lifeco Q3 2025 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2025/q3/lifeco-q3-2025-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2025,Q3,shareholder_report,Great-West Lifeco Q3 2025 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2025/q3/lifeco-q3-2025-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2025,Q3,supplementary_pdf,Great-West Lifeco Q3 2025 supplemental information package,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2025/q3/q3-2025-supplement.pdf,pattern
+canada_life,2025,Q3,supplementary_pdf,Great-West Lifeco Q3 2025 supplemental information package,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2025/q3/q3-2025-supplement.pdf,pattern
+canada_life,2025,Q4,mda,The Canada Life Assurance Company Q4 2025 MD&A,https://www.canadalife.com/content/dam/canadalife/documents/corporate/annual-reports/cla-q4-2025-mda-en.pdf,pattern
+canada_life,2025,Q4,presentation,Great-West Lifeco Q4 2025 earnings call slides,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2025/q4/q4-2025-earnings-call-slides.pdf,pattern
+canada_life,2025,Q4,presentation,Great-West Lifeco Q4 2025 investor overview,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2025/q4/q4-2025-investor-overview-presentation.pdf,pattern
+canada_life,2025,Q4,presentation,Great-West Lifeco Q4 2025 earnings call slides,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2025/q4/q4-2025-earnings-call-slides.pdf,pattern
+canada_life,2025,Q4,presentation,Great-West Lifeco Q4 2025 investor overview,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2025/q4/q4-2025-investor-overview-presentation.pdf,pattern
+canada_life,2025,Q4,shareholder_report,Great-West Lifeco Q4 2025 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2025/q4/lifeco-q4-2025-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2025,Q4,shareholder_report,Great-West Lifeco Q4 2025 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2025/q4/lifeco-q4-2025-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2025,Q4,supplementary_pdf,Great-West Lifeco Q4 2025 supplemental information package,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2025/q4/q4-2025-supplement.pdf,pattern
+canada_life,2025,Q4,supplementary_pdf,Great-West Lifeco Q4 2025 supplemental information package,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2025/q4/q4-2025-supplement.pdf,pattern
+canada_life,2024,FY,mda,Great-West Lifeco 2024 annual MD&A,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2024/q4/lifeco-q4-2024-mda.pdf,pattern
+canada_life,2024,FY,mda,Great-West Lifeco 2024 annual MD&A,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2024/q4/lifeco-q4-2024-mda.pdf,pattern
+canada_life,2024,Q1,mda,The Canada Life Assurance Company Q1 2024 MD&A,https://www.canadalife.com/content/dam/canadalife/documents/corporate/annual-reports/cla-q1-2024-mda-en.pdf,pattern
+canada_life,2024,Q1,presentation,Great-West Lifeco Q1 2024 earnings call slides,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2024/q1/q1-2024-earnings-call-slides.pdf,pattern
+canada_life,2024,Q1,presentation,Great-West Lifeco Q1 2024 investor overview,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2024/q1/q1-2024-investor-overview-presentation.pdf,pattern
+canada_life,2024,Q1,presentation,Great-West Lifeco Q1 2024 earnings call slides,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2024/q1/q1-2024-earnings-call-slides.pdf,pattern
+canada_life,2024,Q1,presentation,Great-West Lifeco Q1 2024 investor overview,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2024/q1/q1-2024-investor-overview-presentation.pdf,pattern
+canada_life,2024,Q1,shareholder_report,Great-West Lifeco Q1 2024 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2024/q1/lifeco-q1-2024-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2024,Q1,shareholder_report,Great-West Lifeco Q1 2024 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2024/q1/lifeco-q1-2024-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2024,Q1,supplementary_pdf,Great-West Lifeco Q1 2024 supplemental information package,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2024/q1/q1-2024-supplement.pdf,pattern
+canada_life,2024,Q1,supplementary_pdf,Great-West Lifeco Q1 2024 supplemental information package,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2024/q1/q1-2024-supplement.pdf,pattern
+canada_life,2024,Q2,mda,The Canada Life Assurance Company Q2 2024 MD&A,https://www.canadalife.com/content/dam/canadalife/documents/corporate/annual-reports/cla-q2-2024-mda-en.pdf,pattern
+canada_life,2024,Q2,presentation,Great-West Lifeco Q2 2024 earnings call slides,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2024/q2/q2-2024-earnings-call-slides.pdf,pattern
+canada_life,2024,Q2,presentation,Great-West Lifeco Q2 2024 investor overview,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2024/q2/q2-2024-investor-overview-presentation.pdf,pattern
+canada_life,2024,Q2,presentation,Great-West Lifeco Q2 2024 earnings call slides,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2024/q2/q2-2024-earnings-call-slides.pdf,pattern
+canada_life,2024,Q2,presentation,Great-West Lifeco Q2 2024 investor overview,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2024/q2/q2-2024-investor-overview-presentation.pdf,pattern
+canada_life,2024,Q2,shareholder_report,Great-West Lifeco Q2 2024 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2024/q2/lifeco-q2-2024-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2024,Q2,shareholder_report,Great-West Lifeco Q2 2024 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2024/q2/lifeco-q2-2024-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2024,Q2,supplementary_pdf,Great-West Lifeco Q2 2024 supplemental information package,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2024/q2/q2-2024-supplement.pdf,pattern
+canada_life,2024,Q2,supplementary_pdf,Great-West Lifeco Q2 2024 supplemental information package,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2024/q2/q2-2024-supplement.pdf,pattern
+canada_life,2024,Q3,mda,The Canada Life Assurance Company Q3 2024 MD&A,https://www.canadalife.com/content/dam/canadalife/documents/corporate/annual-reports/cla-q3-2024-mda-en.pdf,pattern
+canada_life,2024,Q3,presentation,Great-West Lifeco Q3 2024 earnings call slides,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2024/q3/q3-2024-earnings-call-slides.pdf,pattern
+canada_life,2024,Q3,presentation,Great-West Lifeco Q3 2024 investor overview,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2024/q3/q3-2024-investor-overview-presentation.pdf,pattern
+canada_life,2024,Q3,presentation,Great-West Lifeco Q3 2024 earnings call slides,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2024/q3/q3-2024-earnings-call-slides.pdf,pattern
+canada_life,2024,Q3,presentation,Great-West Lifeco Q3 2024 investor overview,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2024/q3/q3-2024-investor-overview-presentation.pdf,pattern
+canada_life,2024,Q3,shareholder_report,Great-West Lifeco Q3 2024 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2024/q3/lifeco-q3-2024-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2024,Q3,shareholder_report,Great-West Lifeco Q3 2024 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2024/q3/lifeco-q3-2024-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2024,Q3,supplementary_pdf,Great-West Lifeco Q3 2024 supplemental information package,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2024/q3/q3-2024-supplement.pdf,pattern
+canada_life,2024,Q3,supplementary_pdf,Great-West Lifeco Q3 2024 supplemental information package,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2024/q3/q3-2024-supplement.pdf,pattern
+canada_life,2024,Q4,mda,The Canada Life Assurance Company Q4 2024 MD&A,https://www.canadalife.com/content/dam/canadalife/documents/corporate/annual-reports/cla-q4-2024-mda-en.pdf,pattern
+canada_life,2024,Q4,presentation,Great-West Lifeco Q4 2024 earnings call slides,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2024/q4/q4-2024-earnings-call-slides.pdf,pattern
+canada_life,2024,Q4,presentation,Great-West Lifeco Q4 2024 investor overview,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2024/q4/q4-2024-investor-overview-presentation.pdf,pattern
+canada_life,2024,Q4,presentation,Great-West Lifeco Q4 2024 earnings call slides,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2024/q4/q4-2024-earnings-call-slides.pdf,pattern
+canada_life,2024,Q4,presentation,Great-West Lifeco Q4 2024 investor overview,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2024/q4/q4-2024-investor-overview-presentation.pdf,pattern
+canada_life,2024,Q4,shareholder_report,Great-West Lifeco Q4 2024 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2024/q4/lifeco-q4-2024-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2024,Q4,shareholder_report,Great-West Lifeco Q4 2024 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2024/q4/lifeco-q4-2024-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2024,Q4,supplementary_pdf,Great-West Lifeco Q4 2024 supplemental information package,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2024/q4/q4-2024-supplement.pdf,pattern
+canada_life,2024,Q4,supplementary_pdf,Great-West Lifeco Q4 2024 supplemental information package,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2024/q4/q4-2024-supplement.pdf,pattern
+canada_life,2023,FY,mda,Great-West Lifeco 2023 annual MD&A,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2023/q4/lifeco-q4-2023-mda.pdf,pattern
+canada_life,2023,FY,mda,Great-West Lifeco 2023 annual MD&A,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2023/q4/lifeco-q4-2023-mda.pdf,pattern
+canada_life,2023,Q1,mda,The Canada Life Assurance Company Q1 2023 MD&A,https://www.canadalife.com/content/dam/canadalife/documents/corporate/annual-reports/cla-q1-2023-mda-en.pdf,pattern
+canada_life,2023,Q1,presentation,Great-West Lifeco Q1 2023 earnings call slides,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2023/q1/q1-2023-earnings-call-slides.pdf,pattern
+canada_life,2023,Q1,presentation,Great-West Lifeco Q1 2023 investor overview,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2023/q1/q1-2023-investor-overview-presentation.pdf,pattern
+canada_life,2023,Q1,presentation,Great-West Lifeco Q1 2023 earnings call slides,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2023/q1/q1-2023-earnings-call-slides.pdf,pattern
+canada_life,2023,Q1,presentation,Great-West Lifeco Q1 2023 investor overview,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2023/q1/q1-2023-investor-overview-presentation.pdf,pattern
+canada_life,2023,Q1,shareholder_report,Great-West Lifeco Q1 2023 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2023/q1/lifeco-q1-2023-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2023,Q1,shareholder_report,Great-West Lifeco Q1 2023 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2023/q1/lifeco-q1-2023-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2023,Q1,supplementary_pdf,Great-West Lifeco Q1 2023 supplemental information package,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2023/q1/q1-2023-supplement.pdf,pattern
+canada_life,2023,Q1,supplementary_pdf,Great-West Lifeco Q1 2023 supplemental information package,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2023/q1/q1-2023-supplement.pdf,pattern
+canada_life,2023,Q2,mda,The Canada Life Assurance Company Q2 2023 MD&A,https://www.canadalife.com/content/dam/canadalife/documents/corporate/annual-reports/cla-q2-2023-mda-en.pdf,pattern
+canada_life,2023,Q2,mda,The Canada Life Assurance Company Q2 2023 MD&A,https://canadalife.com/content/dam/canadalife/documents/corporate/annual-reports/CLA-Q2-2023-MDA-EN-FINAL.pdf,pattern
+canada_life,2023,Q2,presentation,Great-West Lifeco Q2 2023 earnings call slides,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2023/q2/q2-2023-earnings-call-slides.pdf,pattern
+canada_life,2023,Q2,presentation,Great-West Lifeco Q2 2023 investor overview,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2023/q2/q2-2023-investor-overview-presentation.pdf,pattern
+canada_life,2023,Q2,presentation,Great-West Lifeco Q2 2023 earnings call slides,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2023/q2/q2-2023-earnings-call-slides.pdf,pattern
+canada_life,2023,Q2,presentation,Great-West Lifeco Q2 2023 investor overview,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2023/q2/q2-2023-investor-overview-presentation.pdf,pattern
+canada_life,2023,Q2,shareholder_report,Great-West Lifeco Q2 2023 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2023/q2/lifeco-q2-2023-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2023,Q2,shareholder_report,Great-West Lifeco Q2 2023 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2023/q2/lifeco-q2-2023-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2023,Q2,supplementary_pdf,Great-West Lifeco Q2 2023 supplemental information package,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2023/q2/q2-2023-supplement.pdf,pattern
+canada_life,2023,Q2,supplementary_pdf,Great-West Lifeco Q2 2023 supplemental information package,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2023/q2/q2-2023-supplement.pdf,pattern
+canada_life,2023,Q3,mda,The Canada Life Assurance Company Q3 2023 MD&A,https://www.canadalife.com/content/dam/canadalife/documents/corporate/annual-reports/cla-q3-2023-mda-en.pdf,pattern
+canada_life,2023,Q3,presentation,Great-West Lifeco Q3 2023 earnings call slides,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2023/q3/q3-2023-earnings-call-slides.pdf,pattern
+canada_life,2023,Q3,presentation,Great-West Lifeco Q3 2023 investor overview,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2023/q3/q3-2023-investor-overview-presentation.pdf,pattern
+canada_life,2023,Q3,presentation,Great-West Lifeco Q3 2023 earnings call slides,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2023/q3/q3-2023-earnings-call-slides.pdf,pattern
+canada_life,2023,Q3,presentation,Great-West Lifeco Q3 2023 investor overview,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2023/q3/q3-2023-investor-overview-presentation.pdf,pattern
+canada_life,2023,Q3,shareholder_report,Great-West Lifeco Q3 2023 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2023/q3/lifeco-q3-2023-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2023,Q3,shareholder_report,Great-West Lifeco Q3 2023 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2023/q3/lifeco-q3-2023-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2023,Q3,supplementary_pdf,Great-West Lifeco Q3 2023 supplemental information package,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2023/q3/q3-2023-supplement.pdf,pattern
+canada_life,2023,Q3,supplementary_pdf,Great-West Lifeco Q3 2023 supplemental information package,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2023/q3/q3-2023-supplement.pdf,pattern
+canada_life,2023,Q4,mda,The Canada Life Assurance Company Q4 2023 MD&A,https://www.canadalife.com/content/dam/canadalife/documents/corporate/annual-reports/cla-q4-2023-mda-en.pdf,pattern
+canada_life,2023,Q4,presentation,Great-West Lifeco Q4 2023 earnings call slides,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2023/q4/q4-2023-earnings-call-slides.pdf,pattern
+canada_life,2023,Q4,presentation,Great-West Lifeco Q4 2023 investor overview,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2023/q4/q4-2023-investor-overview-presentation.pdf,pattern
+canada_life,2023,Q4,presentation,Great-West Lifeco Q4 2023 earnings call slides,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2023/q4/q4-2023-earnings-call-slides.pdf,pattern
+canada_life,2023,Q4,presentation,Great-West Lifeco Q4 2023 investor overview,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2023/q4/q4-2023-investor-overview-presentation.pdf,pattern
+canada_life,2023,Q4,shareholder_report,Great-West Lifeco Q4 2023 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2023/q4/lifeco-q4-2023-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2023,Q4,shareholder_report,Great-West Lifeco Q4 2023 quarterly report to shareholders,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2023/q4/lifeco-q4-2023-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2023,Q4,supplementary_pdf,Great-West Lifeco Q4 2023 supplemental information package,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2023/q4/q4-2023-supplement.pdf,pattern
+canada_life,2023,Q4,supplementary_pdf,Great-West Lifeco Q4 2023 supplemental information package,https://www.greatwestlifeco.com/content/dam/gwlco/documents/reports/2023/q4/q4-2023-supplement.pdf,pattern
+canadian_premier,2025,FY,climate_disclosure,2025 climate risk management report,https://www.securiancanada.ca/pdfs/important-disclosures/2025-climate-risk-management-report.pdf,ir_page
+canadian_premier,2025,FY,licat_disclosure,Canadian Premier Life LICAT 2025,https://www.securiancanada.ca/pdfs/important-disclosures/licat-life-insurance-capital-adequacy-test-2025.pdf,pattern
+canadian_premier,2024,FY,licat_disclosure,Canadian Premier Life LICAT 2024,https://www.securiancanada.ca/pdfs/important-disclosures/licat-life-insurance-capital-adequacy-test-2024.pdf,ir_page
+canadian_premier,2023,FY,licat_disclosure,Canadian Premier Life LICAT 2023,https://www.securiancanada.ca/pdfs/important-disclosures/licat-life-insurance-capital-adequacy-test-2023.pdf,ir_page
+cooperators_life,2025,FY,annual_report,Co-operators 2025 integrated annual report (group),https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf,ir_page
+cooperators_life,2025,FY,annual_report,Co-operators General Insurance Company 2025 annual financial report (parent of Co-operators Life),https://www.cooperators.ca/-/media/cooperators/assets/about-us/documents/annual-reports/2025-annual-financial-report.pdf,ir_page
+cooperators_life,2025,FY,annual_report,2025 annual report (group),https://www.cooperators.ca/-/media/cooperators/assets/about-us/documents/annual-reports/2025-annual-report.pdf,search
+cooperators_life,2025,FY,investment_policy,Sustainable investing and impact investing policy,https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/sustainable-investing-and-impact-investing_en.pdf,ir_page
+cooperators_life,2025,FY,licat_disclosure,Co-operators Life LICAT 2025 public disclosures,https://www.cooperators.ca/-/media/cooperators/assets/about-us/documents/annual-reports/licat-2025.pdf,ir_page
+cooperators_life,2024,FY,annual_report,2024 integrated annual report (group),https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2024-integrated-annual-report.pdf,ir_page
+cooperators_life,2023,FY,annual_report,2023 integrated annual report (group),https://www.cooperators.ca/-/media/cooperators/assets/about-us/documents/annual-reports/the-2023-integrated-annual-report.pdf,ir_page
+desjardins,2026,Q1,quarterly_report,Desjardins Group Q1 2026 financial report,https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2026-1-e.pdf,pattern
+desjardins,2026,Q1,supplementary_pdf,Desjardins Group Q1 2026 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2026-1-e.pdf,pattern
+desjardins,2026,Q2,quarterly_report,Desjardins Group Q2 2026 financial report,https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2026-2-e.pdf,pattern
+desjardins,2026,Q2,supplementary_pdf,Desjardins Group Q2 2026 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2026-2-e.pdf,pattern
+desjardins,2025,FY,annual_report,Desjardins Group 2025 annual report,https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf,ir_page
+desjardins,2025,FY,financial_statements,Desjardins Group 2025 combined financial statements,https://www.desjardins.com/ressources/pdf/d50-etat-financier-mcd-2025-e.pdf,search
+desjardins,2025,FY,mda,Desjardins Group 2025 MD&A,https://www.desjardins.com/ressources/pdf/d50-rapport-gestion-mcd-2025-e.pdf,search
+desjardins,2025,Q1,quarterly_report,Desjardins Group Q1 2025 financial report,https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2025-1-e.pdf,pattern
+desjardins,2025,Q1,supplementary_pdf,Desjardins Group Q1 2025 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2025-1-e.pdf,pattern
+desjardins,2025,Q2,quarterly_report,Desjardins Group Q2 2025 financial report,https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2025-2-e.pdf,search
+desjardins,2025,Q2,supplementary_pdf,Desjardins Group Q2 2025 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2025-2-e.pdf,pattern
+desjardins,2025,Q3,quarterly_report,Desjardins Group Q3 2025 financial report,https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2025-3-e.pdf,pattern
+desjardins,2025,Q3,supplementary_pdf,Desjardins Group Q3 2025 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2025-3-e.pdf,search
+desjardins,2025,Q4,supplementary_pdf,Desjardins Group Q4 2025 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2025-4-e.pdf,pattern
+desjardins,2024,FY,annual_report,Desjardins Group 2024 annual report,https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2024-t4-e.pdf,pattern
+desjardins,2024,FY,financial_statements,Desjardins Group 2024 combined financial statements,https://www.desjardins.com/ressources/pdf/d50-etat-financier-mcd-2024-e.pdf,pattern
+desjardins,2024,FY,mda,Desjardins Group 2024 MD&A,https://www.desjardins.com/ressources/pdf/d50-rapport-gestion-mcd-2024-e.pdf,pattern
+desjardins,2024,Q1,quarterly_report,Desjardins Group Q1 2024 financial report,https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2024-1-e.pdf,pattern
+desjardins,2024,Q1,supplementary_pdf,Desjardins Group Q1 2024 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2024-1-e.pdf,pattern
+desjardins,2024,Q2,quarterly_report,Desjardins Group Q2 2024 financial report,https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2024-2-e.pdf,pattern
+desjardins,2024,Q2,supplementary_pdf,Desjardins Group Q2 2024 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2024-2-e.pdf,pattern
+desjardins,2024,Q3,quarterly_report,Desjardins Group Q3 2024 financial report,https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2024-3-e.pdf,pattern
+desjardins,2024,Q3,supplementary_pdf,Desjardins Group Q3 2024 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2024-3-e.pdf,pattern
+desjardins,2024,Q4,supplementary_pdf,Desjardins Group Q4 2024 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2024-4-e.pdf,pattern
+desjardins,2023,FY,annual_report,Desjardins Group 2023 annual report,https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2023-t4-e.pdf,pattern
+desjardins,2023,FY,financial_statements,Desjardins Group 2023 combined financial statements,https://www.desjardins.com/ressources/pdf/d50-etat-financier-mcd-2023-e.pdf,pattern
+desjardins,2023,FY,mda,Desjardins Group 2023 MD&A,https://www.desjardins.com/ressources/pdf/d50-rapport-gestion-mcd-2023-e.pdf,pattern
+desjardins,2023,Q1,quarterly_report,Desjardins Group Q1 2023 financial report,https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2023-1-e.pdf,pattern
+desjardins,2023,Q1,supplementary_pdf,Desjardins Group Q1 2023 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2023-1-e.pdf,pattern
+desjardins,2023,Q2,quarterly_report,Desjardins Group Q2 2023 financial report,https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2023-2-e.pdf,pattern
+desjardins,2023,Q2,supplementary_pdf,Desjardins Group Q2 2023 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2023-2-e.pdf,pattern
+desjardins,2023,Q3,quarterly_report,Desjardins Group Q3 2023 financial report,https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2023-3-e.pdf,pattern
+desjardins,2023,Q3,supplementary_pdf,Desjardins Group Q3 2023 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2023-3-e.pdf,pattern
+desjardins,2023,Q4,supplementary_pdf,Desjardins Group Q4 2023 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2023-4-e.pdf,pattern
+empire_life,2026,Q1,financial_statements,Q1 2026 consolidated financial statements,https://www.empire.ca/docs/pdf/ConsolidatedFinancialStatements2026-EN-web.pdf,ir_page
+empire_life,2026,Q1,mda,Q1 2026 MD&A,https://www.empire.ca/docs/pdf/2026Q1MDA-EN-web.pdf,ir_page
+empire_life,2026,Q2,financial_statements,Q2 2026 consolidated financial statements,https://www.empire.ca/docs/pdf/ConsolidatedFinancialStatements2026-Q2-EN-web.pdf,ir_page
+empire_life,2026,Q2,mda,Q2 2026 MD&A,https://www.empire.ca/docs/pdf/2026Q2MDA-EN-web.pdf,ir_page
+empire_life,2025,FY,annual_report,2025 annual report,https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf,ir_page
+empire_life,2025,Q4,financial_statements,2025 consolidated financial statements,https://www.empire.ca/docs/pdf/ConsolidatedFinancialStatements2025-EN-web.pdf,ir_page
+empire_life,2025,Q4,mda,2025 annual MD&A,https://www.empire.ca/docs/pdf/2025Q4MDA-EN-web.pdf,ir_page
+empire_life,2025,Q4,mda,2025 annual MD&A (alternate path),https://www.empire.ca/sites/default/files/2026-06/2025Q4MDA-EN-web.pdf,search
+empire_life,2024,FY,annual_report,2024 annual report,https://www.empire.ca/docs/pdf/AnnualReport2024-EN-web.pdf,ir_page
+empire_life,2024,FY,annual_report,2024 annual report (alternate path),https://www.empire.ca/sites/default/files/2025-04/AnnualReport2024-EN-web.pdf,search
+empire_life,2023,FY,annual_report,2023 annual report,https://www.empire.ca/docs/pdf/2023AnnualReport-EN-web.pdf,ir_page
+empire_life,2023,FY,annual_report,2023 annual report (alternate path),https://www.empire.ca/sites/default/files/2024-04/2023AnnualReport-EN-web.pdf,search
+equitable_life,2025,FY,annual_report,2025 annual report,https://equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf,search
+equitable_life,2025,FY,annual_report,2025 annual report (advisor site),https://advisor.equitable.ca/advisor/getattachment/863fee9a-f566-469a-b959-163ae6965ad8/2025-annual-report.pdf,search
+equitable_life,2024,FY,annual_report,2024 annual report,https://cdn.equitable.ca/forms/unsecured/compliance/2024-Annual-Report.pdf,search
+equitable_life,2023,FY,annual_report,2023 annual report,https://cdn.equitable.ca/forms/unsecured/compliance/Annual-Report-2023.pdf,search
+foresters_life,2025,FY,annual_report,2025 Foresters report to members,https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/foresters-report/2025-foresters-report-en-ca.pdf,ir_page
+foresters_life,2025,FY,fact_sheet,2025 financial highlights,https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/financial-highlights/2025-financial-highlights-en-ca.pdf,ir_page
+foresters_life,2025,FY,financial_statements,2025 FLIC consolidated financial statements,https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/2025-flic-financial-statements-final-ua.pdf,ir_page
+foresters_life,2025,FY,financial_statements,2025 IOF consolidated financial statements (parent),https://www.foresters.com/-/media/foresters/documents/pdfs/us/2025-iof-financial-statements-en.pdf,ir_page
+foresters_life,2025,FY,licat_disclosure,2025 LICAT disclosure,https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/financial-highlights/2025-licat-disclosure_final-ua.pdf,ir_page
+foresters_life,2024,FY,annual_report,2024 Foresters report to members,https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/foresters-report/2024-foresters-report-en-ca.pdf,ir_page
+foresters_life,2024,FY,fact_sheet,2024 financial highlights,https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/financial-highlights/2024-financial-highlights-en-ca.pdf,ir_page
+foresters_life,2024,FY,financial_statements,2024 FLIC consolidated financial statements,https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/2024-flic-consolidated-financial-statements-en-ca.pdf,ir_page
+foresters_life,2024,FY,financial_statements,2024 IOF consolidated financial statements (parent),https://www.foresters.com/-/media/foresters/documents/pdfs/us/ioffinancialstatements2024final.pdf,ir_page
+foresters_life,2024,FY,licat_disclosure,2024 LICAT disclosure,https://www.foresters.com/-/media/foresters/documents/pdfs/us/2024-licat-public-disclosures-en.pdf,ir_page
+foresters_life,2023,FY,annual_report,2023 Foresters report to members,https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/foresters-report/forestersreport-2023-caen.pdf,ir_page
+foresters_life,2023,FY,fact_sheet,2023 financial highlights,https://www.foresters.com/-/media/foresters/documents/pdfs/us/financial-highlights/2023-financial-highlights-en-sec.pdf,ir_page
+foresters_life,2023,FY,financial_statements,2023 FLIC consolidated financial statements,https://www.foresters.com/-/media/foresters/documents/pdfs/us/414857-can-04-24-flic-financial-statements-2023.pdf,ir_page
+foresters_life,2023,FY,financial_statements,2023 IOF consolidated financial statements (parent),https://www.foresters.com/-/media/foresters/documents/pdfs/us/ioffinancialstatements2023final.pdf,ir_page
+foresters_life,2023,FY,licat_disclosure,2023 LICAT disclosure,https://www.foresters.com/-/media/foresters/documents/pdfs/us/20230405-licat-public-disclosure-en.pdf,ir_page
+humania,2024,FY,annual_report,Annual report published 2025 (covers fiscal 2024; verified),https://www.humania.ca/wp-content/documents/en/1050-005-Rapport-Annuel-2025-EN.pdf,search
+humania,2024,FY,annual_report,Rapport annuel publié 2025 (exercice 2024),https://humania.ca/wp-content/documents/1050-005-Rapport-Annuel-2025-FR.pdf,search
+humania,2023,FY,annual_report,Annual report published 2024 (likely fiscal 2023; unverified),https://www.humania.ca/wp-content/documents/en/1050-005-Rapport-Annuel-2024-EN.pdf,search
+humania,2023,FY,annual_report,2023 annual report (fiscal year unverified),https://www.humania.ca/en-ca/_media/document/2023-annual-report-web-en.pdf,search
+ia,2026,,presentation,Corporate presentation (current),https://ia.ca/-/media/files/ia/investisseurs/Corporate-Presentation.pdf,ir_page
+ia,2026,Q1,fact_sheet,Q1 2026 fact sheet,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2026/t1/q1-2026-fact-sheet.pdf,ir_page
+ia,2026,Q1,financial_statements,Q1 2026 consolidated financial statements,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2026/t1/q1-2026-financial-statements.pdf,ir_page
+ia,2026,Q1,mda,Q1 2026 MD&A,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2026/t1/q1-2026-mda.pdf,ir_page
+ia,2026,Q1,news_release,Q1 2026 news release,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2026/t1/q1-2026-news-release.pdf,ir_page
+ia,2026,Q1,presentation,Q1 2026 conference call slides,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2026/t1/q1-2026-conference-call-slides.pdf,ir_page
+ia,2026,Q1,shareholder_report,Q1 2026 report to shareholders,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2026/t1/q1-2026-shareholders-report.pdf,ir_page
+ia,2026,Q1,supplementary_pdf,Q1 2026 supplemental information package,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2026/t1/q1-2026-sip-pdf.pdf,ir_page
+ia,2026,Q1,supplementary_xlsx,Q1 2026 supplemental information package (Excel),https://files.ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2026/t1/q1-2026-sip-excel.xlsx,ir_page
+ia,2026,Q1,transcript,Q1 2026 conference call transcript,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2026/t1/q1-2026-transcript.pdf,ir_page
+ia,2026,Q2,fact_sheet,Q2 2026 fact sheet,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2026/t2/q2-2026-fact-sheet.pdf,ir_page
+ia,2026,Q2,financial_statements,Q2 2026 consolidated financial statements,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2026/t2/q2-2026-financial-statements.pdf,ir_page
+ia,2026,Q2,mda,Q2 2026 MD&A,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2026/t2/q2-2026-mda.pdf,ir_page
+ia,2026,Q2,news_release,Q2 2026 news release,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2026/t2/q2-2026-news-release.pdf,ir_page
+ia,2026,Q2,presentation,Q2 2026 conference call slides,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2026/t2/q2-2026-conference-call-slides.pdf,ir_page
+ia,2026,Q2,shareholder_report,Q2 2026 report to shareholders,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2026/t2/q2-2026-shareholders-report.pdf,ir_page
+ia,2026,Q2,supplementary_pdf,Q2 2026 supplemental information package,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2026/t2/q2-2026-sip-pdf.pdf,ir_page
+ia,2026,Q2,supplementary_xlsx,Q2 2026 supplemental information package (Excel),https://files.ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2026/t2/q2-2026-sip-excel.xlsx,ir_page
+ia,2026,Q2,transcript,Q2 2026 conference call transcript,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2026/t2/q2-2026-transcript.pdf,ir_page
+ia,2025,FY,aif,2025 annual information form,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/annuel/2026/en/ann-2025-annual-information-form.pdf,ir_page
+ia,2025,FY,annual_report,2025 annual report,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/annuel/2026/en/foa-annualreport2025.pdf,ir_page
+ia,2025,FY,financial_statements,2025 consolidated financial statements,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t4/q4-2025-financial-statements-acc.pdf,ir_page
+ia,2025,FY,mda,2025 annual MD&A,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t4/q4-2025-mda.pdf,ir_page
+ia,2025,Q1,financial_statements,Q1 2025 consolidated financial statements,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t1/q1-2025-financial-statements-acc.pdf,ir_page
+ia,2025,Q1,mda,Q1 2025 MD&A,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t1/q1-2025-mda-acc.pdf,ir_page
+ia,2025,Q1,news_release,Q1 2025 news release,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t1/q1-2025-news-release-acc.pdf,ir_page
+ia,2025,Q1,presentation,Q1 2025 conference call slides,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t1/q1-2025_slides_call-v3-acc.pdf,ir_page
+ia,2025,Q1,shareholder_report,Q1 2025 report to shareholders,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t1/q1-2025-shareholders-report.pdf,ir_page
+ia,2025,Q1,supplementary_pdf,Q1 2025 supplemental information package,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t1/q1-2025-sip-pdf-acc.pdf,ir_page
+ia,2025,Q1,supplementary_xlsx,Q1 2025 supplemental information package (Excel),https://files.ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t1/q1-2025-sip-excel.xlsx,ir_page
+ia,2025,Q1,transcript,Q1 2025 conference call transcript,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t1/q1-2025-transcript_acc.pdf,ir_page
+ia,2025,Q2,financial_statements,Q2 2025 consolidated financial statements,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t2/q2-2025-financial-statements.pdf,ir_page
+ia,2025,Q2,mda,Q2 2025 MD&A,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t2/q2-2025-mda.pdf,ir_page
+ia,2025,Q2,news_release,Q2 2025 news release,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t2/q2-2025-news-release.pdf,ir_page
+ia,2025,Q2,presentation,Q2 2025 conference call slides,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t2/q2-2025_slides_call.pdf,ir_page
+ia,2025,Q2,shareholder_report,Q2 2025 report to shareholders,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t2/q2-2025-shareholders-report-acc.pdf,ir_page
+ia,2025,Q2,supplementary_pdf,Q2 2025 supplemental information package,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t2/q2-2025-sip-pdf-acc.pdf,ir_page
+ia,2025,Q2,supplementary_xlsx,Q2 2025 supplemental information package (Excel),https://files.ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t2/q2-2025-sip-excel.xlsx,ir_page
+ia,2025,Q2,transcript,Q2 2025 conference call transcript,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t2/q2-2025-transcript.pdf,ir_page
+ia,2025,Q3,fact_sheet,Q3 2025 fact sheet,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t3/q3-2025-fact-sheet.pdf,ir_page
+ia,2025,Q3,financial_statements,Q3 2025 consolidated financial statements,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t3/q3-2025-financial-statements.pdf,ir_page
+ia,2025,Q3,mda,Q3 2025 MD&A,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t3/q3-2025-mda.pdf,ir_page
+ia,2025,Q3,news_release,Q3 2025 news release,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t3/q3-2025-news-release.pdf,ir_page
+ia,2025,Q3,presentation,Q3 2025 conference call slides,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t3/q3-2025-conference-call-slides-acc.pdf,ir_page
+ia,2025,Q3,shareholder_report,Q3 2025 report to shareholders,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t3/q3-2025-shareholders-report-acc.pdf,ir_page
+ia,2025,Q3,supplementary_pdf,Q3 2025 supplemental information package,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t3/q3-2025-sip-pdf.pdf,ir_page
+ia,2025,Q3,supplementary_xlsx,Q3 2025 supplemental information package (Excel),https://files.ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t3/q3-2025-sip-excel.xlsx,ir_page
+ia,2025,Q3,transcript,Q3 2025 conference call transcript,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t3/q3-2025-transcript-acc.pdf,ir_page
+ia,2025,Q4,fact_sheet,Q4 2025 fact sheet,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t4/q4-2025-fact-sheet.pdf,ir_page
+ia,2025,Q4,news_release,Q4 2025 news release,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t4/q4-2025-news-release.pdf,ir_page
+ia,2025,Q4,presentation,Q4 2025 conference call slides,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t4/q4-2025-conference-call-slides-acc.pdf,ir_page
+ia,2025,Q4,supplementary_pdf,Q4 2025 supplemental information package,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t4/q4-2025-sip-pdf-acc.pdf,ir_page
+ia,2025,Q4,supplementary_xlsx,Q4 2025 supplemental information package (Excel),https://files.ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t4/q4-2025-sip-excel.xlsx,ir_page
+ia,2025,Q4,transcript,Q4 2025 conference call transcript,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2025/t4/q4-2025-transcript-acc.pdf,ir_page
+ia,2024,FY,aif,2024 annual information form,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/annuel/2025/en/iafincorp_aif2024_acc.pdf,ir_page
+ia,2024,FY,annual_report,2024 annual report,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/annuel/2025/en/foa-annualreport2024.pdf,ir_page
+ia,2024,FY,financial_statements,2024 consolidated financial statements,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2024/t4/q4-2024-financial-statements.pdf,ir_page
+ia,2024,FY,mda,2024 annual MD&A,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2024/t4/q4-2024-mda.pdf,ir_page
+ia,2024,Q3,financial_statements,Q3 2024 consolidated financial statements,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2024/t3/ia-societe-financiere/ia_financial_corporation-financial_statements_q3-2024-english_acc.pdf,ir_page
+ia,2024,Q3,mda,Q3 2024 MD&A,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2024/t3/ia-societe-financiere/q3-2024-ia-financial-corporation-mda-acc.pdf,ir_page
+ia,2024,Q4,news_release,Q4 2024 news release,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2024/t4/q4-2024-news_release-acc.pdf,ir_page
+ia,2024,Q4,presentation,Q4 2024 conference call slides,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2024/t4/conference-telephonique/q4-2024-slides-v1-acc.pdf,ir_page
+ia,2024,Q4,supplementary_pdf,Q4 2024 supplemental information package,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2024/t4/q4-sip-spreadsheet-2024_acc.pdf,ir_page
+ia,2023,FY,aif,2023 annual information form,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/annuel/2024/ia-societe-financiere/2023-iafc-annual-information-form-acc.pdf,ir_page
+ia,2023,FY,annual_report,2023 annual report,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/annuel/2024/ia-societe-financiere/2023-iafc-annual-report-2.pdf,ir_page
+ia,2023,FY,financial_statements,2023 consolidated financial statements,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2023/t4/ia-societe-financiere/ia_financial_corporation-financial_statements_q4-2023-english-v2-acc.pdf,ir_page
+ia,2023,FY,mda,2023 annual MD&A,https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/trimestriel/2023/t4/ia-societe-financiere/q4-2023-iafc-2023-annual-mda-acc.pdf,ir_page
+manulife,2026,Q1,news_release,Q1 2026 press release,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QPR_2026_Q1_EN.pdf,pattern
+manulife,2026,Q1,presentation,Q1 2026 results slides,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QRS_2026_Q1_EN.pdf,pattern
+manulife,2026,Q1,shareholder_report,Q1 2026 report to shareholders,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SR_2026_Q1_EN.pdf,pattern
+manulife,2026,Q1,supplementary_pdf,Q1 2026 statistical information package,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SIP_2026_Q1_EN.pdf,pattern
+manulife,2026,Q2,news_release,Q2 2026 press release,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QPR_2026_Q2_EN.pdf,pattern
+manulife,2026,Q2,presentation,Q2 2026 results slides,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QRS_2026_Q2_EN.pdf,pattern
+manulife,2026,Q2,shareholder_report,Q2 2026 report to shareholders,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SR_2026_Q2_EN.pdf,pattern
+manulife,2026,Q2,supplementary_pdf,Q2 2026 statistical information package,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SIP_2026_Q2_EN.pdf,pattern
+manulife,2025,FY,annual_report,2025 annual report,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SR_2025_Y1_EN.pdf,pattern
+manulife,2025,Q1,news_release,Q1 2025 press release,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QPR_2025_Q1_EN.pdf,pattern
+manulife,2025,Q1,presentation,Q1 2025 results slides,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QRS_2025_Q1_EN.pdf,pattern
+manulife,2025,Q1,shareholder_report,Q1 2025 report to shareholders,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SR_2025_Q1_EN.pdf,pattern
+manulife,2025,Q1,supplementary_pdf,Q1 2025 statistical information package,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SIP_2025_Q1_EN.pdf,pattern
+manulife,2025,Q2,news_release,Q2 2025 press release,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QPR_2025_Q2_EN.pdf,pattern
+manulife,2025,Q2,presentation,Q2 2025 results slides,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QRS_2025_Q2_EN.pdf,pattern
+manulife,2025,Q2,shareholder_report,Q2 2025 report to shareholders,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SR_2025_Q2_EN.pdf,pattern
+manulife,2025,Q2,supplementary_pdf,Q2 2025 statistical information package,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SIP_2025_Q2_EN.pdf,pattern
+manulife,2025,Q3,news_release,Q3 2025 press release,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QPR_2025_Q3_EN.pdf,pattern
+manulife,2025,Q3,presentation,Q3 2025 results slides,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QRS_2025_Q3_EN.pdf,pattern
+manulife,2025,Q3,shareholder_report,Q3 2025 report to shareholders,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SR_2025_Q3_EN.pdf,pattern
+manulife,2025,Q3,supplementary_pdf,Q3 2025 statistical information package,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SIP_2025_Q3_EN.pdf,pattern
+manulife,2025,Q4,news_release,Q4 2025 press release,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QPR_2025_Q4_EN.pdf,pattern
+manulife,2025,Q4,presentation,Q4 2025 results slides,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QRS_2025_Q4_EN.pdf,pattern
+manulife,2025,Q4,supplementary_pdf,Q4 2025 statistical information package,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SIP_2025_Q4_EN.pdf,pattern
+manulife,2024,FY,annual_report,2024 annual report,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SR_2024_Y1_EN.pdf,pattern
+manulife,2024,Q1,news_release,Q1 2024 press release,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QPR_2024_Q1_EN.pdf,pattern
+manulife,2024,Q1,presentation,Q1 2024 results slides,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QRS_2024_Q1_EN.pdf,pattern
+manulife,2024,Q1,shareholder_report,Q1 2024 report to shareholders,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SR_2024_Q1_EN.pdf,pattern
+manulife,2024,Q1,supplementary_pdf,Q1 2024 statistical information package,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SIP_2024_Q1_EN.pdf,pattern
+manulife,2024,Q2,news_release,Q2 2024 press release,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QPR_2024_Q2_EN.pdf,pattern
+manulife,2024,Q2,presentation,Q2 2024 results slides,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QRS_2024_Q2_EN.pdf,pattern
+manulife,2024,Q2,shareholder_report,Q2 2024 report to shareholders,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SR_2024_Q2_EN.pdf,pattern
+manulife,2024,Q2,supplementary_pdf,Q2 2024 statistical information package,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SIP_2024_Q2_EN.pdf,pattern
+manulife,2024,Q3,news_release,Q3 2024 press release,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QPR_2024_Q3_EN.pdf,pattern
+manulife,2024,Q3,presentation,Q3 2024 results slides,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QRS_2024_Q3_EN.pdf,pattern
+manulife,2024,Q3,shareholder_report,Q3 2024 report to shareholders,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SR_2024_Q3_EN.pdf,pattern
+manulife,2024,Q3,supplementary_pdf,Q3 2024 statistical information package,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SIP_2024_Q3_EN.pdf,pattern
+manulife,2024,Q4,news_release,Q4 2024 press release,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QPR_2024_Q4_EN.pdf,pattern
+manulife,2024,Q4,presentation,Q4 2024 results slides,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QRS_2024_Q4_EN.pdf,pattern
+manulife,2024,Q4,supplementary_pdf,Q4 2024 statistical information package,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SIP_2024_Q4_EN.pdf,pattern
+manulife,2023,FY,annual_report,2023 annual report,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SR_2023_Y1_EN.pdf,pattern
+manulife,2023,Q1,news_release,Q1 2023 press release,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QPR_2023_Q1_EN.pdf,pattern
+manulife,2023,Q1,presentation,Q1 2023 results slides,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QRS_2023_Q1_EN.pdf,pattern
+manulife,2023,Q1,shareholder_report,Q1 2023 report to shareholders,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SR_2023_Q1_EN.pdf,pattern
+manulife,2023,Q1,supplementary_pdf,Q1 2023 statistical information package,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SIP_2023_Q1_EN.pdf,pattern
+manulife,2023,Q2,news_release,Q2 2023 press release,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QPR_2023_Q2_EN.pdf,pattern
+manulife,2023,Q2,presentation,Q2 2023 results slides,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QRS_2023_Q2_EN.pdf,pattern
+manulife,2023,Q2,shareholder_report,Q2 2023 report to shareholders,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SR_2023_Q2_EN.pdf,pattern
+manulife,2023,Q2,supplementary_pdf,Q2 2023 statistical information package,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SIP_2023_Q2_EN.pdf,pattern
+manulife,2023,Q3,news_release,Q3 2023 press release,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QPR_2023_Q3_EN.pdf,pattern
+manulife,2023,Q3,presentation,Q3 2023 results slides,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QRS_2023_Q3_EN.pdf,pattern
+manulife,2023,Q3,shareholder_report,Q3 2023 report to shareholders,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SR_2023_Q3_EN.pdf,pattern
+manulife,2023,Q3,supplementary_pdf,Q3 2023 statistical information package,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SIP_2023_Q3_EN.pdf,pattern
+manulife,2023,Q4,news_release,Q4 2023 press release,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QPR_2023_Q4_EN.pdf,pattern
+manulife,2023,Q4,presentation,Q4 2023 results slides,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_QRS_2023_Q4_EN.pdf,pattern
+manulife,2023,Q4,supplementary_pdf,Q4 2023 statistical information package,https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SIP_2023_Q4_EN.pdf,pattern
+rbc_life,2025,FY,public_accountability,RBC 2025 public accountability statement (group; includes RBC Life),https://www.rbc.com/community-sustainability/_assets-custom/pdf/public-accountability-statement-2025.pdf,search
+rbc_life,2025,Q4,licat_disclosure,LICAT public disclosure Q4 2025,https://www.rbcinsurance.com/en-ca/wp-content/uploads/sites/2/2021/06/LICAT-Public-Disclosure-Q42025_Eng.pdf,ir_page
+rbc_life,2024,Q4,licat_disclosure,LICAT summary Q4 2024,https://www.rbcinsurance.com/en-ca/wp-content/uploads/sites/2/2021/06/LICAT-Summary-Q42024-Eng.pdf,ir_page
+rbc_life,2023,Q4,licat_disclosure,LICAT summary Q4 2023,https://www.rbcinsurance.com/en-ca/wp-content/uploads/sites/2/2021/06/LICAT-Summary-Q42023_Eng.pdf,ir_page
+sun_life,2026,Q1,fact_sheet,Q1 2026 results fact sheet,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q126-fact-sheet.pdf,pattern
+sun_life,2026,Q1,news_release,Q1 2026 earnings news release,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q126-earnings.pdf,pattern
+sun_life,2026,Q1,presentation,Q1 2026 results presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q126-presentation.pdf,pattern
+sun_life,2026,Q1,presentation,Q1 2026 investor presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q126-investor-presentation.pdf,pattern
+sun_life,2026,Q1,supplementary_pdf,Q1 2026 supplementary financial information,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q126-finsupp.pdf,pattern
+sun_life,2026,Q2,fact_sheet,Q2 2026 results fact sheet,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-fact-sheet.pdf,pattern
+sun_life,2026,Q2,news_release,Q2 2026 earnings news release,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-earnings.pdf,pattern
+sun_life,2026,Q2,presentation,Q2 2026 results presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-presentation.pdf,pattern
+sun_life,2026,Q2,presentation,Q2 2026 investor presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-investor-presentation.pdf,pattern
+sun_life,2026,Q2,supplementary_pdf,Q2 2026 supplementary financial information,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-finsupp.pdf,pattern
+sun_life,2025,FY,financial_statements,2025 consolidated financial statements,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-fin-stats.pdf,pattern
+sun_life,2025,FY,mda,2025 annual MD&A,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-mda.pdf,pattern
+sun_life,2025,Q1,fact_sheet,Q1 2025 results fact sheet,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q125-fact-sheet.pdf,pattern
+sun_life,2025,Q1,news_release,Q1 2025 earnings news release,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q125-earnings.pdf,pattern
+sun_life,2025,Q1,presentation,Q1 2025 results presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q125-presentation.pdf,pattern
+sun_life,2025,Q1,presentation,Q1 2025 investor presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q125-investor-presentation.pdf,pattern
+sun_life,2025,Q1,supplementary_pdf,Q1 2025 supplementary financial information,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q125-finsupp.pdf,pattern
+sun_life,2025,Q2,fact_sheet,Q2 2025 results fact sheet,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q225-fact-sheet.pdf,pattern
+sun_life,2025,Q2,news_release,Q2 2025 earnings news release,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q225-earnings.pdf,pattern
+sun_life,2025,Q2,presentation,Q2 2025 results presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q225-presentation.pdf,pattern
+sun_life,2025,Q2,presentation,Q2 2025 investor presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q225-investor-presentation.pdf,pattern
+sun_life,2025,Q2,supplementary_pdf,Q2 2025 supplementary financial information,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q225-finsupp.pdf,pattern
+sun_life,2025,Q3,fact_sheet,Q3 2025 results fact sheet,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q325-fact-sheet.pdf,pattern
+sun_life,2025,Q3,news_release,Q3 2025 earnings news release,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q325-earnings.pdf,pattern
+sun_life,2025,Q3,presentation,Q3 2025 results presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q325-presentation.pdf,pattern
+sun_life,2025,Q3,presentation,Q3 2025 investor presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q325-investor-presentation.pdf,pattern
+sun_life,2025,Q3,supplementary_pdf,Q3 2025 supplementary financial information,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q325-finsupp.pdf,pattern
+sun_life,2025,Q4,fact_sheet,Q4 2025 results fact sheet,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-fact-sheet.pdf,pattern
+sun_life,2025,Q4,news_release,Q4 2025 earnings news release,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-earnings.pdf,pattern
+sun_life,2025,Q4,presentation,Q4 2025 results presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-presentation.pdf,pattern
+sun_life,2025,Q4,presentation,Q4 2025 investor presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-investor-presentation.pdf,pattern
+sun_life,2025,Q4,supplementary_pdf,Q4 2025 supplementary financial information,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-finsupp.pdf,pattern
+sun_life,2024,FY,financial_statements,2024 consolidated financial statements,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q424-2024-fin-stats.pdf,pattern
+sun_life,2024,FY,mda,2024 annual MD&A,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q424-2024-mda.pdf,pattern
+sun_life,2024,Q1,fact_sheet,Q1 2024 results fact sheet,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q124-fact-sheet.pdf,pattern
+sun_life,2024,Q1,news_release,Q1 2024 earnings news release,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q124-earnings.pdf,pattern
+sun_life,2024,Q1,presentation,Q1 2024 results presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q124-presentation.pdf,pattern
+sun_life,2024,Q1,presentation,Q1 2024 investor presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q124-investor-presentation.pdf,pattern
+sun_life,2024,Q1,supplementary_pdf,Q1 2024 supplementary financial information,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q124-finsupp.pdf,pattern
+sun_life,2024,Q2,fact_sheet,Q2 2024 results fact sheet,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q224-fact-sheet.pdf,pattern
+sun_life,2024,Q2,news_release,Q2 2024 earnings news release,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q224-earnings.pdf,pattern
+sun_life,2024,Q2,presentation,Q2 2024 results presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q224-presentation.pdf,pattern
+sun_life,2024,Q2,presentation,Q2 2024 investor presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q224-investor-presentation.pdf,pattern
+sun_life,2024,Q2,supplementary_pdf,Q2 2024 supplementary financial information,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q224-finsupp.pdf,pattern
+sun_life,2024,Q3,fact_sheet,Q3 2024 results fact sheet,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q324-fact-sheet.pdf,pattern
+sun_life,2024,Q3,news_release,Q3 2024 earnings news release,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q324-earnings.pdf,pattern
+sun_life,2024,Q3,presentation,Q3 2024 results presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q324-presentation.pdf,pattern
+sun_life,2024,Q3,presentation,Q3 2024 investor presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q324-investor-presentation.pdf,pattern
+sun_life,2024,Q3,supplementary_pdf,Q3 2024 supplementary financial information,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q324-finsupp.pdf,pattern
+sun_life,2024,Q4,fact_sheet,Q4 2024 results fact sheet,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q424-fact-sheet.pdf,pattern
+sun_life,2024,Q4,news_release,Q4 2024 earnings news release,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q424-earnings.pdf,pattern
+sun_life,2024,Q4,presentation,Q4 2024 results presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q424-presentation.pdf,pattern
+sun_life,2024,Q4,presentation,Q4 2024 investor presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q424-investor-presentation.pdf,pattern
+sun_life,2024,Q4,supplementary_pdf,Q4 2024 supplementary financial information,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q424-finsupp.pdf,pattern
+sun_life,2023,FY,financial_statements,2023 consolidated financial statements,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q423-2023-fin-stats.pdf,pattern
+sun_life,2023,FY,mda,2023 annual MD&A,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q423-2023-mda.pdf,pattern
+sun_life,2023,Q1,fact_sheet,Q1 2023 results fact sheet,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q123-fact-sheet.pdf,pattern
+sun_life,2023,Q1,news_release,Q1 2023 earnings news release,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q123-earnings.pdf,pattern
+sun_life,2023,Q1,presentation,Q1 2023 results presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q123-presentation.pdf,pattern
+sun_life,2023,Q1,presentation,Q1 2023 investor presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q123-investor-presentation.pdf,pattern
+sun_life,2023,Q1,supplementary_pdf,Q1 2023 supplementary financial information,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q123-finsupp.pdf,pattern
+sun_life,2023,Q2,fact_sheet,Q2 2023 results fact sheet,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q223-fact-sheet.pdf,pattern
+sun_life,2023,Q2,news_release,Q2 2023 earnings news release,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q223-earnings.pdf,pattern
+sun_life,2023,Q2,presentation,Q2 2023 results presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q223-presentation.pdf,pattern
+sun_life,2023,Q2,presentation,Q2 2023 investor presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q223-investor-presentation.pdf,pattern
+sun_life,2023,Q2,supplementary_pdf,Q2 2023 supplementary financial information,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q223-finsupp.pdf,pattern
+sun_life,2023,Q3,fact_sheet,Q3 2023 results fact sheet,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q323-fact-sheet.pdf,pattern
+sun_life,2023,Q3,news_release,Q3 2023 earnings news release,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q323-earnings.pdf,pattern
+sun_life,2023,Q3,presentation,Q3 2023 results presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q323-presentation.pdf,pattern
+sun_life,2023,Q3,presentation,Q3 2023 investor presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q323-investor-presentation.pdf,pattern
+sun_life,2023,Q3,supplementary_pdf,Q3 2023 supplementary financial information,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q323-finsupp.pdf,pattern
+sun_life,2023,Q4,fact_sheet,Q4 2023 results fact sheet,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q423-fact-sheet.pdf,pattern
+sun_life,2023,Q4,news_release,Q4 2023 earnings news release,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q423-earnings.pdf,pattern
+sun_life,2023,Q4,presentation,Q4 2023 results presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q423-presentation.pdf,pattern
+sun_life,2023,Q4,presentation,Q4 2023 investor presentation,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q423-investor-presentation.pdf,pattern
+sun_life,2023,Q4,supplementary_pdf,Q4 2023 supplementary financial information,https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q423-finsupp.pdf,pattern
+wawanesa_life,2025,FY,annual_report,Wawanesa 2025 report to members (group),https://www.wawanesa.com/resources/docs/canada/annual-reports/Wawanesa-2025-Annual-Report.pdf?language_id=1,ir_page
+wawanesa_life,2025,FY,financial_statements,Wawanesa Mutual 2025 consolidated financial statements (parent),https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Mutual-Insurance-Company-consolidated-financial-statements.pdf?language_id=1,ir_page
+wawanesa_life,2025,FY,financial_statements,Wawanesa Life 2025 audited financial statements,https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1,ir_page
+wawanesa_life,2025,FY,licat_disclosure,Wawanesa Life 2025 LICAT summary report,https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-LICAT-Summary-Report.pdf?language_id=1,ir_page
+wawanesa_life,2024,FY,financial_statements,Wawanesa Life 2024 audited financial statements,https://www.wawanesa.com/resources/docs/canada/annual-reports/2024-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1,pattern
+wawanesa_life,2024,FY,licat_disclosure,Wawanesa Life 2024 LICAT summary report,https://www.wawanesa.com/resources/docs/canada/annual-reports/2024-LICAT-Summary-Report.pdf?language_id=1,pattern
+wawanesa_life,2023,FY,financial_statements,Wawanesa Life 2023 audited financial statements,https://www.wawanesa.com/resources/docs/canada/annual-reports/2023-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1,pattern
+wawanesa_life,2023,FY,licat_disclosure,Wawanesa Life 2023 LICAT summary report,https://www.wawanesa.com/resources/docs/canada/annual-reports/2023-LICAT-Summary-Report.pdf?language_id=1,pattern
