@@ -2,7 +2,7 @@
 """Download insurer investor-relations documents listed in sources/ir_documents.csv.
 
 Optionally crawls the pages in sources/seed_pages.csv with a headless browser
-(--crawl) to discover more PDF/XLSX links for 2023 onward, then downloads
+(--crawl) to discover more PDF/XLSX links for 2020 onward, then downloads
 everything into docs/<company_id>/<fiscal_year>/ and writes data/document_index.csv.
 
 Rows marked found_via=pattern are guesses built from each issuer's URL scheme;
@@ -31,7 +31,7 @@ DOCS = os.path.join(ROOT, "docs")
 # Identify the script honestly; sites that refuse it are recorded as gaps.
 UA = "InsuranceCompanies-dataset/1.0 (+https://github.com/abiddobani/InsuranceCompanies)"
 FILE_EXT = (".pdf", ".xlsx", ".xls", ".csv")
-YEARS = ("2023", "2024", "2025", "2026")
+YEARS = ("2020", "2021", "2022", "2023", "2024", "2025", "2026")
 INDEX_FIELDS = ["company_id", "fiscal_year", "period", "doc_type", "title", "url",
                 "found_via", "status", "local_path", "bytes", "sha256", "content_type"]
 
@@ -59,7 +59,7 @@ def guess_period(text):
     t = text.lower()
     year = next((y for y in YEARS if y in t), "")
     if not year:
-        m = re.search(r"q([1-4])[-_]?(2[3-6])\b", t)  # e.g. q225
+        m = re.search(r"q([1-4])[-_]?(2[0-6])\b", t)  # e.g. q225
         if m:
             return "20" + m.group(2), "Q" + m.group(1)
     m = re.search(r"\b(?:q|t)([1-4])\b|q([1-4])[-_]", t)
@@ -68,7 +68,7 @@ def guess_period(text):
 
 
 def is_out_of_range(text):
-    """True when the link names only years before 2023 (e.g. a 2021 annual report)."""
+    """True when the link names only years outside YEARS (e.g. a 2018 annual report)."""
     years = set(re.findall(r"(?<!\d)(20[0-3]\d)(?!\d)", text))
     years |= {"20" + y for y in re.findall(r"q[1-4][-_]?(2[0-9])\b", text.lower())}  # q422
     return bool(years) and not years & set(YEARS)
@@ -171,9 +171,10 @@ def main():
     if args.company:
         rows = [r for r in rows if r["company_id"] in args.company]
 
-    done = {}
+    done, previous = {}, []
     if os.path.exists(INDEX):  # resume: keep earlier successes
-        done = {r["url"]: r for r in read_csv(INDEX) if r["status"] == "ok"}
+        previous = read_csv(INDEX)
+        done = {r["url"]: r for r in previous if r["status"] in ("ok", "duplicate")}
 
     stored = {r["sha256"]: r["local_path"] for r in done.values()}
     seen, out = set(), []
@@ -190,6 +191,8 @@ def main():
         out.append({**{k: row.get(k, "") for k in INDEX_FIELDS}, **result})
         time.sleep(args.delay)
 
+    # keep rows this run did not revisit (other companies, fetch_sec.py rows)
+    out += [r for r in previous if r["url"] not in seen]
     os.makedirs(os.path.dirname(INDEX), exist_ok=True)
     with open(INDEX, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=INDEX_FIELDS, extrasaction="ignore")

@@ -433,3 +433,57 @@ wawanesa_life,2024,FY,financial_statements,Wawanesa Life 2024 audited financial 
 wawanesa_life,2024,FY,licat_disclosure,Wawanesa Life 2024 LICAT summary report,https://www.wawanesa.com/resources/docs/canada/annual-reports/2024-LICAT-Summary-Report.pdf?language_id=1,pattern
 wawanesa_life,2023,FY,financial_statements,Wawanesa Life 2023 audited financial statements,https://www.wawanesa.com/resources/docs/canada/annual-reports/2023-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1,pattern
 wawanesa_life,2023,FY,licat_disclosure,Wawanesa Life 2023 LICAT summary report,https://www.wawanesa.com/resources/docs/canada/annual-reports/2023-LICAT-Summary-Report.pdf?language_id=1,pattern
+desjardins,2020,FY,annual_report,Desjardins Group 2020 annual report,https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2020-t4-e.pdf,pattern
+desjardins,2020,FY,financial_statements,Desjardins Group 2020 combined financial statements,https://www.desjardins.com/ressources/pdf/d50-etat-financier-mcd-2020-e.pdf,pattern
+desjardins,2020,FY,mda,Desjardins Group 2020 MD&A,https://www.desjardins.com/ressources/pdf/d50-rapport-gestion-mcd-2020-e.pdf,pattern
+desjardins,2020,Q1,quarterly_report,Desjardins Group Q1 2020 financial report,https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2020-1-e.pdf,pattern
+desjardins,2020,Q2,quarterly_report,Desjardins Group Q2 2020 financial report,https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2020-2-e.pdf,pattern
+desjardins,2020,Q3,quarterly_report,Desjardins Group Q3 2020 financial report,https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2020-3-e.pdf,pattern
+desjardins,2020,Q1,supplementary_pdf,Desjardins Group Q1 2020 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2020-1-e.pdf,pattern
+desjardins,2020,Q2,supplementary_pdf,Desjardins Group Q2 2020 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2020-2-e.pdf,pattern
+desjardins,2020,Q3,supplementary_pdf,Desjardins Group Q3 2020 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2020-3-e.pdf,pattern
+desjardins,2020,Q4,supplementary_pdf,Desjardins Group Q4 2020 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2020-4-e.pdf,pattern
+desjardins,2021,FY,annual_report,Desjardins Group 2021 annual report,https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2021-t4-e.pdf,pattern
+desjardins,2021,FY,financial_statements,Desjardins Group 2021 combined financial statements,https://www.desjardins.com/ressources/pdf/d50-etat-financier-mcd-2021-e.pdf,pattern
+desjardins,2021,FY,mda,Desjardins Group 2021 MD&A,https://www.desjardins.com/ressources/pdf/d50-rapport-gestion-mcd-2021-e.pdf,pattern
+desjardins,2021,Q1,quarterly_report,Desjardins Group Q1 2021 financial report,https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2021-1-e.pdf,pattern
+desjardins,2021,Q2,quarterly_report,Desjardins Group Q2 2021 financial report,https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2021-2-e.pdf,pattern
+desjardins,2021,Q3,quarterly_report,Desjardins Group Q3 2021 financial report,https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2021-3-e.pdf,pattern
+desjardins,2021,Q1,supplementary_pdf,Desjardins Group Q1 2021 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2021-1-e.pdf,pattern
+desjardins,2021,Q2,supplementary_pdf,Desjardins Group Q2 2021 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2021-2-e.pdf,pattern
+desjardins,2021,Q3,supplementary_pdf,Desjardins Group Q3 2021 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2021-3-e.pdf,pattern
+desjardins,2021,Q4,supplementary_pdf,Desjardins Group Q4 2021 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2021-4-e.pdf,pattern
+desjardins,2022,FY,annual_report,Desjardins Group 2022 annual report,https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2022-t4-e.pdf,pattern
+desjardins,2022,FY,financial_statements,Desjardins Group 2022 combined financial statements,https://www.desjardins.com/ressources/pdf/d50-etat-financier-mcd-2022-e.pdf,pattern
+desjardins,2022,FY,mda,Desjardins Group 2022 MD&A,https://www.desjardins.com/ressources/pdf/d50-rapport-gestion-mcd-2022-e.pdf,pattern
+desjardins,2022,Q1,quarterly_report,Desjardins Group Q1 2022 financial report,https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2022-1-e.pdf,pattern
+desjardins,2022,Q2,quarterly_report,Desjardins Group Q2 2022 financial report,https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2022-2-e.pdf,pattern
+desjardins,2022,Q3,quarterly_report,Desjardins Group Q3 2022 financial report,https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2022-3-e.pdf,pattern
+desjardins,2022,Q1,supplementary_pdf,Desjardins Group Q1 2022 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2022-1-e.pdf,pattern
+desjardins,2022,Q2,supplementary_pdf,Desjardins Group Q2 2022 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2022-2-e.pdf,pattern
+desjardins,2022,Q3,supplementary_pdf,Desjardins Group Q3 2022 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2022-3-e.pdf,pattern
+desjardins,2022,Q4,supplementary_pdf,Desjardins Group Q4 2022 supplemental financial information,https://www.desjardins.com/ressources/pdf/d50-informations-complementaires-mcd-2022-4-e.pdf,pattern
+canada_life,2020,Q1,supplementary_pdf,Great-West Lifeco Q1 2020 supplementary information,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2020/q1/q1-2020-supplement.pdf,pattern
+canada_life,2020,Q1,quarterly_report,Great-West Lifeco Q1 2020 report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2020/q1/lifeco-q1-2020-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2020,Q2,supplementary_pdf,Great-West Lifeco Q2 2020 supplementary information,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2020/q2/q2-2020-supplement.pdf,pattern
+canada_life,2020,Q2,quarterly_report,Great-West Lifeco Q2 2020 report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2020/q2/lifeco-q2-2020-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2020,Q3,supplementary_pdf,Great-West Lifeco Q3 2020 supplementary information,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2020/q3/q3-2020-supplement.pdf,pattern
+canada_life,2020,Q3,quarterly_report,Great-West Lifeco Q3 2020 report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2020/q3/lifeco-q3-2020-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2020,Q4,supplementary_pdf,Great-West Lifeco Q4 2020 supplementary information,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2020/q4/q4-2020-supplement.pdf,pattern
+canada_life,2020,FY,mda,Great-West Lifeco 2020 annual MD&A,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2020/q4/lifeco-q4-2020-mda.pdf,pattern
+canada_life,2021,Q1,supplementary_pdf,Great-West Lifeco Q1 2021 supplementary information,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2021/q1/q1-2021-supplement.pdf,pattern
+canada_life,2021,Q1,quarterly_report,Great-West Lifeco Q1 2021 report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2021/q1/lifeco-q1-2021-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2021,Q2,supplementary_pdf,Great-West Lifeco Q2 2021 supplementary information,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2021/q2/q2-2021-supplement.pdf,pattern
+canada_life,2021,Q2,quarterly_report,Great-West Lifeco Q2 2021 report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2021/q2/lifeco-q2-2021-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2021,Q3,supplementary_pdf,Great-West Lifeco Q3 2021 supplementary information,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2021/q3/q3-2021-supplement.pdf,pattern
+canada_life,2021,Q3,quarterly_report,Great-West Lifeco Q3 2021 report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2021/q3/lifeco-q3-2021-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2021,Q4,supplementary_pdf,Great-West Lifeco Q4 2021 supplementary information,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2021/q4/q4-2021-supplement.pdf,pattern
+canada_life,2021,FY,mda,Great-West Lifeco 2021 annual MD&A,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2021/q4/lifeco-q4-2021-mda.pdf,pattern
+canada_life,2022,Q1,supplementary_pdf,Great-West Lifeco Q1 2022 supplementary information,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2022/q1/q1-2022-supplement.pdf,pattern
+canada_life,2022,Q1,quarterly_report,Great-West Lifeco Q1 2022 report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2022/q1/lifeco-q1-2022-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2022,Q2,supplementary_pdf,Great-West Lifeco Q2 2022 supplementary information,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2022/q2/q2-2022-supplement.pdf,pattern
+canada_life,2022,Q2,quarterly_report,Great-West Lifeco Q2 2022 report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2022/q2/lifeco-q2-2022-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2022,Q3,supplementary_pdf,Great-West Lifeco Q3 2022 supplementary information,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2022/q3/q3-2022-supplement.pdf,pattern
+canada_life,2022,Q3,quarterly_report,Great-West Lifeco Q3 2022 report to shareholders,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2022/q3/lifeco-q3-2022-quarterly-report-to-shareholders-en.pdf,pattern
+canada_life,2022,Q4,supplementary_pdf,Great-West Lifeco Q4 2022 supplementary information,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2022/q4/q4-2022-supplement.pdf,pattern
+canada_life,2022,FY,mda,Great-West Lifeco 2022 annual MD&A,https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2022/q4/lifeco-q4-2022-mda.pdf,pattern

@@ -21,22 +21,32 @@ import urllib.request
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from download_documents import INDEX, INDEX_FIELDS, ROOT, YEARS, guess_doc_type, read_csv
 
-# company_id -> SEC CIK
 # BMO Life has no public filings of its own; BMO Financial Group reports it
 # inside its Wealth Management segment (and bmo.com refuses the script).
-ISSUERS = {"manulife": "1086888", "bmo_life": "927971"}
+# Sun Life's own site only lists 2022 on, so EDGAR fills 2020 and 2021.
+# company_id -> (SEC CIK, fiscal years to keep)
+ISSUERS = {"manulife": ("1086888", YEARS), "bmo_life": ("927971", YEARS),
+           "sun_life": ("1097362", ("2020", "2021"))}
 FORMS = ("40-F", "40-F/A", "6-K", "6-K/A")
 KEEP_EXT = (".htm", ".html", ".pdf", ".xlsx", ".xls")
 OCT_YEAR_END = {"bmo_life"}
 DELAY = 0.15  # SEC allows 10 requests per second
 
 
-def get(url, ua):
+def get(url, ua, tries=4):
     req = urllib.request.Request(url, headers={"User-Agent": ua, "Accept-Encoding": "identity"})
-    with urllib.request.urlopen(req, timeout=120) as resp:
-        body = resp.read()
-    time.sleep(DELAY)
-    return body
+    for attempt in range(tries):
+        try:
+            with urllib.request.urlopen(req, timeout=120) as resp:
+                body = resp.read()
+            time.sleep(DELAY)
+            return body
+        except urllib.error.HTTPError:
+            raise
+        except Exception:  # dropped connection: back off and retry
+            if attempt == tries - 1:
+                raise
+            time.sleep(2 ** (attempt + 1))
 
 
 MONTHS = "january february march april may june july august september october november december".split()
@@ -105,7 +115,7 @@ def main():
     index = read_csv(INDEX) if os.path.exists(INDEX) else []
     by_url = {r["url"]: r for r in index}
     stored = {r["sha256"]: r["local_path"] for r in index if r["status"] == "ok"}
-    for cid, cik in ISSUERS.items():
+    for cid, (cik, keep_years) in ISSUERS.items():
         if args.company and cid not in args.company:
             continue
         for form, acc, filed, period_end, desc in filings(cik, ua):
@@ -121,7 +131,7 @@ def main():
                 if by_url.get(url, {}).get("status") in ("ok", "duplicate"):
                     continue
                 year = (period_end or filed)[:4]
-                if year not in YEARS:  # e.g. the FY2022 40-F filed in 2023
+                if year not in keep_years:  # e.g. the FY2019 40-F filed in 2020
                     continue
                 title = f"{form} filed {filed}: {desc or name}"
                 doc_type = guess_doc_type(name)

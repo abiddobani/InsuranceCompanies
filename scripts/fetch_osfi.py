@@ -2,7 +2,10 @@
 """Download OSFI life insurer open data and extract the core-company subset.
 
 Downloads the resources in sources/osfi_datasets.csv (dataset "life_insurers")
-into osfi/raw/, then for fiscal 2023 onward (IFRS 17 basis) writes:
+into osfi/raw/, then for fiscal 2020 onward writes the files below. IFRS 17
+returns (LF1, LF2, LF3, LCA) start in fiscal 2023 (2024 for October year ends);
+2020 to 2023 balance sheets come from the IFRS 4 era 10Q return. LICAT (LCQ)
+runs throughout, but its 2023 revision changed available capital for IFRS 17.
 
   data/osfi/<RETURN>_core.csv.gz   every data point for the core companies'
                                    OSFI entities plus the industry totals
@@ -15,6 +18,11 @@ into osfi/raw/, then for fiscal 2023 onward (IFRS 17 basis) writes:
                                    pivoted the same way: bonds by issuer type and
                                    IG/below-IG, mortgages, preferred and common
                                    shares, other loans, other invested assets
+  data/osfi/balance_sheet_assets_ifrs4.csv
+                                   10Q asset lines (current year) per entity and
+                                   quarter, 2020 to 2023, IFRS 4 basis
+  data/osfi/portfolio_mix.csv      one harmonized asset mix across both bases,
+                                   with a basis column (see HARMONIZED)
   data/osfi/licat_ratios.csv       LCQ LICAT summary pivoted the same way: total
                                    and core ratio (%), available capital, tier 1/2,
                                    surplus allowance, eligible deposits, base
@@ -41,8 +49,8 @@ import urllib.request
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW = os.path.join(ROOT, "osfi", "raw")
 OUT = os.path.join(ROOT, "data", "osfi")
-RETURNS = ("LF1", "LF2", "LF3", "LCA", "LCQ")
-FIRST_YEAR = 2023
+RETURNS = ("LF1", "LF2", "LF3", "LCA", "LCQ", "10Q", "10A")
+FIRST_YEAR = 2020
 # Data point addresses are P + 5-digit page + 3-digit row + 2-digit column.
 # Pivots written to data/osfi: file -> (return, page, column). Values are $000s.
 #   LF1 P2000201001: page 20002 (assets), row 010, column 01 (current period, total).
@@ -53,6 +61,25 @@ PIVOTS = {
     "balance_sheet_assets.csv": ("LF1", "P20002", "01"),
     "invested_assets.csv": ("LF2", "P21012", "40"),
     "licat_ratios.csv": ("LCQ", "D10100", ""),
+    "balance_sheet_assets_ifrs4.csv": ("10Q", "P20010", "01"),
+}
+# Harmonized asset mix: column -> (IFRS 17 addresses summed, IFRS 4 addresses summed).
+# IFRS 17 moved policy loans into insurance contract balances, so that line is
+# IFRS 4 only; "other" on IFRS 4 includes interests in associates.
+HARMONIZED = {
+    "cash": (["P2000201001"], ["P2001001001"]),
+    "short_term_investments": (["P2101201040"], ["P2001004001"]),
+    "bonds": (["P2101247940"], ["P2001025001"]),
+    "mortgages": (["P2101250040"], ["P2001030001"]),
+    "preferred_shares": (["P2101259940"], ["P2001042001"]),
+    "common_shares": (["P2101265940"], ["P2001044001"]),
+    "investment_properties": (["P2000211001"], ["P2001051001"]),
+    "policy_loans": ([], ["P2001020001"]),
+    "other_loans_and_invested_assets": (["P2101281040", "P2101282040", "P2000208001"],
+                                        ["P2001060001", "P2001055001"]),
+    "derivative_assets": (["P2000210001"], ["P2001052001"]),
+    "segregated_funds": (["P2000216001"], ["P2001056001"]),
+    "total_assets": (["P2000299901"], ["P2001089901"]),
 }
 # LF2 "Risk free rates and liquidity premium by line of business" pages:
 # page -> region. Labels end "..., Year 20 (%), <curve>".
@@ -198,11 +225,34 @@ def extract():
                     "tenor_years", "rate_pct", "address"])
         w.writerows(sorted(curves, key=lambda r: r[:7]))
     print(f"discount_curves.csv: {len(curves)} points")
+    write_portfolio_mix(pivot)
     with open(os.path.join(OUT, "entities_seen.csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f, lineterminator="\n")
         w.writerow(["entity", "company_id", "rows_since_2023"])
         for (ent, cid), n in sorted(entities.items()):
             w.writerow([ent, cid, n])
+
+
+def write_portfolio_mix(pivot):
+    """Combine the IFRS 17 (LF1 + LF2) and IFRS 4 (10Q) pivots into one series."""
+    ifrs17 = collections.defaultdict(dict)
+    for fname in ("balance_sheet_assets.csv", "invested_assets.csv"):
+        for key, vals in pivot[fname].items():
+            ifrs17[key].update(vals)
+    rows = []
+    for basis, data, i in (("IFRS 17", ifrs17, 0), ("IFRS 4", pivot["balance_sheet_assets_ifrs4.csv"], 1)):
+        for key, vals in data.items():
+            out = []
+            for addrs in HARMONIZED.values():
+                got = [float(vals[a]) for a in addrs[i] if vals.get(a, "") not in ("", None)]
+                out.append(f"{sum(got):.0f}" if got else "")
+            rows.append(list(key) + [basis] + out)
+    with open(os.path.join(OUT, "portfolio_mix.csv"), "w", newline="", encoding="utf-8") as f:
+        w = csv.writer(f, lineterminator="\n")
+        w.writerow(["company_id", "entity", "fiscal_year", "quarter", "basis"] +
+                   [f"{c}_cad_000" for c in HARMONIZED])
+        w.writerows(sorted(rows, key=lambda r: (r[0], r[1], r[2], r[3], r[4])))
+    print(f"portfolio_mix.csv: {len(rows)} entity-quarters")
 
 
 def main():
