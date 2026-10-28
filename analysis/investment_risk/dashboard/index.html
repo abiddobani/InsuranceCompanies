@@ -410,20 +410,20 @@
     const svg = d3.select(el).append('svg').attr('width', '100%');
     const labelW = Math.min(irMeasure(svg, rows.map((r) => r.name).concat(opt.extra || [])) + 10, W * 0.42);
     const valW = irMeasure(svg, rows.map((r) => label(r.v))) + 12;
-    const rowH = 24, top = 22;
-    const H = top + rows.length * rowH + 4;
+    const rowH = 24, top = 22, hasMed = opt.median !== null && opt.median !== undefined;
+    const H = top + rows.length * rowH + (hasMed ? 20 : 4);
     svg.attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
     const lo = Math.min(0, d3.min(rows, (r) => r.v)), hi = Math.max(0, d3.max(rows, (r) => r.v));
     const x = d3.scaleLinear([lo, hi === lo ? lo + 1 : hi], [labelW, W - valW]).nice();
     const ticks = x.ticks(Math.max(2, Math.floor((W - labelW - valW) / 90)));
     svg.append('g').selectAll('line').data(ticks).join('line')
-      .attr('x1', (t) => x(t)).attr('x2', (t) => x(t)).attr('y1', top - 4).attr('y2', H)
+      .attr('x1', (t) => x(t)).attr('x2', (t) => x(t)).attr('y1', top - 4).attr('y2', top + rows.length * rowH)
       .attr('stroke', (t) => t === 0 ? 'var(--cds-chart-axis)' : 'var(--cds-chart-grid)').attr('stroke-width', 1);
     svg.append('g').selectAll('text').data(ticks).join('text')
       .attr('x', (t) => x(t)).attr('y', 11).attr('text-anchor', 'middle').attr('class', 'ir-muted-t')
       .text((t) => d3.format(opt.tickFmt || '~f')(t) + (opt.tickUnit === undefined ? (opt.unit || '').trim() : opt.tickUnit));
     if (opt.median !== null && opt.median !== undefined) {
-      svg.append('line').attr('x1', x(opt.median)).attr('x2', x(opt.median)).attr('y1', top - 4).attr('y2', H)
+      svg.append('line').attr('x1', x(opt.median)).attr('x2', x(opt.median)).attr('y1', top - 4).attr('y2', top + rows.length * rowH)
         .attr('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '4 3').attr('stroke-width', 1);
     }
     const tip = irTip(el);
@@ -441,7 +441,9 @@
       .on('pointermove', (ev, r) => tip.show(ev, [['ir-tip-co', r.name], ['ir-tip-v', label(r.v)]].concat(r.note ? [['', r.note]] : [])))
       .on('pointerleave', () => tip.hide());
     if (opt.median !== null && opt.median !== undefined) {
-      svg.append('text').attr('x', x(opt.median) + 4).attr('y', H - 4).attr('class', 'ir-muted-t').text(`Median ${label(opt.median)}`);
+      const medX = x(opt.median), medT = `Median ${label(opt.median)}`;
+      const medW = irMeasure(svg, [medT]);
+      svg.append('text').attr('x', Math.min(medX + 4, W - medW)).attr('y', H - 4).attr('class', 'ir-muted-t').text(medT);
     }
     if (opt.missing && opt.missing.length) {
       const p = document.createElement('p');
@@ -591,7 +593,7 @@
       const yMid = narrow ? 34 : rowH / 2;
       g.append('text').attr('x', narrow ? 0 : labelW - 12).attr('y', narrow ? 12 : yMid).attr('dy', narrow ? 0 : '0.35em')
         .attr('text-anchor', narrow ? 'start' : 'end').text(name);
-      if (hint) g.append('text').attr('x', narrow ? W : labelW - 12).attr('y', narrow ? 12 : yMid + 13).attr('dy', narrow ? 0 : '0.35em')
+      if (hint && !narrow) g.append('text').attr('x', narrow ? W : labelW - 12).attr('y', narrow ? 12 : yMid + 13).attr('dy', narrow ? 0 : '0.35em')
         .attr('text-anchor', 'end').attr('class', 'ir-muted-t').style('font-size', '10px').text(hint);
       g.append('line').attr('x1', x0).attr('x2', x1).attr('y1', yMid).attr('y2', yMid).attr('stroke', 'var(--cds-chart-grid)');
       if (!vals.length) return;
@@ -683,12 +685,11 @@
     const rowH = 28, top = 22, H = top + (rows.length + 1) * rowH + 18;
     svg.attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
     const x = d3.scaleLinear([0, Math.max(d3.max(rows, (r) => r.total) || 1, limit)], [labelW, W - valW]).nice();
-    const ticks = x.ticks(Math.max(2, Math.floor((W - labelW - valW) / 80)));
+    const ticks = x.ticks(Math.max(2, Math.floor((W - labelW - valW) / 110)));
     svg.append('g').selectAll('line').data(ticks).join('line').attr('x1', (t) => x(t)).attr('x2', (t) => x(t))
       .attr('y1', top - 4).attr('y2', H - 18).attr('stroke', (t) => t === 0 ? 'var(--cds-chart-axis)' : 'var(--cds-chart-grid)');
     svg.append('g').selectAll('text').data(ticks).join('text').attr('x', (t) => x(t)).attr('y', 11).attr('text-anchor', 'middle')
-      .attr('class', 'ir-muted-t').text((t) => `${fmt(t)}`);
-    svg.append('text').attr('x', W - valW).attr('y', 11).attr('text-anchor', 'end').attr('class', 'ir-muted-t').text('C$MM');
+      .attr('class', 'ir-muted-t').text((t) => `C$${fmt(t)}MM`);
     const tip = irTip(el);
     const all = [{ name: irFocus, missing: true }].concat(rows);
     all.forEach((r, i) => {
