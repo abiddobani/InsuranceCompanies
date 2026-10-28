@@ -182,7 +182,8 @@ def main():
             dr_basis = "own RFR + LP"
         rows.append(dict(company_id=cid, company=NAMES[cid], source="OSFI LF2", regulator="OSFI", period=p,
                          period_end=("Oct FY " if cid in OCT_FY else "") + p, region=reg, bucket="most_illiquid",
-                         lob=lob, tenor=t, rfr=own, dr=dr, lp=lp, dr_basis=dr_basis, lp_basis=lp_basis))
+                         lob=lob, tenor=t, rfr=own, dr=dr, lp=lp, dr_basis=dr_basis, lp_basis=lp_basis,
+                         dr_filed_forward=kv.get("Discount Rates (forward)")))
 
     with open(os.path.join(HERE, "disclosed_curves.csv"), encoding="utf-8") as f:
         for r in csv.DictReader(f):
@@ -195,7 +196,7 @@ def main():
                              period_end=r["as_at"], region=r["region"], bucket=r["bucket"], lob="All products",
                              tenor=t, rfr=None, dr=dr, lp=round(dr - base, 2) if base is not None else None,
                              dr_basis="reported" + (" (ultimate, placed at 70y)" if r["tenor"] == "ult" else ""),
-                             lp_basis="DR - peer median RFR (estimate)"))
+                             lp_basis="DR - peer median RFR (estimate)", dr_filed_forward=None))
 
     fields = list(rows[0])
     with open(os.path.join(HERE, "curves_normalised.csv"), "w", newline="", encoding="utf-8") as f:
@@ -326,6 +327,69 @@ def main():
             name, reg, why = NOT_DISCLOSED[cid]
             coverage.append(dict(company=name, regulator=reg, curve_source="None", periods="", note=why))
     write("coverage.csv", coverage)
+
+    # By product line, every quarter: annuities (individual, group), individual life, participating.
+    # Annual-report insurers publish one set of curves for all products, so they appear under every product.
+    products = {"Individual annuity": "Individual annuity", "Group annuity": "Group annuity",
+                "Individual insurance": "Individual life", "Participating": "Participating"}
+    prod_curves = defaultdict(dict)  # (company_id, period, product) -> {tenor: (dr, lp)}
+    fwd_ult = {}  # RBC: the filed forward rate, whose last tenor is the ultimate rate
+    for r in rows:
+        if r["region"] != "Canada" or r["bucket"] != "most_illiquid" or r["dr"] is None:
+            continue
+        targets = list(products.values()) if r["lob"] == "All products" else (
+            [products[r["lob"]]] if r["lob"] in products else [])
+        for prod in targets:
+            prod_curves[(r["company_id"], r["period"], prod)][r["tenor"]] = (r["dr"], r["lp"])
+            if r["dr_filed_forward"] is not None:
+                fwd_ult[(r["company_id"], r["period"], prod, r["tenor"])] = r["dr_filed_forward"]
+
+    def at(pts, t, i):
+        ts = [k for k in sorted(pts) if pts[k][i] is not None]
+        return round(float(np.interp(t, ts, [pts[k][i] for k in ts])), 2) if ts else None
+
+    PT = [5, 10, 30]
+    points, curve_rows = [], []
+    for (cid, p, prod), pts in sorted(prod_curves.items(), key=lambda kv: (NAMES[kv[0][0]], period_key(kv[0][1]), kv[0][2])):
+        ult = max(pts)
+        rec = dict(company=NAMES[cid], source="OSFI LF2" if cid in PRIMARY else "Annual report, all products",
+                   period=p, as_at=("Oct FY " if cid in OCT_FY else "") + p, product=prod)
+        rec.update({f"dr_{t}y": at(pts, t, 0) for t in PT})
+        rec["dr_ult"] = pts[ult][0]
+        rec.update({f"lp_{t}y": at(pts, t, 1) for t in PT})
+        rec["lp_ult"] = pts[ult][1]
+        rec["ult_tenor"] = ult
+        if (cid, p, prod, ult) in fwd_ult:  # spot is still converging at 80y; the ultimate is the filed forward
+            rec["dr_ult"] = fwd_ult[(cid, p, prod, ult)]
+            base = peer_rfr(p, "Canada", ult)
+            rec["lp_ult"] = round(rec["dr_ult"] - base, 2) if base is not None else None
+        rec["lp_basis"] = "Own risk-free curve" if cid in PRIMARY and cid not in FORWARD_FILERS else \
+            "Peer median risk-free (estimate)"
+        points.append(rec)
+        for t in sorted(set(pts) | {80}):
+            dr = pts[t][0] if t in pts else pts[ult][0]
+            curve_rows.append(dict(company=NAMES[cid], period=p, product=prod, tenor=t, dr=dr))
+
+    # Peer median per product and quarter: of each metric, and of the curve on a common tenor grid
+    MED_GRID = [1, 2, 5, 10, 15, 20, 30, 60, 70, 80]
+    groups = defaultdict(list)
+    for rec in points:
+        groups[(rec["period"], rec["product"])].append(rec)
+    for (p, prod), recs in sorted(groups.items(), key=lambda kv: (period_key(kv[0][0]), kv[0][1])):
+        med = dict(company="Peer median", source=f"Median of {len(recs)} insurers", period=p, as_at=p, product=prod)
+        for k in [f"{m}_{t}" for m in ("dr", "lp") for t in ("5y", "10y", "30y", "ult")]:
+            vals = [rec[k] for rec in recs if rec[k] is not None]
+            med[k] = round(statistics.median(vals), 2) if vals else None
+        med["ult_tenor"] = ""
+        med["lp_basis"] = ""
+        points.append(med)
+        cids = [cid for cid in NAMES if any(rec["company"] == NAMES[cid] for rec in recs)]
+        grids = [interp_curve({t: v[0] for t, v in prod_curves[(cid, p, prod)].items()}) for cid in cids]
+        for t in MED_GRID:
+            curve_rows.append(dict(company="Peer median", period=p, product=prod, tenor=t,
+                                   dr=round(statistics.median(g[t - 1] for g in grids), 3)))
+    write("product_points.csv", points)
+    write("product_curves.csv", curve_rows)
 
     print(f"{len(rows)} curve points; {len(ye)} companies at 2025Q4; {len(latest)} at latest")
 
