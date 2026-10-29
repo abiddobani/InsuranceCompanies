@@ -1,0 +1,28 @@
+parameter,value,note
+yield,0.0425,flat yield for bucket durations and CSM discounting
+tax_rate,0.265,gross-up for after-tax sensitivities
+release_rate_calibration,0.984,median ratio of schedule-based to release-rate CSM duration across 5 insurers
+peer_pool_fi_duration,5.0,median of Sun Life FVOCI debt and Foresters surplus fixed-income durations
+bucket_<=1,0.5,representative term; duration 0.48
+bucket_1-2,1.5,representative term; duration 1.42
+bucket_2-3,2.5,representative term; duration 2.33
+bucket_3-4,3.5,representative term; duration 3.19
+bucket_4-5,4.5,representative term; duration 4.02
+bucket_1-3,2.0,representative term; duration 1.88
+bucket_3-5,4.0,representative term; duration 3.61
+bucket_1-5,3.0,representative term; duration 2.76
+bucket_2-5,3.5,representative term; duration 3.19
+bucket_5-10,7.5,representative term; duration 6.31
+bucket_6-10,8.0,representative term; duration 6.66
+bucket_>10,20.0,representative term; duration 13.29
+bucket_10-20,15.0,representative term; duration 10.93
+bucket_>20,27.0,representative term; duration 15.88
+bucket_>5gov,20.0,representative term; duration 13.29
+bucket_>5corp,10.0,representative term; duration 8.01
+bucket_>5mort,7.0,representative term; duration 5.95
+bucket_>5pp,9.0,representative term; duration 7.35
+liab_ind_ins,13.0,liability-mix proxy duration
+liab_ind_ann,8.0,liability-mix proxy duration
+liab_grp_ins,5.0,liability-mix proxy duration
+liab_grp_ann,10.0,liability-mix proxy duration
+liab_par,12.0,liability-mix proxy duration
