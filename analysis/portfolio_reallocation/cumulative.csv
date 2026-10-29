@@ -1,0 +1,109 @@
+company_id,company,focus,asset_class,level2,start_period,end_period,frequency,start_share_pct,end_share_pct,total_change_pp,ifrs17_switch_pp,event_pp,reallocation_pp,market_drift_pp,active_pp,start_amount_cad_mm,end_amount_cad_mm,amount_change_cad_mm,reallocation_cad_mm,start_total_cad_mm,end_total_cad_mm
+manulife,Manulife,0,Cash & short-term,Cash & Cash Equivalents,2020Q1,2026Q2,Quarterly,6.8144,5.582,-1.2324,-0.146,0,-1.0864,0.6507,-1.7371,26976.214,26931.349,-44.865,-4145.2029,395870.254,482468.033
+manulife,Manulife,0,Bonds,Public & Private Fixed Income,2020Q1,2026Q2,Quarterly,64.2516,57.5698,-6.6819,0.599,0,-7.2809,-10.6659,3.3851,254353.081,277755.663,23402.582,-30289.3932,395870.254,482468.033
+manulife,Manulife,0,Mortgages & loans,Private Fixed Income,2020Q1,2026Q2,Quarterly,13.0802,12.2495,-0.8307,-0.7576,0,-0.0731,1.5293,-1.6024,51780.699,59100.019,7319.32,-855.023,395870.254,482468.033
+manulife,Manulife,0,Equities,Public Equity,2020Q1,2026Q2,Quarterly,4.9778,10.0055,5.0276,0.2567,0,4.7709,7.0539,-2.283,19705.817,48273.203,28567.386,20952.6024,395870.254,482468.033
+manulife,Manulife,0,Real estate,External Equity,2020Q1,2026Q2,Quarterly,2.9497,2.0228,-0.9268,-0.077,0,-0.8498,0.3354,-1.1852,11676.809,9759.479,-1917.33,-3717.7517,395870.254,482468.033
+manulife,Manulife,0,Other invested assets,External Equity,2020Q1,2026Q2,Quarterly,7.9262,12.5704,4.6442,0.1249,0,4.5193,1.0967,3.4226,31377.634,60648.32,29270.686,18054.7684,395870.254,482468.033
+sun_life,Sun Life,0,Cash & short-term,Cash & Cash Equivalents,2020Q1,2026Q2,Quarterly,3.8399,4.8707,1.0308,0.0666,0,0.9642,0.712,0.2522,5946.868,9346.201,3399.333,1643.866,154869.663,191887.39
+sun_life,Sun Life,0,Bonds,Public & Private Fixed Income,2020Q1,2026Q2,Quarterly,73.853,71.1365,-2.7165,-0.4732,0,-2.2433,-9.2818,7.0385,114375.921,136502.011,22126.09,-3620.7224,154869.663,191887.39
+sun_life,Sun Life,0,Mortgages & loans,Private Fixed Income,2020Q1,2026Q2,Quarterly,10.7299,6.8672,-3.8627,-0.1865,0,-3.6762,1.4855,-5.1617,16617.433,13177.315,-3440.118,-6413.4011,154869.663,191887.39
+sun_life,Sun Life,0,Equities,Public Equity,2020Q1,2026Q2,Quarterly,2.9484,7.4286,4.4802,0.3276,0,4.1525,5.2675,-1.1149,4566.22,14254.573,9688.353,7199.4388,154869.663,191887.39
+sun_life,Sun Life,0,Real estate,External Equity,2020Q1,2026Q2,Quarterly,4.7523,5.0752,0.3229,0.1056,0,0.2173,0.8765,-0.6593,7359.857,9738.696,2378.839,207.2959,154869.663,191887.39
+sun_life,Sun Life,0,Other invested assets,External Equity,2020Q1,2026Q2,Quarterly,3.8764,4.6218,0.7454,0.1599,0,0.5855,0.9403,-0.3549,6003.364,8868.594,2865.23,983.5228,154869.663,191887.39
+canada_life,Canada Life,0,Cash & short-term,Cash & Cash Equivalents,2020Q1,2026Q2,Quarterly,4.2552,4.3076,0.0525,-1.2214,0,1.2739,0.517,0.7569,5743.231,7159.243,1416.012,1420.4028,134971.002,166199.122
+canada_life,Canada Life,0,Bonds,Public & Private Fixed Income,2020Q1,2026Q2,Quarterly,68.4428,63.8712,-4.5715,1.0556,0,-5.6271,-11.6524,6.0253,92377.908,106153.451,13775.543,-7276.9079,134971.002,166199.122
+canada_life,Canada Life,0,Mortgages & loans,Private Fixed Income,2020Q1,2026Q2,Quarterly,15.7722,15.664,-0.1082,-0.5458,0,0.4376,1.7992,-1.3617,21287.834,26033.36,4745.526,183.8256,134971.002,166199.122
+canada_life,Canada Life,0,Equities,Public Equity,2020Q1,2026Q2,Quarterly,6.5879,9.7651,3.1772,0.6475,0,2.5297,8.6708,-6.1411,8891.779,16229.539,7337.76,3765.494,134971.002,166199.122
+canada_life,Canada Life,0,Real estate,External Equity,2020Q1,2026Q2,Quarterly,4.3218,5.1927,0.8709,0.0024,0,0.8686,0.6044,0.2641,5833.122,8630.223,2797.101,1177.1953,134971.002,166199.122
+canada_life,Canada Life,0,Other invested assets,External Equity,2020Q1,2026Q2,Quarterly,0.6202,1.1993,0.5791,0.0618,0,0.5173,0.0609,0.4564,837.128,1993.306,1156.178,729.9902,134971.002,166199.122
+ia,iA Financial Group,0,Cash & short-term,Cash & Cash Equivalents,2020Q1,2026Q2,Quarterly,7.362,5.029,-2.333,0.0235,0,-2.3565,0.2918,-2.6483,2992.4064,2378.0,-614.4064,-933.2442,40646.8536,47286.0
+ia,iA Financial Group,0,Bonds,Public & Private Fixed Income,2020Q1,2026Q2,Quarterly,68.2004,64.8035,-3.3969,-2.4408,0,-0.956,-11.9707,11.0146,27721.3204,30643.0,2921.6796,-500.4023,40646.8536,47286.0
+ia,iA Financial Group,0,Mortgages & loans,Private Fixed Income,2020Q1,2026Q2,Quarterly,9.407,8.0954,-1.3115,2.3003,0,-3.6118,0.5939,-4.2057,3823.6304,3828.0,4.3696,-1606.1977,40646.8536,47286.0
+ia,iA Financial Group,0,Equities,Public Equity,2020Q1,2026Q2,Quarterly,6.7485,16.5461,9.7977,0.054,0,9.7436,10.1847,-0.4411,2743.0392,7824.0,5080.9608,4307.84,40646.8536,47286.0
+ia,iA Financial Group,0,Real estate,External Equity,2020Q1,2026Q2,Quarterly,5.0102,2.9205,-2.0897,0.0483,0,-2.138,0.4487,-2.5867,2036.4988,1381.0,-655.4988,-950.9079,40646.8536,47286.0
+ia,iA Financial Group,0,Other invested assets,External Equity,2020Q1,2026Q2,Quarterly,3.272,2.6054,-0.6666,0.0147,0,-0.6813,0.4516,-1.1329,1329.9584,1232.0,-97.9584,-317.0879,40646.8536,47286.0
+rbc_life,RBC Life,1,Cash & short-term,Cash & Cash Equivalents,2020Q1,2026Q2,Quarterly,1.1241,1.6204,0.4963,0.0,0,0.4963,0.3436,0.1527,182.159,416.942,234.783,-10.4901,16204.697,25730.084
+rbc_life,RBC Life,1,Bonds,Public & Private Fixed Income,2020Q1,2026Q2,Quarterly,76.9709,75.9936,-0.9773,0.0,0,-0.9773,-13.6495,12.6722,12472.898,19553.216,7080.318,68.5575,16204.697,25730.084
+rbc_life,RBC Life,1,Mortgages & loans,Private Fixed Income,2020Q1,2026Q2,Quarterly,6.9978,7.7187,0.7209,0.0,0,0.7209,0.8312,-0.1102,1133.965,1986.029,852.064,100.9896,16204.697,25730.084
+rbc_life,RBC Life,1,Equities,Public Equity,2020Q1,2026Q2,Quarterly,9.3577,12.5245,3.1668,0.0,0,3.1668,12.038,-8.8712,1516.39,3222.569,1706.179,482.3261,16204.697,25730.084
+rbc_life,RBC Life,1,Real estate,External Equity,2020Q1,2026Q2,Quarterly,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,16204.697,25730.084
+rbc_life,RBC Life,1,Other invested assets,External Equity,2020Q1,2026Q2,Quarterly,5.5495,2.1427,-3.4068,0.0,0,-3.4068,0.4367,-3.8435,899.285,551.328,-347.957,-641.3831,16204.697,25730.084
+bmo_life,BMO Life,0,Cash & short-term,Cash & Cash Equivalents,2020Q1,2026Q2,Quarterly,5.3805,7.4675,2.0869,2.6227,0.2614,-0.7972,0.8228,-1.6201,652.859,1362.388,709.529,-27.0764,12133.711,18244.34
+bmo_life,BMO Life,0,Bonds,Public & Private Fixed Income,2020Q1,2026Q2,Quarterly,78.5133,72.2744,-6.2389,-2.7065,-0.5088,-3.0236,-11.9866,8.9629,9526.579,13185.982,3659.403,-281.8769,12133.711,18244.34
+bmo_life,BMO Life,0,Mortgages & loans,Private Fixed Income,2020Q1,2026Q2,Quarterly,1.6996,2.0742,0.3746,-0.3566,0.0314,0.6998,0.3957,0.3042,206.22,378.418,172.198,81.4072,12133.711,18244.34
+bmo_life,BMO Life,0,Equities,Public Equity,2020Q1,2026Q2,Quarterly,10.4958,9.4886,-1.0073,-0.6915,0.5833,-0.899,9.4457,-10.3448,1273.532,1731.124,457.592,-160.9724,12133.711,18244.34
+bmo_life,BMO Life,0,Real estate,External Equity,2020Q1,2026Q2,Quarterly,3.9108,8.1808,4.2701,1.1319,0.2749,2.8633,1.3246,1.5387,474.521,1492.54,1018.019,238.0958,12133.711,18244.34
+bmo_life,BMO Life,0,Other invested assets,External Equity,2020Q1,2026Q2,Quarterly,0.0,0.5146,0.5146,0.0,-0.6421,1.1568,-0.0023,1.159,0.0,93.888,93.888,150.4227,12133.711,18244.34
+beneva,Beneva,0,Cash & short-term,Cash & Cash Equivalents,2021Q4,2025Q4,Annual,8.2699,7.7,-0.57,0.0,0,-0.57,0.4217,-0.9916,895.5,904.8,9.3,-51.9753,10828.4,11750.7
+beneva,Beneva,0,Bonds,Public & Private Fixed Income,2021Q4,2025Q4,Annual,65.21,57.88,-7.33,0.0,0,-7.33,-11.5364,4.2063,7061.2,6801.3,-259.9,-737.8356,10828.4,11750.7
+beneva,Beneva,0,Mortgages & loans,Private Fixed Income,2021Q4,2025Q4,Annual,8.7474,8.3399,-0.4074,0.0,0,-0.4074,0.3245,-0.732,947.2,980.0,32.8,-71.7558,10828.4,11750.7
+beneva,Beneva,0,Equities,Public Equity,2021Q4,2025Q4,Annual,16.8945,24.8998,8.0053,0.0,0,8.0053,10.7531,-2.7478,1829.4,2925.9,1096.5,825.4852,10828.4,11750.7
+beneva,Beneva,0,Real estate,External Equity,2021Q4,2025Q4,Annual,0.4433,0.4195,-0.0237,0.0,0,-0.0237,0.0195,-0.0432,48.0,49.3,1.3,-2.9147,10828.4,11750.7
+beneva,Beneva,0,Other invested assets,External Equity,2021Q4,2025Q4,Annual,0.435,0.7608,0.3258,0.0,0,0.3258,0.0176,0.3083,47.1,89.4,42.3,38.9962,10828.4,11750.7
+ivari,ivari,0,Cash & short-term,Cash & Cash Equivalents,2020Q1,2026Q2,Quarterly,8.6595,13.0955,4.436,-0.6345,0,5.0705,-0.9697,6.0403,708.212,1545.151,836.939,439.1846,8178.404,11799.082
+ivari,ivari,0,Bonds,Public & Private Fixed Income,2020Q1,2026Q2,Quarterly,66.0765,51.4223,-14.6543,-1.1486,0,-13.5056,-21.6916,8.186,5404.006,6067.357,663.351,-1444.9383,8178.404,11799.082
+ivari,ivari,0,Mortgages & loans,Private Fixed Income,2020Q1,2026Q2,Quarterly,0.0004,0.0,-0.0004,-0.0,0,-0.0003,0.0,-0.0003,0.03,0.0,-0.03,-0.031,8178.404,11799.082
+ivari,ivari,0,Equities,Public Equity,2020Q1,2026Q2,Quarterly,23.4434,34.2255,10.7821,1.8256,0,8.9565,22.7275,-13.771,1917.295,4038.299,2121.004,1043.0128,8178.404,11799.082
+ivari,ivari,0,Real estate,External Equity,2020Q1,2026Q2,Quarterly,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8178.404,11799.082
+ivari,ivari,0,Other invested assets,External Equity,2020Q1,2026Q2,Quarterly,1.8202,1.2567,-0.5635,-0.0424,0,-0.5211,-0.0661,-0.455,148.861,148.275,-0.586,-37.228,8178.404,11799.082
+empire_life,Empire Life,0,Cash & short-term,Cash & Cash Equivalents,2020Q1,2026Q2,Quarterly,1.9164,2.9407,1.0243,0.0,0,1.0243,0.1395,0.8847,168.974,300.141,131.167,87.2989,8817.282,10206.573
+empire_life,Empire Life,0,Bonds,Public & Private Fixed Income,2020Q1,2026Q2,Quarterly,83.049,81.4796,-1.5694,0.0,0,-1.5694,-13.8679,12.2985,7322.665,8316.279,993.614,-140.9983,8817.282,10206.573
+empire_life,Empire Life,0,Mortgages & loans,Private Fixed Income,2020Q1,2026Q2,Quarterly,1.8751,0.5752,-1.2999,0.0,0,-1.2999,0.1665,-1.4664,165.33,58.706,-106.624,-120.9204,8817.282,10206.573
+empire_life,Empire Life,0,Equities,Public Equity,2020Q1,2026Q2,Quarterly,12.1971,13.0514,0.8543,0.0,0,0.8543,13.5086,-12.6543,1075.451,1332.097,256.646,85.721,8817.282,10206.573
+empire_life,Empire Life,0,Real estate,External Equity,2020Q1,2026Q2,Quarterly,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,8817.282,10206.573
+empire_life,Empire Life,0,Other invested assets,External Equity,2020Q1,2026Q2,Quarterly,0.9625,1.9532,0.9907,0.0,0,0.9907,0.0532,0.9375,84.862,199.35,114.488,88.8988,8817.282,10206.573
+equitable_life,Equitable Life,0,Cash & short-term,Cash & Cash Equivalents,2020Q1,2026Q2,Quarterly,1.9469,0.9527,-0.9942,0.0,0,-0.9942,-0.1455,-0.8486,59.705,74.59,14.885,-42.0763,3066.714,7829.363
+equitable_life,Equitable Life,0,Bonds,Public & Private Fixed Income,2020Q1,2026Q2,Quarterly,60.6733,49.5649,-11.1084,0.0,0,-11.1084,-20.8679,9.7594,1860.677,3880.615,2019.938,-541.8954,3066.714,7829.363
+equitable_life,Equitable Life,0,Mortgages & loans,Private Fixed Income,2020Q1,2026Q2,Quarterly,7.7383,7.2964,-0.4419,0.0,0,-0.4419,-0.8826,0.4407,237.311,571.263,333.952,-11.0715,3066.714,7829.363
+equitable_life,Equitable Life,0,Equities,Public Equity,2020Q1,2026Q2,Quarterly,23.3896,35.5993,12.2097,0.0,0,12.2097,22.693,-10.4833,717.292,2787.197,2069.905,644.8797,3066.714,7829.363
+equitable_life,Equitable Life,0,Real estate,External Equity,2020Q1,2026Q2,Quarterly,6.2396,6.1633,-0.0763,0.0,0,-0.0763,-0.7841,0.7079,191.35,482.548,291.198,-79.8044,3066.714,7829.363
+equitable_life,Equitable Life,0,Other invested assets,External Equity,2020Q1,2026Q2,Quarterly,0.0124,0.4234,0.411,0.0,0,0.411,-0.0129,0.424,0.379,33.15,32.771,29.968,3066.714,7829.363
+cooperators_life,Co-operators Life,0,Cash & short-term,Cash & Cash Equivalents,2020Q1,2026Q2,Quarterly,1.2223,3.6444,2.4222,0.0,0,2.4222,-0.2231,2.6453,57.586,217.733,160.147,112.4399,4711.434,5974.434
+cooperators_life,Co-operators Life,0,Bonds,Public & Private Fixed Income,2020Q1,2026Q2,Quarterly,61.3504,66.8022,5.4518,0.0,0,5.4518,-16.5108,21.9626,2890.483,3991.054,1100.571,308.7748,4711.434,5974.434
+cooperators_life,Co-operators Life,0,Mortgages & loans,Private Fixed Income,2020Q1,2026Q2,Quarterly,15.108,7.2663,-7.8417,0.0,0,-7.8417,0.2634,-8.1051,711.803,434.119,-277.684,-424.9536,4711.434,5974.434
+cooperators_life,Co-operators Life,0,Equities,Public Equity,2020Q1,2026Q2,Quarterly,14.0057,20.5464,6.5407,0.0,0,6.5407,16.0866,-9.5459,659.87,1227.534,567.664,338.2533,4711.434,5974.434
+cooperators_life,Co-operators Life,0,Real estate,External Equity,2020Q1,2026Q2,Quarterly,0.0971,0.0565,-0.0406,0.0,0,-0.0406,0.0003,-0.0409,4.573,3.373,-1.2,-2.5627,4711.434,5974.434
+cooperators_life,Co-operators Life,0,Other invested assets,External Equity,2020Q1,2026Q2,Quarterly,8.2166,1.6842,-6.5324,0.0,0,-6.5324,0.3836,-6.916,387.119,100.621,-286.498,-331.9516,4711.434,5974.434
+uv_insurance,UV Insurance,0,Cash & short-term,Cash & Cash Equivalents,2024Q4,2025Q4,Annual,1.4276,3.4829,2.0553,0,2.0553,0.0,0.0,0.0,23.914,83.205,59.291,0.0,1675.071,2388.936
+uv_insurance,UV Insurance,0,Bonds,Public & Private Fixed Income,2024Q4,2025Q4,Annual,81.1127,80.621,-0.4918,0,-0.4918,0.0,0.0,0.0,1358.696,1925.983,567.287,0.0,1675.071,2388.936
+uv_insurance,UV Insurance,0,Mortgages & loans,Private Fixed Income,2024Q4,2025Q4,Annual,0.9747,2.2033,1.2286,0,1.2286,-0.0,0.0,0.0,16.327,52.635,36.308,0.0,1675.071,2388.936
+uv_insurance,UV Insurance,0,Equities,Public Equity,2024Q4,2025Q4,Annual,10.5082,9.4044,-1.1038,0,-1.1038,-0.0,0.0,0.0,176.019,224.664,48.645,0.0,1675.071,2388.936
+uv_insurance,UV Insurance,0,Real estate,External Equity,2024Q4,2025Q4,Annual,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1675.071,2388.936
+uv_insurance,UV Insurance,0,Other invested assets,External Equity,2024Q4,2025Q4,Annual,5.9768,4.2885,-1.6883,0,-1.6883,-0.0,0.0,0.0,100.115,102.449,2.334,0.0,1675.071,2388.936
+wawanesa_life,Wawanesa Life,0,Cash & short-term,Cash & Cash Equivalents,2020Q1,2026Q2,Quarterly,5.3777,0.3224,-5.0554,0.0,0,-5.0554,0.636,-5.6914,63.341,4.263,-59.078,-63.199,1177.838,1322.428
+wawanesa_life,Wawanesa Life,0,Bonds,Public & Private Fixed Income,2020Q1,2026Q2,Quarterly,86.4523,73.8953,-12.557,0.0,0,-12.557,-4.0036,-8.5534,1018.268,977.212,-41.056,-162.0498,1177.838,1322.428
+wawanesa_life,Wawanesa Life,0,Mortgages & loans,Private Fixed Income,2020Q1,2026Q2,Quarterly,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1177.838,1322.428
+wawanesa_life,Wawanesa Life,0,Equities,Public Equity,2020Q1,2026Q2,Quarterly,0.0,4.3634,4.3634,0.0,0,4.3634,0.1147,4.2487,0.0,57.703,57.703,56.2361,1177.838,1322.428
+wawanesa_life,Wawanesa Life,0,Real estate,External Equity,2020Q1,2026Q2,Quarterly,0.0,0.0,0.0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1177.838,1322.428
+wawanesa_life,Wawanesa Life,0,Other invested assets,External Equity,2020Q1,2026Q2,Quarterly,8.17,21.4189,13.249,0.0,0,13.249,3.2528,9.9961,96.229,283.25,187.021,169.0127,1177.838,1322.428
+assumption_life,Assumption Life,0,Cash & short-term,Cash & Cash Equivalents,2022Q4,2025Q4,Annual,2.5667,5.7466,3.18,0,0,3.18,-0.0136,3.1936,17.865,50.04,32.175,24.6348,696.038,870.769
+assumption_life,Assumption Life,0,Bonds,Public & Private Fixed Income,2022Q4,2025Q4,Annual,60.6536,63.8556,3.202,0,0,3.202,-4.1088,7.3109,422.172,556.035,133.863,28.4193,696.038,870.769
+assumption_life,Assumption Life,0,Mortgages & loans,Private Fixed Income,2022Q4,2025Q4,Annual,27.3078,20.8637,-6.4441,0,0,-6.4441,-0.2545,-6.1896,190.073,181.675,-8.398,-53.9448,696.038,870.769
+assumption_life,Assumption Life,0,Equities,Public Equity,2022Q4,2025Q4,Annual,9.3584,9.214,-0.1444,0,0,-0.1444,4.3759,-4.5202,65.138,80.233,15.095,-0.9583,696.038,870.769
+assumption_life,Assumption Life,0,Real estate,External Equity,2022Q4,2025Q4,Annual,0.0,0.0,0.0,0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,696.038,870.769
+assumption_life,Assumption Life,0,Other invested assets,External Equity,2022Q4,2025Q4,Annual,0.1135,0.3199,0.2064,0,0,0.2064,0.0011,0.2053,0.79,2.786,1.996,1.849,696.038,870.769
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,Cash & short-term,Cash & Cash Equivalents,2020Q1,2026Q2,Quarterly,1.3259,5.4392,4.1133,0.0,-1.5563,5.6696,0.2619,5.4077,16.574,44.62,28.046,58.8415,1250.013,820.346
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,Bonds,Public & Private Fixed Income,2020Q1,2026Q2,Quarterly,86.6073,79.4655,-7.1418,0.0,-2.172,-4.9697,-9.7938,4.824,1082.602,651.892,-430.71,-74.8515,1250.013,820.346
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,Mortgages & loans,Private Fixed Income,2020Q1,2026Q2,Quarterly,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1250.013,820.346
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,Equities,Public Equity,2020Q1,2026Q2,Quarterly,4.1717,9.3559,5.1842,0.0,2.4613,2.7229,8.6383,-5.9154,52.147,76.751,24.604,45.5125,1250.013,820.346
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,Real estate,External Equity,2020Q1,2026Q2,Quarterly,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1250.013,820.346
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,Other invested assets,External Equity,2020Q1,2026Q2,Quarterly,7.8951,5.7394,-2.1557,0.0,1.267,-3.4227,0.8936,-4.3163,98.69,47.083,-51.607,-29.5024,1250.013,820.346
+canadian_premier,Canadian Premier Life,0,Cash & short-term,Cash & Cash Equivalents,2020Q1,2026Q2,Quarterly,14.9996,7.3135,-7.6861,0.0,0.3064,-7.9924,0.9026,-8.8951,31.723,50.79,19.067,-33.2663,211.492,694.466
+canadian_premier,Canadian Premier Life,0,Bonds,Public & Private Fixed Income,2020Q1,2026Q2,Quarterly,85.0004,66.337,-18.6634,0.0,-0.3064,-18.357,-9.849,-8.508,179.769,460.688,280.919,-86.3916,211.492,694.466
+canadian_premier,Canadian Premier Life,0,Mortgages & loans,Private Fixed Income,2020Q1,2026Q2,Quarterly,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,211.492,694.466
+canadian_premier,Canadian Premier Life,0,Equities,Public Equity,2020Q1,2026Q2,Quarterly,0.0,26.3495,26.3495,0.0,0.0,26.3495,8.9832,17.3663,0.0,182.988,182.988,118.6234,211.492,694.466
+canadian_premier,Canadian Premier Life,0,Real estate,External Equity,2020Q1,2026Q2,Quarterly,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,211.492,694.466
+canadian_premier,Canadian Premier Life,0,Other invested assets,External Equity,2020Q1,2026Q2,Quarterly,0.0,0.0,0.0,0.0,0.0,0.0,-0.0368,0.0368,0.0,0.0,0.0,1.0345,211.492,694.466
+humania,Humania,0,Cash & short-term,Cash & Cash Equivalents,2021Q4,2025Q4,Annual,6.7746,6.0321,-0.7426,0,0,-0.7426,1.001,-1.7436,29.44,24.494,-4.946,-2.8902,434.562,406.064
+humania,Humania,0,Bonds,Public & Private Fixed Income,2021Q4,2025Q4,Annual,71.9166,78.002,6.0854,0,0,6.0854,-6.9756,13.0611,312.522,316.738,4.216,26.3647,434.562,406.064
+humania,Humania,0,Mortgages & loans,Private Fixed Income,2021Q4,2025Q4,Annual,0.3371,6.7041,6.367,0,0,6.367,0.1848,6.1822,1.465,27.223,25.758,26.5822,434.562,406.064
+humania,Humania,0,Equities,Public Equity,2021Q4,2025Q4,Annual,14.6727,0.1231,-14.5496,0,0,-14.5496,4.8631,-19.4127,63.762,0.5,-63.262,-61.4381,434.562,406.064
+humania,Humania,0,Real estate,External Equity,2021Q4,2025Q4,Annual,3.5848,4.8384,1.2536,0,0,1.2536,0.5266,0.727,15.578,19.647,4.069,4.9767,434.562,406.064
+humania,Humania,0,Other invested assets,External Equity,2021Q4,2025Q4,Annual,2.7142,4.3003,1.5861,0,0,1.5861,0.4001,1.1859,11.795,17.462,5.667,6.4046,434.562,406.064
+primerica_life,Primerica Life,0,Cash & short-term,Cash & Cash Equivalents,2020Q1,2026Q2,Quarterly,6.6823,8.2031,1.5208,0.0,-5.5694,7.0902,2.3796,4.7106,18.817,35.602,16.785,23.5344,281.595,434.007
+primerica_life,Primerica Life,0,Bonds,Public & Private Fixed Income,2020Q1,2026Q2,Quarterly,93.3177,91.7969,-1.5208,0.0,5.5694,-7.0902,-2.3796,-4.7106,262.778,398.405,135.627,-23.5344,281.595,434.007
+primerica_life,Primerica Life,0,Mortgages & loans,Private Fixed Income,2020Q1,2026Q2,Quarterly,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,281.595,434.007
+primerica_life,Primerica Life,0,Equities,Public Equity,2020Q1,2026Q2,Quarterly,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,281.595,434.007
+primerica_life,Primerica Life,0,Real estate,External Equity,2020Q1,2026Q2,Quarterly,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,281.595,434.007
+primerica_life,Primerica Life,0,Other invested assets,External Equity,2020Q1,2026Q2,Quarterly,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,281.595,434.007

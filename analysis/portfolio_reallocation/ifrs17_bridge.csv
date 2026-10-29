@@ -1,0 +1,16 @@
+company_id,company,focus,date,period,ifrs4_cad_mm,ifrs17_restated_cad_mm,restatement_pct,treatment,policy_loans_removed_cad_mm,source
+manulife,Manulife,0,2022-12-31,2022Q4,405154.357,397214.215,-1.9598,switch quarter excluded,6893.588,OSFI LF1 prior period restated (first IFRS 17 quarter)
+sun_life,Sun Life,0,2022-12-31,2022Q4,163256.579,158275.426,-3.0511,switch quarter excluded,3338.13,OSFI LF1 prior period restated (first IFRS 17 quarter)
+canada_life,Canada Life,0,2022-12-31,2022Q4,137100.592,134079.348,-2.2037,switch quarter excluded,3660.238,OSFI LF1 prior period restated (first IFRS 17 quarter)
+ia,iA Financial Group,0,2022-12-31,2022Q4,38865.42,38564.0,-0.7755,restated by class,1119.58,"iA 2023 package, 2022 restated"
+rbc_life,RBC Life,1,2023-10-31,2023Q3,17161.377,17143.353,-0.105,restatement under 1%: switch quarter counted,86.798,OSFI LF1 prior period restated (first IFRS 17 quarter)
+bmo_life,BMO Life,0,2023-10-31,2023Q3,12092.805,12456.626,3.0086,switch quarter excluded,68.983,OSFI LF1 prior period restated (first IFRS 17 quarter)
+beneva,Beneva,0,2022-12-31,2022Q4,9652.6,9652.6,0.0,restated by class,,"Beneva 2023 annual report, consolidated statement of financial position (IFRS 17; 1 Jan 2022 and 31 Dec 2022 restated)"
+ivari,ivari,0,2022-12-31,2022Q4,8531.148,8662.372,1.5382,switch quarter excluded,132.98,OSFI LF1 prior period restated (first IFRS 17 quarter)
+empire_life,Empire Life,0,2022-12-31,2022Q4,8265.999,8263.516,-0.03,restatement under 1%: switch quarter counted,59.979,OSFI LF1 prior period restated (first IFRS 17 quarter)
+equitable_life,Equitable Life,0,2022-12-31,2022Q4,4410.871,4410.871,0.0,restatement under 1%: switch quarter counted,155.852,OSFI LF1 prior period restated (first IFRS 17 quarter)
+cooperators_life,Co-operators Life,0,2022-12-31,2022Q4,4783.126,4782.494,-0.0132,restatement under 1%: switch quarter counted,63.387,OSFI LF1 prior period restated (first IFRS 17 quarter)
+wawanesa_life,Wawanesa Life,0,2022-12-31,2022Q4,1109.345,1109.283,-0.0056,restatement under 1%: switch quarter counted,19.346,OSFI LF1 prior period restated (first IFRS 17 quarter)
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2022-12-31,2022Q4,805.229,805.229,0.0,restatement under 1%: switch quarter counted,13.904,OSFI LF1 prior period restated (first IFRS 17 quarter)
+canadian_premier,Canadian Premier Life,0,2022-12-31,2022Q4,266.75,266.75,0.0,restatement under 1%: switch quarter counted,0.652,OSFI LF1 prior period restated (first IFRS 17 quarter)
+primerica_life,Primerica Life,0,2022-12-31,2022Q4,290.482,290.482,0.0,restatement under 1%: switch quarter counted,0.0,OSFI LF1 prior period restated (first IFRS 17 quarter)
