@@ -1,0 +1,29 @@
+company_id,year,contract,bucket_lt1_cad_mm,bucket_1to5_cad_mm,bucket_gt5_cad_mm,source
+ia,2025,equity_swaps,1850,5,42,"2025 financial statements, derivative note"
+ia,2025,equity_futures,319,0,0,2025 financial statements
+ia,2025,equity_options,6726,0,0,2025 financial statements
+ia,2025,fx_swaps,68,246,7245,2025 financial statements
+ia,2025,fx_forwards,8904,0,0,2025 financial statements
+ia,2025,fx_options,259,0,0,2025 financial statements
+ia,2025,ir_swaps,609,3924,11333,2025 financial statements
+ia,2025,ir_futures,27,0,0,2025 financial statements
+ia,2025,ir_forwards,9976,0,0,2025 financial statements
+ia,2024,equity_swaps,833,4,57,"2025 financial statements, comparative year"
+ia,2024,equity_futures,574,0,0,2025 financial statements
+ia,2024,equity_options,6300,0,0,2025 financial statements
+ia,2024,fx_swaps,30,240,7007,2025 financial statements
+ia,2024,fx_forwards,6515,0,0,2025 financial statements
+ia,2024,fx_options,674,198,0,2025 financial statements
+ia,2024,ir_swaps,1099,3902,11092,2025 financial statements
+ia,2024,ir_futures,64,0,0,2025 financial statements
+ia,2024,ir_forwards,9137,0,0,2025 financial statements
+beneva,2025,fx_forwards,1585.2,0,0,"2025 annual report, derivative note"
+beneva,2025,equity_futures,39.2,0,0,2025 annual report
+beneva,2025,ir_futures,1516.4,0,0,2025 annual report
+beneva,2025,ir_swaps,42.0,568.5,732.6,2025 annual report
+beneva,2025,fx_swaps,0,9.9,153.8,2025 annual report
+beneva,2024,fx_forwards,1308.3,0,0,"2025 annual report, comparative year"
+beneva,2024,equity_futures,44.8,0,0,2025 annual report
+beneva,2024,ir_futures,836.4,82.0,0,2025 annual report
+beneva,2024,ir_swaps,25.0,312.0,472.9,2025 annual report
+beneva,2024,fx_swaps,0,0,166.2,2025 annual report

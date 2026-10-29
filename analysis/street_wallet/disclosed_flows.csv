@@ -1,0 +1,41 @@
+company_id,year,months,purchases_cad_mm,sales_maturities_cad_mm,short_term_purchases_cad_mm,short_term_sales_cad_mm,invested_assets_cad_mm,scope,source
+manulife,2021,12,120965,96728,,,427098,Manulife Financial Corporation (group),"Form 40-F FY2021 XBRL, consolidated statement of cash flows: purchases and mortgage advances; disposals and repayments; total invested assets"
+manulife,2022,12,111558,93407,,,400142,Manulife Financial Corporation (group),"Form 40-F FY2023 XBRL, comparative year"
+manulife,2023,12,84021,70281,,,417210,Manulife Financial Corporation (group),"Form 40-F FY2023 XBRL"
+manulife,2024,12,131123,112671,,,442497,Manulife Financial Corporation (group),"Form 40-F FY2024 XBRL"
+sun_life,2021,12,64592,55189,,,184522,Sun Life Financial Inc. (group),"Form 40-F FY2021 XBRL: purchases of invested assets; sales, maturities and repayments of invested assets; invested assets"
+sun_life,2022,12,57153,53535,,,168789,Sun Life Financial Inc. (group),"2023 consolidated financial statements, comparative year"
+sun_life,2023,12,48579,43457,,,174328,Sun Life Financial Inc. (group),2023 consolidated financial statements
+sun_life,2024,12,61251,52512,,,189817,Sun Life Financial Inc. (group),"2025 consolidated financial statements, comparative year"
+sun_life,2025,12,71218,59959,,,199175,Sun Life Financial Inc. (group),2025 consolidated financial statements
+canada_life,2024,9,29701,31164,,,243785,Great-West Lifeco Inc. (group),"Q3 2025 report to shareholders, nine months to 30 September 2024 (comparative); purchases and sales, maturities and repayments of portfolio investments"
+canada_life,2025,9,40958,39751,,,249368,Great-West Lifeco Inc. (group),"Q3 2025 report to shareholders, nine months to 30 September 2025"
+ia,2021,12,28931,26344,,,45651,iA Financial Corporation (consolidated),"2021 annual report, cash flow statement (operating activities): purchases of investments; sales, maturities and repayments on investments"
+ia,2022,12,36860,34349,,,38564,iA Financial Corporation (consolidated),"2023 financial statements, comparative year (IFRS 17 restated)"
+ia,2023,12,28288,25385,,,42618,iA Financial Corporation (consolidated),2023 financial statements
+ia,2024,12,44061,42312,,,45580,iA Financial Corporation (consolidated),"2025 financial statements, comparative year"
+ia,2025,12,53592,52421,,,46024,iA Financial Corporation (consolidated),2025 financial statements
+empire_life,2022,12,2014.2,1873.8,,,,The Empire Life Insurance Company,"2023 annual report, comparative year: portfolio investments purchases and advances; sales and maturities"
+empire_life,2023,12,2022.2,1685.8,,,,The Empire Life Insurance Company,2023 annual report
+empire_life,2024,12,1885.9,1612.8,,,,The Empire Life Insurance Company,"2025 consolidated financial statements, comparative year"
+empire_life,2025,12,1794.7,1649.3,,,,The Empire Life Insurance Company,2025 consolidated financial statements
+equitable_life,2021,12,988.8,595.9,,,,The Equitable Life Insurance Company of Canada,"2021 annual report: purchase of investments; proceeds from sale of investments"
+equitable_life,2022,12,1129.3,571.8,,,,The Equitable Life Insurance Company of Canada,"2023 annual report, comparative year"
+equitable_life,2023,12,1432.7,793.2,,,,The Equitable Life Insurance Company of Canada,2023 annual report
+equitable_life,2024,12,2834.1,2105.0,,,,The Equitable Life Insurance Company of Canada,"2025 annual report, comparative year"
+equitable_life,2025,12,3091.3,2374.2,,,,The Equitable Life Insurance Company of Canada,2025 annual report
+foresters_life,2021,12,943.8,1235.2,,,,Foresters Life Insurance Company,"2021 financial statements: investments acquired and sold or matured (bonds, equities, other invested assets; policy loans excluded)"
+foresters_life,2022,12,568.2,657.7,,,,Foresters Life Insurance Company,"2023 financial statements, comparative year"
+foresters_life,2023,12,649.8,700.6,,,,Foresters Life Insurance Company,2023 financial statements
+foresters_life,2024,12,630.1,652.2,446.0,419.8,,Foresters Life Insurance Company,"2025 financial statements, comparative year; short-term securities shown separately"
+foresters_life,2025,12,669.3,614.4,479.0,499.5,,Foresters Life Insurance Company,2025 financial statements
+wawanesa_life,2024,12,757.9,770.2,,,,The Wawanesa Life Insurance Company,"2025 financial statements, comparative year: fixed income and stocks purchased and sold, redeemed or matured (policy loans excluded)"
+wawanesa_life,2025,12,831.9,829.2,,,,The Wawanesa Life Insurance Company,2025 financial statements
+beneva,2022,12,5679.7,4645.8,,,,Beneva Group Inc. (consolidated incl. P&C),"2023 annual report, comparative year: acquisitions of investments and issuance of loans; disposals, maturities and repayments of investments"
+beneva,2023,12,5557.8,4875.1,,,,Beneva Group Inc. (consolidated incl. P&C),2023 annual report
+beneva,2024,12,5125.2,4814.2,,,,Beneva Group Inc. (consolidated incl. P&C),"2025 annual report, comparative year"
+beneva,2025,12,5219.7,4353.8,,,,Beneva Group Inc. (consolidated incl. P&C),2025 annual report
+assumption_life,2022,12,199.5,181.1,,,,Assumption Mutual Life Insurance Company,"2023 annual report, comparative year: debt securities, equity securities and mortgages purchases and loans; sales, maturities and reimbursements"
+assumption_life,2023,12,149.6,105.5,,,,Assumption Mutual Life Insurance Company,2023 annual report
+assumption_life,2024,12,349.1,163.7,,,,Assumption Mutual Life Insurance Company,"2025 annual report, comparative year"
+assumption_life,2025,12,380.2,233.2,,,,Assumption Mutual Life Insurance Company,2025 annual report
