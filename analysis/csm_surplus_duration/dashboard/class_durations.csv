@@ -1,0 +1,134 @@
+company_id,company,asset_class,general_account_duration,pool_duration,basis
+rbc_life,RBC Life,Government bonds,10.85,5.0,proxy from liability mix (OSFI LF3)
+rbc_life,RBC Life,Corporate bonds,10.85,5.0,proxy from liability mix (OSFI LF3)
+rbc_life,RBC Life,Private debt,10.85,5.0,assumed (no maturity table)
+rbc_life,RBC Life,Mortgages & loans,6.0,5.0,assumed (no maturity table)
+rbc_life,RBC Life,Cash,0.25,0.25,assumed
+rbc_life,RBC Life,Public equity,0.0,0.0,no rate duration
+rbc_life,RBC Life,Real estate & alternatives,0.0,0.0,no rate duration
+manulife,Manulife,Government bonds,11.43,11.43,disclosed maturities
+manulife,Manulife,Corporate bonds,7.89,7.89,disclosed maturities
+manulife,Manulife,Private debt,9.04,9.04,disclosed maturities
+manulife,Manulife,Mortgages & loans,5.29,5.29,"disclosed maturities (MD&A: commercial mortgages 3.9y Canada, 5.3y U.S.)"
+manulife,Manulife,Cash,0.25,0.25,assumed
+manulife,Manulife,Public equity,0.0,0.0,no rate duration
+manulife,Manulife,Real estate & alternatives,0.0,0.0,no rate duration
+sun_life,Sun Life,Government bonds,9.48,9.48,disclosed maturities
+sun_life,Sun Life,Corporate bonds,9.48,5.89,disclosed maturities
+sun_life,Sun Life,Private debt,8.49,5.5,disclosed maturities
+sun_life,Sun Life,Mortgages & loans,4.72,3.09,disclosed maturities
+sun_life,Sun Life,Cash,0.25,0.25,assumed
+sun_life,Sun Life,Public equity,0.0,0.0,no rate duration
+sun_life,Sun Life,Real estate & alternatives,0.0,0.0,no rate duration
+canada_life,Canada Life,Government bonds,11.19,11.19,proxy from liability mix (OSFI LF3)
+canada_life,Canada Life,Corporate bonds,11.19,6.31,proxy from liability mix (OSFI LF3)
+canada_life,Canada Life,Private debt,11.19,11.19,assumed (no maturity table)
+canada_life,Canada Life,Mortgages & loans,6.0,5.24,assumed (no maturity table)
+canada_life,Canada Life,Cash,0.25,0.25,assumed
+canada_life,Canada Life,Public equity,0.0,0.0,no rate duration
+canada_life,Canada Life,Real estate & alternatives,0.0,0.0,no rate duration
+ia,iA Financial Group,Government bonds,10.91,10.91,disclosed maturities
+ia,iA Financial Group,Corporate bonds,10.91,10.91,disclosed maturities
+ia,iA Financial Group,Private debt,10.91,10.91,assumed (no maturity table)
+ia,iA Financial Group,Mortgages & loans,4.05,4.05,disclosed maturities
+ia,iA Financial Group,Cash,0.25,0.25,assumed
+ia,iA Financial Group,Public equity,0.0,0.0,no rate duration
+ia,iA Financial Group,Real estate & alternatives,0.0,0.0,no rate duration
+desjardins,Desjardins Insurance,Government bonds,10.0,10.0,peer default (10y)
+desjardins,Desjardins Insurance,Corporate bonds,10.0,10.0,peer default (10y)
+desjardins,Desjardins Insurance,Private debt,10.0,10.0,assumed (no maturity table)
+desjardins,Desjardins Insurance,Mortgages & loans,6.0,6.0,assumed (no maturity table)
+desjardins,Desjardins Insurance,Cash,0.25,0.25,assumed
+desjardins,Desjardins Insurance,Public equity,0.0,0.0,no rate duration
+desjardins,Desjardins Insurance,Real estate & alternatives,0.0,0.0,no rate duration
+beneva,Beneva,Government bonds,7.17,7.17,disclosed maturities
+beneva,Beneva,Corporate bonds,7.17,7.17,disclosed maturities
+beneva,Beneva,Private debt,9.12,9.12,disclosed maturities
+beneva,Beneva,Mortgages & loans,2.37,2.37,disclosed maturities
+beneva,Beneva,Cash,0.25,0.25,assumed
+beneva,Beneva,Public equity,0.0,0.0,no rate duration
+beneva,Beneva,Real estate & alternatives,0.0,0.0,no rate duration
+empire_life,Empire Life,Government bonds,10.56,10.56,disclosed maturities
+empire_life,Empire Life,Corporate bonds,10.56,10.56,disclosed maturities
+empire_life,Empire Life,Private debt,10.56,10.56,assumed (no maturity table)
+empire_life,Empire Life,Mortgages & loans,6.0,6.0,assumed (no maturity table)
+empire_life,Empire Life,Cash,0.25,0.25,assumed
+empire_life,Empire Life,Public equity,0.0,0.0,no rate duration
+empire_life,Empire Life,Real estate & alternatives,0.0,0.0,no rate duration
+equitable_life,Equitable Life,Government bonds,12.86,12.86,disclosed maturities
+equitable_life,Equitable Life,Corporate bonds,5.82,5.82,disclosed maturities
+equitable_life,Equitable Life,Private debt,3.83,3.83,disclosed maturities
+equitable_life,Equitable Life,Mortgages & loans,2.56,2.56,disclosed maturities
+equitable_life,Equitable Life,Cash,0.25,0.25,assumed
+equitable_life,Equitable Life,Public equity,0.0,0.0,no rate duration
+equitable_life,Equitable Life,Real estate & alternatives,0.0,0.0,no rate duration
+bmo_life,BMO Life,Government bonds,10.48,10.48,proxy from liability mix (OSFI LF3)
+bmo_life,BMO Life,Corporate bonds,10.48,8.75,proxy from liability mix (OSFI LF3)
+bmo_life,BMO Life,Private debt,10.48,10.48,assumed (no maturity table)
+bmo_life,BMO Life,Mortgages & loans,6.0,5.08,assumed (no maturity table)
+bmo_life,BMO Life,Cash,0.25,0.25,assumed
+bmo_life,BMO Life,Public equity,0.0,0.0,no rate duration
+bmo_life,BMO Life,Real estate & alternatives,0.0,0.0,no rate duration
+ivari,ivari,Government bonds,12.69,12.69,proxy from liability mix (OSFI LF3)
+ivari,ivari,Corporate bonds,12.69,12.69,proxy from liability mix (OSFI LF3)
+ivari,ivari,Private debt,12.69,12.69,assumed (no maturity table)
+ivari,ivari,Mortgages & loans,6.0,6.0,assumed (no maturity table)
+ivari,ivari,Cash,0.25,0.25,assumed
+ivari,ivari,Public equity,0.0,0.0,no rate duration
+ivari,ivari,Real estate & alternatives,0.0,0.0,no rate duration
+cooperators_life,Co-operators Life,Government bonds,10.32,10.32,proxy from liability mix (OSFI LF3)
+cooperators_life,Co-operators Life,Corporate bonds,10.32,5.86,proxy from liability mix (OSFI LF3)
+cooperators_life,Co-operators Life,Private debt,10.32,5.0,assumed (no maturity table)
+cooperators_life,Co-operators Life,Mortgages & loans,6.0,5.05,assumed (no maturity table)
+cooperators_life,Co-operators Life,Cash,0.25,0.25,assumed
+cooperators_life,Co-operators Life,Public equity,0.0,0.0,no rate duration
+cooperators_life,Co-operators Life,Real estate & alternatives,0.0,0.0,no rate duration
+primerica_life,Primerica Life,Government bonds,13.0,13.0,proxy from liability mix (OSFI LF3)
+primerica_life,Primerica Life,Corporate bonds,13.0,9.0,proxy from liability mix (OSFI LF3)
+primerica_life,Primerica Life,Private debt,13.0,5.0,assumed (no maturity table)
+primerica_life,Primerica Life,Mortgages & loans,6.0,5.0,assumed (no maturity table)
+primerica_life,Primerica Life,Cash,0.25,0.25,assumed
+primerica_life,Primerica Life,Public equity,0.0,0.0,no rate duration
+primerica_life,Primerica Life,Real estate & alternatives,0.0,0.0,no rate duration
+foresters_life,Foresters Life,Government bonds,6.24,4.69,implied by disclosed asset sensitivity
+foresters_life,Foresters Life,Corporate bonds,6.24,4.69,implied by disclosed asset sensitivity
+foresters_life,Foresters Life,Private debt,6.24,4.69,assumed (no maturity table)
+foresters_life,Foresters Life,Mortgages & loans,6.0,4.69,assumed (no maturity table)
+foresters_life,Foresters Life,Cash,0.25,0.25,assumed
+foresters_life,Foresters Life,Public equity,0.0,0.0,no rate duration
+foresters_life,Foresters Life,Real estate & alternatives,0.0,0.0,no rate duration
+wawanesa_life,Wawanesa Life,Government bonds,12.23,12.23,implied by disclosed asset sensitivity
+wawanesa_life,Wawanesa Life,Corporate bonds,12.23,12.23,implied by disclosed asset sensitivity
+wawanesa_life,Wawanesa Life,Private debt,12.23,12.23,assumed (no maturity table)
+wawanesa_life,Wawanesa Life,Mortgages & loans,6.0,6.0,assumed (no maturity table)
+wawanesa_life,Wawanesa Life,Cash,0.25,0.25,assumed
+wawanesa_life,Wawanesa Life,Public equity,0.0,0.0,no rate duration
+wawanesa_life,Wawanesa Life,Real estate & alternatives,0.0,0.0,no rate duration
+assumption_life,Assumption Life,Government bonds,11.02,11.02,disclosed maturities
+assumption_life,Assumption Life,Corporate bonds,5.62,5.62,disclosed maturities
+assumption_life,Assumption Life,Private debt,5.62,5.62,assumed (no maturity table)
+assumption_life,Assumption Life,Mortgages & loans,2.86,2.86,disclosed maturities
+assumption_life,Assumption Life,Cash,0.25,0.25,assumed
+assumption_life,Assumption Life,Public equity,0.0,0.0,no rate duration
+assumption_life,Assumption Life,Real estate & alternatives,0.0,0.0,no rate duration
+canadian_premier,Canadian Premier,Government bonds,4.2,4.2,proxy from liability mix (OSFI LF3)
+canadian_premier,Canadian Premier,Corporate bonds,4.2,4.46,proxy from liability mix (OSFI LF3)
+canadian_premier,Canadian Premier,Private debt,4.2,4.2,assumed (no maturity table)
+canadian_premier,Canadian Premier,Mortgages & loans,4.2,4.2,assumed (no maturity table)
+canadian_premier,Canadian Premier,Cash,0.25,0.25,assumed
+canadian_premier,Canadian Premier,Public equity,0.0,0.0,no rate duration
+canadian_premier,Canadian Premier,Real estate & alternatives,0.0,0.0,no rate duration
+uv_insurance,UV Insurance,Government bonds,10.0,10.0,peer default (10y)
+uv_insurance,UV Insurance,Corporate bonds,10.0,10.0,peer default (10y)
+uv_insurance,UV Insurance,Private debt,10.0,10.0,assumed (no maturity table)
+uv_insurance,UV Insurance,Mortgages & loans,6.0,6.0,assumed (no maturity table)
+uv_insurance,UV Insurance,Cash,0.25,0.25,assumed
+uv_insurance,UV Insurance,Public equity,0.0,0.0,no rate duration
+uv_insurance,UV Insurance,Real estate & alternatives,0.0,0.0,no rate duration
+humania,Humania,Government bonds,10.0,10.0,peer default (10y)
+humania,Humania,Corporate bonds,10.0,10.0,peer default (10y)
+humania,Humania,Private debt,10.0,10.0,assumed (no maturity table)
+humania,Humania,Mortgages & loans,6.0,6.0,assumed (no maturity table)
+humania,Humania,Cash,0.25,0.25,assumed
+humania,Humania,Public equity,0.0,0.0,no rate duration
+humania,Humania,Real estate & alternatives,0.0,0.0,no rate duration
