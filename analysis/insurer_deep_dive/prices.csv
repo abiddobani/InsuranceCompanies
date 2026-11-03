@@ -1,0 +1,10 @@
+company_id,ticker,price,as_of,market_cap,note,source
+manulife,TSX: MFC,C$62.68,close 2 Nov 2026,C$104.0bn,,https://www.eoddata.com/stockquote/TSX/MFC.htm
+sun_life,TSX: SLF,C$112.80,close 2 Nov 2026,C$62.7bn,,https://www.eoddata.com/stockquote/TSX/SLF.htm
+canada_life,TSX: GWO (parent),C$91.82,close 2 Nov 2026,C$82.2bn,Great-West Lifeco,https://www.eoddata.com/stockquote/TSX/GWO.htm
+ia,TSX: IAG,C$215.20,close 2 Nov 2026,C$19.0bn,,https://www.eoddata.com/stockquote/TSX/IAG.htm
+empire_life,TSX: ELF (parent),C$19.67,close 2 Nov 2026,C$6.8bn,E-L Financial (post-split share count 345.6M),https://www.eoddata.com/stockquote/TSX/ELF.htm
+rbc_life,TSX: RY (parent),C$286.20,close 2 Nov 2026,C$396.2bn,Royal Bank of Canada,https://www.eoddata.com/stockquote/TSX/RY.htm
+bmo_life,TSX: BMO (parent),C$242.00,close 2 Nov 2026,C$168.2bn,Bank of Montreal,https://www.eoddata.com/stockquote/TSX/BMO.htm
+ivari,TSX: SFC (parent),C$8.30,close 2 Nov 2026,C$1.1bn,Sagicor Financial,https://www.eoddata.com/stockquote/TSX/SFC.htm
+primerica_life,NYSE: PRI (parent),US$283.52,close 2 Nov 2026,US$8.7bn,Primerica Inc.,https://api.nasdaq.com/api/quote/PRI/summary?assetclass=stocks

@@ -1,0 +1,797 @@
+{
+  "company_id": "manulife",
+  "name": "Manulife Financial Corporation",
+  "as_of": "2026-06-30",
+  "ownership": "Public (TSX/NYSE/PSE: MFC; HKEX: 945)",
+  "regulator": "OSFI",
+  "metrics": [
+    {
+      "metric": "Total assets",
+      "value": 1094.0,
+      "unit": "C$bn",
+      "as_of": "2026-06-30",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000081/q22026reporttoshareholderl.htm",
+      "note": "Consolidated statement of financial position: C$1,093,994m."
+    },
+    {
+      "metric": "General fund invested assets",
+      "value": 485.8,
+      "unit": "C$bn",
+      "as_of": "2026-06-30",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000081/q22026reporttoshareholderl.htm",
+      "note": "Total invested assets per Q2 2026 report; C$459.9bn at 2025-12-31 (FY2025 MD&A)."
+    },
+    {
+      "metric": "Segregated funds net assets",
+      "value": 497.9,
+      "unit": "C$bn",
+      "as_of": "2026-06-30",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000081/q22026reporttoshareholderl.htm",
+      "note": ""
+    },
+    {
+      "metric": "AUMA (assets under management and administration)",
+      "value": 1847.2,
+      "unit": "C$bn",
+      "as_of": "2026-06-30",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000080/q22026pressrelease.htm",
+      "note": "Non-GAAP; includes Global WAM third-party, seg funds and general fund. Average AUMA in 2Q26 C$1,162bn (Global WAM)."
+    },
+    {
+      "metric": "Core earnings FY2025",
+      "value": 7521,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/a2025annualmdareport.htm",
+      "note": "Non-GAAP."
+    },
+    {
+      "metric": "Core earnings 1H 2026 (YTD)",
+      "value": 3759,
+      "unit": "C$mm",
+      "as_of": "2026-06-30",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000080/q22026pressrelease.htm",
+      "note": "2Q26 alone C$1,923m. Q3 2026 results not yet published as of 2026-11-03."
+    },
+    {
+      "metric": "Net income attributed to shareholders FY2025",
+      "value": 5600,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/a2025annualmdareport.htm",
+      "note": "Approximately C$5.6bn per MD&A; includes 2025 market experience charge of C$1,662m (ALDA)."
+    },
+    {
+      "metric": "Net income attributed to shareholders 1H 2026 (YTD)",
+      "value": 3257,
+      "unit": "C$mm",
+      "as_of": "2026-06-30",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000080/q22026pressrelease.htm",
+      "note": "2Q26 alone C$2,110m."
+    },
+    {
+      "metric": "Core ROE",
+      "value": 16.3,
+      "unit": "%",
+      "as_of": "2026-06-30",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000080/q22026pressrelease.htm",
+      "note": "2Q26 annualized. Medium-term target 18%+ by 2027."
+    },
+    {
+      "metric": "LICAT ratio (MLI)",
+      "value": 136,
+      "unit": "%",
+      "as_of": "2026-06-30",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000080/q22026pressrelease.htm",
+      "note": "The Manufacturers Life Insurance Company. MFC consolidated LICAT 126%. No numeric internal operating range disclosed (see gaps)."
+    },
+    {
+      "metric": "Financial leverage ratio",
+      "value": 22.2,
+      "unit": "%",
+      "as_of": "2026-06-30",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000080/q22026pressrelease.htm",
+      "note": "23.9% at 2025-12-31. Medium-term target 25% or below. Denominator includes CSM net of tax."
+    },
+    {
+      "metric": "Consolidated capital",
+      "value": 86.8,
+      "unit": "C$bn",
+      "as_of": "2026-06-30",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000081/q22026reporttoshareholderl.htm",
+      "note": "Total equity + capital instruments; non-GAAP."
+    },
+    {
+      "metric": "Book value per common share",
+      "value": 27.48,
+      "unit": "C$",
+      "as_of": "2026-06-30",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000080/q22026pressrelease.htm",
+      "note": ""
+    },
+    {
+      "metric": "Employees",
+      "value": 37000,
+      "unit": "count",
+      "as_of": "2025-12-31",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/a2025annualmdareport.htm",
+      "note": "More than 37,000 employees and more than 106,000 agents."
+    },
+    {
+      "metric": "Investment professionals (Manulife Investment Management)",
+      "value": 700,
+      "unit": "count",
+      "as_of": "2025-09-30",
+      "source": "https://www.manulifeim.com/en/about-us",
+      "note": "700+ investment professionals incl. affiliates/JVs, from search snippet of manulifeim.com (site returned 403 to fetch). Counts the whole asset manager, not GA team alone."
+    },
+    {
+      "metric": "Financial strength rating (MLI) - S&P",
+      "value": null,
+      "unit": "rating AA-",
+      "as_of": "2026-03-31",
+      "source": "https://www.manulife.com/en/investors/results-and-reports/ratings.html",
+      "note": "Manulife ratings page via search snippet (site 403). Moody's Aa3 (upgraded Sep 2025), AM Best A+, Fitch AA, DBRS AA. MFC issuer ratings listed in AIF (2026-02-05)."
+    }
+  ],
+  "business_mix": {
+    "basis": "Core earnings by reporting segment, FY2025 (% of total C$7,521m; Corporate & Other -C$220m excluded from percentages)",
+    "as_of": "2025-12-31",
+    "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/a2025annualmdareport.htm",
+    "items": [
+      {
+        "label": "Asia",
+        "pct": 38.4,
+        "amount_cad_mm": 2969
+      },
+      {
+        "label": "Global Wealth & Asset Management",
+        "pct": 25.0,
+        "amount_cad_mm": 1932
+      },
+      {
+        "label": "Canada",
+        "pct": 21.1,
+        "amount_cad_mm": 1634
+      },
+      {
+        "label": "U.S.",
+        "pct": 15.6,
+        "amount_cad_mm": 1206
+      },
+      {
+        "label": "Corporate & Other",
+        "pct": null,
+        "amount_cad_mm": -220
+      }
+    ],
+    "note": "Percentages = segment / sum of four operating segments (C$7,741m). Management also cites 47% of core earnings from Asia region (incl. Asia WAM) in 2025 vs 50% target by 2027."
+  },
+  "people": [
+    {
+      "role": "CEO",
+      "name": "Phil Witherington",
+      "title": "President & Chief Executive Officer",
+      "reports_to": "Board",
+      "entity": "Manulife Financial Corporation",
+      "seat_since": 2025,
+      "firm_since": 2014,
+      "industry_since": null,
+      "prior": "HSBC Insurance (CFO), AIA, KPMG; previously Manulife CFO (2018-23) and President & CEO Manulife Asia (2023-25)",
+      "comp_total_cad": 15472253,
+      "comp_currency": "CAD",
+      "comp_year": 2025,
+      "comp_source": "https://www.sec.gov/Archives/edgar/data/1086888/000119312526127627/d45448dex993.htm",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1086888/000119312526127627/d45448dex993.htm"
+      ],
+      "note": "CEO since 2025-05-09 (succeeded Roy Gori). SCT total in CAD; US$ pay converted at BoC 2025 average US$1.00 = C$1.3978. Industry start year not in circular."
+    },
+    {
+      "role": "CIO",
+      "name": "Scott Hartz",
+      "title": "Chief Investment Officer (to Aug 2024, retired)",
+      "reports_to": "CEO",
+      "entity": "Manulife Financial Corporation",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/aiffebruary2026.htm"
+      ],
+      "note": "Predecessor CIO; retired Aug 2024, succeeded by Trevor Kreel (AIF). Listed only to date the CIO transition."
+    },
+    {
+      "role": "CIO",
+      "name": "Trevor Kreel",
+      "title": "Chief Investment Officer",
+      "reports_to": "CEO (Phil Witherington)",
+      "entity": "Manulife Financial Corporation (general account; Executive Leadership Team)",
+      "seat_since": 2024,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "Manulife Global Head of Portfolio Management; actuary (University of Cape Town); one aggregator says joined Manulife 1995 (unverified)",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": 2025,
+      "comp_source": null,
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/aiffebruary2026.htm"
+      ],
+      "note": "CIO since Aug 2024 per AIF executive officer list. Not a named executive officer in 2026 circular, so 2025 pay not disclosed. Firm/industry start years unverified (banklife.org bio returned 503; marketscreener conflicting)."
+    },
+    {
+      "role": "Head of Global WAM / Manulife Investment Management",
+      "name": "Paul Lorentz",
+      "title": "President & CEO, Global Wealth and Asset Management",
+      "reports_to": "CEO (Phil Witherington)",
+      "entity": "Manulife Financial Corporation / Manulife Investment Management",
+      "seat_since": 2019,
+      "firm_since": 1993,
+      "industry_since": 1993,
+      "prior": "Career at Manulife since 1993; FCIA actuary; previously Head of Global Wealth Management",
+      "comp_total_cad": 7711879,
+      "comp_currency": "CAD",
+      "comp_year": 2025,
+      "comp_source": "https://www.sec.gov/Archives/edgar/data/1086888/000119312526127627/d45448dex993.htm",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1086888/000119312526127627/d45448dex993.htm",
+        "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/aiffebruary2026.htm"
+      ],
+      "note": "Runs Global WAM, which manages C$234.4bn of general-fund assets for the insurance segments (FY2025 MD&A). industry_since set equal to firm_since (inferred: first job out of university was Manulife)."
+    },
+    {
+      "role": "Head of public markets / fixed income (Manulife IM)",
+      "name": "Colin Purdie",
+      "title": "Global Chief Investment Officer, Public Markets, Manulife Investment Management",
+      "reports_to": "Paul Lorentz (inferred)",
+      "entity": "Manulife Investment Management",
+      "seat_since": 2023,
+      "firm_since": 2023,
+      "industry_since": null,
+      "prior": "Aviva Investors (CIO Credit / Global Head of Credit)",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://www.manulifeim.com/en/about-us"
+      ],
+      "note": "Closest public proxy for head of public fixed income; the GA-specific head of public fixed income is not publicly identified (see gaps). Dates from press/search snippets; manulifeim.com returned 403. inferred: true for reporting line."
+    },
+    {
+      "role": "Head of private markets / alternatives (Manulife IM)",
+      "name": "Anne Valentine Andrews",
+      "title": "Global Head of Private Markets, Manulife Investment Management",
+      "reports_to": "Paul Lorentz (inferred)",
+      "entity": "Manulife Investment Management",
+      "seat_since": 2024,
+      "firm_since": 2024,
+      "industry_since": null,
+      "prior": "BlackRock (Global Head of Infrastructure & Real Estate), Morgan Stanley Infrastructure",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://www.manulifeim.com/en/about-us"
+      ],
+      "note": "Oversees ALDA-related private markets platforms (RE, infra, PE, timber/ag, private credit). Dates from press/search snippets. inferred: true for reporting line."
+    },
+    {
+      "role": "CFO",
+      "name": "Colin Simpson",
+      "title": "Chief Financial Officer",
+      "reports_to": "CEO",
+      "entity": "Manulife Financial Corporation",
+      "seat_since": 2023,
+      "firm_since": 2022,
+      "industry_since": null,
+      "prior": "Aviva Canada (CEO), Aviva plc",
+      "comp_total_cad": 5150231,
+      "comp_currency": "CAD",
+      "comp_year": 2025,
+      "comp_source": "https://www.sec.gov/Archives/edgar/data/1086888/000119312526127627/d45448dex993.htm",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1086888/000119312526127627/d45448dex993.htm"
+      ],
+      "note": "Joined Nov 2022; CFO Jul 2023."
+    },
+    {
+      "role": "CRO",
+      "name": "Rahim Hirji",
+      "title": "Chief Risk Officer (to Jun 2023)",
+      "reports_to": "CEO",
+      "entity": "Manulife Financial Corporation",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/aiffebruary2026.htm"
+      ],
+      "note": "Predecessor CRO (to Jun 2023); now Chief Auditor and Head of Advisory Services per AIF. Listed only to date the CRO transition."
+    },
+    {
+      "role": "CRO",
+      "name": "Halina von dem Hagen",
+      "title": "Chief Risk Officer",
+      "reports_to": "CEO (with direct access to Board Risk Committee)",
+      "entity": "Manulife Financial Corporation",
+      "seat_since": 2023,
+      "firm_since": 2007,
+      "industry_since": null,
+      "prior": "RBC; previously Manulife Treasurer and Global Head of Capital Management",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/aiffebruary2026.htm"
+      ],
+      "note": "CRO since Jun 2023. Not a named executive officer; pay not disclosed."
+    },
+    {
+      "role": "Other NEO",
+      "name": "Marc Costantini",
+      "title": "President & CEO, Manulife U.S. (per 2026 circular)",
+      "reports_to": "CEO",
+      "entity": "Manulife Financial Corporation",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": 2025,
+      "comp_source": "https://www.sec.gov/Archives/edgar/data/1086888/000119312526127627/d45448dex993.htm",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1086888/000119312526127627/d45448dex993.htm"
+      ],
+      "note": "Named in circular pay-currency footnote; total not extracted (not required). Other NEO totals 2025: Steve Finch C$6,792,237; Brooks Tingle C$6,177,617; Roy Gori (retired 2025-05-08) C$8,391,494."
+    }
+  ],
+  "pm_structure": {
+    "summary": "General account is managed predominantly in-house by Manulife's investment organisation, with Global WAM (Manulife Investment Management) managing C$234.4bn of general-fund assets for the insurance segments; corporate CIO (Trevor Kreel) sets ALM/SAA at MFC level.",
+    "manager_entities": [
+      "Manulife (corporate Investment Division under CIO)",
+      "Manulife Investment Management (Global WAM segment) - public and private markets",
+      "Manulife Investment Management Timberland & Agriculture (Hancock)",
+      "Manulife | John Hancock Investments (US)",
+      "Manulife | CQS Investment Management (credit)",
+      "Comvest Partners (75% owned, private credit)"
+    ],
+    "bullets": [
+      "Global WAM managed C$234.4bn of general-fund assets for other segments at 2025-12-31; intersegment fee revenue earned (FY2025 MD&A).",
+      "ALDA (C$61.7bn, 13% of GA) is 'majority managed in-house'; timber/ag via MIM Timberland & Agriculture; RE 43% US / 38% Canada / 19% Asia.",
+      "Corporate CIO sits on Executive Leadership Team, reports to CEO; distinct from MIM public/private markets CIOs who report into Global WAM.",
+      "Recent construct changes: CQS (2024) and Comvest (75%, closed Q4 2025) add external credit/private-credit capabilities; L&G partnership (Mar 2026)."
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/a2025annualmdareport.htm",
+      "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/aiffebruary2026.htm"
+    ]
+  },
+  "rotation_commentary": [
+    {
+      "year": 2025,
+      "text": "ALDA returns below long-term expectations drove C$1,662m market experience charge (RE, PE, timber); management retains ALDA strategy but trims RE exposure.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/a2025annualmdareport.htm"
+    },
+    {
+      "year": 2025,
+      "text": "Six commercial real estate dispositions (C$0.36bn) in 2025; RE occupancy 82%; office exposure under review.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/a2025annualmdareport.htm"
+    },
+    {
+      "year": 2025,
+      "text": "LTC/legacy reinsurance (Global Atlantic 2024, RGA Jan 2025) released capital and reduced ALDA/long-duration asset need; proceeds to buybacks (NCIB).",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/a2025annualmdareport.htm"
+    },
+    {
+      "year": 2025,
+      "text": "Private placements C$51.8bn (11%) and mortgages 12% remain core yield assets; MBS/ABS small at C$2.3bn (1%).",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/a2025annualmdareport.htm"
+    },
+    {
+      "year": 2025,
+      "text": "Comvest acquisition (75%) adds US middle-market private credit origination; GA expected to seed/co-invest (inferred).",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000080/q22026pressrelease.htm"
+    },
+    {
+      "year": 2026,
+      "text": "Encumbered cash/securities C$17.9bn and repo usage up (C$1,422m vs C$193m Dec 2025) as collateral/liquidity management grows.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000081/q22026reporttoshareholderl.htm"
+    }
+  ],
+  "target_allocations": [
+    {
+      "asset_class": "ALDA (alternative long-duration assets)",
+      "target": "No numeric target disclosed; ALDA 13% of GA at 2025-12-31 (RE 12.7, infra 18.6, timber/ag 6.0, PE 18.4, energy 1.7, other 4.3 C$bn).",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/a2025annualmdareport.htm"
+    },
+    {
+      "asset_class": "Medium-term financial targets (not asset mix)",
+      "target": "Core ROE 18%+, leverage <=25%, 50% core earnings from Asia, 25%+ from Global WAM by 2027.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/a2025annualmdareport.htm"
+    }
+  ],
+  "leverage": {
+    "debt_outstanding": [
+      {
+        "type": "Senior notes (long-term debt)",
+        "amount_cad_mm": 6537,
+        "as_of": "2026-06-30",
+        "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000081/q22026reporttoshareholderl.htm"
+      },
+      {
+        "type": "Capital instruments (subordinated debentures and notes)",
+        "amount_cad_mm": 7590,
+        "as_of": "2026-06-30",
+        "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000081/q22026reporttoshareholderl.htm"
+      },
+      {
+        "type": "Preferred shares and other equity instruments (incl. LRCNs)",
+        "amount_cad_mm": 6660,
+        "as_of": "2026-06-30",
+        "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000081/q22026reporttoshareholderl.htm"
+      },
+      {
+        "type": "LRCN Series 1 (reset 5.883% from 2026-06-19)",
+        "amount_cad_mm": 2000,
+        "as_of": "2026-06-30",
+        "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000081/q22026reporttoshareholderl.htm"
+      },
+      {
+        "type": "LRCN Series 2",
+        "amount_cad_mm": 1200,
+        "as_of": "2026-06-30",
+        "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000081/q22026reporttoshareholderl.htm"
+      },
+      {
+        "type": "LRCN Series 3",
+        "amount_cad_mm": 1000,
+        "as_of": "2026-06-30",
+        "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000081/q22026reporttoshareholderl.htm"
+      }
+    ],
+    "financial_leverage_ratio_pct": 22.2,
+    "issuance": [
+      {
+        "date": "2023-03-10",
+        "instrument": "Subordinated debentures (MFC), fixed/floating",
+        "amount_cad_mm": 1200,
+        "coupon_pct": 5.409,
+        "maturity": "2033-03-10",
+        "bookrunners": [
+          "RBC Capital Markets",
+          "Scotiabank",
+          "TD Securities"
+        ],
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      },
+      {
+        "date": "2024-02-23",
+        "instrument": "Subordinated debentures (MFC), fixed/floating",
+        "amount_cad_mm": 1100,
+        "coupon_pct": 5.054,
+        "maturity": "2034-02-23",
+        "bookrunners": [
+          "RBC Capital Markets",
+          "BMO Capital Markets",
+          "CIBC Capital Markets"
+        ],
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      },
+      {
+        "date": "2024-06-25",
+        "instrument": "Subordinated notes (MFC) S$500m, fixed/floating",
+        "amount_cad_mm": 505,
+        "coupon_pct": 4.275,
+        "maturity": "2034-06-25",
+        "bookrunners": [
+          "DBS Bank",
+          "Standard Chartered Bank (Singapore)",
+          "HSBC Singapore (co-manager)"
+        ],
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      },
+      {
+        "date": "2024-12-09",
+        "instrument": "Subordinated debentures (MFC), fixed/floating",
+        "amount_cad_mm": 1000,
+        "coupon_pct": 4.064,
+        "maturity": "2034-12-09",
+        "bookrunners": [
+          "RBC Capital Markets",
+          "CIBC Capital Markets",
+          "Scotiabank"
+        ],
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      },
+      {
+        "date": "2025-05-14",
+        "instrument": "Subordinated debentures (MFC), fixed/floating",
+        "amount_cad_mm": 500,
+        "coupon_pct": 3.983,
+        "maturity": "2035-05-14",
+        "bookrunners": [
+          "RBC Capital Markets",
+          "Scotiabank",
+          "TD Securities"
+        ],
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      },
+      {
+        "date": "2025-12-03",
+        "instrument": "Senior notes (MFC) US$1,000m",
+        "amount_cad_mm": 1398,
+        "coupon_pct": 4.986,
+        "maturity": "2030-12",
+        "bookrunners": [
+          "BofA Securities",
+          "Citigroup",
+          "J.P. Morgan",
+          "Morgan Stanley"
+        ],
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      },
+      {
+        "date": "2026-06-10",
+        "instrument": "Subordinated notes (MFC) S$500m, fixed/floating",
+        "amount_cad_mm": 530,
+        "coupon_pct": 2.88,
+        "maturity": "2036-06",
+        "bookrunners": [
+          "DBS Bank",
+          "HSBC",
+          "Standard Chartered Bank",
+          "Bank of China (co-manager)"
+        ],
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      },
+      {
+        "date": "2026-09-15",
+        "instrument": "Subordinated notes (MFC) US$750m, fixed/floating",
+        "amount_cad_mm": 1030,
+        "coupon_pct": 6.146,
+        "maturity": "2041-09",
+        "bookrunners": [
+          "BofA Securities",
+          "Citigroup",
+          "J.P. Morgan",
+          "Morgan Stanley"
+        ],
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      }
+    ],
+    "securities_lending": {
+      "amount_cad_mm": 3113,
+      "as_of": "2026-06-30",
+      "text": "Securities lent C$3,113m (C$1,800m at 2025-12-31); collateral typically 102-105%, over-collateralization C$527m. Program via custodians.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000081/q22026reporttoshareholderl.htm"
+    },
+    "repos": {
+      "amount_cad_mm": 1422,
+      "as_of": "2026-06-30",
+      "text": "Securities sold under repurchase agreements C$1,422m (C$193m Dec 2025); reverse repos C$905m; encumbered cash and securities C$17.9bn.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000081/q22026reporttoshareholderl.htm"
+    },
+    "structured_indirect": [
+      {
+        "text": "Mortgage- and asset-backed securities C$2.3bn (1% of GA) at 2025-12-31; no CLO breakout disclosed.",
+        "amount_cad_mm": 2300,
+        "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/a2025annualmdareport.htm"
+      },
+      {
+        "text": "Fund investments (infrastructure, timber, PE, private credit funds) C$35,758m within ALDA/other invested assets.",
+        "amount_cad_mm": 35758,
+        "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000081/q22026reporttoshareholderl.htm"
+      },
+      {
+        "text": "Credit-linked notes / variable surplus notes with unconsolidated financing entity for US LTC reserve financing (letters-of-credit substitute).",
+        "amount_cad_mm": null,
+        "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/a2025annualmdareport.htm"
+      },
+      {
+        "text": "Credit default swaps written limited to notional not exceeding government bond holdings; CDS used as credit replication.",
+        "amount_cad_mm": null,
+        "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000081/q22026reporttoshareholderl.htm"
+      },
+      {
+        "text": "Reinsurance of US LTC/legacy blocks to Global Atlantic (2024) and RGA (2025) transferred ~C$8.4bn of LTC reserves off balance sheet (asset-intensive).",
+        "amount_cad_mm": 8400,
+        "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/a2025annualmdareport.htm"
+      }
+    ]
+  },
+  "partnerships": {
+    "underwriters": [
+      {
+        "dealer": "RBC Capital Markets",
+        "role": "lead / co-lead",
+        "deals": 4,
+        "note": "CAD sub debt 2023, Feb 2024, Dec 2024, May 2025",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      },
+      {
+        "dealer": "Scotiabank",
+        "role": "co-lead",
+        "deals": 3,
+        "note": "CAD sub debt 2023, Dec 2024, May 2025",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      },
+      {
+        "dealer": "TD Securities",
+        "role": "co-lead",
+        "deals": 2,
+        "note": "CAD sub debt 2023, May 2025",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      },
+      {
+        "dealer": "CIBC Capital Markets",
+        "role": "co-lead",
+        "deals": 2,
+        "note": "CAD sub debt Feb 2024, Dec 2024",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      },
+      {
+        "dealer": "BMO Capital Markets",
+        "role": "co-lead",
+        "deals": 1,
+        "note": "CAD sub debt Feb 2024",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      },
+      {
+        "dealer": "BofA Securities / Citigroup / J.P. Morgan / Morgan Stanley",
+        "role": "joint bookrunners (USD)",
+        "deals": 2,
+        "note": "US$1bn senior Dec 2025; US$750m sub Sep 2026",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      },
+      {
+        "dealer": "DBS / Standard Chartered / HSBC",
+        "role": "joint lead managers (SGD)",
+        "deals": 2,
+        "note": "S$500m Jun 2024 (HSBC co-mgr); S$500m Jun 2026 (Bank of China co-mgr)",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      }
+    ],
+    "deals": [
+      {
+        "year": 2023,
+        "text": "Reinsurance of C$13bn legacy reserves (incl. C$6bn US LTC) to Global Atlantic; announced Dec 2023, closed Feb 2024; freed ~C$1.2bn capital.",
+        "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/a2025annualmdareport.htm"
+      },
+      {
+        "year": 2024,
+        "text": "Reinsurance of Canadian universal life block with RGA (Apr 2024).",
+        "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/a2025annualmdareport.htm"
+      },
+      {
+        "year": 2024,
+        "text": "US$5.4bn (C$) legacy reinsurance incl. C$2.4bn LTC to RGA; announced Nov 2024, closed 2025-01-01.",
+        "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/a2025annualmdareport.htm"
+      },
+      {
+        "year": 2024,
+        "text": "Acquired CQS (London multi-sector credit manager, ~C$19bn AUM).",
+        "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/a2025annualmdareport.htm"
+      },
+      {
+        "year": 2025,
+        "text": "Acquired 75% of Comvest Partners (US$937.5m + up to US$337.5m earn-out; US private credit, ~C$17.5bn AUM); announced 2025-08-06, closed Q4 2025.",
+        "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000080/q22026pressrelease.htm"
+      },
+      {
+        "year": 2025,
+        "text": "Agreed to acquire Schroders Indonesia asset-management business (Asia WAM scale).",
+        "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/a2025annualmdareport.htm"
+      },
+      {
+        "year": 2026,
+        "text": "Strategic wealth & asset management partnership with Legal & General (announced 2026-03-24).",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      },
+      {
+        "year": 2026,
+        "text": "Manulife Infrastructure Fund III closed above US$5.5bn (third-party capital alongside GA).",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      }
+    ],
+    "sponsorships": [
+      {
+        "year": 2025,
+        "text": "Sponsor of the Hinton Lectures (AI; Oct 2025).",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      },
+      {
+        "year": 2025,
+        "text": "Three-year sponsorship of MDRT Asia conference (Aug 2025).",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      },
+      {
+        "year": 2026,
+        "text": "Manulife Recreation Centre, Halifax: C$1m over 10 years naming rights (2026-02-25).",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      },
+      {
+        "year": 2026,
+        "text": "Title sponsor of Galaxy Macau entertainment show (Jan 2026) - Asia brand marketing.",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      }
+    ],
+    "bank_relationships": [
+      {
+        "text": "Exclusive bancassurance partnerships reach 35m+ bank customers, incl. regional exclusive deal with DBS (Singapore, HK, mainland China, Indonesia); Mahindra India JV announced Nov 2025.",
+        "source": "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/aiffebruary2026.htm"
+      },
+      {
+        "text": "Canadian bank syndicate (RBC, Scotia, TD, CIBC, BMO) rotates as leads on CAD capital issues; US bulge bracket (BofA, Citi, JPM, MS) on USD.",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      },
+      {
+        "text": "DBS also acts as joint lead manager on MFC's SGD subordinated issues (2024, 2026) alongside the distribution partnership.",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001086888&type=6-K"
+      }
+    ]
+  },
+  "risk": {
+    "appetite": [
+      "Board-approved Risk Appetite Framework: capital adequacy, earnings volatility, liquidity, strategic/reputational limits; exposure limits by risk type.",
+      "ERM framework with five components (governance, appetite, identification, measurement, control/monitoring); risk-adjusted return in pricing and capital allocation.",
+      "Market-risk limits on equity, interest-rate, ALDA and FX exposures measured via earnings-at-risk and LICAT sensitivity."
+    ],
+    "governance": [
+      "Board Risk Committee (BRC) oversees ERM; Executive Risk Committee (ERC) manages global risk profile; oversight sub-committees (credit, ALCO, operational, tech/cyber).",
+      "CRO Halina von dem Hagen leads Global Risk Management (second line); Three Lines model with Audit as third line.",
+      "FCT (Financial Condition Testing) 2025 completed with capital above internal targets in all scenarios; ORSA and Economic Capital models in place."
+    ],
+    "capital_target": "Internal capital targets set above OSFI supervisory target (100%) and minimum (90%); numeric operating range not disclosed. MLI LICAT 136% at 2026-06-30.",
+    "sensitivities": [
+      "Equities -10%: net income ~-C$450m after hedging and reinsurance (2025-12-31).",
+      "Interest rates +/-50bp parallel: net income approx. +/-C$100m (2025-12-31).",
+      "ALDA -10%: net income ~-C$2.2bn; LICAT ~-1 point (2025-12-31).",
+      "Corporate spreads +/-50bp: LICAT -/+3 points (2025-12-31).",
+      "FX 10% move: core earnings +/-C$430m (2025-12-31)."
+    ],
+    "hedging": [
+      "Variable annuity / seg-fund guarantee dynamic hedging program (delta/rho) plus macro equity hedges.",
+      "Interest-rate swaps and swaptions for duration matching; CDS as credit replication (notional capped at govt bonds).",
+      "Reinsurance of LTC/legacy blocks (Global Atlantic, RGA) used as structural risk transfer."
+    ],
+    "events": [
+      "2025: C$1,662m ALDA market experience charge (RE, PE, timber) weighed on reported earnings.",
+      "2025: Moody's upgraded MLI to Aa3 (Sep 2025) (search snippet).",
+      "2025: CEO succession (Gori -> Witherington, 2025-05-09); CIO transition to Kreel (Aug 2024).",
+      "No regulatory enforcement actions identified in FY2025 AIF/MD&A."
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/a2025annualmdareport.htm",
+      "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/aiffebruary2026.htm",
+      "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000081/q22026reporttoshareholderl.htm"
+    ]
+  },
+  "gaps": [
+    "Head of general-account public fixed income not publicly identified; MIM Global CIO Public Markets (Purdie) used as closest proxy. manulife.com/manulifeim.com 403.",
+    "CIO Trevor Kreel: not a named executive officer, so 2025 compensation undisclosed; firm/industry start years unverified (aggregator only).",
+    "CRO von dem Hagen, Purdie, Valentine Andrews: compensation not disclosed (not NEOs).",
+    "Internal LICAT operating range: Manulife states targets exceed supervisory levels but publishes no numeric range.",
+    "Investment-professional headcount is MIM-wide (700+, Sep 2025, snippet); GA investment team headcount not disclosed.",
+    "Credit ratings taken from search snippet of Manulife ratings page (Mar 2026); verify against agency sites.",
+    "CLO, fund-finance/NAV, SRT and FHLB-style borrowings not separately disclosed; only MBS/ABS, fund investments and LTC financing notes available.",
+    "2023 sub-debt pricing release checked for dealers; dealers on some issues drawn from press-release wording not prospectus supplements.",
+    "Q3 2026 results not published as of 2026-11-03 (Manulife reports mid-November); figures are Q2 2026 / FY2025.",
+    "Web-search budget exhausted and Firecrawl credits unavailable late in session; some bios rely on earlier search snippets."
+  ],
+  "notes": "Currency C$ unless stated; SGD/USD issues converted at approx. spot on pricing date (indicative). SCT totals from 2026 circular (as at 2026-02-27) in CAD; US$ pay converted at BoC 2025 average 1.3978. GA mix 2025-12-31 (C$459.9bn): cash 6%, govt bonds 18%, corporates 28%, MBS/ABS 1%, private placements 11%, mortgages 12%, public equity 9%, ALDA 13%, leveraged leases 1%. Global WAM manages C$234.4bn for insurance segments. Predecessor CIO/CRO rows are transition markers only. Personal library not available in this session; public sources used."
+}
