@@ -31,10 +31,44 @@ OBS = pd.read_csv(A / "portfolio_composition/off_balance_sheet.csv")
 WAL = pd.read_csv(A / "street_wallet/wallet_by_insurer.csv")
 LIC = pd.read_csv(ROOT / "data/osfi/licat_ratios.csv", skiprows=[1])
 CAP = pd.read_csv(ROOT / "data/capital_ratios.csv")
+LIAB = pd.read_csv(A / "csm_surplus_duration/osfi_inputs.csv")
+CSMS = pd.read_csv(A / "csm_surplus_duration/results.csv")
+import gzip
+import csv as _csv
+OSFI_ENT = {}
+for _, x in pd.read_csv(A / "investment_risk/dashboard/osfi_metrics.csv").iterrows():
+    OSFI_ENT[x.company_id] = x.entity
+LF3_ROWS = {"025": "Individual life", "055": "Individual annuities", "125": "Group benefits", "155": "Group annuities / PRT",
+            "510": "Participating"}
+LF3 = {}  # (entity, fy) -> {line: [current, prior]} summed over all regions, policies issued, C$MM
+with gzip.open(ROOT / "data/osfi/LF3_core.csv.gz", "rt") as f:
+    for x in _csv.DictReader(f):
+        a = x["address"]
+        if x["quarter"] != "Q4" or not a.startswith("P22010") or a[6:9] not in LF3_ROWS or not x["value"]:
+            continue
+        col = a[-2:]
+        if col[1] not in "13":
+            continue
+        d = LF3.setdefault((x["entity"], int(x["fiscal_year"])), {}).setdefault(LF3_ROWS[a[6:9]], [0.0, 0.0])
+        d[0 if col[1] == "1" else 1] += float(x["value"]) / 1000
+LINES = [("Individual life", "liab_ind_ins"), ("Individual annuities", "liab_ind_ann"), ("Group benefits", "liab_grp_ins"),
+         ("Group annuities / PRT", "liab_grp_ann"), ("Participating", "liab_par")]
 
 TOT = [c for c in LIC.columns if c.startswith("Total Ratio")][0]
 CORE = [c for c in LIC.columns if c.startswith("Core Ratio")][0]
-CLASSES = ["Bonds", "Mortgages & loans", "Equities", "Real estate", "Other invested assets", "Cash & short-term"]
+# Abid's view: real estate is shown as debt only (mortgages); equity is split public / private & infra / commercial real
+# estate. The OSFI and annual-report history supports these six classes; infra is separable only in the latest disclosure.
+RENAME = {"Mortgages & loans": "Mortgages (real-estate debt)", "Equities": "Equity: public",
+          "Other invested assets": "Equity: private, infra & alts", "Real estate": "Equity: commercial real estate"}
+CLASSES = ["Bonds", "Mortgages (real-estate debt)", "Equity: public", "Equity: private, infra & alts",
+           "Equity: commercial real estate", "Cash & short-term"]
+ALDA = ["Equity: private, infra & alts", "Equity: commercial real estate"]
+PCL = pd.read_csv(A / "portfolio_composition/portfolio_composition_long.csv")
+EQ_SPLIT = {"Public": ("Common Shares", "Preferred Shares"), "Private": ("Other Private Equity",),
+            "Infrastructure": ("Infrastructure Equity",), "Commercial real estate": ("Real Estate Equity",)}
+MIX["asset_class"] = MIX.asset_class.replace(RENAME)
+CUM["asset_class"] = CUM.asset_class.replace(RENAME)
+
 
 
 def clean(v):
@@ -100,11 +134,69 @@ for _, c in CO.iterrows():
         ann = piv[piv.period.str.endswith("Q4")].set_index("period")[[k for k in CLASSES if k in piv]]
         turn = (ann.diff().abs().sum(axis=1) / 2).iloc[1:]
         r["rotation_yoy_pp"] = {k: clean(v) for k, v in turn.items()}
+        r["alda_history"] = [{"period": x.period, "pct": clean(sum((x.get(k) or 0) for k in ALDA if k in piv))} for _, x in piv.iterrows()]
     cu = CUM[CUM.company_id == cid]
     r["cumulative"] = [rec(x, ["asset_class", "start_period", "end_period", "start_share_pct", "end_share_pct",
                                "total_change_pp", "ifrs17_switch_pp", "event_pp", "reallocation_pp", "market_drift_pp",
                                "active_pp", "reallocation_cad_mm", "start_total_cad_mm", "end_total_cad_mm"])
                        for _, x in cu.iterrows()]
+
+    # ---- latest equity split (public / private / infra / CRE) and ALDA from the portfolio-composition disclosure
+    pc = PCL[PCL.company_id == cid]
+    if len(pc):
+        r["equity_split"] = {"as_of": pc.as_of.iloc[0], "total_cad_mm": clean(pc.amount_cad_mm.sum()),
+                             "items": {k: clean(pc[pc.level3.isin(v)].pct_of_portfolio.sum() * 100) for k, v in EQ_SPLIT.items()}}
+        r["alda_pct"] = clean(sum(r["equity_split"]["items"][k] for k in ("Private", "Infrastructure", "Commercial real estate")))
+
+    # ---- liabilities by type (OSFI LF3 P22010, policies issued, C$000 -> C$MM), CSM carved out pro rata, plus CSM and surplus
+    cs = CSMS[CSMS.company_id == cid]
+    csm = clean(cs.csm_net_cad_mm.iloc[0]) if len(cs) else None
+    surplus = clean(cs.surplus_cad_mm.iloc[0]) if len(cs) else None
+    r["csm_cad_mm"], r["surplus_cad_mm"] = csm, surplus
+    lb = LIAB[LIAB.company_id == cid]
+    if len(lb):
+        x = lb.iloc[0]
+        parts = [(lab, max(float(x[k]) / 1000, 0) if pd.notna(x[k]) else 0.0) for lab, k in LINES]
+        canada, total = float(x.liab_total_canada) / 1000, float(x.liab_grand_total) / 1000
+        if total - canada > 0.01 * total:
+            parts.append(("Outside Canada", total - canada))
+        liab = sum(v for _, v in parts)
+        cut = min(csm or 0, liab)
+        parts = [(lab, v * (1 - cut / liab) if liab else v) for lab, v in parts]
+        if csm:
+            parts.append(("CSM", cut))
+        if surplus:
+            parts.append(("Surplus", surplus))
+        r["liability_mix"] = {"basis": "Insurance contract liabilities by line (OSFI LF3 P22010, policies issued; CSM shown "
+                                       "separately, carved out pro rata), plus CSM and surplus (equity less goodwill and intangibles)",
+                              "items": [{"label": l, "amount_cad_mm": clean(v)} for l, v in parts if v > 0],
+                              "canada_share": clean(canada / total * 100) if total else None}
+
+    # ---- new money vs in-force: where net new assets went vs the in-force mix, and which liabilities grew
+    if len(mh):
+        tot = mh.groupby("period").total_cad_mm.first()
+        amt = mh.pivot_table(index="period", columns="asset_class", values="amount_cad_mm", aggfunc="sum").sort_index()
+        bas = mh.groupby("period").basis.first()
+        per = list(amt.index)
+        i17 = [p for p in per if bas[p] == "IFRS 17"]
+        wins = []
+        if len(i17) >= 2:
+            wins.append(("Since IFRS 17", i17[0], i17[-1]))
+        step = 4 if mh.frequency.iloc[0] == "Quarterly" else 1
+        if len(per) > step and bas[per[-1 - step]] == bas[per[-1]]:
+            wins.append(("Last 12 months", per[-1 - step], per[-1]))
+        nm = []
+        for lab, a0, a1 in wins:
+            d = (amt.loc[a1] - amt.loc[a0]).fillna(0)
+            nm.append({"window": lab, "start": a0, "end": a1, "start_total_cad_mm": clean(tot[a0]), "end_total_cad_mm": clean(tot[a1]),
+                       "inforce_mix": {k: clean(amt.loc[a0].get(k, 0) / tot[a0] * 100) for k in CLASSES},
+                       "delta_cad_mm": {k: clean(d.get(k, 0)) for k in CLASSES}})
+        r["new_money"] = nm
+    ent = OSFI_ENT.get(cid)
+    fys = sorted(fy for (e, fy) in LF3 if e == ent)
+    if fys:
+        fy = fys[-1]
+        r["liability_growth"] = {"fiscal_year": fy, "lines": {k: {"current": clean(v[0]), "prior": clean(v[1])} for k, v in LF3[(ent, fy)].items()}}
 
     # ---- leverage-type off-balance-sheet positions
     ob = OBS[OBS.company_id == cid]

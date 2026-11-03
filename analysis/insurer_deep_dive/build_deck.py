@@ -30,7 +30,7 @@ from pptx.util import Inches, Pt
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from charts import (BLUE, CLASS_COLORS, FOCUS_BG, GREY, GRID, INK, MUTED_BAR, ORANGE, PURPLE, RED, SUB, TEAL,  # noqa: E402
-                    esc, hbar, line_chart, mix_bar, since_year, stacked_columns, tenure_bars)
+                    esc, grouped_hbar, hbar, line_chart, mix_bar, since_year, stacked_columns, tenure_bars)
 
 HERE = Path(__file__).resolve().parent
 OUT_DIR = Path(os.environ.get("DECK_OUT", HERE / "output"))
@@ -98,7 +98,8 @@ NAMES = {"manulife": "Manulife", "sun_life": "Sun Life", "canada_life": "Canada 
          "assumption_life": "Assumption Life", "foresters_life": "Foresters Life",
          "canada_protection_plan": "Canada Protection Plan", "canadian_premier": "Canadian Premier Life",
          "primerica_life": "Primerica Life", "humania": "Humania"}
-CLASSES = ["Bonds", "Mortgages & loans", "Equities", "Real estate", "Other invested assets", "Cash & short-term"]
+CLASSES = ["Bonds", "Mortgages (real-estate debt)", "Equity: public", "Equity: private, infra & alts",
+           "Equity: commercial real estate", "Cash & short-term"]
 
 
 # ---------------------------------------------------------------- small helpers
@@ -381,6 +382,88 @@ ORDER = order()
 
 
 # ---------------------------------------------------------------- page builders
+MIX2 = {}  # round-3 research: business mix by geography and by liability type (research/business_mix2.csv)
+_m2 = Path(os.environ.get("RESEARCH_DIR", HERE / "research")) / "business_mix2.csv"
+if _m2.exists():
+    with open(_m2) as f:
+        for r_ in csv.DictReader(f):
+            d_ = MIX2.setdefault((r_["company_id"], r_["view"].strip().lower()), {"rows": [], "urls": []})
+            d_["rows"].append(r_)
+            if r_.get("source_url"):
+                d_["urls"].append(r_["source_url"])
+MIX_COLS = {"geo": [BLUE, TEAL, ORANGE, PURPLE, "#9fb7d6", "#6b8e23", GREY, "#c9a66b"],
+            "lia": [BLUE, "#6f9bd1", TEAL, "#7cc3b8", ORANGE, PURPLE, "#d16ba5", RED, GREY]}
+
+
+def mix_view(cid, view):
+    """[(label, pct)], basis. Liability: OSFI LF3 lines + CSM + surplus where filed, else researched. Geography: researched,
+    else Canada vs outside Canada from OSFI liabilities."""
+    src = COVERED_BY.get(cid) and "foresters_life" or cid
+    q = QC.get(src, {})
+    m2 = MIX2.get((src, view), {}).get("rows") or []
+    if view == "liability" and (q.get("liability_mix") or {}).get("items"):
+        lm = q["liability_mix"]
+        tot = sum(num(i["amount_cad_mm"]) or 0 for i in lm["items"])
+        out = [(i["label"], (num(i["amount_cad_mm"]) or 0) / tot * 100) for i in lm["items"]]
+        return out, ("Foresters Life: " if src != cid else "") + f"% of C${tot / 1000:,.1f}bn; OSFI LF3 P22010 by line (CSM carved out pro rata), CSM, surplus"
+    if m2 and view == "geography":
+        rows = [(re.sub(r"\s*\(.*?\)", "", x["label"]).strip(), num(x.get("amount_cad_mm")), num(x.get("pct"))) for x in m2]
+        neg = any((a or 0) < 0 for _, a, _ in rows)
+        pos = [(l, a if a is not None else p) for l, a, p in rows if (a if a is not None else p or 0) > 0]
+        tot = sum(v for _, v in pos) or 1
+        out = [(clip(l, 34), v / tot * 100) for l, v in pos]
+        b = m2[0]
+        basis = re.sub(r";\s*pct of [^;]*", "", b.get("basis") or "")
+        if neg:
+            basis += "; negative corporate segment excluded"
+        return out, ("Foresters Life: " if src != cid else "") + clip(basis, 120)
+    if m2:  # liability view from annual-report notes (non-OSFI filers)
+        lines, csm, sur, inv = [], 0.0, None, 0.0
+        for x in m2:
+            lab, a = x["label"], num(x.get("amount_cad_mm"))
+            if a is None or a <= 0 or "reinsurance contracts held" in lab or (re.search(r"segregat|seg-fund", lab, re.I)
+                                                                             and "general fund" not in lab):
+                continue
+            if lab.startswith("CSM"):
+                csm += a
+            elif re.search(r"equity|surplus", lab, re.I):
+                sur = a
+                sur_lab = "Surplus (group, incl. P&C)" if "P&C" in lab else "Surplus"
+            elif lab.lower().startswith("investment contract"):
+                inv += a
+            else:
+                short = re.sub(r"^Insurance contract liabilities\s*-?\s*", "", lab)
+                short = {"(all lines)": "Insurance contracts, all lines"}.get(short, short)
+                short = re.sub(r"^contracts not under PAA.*", "Individual & annuities (non-PAA)", short)
+                short = re.sub(r"^contracts under PAA.*", "Group (PAA)", short)
+                short = re.sub(r",? general fund.*$| \(.*?\)$", "", short).strip()
+                lines.append((clip(short, 34), a))
+        icl = sum(a for _, a in lines)
+        k = (icl - csm) / icl if icl and csm < icl else 1
+        out = [(l, a * k) for l, a in lines] + ([("Investment contracts", inv)] if inv else []) + \
+              ([("CSM", csm)] if csm else []) + ([(sur_lab, sur)] if sur else [])
+        tot = sum(a for _, a in out) or 1
+        out = [(l, a / tot * 100) for l, a in out]
+        gaps = [w for w, ok in (("CSM", csm), ("surplus", sur)) if not ok]
+        asof = next((m.group(0) for x in m2 for m in [re.search(r"20\d\d-\d\d-\d\d", (x.get("as_of") or "") + (x.get("basis") or ""))] if m), "")
+        basis = (f"% of C${tot / 1000:,.1f}bn; annual-report notes {asof}, general fund (segregated funds excluded), CSM carved out of lines pro rata"
+                 + (f"; {' and '.join(gaps)} not disclosed" if gaps else ""))
+        return out, ("Foresters Life: " if src != cid else "") + basis
+    if view == "geography" and num((q.get("liability_mix") or {}).get("canada_share")) is not None:
+        c = num(q["liability_mix"]["canada_share"])
+        return [("Canada", c)] + ([("Outside Canada", 100 - c)] if c < 99.5 else []), "Insurance contract liabilities, Canada vs total (OSFI LF3)"
+    return [], ""
+
+
+def mix_html(its, kind):
+    if not its:
+        return '<p class="nd">Not disclosed.</p>'
+    cols = MIX_COLS[kind]
+    leg = "".join(f'<div class="lgrow"><i style="background:{cols[i % len(cols)]}"></i><span>{esc(l)}</span><b>{p:.0f}%</b></div>'
+                  for i, (l, p) in enumerate(its[:8]))
+    return '<div style="flex-shrink:0;height:22px">' + mix_bar(its[:8], colors=cols, W=420, h=22) + f'</div><div class="lg2">{leg}</div>'
+
+
 def page_summary(cid, n):
     r, q = R(cid), QC.get(cid, {})
     name = NAMES[cid]
@@ -419,29 +502,31 @@ def page_summary(cid, n):
     grid = '<div class="kgrid">' + "".join(tiles[:12]) + "</div>"
 
     bm = r.get("business_mix") or {}
-    its = [(clip(i.get("label"), 44), num(i.get("pct"))) for i in (bm.get("items") or []) if num(i.get("pct"))]
-    if its:
-        cols = [BLUE, TEAL, ORANGE, PURPLE, RED, "#6b8e23", "#d16ba5", GREY, "#9fb7d6", "#c9a66b"]
-        leg = "".join(f'<div class="lgrow"><i style="background:{cols[i % 10]}"></i><span>{esc(l)}</span><b>{p:.0f}%</b></div>'
-                      for i, (l, p) in enumerate(its[:9]))
-        mix = mix_bar(its[:9], W=420) + f'<div class="lgcol">{leg}</div>'
-        mixcap = clip(bm.get("basis") or "", 90)
-    else:
-        mix, mixcap = '<p class="nd">Business mix not disclosed.</p>', ""
+    geo, geo_basis = mix_view(cid, "geography")
+    lia, lia_basis = mix_view(cid, "liability")
+    its = geo or lia
     own = clip(r.get("ownership") or q.get("ownership"), 120)
     reg = r.get("regulator") or q.get("regulator") or ""
-    profile = (f'<p class="kv"><b>Ownership</b> {esc(own)}</p><p class="kv"><b>Regulator</b> {esc(clip(reg, 60))}</p>')
+    profile = (f'<p class="kv one"><b>Ownership</b> {esc(clip(own, 62))}</p><p class="kv one"><b>Regulator</b> {esc(clip(reg, 60))}</p>')
     gaps = items(r.get("gaps"), 3)
-    gap_html = card("Not disclosed / gaps", bullets(gaps, 3, 110, "sm") if gaps else '<p class="nd">None flagged.</p>', cls="warn")
-    right = col(card("Business mix", mix, cap=mixcap, style="flex:0 0 240px") + card("Profile", profile, style="flex:0 0 128px") + gap_html, w=452)
+    gap_html = card("Not disclosed / gaps", bullets(gaps, 2, 80, "sm") if gaps else '<p class="nd">None flagged.</p>', cls="warn")
+    right = col(card("Business mix: geography", mix_html(geo, "geo"), cap=clip(geo_basis, 95), style="flex:0 0 158px")
+                + card("Business mix: liabilities by type, incl. CSM and surplus", mix_html(lia, "lia"), cap=clip(lia_basis, 110), style="flex:0 0 180px")
+                + card("", profile, style="flex:0 0 58px") + gap_html, w=452)
     body = col(grid, w=724) + right
     title = f"{name}: {bn(ga) if ga else 'undisclosed'} general account"
     if cap:
         title += f", {fw} {cap:.0f}%"
-    if its:
-        top = max(its, key=lambda x: x[1])
-        title += f"; {short_label(top[0])} is the largest line ({top[1]:.0f}%)"
-    urls = collect_urls({"m": r.get("metrics"), "b": bm})
+    if lia:
+        top = max([x for x in lia if not x[0].startswith(("CSM", "Surplus"))] or lia, key=lambda x: x[1])
+        tl = {"Outside Canada": "business outside Canada", "Insurance, Canada": "Canadian insurance",
+              "Participating": "participating business", "Group annuities / PRT": "group annuities / PRT",
+              "Individual & annuities": "individual insurance and annuities"}.get(top[0], short_label(top[0]).lower())
+        if top[0].startswith("Insurance contracts, all lines"):
+            title += f"; insurance contracts are {top[1]:.0f}% of liabilities plus surplus (no split by line published)"
+        else:
+            title += f"; {tl} is the largest liability ({top[1]:.0f}%)"
+    urls = collect_urls({"m": r.get("metrics"), "b": bm}) + [u for u in (MIX2.get((cid, "geography"), {}).get("urls") or [])]
     src = src_line("OSFI LF2/LCQ returns and annual reports (project dataset)", urls)
     notes = "\n".join(f"- {m.get('metric')}: {m.get('value')} {m.get('unit') or ''} ({m.get('as_of')}) {m.get('note') or ''} {m.get('source') or ''}"
                       for m in (r.get("metrics") or []))
@@ -465,8 +550,47 @@ def lead(cid):
     return dict(ceo=(t[1] or [None])[0], cio=(t[2] or [None])[0], drs=t[3], others=t[4][:3], src="r1")
 
 
+COMP = {}  # round-3: summary compensation table components (research/comp.csv), keyed by normalised name
+_cp = Path(os.environ.get("RESEARCH_DIR", HERE / "research")) / "comp.csv"
+if _cp.exists():
+    with open(_cp) as f:
+        for r_ in csv.DictReader(f):
+            if num(r_.get("total_sct")):
+                COMP[re.sub(r"\W", "", re.sub(r",.*|\(.*", "", r_["name"]).lower())] = r_
+
+
+def comp_row(p):
+    if not p:
+        return None
+    k = re.sub(r"\W", "", re.sub(r",.*|\(.*", "", str(p.get("name", ""))).lower())
+    if k in COMP:
+        return COMP[k]
+    last = str(p.get("name", "")).split(",")[0].split()[-1:] or [""]
+    hits = [v for kk, v in COMP.items() if last[0].lower() and kk.endswith(last[0].lower()) and kk[:3] == k[:3]]
+    return hits[0] if len(hits) == 1 else None
+
+
 def pay(p):
-    return money(p.get("comp_total_cad") or p.get("comp_total"), p.get("comp_currency"), p.get("comp_year")) if p else None
+    """Total compensation from the summary compensation table (base, bonus, share- and option-based awards, pension,
+    other) where researched; else the round-2 figure."""
+    if not p:
+        return None
+    c = comp_row(p)
+    if c:
+        return money(c["total_sct"], c.get("currency") or "CAD", c.get("year"))
+    return money(p.get("comp_total_cad") or p.get("comp_total"), p.get("comp_currency"), p.get("comp_year"))
+
+
+def pay_split(p):
+    c = comp_row(p)
+    if not c:
+        return ""
+    cur = {"USD": "US$", "CAD": "C$"}.get((c.get("currency") or "CAD").upper(), "")
+    eq = (num(c.get("share_based")) or 0) + (num(c.get("option_based")) or 0)
+    cash = (num(c.get("annual_incentive")) or 0) + (num(c.get("long_term_incentive_non_equity")) or 0)
+    oth = (num(c.get("pension_value")) or 0) + (num(c.get("all_other")) or 0)
+    f = lambda v: f"{v / 1e6:.1f}"
+    return f"base {f(num(c.get('base_salary')) or 0)} · bonus {f(cash)} · equity {f(eq)} · other {f(oth)} ({cur}MM)"
 
 
 def person_box(p, role, cls="big"):
@@ -479,15 +603,51 @@ def person_box(p, role, cls="big"):
     rl = str(p.get("reporting_line") or "")
     if rl:
         tag = f'<span class="rl {"st" if rl.startswith("stated") else "inf"}">{"reporting line stated" if rl.startswith("stated") else "inferred from title"}</span>'
-    comp_html = (f'<div class="comp"><span>Latest disclosed pay</span><b>{esc(comp)}</b></div>' if comp else
-                 '<div class="comp nd"><span>Latest disclosed pay</span><b>Not disclosed</b></div>')
-    w = 380 if big else 196
-    title_max = 95 if big else 64
+    split = pay_split(p)
+    comp_html = (f'<div class="comp"><span>{esc(split) if split else "Total pay (base + bonus + equity)"}</span><b>{esc(comp)}</b></div>' if comp else
+                 '<div class="comp nd"><span>Total pay (base + bonus + equity)</span><b>Not disclosed</b></div>')
+    w = 380 if big else (266 if "fn" in cls else 196)
+    title_max = 95 if big else (90 if "fn" in cls else 64)
     bars = tenure_bars(p, W=w - 24) if big else tenure_bars(p, W=w - 20, lw=46, rw=60, compact=True)
     inf = " inf" if rl and not rl.startswith("stated") else ""
     return (f'<div class="pbox {cls}{inf}"><div class="role">{esc(clip(role, 40))}{tag}</div>'
             f'<div class="pname">{esc(clip(p.get("name"), 34))}</div><div class="ptitle">{esc(clip(p.get("title"), title_max))}</div>'
             f'{bars}' + (comp_html if big else "") + "</div>")
+
+
+FUNC_SLOTS = [("public_markets", "Public markets"), ("private_markets", "Private markets / alts"),
+              ("direct_lending", "Direct lending / private credit"), ("trading", "Trading"), ("real_assets", "Real assets"),
+              ("alm", "ALM / total portfolio")]
+FUNC_RX = {"public_markets": r"public|fixed income|liquid|bond|core fi", "private_markets": r"private markets|private equity|alternativ|multi-strat",
+           "direct_lending": r"private (debt|credit|placement|fixed)|direct lend|commercial mortgage|mortgage|loan",
+           "trading": r"trading|treasury|cash|collateral|execution", "real_assets": r"real (estate|asset)|realty|infra",
+           "alm": r"\balm\b|asset.liability|total (fund|portfolio)|asset allocation|portfolio strateg|investment strateg"}
+FUNCS = {}  # round-3: research/org/cio_functions.csv
+_fc = Path(os.environ.get("RESEARCH_DIR", HERE / "research")) / "org" / "cio_functions.csv"
+if _fc.exists():
+    with open(_fc) as f:
+        for r_ in csv.DictReader(f):
+            if (r_.get("name") or "").strip():
+                d_ = {k: (v or "").strip() or None for k, v in r_.items()}
+                d_["sources"] = [d_["source_url"]] if d_.get("source_url") else []
+                FUNCS.setdefault(r_["company_id"], {})[r_["function"].strip()] = d_
+
+
+def cio_slots(cid, drs):
+    """Fill the six function slots under the CIO: researched function heads first, then round-2 direct reports by title."""
+    src = "foresters_life" if cid in COVERED_BY else cid
+    got = {fn: with_li(cid, p) for fn, p in (FUNCS.get(src) or {}).items() if fn in dict(FUNC_SLOTS)}
+    used = {str(p.get("name")).lower() for p in got.values()}
+    for p in drs:
+        if str(p.get("name")).lower() in used:
+            continue
+        for fn, _ in FUNC_SLOTS:
+            if fn not in got and re.search(FUNC_RX[fn], str(p.get("title")), re.I):
+                got[fn] = p
+                used.add(str(p.get("name")).lower())
+                break
+    extra = [p for p in drs if str(p.get("name")).lower() not in used]
+    return got, extra
 
 
 def page_org(cid, n):
@@ -498,21 +658,23 @@ def page_org(cid, n):
     if cio and ceo and cio.get("reports_to") and ceo.get("name") and ceo["name"].split()[-1].lower() not in str(cio["reports_to"]).lower() \
             and not re.search(r"\bceo\b|chief executive|president", str(cio["reports_to"]), re.I):
         via = f'<div class="via">CIO reports to {esc(clip(cio["reports_to"], 60))}</div>'
-    slots = 8
-    shown = drs[:slots] if len(drs) <= slots else drs[:slots - 1]
-    dr_role = lambda p: "Reports to CIO" + ("" if str(p.get("reporting_line", "")).startswith("stated") else " (inferred)" if p.get("reporting_line") else "")
-    dr_boxes = [person_box(p, dr_role(p), "sm") for p in shown]
-    if len(drs) > slots:
-        dr_boxes.append(f'<div class="pbox sm more"><div class="pname">+{len(drs) - len(shown)} more</div>'
-                        f'<div class="ptitle">{esc(clip(", ".join(p["name"] for p in drs[len(shown):]), 120))} (see notes)</div></div>')
-    if not drs:
-        dr_boxes = [f'<div class="pbox sm empty wide"><div class="ptitle">No direct reports of the CIO are named in public sources'
-                    f'{" (CIO not named)" if not cio else ""}.</div></div>']
-    grid = f'<div class="drgrid">{"".join(dr_boxes)}</div>'
-    stated = sum(1 for p in drs if str(p.get("reporting_line", "")).startswith("stated"))
+    slot_people, extra = cio_slots(cid, drs)
+    boxes = []
+    for fn, lab in FUNC_SLOTS:
+        p = slot_people.get(fn)
+        if p:
+            rl = str(p.get("reporting_line") or "")
+            tag = "stated" if rl.startswith("stated") else "via asset manager" if rl.startswith("functional") else "inferred" if rl else ""
+            boxes.append(person_box(p, lab + (f" · {tag}" if tag else ""), "sm fn"))
+        else:
+            boxes.append(f'<div class="pbox sm fn empty"><div class="role">{esc(lab)}</div><div class="pname">Not named</div>'
+                         f'<div class="ptitle">No public source names this head</div></div>')
+    grid = f'<div class="drgrid fn">{"".join(boxes)}</div>'
+    named = sum(1 for fn, _ in FUNC_SLOTS if slot_people.get(fn))
     chart = (f'<div class="org"><div class="tier">{person_box(ceo, "CEO")}</div><div class="conn">{via}</div>'
              f'<div class="tier">{person_box(cio, "Chief investment officer")}</div><div class="conn"></div>'
-             f'<div class="drlab">Direct reports to the CIO ({len(drs)} named{f", {stated} with a stated reporting line" if drs else ""})</div>{grid}</div>')
+             f'<div class="drlab">Under the CIO, by function ({named} of {len(FUNC_SLOTS)} heads named)</div>{grid}</div>')
+    drs = [p for p in slot_people.values() if p]
     oth = "".join(f'<div class="mini"><b>{esc(clip(p.get("title") or p.get("role"), 60))}</b><br>{esc(p.get("name"))}'
                   f'<br><span>{"In seat " + yrs_txt(p.get("seat_since")) if yrs(p.get("seat_since")) is not None else "Seat start n/d"}'
                   f'{" · " + pay(p) if pay(p) else ""}</span></div>' for p in L["others"])
@@ -525,7 +687,10 @@ def page_org(cid, n):
         meta.insert(0, f"Investments are run by {COVERED_BY[cid]}, which underwrites the business: CIO and team shown are {COVERED_BY[cid]}'s")
     inf = sum(1 for p in drs if not str(p.get("reporting_line", "")).startswith("stated"))
     if drs:
-        meta.append(f"Direct reports: {len(drs) - inf} with a reporting line stated in a source, {inf} inferred from title on team pages (dashed)")
+        meta.append(f"Function heads: {len(drs) - inf} with a reporting line to the CIO stated in a source; {inf} inferred from title "
+                    f"or sitting in the affiliated asset manager (dashed)")
+    if extra:
+        meta.append("Also under the CIO: " + ", ".join(f"{p['name']} ({clip(p.get('title'), 40)})" for p in extra[:3]))
     side = col(card("Other leaders (CFO, CRO, asset manager)", oth or '<p class="nd">Not named in public sources.</p>', style="flex:0 0 300px")
                + card("Basis", bullets(meta, 4, 125, "sm")), w=300)
     body = col(card("", chart, cls="orgcard")) + side
@@ -537,7 +702,7 @@ def page_org(cid, n):
         t2 = f"{name} leadership: investments led by {cio['name']}"
     else:
         t2 = f"{name} leadership: no named CIO in public sources"
-    t2 += f", with {len(drs)} named direct report{'s' if len(drs) != 1 else ''}" if drs else ""
+    t2 += f"; {named} of {len(FUNC_SLOTS)} function heads under the CIO named"
     allp = [p for p in [ceo, cio, *drs, *L["others"]] if p]
     urls = collect_urls(allp)
     notes = "\n".join(f"- {p.get('role') or ''} {p.get('name')}, {p.get('title')} | reports to {p.get('reports_to') or 'n/d'} "
@@ -659,6 +824,14 @@ def page_pm(cid, n):
           tag=(n, name, "Corporate structure"), notes=notes, urls=urls)
 
 
+PROSE = {"Bonds": "bonds", "Mortgages (real-estate debt)": "mortgages", "Equity: public": "public equity",
+         "Equity: private, infra & alts": "private equity & infra", "Equity: commercial real estate": "CRE equity",
+         "Cash & short-term": "cash"}
+SHORT = {"Bonds": "Bonds", "Mortgages (real-estate debt)": "Mortgages (RE debt)", "Equity: public": "Equity: public",
+         "Equity: private, infra & alts": "Equity: private & infra", "Equity: commercial real estate": "Equity: CRE",
+         "Cash & short-term": "Cash & short-term"}
+
+
 def page_holdings(cid, n):
     r, q = R(cid), QC.get(cid, {})
     name = NAMES[cid]
@@ -676,7 +849,7 @@ def page_holdings(cid, n):
         for i in range(len(mh) - 1):
             if mh[i]["basis"] != mh[i + 1]["basis"]:
                 brk = i
-        chart = stacked_columns(periods_lab, series, CLASS_COLORS, W=720, H=262, break_after=brk, label_every=4)
+        chart = stacked_columns(periods_lab, series, CLASS_COLORS, W=720, H=228, break_after=brk, label_every=4)
         first, last = mh[0], mh[-1]
         for k in CLASSES:
             a_, b_ = num(first.get(k)), num(last.get(k))
@@ -688,7 +861,7 @@ def page_holdings(cid, n):
         for k in CLASSES:
             c = cum.get(k)
             if c and num(c.get("reallocation_cad_mm")) is not None:
-                act.append((k, num(c["reallocation_cad_mm"]) / 1000))
+                act.append((SHORT[k], num(c["reallocation_cad_mm"]) / 1000))
         small = bool(act) and max(abs(v) for _, v in act) < 1
         if small:
             act = [(k, v * 1000) for k, v in act]
@@ -699,24 +872,41 @@ def page_holdings(cid, n):
         mix_h = f"Invested-asset mix, {first['period']} to {last['period']} ({q.get('mix_frequency', '').lower()})"
         p0, p1 = first["period"], last["period"]
     else:
-        chart = f'<div class="ph" style="height:262px">{esc(nd_txt)}</div>'
+        chart = f'<div class="ph" style="height:228px">{esc(nd_txt)}</div>'
         mix_h, p0, p1 = "Invested-asset mix", "Start", "Latest"
     leg = '<div class="lg">' + "".join(f'<span><i style="background:{CLASS_COLORS[k]}"></i>{esc(k)}</span>' for k in CLASSES) + "</div>"
     mix_card = card(mix_h, chart + leg, cap="Share of invested assets by harmonised class; excludes policy loans, derivatives, seg funds and pass-through fund units.",
-                    style="flex:0 0 352px")
-    com_card = card("What management says about repositioning", bullets(com, 3, 200, "sm"))
+                    style="flex:0 0 322px")
+    com_card = card("What management says about repositioning", bullets(com, 3, 170, "sm"))
+    es = q.get("equity_split") or {}
+    alda = num(q.get("alda_pct"))
+    ah = [(x["period"][2:4] + x["period"][4:], x["pct"]) for x in q.get("alda_history") or [] if num(x.get("pct")) is not None]
+    if es:
+        eq_items = [({"Commercial real estate": "Commercial RE"}.get(k, k), num(v) or 0) for k, v in es["items"].items()]
+        eq_html = hbar(eq_items, lambda v: f"{v:.1f}%", W=270, rowh=19, label_w=120, right_w=44, color=ORANGE, top=6)
+        eq_html += (f'<div class="alda"><b>ALDA {alda:.1f}%</b> of GA<span>private + infra + CRE equity, {esc(es.get("as_of", ""))}</span></div>'
+                    if alda is not None else "")
+        if len(ah) > 2:
+            eq_html += (f'<p class="cap">Same definition on the history (private, infra &amp; alts + CRE equity): {ah[0][1]:.1f}% in '
+                        f'{esc(q["alda_history"][0]["period"])}, {ah[-1][1]:.1f}% in {esc(q["alda_history"][-1]["period"])}.</p>')
+    else:
+        eq_html = f'<p class="nd">{esc(nd_txt) if cid in COVERED_BY else "No equity breakdown disclosed."}</p>'
+    eq_card = card("Equity split and ALDA, % of GA", eq_html, style="flex:0 0 296px")
+    bottom = f'<div class="row" style="gap:12px;flex:1;min-height:0">{eq_card}{com_card}</div>'
     tbl = table(["Asset class", p0, p1, "Δ pp"], rows, cls="sm xs") if rows else f'<p class="nd">{esc(nd_txt) if not mh else "n/d"}</p>'
     rot_items = [(k[:4], v) for k, v in sorted(rot.items())]
     rot_chart = hbar(rot_items, lambda v: f"{v:.1f}pp", W=400, rowh=17, label_w=50, right_w=50, color=ORANGE) if rot_items else '<p class="nd">n/d</p>'
-    act_chart = (hbar(act, (lambda v: f"{v:+,.0f}") if small else (lambda v: f"{v:+.1f}"), W=400, rowh=17, label_w=140, right_w=46, color=TEAL)
+    act_chart = (hbar(act, (lambda v: f"{v:+,.0f}") if small else (lambda v: f"{v:+.1f}"), W=400, rowh=17, label_w=150, right_w=46, color=TEAL)
                  if act else '<p class="nd">n/d</p>')
-    left = col(mix_card + com_card)
+    left = col(mix_card + bottom)
     right = col(card("Then vs now", tbl, style="flex:0 0 196px") + card("Rotation per year (pp of portfolio)", rot_chart, style="flex:0 0 150px")
                 + card(f"Net reallocation since start, {'C$MM' if small else 'C$bn'}", act_chart), w=430)
     if mh:
-        title = f"{name}: " + (f"{big[0].lower()} {'up' if float(big[3]) > 0 else 'down'} {abs(float(big[3])):.1f}pp since {p0}" if big else "mix history")
+        title = f"{name}: " + (f"{PROSE.get(big[0], big[0].lower())} {'up' if float(big[3]) > 0 else 'down'} {abs(float(big[3])):.1f}pp since {p0}" if big else "mix history")
         if avg_rot is not None:
-            title += f"; the book rotates ~{avg_rot:.1f}pp of the portfolio a year"
+            title += f"; the book rotates ~{avg_rot:.1f}pp a year"
+        if alda is not None:
+            title += f"; ALDA {alda:.0f}% of GA"
         src = ("Project portfolio-reallocation series: " + clip(q.get("mix_source") or "OSFI 10Q/LF2 returns and annual reports", 80)
                + ". Rotation = half the sum of absolute class-share changes Q4 to Q4 (2023 includes the IFRS 17 basis change); "
                  "net reallocation = share change × portfolio, net of the IFRS 17 restatement")
@@ -726,6 +916,94 @@ def page_holdings(cid, n):
     urls = collect_urls(com)
     notes = "\n".join(f"- {txt(c)} {c.get('source', '') if isinstance(c, dict) else ''}" for c in com)
     slide(title, left + right, src_line(src, urls, 2), tag=(n, name, "Holdings rotation"), notes=notes, urls=urls)
+
+
+def page_newmoney(cid, n):
+    """New money vs in-force: where the period's net new assets went compared with the in-force mix, next to which
+    insurance liabilities grew (OSFI LF3 by line). Net flows only: maturities reinvested inside a class are not visible."""
+    q = QC.get(cid, {})
+    name = NAMES[cid]
+    nm = q.get("new_money") or []
+    nd = (f"Underwritten by {COVERED_BY[cid]}: see the {COVERED_BY[cid]} section." if cid in COVERED_BY else
+          "No asset-mix history is published for this insurer.")
+    read = []
+    if nm:
+        base = nm[0]
+        series = [("In-force mix at " + base["start"], [num(base["inforce_mix"].get(k)) for k in CLASSES])]
+        cols = [MUTED_BAR, BLUE, ORANGE]
+        for w in nm:
+            dt = sum(num(v) or 0 for v in w["delta_cad_mm"].values())
+            if dt > 0:
+                series.append((f"Net new money, {w['window'][0].lower() + w['window'][1:]} ({w['start']} to {w['end']})",
+                               [(num(w["delta_cad_mm"].get(k)) or 0) / dt * 100 for k in CLASSES]))
+        chart = grouped_hbar([SHORT[k] for k in CLASSES], series, cols, fmt=lambda v: f"{v:.0f}%", W=620, rowh=40, label_w=150,
+                             xlabel="% of in-force assets (grey) / % of net new money (colour)")
+        leg = '<div class="lg">' + "".join(f'<span><i style="background:{cols[i]}"></i>{esc(nme)}</span>' for i, (nme, _) in enumerate(series)) + "</div>"
+        def _g(w_):
+            return sum(num(v) or 0 for v in w_["delta_cad_mm"].values()) / (num(w_["start_total_cad_mm"]) or 1)
+        # headline window: the latest one unless its net new money is under 5% of the book (shares get noisy), then the longest
+        w = nm[-1] if _g(nm[-1]) >= 0.05 else max(nm, key=_g)
+        dt = sum(num(v) or 0 for v in w["delta_cad_mm"].values())
+        if dt > 0:
+            tilt = sorted(((k, (num(w["delta_cad_mm"].get(k)) or 0) / dt * 100 - (num(w["inforce_mix"].get(k)) or 0)) for k in CLASSES),
+                          key=lambda x: -x[1])
+            read.append(f"{w['window']}: net new assets " + (f"C${dt / 1000:,.1f}bn" if dt >= 1000 else f"C${dt:,.0f}MM") + f" ({w['start']} to {w['end']}), "
+                        f"{dt / (num(w['start_total_cad_mm']) or 1) * 100:.0f}% growth on the in-force book")
+            if _g(w) < 0.05:
+                read.append(f"Caution: net new money was only {_g(w) * 100:.0f}% of the book over the window, so the class shares are "
+                            "dominated by a few trades and market moves")
+            elif w is not nm[-1] and _g(nm[-1]) > 0:
+                read.append(f"{nm[-1]['window']}: net new money was only {_g(nm[-1]) * 100:.0f}% of the book, so its class shares swing "
+                            "widely; the headline uses the longer window")
+            read.append(f"New money over-weights {PROSE[tilt[0][0]]} by {tilt[0][1]:+.0f}pp and under-weights "
+                        f"{PROSE[tilt[-1][0]]} by {tilt[-1][1]:+.0f}pp versus the in-force mix")
+        else:
+            read.append(f"{w['window']}: the portfolio shrank by " + (f"C${-dt / 1000:,.1f}bn" if -dt >= 1000 else f"C${-dt:,.0f}MM")
+                        + f" ({w['start']} to {w['end']}), so there is no net new money to allocate")
+        left_html = chart + leg
+    else:
+        left_html = f'<div class="ph" style="height:330px">{esc(nd)}</div>'
+    read.append("Net of maturities and market moves: a class can show negative new money while reinvesting its own cash flows; "
+                "equity and real-estate values also move with markets")
+    lg = q.get("liability_growth") or {}
+    lines = lg.get("lines") or {}
+    if lines:
+        dl = [(k, (num(v["current"]) or 0) - (num(v["prior"]) or 0)) for k, v in lines.items()]
+        big = max(abs(v) for _, v in dl) if dl else 0
+        unit = "C$MM" if big < 1000 else "C$bn"
+        dlv = [(k, v if unit == "C$MM" else v / 1000) for k, v in dl]
+        lia_chart = hbar(dlv, (lambda v: f"{v:+,.0f}") if unit == "C$MM" else (lambda v: f"{v:+,.1f}"), W=470, rowh=26, label_w=160,
+                         right_w=50, color=TEAL, xlabel=f"Change in insurance contract liabilities, {unit}")
+        rows = [[k, f"{num(v['prior']) / 1000:,.1f}", f"{num(v['current']) / 1000:,.1f}",
+                 f"{((num(v['current']) or 0) / num(v['prior']) - 1) * 100:+.0f}%" if num(v["prior"]) and num(v["prior"]) > 0 else "n/m"]
+                for k, v in lines.items()]
+        tbl = table(["Line", f"FY{lg['fiscal_year'] - 1}", f"FY{lg['fiscal_year']}", "Change"], rows, cls="sm")
+        grow = max(dl, key=lambda x: x[1])
+        if grow[1] > 0:
+            read.insert(1 if len(read) > 1 else 0, f"Fastest-growing liability line in FY{lg['fiscal_year']}: {grow[0].lower()} "
+                                                   f"(+C${grow[1]:,.0f}MM), the new business the new money is backing")
+        lia_h = f"Which liabilities grew, FY{lg['fiscal_year']} vs FY{lg['fiscal_year'] - 1}"
+    else:
+        lv, lb = mix_view(cid, "liability")
+        if lv and cid not in COVERED_BY:
+            lia_chart = (mix_html(lv, "lia") + f'<p class="cap">Latest year only: {esc(clip(lb, 150))}. Not an OSFI LF3 filer, '
+                         'so no prior-year split by line in this dataset.</p>')
+        else:
+            lia_chart = f'<p class="nd">{esc(nd) if cid in COVERED_BY else "No liability split by line is filed (not an OSFI LF3 filer)."}</p>'
+        tbl = '<p class="nd">n/d</p>'
+        lia_h = "Liability mix by type (no growth by line available)" if lv and cid not in COVERED_BY else "Which liabilities grew"
+    left = col(card("Where net new assets went vs the in-force mix", left_html, style="flex:0 0 372px")
+               + card("Reading", bullets(read, 4, 175, "sm")), w=650)
+    right = col(card(lia_h, lia_chart, style="flex:0 0 230px") + card("Insurance contract liabilities by line, C$bn (policies issued)", tbl))
+    if nm and read and read[0].startswith(("Since", "Last")) and "over-weights" in " ".join(read):
+        t = f"{name}: " + first_sentence(next(x for x in read if "over-weights" in x)).replace("New money over-weights", "new money over-weights")
+    elif nm:
+        t = f"{name}: no net new money to allocate in the latest window"
+    else:
+        t = f"{name}: new money vs in-force not measurable from public data"
+    slide(clip(t, 150), left + right, "OSFI LF1/LF2 (assets) and LF3 P22010 (liabilities by line, all regions, policies issued); "
+          "iA supplements and annual reports for others. New money = change in C$ held by class over the window",
+          tag=(n, name, "New money vs in-force"), notes="\n".join(read))
 
 
 def page_leverage(cid, n):
@@ -837,6 +1115,19 @@ def page_partners(cid, n):
           tag=(n, name, "Partnerships"), notes=notes, urls=urls)
 
 
+def shock_label(f):
+    """Put the shock first: 'Public equity -10%' -> '-10% public equity'; 'Rates +50 bp' -> '+50bps interest rates'."""
+    f = str(f)
+    m = re.search(r"([+-−]\s?\d+(?:\.\d+)?)\s?(%|bps?|bp)", f)
+    if not m:
+        return clip(f, 34)
+    amt = m.group(1).replace(" ", "").replace("−", "-") + ("%" if m.group(2) == "%" else "bps")
+    rest = (f[:m.start()] + f[m.end():]).strip(" ,")
+    rest = {"Rates": "interest rates"}.get(rest, rest)
+    rest = rest[:1].lower() + rest[1:] if rest and not rest[:2].isupper() else rest
+    return clip(f"{amt} {rest}", 34)
+
+
 def page_risk(cid, n):
     r, q = R(cid), QC.get(cid, {})
     name = NAMES[cid]
@@ -862,10 +1153,13 @@ def page_risk(cid, n):
         cap_card = card("Capital ratio as disclosed", table(["Entity", "As at", "Ratio", "Prior"], rows, cls="sm") if rows else f'<p class="nd">{nd_cap}</p>',
                         style="flex:0 0 300px")
     sens = q.get("sensitivities") or []
-    s_items = [(clip(s["factor"], 30), num(s.get("ni_bps_invested"))) for s in sens if num(s.get("ni_bps_invested")) is not None]
+    s_items = [(shock_label(s["factor"]), num(s.get("ni_impact_cad_mm"))) for s in sens if num(s.get("ni_impact_cad_mm")) is not None]
     if s_items:
-        sens_html = hbar(s_items, lambda v: f"{v:+.0f}", W=520, rowh=22, label_w=190, right_w=50, color=RED)
-        sens_html += '<p class="cap">After-tax net income impact, bps of invested assets (project investment-risk benchmark).</p>'
+        big = max(abs(v) for _, v in s_items)
+        f_ = (lambda v: f"{v:+,.0f}") if big >= 10 else (lambda v: f"{v:+,.1f}")
+        sens_html = hbar(s_items, f_, W=520, rowh=22, label_w=215, right_w=50, color=RED, xlabel="C$MM P&L impact (after-tax net income)")
+        asof = next((s.get("as_of") for s in sens if s.get("as_of")), "")
+        sens_html += f'<p class="cap">As disclosed{(", " + str(asof)) if asof else ""}; immediate shocks, after tax, before management action.</p>'
     else:
         sens_html = bullets(rk.get("sensitivities"), 4, 150)
     ls = q.get("landscape") or {}
@@ -890,9 +1184,9 @@ def page_risk(cid, n):
     if target and len(target) < 70:
         t += f" (stated target: {target})"
     eq = next((s for s in sens if "equit" in s["factor"].lower() and "10" in s["factor"]), None)
-    if eq and num(eq.get("ni_bps_invested")) is not None and abs(num(eq["ni_bps_invested"])) >= 0.5:
-        t += f"; a 10% equity fall costs {abs(num(eq['ni_bps_invested'])):.0f}bps of invested assets in net income"
-    elif eq and num(eq.get("ni_bps_invested")) is not None:
+    if eq and num(eq.get("ni_impact_cad_mm")) is not None and abs(num(eq["ni_impact_cad_mm"])) >= 0.5:
+        t += f"; -10% public equity costs C${abs(num(eq['ni_impact_cad_mm'])):,.0f}MM of net income"
+    elif eq and num(eq.get("ni_impact_cad_mm")) is not None:
         t += "; a 10% equity fall barely touches net income (disclosed)"
     urls = collect_urls(rk)
     notes = json.dumps(rk, indent=1)[:6000]
@@ -1008,6 +1302,7 @@ for n, cid in enumerate(ORDER, 1):
     page_org(cid, n)
     page_pm(cid, n)
     page_holdings(cid, n)
+    page_newmoney(cid, n)
     page_leverage(cid, n)
     page_partners(cid, n)
     page_risk(cid, n)
@@ -1050,6 +1345,8 @@ ul.sm li {{ font-size: 11.5px; margin-bottom: 3px; }}
 .kgrid .kpi b {{ font-size: 25px; }}
 .kpi.acc b {{ color: {BLUE}; }}
 .kpi small {{ font-size: 10.5px; color: {SUB}; display: block; line-height: 1.3; }}
+.lg2 {{ display: grid; grid-template-columns: 1fr 1fr; gap: 2px 16px; margin-top: 5px; }}
+.lg2 .lgrow {{ font-size: 11px; }}
 .lgcol {{ display: flex; flex-direction: column; gap: 3px; margin-top: 8px; }}
 .lgrow {{ display: flex; align-items: center; gap: 7px; font-size: 12px; }}
 .lgrow i {{ width: 10px; height: 10px; border-radius: 3px; flex: 0 0 10px; }}
@@ -1057,6 +1354,7 @@ ul.sm li {{ font-size: 11.5px; margin-bottom: 3px; }}
 .lg {{ display: flex; flex-wrap: wrap; gap: 3px 14px; font-size: 11px; }}
 .lg i {{ display: inline-block; width: 10px; height: 10px; border-radius: 3px; vertical-align: -1px; margin-right: 5px; }}
 .kv {{ margin: 0 0 4px; font-size: 12.5px; }}
+.kv.one {{ white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 0 0 2px; font-size: 11.5px; }}
 .kv b {{ color: {SUB}; font-weight: 600; margin-right: 6px; }}
 table {{ border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; font-size: 12px; }}
 th {{ font-weight: 600; color: {SUB}; text-align: right; border-bottom: 1px solid #9aa0a8; padding: 4px 6px; font-size: 10.5px; vertical-align: bottom; }}
@@ -1087,6 +1385,8 @@ td.h0 {{ color: #b0b5bd; }}
 .pbox.wide {{ width: 812px; height: auto; }}
 .pbox.big.empty {{ width: 380px; }}
 .drgrid {{ display: flex; flex-wrap: wrap; gap: 8px; width: 812px; height: 216px; align-content: flex-start; justify-content: center; }}
+.drgrid.fn {{ width: 814px; }}
+.pbox.sm.fn {{ width: 266px; }}
 .drlab {{ font-size: 10.5px; color: {SUB}; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; margin-bottom: 5px; }}
 .via {{ position: absolute; left: 10px; top: -1px; font-size: 10.5px; color: {ORANGE}; font-weight: 600; white-space: nowrap; }}
 .rl {{ float: right; font-size: 8px; font-weight: 600; text-transform: none; letter-spacing: 0; padding: 0 4px; border-radius: 6px; }}
@@ -1104,6 +1404,11 @@ td.h0 {{ color: #b0b5bd; }}
 .ent {{ border: 1px solid #d6dae0; border-left: 4px solid {TEAL}; border-radius: 5px; padding: 4px 9px; font-size: 12px; background: #fff; }}
 .ent.me {{ border-left-color: {BLUE}; background: {FOCUS_BG}; }}
 .ent span {{ display: block; color: {SUB}; font-size: 10.5px; line-height: 1.3; }}
+.alda {{ margin: 4px 0 2px; font-size: 12px; }}
+.alda b {{ color: {RED}; font-size: 15px; margin-right: 4px; }}
+.alda span {{ display: block; font-size: 10px; color: {SUB}; }}
+.row > .card {{ min-width: 0; }}
+.row > .card:last-child {{ flex: 1; }}
 .ph {{ display: flex; align-items: center; justify-content: center; background: #f7f8fa; border-radius: 5px; color: {SUB}; font-style: italic; padding: 20px; text-align: center; }}
 .tier {{ display: flex; gap: 12px; justify-content: center; }}
 .conn {{ position: relative; width: 2px; height: 12px; background: {MUTED_BAR}; }}

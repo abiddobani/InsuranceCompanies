@@ -8,8 +8,8 @@ esc = html.escape
 BLUE, ORANGE, TEAL, RED, PURPLE, OLIVE, PINK, GREY = ("#1f5fa8", "#e09a2c", "#3a9d8f", "#c4524d",
                                                       "#8a7fb8", "#6b8e23", "#d16ba5", "#7f7f7f")
 MUTED_BAR, GRID, AXIS, REF, INK, SUB, FOCUS_BG = "#b9bec7", "#eceef1", "#9aa1ab", "#3b4048", "#1f2329", "#5d6470", "#e8f0fa"
-CLASS_COLORS = {"Bonds": BLUE, "Mortgages & loans": TEAL, "Equities": ORANGE, "Real estate": PURPLE,
-                "Other invested assets": RED, "Cash & short-term": "#9fb7d6"}
+CLASS_COLORS = {"Bonds": BLUE, "Mortgages (real-estate debt)": TEAL, "Equity: public": ORANGE,
+                "Equity: private, infra & alts": RED, "Equity: commercial real estate": PURPLE, "Cash & short-term": "#9fb7d6"}
 
 
 def nice_step(span, target=5):
@@ -40,8 +40,9 @@ def svg(W, H, parts):
 
 
 def hbar(items, fmt, W=560, rowh=24, label_w=150, right_w=70, focus=None, median=None, median_label=None,
-         color=BLUE, top=20, vmax=None):
-    """Horizontal bars; items = [(label, value)]. The focus row is coloured and outlined, the rest muted."""
+         color=BLUE, top=20, vmax=None, xlabel=None):
+    """Horizontal bars; items = [(label, value)]. The focus row is coloured and outlined, the rest muted.
+    xlabel: axis descriptor printed under the plot area."""
     vals = [v for _, v in items if v is not None]
     if not vals:
         return ""
@@ -52,18 +53,21 @@ def hbar(items, fmt, W=560, rowh=24, label_w=150, right_w=70, focus=None, median
     lo, hi = min(lo, tk[0]), max(hi, tk[-1])
     x0, x1 = label_w + (42 if lo < 0 else 0), W - right_w
     sx = lambda v: x0 + (v - lo) / (hi - lo) * (x1 - x0)
-    H = top + len(items) * rowh + 8
+    H = top + len(items) * rowh + 8 + (18 if xlabel else 0)
+    yb = H - 6 - (18 if xlabel else 0)
     g = []
     seen = set()
+    if xlabel:
+        g.append(f'<text x="{(x0 + x1) / 2:.1f}" y="{H - 2}" text-anchor="middle" class="tk" font-weight="600">{esc(xlabel)}</text>')
     for t in tk:
         lab = fmt(t)
         if lab in seen:
             continue
         seen.add(lab)
-        g.append(f'<line x1="{sx(t):.1f}" x2="{sx(t):.1f}" y1="{top - 4}" y2="{H - 6}" stroke="{GRID}"/>')
+        g.append(f'<line x1="{sx(t):.1f}" x2="{sx(t):.1f}" y1="{top - 4}" y2="{yb}" stroke="{GRID}"/>')
         g.append(f'<text x="{sx(t):.1f}" y="{top - 8}" text-anchor="middle" class="tk">{esc(lab)}</text>')
     if lo < 0:
-        g.append(f'<line x1="{sx(0):.1f}" x2="{sx(0):.1f}" y1="{top - 4}" y2="{H - 6}" stroke="{AXIS}"/>')
+        g.append(f'<line x1="{sx(0):.1f}" x2="{sx(0):.1f}" y1="{top - 4}" y2="{yb}" stroke="{AXIS}"/>')
     for i, (name, v) in enumerate(items):
         y = top + i * rowh
         foc = focus is None or name == focus
@@ -82,9 +86,9 @@ def hbar(items, fmt, W=560, rowh=24, label_w=150, right_w=70, focus=None, median
             g.append(f'<text x="{xa - 6:.1f}" y="{y + rowh / 2 + 4:.1f}" text-anchor="end" class="vl"{wt}>{esc(fmt(v))}</text>')
     if median is not None:
         x = sx(median)
-        g.append(f'<line x1="{x:.1f}" x2="{x:.1f}" y1="{top - 4}" y2="{H - 6}" stroke="{REF}" stroke-dasharray="4 3" stroke-width="1.4"/>')
+        g.append(f'<line x1="{x:.1f}" x2="{x:.1f}" y1="{top - 4}" y2="{yb}" stroke="{REF}" stroke-dasharray="4 3" stroke-width="1.4"/>')
         if median_label:
-            g.append(f'<text x="{x + 5:.1f}" y="{H - 10}" class="tk" fill="{REF}" font-weight="600">{esc(median_label)}</text>')
+            g.append(f'<text x="{x + 5:.1f}" y="{yb - 4}" class="tk" fill="{REF}" font-weight="600">{esc(median_label)}</text>')
     return svg(W, H, g)
 
 
@@ -223,3 +227,40 @@ def mix_bar(items, colors=None, W=520, h=30):
             g.append(f'<text x="{acc + w / 2:.1f}" y="{h / 2 + 4.5}" text-anchor="middle" class="sg" font-size="11.5px">{p:.0f}%</text>')
         acc += w
     return svg(W, h, g)
+
+
+def grouped_hbar(rows, series, colors, fmt=lambda v: f"{v:.0f}%", W=600, rowh=46, label_w=170, right_w=48, top=8, xlabel=None):
+    """rows = [label]; series = [(name, [value per row])]; one thin bar per series inside each row, shared scale."""
+    vals = [v for _, vs in series for v in vs if v is not None]
+    if not vals:
+        return ""
+    lo, hi = min(0, min(vals)), max(0, max(vals))
+    hi = hi if hi > lo else lo + 1
+    tk = ticks_for(lo, hi)
+    lo, hi = min(lo, tk[0]), max(hi, tk[-1])
+    x0, x1 = label_w + (36 if lo < 0 else 0), W - right_w
+    sx = lambda v: x0 + (v - lo) / (hi - lo) * (x1 - x0)
+    H = top + 14 + len(rows) * rowh + (18 if xlabel else 4)
+    yb = top + 14 + len(rows) * rowh
+    g = []
+    for t in tk:
+        g.append(f'<line x1="{sx(t):.1f}" x2="{sx(t):.1f}" y1="{top + 10}" y2="{yb}" stroke="{GRID}"/>')
+        g.append(f'<text x="{sx(t):.1f}" y="{top + 6}" text-anchor="middle" class="tk">{esc(fmt(t))}</text>')
+    g.append(f'<line x1="{sx(0):.1f}" x2="{sx(0):.1f}" y1="{top + 10}" y2="{yb}" stroke="{AXIS}"/>')
+    k = len(series)
+    bh = (rowh - 10) / k
+    for i, lab in enumerate(rows):
+        y = top + 14 + i * rowh
+        g.append(f'<text x="{label_w - 10}" y="{y + rowh / 2 + 4:.1f}" text-anchor="end" class="lb">{esc(lab)}</text>')
+        for j, (nm, vs) in enumerate(series):
+            v = vs[i]
+            if v is None:
+                continue
+            yy = y + 5 + j * bh
+            xa, xb = sorted((sx(0), sx(v)))
+            g.append(f'<rect x="{xa:.1f}" y="{yy:.1f}" width="{max(xb - xa, 0.8):.1f}" height="{bh - 2:.1f}" rx="1.5" fill="{colors[j]}"/>')
+            tx, anc = (xb + 4, "start") if v >= 0 else (xa - 4, "end")
+            g.append(f'<text x="{tx:.1f}" y="{yy + bh - 3.5:.1f}" text-anchor="{anc}" class="tk">{esc(fmt(v))}</text>')
+    if xlabel:
+        g.append(f'<text x="{(x0 + x1) / 2:.1f}" y="{H - 3}" text-anchor="middle" class="tk" font-weight="600">{esc(xlabel)}</text>')
+    return svg(W, H, g)
