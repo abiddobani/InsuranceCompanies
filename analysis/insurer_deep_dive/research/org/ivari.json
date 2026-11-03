@@ -1,0 +1,84 @@
+{
+  "company_id": "ivari",
+  "operating_entities": null,
+  "ceo": {
+    "name": "Andre G. Mousseau",
+    "title": "President and Chief Executive Officer, ivari; President and Chief Executive Officer, Sagicor Financial Company Ltd.",
+    "entity": "ivari / Sagicor Financial Company Ltd.",
+    "reports_to": "ivari Board of Directors (Chairman Gilbert S. Palter); Sagicor Financial Board (Chair Mahmood Khimji)",
+    "seat_since": "2024-07",
+    "firm_since": "2019-02",
+    "industry_since": null,
+    "prior": "Sagicor Financial: Group CFO 2019-02 to 2023, Group COO 2021-08 to 2023, President & CEO from 2023-04-01; before Sagicor 20+ years as private equity investor/executive (Alignvest Private Capital, Ontario Teachers' Pension Plan, EdgeStone Capital Partners)",
+    "tenure_source": "press release (Group CFO effective 2019-02-01; Group COO effective 2021-08-01; CEO effective 2023-04-01); ivari CEO date 2024-07-31 per Sagicor AIF 2025 (round-1 source), not re-confirmed by a press release this round; Sagicor investor update ('over 20 years' - start year not stated)",
+    "comp_total": null,
+    "comp_currency": "USD",
+    "comp_year": null,
+    "comp_source": "",
+    "sources": ["https://ivari.ca/files/CS124.pdf", "https://investors.sagicor.com/image/SFC_Annual_Report_2025.pdf", "https://investors.sagicor.com/image/SFC+Fixed+Income+Investor+Update+(Q2+2026).pdf", "https://newswire.ca/news-releases/sagicor-financial-company-announces-the-retirement-of-its-ceo-dodridge-miller-and-appointment-of-andre-mousseau-as-its-new-ceo-836708245.html"],
+    "note": "Signed ivari FY2025 statements as President & CEO; sits on the ivari board. Sagicor AR 2025 p.11: 'He also currently acts as the Chief Executive Officer of ivari, SFC's wholly-owned Canadian subsidiary, and Sagicor USA.' Succeeded Todd Lawrence (ivari CEO 2018-10 to 2024). Pay is in Sagicor's 2026 management information circular (SEDAR+), not retrievable; no figure entered."
+  },
+  "cio": {
+    "name": null,
+    "title": "Not identified - ivari and Sagicor Financial name no Chief Investment Officer or head of investments",
+    "entity": "ivari",
+    "reports_to": null,
+    "seat_since": null, "firm_since": null, "industry_since": null,
+    "prior": "",
+    "tenure_source": "",
+    "comp_total": null, "comp_currency": "CAD", "comp_year": null, "comp_source": "",
+    "sources": ["https://ivari.ca/files/CS124.pdf", "https://investors.sagicor.com/image/SFC_Annual_Report_2025.pdf", "https://ca.jobrapido.com/jobpreview/4132083897557057536", "https://jobs.y-axis.com/jobs/avp-investments-ivari"],
+    "note": "ivari's FY2025 statements describe an Asset-Liability Management working group that 'oversees market-risk strategy, policy compliance, investment and hedging performance' under the management Risk and Capital Committee and the Board Investment and Risk Committee, but name no investment officer. Sagicor's 14-person executive team (AR 2025 p.11) contains no CIO; the only Sagicor CIO found (Tracy-Ann Spence) is at Sagicor Group Jamaica, a separate listed subsidiary with no ivari remit. ivari job postings evidence an in-house Investments department: 'AVP, Investments' (posted 2025-08-30; an 'AVP, Asset Liability Management' role reports to it) and 'Vice President ALM and Investment Strategy' (posted 2026-04-24) - names of incumbents not public."
+  },
+  "cio_direct_reports": [],
+  "other_leaders": [
+    {
+      "name": "Kathryn Jenkins, CPA, CA, CPA (Illinois), ICD.D",
+      "title": "Chief Financial Officer, ivari (signs ivari FS) and Group Chief Financial Officer, Sagicor Financial Company Ltd.",
+      "entity": "ivari / Sagicor Financial Company Ltd.",
+      "reports_to": "Andre Mousseau (President & CEO)",
+      "seat_since": "2023-03",
+      "firm_since": "2023-03",
+      "industry_since": null,
+      "prior": "'More than 20 years in the Insurance and Financial Services industries' (prior employers not named in Sagicor materials)",
+      "tenure_source": "Sagicor Fixed Income Investor Update Q2 2026 ('Appointed Chief Financial Officer in March 2023'); start year of career not stated",
+      "comp_total": null, "comp_currency": "USD", "comp_year": null, "comp_source": "",
+      "sources": ["https://ivari.ca/files/CS124.pdf", "https://investors.sagicor.com/image/SFC+Fixed+Income+Investor+Update+(Q2+2026).pdf", "https://investors.sagicor.com/image/SFC_Annual_Report_2025.pdf"],
+      "note": "Replaced Carolyn Ling (EVP & CFO, ivari, joined 2020-01) as the ivari FS signatory by FY2025. Date she formally took the ivari CFO title not disclosed; group CFO date used."
+    },
+    {
+      "name": "Lynda Gauthier",
+      "title": "Group Chief Risk Officer and Chief Sustainability Officer, Sagicor Financial Company Ltd.",
+      "entity": "Sagicor Financial Company Ltd.",
+      "reports_to": "Sagicor President & CEO / Board Risk Committee",
+      "seat_since": "2022-08",
+      "firm_since": "2022-08",
+      "industry_since": null,
+      "prior": "RBC (18 years): VP Governance and Reporting, Group Risk Management; earlier RBC Capital Markets and Investor Relations roles in Canada and the US",
+      "tenure_source": "press release (Sagicor, 2022-08-03: appointment effective 2022-08-02); 'over 20 years' per investor update - start year not stated",
+      "comp_total": null, "comp_currency": "USD", "comp_year": null, "comp_source": "",
+      "sources": ["https://newswire.ca/news-releases/sagicor-financial-company-ltd-announces-appointment-of-group-chief-risk-officer-and-chief-sustainability-officer-893063320.html", "https://investors.sagicor.com/image/SFC+Fixed+Income+Investor+Update+(Q2+2026).pdf"],
+      "note": "Group-level CRO. ivari has its own Chief Risk Officer ('Risk Management function, under the direction of the Chief Risk Officer', ivari AR 2025) who is not named in any public document found."
+    },
+    {
+      "name": null,
+      "title": "Chief Risk Officer, ivari - not named",
+      "entity": "ivari",
+      "reports_to": "ivari management Risk and Capital Committee / Board Investment and Risk Committee (ivari AR 2025)",
+      "seat_since": null, "firm_since": null, "industry_since": null,
+      "prior": "",
+      "tenure_source": "",
+      "comp_total": null, "comp_currency": "CAD", "comp_year": null, "comp_source": "",
+      "sources": ["https://ivari.ca/files/CS124.pdf"],
+      "note": "ivari Appointed Actuary is Devika Prashad, FCIA (signed 2026-02-24). Group Chief Actuary is Nari Persad, FSA, FCIA (Sagicor; Chief Actuary since 2017-08, SVP & Chief Actuary since 2021)."
+    }
+  ],
+  "gaps": [
+    "No operating-entities page on ivari.ca. Checked 2026-11-03: /about-ivari/about-us/, /about-ivari/about-us/corporate-information/ ('As part of the Sagicor family...'; 'History' section describes Sagicor), /legal/ (Assuris membership only), /stronger-together/ and /news/ivari-and-sagicor-stronger-together/ ('In 2023, ivari announced that we are officially a part of the Sagicor family'), /sitemap/, and the WordPress page list via /wp-json/wp/v2/pages (no leadership, legal-entities or 'our companies' page exists). The site footer copyright reads 'ivari Holdings Inc.' and the 2025 Public Accountability Statement (ivari.ca/files/CO980.pdf) says 'ivari is a member of Sagicor Financial Company Ltd.' and 'ivari and the ivari logos are trademarks owned by ivari Holdings Inc.' - documents, not an entities page, so operating_entities is null. For reference only: Sagicor AR 2025 describes ivari as 'SFC's wholly-owned Canadian subsidiary'; round-1 file records the chain Sagicor Financial Company Ltd. > ivari Holdings Inc. > ivari.",
+    "CIO: no investment officer named for ivari or Sagicor Financial in the ivari AR 2025, LICAT disclosure, Public Accountability Statement, Sagicor AR 2025 executive team, Q2 2026 investor update or web search; direct-report list therefore empty. Only evidence of structure is ivari job postings (AVP Investments; AVP ALM reporting to AVP Investments; VP ALM and Investment Strategy).",
+    "ivari has no leadership page; ivari officers other than the CEO, CFO and Appointed Actuary are not named by the company (COO, CRO, head of investments unknown). sagicor.com executive-profile pages return 403 to fetch tools.",
+    "Tenure: LinkedIn not accessible; no search snippets exposed experience dates. Null fields: Mousseau industry_since; Jenkins industry_since; Gauthier industry_since; ivari CRO all fields; CIO all fields. Mousseau's ivari seat date (2024-07-31) rests on the round-1 AIF citation and was not re-verified.",
+    "Sagicor 2026 management information circular (NEO pay for Mousseau, Jenkins) not retrievable: investors.sagicor.com hosts only 2022-2023 circulars and sagicor.com blocks fetches; no compensation entered."
+  ],
+  "notes": "ivari Board (AR 2025 p.60): Gilbert S. Palter (Chairman), Alan K. Ryder, Andre G. Mousseau, Craig D. Story, Dodridge Miller, Douglas W. Brooks, Keith P. Duncan, Robin E. Fitzgerald. Sagicor Financial executive team (AR 2025 p.11): Mousseau (CEO), Chandler (Group Chief Financial Controller), Freyke (EVP Technology & Chief Digital Officer), Gallagher (CEO & CRO Sagicor Reinsurance Bermuda), Gauthier (Group CRO & CSO), Hazzard (EVP General Counsel), Inniss (EVP & GM Sagicor Life Inc Barbados), Jenkins (Group CFO), Noel (EVP & COO Caribbean), Persad (Group Chief Actuary), Sipsis (EVP Corporate Development & Capital Markets), Walcott (Chief People Officer), Trestrail (CEO Sagicor Life Inc), Zacca (CEO Sagicor Group Jamaica) - no investment title among them. General account (C$11.1bn invested assets YE2025, of which C$6.0bn bonds and C$3.6bn ETFs/mutual funds backing UL policyholder funds) appears to be run in-house under the ALM working group; no external or affiliated manager disclosed. Personal library not available in this session; public sources used."
+}

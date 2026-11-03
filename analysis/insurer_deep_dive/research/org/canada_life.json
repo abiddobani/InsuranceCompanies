@@ -1,0 +1,271 @@
+{
+  "company_id": "canada_life",
+  "operating_entities": {
+    "source_url": "https://www.greatwestlifeco.com/who-we-are/our-companies.html",
+    "page_title": "Our companies | Great-West Lifeco",
+    "retrieved": "2026-11-03",
+    "entities": [
+      {
+        "name": "Great-West Lifeco Inc.",
+        "parent": null,
+        "description": "Shown as a box in the organizational chart; the page gives no per-entity description."
+      },
+      {
+        "name": "The Canada Life Assurance Company",
+        "parent": "Great-West Lifeco Inc.",
+        "description": "Shown as a box in the organizational chart; the page gives no per-entity description."
+      },
+      {
+        "name": "Canada Life Limited",
+        "parent": "The Canada Life Assurance Company",
+        "description": "Shown as a box in the organizational chart; the page gives no per-entity description."
+      },
+      {
+        "name": "Irish Life Assurance p.l.c.",
+        "parent": "Canada Life Limited",
+        "description": "Shown as a box in the organizational chart; the page gives no per-entity description."
+      },
+      {
+        "name": "Financial Horizons Group Inc.",
+        "parent": "The Canada Life Assurance Company",
+        "description": "Shown as a box in the organizational chart; the page gives no per-entity description."
+      },
+      {
+        "name": "GWL Realty Advisors Inc.",
+        "parent": "The Canada Life Assurance Company",
+        "description": "Shown as a box in the organizational chart; the page gives no per-entity description."
+      },
+      {
+        "name": "Investment Planning Counsel Inc.",
+        "parent": "The Canada Life Assurance Company",
+        "description": "Shown as a box in the organizational chart; the page gives no per-entity description."
+      },
+      {
+        "name": "Canada Life Investment Management Ltd.",
+        "parent": "Investment Planning Counsel Inc.",
+        "description": "Shown as a box in the organizational chart; the page gives no per-entity description."
+      },
+      {
+        "name": "Quadrus Investment Services Ltd.",
+        "parent": "The Canada Life Assurance Company",
+        "description": "Shown as a box in the organizational chart; the page gives no per-entity description."
+      },
+      {
+        "name": "Value Partners Group Inc.",
+        "parent": "The Canada Life Assurance Company",
+        "description": "Shown as a box in the organizational chart; the page gives no per-entity description."
+      },
+      {
+        "name": "Great-West Lifeco U.S. LLC",
+        "parent": "Great-West Lifeco Inc.",
+        "description": "Shown as a box in the organizational chart; the page gives no per-entity description."
+      },
+      {
+        "name": "Empower Annuity Insurance Company of America",
+        "parent": "Great-West Lifeco U.S. LLC",
+        "description": "Shown as a box in the organizational chart; the page gives no per-entity description."
+      },
+      {
+        "name": "Empower Advisory Group, LLC",
+        "parent": "Empower Annuity Insurance Company of America",
+        "description": "Shown as a box in the organizational chart; the page gives no per-entity description."
+      },
+      {
+        "name": "Empower Annuity Insurance Company",
+        "parent": "Empower Annuity Insurance Company of America",
+        "description": "Shown as a box in the organizational chart; the page gives no per-entity description."
+      },
+      {
+        "name": "Empower Capital Management, LLC",
+        "parent": "Empower Annuity Insurance Company of America",
+        "description": "Shown as a box in the organizational chart; the page gives no per-entity description."
+      },
+      {
+        "name": "Empower Financial Services, Inc.",
+        "parent": "Empower Annuity Insurance Company of America",
+        "description": "Shown as a box in the organizational chart; the page gives no per-entity description."
+      },
+      {
+        "name": "Empower Life & Annuity Insurance Company of New York",
+        "parent": "Empower Annuity Insurance Company of America",
+        "description": "Shown as a box in the organizational chart; the page gives no per-entity description."
+      },
+      {
+        "name": "Empower Retirement, LLC",
+        "parent": "Empower Annuity Insurance Company of America",
+        "description": "Shown as a box in the organizational chart; the page gives no per-entity description."
+      },
+      {
+        "name": "Empower Trust Company, LLC",
+        "parent": "Empower Annuity Insurance Company of America",
+        "description": "Shown as a box in the organizational chart; the page gives no per-entity description."
+      },
+      {
+        "name": "PanAgora Asset Management, Inc.",
+        "parent": "Empower Annuity Insurance Company of America",
+        "description": "Shown as a box in the organizational chart; the page gives no per-entity description."
+      }
+    ],
+    "ga_manager_statement": {
+      "text": null,
+      "source": null
+    },
+    "note": "Page text: 'The organizational chart shows the current corporate relationships between Great-West Lifeco and certain of its subsidiaries. Power Corporation of Canada indirectly controls approximately 70% of the outstanding common shares of Great-West Lifeco, representing approximately 65% of the voting rights...'. The page is on the parent's (Great-West Lifeco, a pure insurance holding company) own site because canadalife.com has no operating-entities page: checked canadalife.com/about-us.html, /about-us/who-we-are.html (says only 'Canada Life is a subsidiary of Great-West Lifeco Inc. and is a member of the Power Corporation group'), /about-us/amalgamation.html (Great-West Life, London Life, Canada Life and holdcos Canada Life Financial Corporation and London Insurance Group Inc. amalgamated 2020-01-01 into The Canada Life Assurance Company), /about-us/governance.html; /legal.html redirects to terms-of-use. Power Corporation / IGM / Mackenzie / Sagard / Northleaf / Franklin Templeton are NOT on this page and are excluded per rule 1. GA manager: no sentence on the page; GWL Realty Advisors Inc. (real estate) and PanAgora (quant) are the only asset-management boxes."
+  },
+  "ceo": {
+    "name": "David M. Harney",
+    "title": "President and Chief Executive Officer, Great-West Lifeco Inc. and The Canada Life Assurance Company",
+    "entity": "Great-West Lifeco Inc. / The Canada Life Assurance Company",
+    "reports_to": "Board of Directors",
+    "seat_since": "2025-07",
+    "firm_since": "1986",
+    "industry_since": "1986",
+    "prior": "Irish Life (joined 1986; Director of Finance/Marketing/Sales; CEO Irish Life Group); President & COO Europe 2020-25 (plus Capital & Risk Solutions from Feb 2024); Interim Global CIO Dec 2024-Jun 2025; FSAI",
+    "tenure_source": "proxy circular 2026 + Lifeco leadership bio",
+    "comp_total": 8240170,
+    "comp_currency": "CAD",
+    "comp_year": 2025,
+    "comp_source": "https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2026/annual/great-west-lifeco-management-proxy-circular-2026-en.pdf",
+    "sources": [
+      "https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2026/annual/great-west-lifeco-management-proxy-circular-2026-en.pdf",
+      "https://www.greatwestlifeco.com/who-we-are/leadership.html"
+    ],
+    "note": "CEO from 2025-07-01 (succeeded Paul Mahon, whose 2025 total was C$8,436,106 and 2024 total C$12,696,853). firm_since counts Irish Life (acquired by Lifeco 2013)."
+  },
+  "cio": {
+    "name": "John Melvin",
+    "title": "Executive Vice-President and Chief Investment Officer, Great-West Lifeco Inc. and Canada Life",
+    "entity": "Great-West Lifeco Inc. (group 'Global Investments' function; also an officer of The Canada Life Assurance Company)",
+    "reports_to": "President & CEO David Harney (inferred: CEO announced the hire and he is listed among Lifeco senior officers; release does not state the line)",
+    "seat_since": "2025-10",
+    "firm_since": "2025-10",
+    "industry_since": null,
+    "prior": "Sammons Financial Group SVP & CIO (Jul/Aug 2021-Sep 2025); Hartford Investment Management Co. CIO / MD & Head of Portfolio Management (c.2015-21); Goldman Sachs Asset Management MD & CIO Insurance Asset Management (c.2011-15); Deutsche Bank MD, Head of Insurance Fixed Income Americas; MBA NYU Stern, BA Lehigh",
+    "tenure_source": "press release 4 Sep 2025 + Lifeco leadership bio ('appointed CIO on Oct. 1, 2025'); prior-role dates from theorg.com/MarketScreener (aggregators)",
+    "comp_total": 7431445,
+    "comp_currency": "CAD",
+    "comp_year": 2025,
+    "comp_source": "https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2026/annual/great-west-lifeco-management-proxy-circular-2026-en.pdf",
+    "sources": [
+      "https://www.greatwestlifeco.com/who-we-are/leadership/john-melvin.html",
+      "https://www.greatwestlifeco.com/news-and-events/news/2025/great-west-lifeco-announces-appointment-of-chief-investment-officer.html",
+      "https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2026/annual/great-west-lifeco-management-proxy-circular-2026-en.pdf",
+      "https://theorg.com/org/greatwestlifeco/org-chart/john-melvin"
+    ],
+    "note": "Bio: 'oversees the organization's investment strategy, portfolio performance and capital allocation'; 'over 30 years of investment experience, with more than 20 of these years focused on insurance asset management' (industry start c. mid-1990s, derived, left null). 2025 SCT total covers Oct-Dec only and includes C$3,047,443 sign-on/make-whole awards; paid in USD; separate Global Investments bonus plan (target 140% of salary). Predecessor Raman Srivastava (Global CIO 2017-Dec 2024, now CEO Insight Investment); interim CIOs Harney (Dec 2024-Jun 2025) and CFO Nielsen (Jul-Sep 2025)."
+  },
+  "cio_direct_reports": [
+    {
+      "name": "Gaurav Mittal",
+      "title": "Senior Vice President and Head of Global Private Debt, Canada Life",
+      "entity": "The Canada Life Assurance Company / Great-West Lifeco Global Investments",
+      "reports_to": "EVP & CIO (inferred from 'Global' private-debt title)",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "",
+      "tenure_source": "universalassetowners.com registry listing (third-party, undated) surfaced in search; no company bio found",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.universalassetowners.com/registry/person/albert-oppenheimer/"
+      ],
+      "note": "Only third-party registry evidence; title and dates unverified against a Lifeco/Canada Life page. Source URL is the registry page that listed him alongside Albert Oppenheimer (Senior Director, Mortgage Investments); his own registry page returned 404.",
+      "reporting_line": "inferred from title"
+    },
+    {
+      "name": "Glenn Way",
+      "title": "President, GWL Realty Advisors",
+      "entity": "GWL Realty Advisors Inc. (Canada Life real-estate subsidiary per Lifeco org chart)",
+      "reports_to": "EVP & CIO (inferred: in 2018 the EVP Global Head of Real Estate reported to the Global CIO; current line not stated)",
+      "seat_since": "2023-06",
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "GWL Realty Advisors career (previously EVP; succeeded Ralf Dost as President 2023-06-01)",
+      "tenure_source": "press release / RENX & newswire.ca May 2023; MarketScreener start 2023-05-31",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.newswire.ca/news-releases/gwl-realty-advisors-appoints-glenn-way-as-president-866131789.html",
+        "https://renx.ca/way-to-succeed-dost-as-gwlra-president-on-june-1",
+        "https://ca.marketscreener.com/insider/GLENN-WAY-A3R79H/"
+      ],
+      "note": "Accountable for GWLRA's real-estate portfolio (c.C$17bn per CoStar headline). Whether GWLRA's president reports to the Lifeco CIO or to Canada Life's President & CEO Canada (Fabrice Morin) is not disclosed.",
+      "reporting_line": "inferred from title"
+    },
+    {
+      "name": "Ivan Yiu",
+      "title": "Vice-President, Global Investments Strategy",
+      "entity": "Great-West Lifeco / Canada Life (Global Investments)",
+      "reports_to": "EVP & CIO (inferred from 'Global Investments' title)",
+      "seat_since": "2021-04",
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "",
+      "tenure_source": "village.ai aggregator of LinkedIn ('Apr 2021 - Present') - unverified",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://village.ai/person/ivan-yiu-MjkwODM1MDA0"
+      ],
+      "note": "Weak source (LinkedIn aggregator). Included because it is the only named 'Global Investments' function title found; verify before use.",
+      "reporting_line": "inferred from title"
+    }
+  ],
+  "other_leaders": [
+    {
+      "name": "Jon Nielsen",
+      "title": "Executive Vice-President and Chief Financial Officer, Great-West Lifeco Inc. and Canada Life",
+      "entity": "Great-West Lifeco Inc.",
+      "reports_to": "President & CEO",
+      "seat_since": "2024-02",
+      "firm_since": "2023-09",
+      "industry_since": null,
+      "prior": "CFO, FWD Group (Hong Kong); joined Lifeco 2023-09-05 as CFO designate; CFO Feb 2024 on Garry MacNicholas's retirement; Interim CIO 2025-07-01 to 2025-09-30",
+      "tenure_source": "press release (CFO succession plan 2023) + proxy circular",
+      "comp_total": 6784031,
+      "comp_currency": "CAD",
+      "comp_year": 2025,
+      "comp_source": "https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2026/annual/great-west-lifeco-management-proxy-circular-2026-en.pdf",
+      "sources": [
+        "https://www.greatwestlifeco.com/news-events/news/great-west-lifeco-announces-chief-financial-officer-succession-plan.html",
+        "https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2026/annual/great-west-lifeco-management-proxy-circular-2026-en.pdf"
+      ],
+      "note": "Paid in CAD to Jun 30 2025, USD thereafter. Industry start not disclosed."
+    },
+    {
+      "name": "Dervla Tomlin",
+      "title": "Executive Vice-President and Chief Risk Officer, Great-West Lifeco Inc. and Canada Life",
+      "entity": "Great-West Lifeco Inc.",
+      "reports_to": "President & CEO and Board Risk Committee",
+      "seat_since": "2023-02",
+      "firm_since": "2013",
+      "industry_since": null,
+      "prior": "Irish Life CRO and Chief Actuary (joined Lifeco via the 2013 Irish Life acquisition); Lifeco Chief Actuary Apr 2015-Feb 2023; FSAI, FIA, ACIA",
+      "tenure_source": "press release Feb 2023 + proxy circular",
+      "comp_total": 4238497,
+      "comp_currency": "CAD",
+      "comp_year": 2025,
+      "comp_source": "https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2026/annual/great-west-lifeco-management-proxy-circular-2026-en.pdf",
+      "sources": [
+        "https://www.greatwestlifeco.com/content/dam/lifeco/documents/news/2023/en/great-west-lifeco-names-dervla-tomlin-chief-risk-officer.pdf",
+        "https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2026/annual/great-west-lifeco-management-proxy-circular-2026-en.pdf"
+      ],
+      "note": "'More than 30 years' industry experience (start c. early 1990s, derived, left null). Irish Life start date before 2013 not disclosed. Appointed Actuary Linda Kerrigan (SVP) reports into her function."
+    }
+  ],
+  "gaps": [
+    "No Canada Life / Lifeco page names the CIO's direct reports; the Lifeco leadership page lists only senior officers. The three listed reports are inferred from titles and rest on third-party sources (registry listing, LinkedIn aggregator, trade press). Heads of public fixed income, ALM, investment risk and the Canadian GA investment division are not publicly named.",
+    "Regional investment heads whose line to Melvin is NOT established and are therefore excluded: Jonathan Kreider (EVP & Head of Empower Investments, leads the Empower general account; 2020 release says he reports to Empower CEO Ed Murphy); Patrick Burke (CEO, Irish Life Investment Managers, ILIM; CEO since 2013, joined 2006) and Anthony MacGuinness (CIO ILIM since Jan 2022, joined 2004) per ilim.com/who-we-are/our-people; Canada Life UK: David Marchant (CIO Canada Life Ltd & MD Canada Life Asset Management since Jul 2013, joined Nov 2010) no longer appears on the canadalife.co.uk executive-team page (Nov 2026), so his status is unknown and no UK CIO is listed.",
+    "Melvin, Nielsen, Tomlin industry start years not stated; LinkedIn experience lines not retrievable (HTTP 999; no snippets).",
+    "GA manager statement: no website sentence found; FY2025 MD&A describes Investment Management as an in-house first-line function under Global Investments (first-round file).",
+    "Web-search budget exhausted before verifying Gaurav Mittal's appointment date and searching for Lifeco 'Global Head of' public fixed income / ALM / investment risk."
+  ],
+  "notes": "Hierarchy taken from Great-West Lifeco's own 'Our companies' org chart (parent of The Canada Life Assurance Company). Pay figures carried from the first-round file (2026 Lifeco circular, FY2025). Edmund F. Murphy III (President & CEO Empower; 2025 total C$25,012,428) and Fabrice Morin (President & CEO Canada, since 2024; joined 2019 from Power Corp) are business heads, not investment officers."
+}

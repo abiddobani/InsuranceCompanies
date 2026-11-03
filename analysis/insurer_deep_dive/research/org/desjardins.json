@@ -1,0 +1,318 @@
+{
+ "company_id": "desjardins",
+ "operating_entities": {
+  "source_url": "https://www.desjardins.com/en/about-us/governance-democracy/group-structure/other-networks.html",
+  "page_title": "Other Desjardins Group networks - Desjardins",
+  "retrieved": "2026-11-03",
+  "entities": [
+   {
+    "name": "Desjardins Group (caisses, collective owners)",
+    "parent": null,
+    "description": "'The caisses are the collective owners of some 20 subsidiary companies in life and general insurance, securities brokerage, venture capital and asset management, many of which are active across the country.'"
+   },
+   {
+    "name": "Capital régional et coopératif Desjardins (CRCD)",
+    "parent": "Desjardins Group (caisses, collective owners)",
+    "description": "'CRCD is tax-advantaged fund that issues a share offering to Quebec taxpayers to contribute to the province's economic growth by investing in SMEs and local cooperatives.' A public company managed by Desjardins Capital."
+   },
+   {
+    "name": "Desjardins General Insurance Group Inc. (DGIG)",
+    "parent": "Desjardins Group (caisses, collective owners)",
+    "description": "Named as the parent of Desjardins General Insurance: 'Desjardins General Insurance Group Inc. and its insurance subsidiaries (DGIG) have developed an effective and efficient governance...'"
+   },
+   {
+    "name": "Desjardins General Insurance",
+    "parent": "Desjardins General Insurance Group Inc. (DGIG)",
+    "description": "'Founded in 1944, Desjardins General Insurance is a subsidiary of Desjardins General Insurance Group. As a leader in P&C insurance in Canada, Desjardins General Insurance offers auto, home and business insurance products.'"
+   },
+   {
+    "name": "Desjardins Financial Services Firm Inc. (DFSF)",
+    "parent": "Desjardins Group (caisses, collective owners)",
+    "description": "'The mission of Desjardins Financial Services Firm is to protect caisse members who obtain investment funds or financial planning services from one of its representatives.' Registered mutual fund dealer (AMF; OSC in Ontario)."
+   },
+   {
+    "name": "Desjardins Capital",
+    "parent": "Desjardins Group (caisses, collective owners)",
+    "description": "'Desjardins Capital is a fund manager that offers strategic and financial support to growing businesses and innovative start-ups.'"
+   },
+   {
+    "name": "Desjardins Global Asset Management (DGAM)",
+    "parent": "Desjardins Group (caisses, collective owners)",
+    "description": "'DGAM manages assets from the equity of the Group's insurance subsidiaries as well as management mandates from other Group components.'"
+   },
+   {
+    "name": "Desjardins Financial Security Life Assurance Company (DFS)",
+    "parent": "Desjardins Group (caisses, collective owners)",
+    "description": "'DFS is a key player in the insurance sector, ranking 1st in Quebec and 4th in Canada.' DFS sub-page: 'As a life and health insurance company, we've been taking care of the financial security of our clients across Canada since 1948'; $209 billion AUM/AUA; ranked 2nd in Quebec and 5th in Canada (2024 GWP basis); more than 6,000 employees; created 2002, joined Desjardins Group 2009 (as shown on the page's timeline)."
+   },
+   {
+    "name": "Desjardins Property Management",
+    "parent": "Desjardins Group (caisses, collective owners)",
+    "description": "'Desjardins Property Management is a strategic partner that creates work environments that promote collaboration, productivity and safety for Desjardins Group employees and other tenants.'"
+   },
+   {
+    "name": "The Personal",
+    "parent": "Desjardins Group (caisses, collective owners)",
+    "description": "'The Personal is recognized as a leading home and auto group insurer in the Canadian market.' Two subsidiaries operate under the brand: The Personal General Insurance (Quebec) and The Personal Insurance Company (rest of Canada)."
+   },
+   {
+    "name": "The Personal General Insurance",
+    "parent": "The Personal",
+    "description": "'serving the Quebec market'"
+   },
+   {
+    "name": "The Personal Insurance Company",
+    "parent": "The Personal",
+    "description": "'serving the rest of Canada'"
+   },
+   {
+    "name": "Desjardins Securities",
+    "parent": "Desjardins Group (caisses, collective owners)",
+    "description": "'Desjardins Securities offers a complete range of securities brokerage products and services through its Investment Advisors and its Disnat Online Brokerage division.'"
+   }
+  ],
+  "ga_manager_statement": {
+   "text": "DGAM manages assets from the equity of the Group's insurance subsidiaries as well as management mandates from other Group components.",
+   "source": "https://www.desjardins.com/en/about-us/governance-democracy/group-structure/other-networks.html"
+  },
+  "note": "The insurer (Desjardins Insurance = Desjardins Financial Security Life Assurance Company) has its own site, desjardinsassurancevie.com, which returns HTTP 403 to this environment; the group site desjardins.com carries the components list and a DFS sub-page (https://www.desjardins.com/en/about-us/governance-democracy/group-structure/other-networks/dfs.html) with DFS's management team and the list of 24 insurers merged into DFS since 1948 (La Prospérité ... State Farm). The page does not describe ownership tiers (the Fédération des caisses Desjardins du Québec holds the subsidiaries on behalf of the caisses per the annual report) and does not yet mention Guardian Capital Group (acquired 2026-03-23 and merged under DGAM)."
+ },
+ "ceo": {
+  "name": "Chantal Gagné",
+  "title": "Executive Vice-President, Life and Health Insurance, Desjardins Group; President and Chief Operating Officer, Desjardins Financial Security",
+  "entity": "Desjardins Financial Security Life Assurance Company",
+  "reports_to": "Denis Dubois, President and CEO, Desjardins Group (stated on Group Management Committee page)",
+  "seat_since": "2025-09",
+  "firm_since": "2007",
+  "industry_since": null,
+  "prior": "Began career in P&C insurance (actuarial services, underwriting, claims); joined Desjardins 2007; VP Life and Health Insurance and Independent Distribution (to 2025); actuarial science, Université Laval",
+  "tenure_source": "company bio (desjardins.com management committee; DFS page)",
+  "comp_total": null,
+  "comp_currency": "CAD",
+  "comp_year": null,
+  "comp_source": "",
+  "sources": [
+   "https://www.desjardins.com/en/about-us/governance-democracy/management-committee.html",
+   "https://coop.desjardins.com/ca/about-us/desjardins/governance-democracy/chantal-gagne/index.jsp",
+   "https://www.desjardins.com/en/about-us/governance-democracy/group-structure/other-networks/dfs.html",
+   "https://www.bnnbloomberg.ca/business/company-news/2025/08/25/desjardins-group-announces-changes-to-executive-ranks/"
+  ],
+  "note": "Appointed EVP L&H Insurance September 2025 when the combined Wealth/L&H EVP role was split (Denis Dubois became Group CEO 2025-09-02). industry_since null: DFS page says 'nearly 20 years of experience in the insurance industry' and bio says she started in P&C before 2007, no year given. Co-operative: executive pay not disclosed."
+ },
+ "cio": {
+  "name": "Nicolas Richard",
+  "title": "Vice-President, Investments, Desjardins Financial Security; Head of Canada and UK, Desjardins Global Asset Management (formerly President and COO, DGAM)",
+  "entity": "Desjardins Financial Security Life Assurance Company / Desjardins Global Asset Management Inc.",
+  "reports_to": "At DGAM: George Mavroudis, President & CEO, DGAM (stated: 'will join Mavroudis's executive team', Aug 2025 release). At DFS: not stated (inferred Chantal Gagné as President & COO, DFS)",
+  "seat_since": null,
+  "firm_since": "2011",
+  "industry_since": null,
+  "prior": "Senior roles in asset management, wealth management and private banking at global financial institutions in Geneva, London and New York; joined Desjardins 2011 (DGAM profile per search snippet); headed DGAM investment strategy and asset allocation before leading DGAM (aggregator: DGAM CEO from 2016-09-30); BSc actuarial science & mathematics (Université de Montréal), MSc Finance (London Business School), CFA",
+  "tenure_source": "company bio (DFS management page; DGAM team page; Desjardins release 2025-08-28); firm_since from DGAM profile search snippet",
+  "comp_total": null,
+  "comp_currency": "CAD",
+  "comp_year": null,
+  "comp_source": "",
+  "sources": [
+   "https://www.desjardins.com/en/about-us/governance-democracy/group-structure/other-networks/dfs.html",
+   "https://www.desjardins.com/en/find-us/dgam-team.html",
+   "https://www.desjardins.com/en/news/desjardins-private-acquisition-guardian.html",
+   "https://www.desjardinsassurancevie.com/en/about-Desjardins-Insurance/who-we-are/our-executives/nicolas-richard",
+   "https://www.marketscreener.com/insider/NICOLAS-RICHARD-A1MBRS/"
+  ],
+  "note": "Most senior investment officer for the DFS general account: DFS management page lists him as 'Vice-President, Investments'; the DFS executives sub-site (403) is reported in search snippets as 'VP of Investments at Desjardins Financial Security and Chief Operating Officer at DGAM'. DGAM's team page (2026) titles him 'Head of Canada and UK' under President & CEO George Mavroudis after the Guardian Capital merger (closed 2026-03-23). seat_since null: no date for the DFS VP Investments appointment. industry_since null ('over 25 years of industry experience'). Pay not disclosed (co-operative)."
+ },
+ "cio_direct_reports": [
+  {
+   "name": "Christian Duceppe",
+   "title": "Managing Director and Chief Investment Officer, Public Markets",
+   "entity": "Desjardins Global Asset Management Inc.",
+   "reports_to": "DGAM executive team (reports to DGAM President & CEO or Head of Canada and UK; not stated)",
+   "seat_since": "2022",
+   "firm_since": null,
+   "industry_since": null,
+   "prior": "Fixed income portfolio manager, then head of fixed income, corporate credit, infrastructure and private placements at Desjardins (aggregator: FI PM from 1999; CIO 2022)",
+   "tenure_source": "aggregator (MarketScreener, round 1) - unverified",
+   "comp_total": null,
+   "comp_currency": "CAD",
+   "comp_year": null,
+   "comp_source": "",
+   "sources": [
+    "https://www.desjardins.com/en/find-us/dgam-team.html",
+    "https://ca.marketscreener.com/insider/CHRISTIAN-DUCEPPE-A1QFQG/"
+   ],
+   "note": "Oversees fixed income (Marie-Claude DesRoches, VP & Head of Fixed Income), global equities (Tommy Nguyen, VP & Head), top-down global strategies (Marc Christopher Lavoie, VP & Head) and emerging markets per DGAM team page groupings.",
+   "reporting_line": "inferred from title"
+  },
+  {
+   "name": "Frédéric Angers",
+   "title": "Managing Director and Chief Investment Officer, Private Markets",
+   "entity": "Desjardins Global Asset Management Inc.",
+   "reports_to": "DGAM executive team (not stated)",
+   "seat_since": null,
+   "firm_since": null,
+   "industry_since": null,
+   "prior": "",
+   "tenure_source": "",
+   "comp_total": null,
+   "comp_currency": "CAD",
+   "comp_year": null,
+   "comp_source": "",
+   "sources": [
+    "https://www.desjardins.com/en/find-us/dgam-team.html"
+   ],
+   "note": "MBA, CFA. Oversees infrastructure (Guillaume Morency, VP & Head of Infrastructure Investments), real estate (Richard Dansereau, VP & Head of Real Estate Investments) and private investment teams per DGAM team page groupings.",
+   "reporting_line": "inferred from title"
+  },
+  {
+   "name": "Guy Lamontagne",
+   "title": "Managing Director and Chief of Investment Strategy",
+   "entity": "Desjardins Global Asset Management Inc.",
+   "reports_to": "DGAM executive team (not stated)",
+   "seat_since": null,
+   "firm_since": null,
+   "industry_since": null,
+   "prior": "",
+   "tenure_source": "",
+   "comp_total": null,
+   "comp_currency": "CAD",
+   "comp_year": null,
+   "comp_source": "",
+   "sources": [
+    "https://www.desjardins.com/en/find-us/dgam-team.html"
+   ],
+   "note": "Strategic/tactical asset allocation and LDI function (Mathieu Roberge, Director and PM, Strategic Asset Allocation listed under investment specialists).",
+   "reporting_line": "inferred from title"
+  },
+  {
+   "name": "Isabelle Laprise",
+   "title": "Managing Director and Chief of Responsible Investment",
+   "entity": "Desjardins Global Asset Management Inc.",
+   "reports_to": "DGAM executive team (not stated)",
+   "seat_since": null,
+   "firm_since": null,
+   "industry_since": null,
+   "prior": "",
+   "tenure_source": "",
+   "comp_total": null,
+   "comp_currency": "CAD",
+   "comp_year": null,
+   "comp_source": "",
+   "sources": [
+    "https://www.desjardins.com/en/find-us/dgam-team.html"
+   ],
+   "note": "CFA, SASB-FSA Credential.",
+   "reporting_line": "inferred from title"
+  },
+  {
+   "name": "Natalie Bisaillon",
+   "title": "Managing Director and Chief of Institutional Client Relations",
+   "entity": "Desjardins Global Asset Management Inc.",
+   "reports_to": "DGAM executive team (not stated)",
+   "seat_since": null,
+   "firm_since": null,
+   "industry_since": null,
+   "prior": "",
+   "tenure_source": "",
+   "comp_total": null,
+   "comp_currency": "CAD",
+   "comp_year": null,
+   "comp_source": "",
+   "sources": [
+    "https://www.desjardins.com/en/find-us/dgam-team.html"
+   ],
+   "note": "Client-facing, not an investing role; listed because she sits on DGAM's management team.",
+   "reporting_line": "inferred from title"
+  },
+  {
+   "name": "Véronique Steffan",
+   "title": "Managing Director and Chief, Strategy and Transition",
+   "entity": "Desjardins Global Asset Management Inc.",
+   "reports_to": "DGAM executive team (not stated)",
+   "seat_since": null,
+   "firm_since": null,
+   "industry_since": null,
+   "prior": "",
+   "tenure_source": "",
+   "comp_total": null,
+   "comp_currency": "CAD",
+   "comp_year": null,
+   "comp_source": "",
+   "sources": [
+    "https://www.desjardins.com/en/find-us/dgam-team.html"
+   ],
+   "note": "Integration/transition role following the Guardian Capital merger (inferred from title).",
+   "reporting_line": "inferred from title"
+  }
+ ],
+ "other_leaders": [
+  {
+   "name": "Alexandre Guertin",
+   "title": "Vice-President, Wealth Management and Life and Health Insurance Finance and Corporate Actuarial (insurer-level CFO)",
+   "entity": "Desjardins Financial Security Life Assurance Company",
+   "reports_to": "Chantal Gagné (inferred from DFS management-team listing) / Alain Leprohon, EVP Finance & CFO, Desjardins Group (functional, inferred)",
+   "seat_since": null,
+   "firm_since": "2024",
+   "industry_since": null,
+   "prior": "Strategic positions at two of the three largest Canadian life and health insurers (not named); nearly 25 years in insurance and asset management; MBA Harvard; BA finance/accounting HEC Montréal; CPA",
+   "tenure_source": "company bio (DFS page)",
+   "comp_total": null,
+   "comp_currency": "CAD",
+   "comp_year": null,
+   "comp_source": "",
+   "sources": [
+    "https://www.desjardins.com/en/about-us/governance-democracy/group-structure/other-networks/dfs.html"
+   ],
+   "note": "Group-level CFO is Alain Leprohon, EVP Finance and CFO (joined Desjardins 2002; VP Finance 2012; EVP date not stated)."
+  },
+  {
+   "name": "Mario St-Hilaire",
+   "title": "Chief Risk Officer, Life Insurance",
+   "entity": "Desjardins Financial Security Life Assurance Company",
+   "reports_to": "Antoine Avril, EVP and Chief Risk Officer, Desjardins Group (inferred; Group CRO on Management Committee since 2023-03, joined Desjardins 2010)",
+   "seat_since": null,
+   "firm_since": null,
+   "industry_since": null,
+   "prior": "Over 25 years at Desjardins in actuarial science and finance before becoming Head of Risk Management; FCIA, FSA; BSc actuarial science Université Laval",
+   "tenure_source": "company bio (DFS page)",
+   "comp_total": null,
+   "comp_currency": "CAD",
+   "comp_year": null,
+   "comp_source": "",
+   "sources": [
+    "https://www.desjardins.com/en/about-us/governance-democracy/group-structure/other-networks/dfs.html",
+    "https://www.desjardins.com/en/about-us/governance-democracy/management-committee.html"
+   ],
+   "note": "firm_since null: 'over 25 years at Desjardins' without a year."
+  },
+  {
+   "name": "George Mavroudis",
+   "title": "President and Chief Executive Officer, Desjardins Global Asset Management (head of affiliated asset manager)",
+   "entity": "Desjardins Global Asset Management Inc.",
+   "reports_to": "Sébastien Vallée, EVP Wealth Management, Desjardins Group (Chair of DGAM and Guardian boards; reporting line inferred)",
+   "seat_since": "2026-03",
+   "firm_since": "2026-03",
+   "industry_since": null,
+   "prior": "President & CEO, Guardian Capital Group (TSX-listed) until its C$1.67bn take-private by Desjardins, closed 2026-03-23; FCPA, CFA, CFP",
+   "tenure_source": "press release (desjardins.com 2026-03-23)",
+   "comp_total": null,
+   "comp_currency": "CAD",
+   "comp_year": null,
+   "comp_source": "",
+   "sources": [
+    "https://www.desjardins.com/en/news/desjardins-finalizes-acquisition-guardian-capital-group-limited.html",
+    "https://www.desjardins.com/en/find-us/dgam-team.html"
+   ],
+   "note": "industry_since null (prior Guardian career dates not captured). Prior pay was in Guardian Capital circulars, not Desjardins."
+  }
+ ],
+ "gaps": [
+  "desjardinsassurancevie.com (Desjardins Insurance's own site, incl. /who-we-are/our-executives and Nicolas Richard's bio) returns HTTP 403 to curl and WebFetch; the DFS management team was taken from the desjardins.com DFS page instead.",
+  "Reporting lines of the DGAM investment heads are not stated anywhere: they sit on DGAM's management team under President & CEO George Mavroudis, while Nicolas Richard is both DFS VP Investments and DGAM 'Head of Canada and UK'; whether Duceppe/Angers report to Richard or directly to Mavroudis is unresolved, so all six are marked 'inferred from title'.",
+  "Tenure: Nicolas Richard seat_since (DFS VP Investments) null; Duceppe's 2022/1999 dates come from an aggregator; Angers, Lamontagne, Laprise, Bisaillon, Steffan, St-Hilaire have no dates; Guertin seat date not stated (joined 2024).",
+  "Executive compensation not disclosed (co-operative; annual report discloses director compensation only).",
+  "MarketScreener experience pages require login; no LinkedIn snippets surfaced before the search budget was exhausted.",
+  "Frederick Tremblay (VP Investment Solutions, DFS; joined 2002; oversees Desjardins Trust operations and manager selection for retail investment solutions) is on the DFS management team but is not a general-account role and is excluded from direct reports."
+ ],
+ "notes": "Entities page = desjardins.com 'Other Desjardins Group networks' (components list) plus its DFS sub-page. Group CEO Denis Dubois (took office 2025-09-02; joined Desjardins 2003; previously EVP Wealth Management and L&H Insurance). Other DFS management-team members on the DFS page: Nathalie Bouchard (VP Corporate Actuarial Services and Appointed Actuary, 35+ years at Desjardins), Michel Martineau (VP Individual Insurance, 29+ years), Marie-France Amyot (VP Group Benefits and Retirement Savings, joined 2010), Frédéric Renaud (VP Strategy, Analytics and Performance), Steeve Talbot (Chief Internal Audit Officer), Mylène Sabourin (Chief Compliance Officer), Pierre-Alexandre Braeken (Chief Technology and Cyber Risk Officer), François Cholette (Director Legal Affairs and Corporate Secretary, joined 1993), Pierre-Olivier Samson (VP Wealth Management Operations, since 2012), Éléna Simard-Veilleux (VP Modernization Programs, since 2017), Jean-Philippe Savage (VP Projects and Technologies). DGAM second-level heads: Marie-Claude DesRoches (VP & Head of Fixed Income), Tommy Nguyen (VP & Head of Global Equities), Marc Christopher Lavoie (VP & Head of Top-Down Global Strategies), Guillaume Morency (VP & Head of Infrastructure Investments), Richard Dansereau (VP & Head of Real Estate Investments)."
+}

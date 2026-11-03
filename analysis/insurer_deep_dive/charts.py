@@ -1,4 +1,5 @@
 """Inline-SVG chart helpers in the project's dashboard style (cards, muted peers, blue focus, dashed medians)."""
+import re
 import html
 import math
 
@@ -175,24 +176,36 @@ def line_chart(series, W=560, H=250, fmt=lambda v: f"{v:.0f}%", band=None, band_
     return svg(W, H, g)
 
 
-def tenure_bars(person, now=2026.84, W=250):
+def since_year(v):
+    """Start date as a fractional year: 'YYYY-MM' -> exact month; 'YYYY' -> mid-year (assumed)."""
+    if v is None or v == "":
+        return None
+    if isinstance(v, (int, float)):
+        return float(v) + 0.5 if v > 1900 else None
+    m = re.match(r"\s*(\d{4})(?:-(\d{1,2}))?", str(v))
+    if not m or int(m.group(1)) < 1900:
+        return None
+    return int(m.group(1)) + ((int(m.group(2)) - 1) / 12 if m.group(2) else 0.5)
+
+
+def tenure_bars(person, now=2026.84, W=250, lw=64, rw=74, compact=False):
     """Three thin bars: years in seat, at the firm, in the industry (0-40y scale)."""
-    rows = [("In seat", person.get("seat_since")), ("At firm", person.get("firm_since")),
-            ("In industry", person.get("industry_since"))]
+    labs = ("Seat", "Firm", "Industry") if compact else ("In seat", "At firm", "In industry")
+    rows = [(labs[0], person.get("seat_since")), (labs[1], person.get("firm_since")), (labs[2], person.get("industry_since"))]
     g = []
-    lw, rw = 64, 74
     sx = lambda v: lw + min(v, 40) / 40 * (W - lw - rw)
     for i, (lab, since) in enumerate(rows):
-        y = 4 + i * 15
+        y = (2 + i * 13) if compact else (4 + i * 15)
         g.append(f'<text x="0" y="{y + 9}" class="tk">{lab}</text>')
         g.append(f'<rect x="{lw}" y="{y + 2}" width="{W - lw - rw}" height="8" rx="2" fill="{GRID}"/>')
-        if isinstance(since, (int, float)) and since > 1900:
-            yrs = max(now - since - 0.5, 0)  # assume a mid-year start
+        s = since_year(since)
+        if s is not None:
+            yrs = max(now - s, 0)
             g.append(f'<rect x="{lw}" y="{y + 2}" width="{max(sx(yrs) - lw, 1.5):.1f}" height="8" rx="2" fill="{[BLUE, TEAL, ORANGE][i]}"/>')
-            g.append(f'<text x="{W - rw + 6}" y="{y + 9.5}" class="vl" font-size="10.5px">{"<1" if yrs < 1 else f"{yrs:.0f}"}y · {int(since)}</text>')
+            g.append(f'<text x="{W - rw + 5}" y="{y + 9.5}" class="vl" font-size="10.5px">{"<1" if yrs < 1 else f"{yrs:.0f}"}y · {int(s)}</text>')
         else:
-            g.append(f'<text x="{W - rw + 6}" y="{y + 9.5}" class="tk">n/d</text>')
-    return svg(W, 50, g)
+            g.append(f'<text x="{W - rw + 5}" y="{y + 9.5}" class="tk">n/d</text>')
+    return svg(W, 42 if compact else 50, g)
 
 
 def mix_bar(items, colors=None, W=520, h=30):
