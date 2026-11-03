@@ -29,9 +29,9 @@
   "reports_to": "Rohit Thomas, President & CEO, BMO Insurance (inferred: listed on the BMO Insurance 'Senior Leadership Team'; not stated)",
   "seat_since": null,
   "firm_since": null,
-  "industry_since": null,
-  "prior": "A MarketScreener aggregator profile lists a Michael Logan as Head of Investments, RBC Life Insurance Co. 'since 2006' - identity match with the BMO Insurance CIO unverified",
-  "tenure_source": "company page (bmo.com About BMO Insurance, via search-engine snippet only)",
+  "industry_since": "2006",
+  "prior": "Head of Investments, RBC Life Insurance Company (from 2006)",
+  "tenure_source": "MarketScreener insider profile; identity confirmed by Abid Dobani (2026-11-03)",
   "comp_total": null,
   "comp_currency": "CAD",
   "comp_year": null,
@@ -41,7 +41,7 @@
    "https://www.bmo.com/fr-ca/assurance/a-propos-de-nous/",
    "https://www.marketscreener.com/insider/MICHAEL-LOGAN-A0JHYN/"
   ],
-  "note": "bmo.com's 'About BMO Insurance' page lists Michael Logan as Chief Investment Officer ('Chef des placements' on the French page) under 'Senior Leadership Team' alongside Gillian Noble (VP & Chief Operating Officer), Tim Cavallin (Chief Actuary) and Neil Blue (Head of Legal & Chief Compliance Officer). The page could not be fetched from this environment (bmo.com returns 503/empty reply to curl and WebFetch); roster taken from search-engine snippets of the page. All tenure dates null: no company bio, press release or LinkedIn snippet found."
+  "note": "bmo.com's 'About BMO Insurance' page lists Michael Logan as Chief Investment Officer ('Chef des placements' on the French page) under 'Senior Leadership Team' alongside Gillian Noble (VP & Chief Operating Officer), Tim Cavallin (Chief Actuary) and Neil Blue (Head of Legal & Chief Compliance Officer). The page could not be fetched from this environment (bmo.com returns 503/empty reply to curl and WebFetch); roster taken from search-engine snippets of the page. Same Michael (Mike) Logan who was Head of Investments at RBC Life (confirmed by Abid Dobani, 2026-11-03); industry start is the earliest dated role found (2006), so may be later than his true start. BMO seat and join dates not found."
  },
  "cio_direct_reports": [],
  "other_leaders": [
