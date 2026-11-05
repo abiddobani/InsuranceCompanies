@@ -1,0 +1,28 @@
+id: canada_life
+name: Canada Life (Great-West Life, London Life)
+anchor: President & CEO of Canada Life's Canadian operations; parent is Great-West Lifeco (CEO David Harney)
+src: a | Canada Life, Canadian Executive Leadership page (canadalife.com) | https://www.canadalife.com/about-us/governance/canada-life-executive-leaders.html
+src: b | Great-West Lifeco Senior Officers page (Fabrice Morin, President & CEO, Canada; John Melvin, EVP & CIO) | https://www.greatwestlifeco.com/who-we-are/leadership.html
+src: c | Canada Life release (2024-01): Fabrice Morin to lead Canadian operations from 2024-02-16 | https://www.canadalife.com/about-us/news-highlights/news/canada-life-announces-retirement-of-jeff-macoun.html
+src: d | Informa Connect (2026): Gaurav Mittal, SVP & Head of Global Private Debt, Canada Life | https://informaconnect.com/record-issuance-expected-in-2026-canada-lifes-investment-strate
+src: e | Newswire: Glenn Way appointed President, GWL Realty Advisors | https://www.newswire.ca/news-releases/gwl-realty-advisors-appoints-glenn-way-as-president-
+src: f | CPA Canada event bio: George Turpie, SVP, Group Retirement Savings & Investments (undated) | https://www.cpacanada.ca/career-and-professional-development/event-biographies/george-turpie
+src: g | TheOrg: Tegan Rosenbaum, SVP Data, AI, Automation & Platforms (since 2025-04) | https://theorg.com/org/canadalife/org-chart/tegan-rosenbaum
+L1 | Fabrice Morin | President & Chief Executive Officer (Canada) | H | a,b,c
+L2 | Mei Dong | Chief Financial Officer | H | a
+L2 | Nancy Hudson | Chief Risk Officer | H | a
+L2 | Jamie Collins | Chief Operating Officer | H | a
+L2 | Julia McGillis | EVP, Workplace Benefits & Retirement | H | a
+L3 | George Turpie | SVP, Group Retirement Savings & Investments | L | f | ~
+L2 | Roger Maguet | EVP, Insurance Solutions | H | a
+L2 | Blaine Shewchuk | EVP, Individual Wealth | H | a
+L2 | Gayle Murdoch | Client Advisory Services | H | a
+L2 | Mike Dibden | Chief Information Officer (also Lifeco EVP & CIO) | H | a,b
+L3 | Tegan Rosenbaum | SVP, Data, AI, Automation & Platforms | L | g | ~
+L2 | Colleen Myers | Chief Legal Officer | H | a
+L2 | Colleen Bailey Moffitt | Chief Human Resources Officer | H | a
+L2 | David Simmonds | Chief Marketing & Communications Officer | H | a
+L2 | John Melvin | EVP & Chief Investment Officer, Great-West Lifeco (group function; manages Canada Life's general account) | H | b | ~
+L3 | Gaurav Mittal | SVP & Head of Global Private Debt | M | d | ~
+L3 | Glenn Way | President, GWL Realty Advisors | M | e | ~
+note: Canada Life's own page lists Fabrice Morin and eleven leaders; investments are not on it because the general account is run by Great-West Lifeco's CIO John Melvin, shown here with a dashed line (group reporting, not stated). Canada Life's divisional teams below the eleven are not published on canadalife.com; trade-press searches for 2025-26 SVP appointments in the Canadian business found none.

@@ -1,0 +1,22 @@
+id: assumption_life
+name: Assumption Life
+anchor: President & CEO of Assumption Mutual Life Insurance Company
+src: a | Assumption Life, Our Team page (management team and leadership team) | https://www.assomption.ca/en/individuals/about-us/our-team
+src: b | Assumption Life, Our subsidiaries page (Louisbourg Investments) | https://www.assomption.ca/en/individuals/about-us/our-subsidiaries
+src: c | Louisbourg Investments team page: Luc Gaudet, President & CEO | https://www.louisbourg.com/fr-ca/team/lucgaudet/
+L1 | Sébastien Dupuis | President & Chief Executive Officer | H | a
+L2 | Michel Allain | VP, CFO & Chief Actuary (finance, ERM, actuarial, investment strategy) | H | a
+L3 | Marie-Pier Martin | Director, Finance & Business Intelligence | H | a | ~
+L3 | Lyne Francoeur | Appointed Actuary | H | a | ~
+L2 | Luc Bossé | VP, Sales & Marketing | H | a
+L3 | Youssef Lahlou | National AVP, Individual Insurance & Investments | H | a | ~
+L3 | Marc-André Blondeau | AVP, Sales, Group Insurance | H | a | ~
+L2 | Marie-Claude Thibodeau | VP, Offer Management & Client Experience | H | a
+L3 | Yves Thériault | AVP, Client Experience & Business Performance, Investments & Retirement | H | a | ~
+L2 | Michel Simard | VP, Group Insurance | H | a
+L2 | Tony McLaughlin | VP, Chief Information & Technology Officer | H | a
+L2 | Isabelle Bourgeois | Chief Risk Officer & Chief of Internal Audit | H | a | ~
+L2 | Thomas Raffy | AVP, Public Affairs & Philanthropy | H | a | ~
+L2 | Alexis Couture | Director, Legal Services & Compliance | H | a | ~
+L2 | Luc Gaudet | President & CEO, Louisbourg Investments (subsidiary) | M | b,c | ~
+note: The Our Team page shows a management team (CEO and five VPs) and a wider leadership team without reporting lines. Leadership-team members are placed under the VP whose remit matches their title (dashed); control-function and corporate-affairs heads are shown at level 2 with dashed lines. Louisbourg Investments is the wholly owned investment subsidiary listed on the subsidiaries page.

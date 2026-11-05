@@ -1,0 +1,24 @@
+id: uv_insurance
+name: UV Insurance
+anchor: President & CEO of UV Assurance (mutual)
+src: a | UV Assurance, Équipe de direction page | https://www.uvassurance.ca/decouvrir-uv/equipe-de-direction
+src: b | UV release: Charles Guay named President & CEO from 2026-09-14 | https://www.uvassurance.ca/salle-de-presse/charles-guay-nomme-president-directeur-general-de-uv-assurance
+src: c | UV release: Kim Oliphant named National VP, Business Development & Marketing | https://www.uvassurance.ca/salle-de-presse/kim-oliphant-nommee-vice-presidente-nationale-developpement-des-affaires-et-marketing-chez-uv-assurance
+src: d | UV management team page (English), Corporate Actuary reporting line | https://www.uvassurance.ca/en/discover-uv/management-team
+L1 | Charles Guay | President & Chief Executive Officer (from 2026-09-14) | H | a,b
+L2 | Pierre Parenteau | SVP, Actuarial & Finance; Appointed Actuary | H | a
+L3 | Hugo Boutin-Ouellet | VP, Corporate Actuarial | H | a,d
+L3 | Richard Dionne | Senior Director, Finance | H | a | ~
+L3 | Eric Timmons | Chief, Risk Management | H | a | ~
+L2 | Geneviève Bourgeois | SVP, Insurance Operations | H | a
+L3 | Eveline Keable | VP, Individual Insurance Operations | H | a | ~
+L3 | François Cloutier | VP, Products | H | a | ~
+L2 | Jean-Mathieu Sigouin | SVP, Strategy & Innovation | H | a
+L3 | Jean-René Vaillant | Senior Director, Strategy & Innovation | H | a | ~
+L2 | Guillaume Fauteux | EVP, Business Development & Marketing | H | a
+L3 | Kim Oliphant | National VP, Business Development & Marketing | H | c | ~
+L2 | Anouchka Boyer | VP, Information Technology | H | a | ~
+L2 | Maryse Galarneau | VP, Human Resources | H | a | ~
+L2 | Marilyn Baril | VP, Public Affairs & ESG Practices | H | a | ~
+L2 | Joëlle Girouard | Chief Compliance Officer | H | a | ~
+note: UV's management-team page is a flat list. The three senior VPs and the EVP are taken as the CEO's direct reports; the other names are placed by remit (dashed). Christian Mercier left as CEO on 2026-09-14.

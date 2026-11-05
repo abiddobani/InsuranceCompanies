@@ -1,0 +1,43 @@
+id: manulife
+name: Manulife Financial
+anchor: Group CEO of the listed parent, Manulife Financial Corporation
+src: a | Manulife 2026 Management Information Circular / 6-K: Executive Leadership Team as of 2026-03-01 | https://www.sec.gov/Archives/edgar/data/1086888/000119312526127627/d45448dex993.htm
+src: b | Manulife release (2026-05-21): Executive Leadership Team changes, effective 2026-07-01 | https://www.manulife.com/ph/about-us/news/manulife-announces-executive-leadership-team-changes
+src: c | Manulife release (2026-09-10): Sarah Chapman named Global Chief Marketing & CX Officer from 2027-01-01, reporting to the CEO | https://www.insurancebusinessmag.com/ca/news/breaking-news/manulife-names-sarah-chapman-global-chief-marketing-and-customer-experience-officer-589558.aspx
+src: d | Manulife release (2025-08-21): Mike Coyne General Counsel from 2025-09-01 | https://www.newswire.ca/news-releases/manulife-appoints-mike-coyne-general-counsel-879276215.html
+src: e | Reinsurance Asia (2025-11): Bonnie Qiu CEO Global High Net Worth and Rishi Srivastava join Asia leadership team, both reporting to Steve Finch | https://reinasia.com/manulife-names-hk-based-bonnie-qiu-ceo-of-global-high-net-worth-adds-rishi-srivastava-to-asia-leadership-team/
+src: f | Manulife release (2026-05-21): Wilton Kee CEO, Manulife Hong Kong & Macau from 2026-07-01 | https://www.aap.com.au/aapreleases/cision20260521ae66073/
+src: g | Insurance Business Asia (2026-10): Andy Bruce promoted CIO, Manulife Asia from 2026-10-01 | https://www.insurancebusinessmag.com/asia/news/life-insurance/insurance-moves-manulife-prudential-593011.aspx
+src: h | John Hancock release (2026-05-04): Robert Carney head of insurance sales and distribution | https://finviz.com/news/350204/john-hancock-adds-to-us-sales-and-distribution-leadership-with-key-appointments-expands-executive-benefits-business
+src: i | Manulife bio + 2023 appointment coverage: Colin Purdie, Global CIO Public Markets, reports to Paul Lorentz | https://www.manulife.com/ca/en/personal/bio/colin-purdie
+src: j | Manulife release (2024-02-06): Anne Valentine Andrews Global Head of Private Markets, reports to Paul Lorentz | https://www.manulife.com/en/news/manulife-investment-management-names-anne-valentine-andrews-as-global-head-of-private-markets.html
+src: k | Wealth Professional (2026-08): Brett Marchand, President & CEO Manulife Wealth; Lior Valitsky COO reports to him | https://www.wealthprofessional.ca/news/industry-news/manulife-wealth-names-lior-valitsky-coo-amid-leadership-shake-up-and-record-q2-results/393220
+src: l | Manulife WAM release: Fabio Fontainha Head of Wealth & Asset Management, Asia | https://www.manulifeim.com.hk/en/about-us/press-releases/manulife-wealth-and-asset-management-appoints-fabio-fontainha-head-of-asia.html
+src: m | John Hancock release (2024): Hector Martinez Head of Insurance | https://prnewswire.com/news-releases/john-hancock-names-industry-veteran-hector-martinez-head-of-insurance-302188380.html
+src: n | Manulife Annual Information Form (Feb 2026): Trevor Kreel, CIO, oversees all general account investments | https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/aiffebruary2026.htm
+L1 | Phil Witherington | President & Chief Executive Officer | H | a
+L2 | Colin Simpson | Chief Financial Officer | H | a
+L2 | Halina von dem Hagen | Chief Risk Officer | H | a
+L2 | Trevor Kreel | Chief Investment Officer | H | a,n
+L2 | Stephanie Fadous | Chief Actuary (adds Inforce Management & Reinsurance) | H | a,b
+L2 | Mike Coyne | General Counsel | H | a,d
+L2 | Pragashini Fox | Chief People Officer | H | a
+L2 | Rahim Hirji | Chief Auditor & Head of Advisory Services | H | a
+L2 | Shamus Weiland | Chief Technology & Operations Officer | H | a,b
+L2 | Jodie Wallis | Chief AI Officer | H | b
+L2 | Karen Leggett | Global Chief Marketing Officer (retiring end-2026; Sarah Chapman from 2027-01-01) | H | a,b,c
+L2 | Patrick Graham | President & CEO, Manulife Canada | H | b
+L2 | Steve Finch | President & CEO, Manulife Asia | H | a
+L3 | Bonnie Qiu | CEO, Global High Net Worth | M | e
+L3 | Rishi Srivastava | Asia leadership team (formerly Chief Agency Officer, Asia) | M | e
+L3 | Wilton Kee | CEO, Manulife Hong Kong & Macau | H | f | ~
+L3 | Andy Bruce | Chief Information Officer, Manulife Asia | M | g | ~
+L2 | Brooks Tingle | President & CEO, John Hancock | H | a
+L3 | Robert Carney | Head of Insurance Sales & Distribution, John Hancock | H | h | ~
+L3 | Hector Martinez | Head of Insurance, John Hancock | M | m | ~
+L2 | Paul Lorentz | President & CEO, Global Wealth & Asset Management | H | a
+L3 | Colin Purdie | Global Chief Investment Officer, Public Markets | H | i
+L3 | Anne Valentine Andrews | Global Head of Private Markets | H | j
+L3 | Brett Marchand | President & CEO, Manulife Wealth | L | k | ~
+L3 | Fabio Fontainha | Head of Wealth & Asset Management, Asia | L | l | ~
+note: Executive Leadership Team = 2026 circular list (as of 2026-03-01) updated for the 2026-05-21 changes: Naveed Irshad (Manulife Canada) left and Rahul Joshi (COO) retired; Patrick Graham and Jodie Wallis joined from 2026-07-01. manulife.com, manulife.ca and manulifeim.com return HTTP 403 to automated fetches, so the company's own leadership page could not be read; the circular and Manulife's releases stand in for it. No one reporting to CIO Trevor Kreel is named publicly; the GA's public and private markets teams sit in Global WAM under Paul Lorentz.

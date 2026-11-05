@@ -1,0 +1,14 @@
+id: bmo_life
+name: BMO Life Assurance (BMO Insurance)
+anchor: President & CEO of BMO Insurance (reports to the Group Head, BMO Wealth Management)
+src: a | BMO Insurance, About us (Senior leadership team), read through search snippets because bmo.com blocks automated fetches | https://www.bmo.com/en-ca/insurance/about-us/
+src: b | Advisor.ca (2023-03): Rohit Thomas returns as President & CEO, BMO Insurance, reporting to Deland Kamanga | https://www.advisor.ca/news/industry-news/bmo-insurance-welcomes-back-rohit-thomas/
+src: c | BMO job posting (2026): Chief Financial Officer, BMO Insurance (incumbent not named) | https://builtintoronto.com/job/chief-financial-officer-bmo-insurance/8644836
+L1 | Rohit Thomas | President & Chief Executive Officer, BMO Insurance | H | a,b
+L2 | Gillian Noble | VP & Chief Operating Officer | H | a
+L2 | Tim Cavallin | Chief Actuary | H | a
+L2 | Michael Logan | Chief Investment Officer | H | a
+L2 | Neil Blue | Head of Legal & Chief Compliance Officer | H | a
+L2 | Tracey Klodt | VP, Retail Insurance | H | a
+L2 | Not publicly named | Chief Financial Officer (role advertised in 2026) | - | c
+note: bmo.com returns errors to automated fetches; the senior leadership list was read from search-engine snippets of the BMO Insurance About us page. The same page also shows Nicole Kennedy (SVP & Head, Advisory Business) and Geoff Langdon (Head, Private Wealth Canada & CIO, Wealth Management), who are BMO Wealth leaders and are left off. Abid has confirmed Michael Logan is the former RBC Life investments head.

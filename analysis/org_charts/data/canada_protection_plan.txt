@@ -1,0 +1,15 @@
+id: canada_protection_plan
+name: Canada Protection Plan
+anchor: Foresters Financial's President & CEO; CPP (acquired by Foresters in 2020) publishes no leadership of its own and its policies are underwritten by Foresters Life
+src: a | Foresters Financial, Senior leadership page (executive team) | https://www.foresters.com/en/about/senior-leadership
+src: b | cpp.ca About us: 'In 2020, Foresters Financial acquired Canada Protection Plan' (no executives named) | https://www.cpp.ca/about-us/
+src: c | Foresters release: Matt Berman named President, Foresters Financial US & Canada, overseeing CPP (2023-03-01) | https://www.foresters.com/en/about-us/newsroom/news-releases/matt-berman-named-president
+L1 | Matt Berman | President & CEO, Foresters Financial (oversees CPP) | H | a,c
+L2 | Alvin Sharma | Global Chief Financial Officer (Investments & ALM) | H | a
+L2 | Caroline Rendall | Chief Risk Officer | H | a
+L2 | Andrea Frossard | Chief Commercial Officer | H | a
+L2 | Mehul Kapadia | Global Chief Information & Operations Officer | H | a
+L2 | René Zanin | Global Chief Legal, Administrative & Membership Officer | H | a
+L2 | Nici Audhlam-Gardiner | CEO, United Kingdom | H | a
+L2 | Patricia Colavita | SVP & Chief Internal Auditor | H | a
+note: cpp.ca names no executives. Earlier CPP co-presidents (Henry Auyeung, retired Aug 2023; Michael Aziz, co-president & Chief Distribution Officer from 2019) are not confirmed in any current source, so they are left off. The chart is the Foresters leadership that runs CPP.

@@ -1,0 +1,17 @@
+id: foresters_life
+name: Foresters Life Insurance Company
+anchor: President & CEO of Foresters Financial (The Independent Order of Foresters); the global executive team runs Foresters Life (FLIC)
+src: a | Foresters Financial, Senior leadership page (executive team) | https://www.foresters.com/en/about/senior-leadership
+src: b | Foresters bio: Alvin Sharma, Global CFO (owns Investment and ALM functions) | https://www.foresters.com/en-ca/about-us/senior-leadership/executive-team/alvin-sharma
+src: c | Foresters FLIC appointed-actuary / financial filing naming Terence Chan, VP Finance | https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf
+src: d | Foresters release: Matt Berman named President & CEO (Jan 2024) | https://www.foresters.com/en/about/newsroom/news-releases/appoints-matt-berman-as--chief-executive-officer
+L1 | Matt Berman | President & Chief Executive Officer | H | a,d
+L2 | Alvin Sharma | Global Chief Financial Officer (Investments & ALM) | H | a,b
+L3 | Terence Chan | VP, Finance | M | c | ~
+L2 | Caroline Rendall | Chief Risk Officer | H | a
+L2 | Andrea Frossard | Chief Commercial Officer | H | a
+L2 | Mehul Kapadia | Global Chief Information & Operations Officer | H | a
+L2 | René Zanin | Global Chief Legal, Administrative & Membership Officer | H | a
+L2 | Nici Audhlam-Gardiner | CEO, United Kingdom | H | a
+L2 | Patricia Colavita | SVP & Chief Internal Auditor | H | a
+note: Foresters Life Insurance Company has no separate CEO or executive team; the global Foresters Financial team signs and runs it. The general account is managed by external managers under the Global CFO since Foresters sold its asset-management arms in 2019; no CIO title exists. No Canada-specific leaders below the executive team are named on foresters.com.

@@ -1,0 +1,21 @@
+id: cooperators_life
+name: Co-operators Life Insurance Company
+anchor: Group CEO of The Co-operators Group Limited (Co-operators Life has no separate CEO; its COO is Alec Blundell)
+src: a | The Co-operators, Our executive team page | https://www.cooperators.ca/en/about-us/corporate-overview/our-executive-team
+src: b | Addenda Capital, Our Leadership (Executive Committee) | https://addendacapital.com/en/who-we-are/our-leadership
+L1 | Rob Wesseling | President & CEO, The Co-operators Group Limited | H | a
+L2 | Alec Blundell | EVP & COO, Co-operators Life Insurance Company and CUMIS | H | a
+L2 | Karen Higgins | EVP, Finance & Chief Financial Officer | H | a
+L2 | Roger Beauchemin | President & CEO, Addenda Capital (manages the general account) | H | a,b
+L3 | Ian A. McKinnon | Chief Investment Officer, Addenda Capital | H | b
+L3 | Adam Kot | EVP, Commercial Mortgages, Addenda Capital | H | b
+L3 | Charles Leblanc | Chief Operating Officer, Addenda Capital | H | b
+L3 | Janick Boudreau | EVP, Business Development & Client Partnerships, Addenda | H | b
+L3 | Isabelle Gosselin | EVP, Talent Management, Addenda Capital | H | b
+L2 | Jessica Baker | EVP & Chief Retail Sales Officer (Advisor, Contact Centre, Retail Wealth) | H | a
+L2 | Craig Bran | EVP & Chief Information Officer | H | a
+L2 | Emmie Fukuchi | EVP & Chief Experience Officer | H | a
+L2 | Lisa Guglietti | EVP & COO, P&C Insurance Solutions | H | a
+L2 | Laura Mably | EVP & Chief Human Resources Officer | H | a
+L2 | Colette Taylor | EVP & COO, Sovereign Insurance | H | a
+note: The executive team page is group-wide; Co-operators Life is run by Alec Blundell as EVP & COO. No CRO is listed on the page. Addenda Capital's Executive Committee is shown as Roger Beauchemin's direct reports (it is the committee he chairs as CEO). The teams under the Co-operators Life COO and the CFO are not published.

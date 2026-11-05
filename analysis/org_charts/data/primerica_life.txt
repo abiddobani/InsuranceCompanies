@@ -1,0 +1,12 @@
+id: primerica_life
+name: Primerica Life (Canada)
+anchor: CEO of Primerica Life Insurance Company of Canada (EVP of the NYSE-listed parent Primerica, Inc.; Group CEO Glenn J. Williams)
+src: a | Primerica, Inc. Leadership Teams page (investors.primerica.com) | https://investors.primerica.com/corporate-governance/management
+src: b | Primerica, Inc. FY2025 10-K, executive officers (ages as of 2026-02-27) | https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm
+src: c | Insurance Business Awards 2025 profile, Primerica Canada (Jamie Ugarte, SVP Business Solutions) | https://awards.insurancebusinessmag.com/ibca25-featureprofile-awardee-primerica-canada
+L1 | John A. Adams | CEO, Primerica Life Insurance Company of Canada (since 2003) | H | a,b
+L2 | Rosie Orlando | President, Primerica Life Insurance Company of Canada | H | a,c
+L2 | Jamie Ugarte | SVP, Business Solutions, Primerica Canada | M | c | ~
+L2 | Tracy Tan | EVP & CFO, Primerica, Inc. (group function; oversees investments) | H | a | ~
+L2 | Stacey K. Geer | EVP, Chief Governance & Risk Officer, Primerica, Inc. (group function) | H | a | ~
+note: Primerica's leadership page lists Rosie Orlando as President of the Canadian life company; the FY2025 10-K executive-officer list no longer includes her, so her current status should be checked. Investments are run at group level by a third-party adviser under a senior-management committee; group CFO and CRO are shown dashed as functional lines. No other Canadian executives are published.

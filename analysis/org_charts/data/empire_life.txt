@@ -1,0 +1,20 @@
+id: empire_life
+name: Empire Life
+anchor: President & CEO of The Empire Life Insurance Company (parent E-L Financial)
+src: a | Empire Life, Our Leadership page | https://www.empire.ca/about-us/our-leadership
+src: b | Empire Life Investments, Investment team page | https://www.empirelifeinvestments.ca/investment-team
+L1 | Mark Sylvia | President & Chief Executive Officer | H | a
+L2 | Rebecca Rycroft | SVP & Chief Financial Officer | H | a
+L2 | Paul Holba | SVP & Chief Investment Officer (President & CIO, Empire Life Investments) | H | a,b
+L3 | Geoff Johnston | Leads Fixed Income & Private Placements team | H | b | ~
+L3 | Albert Ngo | Senior PM & Head of Alternative Assets | H | b | ~
+L3 | Michael Schroeter | Private Placements (general fund private debt) | H | b | ~
+L3 | Ashley Misquitta | Senior PM & Investment Strategist (US & global equities) | H | b | ~
+L3 | Jennifer Law | Senior PM, Canadian Equities | H | b | ~
+L2 | Steve Pong | SVP & COO, Insurance & Investments | H | a
+L2 | Erik Kalin | SVP, Operations, Retail & Group Solutions | H | a
+L2 | Chris Volk | SVP & Chief Technology Officer | H | a
+L2 | Mark Rogers | SVP, Corporate Development | H | a
+L2 | Gillian Purvis | SVP & General Counsel (from 2026-02-01) | H | a
+L2 | Richard Carty | SVP, Human Resources (also VP & GC, E-L Financial) | H | a
+note: The leadership page lists eight SVPs and no Chief Risk Officer. The CIO's team is from the Empire Life Investments team page, which gives roles but not reporting lines, so all are dashed. Teams under the other SVPs are not published.
