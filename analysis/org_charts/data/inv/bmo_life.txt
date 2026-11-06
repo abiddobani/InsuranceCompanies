@@ -1,0 +1,16 @@
+id: bmo_life
+name: BMO Life Assurance (BMO Insurance)
+anchor: Chief Investment Officer, BMO Insurance
+src: a | BMO Insurance, About us (Senior leadership team), read through search snippets because bmo.com blocks automated fetches | https://www.bmo.com/en-ca/insurance/about-us/
+src: li1 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/hanlingzhou
+src: li2 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/lauren-wheeler-saunders-19372655
+src: li3 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/karen-medeiros-62b85b249
+src: li4 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/yiwen-zhu-34276834
+src: li5 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/annabold
+L1 | Michael Logan | Chief Investment Officer, since Jan 2025 (RBC Insurance until Jan 2025) | H | a
+L2 | Hanling Zhou | MD, Head of Portfolio Management, Global Investment Office, since Aug 2025 | M | li1 | ~
+L3 | Lauren Wheeler (Saunders) | Senior Portfolio Manager, since Jun 2025 | M | li2 | ~
+L3 | Karen Medeiros | Senior Manager, Investments, since May 2024 | M | li3 | ~
+L2 | Yiwen Zhu | Director, ALM Measurement & Analysis, since Jul 2023 | M | li4 | ~
+L2 | Anna Boldyreva | Senior Manager, Risk Management | L | li5 | ~
+note: Logan's LinkedIn profile confirms the CIO role from Jan 2025. Aleem Qureshi (MD, Head of Institutional Insurance) left for Sun Life in Jul 2026.

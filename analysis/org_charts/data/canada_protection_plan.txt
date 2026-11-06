@@ -4,8 +4,10 @@ anchor: Foresters Financial's President & CEO; CPP (acquired by Foresters in 202
 src: a | Foresters Financial, Senior leadership page (executive team) | https://www.foresters.com/en/about/senior-leadership
 src: b | cpp.ca About us: 'In 2020, Foresters Financial acquired Canada Protection Plan' (no executives named) | https://www.cpp.ca/about-us/
 src: c | Foresters release: Matt Berman named President, Foresters Financial US & Canada, overseeing CPP (2023-03-01) | https://www.foresters.com/en/about-us/newsroom/news-releases/matt-berman-named-president
+src: li1 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/clark-wagner-30201a92
 L1 | Matt Berman | President & CEO, Foresters Financial (oversees CPP) | H | a,c
 L2 | Alvin Sharma | Global Chief Financial Officer (Investments & ALM) | H | a
+L3 | Clark Wagner | Chief Investment Officer, Foresters | M | li1 | ~
 L2 | Caroline Rendall | Chief Risk Officer | H | a
 L2 | Andrea Frossard | Chief Commercial Officer | H | a
 L2 | Mehul Kapadia | Global Chief Information & Operations Officer | H | a

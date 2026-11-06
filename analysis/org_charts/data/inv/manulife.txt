@@ -1,0 +1,46 @@
+id: manulife
+name: Manulife
+anchor: Chief Investment Officer, Manulife (all US, Canadian and Asian general account)
+src: a | Manulife 2026 Management Information Circular / 6-K: Executive Leadership Team as of 2026-03-01 | https://www.sec.gov/Archives/edgar/data/1086888/000119312526127627/d45448dex993.htm
+src: i | Manulife bio + 2023 appointment coverage: Colin Purdie, Global CIO Public Markets, reports to Paul Lorentz | https://www.manulife.com/ca/en/personal/bio/colin-purdie
+src: j | Manulife release (2024-02-06): Anne Valentine Andrews Global Head of Private Markets, reports to Paul Lorentz | https://www.manulife.com/en/news/manulife-investment-management-names-anne-valentine-andrews-as-global-head-of-private-markets.html
+src: n | Manulife Annual Information Form (Feb 2026): Trevor Kreel, CIO, oversees all general account investments | https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/aiffebruary2026.htm
+src: li1 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/ian-roke-430a4836
+src: li2 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/tam-nhan-602b3875
+src: li3 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/dalalammar
+src: li4 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/leonid-kelner-fsa-fcia-04a84015
+src: li5 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/blake-witherington-cfa-a313129
+src: li6 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/patrick-richardson-58118654
+src: li7 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/ian-macneil-634a7425
+src: li8 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/matthew-waisnor-36bba7b
+src: li9 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/nigelpgonsalves
+src: li10 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/isha-aggarwal-a1b5355
+src: li11 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/cherryscott
+src: li12 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/jay-pratt-a8479312
+src: li13 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/bruce-anderson-0351872b
+src: li14 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/tony-m-ba4b671a4
+src: li15 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/mhenselwood
+src: li16 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/silvanamansard
+src: li17 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/jennifer-r-schillaci-cfa-31311524
+L1 | Trevor Kreel | Chief Investment Officer, since Aug 2024 | H | a,n
+L2 | Ian Roke | Global Head of Asset Liability Management (Boston), since Jul 2022 | M | li1 | ~
+L3 | Tam Nhan | Director, Models & Analytics, Global ALM, since Jan 2023 | M | li2 | ~
+L3 | Ammar Dalal | Director, Investment Strategy, Global ALM | L | li3 | ~
+L3 | Leonid Kelner | AVP & Actuary, ALM (Montreal) | L | li4 | ~
+L2 | Blake Witherington | Chief Credit Officer, since Sep 2023 | M | li5 | ~
+L3 | Patrick Richardson | MD, Head of Canadian Credit, since Mar 2019 | M | li6 | ~
+L3 | Ian MacNeil | Global Head of Workouts & Recovery | L | li7 | ~
+L2 | Matthew Waisnor | MD, Global Portfolio Manager, general account real estate, since Sep 2025 | M | li8 | ~
+L2 | Nigel Gonsalves | AVP, Head of Global Equity & ALDA Risk Oversight (general account) | L | li9 | ~
+L2 | Colin Purdie | Global CIO, Public Markets, Manulife IM (reports to Paul Lorentz; runs public GA assets) | H | i | ~
+L3 | Isha Aggarwal | VP & Senior MD, Public Sector, Global Corporate Finance (public fixed income and private placements) | M | li10 | ~
+L3 | Scott Cherry | Senior Director, Sovereigns & Supranationals | L | li11 | ~
+L2 | Anne Valentine Andrews | Global Head of Private Markets, Manulife IM (reports to Paul Lorentz) | H | j | ~
+L3 | Jay Pratt | Global CCO & SMD, Private Markets and general account investments | L | li12 | ~
+L3 | Bruce Anderson | MD, Power & Infrastructure Debt | L | li13 | ~
+L3 | Tony M. | AVP & MD, Real Estate Finance (commercial mortgages, Toronto) | L | li14 | ~
+L3 | Meghan Henselwood | MD, Transactions, Canadian CRE (general account and third party) | L | li15 | ~
+L3 | Silvana Mansard | MD, Head of Portfolio Strategy & Leasing, Real Estate | L | li16 | ~
+L3 | Jennifer R. Schillaci | MD & Head of Real Estate Equity Investments | L | li17 | ~
+L2 | Not publicly named | Head of Canada general account / Global Head of Portfolio Management (Kreel's former role) | - | 
+note: Purdie and Andrews report to Paul Lorentz (Global WAM) and manage general-account assets as a service; they are dashed here as functional lines to the CIO. No Canada general-account head or successor to Kreel's former Global Head of Portfolio Management role was found.

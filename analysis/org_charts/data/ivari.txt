@@ -5,8 +5,10 @@ src: a | Sagicor Financial 2025 Annual Report (Andre Mousseau bio: acts as CEO o
 src: b | ivari 2025 financial statements (signed by CEO and CFO) | https://ivari.ca/files/CS124.pdf
 src: c | TheOrg: Scott Gorman, EVP & COO, ivari and Sagicor Life Insurance Corporation USA | https://theorg.com/org/ivari/org-chart/scott-gorman
 src: d | Sagicor release: Lynda Gauthier appointed Group CRO & Chief Sustainability Officer | https://newswire.ca/news-releases/sagicor-financial-company-ltd-announces-appointment-of-group-chief-risk-officer-and-chief-sustainability-officer-893063320.html
+src: li1 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/andrew-d-bloom
 L1 | Andre G. Mousseau | Chief Executive Officer, ivari (President & CEO, Sagicor Financial) | H | a,b
 L2 | Kathryn Jenkins | Chief Financial Officer, ivari (Group CFO, Sagicor) | H | a,b
+L3 | Andrew Bloom | SVP, Investments (since Aug 2026) | M | li1 | ~
 L2 | Scott Gorman | EVP & COO, ivari and Sagicor Life USA | L | c | ~
 L2 | Lynda Gauthier | Group Chief Risk Officer & Chief Sustainability Officer, Sagicor | H | a,d | ~
 L2 | Nari Persad | Group Chief Actuary, Sagicor | H | a | ~

@@ -8,6 +8,7 @@ src: d | Informa Connect (2026): Gaurav Mittal, SVP & Head of Global Private Deb
 src: e | Newswire: Glenn Way appointed President, GWL Realty Advisors | https://www.newswire.ca/news-releases/gwl-realty-advisors-appoints-glenn-way-as-president-
 src: f | CPA Canada event bio: George Turpie, SVP, Group Retirement Savings & Investments (undated) | https://www.cpacanada.ca/career-and-professional-development/event-biographies/george-turpie
 src: g | TheOrg: Tegan Rosenbaum, SVP Data, AI, Automation & Platforms (since 2025-04) | https://theorg.com/org/canadalife/org-chart/tegan-rosenbaum
+src: li1 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/robert-barnes-cfa-076180147
 L1 | Fabrice Morin | President & Chief Executive Officer (Canada) | H | a,b,c
 L2 | Mei Dong | Chief Financial Officer | H | a
 L2 | Nancy Hudson | Chief Risk Officer | H | a
@@ -25,4 +26,5 @@ L2 | David Simmonds | Chief Marketing & Communications Officer | H | a
 L2 | John Melvin | EVP & Chief Investment Officer, Great-West Lifeco (group function; manages Canada Life's general account) | H | b | ~
 L3 | Gaurav Mittal | SVP & Head of Global Private Debt | M | d | ~
 L3 | Glenn Way | President, GWL Realty Advisors | M | e | ~
+L3 | Robert Barnes | SVP & Chief Investment Officer, Canada Life (since Apr 2025) | M | li1 | ~
 note: Canada Life's own page lists Fabrice Morin and eleven leaders; investments are not on it because the general account is run by Great-West Lifeco's CIO John Melvin, shown here with a dashed line (group reporting, not stated). Canada Life's divisional teams below the eleven are not published on canadalife.com; trade-press searches for 2025-26 SVP appointments in the Canadian business found none.

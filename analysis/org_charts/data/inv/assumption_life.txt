@@ -1,0 +1,9 @@
+id: assumption_life
+name: Assumption Life
+anchor: VP, CFO & Chief Actuary, Assumption Life (remit includes investment strategy)
+src: a | Assumption Life, Our Team page (management team and leadership team) | https://www.assomption.ca/en/individuals/about-us/our-team
+src: b | Assumption Life, Our subsidiaries page (Louisbourg Investments) | https://www.assomption.ca/en/individuals/about-us/our-subsidiaries
+src: c | Louisbourg Investments team page: Luc Gaudet, President & CEO | https://www.louisbourg.com/fr-ca/team/lucgaudet/
+L1 | Michel Allain | VP, CFO & Chief Actuary (finance, ERM, actuarial, investment strategy) | H | a
+L2 | Luc Gaudet | President & CEO, Louisbourg Investments (wholly owned asset manager) | M | b,c | ~
+note: No investment staff visible on LinkedIn beyond Louisbourg's CEO.

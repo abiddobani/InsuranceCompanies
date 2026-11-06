@@ -1,0 +1,8 @@
+id: wawanesa_life
+name: Wawanesa Life
+anchor: VP, Investments, Wawanesa group (oversees external managers for the P&C and Life companies)
+src: d | ZoomInfo / RocketReach profiles: Wes Peters, VP Investments | https://www.zoominfo.com/p/Wesley-Peters/92019596
+src: li1 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/maja-hildebrand-cfa-b45ab554
+L1 | Wes Peters | VP, Investments | L | d
+L2 | Maja Hildebrand | Senior Investment Analyst, Wawanesa Insurance | L | li1 | ~
+note: No CIO or investment head visible on LinkedIn; Wes Peters comes from aggregator profiles only.

@@ -1,0 +1,6 @@
+id: primerica_life
+name: Primerica Life (Canada)
+anchor: Group CFO of Primerica, Inc. oversees investments (run by a third-party adviser)
+src: a | Primerica, Inc. Leadership Teams page (investors.primerica.com) | https://investors.primerica.com/corporate-governance/management
+L1 | Tracy Tan | EVP & CFO, Primerica, Inc. (group function; oversees investments) | H | a
+note: No Canadian investment team found on LinkedIn.

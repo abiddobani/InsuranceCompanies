@@ -3,9 +3,11 @@ name: Beneva (SSQ + La Capitale)
 anchor: President & CEO of Beneva (mutual)
 src: a | Beneva, Team page (management team) | https://www.beneva.ca/en/team
 src: b | Beneva 2025 Annual Report (governance, risk management) | https://www.beneva.ca/en/media/20911/download
+src: li1 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/hugo-drouin
 L1 | Jean-François Chalifoux | President & Chief Executive Officer | H | a
 L2 | Mélissa Gilbert | EVP & Leader, Finance | H | a
 L3 | Michel Fournier | VP, Risk Management | M | b | ~
+L3 | Hugo Drouin | VP & Chief Investment Officer | M | li1 | ~
 L2 | Pierre Marc Bellavance | EVP & Leader, Legal & Corporate Services | H | a
 L2 | Lara Nourcy | EVP & Leader, Individual Insurance & Financial Services | H | a
 L2 | Éric Trudel | EVP & Leader, Group Insurance | H | a
@@ -14,4 +16,4 @@ L2 | Andy Taylor | EVP & Leader, P&C Insurance, Ontario & West | H | a
 L2 | Stéphane Morency | EVP & Leader, Strategy, Customer Experience & Marketing | H | a
 L2 | Sylvain Nolet | EVP & Leader, Value Creation | H | a
 L2 | Martin Robert | EVP & Leader, Talent, Culture & Communication | H | a
-note: beneva.ca blocks automated fetches (HTTP 403); the management team was read through a rendering fetch. Beneva names no Chief Investment Officer; the VP Risk Management appears in the 2025 Annual Report and is placed under Finance by inference.
+note: beneva.ca blocks automated fetches (HTTP 403); the management team was read through a rendering fetch. Beneva names no Chief Investment Officer on its site (LinkedIn shows Hugo Drouin, VP & CIO since Jul 2020); the VP Risk Management appears in the 2025 Annual Report and is placed under Finance by inference.

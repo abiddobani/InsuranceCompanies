@@ -1,0 +1,8 @@
+id: ivari
+name: ivari
+anchor: SVP, Investments, ivari (Sagicor group)
+src: li1 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/andrew-d-bloom
+src: li2 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/malikpuneet
+L1 | Andrew Bloom | SVP, Investments, since Aug 2026 | M | li1
+L2 | Puneet Malik | AVP, Investments & ALM, since 2020 | M | li2 | ~
+note: ivari publishes no team; both names are from LinkedIn.

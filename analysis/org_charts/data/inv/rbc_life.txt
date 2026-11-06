@@ -1,0 +1,25 @@
+id: rbc_life
+name: RBC Life Insurance (RBC Insurance)
+anchor: SVP & Chief Investment Officer, RBC Insurance
+src: c | RBC Insurance advisor site: Abid Dobani, SVP & Chief Investment Officer | https://advisor.rbcinsurance.com/en/videos/abid-dobani-insurance-matters/
+src: li1 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/andreclewis
+src: li2 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/mmahadevan
+src: li3 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/song-shi-20556499
+src: li4 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/mehvish-shahid-913035239
+src: li5 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/jeff-collins-2270a23
+src: li6 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/imchaudhry
+src: li7 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/david-chai-cfa
+src: li8 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/robert-izsak-86574b19
+src: li9 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/jesse-waugh
+L1 | Abid Dobani | SVP & Chief Investment Officer | H | c
+L2 | Andre C. Lewis | Senior Director & Head, Total Fund Management (Office of the CIO), since Aug 2025 | M | li1 | ~
+L3 | Mayooran Mahadevan | Director, PM, Global Credit & Rates (USD 25B long-only mandate), since Jan 2026 | M | li2 | ~
+L3 | Song Shi | Director, Investment, since Nov 2025 | M | li3 | ~
+L3 | Mehvish Shahid | Lead Portfolio Manager, since Sep 2025 | L | li4 | ~
+L3 | Jeff Collins | Senior Portfolio Manager | L | li5 | ~
+L2 | Imran Chaudhry | Senior Director & Head, Trading, since Feb 2026 | M | li6 | ~
+L3 | David Chai | Director, Investments (derivatives, collateral, liquidity), since Mar 2026 | M | li7 | ~
+L2 | Robert Izsak | Head, Mortgages & Commercial Real Estate, since Sep 2022 | M | li8 | ~
+L2 | Not publicly named | Head of ALM (vacant on LinkedIn since Hanling Zhou left, Jul 2025) | - | 
+L2 | Jesse Waugh | Senior Manager, Investment Risk Oversight (front office), since Nov 2025 | L | li9 | ~
+note: Direct reports and teams are inferred from LinkedIn titles; Abid can correct the lines. Andrew Smith (Director, Private Placements) retired Jan 2023 and no successor is visible on LinkedIn.

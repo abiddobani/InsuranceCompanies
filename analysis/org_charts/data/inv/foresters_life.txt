@@ -1,0 +1,6 @@
+id: foresters_life
+name: Foresters Life Insurance Company
+anchor: Chief Investment Officer, Foresters Financial (also covers Canada Protection Plan)
+src: li1 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/clark-wagner-30201a92
+L1 | Clark Wagner | Chief Investment Officer, since Apr 2023 (also CIO Feb 2016 to Jun 2022) | M | li1
+note: foresters.com lists no CIO; Wagner's LinkedIn profile confirms the title. He likely reports to Alvin Sharma (Global CFO, Investments & ALM). No team below him is visible.

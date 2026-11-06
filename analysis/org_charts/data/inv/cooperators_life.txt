@@ -1,0 +1,9 @@
+id: cooperators_life
+name: Co-operators Life Insurance Company
+anchor: CIO, Addenda Capital (Co-operators' asset manager, which runs the general account)
+src: b | Addenda Capital, Our Leadership (Executive Committee) | https://addendacapital.com/en/who-we-are/our-leadership
+src: li1 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/diane-young-cfa-66a55415
+L1 | Ian A. McKinnon | Chief Investment Officer, Addenda Capital | H | b
+L2 | Adam Kot | EVP, Commercial Mortgages, Addenda Capital | H | b | ~
+L2 | Diane Young | VP, Portfolio Management & Strategy, Addenda Capital, since Sep 2026 | L | li1 | ~
+note: Roger Beauchemin (President & CEO, Addenda) sits above the CIO.

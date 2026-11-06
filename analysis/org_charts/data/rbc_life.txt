@@ -6,12 +6,17 @@ src: b | The Logic (2026-05-27): RBC Insurance head departure and shake-up | htt
 src: c | RBC Insurance advisor site: Abid Dobani, SVP & Chief Investment Officer | https://advisor.rbcinsurance.com/en/videos/abid-dobani-insurance-matters/
 src: j | RBC job postings (2025-26) describing CIO-office teams; incumbents not named | https://www.jobs.ca/job/2dbed84d-ba9c-4dce-b543-9206a669ff9e
 src: d | RBC Insurance, Spokespeople page | https://www.rbcinsurance.com/en-ca/about/spokespeople/
+src: li1 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/andreclewis
+src: li2 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/imchaudhry
+src: li3 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/robert-izsak-86574b19
 L1 | Maria Winslow | Interim Chief Executive Officer, RBC Insurance | M | a,b
 L2 | Abid Dobani | SVP & Chief Investment Officer | H | c
-L3 | Not publicly named | CIO direct reports (Total Fund Management; Cash, Collateral & FX; External Managers & Alternatives) | - | j
+L3 | Andre C. Lewis | Head, Total Fund Management | M | li1 | ~
+L3 | Imran Chaudhry | Head, Trading | M | li2 | ~
+L3 | Robert Izsak | Head, Mortgages & CRE | M | li3 | ~
 L2 | Not publicly named | Chief Financial Officer, RBC Insurance | - | 
 L2 | Not publicly named | Chief Risk Officer, RBC Insurance | - | 
 L2 | Carol Lebert | VP, Claims | H | d | ~
 L2 | Tony Bruin | Head, Group Benefits | H | d | ~
 L2 | Matthew King | Vice President | H | d | ~
-note: RBC does not publish an RBC Insurance executive team. Maria Winslow's interim appointment comes from news reports, not an RBC release, so it is Medium. The spokespeople page gives titles but no reporting lines (dashed). Abid's own direct reports are not public; send the names and they can be filled in.
+note: RBC does not publish an RBC Insurance executive team. Maria Winslow's interim appointment comes from news reports, not an RBC release, so it is Medium. The spokespeople page gives titles but no reporting lines (dashed). Abid's direct reports come from LinkedIn titles (lines inferred); the investment-team slide has more detail.

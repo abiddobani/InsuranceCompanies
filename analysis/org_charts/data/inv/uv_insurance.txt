@@ -1,0 +1,5 @@
+id: uv_insurance
+name: UV Insurance
+anchor: Investment lead not published (UV's management team lists no investment role)
+L1 | Not publicly named | Head of Investments | - | 
+note: No investment staff visible on UV's site or LinkedIn (only sales and finance hits).

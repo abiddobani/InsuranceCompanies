@@ -1,0 +1,17 @@
+id: equitable_life
+name: Equitable Life of Canada
+anchor: EVP & Chief Investment Officer, Equitable (Head of Asset Management)
+src: a | Equitable 2025 Annual Report, Senior Management (p.56) | https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf
+src: b | Equitable release (2025-09): Eugene Lundrigan EVP & CIO | https://www.equitable.ca/why-equitable/news/2025/09/equitable-welcomes-new-executive-vice-president-and-chief-investment-officer
+src: li1 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/mark-warywoda-68951811b
+src: li2 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/johanna-shaw-548119294
+src: li3 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/karlbrecht
+src: li4 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/darrin-webley-34938474
+src: li5 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/liam-phelan-929650127
+L1 | Eugene Lundrigan | EVP, CIO & Head of Asset Management, since Sep 2025 | H | a,b
+L2 | Mark Warywoda | VP, Public Portfolio Management, since Jan 2023 | M | li1 | ~
+L3 | Johanna Shaw | Director, Portfolio Management | M | li2 | ~
+L2 | Karl Brecht | Head of Alternative Investments, since Mar 2020 | M | li3 | ~
+L2 | Darrin Webley | AVP, Private Investments, since Jan 2023 | M | li4 | ~
+L3 | Liam Phelan | Director, Private Investments, since Jan 2026 | M | li5 | ~
+note: Lundrigan succeeded Tara Proper (EVP & CIO, Sep 2021 to Dec 2025). Paul English (SVP Investments) retired Dec 2021.
