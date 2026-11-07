@@ -1,0 +1,27 @@
+id: desjardins
+name: Desjardins Insurance (Desjardins Financial Security)
+anchor: Head of Desjardins' life & health insurer; reports to Denis Dubois, President & CEO of Desjardins Group
+src: a | Desjardins Group Management Committee page | https://www.desjardins.com/en/about-us/governance-democracy/management-committee.html
+src: b | Desjardins Financial Security (DFS) page with its management team | https://www.desjardins.com/en/about-us/governance-democracy/group-structure/other-networks/dfs.html
+src: c | Desjardins Global Asset Management team page | https://www.desjardins.com/en/find-us/dgam-team.html
+L1 | Chantal Gagné | EVP, Life & Health Insurance, Desjardins Group; President & COO, DFS | H | a,b
+L2 | Alexandre Guertin | VP, Wealth Mgmt and L&H Insurance Finance & Corporate Actuarial | H | b
+L2 | Nathalie Bouchard | VP, Corporate Actuarial Services & Appointed Actuary | H | b
+L2 | Mario St-Hilaire | Chief Risk Officer, Life Insurance | H | b
+L2 | Nicolas Richard | VP, Investments (also Head of Canada & UK, DGAM) | H | b,c
+L3 | Christian Duceppe | MD & CIO, Public Markets, DGAM | H | c | ~
+L3 | Frédéric Angers | MD & CIO, Private Markets, DGAM | H | c | ~
+L3 | Guy Lamontagne | MD & Chief of Investment Strategy, DGAM | H | c | ~
+L2 | Frederick Tremblay | VP, Investment Solutions | H | b
+L2 | Michel Martineau | VP, Individual Insurance | H | b
+L2 | Marie-France Amyot | VP, Group Benefits & Retirement Savings | H | b
+L2 | Frédéric Renaud | VP, Strategy, Analytics & Performance | H | b
+L2 | Pierre-Olivier Samson | VP, Wealth Management Operations | H | b
+L2 | Éléna Simard-Veilleux | VP & Executive Sponsor, Modernization Programs | H | b
+L2 | Jean-Philippe Savage | VP, Projects & Technologies | H | b
+L2 | Pierre-Alexandre Braeken | Chief Technology & Cyber Risk Officer | H | b
+L2 | Mylène Sabourin | Chief Compliance Officer | H | b
+L2 | Steeve Talbot | Chief Internal Audit Officer | H | b
+L2 | François Cholette | Director, Legal Affairs & Corporate Secretary | H | b
+L2 | Simon-Gabriel Auger | Security Officer | H | b
+note: The DFS page lists one management team under Chantal Gagné; it does not draw lines, so every member is shown as her direct report (several roles are shared with Desjardins Wealth Management and may also report into group functions). DGAM, which manages the general account, reports to George Mavroudis (President & CEO, DGAM); Nicolas Richard sits on both teams, and the DGAM investment heads are placed under him by title only.

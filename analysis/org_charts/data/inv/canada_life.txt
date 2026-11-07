@@ -1,0 +1,39 @@
+id: canada_life
+name: Canada Life
+anchor: SVP & Chief Investment Officer, Canada Life (within Great-West Lifeco's investment organisation under John Melvin, EVP & CIO)
+src: li1 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/robert-barnes-cfa-076180147
+src: li2 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/ron-hanson-0359a424
+src: li3 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/brendan-hargrave-cfa-735b4545
+src: li4 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/katie-woodward-cfa-3461b746
+src: li5 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/gaurav-mittal-13a50b
+src: li6 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/sébastien-munsch-084b1540
+src: li7 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/marina-gert-cfa-8532636
+src: li8 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/jason-ward-00308316
+src: li9 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/jackiehecfa
+src: li10 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/yvette-dennis-23514229
+src: li11 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/mariano-ficocelli-95295722
+src: li12 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/michael-caranci-10837112
+src: li13 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/willson-shih-b7447850
+src: li14 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/suvirh
+src: li15 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/jim-anderson-cfa-541ab312
+src: li16 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/michael-cohen-004490132
+src: li17 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/vince-coupland-cpa-cga
+L1 | Robert Barnes | SVP & Chief Investment Officer, since Apr 2025 | M | li1
+L2 | Ron Hanson | SVP, Bond Investments, since May 2023 | M | li2 | ~
+L3 | Brendan Hargrave | MD, Portfolio Management & Trading, Bond Investments, since Oct 2018 | M | li3 | ~
+L3 | Katie Woodward | Senior Director, Bond Investments, since Jan 2026 | M | li4 | ~
+L2 | Gaurav Mittal | SVP, Head of Global Private Debt (over C$30B), since Jan 2022 | M | li5 | ~
+L3 | Sébastien Munsch | Senior Managing Director, private placements / private credit, since Jul 2025 | M | li6 | ~
+L3 | Marina Gert | MD, Global Private Debt, since Jan 2020 | L | li7 | ~
+L3 | Jason Ward | MD, Private Debt Investments, since Jan 2021 | L | li8 | ~
+L3 | Jackie Jun He | MD, Private Debt Investments, since 2014 | L | li9 | ~
+L3 | Yvette Dennis | MD, Global Private Debt | L | li10 | ~
+L3 | Mariano Ficocelli | MD, Global Private Debt | L | li11 | ~
+L3 | Michael Caranci | VP, Head of Infrastructure & Project Finance | L | li12 | ~
+L2 | Not publicly named | Head of Mortgage Investments | - | 
+L3 | Willson Shih | SMD, Mortgage Investments Origination, since Aug 2025 | M | li13 | ~
+L3 | Suvir Haripersad | SMD, Mortgage Investments Portfolio Management & Fund Manager, since Jan 2023 | L | li14 | ~
+L3 | Jim Anderson | SMD, Mortgage Operations | L | li15 | ~
+L3 | Michael Cohen | MD, Mortgage Origination, since Oct 2019 | L | li16 | ~
+L2 | Vince Coupland | AVP, Investment Operations | L | li17 | ~
+note: Canada Life's general account is run inside Great-West Lifeco's investment organisation; John Melvin (Lifeco EVP & CIO) sits above Barnes.

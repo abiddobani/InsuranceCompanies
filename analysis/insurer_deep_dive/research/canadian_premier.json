@@ -1,0 +1,129 @@
+{
+  "company_id": "canadian_premier",
+  "name": "Canadian Premier Life Insurance Company (operating as Securian Canada)",
+  "as_of": "2026-06-30",
+  "ownership": "Wholly owned subsidiary of Securian Financial Group, Inc. (St. Paul, MN; mutual holding company structure; unlisted). Sister company Canadian Premier General Insurance Company; Valeyo Inc. services affiliate",
+  "regulator": "OSFI (federal); LICAT",
+  "metrics": [
+    {"metric": "Total assets", "value": 1063.5, "unit": "C$mm", "as_of": "2026-06-30", "source": "data/osfi/balance_sheet_assets.csv (OSFI LF1, Canadian Premier Life Insurance Company)", "note": "1,068.5 at 2025-12-31; 1,217.1 at 2024-12-31. No published financial statements; Securian Canada refers users to OSFI's financial data pages (https://www.securiancanada.ca/important-disclosures)."},
+    {"metric": "Total investments (general account)", "value": 666.9, "unit": "C$mm", "as_of": "2026-06-30", "source": "data/osfi/invested_assets.csv (OSFI LF1)", "note": "Bonds 460.7 (public corporates 342.3, federal 87.7, provincial 23.4, municipal 7.3), common shares 177.2 (incl. equities backing UL accounts), preferreds 5.8, short-term 23.3. 827.0 at 2024-12-31."},
+    {"metric": "AUM / segregated funds", "value": null, "unit": "C$mm", "as_of": "2026-06-30", "source": "data/osfi/balance_sheet_assets.csv", "note": "No segregated funds; no asset-management arm in Canada. Parent's general account C$38.8bn (Securian, 2025)."},
+    {"metric": "Insurance revenue (IFRS 17)", "value": 915.9, "unit": "C$mm", "as_of": "2025-12-31", "source": "data/osfi/LF2_core.csv.gz (OSFI LF2, 2025 Q4)", "note": "FY2025; 989.9 FY2024. Insurance service result FY2025 C$11.5mm; net investment result C$17.4mm."},
+    {"metric": "Gross direct premiums (Securian Canada brand)", "value": 660, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.insurancebusinessmag.com/ca/companies/securian-canada/576036/", "note": "Trade-press company profile; ranked 13th in Canadian L&H market share (MSA Research, 2024). Covers both Canadian Premier Life and General."},
+    {"metric": "Net income (loss) FY2025", "value": -106.1, "unit": "C$mm", "as_of": "2025-12-31", "source": "data/osfi/LF1_core.csv.gz (OSFI LF1, P2002299901, 2025 Q4)", "note": "vs +C$0.3mm FY2024. 'Other income and expenses' swung from -C$30.8mm (9M 2025) to -C$137.8mm (FY), and goodwill of C$96.5mm carried through 2025 Q3 is nil at 2025 Q4: consistent with a Q4 2025 goodwill write-off of ~C$96.5mm (inferred; not confirmed by any company statement)."},
+    {"metric": "Net income (loss) H1 2026 (YTD)", "value": -10.2, "unit": "C$mm", "as_of": "2026-06-30", "source": "data/osfi/LF1_core.csv.gz (OSFI LF1, 2026 Q2)", "note": "vs -C$12.9mm H1 2025. No core/underlying earnings measure; company publishes no earnings."},
+    {"metric": "Total equity", "value": 272.1, "unit": "C$mm", "as_of": "2026-06-30", "source": "data/osfi/LF1_core.csv.gz (OSFI LF1)", "note": "292.9 at 2025-12-31; 399.1 at 2024-12-31 (-C$106mm in 2025 = the FY2025 loss)."},
+    {"metric": "LICAT total ratio", "value": 157.3, "unit": "%", "as_of": "2026-06-30", "source": "data/osfi/licat_ratios.csv (OSFI LCQ/LCA)", "note": "Core 118.2%. 2025-12-31: total 163.9% / core 127.0%; 2024-12-31 public disclosure: total 153% / core 124% (available capital C$293.5mm, BSB C$250.7mm). Ratio rose despite the 2025 loss because goodwill is already deducted from Tier 1 and the base solvency buffer fell to C$217.9mm (inferred from OSFI data)."},
+    {"metric": "Financial leverage ratio", "value": null, "unit": "%", "as_of": "2026-06-30", "source": "data/osfi/licat_ratios.csv", "note": "No debt disclosed at the Canadian entity. Tier 2 capital C$60.3mm (2026 Q2) could include subordinated instruments from the parent but composition is not disclosed. Parent SFG has US$500mm 4.8% senior notes due 2048."},
+    {"metric": "Credit rating (AM Best FSR / ICR)", "value": null, "unit": "A (Excellent) / 'a' (Excellent), stable", "as_of": "2025-12-04", "source": "https://insurancenewsnet.com/oarticle/am-best-affirms-credit-ratings-of-securian-financial-group-inc-and-its-subsidiaries-3", "note": "Affirmed 2025-12-04; BCAR moved to 'strongest' from 'very strong'; growing strategic importance to parent. Parent Minnesota Life/Securian Life: AM Best A+, Fitch AA, Moody's Aa3, S&P AA- (all affirmed 2025, https://www.securian.com/about-us/financial-strength.html). No S&P/Moody's/DBRS rating on the Canadian entity found."},
+    {"metric": "Investment team size", "value": null, "unit": "people", "as_of": "2026-11-03", "source": "https://www.securiancanada.ca/en-ca/about", "note": "No investment function disclosed in Canada; leadership page lists CEO, CFO, CTO/CISO, CHXO, CLO only. Parent's Securian Asset Management (St. Paul) runs ~US$40bn incl. the group general account; whether it manages Canadian Premier's portfolio is not disclosed."},
+    {"metric": "Employees", "value": 300, "unit": "people (~300)", "as_of": "2026-11-03", "source": "https://www.insurancebusinessmag.com/ca/companies/securian-canada/576036/", "note": "Wikipedia also says 300+. Offices Toronto (HQ, 25 Sheppard Ave W), Montreal, Burnaby, Waterloo, Winnipeg."},
+    {"metric": "Insured Canadians / partners", "value": null, "unit": "", "as_of": "2023-02-01", "source": "https://insurancenewsnet.com/oarticle/securian-financial-subsidiary-acquiring-sun-lifes-association-affinity-and-group-creditor-business-in-canada", "note": "Sun Life Sponsored Markets deal added 100+ client organizations and 1.5mm insureds; profile cites 'more than 6,000 credit unions, banks and finance companies' partner reach (North America)."}
+  ],
+  "business_mix": {
+    "basis": "OSFI LF3 insurance contract liabilities by line, Canada, 2025-12-31 (no segment earnings or premium split published by the company; the OSFI 10A premium return in the repo stops at FY2022).",
+    "as_of": "2025-12-31",
+    "source": "data/osfi/LF3_core.csv.gz (P22010 lines)",
+    "items": [
+      {"label": "Group insurance (creditor, association & affinity)", "pct": 100.0},
+      {"label": "Individual insurance", "pct": 0.0}
+    ],
+    "note": "Group insurance liabilities C$528.0mm; individual insurance is a net contract asset of C$47.9mm (so shown as 0%). Business lines: credit card balance protection, mortgage/loan protection via banks, credit unions, finance companies and auto/RV dealers (Armour Group); association & affinity (CAA, student health plans) and legacy individual life/UL. AM Best (Dec 2025): growing in finance-company and auto-dealer markets."
+  },
+  "people": [
+    {"role": "CEO", "name": "Nigel Branker", "title": "Chief Executive Officer (FSA, FCIA)", "reports_to": "Board of Directors and Securian Financial EVP Affinity Solutions (Bill Gould at 2022 appointment)", "entity": "Canadian Premier Life Insurance Company / Securian Canada", "seat_since": 2022, "firm_since": 2022, "industry_since": null, "prior": "LifeWorks (Morneau Shepell) 2012-2022, latterly President, Health & Productivity Solutions; earlier global consulting firms; actuary (BSc Western)", "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://insurance-portal.ca/life/canadian-premier-taps-nigel-branker-as-new-chief-executive-officer", "https://www.securiancanada.ca/en-ca/about"], "note": "Appointed April 2022, succeeding Suzette Huovinen (CEO 2019-2022, now Securian EVP Enterprise Capital & Risk Management). Bank/foreign-owned sub: no proxy circular, compensation not disclosed."},
+    {"role": "CIO / most senior investment officer", "name": null, "title": "None disclosed in Canada", "reports_to": null, "entity": "Canadian Premier Life Insurance Company", "seat_since": null, "firm_since": null, "industry_since": null, "prior": null, "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.securiancanada.ca/en-ca/about", "https://www.securiancanada.ca/pdfs/important-disclosures/2025-climate-risk-management-report.pdf"], "note": "Climate report says 'The Companies monitor their investment portfolio' and the Risk and Capital Committee (CRO-chaired) covers capital; investment management is most likely delegated to parent Securian Asset Management (inferred, undisclosed)."},
+    {"role": "CFO (finance and actuarial)", "name": "Marc Peliel", "title": "Chief Financial Officer (CPA Canada and US)", "reports_to": "CEO", "entity": "Securian Canada", "seat_since": 2026, "firm_since": 2026, "industry_since": null, "prior": "President & CEO Humania Assurance 2021-2023; VP Finance & Treasurer Humania 2016-2021; chaired Aurrea Signature to 2019 sale; 25+ years finance/insurance", "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.securiancanada.ca/about-us/news-releases/securian-canada-names-marc-peliel-as-chief-financial-officer.html", "https://insurance-portal.ca/life/humania-appoints-new-president-and-ceo/"], "note": "Joined March 2026, announced 2026-05-05; oversees finance and actuarial. Succeeded Martin Fortier (FCIA, FSA; CFO from Nov 2024, joined Aug 2023 as SVP Actuarial, Risk & Product) whose departure is not announced publicly (inferred from the appointment)."},
+    {"role": "Head of public markets / fixed income", "name": null, "title": "Not disclosed", "reports_to": null, "entity": null, "seat_since": null, "firm_since": null, "industry_since": null, "prior": null, "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": [], "note": "No investment staff disclosed in Canada."},
+    {"role": "CRO", "name": null, "title": "Chief Risk Officer (unnamed) chairs the Risk and Capital Committee", "reports_to": "CEO; reports to Board", "entity": "Securian Canada", "seat_since": null, "firm_since": null, "industry_since": null, "prior": null, "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.securiancanada.ca/pdfs/important-disclosures/2025-climate-risk-management-report.pdf"], "note": "Role exists per B-15 report; holder not named on any public page found. Appointed Actuary also unnamed (job postings reference an Appointed Actuary and Chief Actuary)."},
+    {"role": "Other ELT", "name": "Sara Mazhar; Sofia Theodorou; Mark Geldernick; Sharla Postic", "title": "CTO & CISO; Chief Human Experience Officer; Chief Legal Officer; Chief Administrative Officer", "reports_to": "CEO", "entity": "Securian Canada", "seat_since": null, "firm_since": null, "industry_since": null, "prior": null, "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.securiancanada.ca/en-ca/about", "https://www.insurancebusinessmag.com/ca/companies/securian-canada/576036/"], "note": "Mazhar and Postic promoted to the newly formed Executive Leadership Team in 2023."}
+  ],
+  "pm_structure": {
+    "summary": "Not disclosed. Securian Canada publishes no financial statements and names no investment officer; the OSFI balance sheet shows a C$0.67bn portfolio of public corporate and government bonds plus C$0.18bn of common shares (incl. UL-backing equities). The parent's captive manager, Securian Asset Management (St. Paul; fixed income, private credit, CRE, LDI), runs the group general account, so delegation to it is plausible but unconfirmed.",
+    "manager_entities": ["Not disclosed (parent affiliate Securian Asset Management is the likely manager; inferred)"],
+    "bullets": [
+      "No CIO, investment committee or manager named in any Canadian disclosure (leadership page, LICAT, B-15 report)",
+      "OSFI LF1: bonds fell to C$461mm (2026 Q2) from C$698mm (2024 Q4); common shares rose to C$177mm from C$99mm (step-up in 2025 Q2)",
+      "Portfolio is public-market only per OSFI lines: no mortgages, no private placements, no real estate reported",
+      "Parent GA C$38.8bn (2025): 'mostly higher credit quality... private corporate bond allocations growing' (AM Best, Dec 2025)",
+      "Capital managed under a Board-approved Capital Risk Management Policy with internal LICAT ratios per OSFI A-4"
+    ],
+    "sources": ["https://www.securiancanada.ca/en-ca/about", "https://www.securiancanada.ca/pdfs/important-disclosures/licat-life-insurance-capital-adequacy-test-2024.pdf", "https://insurancenewsnet.com/oarticle/am-best-affirms-credit-ratings-of-securian-financial-group-inc-and-its-subsidiaries-3", "data/osfi/invested_assets.csv"]
+  },
+  "rotation_commentary": [
+    {"year": 2025, "text": "No company commentary. OSFI data: total investments -19% (C$827mm to C$667mm, 2024 Q4 to 2026 Q2) as insurance liabilities ran off/were ceded; public corporate bonds -34%, common shares +80%.", "source": "data/osfi/invested_assets.csv"},
+    {"year": 2025, "text": "Climate report: 'Portfolio monitoring and increased integration of climate considerations into investment decision-making' identified as an opportunity; no emissions targets; portfolio carbon reported internally.", "source": "https://www.securiancanada.ca/pdfs/important-disclosures/2025-climate-risk-management-report.pdf"},
+    {"year": 2025, "text": "Parent (AM Best): investment yield declining but trending up; losses on derivatives hedging variable products as rates rose; private corporates growing.", "source": "https://insurancenewsnet.com/oarticle/am-best-affirms-credit-ratings-of-securian-financial-group-inc-and-its-subsidiaries-3"}
+  ],
+  "target_allocations": [],
+  "leverage": {
+    "debt_outstanding": [],
+    "financial_leverage_ratio_pct": null,
+    "issuance": [],
+    "securities_lending": {"amount_cad_mm": null, "as_of": "2025-12-31", "text": "Not disclosed; no financial statements published. OSFI LF3 off-balance-sheet lines in the repo show no repo/securities-lending entries for this entity.", "source": "data/osfi/LF3_core.csv.gz"},
+    "repos": {"amount_cad_mm": null, "as_of": "2025-12-31", "text": "None reported in OSFI LF3 extract.", "source": "data/osfi/LF3_core.csv.gz"},
+    "structured_indirect": [
+      {"text": "ABS, if any, sit inside OSFI 'corporate public' bonds (C$342mm) and cannot be separated. No CLO, fund-finance or funding-agreement exposure disclosed.", "amount_cad_mm": null, "source": "data/osfi/invested_assets.csv"},
+      {"text": "Reinsurance: Sun Life Sponsored Markets block came with reinsurance; reinsurance contract held assets C$57.3mm (2026 Q2).", "amount_cad_mm": 57.3, "source": "data/osfi/balance_sheet_assets.csv"}
+    ],
+    "note": "No debt or hybrid capital issued by the Canadian entity. Tier 2 capital of C$60.3mm (2026 Q2) unexplained in public disclosure."
+  },
+  "partnerships": {
+    "underwriters": [],
+    "deals": [
+      {"year": 2017, "text": "Securian Financial acquired Canadian Premier Life and CRI Canada (now Valeyo) from ivari (closed 2017-04-03); AM Best affirmed A (Excellent) on close.", "source": "https://insurancenewsnet.com/oarticle/a-m-best-removes-from-under-review-and-affirms-credit-ratings-of-canadian-premier-life-insurance-company"},
+      {"year": 2020, "text": "Acquired Gerber Life Insurance Company's Canadian block of business.", "source": "https://www.insurancebusinessmag.com/ca/news/breaking-news/u-s--mutual-holding-company-acquires-canadian-insurance-providers-45010.aspx"},
+      {"year": 2021, "text": "Acquired Armour Group (credit-protection distributor via auto/RV dealers and finance companies), Sept 2021; terms undisclosed.", "source": "https://www.businesswire.com/news/home/20210908005177/en/Acquisition-Expands-Securian-Financial%E2%80%99s-Canadian-Distribution"},
+      {"year": 2023, "text": "Closed acquisition of Sun Life's Sponsored Markets (association & affinity, group creditor) business, 2023-02-01: 100+ client organizations, 1.5mm insureds; announced 2021-12-13; price and advisers undisclosed. Rebranded Canadian Premier + Valeyo as Securian Canada.", "source": "https://www.securiancanada.ca/about-us/news-releases/canadian-premier-rebrands-to-securian-canada-following-acquisition-of-sun-lifes-sponsored-markets-business.html"},
+      {"year": 2024, "text": "Launched fully digital insurance suite for the Canadian Automobile Association (7mm members), Jan 2024; sales 133% above target by mid-2025.", "source": "https://www.insurancebusinessmag.com/ca/companies/securian-canada/576036/"},
+      {"year": 2025, "text": "Creditor-insurance digital claims portal launched with an unnamed Tier 1 Canadian bank.", "source": "https://www.insurancebusinessmag.com/ca/companies/securian-canada/576036/"}
+    ],
+    "sponsorships": [
+      {"year": 2023, "text": "Official life insurance partner of the Canadian Football League (multi-year, from Feb 2023); presenting sponsor of CFL Diversity in Football program.", "source": "https://www.insurancebusinessmag.com/ca/companies/securian-canada/576036/"},
+      {"year": 2024, "text": "Official life insurance partner of the Toronto Maple Leafs and presenting sponsor of MLSE Foundation's Home Ice Hockey (announced 2024-09-19).", "source": "https://www.mlsefoundation.org/news-stories/securian-canada-joins-home-ice-hockey-as-presenting-sponsor"},
+      {"year": 2026, "text": "Sponsor of The Princess Margaret Cancer Foundation 2026 cricket event (May 2026); publishes annual 'Beyond Business' purpose report.", "source": "https://www.securiancanada.ca/en-ca/about"}
+    ],
+    "bank_relationships": [
+      {"text": "Core model is bancassurance/creditor insurance: credit card balance protection and mortgage/loan protection distributed through Canadian banks, credit unions and finance companies (partners not named publicly).", "source": "https://www.securiancanada.ca/en-ca/about"},
+      {"text": "Sun Life: seller of Sponsored Markets business (2023) and prior carrier for the transferred affinity clients.", "source": "https://insurancenewsnet.com/oarticle/securian-financial-subsidiary-acquiring-sun-lifes-association-affinity-and-group-creditor-business-in-canada"},
+      {"text": "No capital-markets issuance by the Canadian entity, so no dealer/bookrunner relationships.", "source": "data/osfi/licat_ratios.csv"}
+    ]
+  },
+  "risk": {
+    "appetite": [
+      "Board-approved Risk Appetite Framework and internal capital targets (OSFI A-4); climate risk classified under Strategic Risk, assessed 'low'",
+      "Capital Risk Management Policy reviewed annually by the Board; goal is 'sufficient margin over' OSFI requirements"
+    ],
+    "governance": [
+      "Board oversees ERM, approves risk appetite policies and internal capital targets, reviews annual ORSA before OSFI submission",
+      "CRO leads independent risk function and chairs the Risk and Capital Committee (CEO + ELT, meets at least monthly); enterprise risks reported quarterly to RCC and Board",
+      "Climate Risk Working Group established 2024; three-lines model implied via internal audit input to ERM"
+    ],
+    "capital_target": "LICAT total 157.3% / core 118.2% at 2026-06-30 vs supervisory targets 100% / 70%; company states ratios exceed internal capital ratios (figures not disclosed).",
+    "sensitivities": [
+      "None published (no financial statements, no MD&A). Discount curve: OSFI LF2 2025 Q4 risk-free 2.40% + liquidity premium 0.66% at year 1 (most illiquid bucket)"
+    ],
+    "hedging": [
+      "No hedging program disclosed at the Canadian entity; parent hedges variable-product guarantees with derivatives (AM Best)",
+      "Reinsurance held C$57mm (2026 Q2); individual-insurance reinsurance held is a net liability per LF3"
+    ],
+    "events": [
+      "FY2025 net loss C$106.1mm (OSFI LF1); equity -27%; goodwill C$96.5mm no longer on balance sheet at 2025 Q4 (inferred write-off, likely Sun Life Sponsored Markets goodwill; unconfirmed)",
+      "H1 2026 net loss C$10.2mm; insurance revenue -7% in 2025 (C$915.9mm vs C$989.9mm)",
+      "CFO turnover: Fortier (Nov 2024) to Peliel (Mar 2026); 2025 LICAT public disclosure not posted on website as of 2026-11-03 (link 404)",
+      "Completed OSFI Standardized Climate Scenario Exercise (2024); 2025 adverse climate-triggered economic stress test kept capital above requirements"
+    ],
+    "sources": ["https://www.securiancanada.ca/pdfs/important-disclosures/2025-climate-risk-management-report.pdf", "https://www.securiancanada.ca/pdfs/important-disclosures/licat-life-insurance-capital-adequacy-test-2024.pdf", "data/osfi/LF1_core.csv.gz", "data/osfi/licat_ratios.csv"]
+  },
+  "gaps": [
+    "No published financial statements, MD&A or annual report; all financials are from OSFI returns in the repo. The FY2025 C$106mm loss and apparent goodwill write-off have no company explanation.",
+    "Investment management structure undisclosed: no CIO, no manager named; Securian Asset Management involvement is an inference.",
+    "Foreign-owned subsidiary: no proxy circular, no compensation for any executive.",
+    "CRO and Appointed Actuary not named publicly; Martin Fortier's departure not announced.",
+    "2025 LICAT public disclosure not available (404); 2025-26 ratios taken from OSFI data files.",
+    "No sensitivities, hedging, securities lending or repo disclosure.",
+    "Business mix by premium is from OSFI liabilities (group ~100%); the 10A premium return in the repo stops at FY2022.",
+    "Securian Financial 2025 annual report PDF could not be read (link served a logo file); parent figures come from securian.com/financial-strength."
+  ],
+  "notes": "Canadian Premier Life (Securian Canada) is a C$1.1bn-asset Toronto creditor/affinity insurer owned by Securian Financial (AM Best A+ group). It is a disclosure-light entity: no statements, no investment officer, no named CRO. OSFI returns show a C$0.67bn public-market portfolio shrinking with the liability run-off, LICAT of 157% total / 118% core at Q2 2026, and a FY2025 net loss of C$106mm that coincides with C$96.5mm of goodwill leaving the balance sheet (inferred impairment, probably of the 2023 Sun Life Sponsored Markets goodwill). AM Best nevertheless affirmed A (Excellent) in Dec 2025 with BCAR at 'strongest'. CFO since March 2026 is Marc Peliel, ex-CEO of Humania. Personal library not available in this session; public sources used. WebSearch budget was exhausted before confirming Securian Asset Management's Canadian role or the CRO's name."
+}

@@ -1,0 +1,124 @@
+{
+  "company_id": "uv_insurance",
+  "name": "UV Insurance (Union Life Mutual Assurance Company / L'Union-Vie, compagnie mutuelle d'assurance; UV Assurance)",
+  "as_of": "2025-12-31",
+  "ownership": "Mutual (UV Mutuelle), founded 1889 as L'Union Saint-Joseph; Drummondville, QC. Website is uvassurance.ca (not uv.ca as listed in data/companies.csv)",
+  "regulator": "AMF (Quebec); CARLI capital framework. BMO block transfer was an OSFI-regulated assumption reinsurance",
+  "metrics": [
+    {"metric": "Total assets", "value": 3178.5, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf", "note": "+35% from 2,353.6 (2024), mainly the BMO Insurance block acquired June 2025. Summary consolidated statements; full FS available on request."},
+    {"metric": "Investments (general account)", "value": 2368.2, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf", "note": "Bonds 1,926.0 (81%), common stock 121.3, preferred stock 103.3, private investments 102.4, money market 57.5, loans 52.6, derivatives 5.0. Plus cash 25.8. 1,675.1 in 2024."},
+    {"metric": "Reinsurance contract assets", "value": 655.6, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf", "note": "Plus insurance contract asset 36.8 (new, tied to a small product in the BMO transaction per SVP Parenteau)."},
+    {"metric": "AUM / segregated funds", "value": null, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf", "note": "No seg funds on balance sheet; UV distributes Assumption Life's seg funds under a 2021 agreement. Investment contract liabilities (deposits/annuities) C$159.3mm."},
+    {"metric": "Income from insurance activities (IFRS 17 insurance revenue)", "value": 285.5, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf", "note": "225.5 in 2024 (+27%). Total income from insurance activities 8.4 (-3.5 in 2024)."},
+    {"metric": "Net income", "value": 7.9, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf", "note": "6.6 in 2024 (+20%), 11.5 in 2023. Net investment income 18.8 (44.9); net insurance finance income 14.9 (-26.5). No core measure; no interim reporting."},
+    {"metric": "Comprehensive income", "value": 24.9, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf", "note": "Includes C$12.3mm FVOCI gains (preferred shares strong, per SVP Parenteau) and C$4.6mm DB pension remeasurement."},
+    {"metric": "Members' equity", "value": 281.3, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf", "note": "+9.7% from 256.4; retained earnings 257.8, AOCI 23.5. Equity/assets 8.9% after acquisition."},
+    {"metric": "Solvency ratio (CARLI)", "value": 172, "unit": "%", "as_of": "2024-12-31", "source": "https://www.uvassurance.ca/app/uploads/2025/04/en-rapport-annuel-2024-web.pdf", "note": "Latest numeric disclosure (2024 AR). For 2025 the company says only that the ratio 'remains above target/internal targets' after the acquisition (AR 2025; press release 2026-03-24). Internal target not published."},
+    {"metric": "Financial leverage ratio", "value": null, "unit": "%", "as_of": "2025-12-31", "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf", "note": "No debt; bank overdraft nil (1.25 in 2024); lease obligations 0.2. Unlevered (inferred)."},
+    {"metric": "Credit ratings", "value": null, "unit": "", "as_of": "2026-11-03", "source": null, "note": "No AM Best, S&P, Moody's, DBRS or Fitch rating found."},
+    {"metric": "Investment team size", "value": null, "unit": "people", "as_of": "2025-12-31", "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf", "note": "No internal investment department disclosed; assets managed externally by Sun Life Capital (SLC Management) since 2025 tender. Board Investment Committee of 5 directors."},
+    {"metric": "Employees", "value": 300, "unit": "people (~300)", "as_of": "2026-03-24", "source": "https://www.uvassurance.ca/en/newsroom/a-major-acquisition-and-solid-financial-performance-for-uv-insurance-and-its-members-in-2025", "note": "'Nearly 300' in AR 2025 (Quebec, Ontario, New Brunswick); engagement 92%."},
+    {"metric": "Members / policies", "value": 500000, "unit": "members (>500k)", "as_of": "2025-12-31", "source": "https://insurance-portal.ca/article/uv-insurances-net-income-up-20-in-2025/", "note": "Up from ~300k; ~250k policies pre-deal plus ~200k BMO policies (~C$50mm premiums)."}
+  ],
+  "business_mix": {
+    "basis": "Not disclosed quantitatively; summary statements give one insurance revenue line (C$285.5mm, FY2025). Qualitative: individual life & critical illness (incl. acquired BMO direct-marketing block), group insurance (Quebec SMEs), investment/retirement (annuities, deposits; Assumption seg funds distributed).",
+    "as_of": "2025-12-31",
+    "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf",
+    "items": [],
+    "note": "AR 2025: individual insurance 'robust growth' (acquisition plus 1,000+ new advisors signed); group insurance 'stable', strategic redefinition to expand outside Quebec. 2024 AR: >C$190mm paid benefits; 330,000 mutualists."
+  },
+  "people": [
+    {"role": "CEO", "name": "Charles Guay", "title": "Chief Executive Officer (President and CEO)", "reports_to": "Board of Directors (Chair Alain Bédard, ICD.D, FSA, FCIA)", "entity": "Union Life Mutual Assurance Company", "seat_since": 2026, "firm_since": 2026, "industry_since": null, "prior": "National Bank of Canada (head of investment funds division); President & CEO Standard Life Canada (to Manulife acquisition); President & CEO Manulife Quebec and head of Manulife Canada group benefits/group retirement; founder of a strategy/governance consultancy; chair of SuccessFinder; director Pomerleau, AGF Management", "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.uvassurance.ca/en/newsroom/charles-guay-appointed-ceo-of-uv-insurance", "https://www.advisor.ca/industry-news/industry/charles-guay-named-president-and-ceo-of-uv-insurance/"], "note": "Appointed 2026-07-09, effective 2026-09-14. '25 years in Canadian financial services' per release (industry start ~2001, inferred). Laval University business/finance. Comp not disclosed (mutual)."},
+    {"role": "Prior CEO", "name": "Christian Mercier", "title": "President and CEO Dec 2016 - Sep 2026 (OMM, MSM, CD, MDS)", "reports_to": "Board", "entity": "Union Life Mutual Assurance Company", "seat_since": 2016, "firm_since": 2016, "industry_since": 2016, "prior": "Canadian Armed Forces career (Honorary Colonel, Canadian Grenadier Guards); CLHIA/ACCAP director", "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.uvassurance.ca/en/newsroom/with-a-profound-sense-of-accomplishment-uv-insurance-president-and-ceo-steps-down-after-10-years-of-service"], "note": "Departure announced 2026-03-18; led rebrand to UV Insurance, new head office, IT modernization and the 2025 BMO block acquisition."},
+    {"role": "CFO / Chief Actuary (most senior finance-investment officer)", "name": "Pierre Parenteau", "title": "Senior Vice President, Actuarial and Finance, and Appointed Actuary (FSA, FCAS, FCIA, CERA)", "reports_to": "CEO", "entity": "Union Life Mutual Assurance Company", "seat_since": null, "firm_since": null, "industry_since": null, "prior": "Previously worked with Rohit Thomas (now BMO Insurance CEO) at TD Bank (Insurance Portal); originated the BMO block deal in 2023", "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.uvassurance.ca/en/discover-uv/management-team", "https://insurance-portal.ca/article/uv-insurance-acquires-200000-policies-from-bmo-life/", "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf"], "note": "No CIO at UV; Parenteau's Actuarial & Finance team houses finance (Richard Dionne, Senior Manager Finance), corporate actuarial (Hugo Boutin-Ouellet, VP Corporate Actuary, new on 2026 website) and risk (CRO Eric Timmons). Oversight of the external manager (SLC) presumably sits here (inferred)."},
+    {"role": "CRO", "name": "Eric Timmons", "title": "Chief Risk Management Officer (ASA, AICA)", "reports_to": "SVP Actuarial and Finance (per AR org listing; inferred)", "entity": "Union Life Mutual Assurance Company", "seat_since": 2025, "firm_since": null, "industry_since": null, "prior": "20+ years in various roles at UV Insurance", "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf", "https://www.uvassurance.ca/en/discover-uv/management-team"], "note": "Internal appointment in 2025 (AR 'Growth Among Our Teams')."},
+    {"role": "Board Investment Committee Chair", "name": "Fabienne Lacoste", "title": "Director since 2022; Chair (President), Investment Committee (CFA)", "reports_to": "Board", "entity": "Union Life Mutual Assurance Company", "seat_since": null, "firm_since": 2022, "industry_since": null, "prior": "Former President & CEO, FÉRIQUE Fund Management and FÉRIQUE Investment Services; 30+ years asset management", "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.uvassurance.ca/en/discover-uv/board-of-directors"], "note": "Committee members: Marco Fillion (First Vice-Chair, FSA FCIA, also chairs Audit & Risk), Benoît Durocher (ex-Addenda Capital, retired 2025, joined board 2025), Lisa To (CFA, CPA, BDC), Josée Germain (CPA). Gérard Guilbault retired in 2025 after long oversight of 'investment files'."},
+    {"role": "Board Chair", "name": "Alain Bédard", "title": "Chair of the Board (ICD.D, FSA, FCIA)", "reports_to": "Members", "entity": "Union Life Mutual Assurance Company", "seat_since": null, "firm_since": 2018, "industry_since": null, "prior": "37+ years in finance/insurance incl. 27 as senior executive of a major Canadian financial group", "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.uvassurance.ca/en/discover-uv/board-of-directors"], "note": "Director since 2018."}
+  ],
+  "pm_structure": {
+    "summary": "Fully outsourced general account. In 2025 UV ran a tender for the management of its assets and appointed Sun Life Capital (SLC Management, Sun Life's institutional asset manager) as manager of 'our various portfolios'; a first Responsible Investment Policy (ESG integration) was adopted at the same time. Oversight by the board Investment Committee (chaired by ex-FÉRIQUE CEO Fabienne Lacoste) and the SVP Actuarial & Finance. The prior manager is not disclosed.",
+    "manager_entities": ["Sun Life Capital / SLC Management (appointed 2025 after RFP)"],
+    "bullets": [
+      "2025 RFP for asset management won by Sun Life Capital; transition 'virtually seamless' (Chair's message, AR 2025)",
+      "New Responsible Investment Policy (2025) integrates ESG factors into investment strategy; part of 2025-2030 Sustainable Development Strategy",
+      "Board Investment Committee of five directors (two CFAs, two FSAs, one CPA); ex-Addenda Capital executive Benoît Durocher joined 2025",
+      "No internal CIO or trading desk disclosed; finance/actuarial under SVP Pierre Parenteau",
+      "Private investments C$102mm (4% of investments; type not disclosed) and loans C$53mm held alongside the bond-heavy (81%) book"
+    ],
+    "sources": ["https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf", "https://www.uvassurance.ca/en/discover-uv/board-of-directors"]
+  },
+  "rotation_commentary": [
+    {"year": 2025, "text": "Asset management re-tendered and moved to Sun Life Capital (SLC); Chair expects assets to 'grow in line with existing policies' incl. new Responsible Investment Policy.", "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf"},
+    {"year": 2025, "text": "Balance-sheet data: bonds +C$567mm (to 1,926), common stock +C$88mm (to 121), loans +C$36mm, preferreds -C$40mm, as BMO block assets were absorbed; money market up to C$57mm.", "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf"},
+    {"year": 2026, "text": "SVP Parenteau: IFRS 17 'has the potential to produce more volatile results'; UV is 'changing its strategies to produce more stable and predictable results' (ALM/accounting stance, not a mix target).", "source": "https://insurance-portal.ca/article/uv-insurances-net-income-up-20-in-2025/"},
+    {"year": 2026, "text": "Acquisition framed as 'diversify its risk ... optimizing operations and the use of its capital'; 2030 Strategic Framework adopted (disciplined growth, technology, operational excellence).", "source": "https://www.uvassurance.ca/en/newsroom/a-major-acquisition-and-solid-financial-performance-for-uv-insurance-and-its-members-in-2025"}
+  ],
+  "target_allocations": [],
+  "leverage": {
+    "debt_outstanding": [],
+    "financial_leverage_ratio_pct": null,
+    "issuance": [],
+    "securities_lending": {"amount_cad_mm": null, "as_of": "2025-12-31", "text": "Not disclosed (summary statements only).", "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf"},
+    "repos": {"amount_cad_mm": null, "as_of": "2025-12-31", "text": "Not disclosed; no repo line on the summary balance sheet.", "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf"},
+    "structured_indirect": [
+      {"text": "Private investments C$102.4mm (type not disclosed; mapped to private equity in repo analysis) and loans C$52.6mm. Derivative assets C$5.0mm (liabilities C$3.8mm in 2024); instruments not disclosed.", "amount_cad_mm": 102.4, "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf"},
+      {"text": "Assumption reinsurance of BMO block: insurance contract liabilities rose C$768mm to C$2,669mm; reinsurance assets C$656mm indicate large ceded share.", "amount_cad_mm": null, "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf"}
+    ],
+    "note": "No debt capital of any kind; mutual funded entirely by retained earnings (C$258mm) and AOCI."
+  },
+  "partnerships": {
+    "underwriters": [],
+    "deals": [
+      {"year": 2025, "text": "Acquired closed block from BMO Life Assurance (BMO Insurance) by assumption reinsurance, closed 2025-06-06: ~200k policies, ~C$50mm premiums (180k direct-marketing CI/term/accident; ~15-30k par whole life). Price undisclosed. Largest deal in UV's history.", "source": "https://insurance-portal.ca/article/uv-insurance-acquires-200000-policies-from-bmo-life/"},
+      {"year": 2026, "text": "Fasken lists 'UV Insurance completes acquisition of a closed block' (Feb 2026) among its deal experience; which party it advised could not be verified (page blocked).", "source": "https://www.fasken.com/fr/experience/2026/02/uv-insurance-completes-acquisition-of-a-closed-block"},
+      {"year": 2021, "text": "Distribution agreement with Assumption Life (effective 2021-09-15): UV markets Assumption's segregated funds and registered investment accounts Canada-wide.", "source": "https://www.assomption.ca/en/individuals/about-us/press-releases/2021/uv-insurance-and-assumption-life-join-forces-for-the-marketing-of-segregated-funds-and-registered-i"},
+      {"year": 2025, "text": "Asset-management mandate awarded to Sun Life Capital (SLC Management) after tender.", "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf"},
+      {"year": 2025, "text": "1,000+ new advisors signed distribution agreements; new actuarial R&D team for group insurance.", "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf"}
+    ],
+    "sponsorships": [
+      {"year": 2025, "text": "C$1mm+ donated (education, health, social inclusion); policy of giving ~10% of net income to community causes.", "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf"},
+      {"year": 2025, "text": "FORCE-UQTR cybersecurity training program for SMEs with Université du Québec à Trois-Rivières; SOCODEVI international cooperation (Morocco COOPFAM).", "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf"},
+      {"year": 2025, "text": "Course des Chênes-toi (Drummondville run); Fondation du Cégep de Drummondville; ACEE student entrepreneurship fair.", "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf"}
+    ],
+    "bank_relationships": [
+      {"text": "BMO Insurance: seller of the 2025 block (SVP Parenteau and BMO Insurance CEO Rohit Thomas previously worked together at TD). Most acquired clients are BMO customers; UV may cross-sell via its advisor network.", "source": "https://insurance-portal.ca/article/uv-insurance-acquires-200000-policies-from-bmo-life/"},
+      {"text": "Sun Life group (SLC Management) as general-account manager since 2025.", "source": "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf"}
+    ]
+  },
+  "risk": {
+    "appetite": [
+      "Board workshops on risk appetite and tolerance (2024); risk framework strengthened and AI policy adopted in 2025",
+      "Solvency ratio managed above an undisclosed internal target (172% in 2024; 'above target' in 2025 after acquisition)"
+    ],
+    "governance": [
+      "Board Audit and Risk Management Committee (Chair Marco Fillion, FSA FCIA); Investment Committee (Chair Fabienne Lacoste, CFA); Ethics & Governance Committee",
+      "Chief Risk Management Officer Eric Timmons (appointed 2025) within Actuarial & Finance; Appointed Actuary Pierre Parenteau; auditor PwC",
+      "Director training on climate risk, financial crime and AI; AMF supervisory meeting during 2025 strategic session"
+    ],
+    "capital_target": "CARLI 172% at YE2024 (last numeric); YE2025 'above internal targets'. Internal target not published.",
+    "sensitivities": [
+      "No market or insurance sensitivities published (summary statements only)"
+    ],
+    "hedging": [
+      "Derivatives on balance sheet (assets C$5.0mm 2025; liabilities C$3.8mm 2024) but purpose/notional not disclosed",
+      "Large reinsurance program (reinsurance assets C$656mm); BMO block taken by assumption reinsurance"
+    ],
+    "events": [
+      "2024 net income -43% on CIA ultimate-discount-rate revision; 2025 +20% despite acquisition costs",
+      "First AMF climate-risk disclosures due 2026; Climate Change Risk and Opportunity Management program launched 2025",
+      "CEO transition 2026 (Mercier to Guay); OSFI/AMF approvals obtained for BMO block"
+    ],
+    "sources": ["https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf", "https://www.uvassurance.ca/app/uploads/2025/04/en-rapport-annuel-2024-web.pdf", "https://insurance-portal.ca/article/uv-insurances-net-income-up-20-in-2025/", "https://www.uvassurance.ca/en/discover-uv/board-of-directors"]
+  },
+  "gaps": [
+    "2025 CARLI ratio not disclosed numerically (only 'above target'); components and internal target unpublished.",
+    "Summary statements only: no bond issuer/rating split, no private-investment detail, no sensitivities, no derivative notionals, no securities lending/repo.",
+    "Mutual: no proxy circular; no compensation for any executive.",
+    "Prior asset manager (before the 2025 SLC appointment) and SLC fee terms not disclosed.",
+    "Purchase price and transferred reserves/assets of the BMO block not disclosed; par policy count conflicting (15k vs 30k across sources).",
+    "Bios (year joined, industry start) for Parenteau, Timmons, Boutin-Ouellet not found; Fasken adviser role unverified (site blocks fetch).",
+    "No credit rating.",
+    "Business mix by line not disclosed."
+  ],
+  "notes": "UV is a 135-year-old Drummondville mutual that grew total assets 35% to C$3.2bn in 2025 by assuming ~200k BMO Insurance policies, doubling its membership to 500k+. Its C$2.4bn general account (81% bonds, ~4% private investments, 5% common, 4% preferreds) is fully outsourced: a 2025 tender moved all portfolios to Sun Life Capital (SLC Management) alongside a first Responsible Investment Policy, with oversight by a board Investment Committee chaired by former FÉRIQUE CEO Fabienne Lacoste. Equity/assets fell to 8.9% post-deal; CARLI was 172% at YE2024 and 'above target' at YE2025. Leadership changes in 2026: CEO Christian Mercier out, Charles Guay (ex-Standard Life Canada, Manulife Quebec) in from 2026-09-14. Personal library not available in this session; public sources used. WebSearch budget ran out before French-press checks (Les Affaires, Journal de l'assurance) could be completed."
+}

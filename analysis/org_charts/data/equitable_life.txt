@@ -1,0 +1,20 @@
+id: equitable_life
+name: Equitable Life of Canada
+anchor: President & CEO of The Equitable Life Insurance Company of Canada (mutual)
+src: a | Equitable 2025 Annual Report, Senior Management (p.56) | https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf
+src: b | Equitable release (2025-09): Eugene Lundrigan EVP & CIO | https://www.equitable.ca/why-equitable/news/2025/09/equitable-welcomes-new-executive-vice-president-and-chief-investment-officer
+src: c | Equitable release (2025-03): leadership changes (Reeves EVP Individual Insurance; Carbell Chief Strategy & Impact) | https://equitable.ca/why-equitable/news/2025/03/equitable-announces-leadership-changes-focused-on-growth-and-strategy
+src: d | CALU speaker bio: Mark Warywoda, VP Public Portfolio Management, Equitable | https://calu.com/?p=7656
+L1 | Fabien Jeudy | President & Chief Executive Officer | H | a
+L2 | Melanie Kliska | EVP, Chief Financial Officer | H | a
+L2 | Eugene Lundrigan | EVP, Chief Investment Officer | H | a,b
+L3 | Mark Warywoda | VP, Public Portfolio Management | M | d | ~
+L2 | Phillip K. Watson | SVP, Chief Actuary | H | a
+L2 | Martin Reeves | EVP, Individual Insurance Division | H | a,c
+L2 | Campbell Crosbie | EVP, Individual Wealth Division | H | a
+L2 | Marc Avaria | EVP, Group Insurance Division | H | a
+L2 | Donna Carbell | EVP, Chief Strategy & Impact Officer | H | a,c
+L2 | Ritesh Sarda | EVP, Chief Information Officer | H | a
+L2 | Colin Simpson | EVP, Chief Legal Officer & Corporate Secretary | H | a
+L2 | Christopher Brown | EVP, Chief HR & Communications Officer | H | a
+note: equitable.ca's executive-team page renders by script and could not be read; it was out of date in search snippets (still showing Tara Proper as CIO), so the 2025 Annual Report's Senior Management list is used. The CRO is not named publicly (a job posting says the role reports to the CFO).

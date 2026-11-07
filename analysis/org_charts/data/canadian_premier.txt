@@ -1,0 +1,12 @@
+id: canadian_premier
+name: Canadian Premier Life (Securian Canada)
+anchor: CEO of Canadian Premier Life Insurance Company (operating as Securian Canada; parent Securian Financial)
+src: a | Securian Canada, About / Leadership page | https://www.securiancanada.ca/en-ca/about
+src: b | Securian Canada release: Marc Peliel named CFO (2026-03) | https://www.securiancanada.ca/en-ca/about/news-insights/news/securian-canada-names-marc-peliel-as-chief-financial-officer
+src: c | Securian Canada bio: Mark Geldernick, Chief Legal Officer (legal, compliance, risk) | https://www.securiancanada.ca/en-ca/about/mark-geldernick
+L1 | Nigel Branker | Chief Executive Officer | H | a
+L2 | Marc Peliel | Chief Financial Officer (finance, actuarial, procurement) | H | a,b
+L2 | Mark Geldernick | Chief Legal Officer (legal, compliance, risk management) | H | a,c
+L2 | Sara Mazhar | Chief Technology Officer & CISO | H | a
+L2 | Sofia Theodorou | Chief Human Experience Officer | H | a
+note: Securian Canada's leadership page lists five executives and no investment head; the portfolio is presumed to be run by the US parent's asset manager. No level below the five is published.

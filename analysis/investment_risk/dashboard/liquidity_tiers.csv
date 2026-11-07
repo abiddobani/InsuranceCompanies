@@ -1,0 +1,73 @@
+company_id,company,tier,pct,is_focus
+manulife,Manulife,Cash and government bonds,25.52,0
+manulife,Manulife,Public bonds and shares,40.66,0
+manulife,Manulife,Mortgages and private loans,20.01,0
+manulife,Manulife,Real estate and private equity,13.81,0
+sun_life,Sun Life,Cash and government bonds,21.74,0
+sun_life,Sun Life,Public bonds and shares,36.89,0
+sun_life,Sun Life,Mortgages and private loans,28.34,0
+sun_life,Sun Life,Real estate and private equity,13.03,0
+canada_life,Canada Life,Cash and government bonds,30.75,0
+canada_life,Canada Life,Public bonds and shares,26.66,0
+canada_life,Canada Life,Mortgages and private loans,38.02,0
+canada_life,Canada Life,Real estate and private equity,4.57,0
+ia,iA Financial Group,Cash and government bonds,24.29,0
+ia,iA Financial Group,Public bonds and shares,44.39,0
+ia,iA Financial Group,Mortgages and private loans,20.7,0
+ia,iA Financial Group,Real estate and private equity,10.62,0
+rbc_life,RBC Life,Cash and government bonds,33.17,1
+rbc_life,RBC Life,Public bonds and shares,45.29,1
+rbc_life,RBC Life,Mortgages and private loans,19.4,1
+rbc_life,RBC Life,Real estate and private equity,2.14,1
+bmo_life,BMO Life,Cash and government bonds,24.76,0
+bmo_life,BMO Life,Public bonds and shares,63.76,0
+bmo_life,BMO Life,Mortgages and private loans,3.3,0
+bmo_life,BMO Life,Real estate and private equity,8.18,0
+beneva,Beneva,Cash and government bonds,37.04,0
+beneva,Beneva,Public bonds and shares,34.77,0
+beneva,Beneva,Mortgages and private loans,11.16,0
+beneva,Beneva,Real estate and private equity,17.03,0
+ivari,ivari,Cash and government bonds,30.36,0
+ivari,ivari,Public bonds and shares,60.79,0
+ivari,ivari,Mortgages and private loans,7.6,0
+ivari,ivari,Real estate and private equity,1.26,0
+empire_life,Empire Life,Cash and government bonds,42.79,0
+empire_life,Empire Life,Public bonds and shares,47.97,0
+empire_life,Empire Life,Mortgages and private loans,8.13,0
+empire_life,Empire Life,Real estate and private equity,1.11,0
+equitable_life,Equitable Life,Cash and government bonds,15.37,0
+equitable_life,Equitable Life,Public bonds and shares,59.63,0
+equitable_life,Equitable Life,Mortgages and private loans,18.42,0
+equitable_life,Equitable Life,Real estate and private equity,6.58,0
+cooperators_life,Co-operators Life,Cash and government bonds,33.05,0
+cooperators_life,Co-operators Life,Public bonds and shares,57.94,0
+cooperators_life,Co-operators Life,Mortgages and private loans,7.27,0
+cooperators_life,Co-operators Life,Real estate and private equity,1.74,0
+uv_insurance,UV Insurance,Cash and government bonds,3.48,0
+uv_insurance,UV Insurance,Public bonds and shares,90.03,0
+uv_insurance,UV Insurance,Mortgages and private loans,2.2,0
+uv_insurance,UV Insurance,Real estate and private equity,4.29,0
+wawanesa_life,Wawanesa Life,Cash and government bonds,30.39,0
+wawanesa_life,Wawanesa Life,Public bonds and shares,48.19,0
+wawanesa_life,Wawanesa Life,Mortgages and private loans,0.0,0
+wawanesa_life,Wawanesa Life,Real estate and private equity,21.42,0
+assumption_life,Assumption Life,Cash and government bonds,56.11,0
+assumption_life,Assumption Life,Public bonds and shares,21.5,0
+assumption_life,Assumption Life,Mortgages and private loans,22.4,0
+assumption_life,Assumption Life,Real estate and private equity,0.0,0
+foresters_life,Foresters Life,Cash and government bonds,36.81,0
+foresters_life,Foresters Life,Public bonds and shares,57.46,0
+foresters_life,Foresters Life,Mortgages and private loans,0.0,0
+foresters_life,Foresters Life,Real estate and private equity,5.74,0
+canadian_premier,Canadian Premier Life,Cash and government bonds,24.36,0
+canadian_premier,Canadian Premier Life,Public bonds and shares,75.63,0
+canadian_premier,Canadian Premier Life,Mortgages and private loans,0.0,0
+canadian_premier,Canadian Premier Life,Real estate and private equity,0.0,0
+humania,Humania,Cash and government bonds,6.03,0
+humania,Humania,Public bonds and shares,78.12,0
+humania,Humania,Mortgages and private loans,7.49,0
+humania,Humania,Real estate and private equity,8.35,0
+primerica_life,Primerica Life,Cash and government bonds,47.67,0
+primerica_life,Primerica Life,Public bonds and shares,52.32,0
+primerica_life,Primerica Life,Mortgages and private loans,0.0,0
+primerica_life,Primerica Life,Real estate and private equity,0.0,0

@@ -1,0 +1,164 @@
+{
+  "company_id": "foresters_life",
+  "operating_entities": {
+    "source_url": "https://www.foresters.com/en-ca/legal",
+    "page_title": "Legal | Foresters Financial | CA (Terms of use / legal footer)",
+    "retrieved": "2026-11-03",
+    "entities": [
+      {
+        "name": "The Independent Order of Foresters",
+        "parent": null,
+        "description": "'a fraternal benefit society, 789 Don Mills Road, Toronto, Ontario, Canada M3C 1T9'; owner of the Foresters Financial and Foresters trade names and trademarks; 'The Independent Order of Foresters (Foresters Financial) and its affiliated companies. Together, we are the Foresters family of companies.'"
+      },
+      {
+        "name": "Foresters Life Insurance Company",
+        "parent": "The Independent Order of Foresters",
+        "description": "Named on the page as one of IOF's subsidiaries: '... trade names and trademarks of The Independent Order of Foresters ... and its subsidiaries, including Foresters Life Insurance Company.' The Financial strength page adds: 'In 2025, A.M. Best also assigned IOF's subsidiary Foresters Life Insurance Company (FLIC) an A (Excellent) Financial Strength Rating.'"
+      }
+    ],
+    "ga_manager_statement": {
+      "text": "",
+      "source": ""
+    },
+    "note": "foresters.com has no 'our companies' / legal-entities page. The only own-site entity disclosure is the trademark/underwriter footer on the Legal page (repeated on every page) and the Financial strength page (https://www.foresters.com/en-ca/about-us/financial-strength), which names IOF and its subsidiary FLIC. The US financial-strength page refers to 'the US branch of the Independent Order of Foresters' (a branch, not a separate entity). Canada Protection Plan Inc., FLIAC (sold 2020), Foresters Asset Management (sold 2019) and the UK friendly society are NOT named on these pages and are therefore not listed. No general-account manager is named on the site; the OSFI Climate Risk Management Report 2025 (https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/osfi-climate-risk-management-report-2025-en-ca.pdf) says 'The Investments team surveys our asset managers annually on ESG', and AM Best (Oct 2025) states 'investments 100% externally managed'; external managers are not named."
+  },
+  "ceo": {
+    "name": "Matt (Matthew M.) Berman",
+    "title": "President and Chief Executive Officer, Foresters Financial (signs FLIC statements as President & CEO)",
+    "entity": "The Independent Order of Foresters",
+    "reports_to": "IOF Board of Directors (Chair: Daniel J. Fortin)",
+    "seat_since": "2024-01",
+    "firm_since": "2017",
+    "industry_since": null,
+    "prior": "AXA (US), AIG, Zurich Insurance (P&C and life/savings; bio says 30 years in industry); at Foresters: President FLIAC, Chief Distribution Officer, President US (2019), President US & Canada (2023-03)",
+    "tenure_source": "company bio (foresters.com executive-team page); press releases (PR Newswire 2023-03; Newswire.ca Jan 2024)",
+    "comp_total": null,
+    "comp_currency": "CAD",
+    "comp_year": null,
+    "comp_source": "Not disclosed: fraternal benefit society, no proxy circular; IOF FY2025 FS give only aggregate key-management pay",
+    "sources": [
+      "https://www.foresters.com/en-ca/about-us/senior-leadership/executive-team/matt-berman",
+      "https://www.prnewswire.com/news-releases/matt-berman-named-president-foresters-financial-us-and-canada-301758913.html",
+      "https://www.newswire.ca/news-releases/foresters-financial-appoints-matt-berman-as-chief-executive-officer-829453308.html"
+    ],
+    "note": "industry_since left null: bio states '30 years of experience' but gives no start year. No LinkedIn snippet surfaced in search results."
+  },
+  "cio": {
+    "name": "Alvin Sharma",
+    "title": "Global Chief Financial Officer (accountable executive for Investment and Asset Liability Management functions; no Chief Investment Officer title exists on the current leadership page)",
+    "entity": "The Independent Order of Foresters",
+    "reports_to": "Matt Berman, President & CEO",
+    "seat_since": "2018-09",
+    "firm_since": "2018-09",
+    "industry_since": null,
+    "prior": "CFO, Echelon Insurance (c. 2012-2018, ~6 years per Insurance Business); earlier life insurance and asset management roles in the US, UK and Canada; CA (UK), CFA",
+    "tenure_source": "company bio (executive-team page: appointed Sep 2018); press releases (Foresters newsroom Aug 2018; Investment Executive; Insurance Business Canada)",
+    "comp_total": null,
+    "comp_currency": "CAD",
+    "comp_year": null,
+    "comp_source": "Not disclosed (fraternal; aggregate key-management pay only)",
+    "sources": [
+      "https://www.foresters.com/en-ca/about-us/senior-leadership/executive-team/alvin-sharma",
+      "https://www.foresters.com/en/sitecore/content/foresters/home/about-foresters-financial/newsroom/news-releases/alvin-sharma-named-new-global-chief-financial-officer",
+      "https://www.insurancebusinessmag.com/ca/news/breaking-news/foresters-financial-snags-cfo-from-echelon-109732.aspx",
+      "https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf"
+    ],
+    "note": "Designated as the most senior investment officer because his company bio states he is 'responsible for the Global Financial, Investment, Actuarial, Asset Liability Management, Capital management and business planning functions'. AM Best's Oct 2025 officer list still shows 'Chief Investment Officer, Vice President: Clark D. Wagner (Investments)', but public career data (MarketScreener) end Wagner's CIO role on 2019-11-05 when the US asset manager was sold to Macquarie, and foresters.com lists no CIO; treat Wagner as stale. The general account is 100% externally managed (AM Best Oct 2025); an internal 'Investments team' oversees the external asset managers (OSFI Climate Risk Management Report 2025). industry_since null: start of career not given in any source."
+  },
+  "cio_direct_reports": [
+    {
+      "name": "Terence Chan",
+      "title": "Vice President, Finance",
+      "entity": "The Independent Order of Foresters",
+      "reports_to": "Alvin Sharma, Global CFO (inferred from title)",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": null,
+      "tenure_source": null,
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf",
+        "https://linkedin.com/company/foresters"
+      ],
+      "note": "Listed in AM Best's Oct 2025 officer table as 'Vice President: Terence Chan (Finance)'; a Foresters LinkedIn company post names him 'Vice President, Finance'. Function (finance vs investments) only; no date found. reporting_line inferred.",
+      "reporting_line": "inferred from title"
+    },
+    {
+      "name": "Nina Zhang",
+      "title": "AVP, Financial Reporting and Investment Services",
+      "entity": "The Independent Order of Foresters",
+      "reports_to": "Finance function under Alvin Sharma, Global CFO (inferred; may report via VP Finance rather than directly)",
+      "seat_since": "2021-12",
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "Manulife, Scotiabank, Deloitte, Sun Life Financial (order/dates not shown)",
+      "tenure_source": "theorg.com profile (aggregator; unverified)",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://theorg.com/org/foresters-financial/org-chart/nina-zhang"
+      ],
+      "note": "Only named investment-services role found below the CFO. Aggregator source; direct reporting line to Sharma not stated.",
+      "reporting_line": "inferred from title"
+    }
+  ],
+  "other_leaders": [
+    {
+      "name": "Alvin Sharma",
+      "title": "Global Chief Financial Officer",
+      "entity": "The Independent Order of Foresters",
+      "reports_to": "Matt Berman, President & CEO",
+      "seat_since": "2018-09",
+      "firm_since": "2018-09",
+      "industry_since": null,
+      "prior": "CFO, Echelon Insurance (c. 2012-2018, ~6 years per Insurance Business); earlier life insurance and asset management roles in the US, UK and Canada; CA (UK), CFA",
+      "tenure_source": "company bio (executive-team page: appointed Sep 2018); press releases (Foresters newsroom Aug 2018; Investment Executive; Insurance Business Canada)",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "Not disclosed (fraternal; aggregate key-management pay only)",
+      "sources": [
+        "https://www.foresters.com/en-ca/about-us/senior-leadership/executive-team/alvin-sharma",
+        "https://www.foresters.com/en/sitecore/content/foresters/home/about-foresters-financial/newsroom/news-releases/alvin-sharma-named-new-global-chief-financial-officer",
+        "https://www.insurancebusinessmag.com/ca/news/breaking-news/foresters-financial-snags-cfo-from-echelon-109732.aspx",
+        "https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf"
+      ],
+      "note": "Same person as the cio entry (see cio.note). Signs the IOF and FLIC financial statements with the CEO."
+    },
+    {
+      "name": "Caroline Rendall",
+      "title": "Chief Risk Officer (Global CRO; segment CROs report to her)",
+      "entity": "The Independent Order of Foresters",
+      "reports_to": "President & CEO; ERM Committee and CRO overseen by the Board Risk and Investment Committee (AM Best)",
+      "seat_since": "2023-07",
+      "firm_since": "1996",
+      "industry_since": "1996",
+      "prior": "Foresters since 1996: actuarial roles (Valuation, Pricing, Business Planning), then ~8 years in Enterprise Risk Management; FSA, FCIA",
+      "tenure_source": "company bio (executive-team page)",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "Not disclosed (fraternal)",
+      "sources": [
+        "https://www.foresters.com/en-ca/about-us/senior-leadership/executive-team/caroline-rendall",
+        "https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf"
+      ],
+      "note": "industry_since set to 1996 because the bio says she joined Foresters in 1996 in actuarial roles; earlier employment not described."
+    }
+  ],
+  "gaps": [
+    "No legal-entities / operating-companies page on foresters.com: checked /en-ca/about-us, /en-ca/legal (privacy, terms, accessibility tabs), /en-ca/about-us/financial-strength, /en/about-us/financial-strength and the senior-leadership page; used the Legal-page footer disclosure instead.",
+    "No Chief Investment Officer on the current executive-team page (8 executives: Berman, Sharma, Frossard, Rendall, Kapadia, Audhlam-Gardiner, Colavita, Zanin). AM Best Oct 2025 still lists Clark D. Wagner as VP & CIO but he appears to have left in Nov 2019; could not confirm either way (MarketScreener experience page requires login).",
+    "Investments team below the CFO not named anywhere public: only Terence Chan (VP Finance) and Nina Zhang (AVP Financial Reporting & Investment Services, aggregator) found; no head of public fixed income / private credit / ALM identified; external asset managers not named in FY2025 statements.",
+    "Tenure dates null: Berman industry_since; Sharma industry_since; Chan seat/firm/industry; Zhang firm/industry. LinkedIn cannot be fetched and no search snippet showed experience lines.",
+    "Individual executive compensation not disclosed (fraternal benefit society; aggregate key-management pay only, IOF FY2025 FS).",
+    "Web-search budget (200 calls per turn, shared) was exhausted before further searches on Chan, Zhang and Wagner could be run."
+  ],
+  "notes": "Two legal entities: FLIC (OSFI id 28432; the Canadian stock subsidiary) and parent IOF (fraternal; US branch and Canada; UK via a subsidiary). The executive team is global, so FLIC has no separate CEO/CFO/CIO. Investment construct: fully outsourced since the 2019 sale of Foresters Asset Management (to Fiera Capital) and First Investors/FIMCO (to Macquarie); Board Risk and Investment Committee approves the Investment Policy; the Global CFO owns Investment and ALM. Canada Protection Plan (canada_protection_plan.json) is a distribution brand/subsidiary whose policies are underwritten by FLIC/IOF; its CIO section points here. First-round file: analysis/insurer_deep_dive/research/foresters_life.json (pay fields unchanged: none disclosed)."
+}

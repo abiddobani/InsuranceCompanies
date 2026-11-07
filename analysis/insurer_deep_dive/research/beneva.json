@@ -1,0 +1,518 @@
+{
+  "company_id": "beneva",
+  "name": "Beneva (Beneva Inc. / Beneva Mutual)",
+  "as_of": "2025-12-31",
+  "ownership": "Mutual. Beneva Mutual holds 50.7% of Beneva Group Inc. (joint venture); Fonds de solidarite FTQ is co-shareholder (stake not disclosed)",
+  "regulator": "AMF (Quebec); CARLI capital regime",
+  "metrics": [
+    {
+      "metric": "Total assets (Beneva Inc. consolidated)",
+      "value": 29208.1,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "https://www.beneva.ca/en/media/20911/download",
+      "note": "2024: 27,535.6. Group press release also cites 'combined assets of $30.3 billion' incl. Gore (Apr 2026)."
+    },
+    {
+      "metric": "General-account invested assets",
+      "value": 18872.8,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "https://www.beneva.ca/en/media/20911/download",
+      "note": "'Total general fund investments' incl. cash 904.8; bonds 6,424.6; private debt 376.7; equities 2,925.9; mutual funds 7,079.9; loans 980.0; inv. properties 49.3; JV/associates 89.4; derivatives 42.2 (AR p.97)."
+    },
+    {
+      "metric": "Segregated fund net assets",
+      "value": 7066.0,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "https://www.beneva.ca/en/media/20911/download",
+      "note": "2024: 6,691.5"
+    },
+    {
+      "metric": "Funds under management - Financial Services",
+      "value": 14300.0,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "https://www.beneva.ca/en/media/20911/download",
+      "note": "+7.2% y/y; company's own AUM measure for individual wealth (seg funds, investment accounts, mutual funds)."
+    },
+    {
+      "metric": "Business volume (all insurance segments)",
+      "value": 7600.0,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "https://www.beneva.ca/en/media/20911/download",
+      "note": "Record; +7.7%. Group 4,279.2; P&C 2,829.2; Individual insurance 504.3."
+    },
+    {
+      "metric": "Net income (consolidated)",
+      "value": 673.8,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "https://www.beneva.ca/en/media/20911/download",
+      "note": "FY2025, +14.4% (2024: 589.0). Beneva Mutual's share (50.7% JV) = 341.2. No quarterly reporting; no LTM update available."
+    },
+    {
+      "metric": "Return on equity",
+      "value": 14.9,
+      "unit": "%",
+      "as_of": "2025-12-31",
+      "source": "https://www.beneva.ca/en/media/20911/download",
+      "note": "2024: 15.2%"
+    },
+    {
+      "metric": "Total equity (Beneva Inc.)",
+      "value": 4850.0,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "https://www.beneva.ca/en/media/20911/download",
+      "note": "+16.7%"
+    },
+    {
+      "metric": "Solvency ratio (CARLI total, Beneva Inc.)",
+      "value": 163.0,
+      "unit": "%",
+      "as_of": "2025-12-31",
+      "source": "https://www.beneva.ca/en/media/20911/download",
+      "note": "2024: 150%. Internal target not quantified; 'preliminary CARLI ratios exceeded internal targets' (note 17). Core ratio not disclosed."
+    },
+    {
+      "metric": "Financial leverage ratio",
+      "value": null,
+      "unit": "%",
+      "as_of": "2025-12-31",
+      "source": "https://www.beneva.ca/en/media/20911/download",
+      "note": "Not disclosed; long-term debt only C$9.5mm vs equity C$4.85bn, i.e. effectively unlevered."
+    },
+    {
+      "metric": "Credit rating - AM Best FSR (Beneva Inc.)",
+      "value": null,
+      "unit": "A (Excellent), outlook stable",
+      "as_of": "2025-12-31",
+      "source": "https://www.beneva.ca/en/media/20911/download",
+      "note": "Shown on 2025 AR highlights page; first assigned Nov 13, 2023 (https://www.beneva.ca/en/newsroom/AM-Best-Recognizes-Beneva-Financial-Strength). Subsidiaries Beneva Insurance Co., L'Unique, Unica also A (Excellent). No S&P/Moody's/DBRS ratings found."
+    },
+    {
+      "metric": "Employees",
+      "value": 6500,
+      "unit": "people",
+      "as_of": "2026-04-23",
+      "source": "https://www.beneva.ca/en/newsroom/beneva-2025-financial-results",
+      "note": "'Over 6,500 employees' after Gore merger; Jan 2026 release said 'over 5,500'."
+    },
+    {
+      "metric": "Members",
+      "value": 3.8,
+      "unit": "mm",
+      "as_of": "2026-04-23",
+      "source": "https://www.beneva.ca/en/newsroom/beneva-2025-financial-results",
+      "note": "3.5mm before Gore merger (Jan 2026)."
+    },
+    {
+      "metric": "Investments team headcount",
+      "value": null,
+      "unit": "people",
+      "as_of": "",
+      "source": "",
+      "note": "Not disclosed. Portfolio described as 'internally managed' (Apr 2026 results release)."
+    },
+    {
+      "metric": "Listed ticker",
+      "value": null,
+      "unit": "",
+      "as_of": "",
+      "source": "",
+      "note": "None; mutual, no public equity or rated debt."
+    }
+  ],
+  "business_mix": {
+    "basis": "Net income by segment, FY2025 (Beneva Inc.); total 673.8",
+    "as_of": "2025-12-31",
+    "source": "https://www.beneva.ca/en/media/20911/download",
+    "items": [
+      {
+        "label": "Property & casualty insurance",
+        "pct": 40.8,
+        "note": "C$275.1mm, +28.3%"
+      },
+      {
+        "label": "Surplus (investment of shareholder surplus)",
+        "pct": 28.1,
+        "note": "C$189.3mm, +24.1%"
+      },
+      {
+        "label": "Individual insurance & financial services",
+        "pct": 16.8,
+        "note": "C$113.0mm, -11.4%"
+      },
+      {
+        "label": "Group insurance (life, health, disability)",
+        "pct": 14.3,
+        "note": "C$96.4mm, +1.9%"
+      }
+    ],
+    "alt_basis": "Business volume FY2025: Group insurance 56.2% (4,279.2), P&C 37.2% (2,829.2), Individual insurance 6.6% (504.3); plus FS sales 1,657.7."
+  },
+  "people": [
+    {
+      "role": "CEO",
+      "name": "Jean-Francois Chalifoux",
+      "title": "President and CEO, Beneva",
+      "reports_to": "Boards of Beneva Inc. / Beneva Mutual (Chair Jean St-Gelais)",
+      "entity": "Beneva Inc.",
+      "seat_since": 2020,
+      "firm_since": 2015,
+      "industry_since": null,
+      "prior": "CEO SSQ Insurance 2015-2020; executive roles at major Canadian P&C and L&H insurers (Desjardins GM life & health 2014-15 per one profile); FCIA, FCAS",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://beneva.ca/en/team/jean-francois-chalifoux",
+        "https://old.investmentexecutive.com/news/people/ssq-names-new-ceo/"
+      ],
+      "note": "Mutual; no proxy circular, compensation not disclosed. Named CEO of the Year (Nov 2025)."
+    },
+    {
+      "role": "CIO",
+      "name": null,
+      "title": "Not publicly identified",
+      "reports_to": null,
+      "entity": "Beneva Inc.",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": null,
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://beneva.ca/en/team",
+        "https://www.beneva.ca/en/media/20911/download"
+      ],
+      "note": "No investment executive on the 10-person management team page; investments sit under EVP Finance (inferred). Board Investment Committee reviews portfolio quarterly."
+    },
+    {
+      "role": "CFO",
+      "name": "Melissa Gilbert",
+      "title": "EVP and Leader, Finance (also interim Business Performance & IT)",
+      "reports_to": "CEO",
+      "entity": "Beneva Inc.",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "FCPA, FCA, ACS",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://beneva.ca/en/team",
+        "https://www.beneva.ca/en/media/20911/download"
+      ],
+      "note": "Information as of April 1, 2026 (AR). Likely senior executive over the internally managed portfolio (inferred)."
+    },
+    {
+      "role": "CRO",
+      "name": "Michel Fournier",
+      "title": "Vice-President, Risk Management",
+      "reports_to": "Functionally to Risk, Ethics and IT Management Committee of the Board",
+      "entity": "Beneva Inc.",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": null,
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://www.beneva.ca/en/media/20911/download"
+      ],
+      "note": "Listed among 'expanded leadership team members'."
+    },
+    {
+      "role": "Head of Individual Insurance & Financial Services",
+      "name": "Lara Nourcy",
+      "title": "EVP and Leader, Individual Insurance and Financial Services",
+      "reports_to": "CEO",
+      "entity": "Beneva Inc.",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": null,
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://beneva.ca/en/team",
+        "https://www.beneva.ca/en/newsroom/beneva-pursues-its-strategic-transformation"
+      ],
+      "note": "Runs the wealth/seg-fund business (C$14.3bn FUM)."
+    },
+    {
+      "role": "Head of Group Insurance",
+      "name": "Eric Trudel",
+      "title": "EVP and Leader, Group Insurance",
+      "reports_to": "CEO",
+      "entity": "Beneva Inc.",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "FCIA, FSA",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://beneva.ca/en/team"
+      ],
+      "note": ""
+    }
+  ],
+  "pm_structure": {
+    "summary": "General account managed in-house by Beneva's investment team under a Board-approved investment policy; private markets accessed through external fund managers; Board Investment Committee oversight.",
+    "manager_entities": [
+      "Beneva Inc. in-house investment team",
+      "External private-market fund managers (unnamed)",
+      "Beneva Investment Services Inc. (fund dealer subsidiary)",
+      "Beneva Real Estate Management Inc. (property management)"
+    ],
+    "bullets": [
+      "Results release: carbon intensity of 'the internally managed portfolio' down 39% vs 2021 - confirms in-house management (Apr 2026).",
+      "Investment policy approved by Board; compliance checked monthly; deviations and return-to-compliance plans to Board quarterly (AR note 7).",
+      "Investment Committee of the Board carries out regular reviews of the portfolio and its transactions (AR note 7).",
+      "Private debt and private-company investments (C$1.5bn) valued using values published by external managers, i.e. fund/LP structures (AR note 6).",
+      "Investments segmented by line of business and surplus for matching; FVTPL designation used for matching assets (AR note 3).",
+      "C$7.1bn of general-fund 'mutual funds' - a substantial portion of returns accrue to policyholders (UL/investment accounts) (AR note 7)."
+    ],
+    "sources": [
+      "https://www.beneva.ca/en/newsroom/beneva-2025-financial-results",
+      "https://www.beneva.ca/en/media/20911/download"
+    ]
+  },
+  "rotation_commentary": [
+    {
+      "year": 2025,
+      "text": "Private-company investments rose to C$1,533.9mm from 1,330.6 (purchases 253.9): private debt funds 484.2, infrastructure equity 458.6, real estate 355.4, other 235.7.",
+      "source": "https://www.beneva.ca/en/media/20911/download"
+    },
+    {
+      "year": 2025,
+      "text": "Private debt designated FVTPL 284.9 (2024: 290.9); weighted average effective rates: bonds 4.0%, private debt 5.7% (2024: 6.4%), loans 4.0%.",
+      "source": "https://www.beneva.ca/en/media/20911/download"
+    },
+    {
+      "year": 2025,
+      "text": "Over C$2.955bn of general-fund investments in green bonds, energy transition, renewables, social infrastructure and sustainable buildings; carbon intensity -39% vs 2021.",
+      "source": "https://www.beneva.ca/en/media/20911/download"
+    },
+    {
+      "year": 2025,
+      "text": "Mutual-fund holdings in the general fund grew to C$7,079.9mm from 6,325.8 (equity funds 4,055.9; diversified 2,745.2) on market gains and UL deposits.",
+      "source": "https://www.beneva.ca/en/media/20911/download"
+    },
+    {
+      "year": 2026,
+      "text": "Gore Mutual (P&C) merged Jan 1, 2026; Gore's general account joins Beneva's; integration with Unica over 2026.",
+      "source": "https://www.beneva.ca/en/newsroom/merger-beneva-gore"
+    }
+  ],
+  "target_allocations": [
+    {
+      "asset_class": "Corporate bonds (L&H subsidiaries)",
+      "target": "Max 40% of total bond and money-market portfolio",
+      "source": "https://www.beneva.ca/en/media/20911/download"
+    },
+    {
+      "asset_class": "Corporate bonds (P&C subsidiaries)",
+      "target": "Max 80% of total bond and money-market portfolio",
+      "source": "https://www.beneva.ca/en/media/20911/download"
+    },
+    {
+      "asset_class": "Bond credit quality",
+      "target": "Minimum DBRS B or equivalent; issuer limits for rated/unrated municipals",
+      "source": "https://www.beneva.ca/en/media/20911/download"
+    },
+    {
+      "asset_class": "Private debt",
+      "target": "Issuer limits as % of total yielding assets, varying by investment type",
+      "source": "https://www.beneva.ca/en/media/20911/download"
+    },
+    {
+      "asset_class": "Reinsurer quality",
+      "target": "Minimum A- (AM Best or equivalent)",
+      "source": "https://www.beneva.ca/en/media/20911/download"
+    }
+  ],
+  "leverage": {
+    "debt_outstanding": [
+      {
+        "type": "Long-term debt (unspecified)",
+        "amount_cad_mm": 9.5,
+        "as_of": "2025-12-31",
+        "source": "https://www.beneva.ca/en/media/20911/download",
+        "note": "Fair value; contractual maturity under 1 year. 2024: 10.6."
+      },
+      {
+        "type": "Lines of credit and other credit facilities (held with related companies)",
+        "amount_cad_mm": 32.0,
+        "as_of": "2025-12-31",
+        "source": "https://www.beneva.ca/en/media/20911/download",
+        "note": "Facility size, bearing interest; drawn amount not disclosed. Beneva Mutual separately holds C$20mm of facilities."
+      },
+      {
+        "type": "Subordinated debt / LRCNs / preferred shares / hybrids",
+        "amount_cad_mm": 0,
+        "as_of": "2025-12-31",
+        "source": "https://www.beneva.ca/en/media/20911/download",
+        "note": "None disclosed."
+      }
+    ],
+    "financial_leverage_ratio_pct": null,
+    "issuance": [],
+    "securities_lending": {
+      "amount_cad_mm": 1050.5,
+      "as_of": "2025-12-31",
+      "text": "Loaned securities (carrying amount) 1,050.5 (2024: 1,069.6); collateral of at least 102% of fair value held by custodian; monitored daily.",
+      "source": "https://www.beneva.ca/en/media/20911/download"
+    },
+    "repos": {
+      "amount_cad_mm": 744.4,
+      "as_of": "2025-12-31",
+      "text": "'Repurchased securities' presented in investments 744.4 (2024: 729.5), i.e. securities sold under repurchase agreements, still recognised; GMRA collateral arrangements.",
+      "source": "https://www.beneva.ca/en/media/20911/download"
+    },
+    "structured_indirect": [
+      {
+        "text": "Private debt funds (external managers) 484.2 and infrastructure-related private debt; no CLO/ABS, NAV or fund-finance exposure disclosed.",
+        "amount_cad_mm": 484.2,
+        "source": "https://www.beneva.ca/en/media/20911/download"
+      },
+      {
+        "text": "Derivatives: FX forwards, equity index futures, swaps supporting L&H liabilities; FV asset 42.2, liability cash outflows 305.3 (undiscounted); ISDA/GMRA collateral.",
+        "amount_cad_mm": 42.2,
+        "source": "https://www.beneva.ca/en/media/20911/download"
+      }
+    ]
+  },
+  "partnerships": {
+    "underwriters": [],
+    "deals": [
+      {
+        "year": 2020,
+        "text": "SSQ Insurance and La Capitale merge to form Beneva, Canada's largest insurance mutual (legal amalgamation completed 2023).",
+        "source": "https://en.wikipedia.org/wiki/Beneva"
+      },
+      {
+        "year": 2025,
+        "text": "Jan 21, 2025: Beneva and Gore Mutual (Cambridge, ON, P&C) announce merger; member votes, Competition Bureau and private bills in Senate and Quebec National Assembly.",
+        "source": "https://www.beneva.ca/en/newsroom/beneva-gore-mutual-merge"
+      },
+      {
+        "year": 2026,
+        "text": "Jan 1, 2026: merger completed; Gore Mutual becomes Gore Insurance Company, a Beneva subsidiary; Andy Taylor named EVP P&C Ontario & West. Advisers not named.",
+        "source": "https://www.beneva.ca/en/newsroom/merger-beneva-gore"
+      },
+      {
+        "year": 2024,
+        "text": "Acquired an interest in a 'multidisciplinary financial services firm' (associate); associates also include P&C brokerages.",
+        "source": "https://www.beneva.ca/en/media/20911/download"
+      }
+    ],
+    "sponsorships": [
+      {
+        "year": 2025,
+        "text": "Title partner of Beneva Montreal Marathon (32,500 runners), Beneva Quebec City Marathon (17,000), Beneva Spring Run-Off (Toronto), Beneva Mississauga Marathon; presenting partner Defi Entreprises.",
+        "source": "https://www.beneva.ca/en/media/20911/download"
+      },
+      {
+        "year": 2026,
+        "text": "Title partner, Vancouver Half Marathon (Canada Running Series), announced Nov 27, 2025.",
+        "source": "https://www.beneva.ca/en/newsroom/canada-running-series-welcomes-beneva-as-official-title-partner-vancouver-half-marathon"
+      },
+      {
+        "year": 2026,
+        "text": "Title sponsor, Calgary Marathon (announced Sep 17, 2026).",
+        "source": "https://www.beneva.ca/en/newsroom/beneva-sponsor-calgary-marathon-2026"
+      },
+      {
+        "year": 2026,
+        "text": "Official partner, UCI Road World Championships Montreal 2026 (announced Dec 1, 2025).",
+        "source": "https://www.beneva.ca/en/newsroom/beneva-becomes-official-partner-uci-road-wold-championships-montreal-2026"
+      },
+      {
+        "year": 2024,
+        "text": "Renewed partnerships with Videotron Centre, Quebec Remparts (QMJHL) and Quebec City Marathon (Dec 2024).",
+        "source": "https://www.beneva.ca/en/newsroom/renewal-partnership-videotron-centre-remparts-marathon-quebec-2024"
+      },
+      {
+        "year": 2023,
+        "text": "Renewed partnership with the Montreal Alouettes (CFL).",
+        "source": "https://www.beneva.ca/en/newsroom/alouettes-renew-partnership-2023"
+      },
+      {
+        "year": 2026,
+        "text": "Fondation Aleo student-athlete scholarships, 17th year.",
+        "source": "https://www.beneva.ca/en/newsroom/beneva-scholarship-fondation-aleo-student-athletes-2026"
+      }
+    ],
+    "bank_relationships": [
+      {
+        "text": "Fonds de solidarite FTQ is co-shareholder of Beneva Group Inc. alongside Beneva Mutual (50.7%); several directors are ex-FTQ executives.",
+        "source": "https://www.beneva.ca/en/media/20911/download"
+      },
+      {
+        "text": "Cash and cash in trust invested with Canadian chartered banks; derivative counterparties under ISDA/GMRA with collateral.",
+        "source": "https://www.beneva.ca/en/media/20911/download"
+      }
+    ]
+  },
+  "risk": {
+    "appetite": [
+      "Board sets risk tolerance; policies approved by Board, monitored by committees (AR note 7).",
+      "Credit limits: corporate bonds max 40% (L&H) / 80% (P&C) of bond+MM portfolio; min rating B (DBRS); issuer, sector, geographic limits.",
+      "No derivatives used for speculation; FX hedging of foreign debt/equity/mutual funds.",
+      "Reinsurers minimum A- (AM Best); risk adjustment confidence level 75-80%."
+    ],
+    "governance": [
+      "Risk Management function identifies/quantifies all risks; VP Risk Management Michel Fournier functionally reports to Board Risk, Ethics and IT Management Committee.",
+      "Board Investment Committee reviews portfolio and transactions; audit committees liaise with other committees; Internal Audit (Josee Grondines) reports to Audit Committee.",
+      "Appointed Actuary runs annual FCT for Beneva Inc. and each insurance subsidiary; 5-year capital forecasts incl. CARLI/MCT filed with AMF."
+    ],
+    "capital_target": "Internal CARLI (Beneva Inc.) and MCT (P&C subs) targets above AMF minimums; levels not disclosed. Reported CARLI 163% (2025) vs 150% (2024).",
+    "sensitivities": [
+      "Rates +100bp: net income +0.6, OCI -69.0, CSM +5.3 (C$mm, 2025).",
+      "Rates -100bp: net income +3.3, OCI +75.9, CSM -10.6 (C$mm, 2025).",
+      "Equity -15% (common shares/mutual funds, ex policyholder pass-through): net income -74.7, OCI -1.8 (2025).",
+      "Equity -15% on fee/guarantee exposure (seg funds, UL): CSM -63.7, net income -14.6 (2025).",
+      "Currency: mainly USD; hedged with forwards. Private assets: no sensitivity performed (external manager values)."
+    ],
+    "hedging": [
+      "FX forwards hedge currency on foreign debt, equity and mutual fund holdings; equity index futures and swaps support L&H liabilities; cash-flow matching by line of business."
+    ],
+    "events": [
+      "Gore Mutual merger closed Jan 1, 2026 (P&C); Unica integration 2026.",
+      "2025: tariff/geopolitical and climate risks flagged as emerging risks; Risk function monitors.",
+      "2025 P&C results helped by milder weather than 2024."
+    ],
+    "sources": [
+      "https://www.beneva.ca/en/media/20911/download",
+      "https://www.beneva.ca/en/newsroom/beneva-2025-financial-results"
+    ]
+  },
+  "gaps": [
+    "Mutual: no proxy circular; executive compensation not disclosed for any officer.",
+    "No named Chief Investment Officer or head of fixed income/private markets on management team page or in AR; investments team headcount not disclosed.",
+    "Exact FTQ stake in Beneva Group Inc. not disclosed (Beneva Mutual 50.7%; remainder via Fonds de solidarite FTQ / Societe financiere Beneva).",
+    "No quarterly reporting; latest figures are FY2025 (Dec 31, 2025); no LTM/YTD 2026.",
+    "Core CARLI ratio and internal capital target range not disclosed.",
+    "Beneva has no public debt, so no issuance/bookrunner history.",
+    "Web search budget exhausted before confirming 2025/2026 AM Best affirmation press release; rating taken from the FY2025 annual report."
+  ],
+  "notes": "The 2025 annual report (79 PDF pages, two report pages per PDF page) contains Beneva Mutual's statements plus the full consolidated statements of Beneva Group Inc./Beneva Inc. Beneva Inc. is the AMF-regulated L&H insurer that also owns the P&C subsidiaries (Beneva Insurance Co., L'Unique, Unica, Gore). Segment net income percentages computed from AR figures (96.4+275.1+113.0+189.3=673.8)."
+}

@@ -1,0 +1,24 @@
+id: empire_life
+name: Empire Life
+anchor: SVP & CIO, Empire Life; President & CIO, Empire Life Investments
+src: a | Empire Life, Our Leadership page | https://www.empire.ca/about-us/our-leadership
+src: b | Empire Life Investments, Investment team page | https://www.empirelifeinvestments.ca/investment-team
+src: li1 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/fungian
+src: li2 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/adrian-dolgan
+src: li3 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/khoslaneeraj
+src: li4 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/doug-cooper-cfa-b17b8350
+src: li5 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/lynn-guo-525a44372
+src: li6 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/nitasha-ragnauth-cpa-ca-266957149
+L1 | Paul Holba | SVP & CIO (CIO since Jul 2022; President of Empire Life Investments since May 2025) | H | a,b
+L2 | Geoff Johnston | Leads Fixed Income & Private Placements team | H | b | ~
+L3 | Ian Fung | Senior Portfolio Manager, Fixed Income, since Jul 2023 | M | li1 | ~
+L3 | Michael Schroeter | Private Placements (general fund private debt) | H | b | ~
+L2 | Albert Ngo | Senior PM & Head of Alternative Assets | H | b | ~
+L3 | Adrian Dolgan | Senior Investment Strategist (real estate, PE, infrastructure) | L | li2 | ~
+L2 | Ashley Misquitta | Senior PM & Investment Strategist (US & global equities) | H | b | ~
+L3 | Neeraj Khosla | PM, Global Equities | L | li3 | ~
+L2 | Jennifer Law | Senior PM, Canadian Equities | H | b | ~
+L2 | Doug Cooper | Senior Portfolio Manager, since Jan 2019 | M | li4 | ~
+L2 | Lynn Guo | Director | M | li5 | ~
+L2 | Nitasha Ragnauth | CFO, Empire Life Investments, since Sep 2023 | L | li6 | ~
+note: Roles from the Empire Life Investments team page and LinkedIn; neither gives reporting lines.

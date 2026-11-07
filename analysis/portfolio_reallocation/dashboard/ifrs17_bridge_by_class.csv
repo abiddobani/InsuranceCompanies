@@ -1,0 +1,13 @@
+company_id,company,asset_class,ifrs4_share_pct,ifrs17_restated_share_pct,difference_pp
+ia,iA Financial Group,Cash & short-term,3.4979,3.5214,0.0235
+ia,iA Financial Group,Bonds,70.1646,67.7238,-2.4408
+ia,iA Financial Group,Mortgages & loans,7.3045,9.6048,2.3003
+ia,iA Financial Group,Equities,10.3909,10.445,0.054
+ia,iA Financial Group,Real estate,4.6296,4.6779,0.0483
+ia,iA Financial Group,Other invested assets,4.0123,4.0271,0.0147
+beneva,Beneva,Cash & short-term,7.7906,7.7906,0.0
+beneva,Beneva,Bonds,59.758,59.758,0.0
+beneva,Beneva,Mortgages & loans,10.7235,10.7235,0.0
+beneva,Beneva,Equities,20.9684,20.9684,0.0
+beneva,Beneva,Real estate,0.5139,0.5139,0.0
+beneva,Beneva,Other invested assets,0.2455,0.2455,0.0

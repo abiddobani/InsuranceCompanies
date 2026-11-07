@@ -1,0 +1,21 @@
+id: wawanesa_life
+name: Wawanesa Life
+anchor: President & CEO of The Wawanesa Mutual Insurance Company, who is also President & CEO of The Wawanesa Life Insurance Company
+src: a | Wawanesa 2025 Annual Report, Executive Leadership Team (listings as of 2026-05-28) | https://www.wawanesa.com/resources/docs/canada/annual-reports/Wawanesa-2025-Annual-Report.pdf
+src: b | Wawanesa release (Jan 2025): Evan Johnston announces organizational changes and executive team | https://www.wawanesa.com/canada/news/evan-johnston-announces-organizational-changes-and-executive-team-appointments
+src: c | Insurance Business (2026-06-29): Maja Dos Santos SVP & CRO joins ELT; Julia Vul VP Corporate Actuarial & Appointed Actuary | https://www.insurancebusinessmag.com/ca/news/breaking-news/wawanesa-appoints-maja-dos-santos-julia-vul-to-executive-leadership-team-580716.aspx
+src: d | ZoomInfo / RocketReach profiles: Wes Peters, VP Investments | https://www.zoominfo.com/p/Wesley-Peters/92019596
+L1 | Evan Johnston | President & Chief Executive Officer | H | a,b
+L2 | Mike Brisebois | SVP, Chief Claims & Life Co. Officer (leads Wawanesa Life) | H | a
+L2 | Gord Dowhan | SVP, Chief Financial Officer | H | a,b
+L3 | Wes Peters | VP, Investments | L | d | ~
+L3 | Julia Vul | VP, Corporate Actuarial & Appointed Actuary | M | c | ~
+L2 | Maja Dos Santos | SVP, Chief Risk Officer | M | c
+L2 | James Bond | SVP, Chief Legal Officer (Chief Risk & Legal Officer in the 2025 report) | H | a
+L2 | Kimberly Palatnick | SVP, Chief Personal Lines Officer | H | a
+L2 | Anna McCrindell | SVP, Chief Commercial Lines Officer | H | a
+L2 | Lambert Morvan | SVP, Chief Distribution Officer | H | a
+L2 | Jocelyne Prefontaine | SVP, Chief Strategy Officer | H | a
+L2 | Randy Dhillon | SVP, Chief People Officer | H | a
+L2 | Michael Lin | SVP, Chief Information & Technology Officer | H | a
+note: There is no leadership page on wawanesa.com; the 2025 Annual Report's Executive Leadership Team (as of 2026-05-28) is the base, with the June 2026 CRO appointment added. Wawanesa Life's own management below Mike Brisebois is not published; investments for both the P&C and Life companies sit with a group Investment team that oversees external managers.

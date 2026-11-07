@@ -1,0 +1,168 @@
+{
+  "company_id": "canada_protection_plan",
+  "operating_entities": {
+    "source_url": "https://www.cpp.ca/about-us/",
+    "page_title": "About us | Canada Protection Plan from Foresters Financial (page body + site-wide legal footer)",
+    "retrieved": "2026-11-03",
+    "entities": [
+      {
+        "name": "The Independent Order of Foresters (Foresters Financial)",
+        "parent": null,
+        "description": "'a fraternal benefit society, 789 Don Mills Rd, Toronto, Ontario, Canada M3C 1T9'; 'Foresters Financial is an international financial services provider with deep Canadian roots. Headquartered in Toronto ... In 2020, Foresters Financial acquired Canada Protection Plan'; named with FLIC as underwriter of CPP policies."
+      },
+      {
+        "name": "Canada Protection Plan Inc.",
+        "parent": "The Independent Order of Foresters (Foresters Financial)",
+        "description": "'Canada Protection Plan and the logo are a trademark of Canada Protection Plan Inc. from Foresters Financial.' The brand 'Canada Protection Plan from Foresters Financial' is 'a leading provider of no medical, simplified issue life insurance in Canada'; distribution via its Licensed Insurance Advisors or independent advisors."
+      },
+      {
+        "name": "Foresters Life Insurance Company",
+        "parent": null,
+        "description": "'No medical, simplified issue life and critical illness insurance underwritten by The Independent Order of Foresters or Foresters Life Insurance Company.' The cpp.ca page does not itself state FLIC's parent (foresters.com's Legal page names FLIC as an IOF subsidiary)."
+      }
+    ],
+    "ga_manager_statement": {
+      "text": "",
+      "source": ""
+    },
+    "note": "cpp.ca has no legal-entities or leadership page (/legal returns 404; /about-us, /about-us-old, /legal-terms-and-conditions-life-insurance and /privacy-policy-life-insurance all carry the same footer). The footer is the operating-entities disclosure. Older marketing PDFs on cpp.ca add 'Used under license' and name FLIC as 'a subsidiary of The Independent Order of Foresters'. CPP Inc. holds no general account; invested assets sit with FLIC/IOF (see foresters_life.json)."
+  },
+  "ceo": {
+    "name": "Matt (Matthew M.) Berman",
+    "title": "President and Chief Executive Officer, Foresters Financial (signs FLIC statements as President & CEO)",
+    "entity": "The Independent Order of Foresters",
+    "reports_to": "IOF Board of Directors (Chair: Daniel J. Fortin)",
+    "seat_since": "2024-01",
+    "firm_since": "2017",
+    "industry_since": null,
+    "prior": "AXA (US), AIG, Zurich Insurance (P&C and life/savings; bio says 30 years in industry); at Foresters: President FLIAC, Chief Distribution Officer, President US (2019), President US & Canada (2023-03)",
+    "tenure_source": "company bio (foresters.com executive-team page); press releases (PR Newswire 2023-03; Newswire.ca Jan 2024)",
+    "comp_total": null,
+    "comp_currency": "CAD",
+    "comp_year": null,
+    "comp_source": "Not disclosed: fraternal benefit society, no proxy circular; IOF FY2025 FS give only aggregate key-management pay",
+    "sources": [
+      "https://www.foresters.com/en-ca/about-us/senior-leadership/executive-team/matt-berman",
+      "https://www.prnewswire.com/news-releases/matt-berman-named-president-foresters-financial-us-and-canada-301758913.html",
+      "https://www.newswire.ca/news-releases/foresters-financial-appoints-matt-berman-as-chief-executive-officer-829453308.html"
+    ],
+    "note": "No CPP-specific president is named on cpp.ca or in Foresters releases after Henry Auyeung (President, Canada Protection Plan and TPA Outsourcing from Jul 2015; retired 2023). Berman, as President US & Canada (2023-03) and then CEO (2024-01), is the accountable executive for the CPP brand. industry_since left null: bio states '30 years of experience' but gives no start year. No LinkedIn snippet surfaced in search results."
+  },
+  "cio": {
+    "name": "Alvin Sharma",
+    "title": "Global Chief Financial Officer (accountable executive for Investment and Asset Liability Management functions; no Chief Investment Officer title exists on the current leadership page)",
+    "entity": "The Independent Order of Foresters",
+    "reports_to": "Matt Berman, President & CEO",
+    "seat_since": "2018-09",
+    "firm_since": "2018-09",
+    "industry_since": null,
+    "prior": "CFO, Echelon Insurance (c. 2012-2018, ~6 years per Insurance Business); earlier life insurance and asset management roles in the US, UK and Canada; CA (UK), CFA",
+    "tenure_source": "company bio (executive-team page: appointed Sep 2018); press releases (Foresters newsroom Aug 2018; Investment Executive; Insurance Business Canada)",
+    "comp_total": null,
+    "comp_currency": "CAD",
+    "comp_year": null,
+    "comp_source": "Not disclosed (fraternal; aggregate key-management pay only)",
+    "sources": [
+      "https://www.foresters.com/en-ca/about-us/senior-leadership/executive-team/alvin-sharma",
+      "https://www.foresters.com/en/sitecore/content/foresters/home/about-foresters-financial/newsroom/news-releases/alvin-sharma-named-new-global-chief-financial-officer",
+      "https://www.insurancebusinessmag.com/ca/news/breaking-news/foresters-financial-snags-cfo-from-echelon-109732.aspx",
+      "https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf"
+    ],
+    "note": "CPP has no investment function; per the brief, the CIO section uses Foresters' investment leadership. Designated as the most senior investment officer because his company bio states he is 'responsible for the Global Financial, Investment, Actuarial, Asset Liability Management, Capital management and business planning functions'. AM Best's Oct 2025 officer list still shows 'Chief Investment Officer, Vice President: Clark D. Wagner (Investments)', but public career data (MarketScreener) end Wagner's CIO role on 2019-11-05 when the US asset manager was sold to Macquarie, and foresters.com lists no CIO; treat Wagner as stale. The general account is 100% externally managed (AM Best Oct 2025); an internal 'Investments team' oversees the external asset managers (OSFI Climate Risk Management Report 2025). industry_since null: start of career not given in any source."
+  },
+  "cio_direct_reports": [
+    {
+      "name": "Terence Chan",
+      "title": "Vice President, Finance",
+      "entity": "The Independent Order of Foresters",
+      "reports_to": "Alvin Sharma, Global CFO (inferred from title)",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": null,
+      "tenure_source": null,
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf",
+        "https://linkedin.com/company/foresters"
+      ],
+      "note": "Listed in AM Best's Oct 2025 officer table as 'Vice President: Terence Chan (Finance)'; a Foresters LinkedIn company post names him 'Vice President, Finance'. Function (finance vs investments) only; no date found. reporting_line inferred.",
+      "reporting_line": "inferred from title"
+    },
+    {
+      "name": "Nina Zhang",
+      "title": "AVP, Financial Reporting and Investment Services",
+      "entity": "The Independent Order of Foresters",
+      "reports_to": "Finance function under Alvin Sharma, Global CFO (inferred; may report via VP Finance rather than directly)",
+      "seat_since": "2021-12",
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "Manulife, Scotiabank, Deloitte, Sun Life Financial (order/dates not shown)",
+      "tenure_source": "theorg.com profile (aggregator; unverified)",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://theorg.com/org/foresters-financial/org-chart/nina-zhang"
+      ],
+      "note": "Only named investment-services role found below the CFO. Aggregator source; direct reporting line to Sharma not stated.",
+      "reporting_line": "inferred from title"
+    }
+  ],
+  "other_leaders": [
+    {
+      "name": "Alvin Sharma",
+      "title": "Global Chief Financial Officer",
+      "entity": "The Independent Order of Foresters",
+      "reports_to": "Matt Berman, President & CEO",
+      "seat_since": "2018-09",
+      "firm_since": "2018-09",
+      "industry_since": null,
+      "prior": "CFO, Echelon Insurance (c. 2012-2018, ~6 years per Insurance Business); earlier life insurance and asset management roles in the US, UK and Canada; CA (UK), CFA",
+      "tenure_source": "company bio (executive-team page: appointed Sep 2018); press releases (Foresters newsroom Aug 2018; Investment Executive; Insurance Business Canada)",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "Not disclosed (fraternal; aggregate key-management pay only)",
+      "sources": [
+        "https://www.foresters.com/en-ca/about-us/senior-leadership/executive-team/alvin-sharma",
+        "https://www.foresters.com/en/sitecore/content/foresters/home/about-foresters-financial/newsroom/news-releases/alvin-sharma-named-new-global-chief-financial-officer",
+        "https://www.insurancebusinessmag.com/ca/news/breaking-news/foresters-financial-snags-cfo-from-echelon-109732.aspx",
+        "https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf"
+      ],
+      "note": "Same person as the cio entry (see cio.note). Signs the IOF and FLIC financial statements with the CEO."
+    },
+    {
+      "name": "Caroline Rendall",
+      "title": "Chief Risk Officer (Global CRO; segment CROs report to her)",
+      "entity": "The Independent Order of Foresters",
+      "reports_to": "President & CEO; ERM Committee and CRO overseen by the Board Risk and Investment Committee (AM Best)",
+      "seat_since": "2023-07",
+      "firm_since": "1996",
+      "industry_since": "1996",
+      "prior": "Foresters since 1996: actuarial roles (Valuation, Pricing, Business Planning), then ~8 years in Enterprise Risk Management; FSA, FCIA",
+      "tenure_source": "company bio (executive-team page)",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "Not disclosed (fraternal)",
+      "sources": [
+        "https://www.foresters.com/en-ca/about-us/senior-leadership/executive-team/caroline-rendall",
+        "https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf"
+      ],
+      "note": "industry_since set to 1996 because the bio says she joined Foresters in 1996 in actuarial roles; earlier employment not described."
+    }
+  ],
+  "gaps": [
+    "No CPP-specific leadership page or named head of Canada Protection Plan since Auyeung's 2023 retirement (checked cpp.ca/about-us, /about-us-old, /about-us/our-advisors, legal and privacy pages; Foresters newsroom releases 2023-2026 via search).",
+    "Entity hierarchy on cpp.ca is footer-level only; FLIC's parent is not stated on cpp.ca (taken from foresters.com in the note, not in the entity list).",
+    "Same investment-team and tenure gaps as foresters_life.json (no CIO title; investments team unnamed; null tenure dates for Berman/Sharma industry_since and for Chan/Zhang).",
+    "Compensation not disclosed (fraternal parent).",
+    "Web-search budget exhausted this session before a dedicated search for a 'Head of Canada Protection Plan' on aggregator sites could be run."
+  ],
+  "notes": "Deck treatment: CPP is a distribution brand / insurance-broker-and-administrator subsidiary of IOF (IOF FY2025 FS note 22), not an insurer; OSFI id 28432 is FLIC's. CEO, CIO, direct reports and other leaders are copied from foresters_life.json as instructed ('use the Foresters investment leadership for its CIO section'). Primerica's Canadian disclosure page confirms the distribution tie: Primerica representatives market no-medical insurance 'offered through Canada Protection Plan Inc. and ... underwritten by Foresters Life Insurance Company'."
+}

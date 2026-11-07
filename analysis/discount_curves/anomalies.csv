@@ -1,0 +1,6 @@
+company_id,period,region,lob,tenor,filed,reason
+rbc_life,2024Q3,Canada,Participating,70,3.38,breaks an otherwise flat curve; dropped
+rbc_life,2024Q4,Canada,Participating,70,3.38,breaks an otherwise flat curve; dropped
+rbc_life,2025Q1,Canada,Participating,70,3.6,breaks an otherwise flat curve; dropped
+rbc_life,2025Q2,Canada,Participating,70,3.6,breaks an otherwise flat curve; dropped
+rbc_life,2025Q3,Canada,Participating,70,3.6,breaks an otherwise flat curve; dropped

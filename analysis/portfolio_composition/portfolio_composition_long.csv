@@ -1,0 +1,343 @@
+company_id,company,as_of,level1,level2,level3,amount_cad_mm,pct_of_portfolio
+manulife,Manulife,2026-06-30,Internally Managed,Public Fixed Income,Asset Backed Securities,3470.0,0.00769
+manulife,Manulife,2026-06-30,Internally Managed,Public Fixed Income,Corporate Bonds,131739.0,0.29189
+manulife,Manulife,2026-06-30,Internally Managed,Public Fixed Income,Government Bonds,87664.0,0.19423
+manulife,Manulife,2026-06-30,Internally Managed,Public Fixed Income,Bonds (issuer n/d),0.0,0.0
+manulife,Manulife,2026-06-30,Internally Managed,Public Equity,Common Shares,48273.0,0.10696
+manulife,Manulife,2026-06-30,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+manulife,Manulife,2026-06-30,Internally Managed,Private Fixed Income,Commercial Mortgages,30395.0,0.06735
+manulife,Manulife,2026-06-30,Internally Managed,Private Fixed Income,Illiquid Term Loans,54883.0,0.1216
+manulife,Manulife,2026-06-30,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+manulife,Manulife,2026-06-30,Internally Managed,Private Fixed Income,Co-Investments,0.0,0.0
+manulife,Manulife,2026-06-30,Internally Managed,Private Fixed Income,Policy & Other Loans,5056.0,0.0112
+manulife,Manulife,2026-06-30,Internally Managed,Cash & Cash Equivalents,Cash,27540.0,0.06102
+manulife,Manulife,2026-06-30,Externally Managed,Equity,Real Estate Equity,9759.0,0.02162
+manulife,Manulife,2026-06-30,Externally Managed,Equity,Infrastructure Equity,19841.0,0.04396
+manulife,Manulife,2026-06-30,Externally Managed,Equity,Other Private Equity,32711.0,0.07248
+manulife,Manulife,2026-06-30,Externally Managed,Debt,Infrastructure Debt,0.0,0.0
+manulife,Manulife,2026-06-30,Externally Managed,Debt,Structured Products,0.0,0.0
+manulife,Manulife,2026-06-30,Externally Managed,Debt,Other Private Debt,0.0,0.0
+manulife,Manulife,2026-06-30,Other,Other,Other / Unclassified,0.0,0.0
+sun_life,Sun Life,2026-06-30,Internally Managed,Public Fixed Income,Asset Backed Securities,16125.0,0.07729
+sun_life,Sun Life,2026-06-30,Internally Managed,Public Fixed Income,Corporate Bonds,46552.0,0.22314
+sun_life,Sun Life,2026-06-30,Internally Managed,Public Fixed Income,Government Bonds,30559.0,0.14648
+sun_life,Sun Life,2026-06-30,Internally Managed,Public Fixed Income,Bonds (issuer n/d),0.0,0.0
+sun_life,Sun Life,2026-06-30,Internally Managed,Public Equity,Common Shares,14298.0,0.06853
+sun_life,Sun Life,2026-06-30,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+sun_life,Sun Life,2026-06-30,Internally Managed,Private Fixed Income,Commercial Mortgages,13178.0,0.06317
+sun_life,Sun Life,2026-06-30,Internally Managed,Private Fixed Income,Illiquid Term Loans,45948.0,0.22024
+sun_life,Sun Life,2026-06-30,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+sun_life,Sun Life,2026-06-30,Internally Managed,Private Fixed Income,Co-Investments,0.0,0.0
+sun_life,Sun Life,2026-06-30,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+sun_life,Sun Life,2026-06-30,Internally Managed,Cash & Cash Equivalents,Cash,14788.0,0.07088
+sun_life,Sun Life,2026-06-30,Externally Managed,Equity,Real Estate Equity,9795.0,0.04695
+sun_life,Sun Life,2026-06-30,Externally Managed,Equity,Infrastructure Equity,0.0,0.0
+sun_life,Sun Life,2026-06-30,Externally Managed,Equity,Other Private Equity,17383.0,0.08332
+sun_life,Sun Life,2026-06-30,Externally Managed,Debt,Infrastructure Debt,0.0,0.0
+sun_life,Sun Life,2026-06-30,Externally Managed,Debt,Structured Products,0.0,0.0
+sun_life,Sun Life,2026-06-30,Externally Managed,Debt,Other Private Debt,0.0,0.0
+sun_life,Sun Life,2026-06-30,Other,Other,Other / Unclassified,0.0,0.0
+canada_life,Canada Life,2026-06-30,Internally Managed,Public Fixed Income,Asset Backed Securities,0.0,0.0
+canada_life,Canada Life,2026-06-30,Internally Managed,Public Fixed Income,Corporate Bonds,23249.05,0.23464
+canada_life,Canada Life,2026-06-30,Internally Managed,Public Fixed Income,Government Bonds,25631.34,0.25869
+canada_life,Canada Life,2026-06-30,Internally Managed,Public Fixed Income,Bonds (issuer n/d),0.0,0.0
+canada_life,Canada Life,2026-06-30,Internally Managed,Public Equity,Common Shares,3169.63,0.03199
+canada_life,Canada Life,2026-06-30,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+canada_life,Canada Life,2026-06-30,Internally Managed,Private Fixed Income,Commercial Mortgages,13448.0,0.13573
+canada_life,Canada Life,2026-06-30,Internally Managed,Private Fixed Income,Illiquid Term Loans,24226.61,0.24451
+canada_life,Canada Life,2026-06-30,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+canada_life,Canada Life,2026-06-30,Internally Managed,Private Fixed Income,Co-Investments,0.0,0.0
+canada_life,Canada Life,2026-06-30,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canada_life,Canada Life,2026-06-30,Internally Managed,Cash & Cash Equivalents,Cash,4836.0,0.04881
+canada_life,Canada Life,2026-06-30,Externally Managed,Equity,Real Estate Equity,2701.0,0.02726
+canada_life,Canada Life,2026-06-30,Externally Managed,Equity,Infrastructure Equity,0.0,0.0
+canada_life,Canada Life,2026-06-30,Externally Managed,Equity,Other Private Equity,1820.37,0.01837
+canada_life,Canada Life,2026-06-30,Externally Managed,Debt,Infrastructure Debt,0.0,0.0
+canada_life,Canada Life,2026-06-30,Externally Managed,Debt,Structured Products,0.0,0.0
+canada_life,Canada Life,2026-06-30,Externally Managed,Debt,Other Private Debt,0.0,0.0
+canada_life,Canada Life,2026-06-30,Other,Other,Other / Unclassified,0.0,0.0
+ia,iA Financial Group,2026-06-30,Internally Managed,Public Fixed Income,Asset Backed Securities,0.0,0.0
+ia,iA Financial Group,2026-06-30,Internally Managed,Public Fixed Income,Corporate Bonds,16072.0,0.34803
+ia,iA Financial Group,2026-06-30,Internally Managed,Public Fixed Income,Government Bonds,8838.0,0.19138
+ia,iA Financial Group,2026-06-30,Internally Managed,Public Fixed Income,Bonds (issuer n/d),0.0,0.0
+ia,iA Financial Group,2026-06-30,Internally Managed,Public Equity,Common Shares,3936.0,0.08523
+ia,iA Financial Group,2026-06-30,Internally Managed,Public Equity,Preferred Shares,492.0,0.01065
+ia,iA Financial Group,2026-06-30,Internally Managed,Private Fixed Income,Commercial Mortgages,1080.0,0.02339
+ia,iA Financial Group,2026-06-30,Internally Managed,Private Fixed Income,Illiquid Term Loans,5733.0,0.12414
+ia,iA Financial Group,2026-06-30,Internally Managed,Private Fixed Income,Private Liquid Loans,329.0,0.00712
+ia,iA Financial Group,2026-06-30,Internally Managed,Private Fixed Income,Co-Investments,0.0,0.0
+ia,iA Financial Group,2026-06-30,Internally Managed,Private Fixed Income,Policy & Other Loans,2419.0,0.05238
+ia,iA Financial Group,2026-06-30,Internally Managed,Cash & Cash Equivalents,Cash,2378.0,0.05149
+ia,iA Financial Group,2026-06-30,Externally Managed,Equity,Real Estate Equity,1578.0,0.03417
+ia,iA Financial Group,2026-06-30,Externally Managed,Equity,Infrastructure Equity,0.0,0.0
+ia,iA Financial Group,2026-06-30,Externally Managed,Equity,Other Private Equity,3274.0,0.0709
+ia,iA Financial Group,2026-06-30,Externally Managed,Debt,Infrastructure Debt,0.0,0.0
+ia,iA Financial Group,2026-06-30,Externally Managed,Debt,Structured Products,0.0,0.0
+ia,iA Financial Group,2026-06-30,Externally Managed,Debt,Other Private Debt,0.0,0.0
+ia,iA Financial Group,2026-06-30,Other,Other,Other / Unclassified,51.0,0.0011
+rbc_life,RBC Life,2026-07-31,Internally Managed,Public Fixed Income,Asset Backed Securities,0.0,0.0
+rbc_life,RBC Life,2026-07-31,Internally Managed,Public Fixed Income,Corporate Bonds,8431.68,0.3277
+rbc_life,RBC Life,2026-07-31,Internally Managed,Public Fixed Income,Government Bonds,8116.98,0.31547
+rbc_life,RBC Life,2026-07-31,Internally Managed,Public Fixed Income,Bonds (issuer n/d),0.0,0.0
+rbc_life,RBC Life,2026-07-31,Internally Managed,Public Equity,Common Shares,3205.93,0.1246
+rbc_life,RBC Life,2026-07-31,Internally Managed,Public Equity,Preferred Shares,16.64,0.00065
+rbc_life,RBC Life,2026-07-31,Internally Managed,Private Fixed Income,Commercial Mortgages,1986.03,0.07719
+rbc_life,RBC Life,2026-07-31,Internally Managed,Private Fixed Income,Illiquid Term Loans,3004.56,0.11677
+rbc_life,RBC Life,2026-07-31,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+rbc_life,RBC Life,2026-07-31,Internally Managed,Private Fixed Income,Co-Investments,0.0,0.0
+rbc_life,RBC Life,2026-07-31,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+rbc_life,RBC Life,2026-07-31,Internally Managed,Cash & Cash Equivalents,Cash,416.94,0.0162
+rbc_life,RBC Life,2026-07-31,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+rbc_life,RBC Life,2026-07-31,Externally Managed,Equity,Infrastructure Equity,0.0,0.0
+rbc_life,RBC Life,2026-07-31,Externally Managed,Equity,Other Private Equity,551.33,0.02143
+rbc_life,RBC Life,2026-07-31,Externally Managed,Debt,Infrastructure Debt,0.0,0.0
+rbc_life,RBC Life,2026-07-31,Externally Managed,Debt,Structured Products,0.0,0.0
+rbc_life,RBC Life,2026-07-31,Externally Managed,Debt,Other Private Debt,0.0,0.0
+rbc_life,RBC Life,2026-07-31,Other,Other,Other / Unclassified,0.0,0.0
+bmo_life,BMO Life,2026-07-31,Internally Managed,Public Fixed Income,Asset Backed Securities,0.0,0.0
+bmo_life,BMO Life,2026-07-31,Internally Managed,Public Fixed Income,Corporate Bonds,9901.27,0.5427
+bmo_life,BMO Life,2026-07-31,Internally Managed,Public Fixed Income,Government Bonds,3154.03,0.17288
+bmo_life,BMO Life,2026-07-31,Internally Managed,Public Fixed Income,Bonds (issuer n/d),0.0,0.0
+bmo_life,BMO Life,2026-07-31,Internally Managed,Public Equity,Common Shares,1731.12,0.09489
+bmo_life,BMO Life,2026-07-31,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+bmo_life,BMO Life,2026-07-31,Internally Managed,Private Fixed Income,Commercial Mortgages,378.42,0.02074
+bmo_life,BMO Life,2026-07-31,Internally Managed,Private Fixed Income,Illiquid Term Loans,130.68,0.00716
+bmo_life,BMO Life,2026-07-31,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+bmo_life,BMO Life,2026-07-31,Internally Managed,Private Fixed Income,Co-Investments,0.0,0.0
+bmo_life,BMO Life,2026-07-31,Internally Managed,Private Fixed Income,Policy & Other Loans,93.89,0.00515
+bmo_life,BMO Life,2026-07-31,Internally Managed,Cash & Cash Equivalents,Cash,1362.39,0.07467
+bmo_life,BMO Life,2026-07-31,Externally Managed,Equity,Real Estate Equity,1492.54,0.08181
+bmo_life,BMO Life,2026-07-31,Externally Managed,Equity,Infrastructure Equity,0.0,0.0
+bmo_life,BMO Life,2026-07-31,Externally Managed,Equity,Other Private Equity,0.0,0.0
+bmo_life,BMO Life,2026-07-31,Externally Managed,Debt,Infrastructure Debt,0.0,0.0
+bmo_life,BMO Life,2026-07-31,Externally Managed,Debt,Structured Products,0.0,0.0
+bmo_life,BMO Life,2026-07-31,Externally Managed,Debt,Other Private Debt,0.0,0.0
+bmo_life,BMO Life,2026-07-31,Other,Other,Other / Unclassified,0.0,0.0
+beneva,Beneva,2025-12-31,Internally Managed,Public Fixed Income,Asset Backed Securities,0.0,0.0
+beneva,Beneva,2025-12-31,Internally Managed,Public Fixed Income,Corporate Bonds,2831.3,0.23312
+beneva,Beneva,2025-12-31,Internally Managed,Public Fixed Income,Government Bonds,3593.3,0.29586
+beneva,Beneva,2025-12-31,Internally Managed,Public Fixed Income,Bonds (issuer n/d),0.0,0.0
+beneva,Beneva,2025-12-31,Internally Managed,Public Equity,Common Shares,369.0,0.03038
+beneva,Beneva,2025-12-31,Internally Managed,Public Equity,Preferred Shares,1023.0,0.08423
+beneva,Beneva,2025-12-31,Internally Managed,Private Fixed Income,Commercial Mortgages,634.5,0.05224
+beneva,Beneva,2025-12-31,Internally Managed,Private Fixed Income,Illiquid Term Loans,376.7,0.03102
+beneva,Beneva,2025-12-31,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+beneva,Beneva,2025-12-31,Internally Managed,Private Fixed Income,Co-Investments,0.0,0.0
+beneva,Beneva,2025-12-31,Internally Managed,Private Fixed Income,Policy & Other Loans,345.5,0.02845
+beneva,Beneva,2025-12-31,Internally Managed,Cash & Cash Equivalents,Cash,904.8,0.0745
+beneva,Beneva,2025-12-31,Externally Managed,Equity,Real Estate Equity,49.3,0.00406
+beneva,Beneva,2025-12-31,Externally Managed,Equity,Infrastructure Equity,0.0,0.0
+beneva,Beneva,2025-12-31,Externally Managed,Equity,Other Private Equity,1623.3,0.13366
+beneva,Beneva,2025-12-31,Externally Managed,Debt,Infrastructure Debt,0.0,0.0
+beneva,Beneva,2025-12-31,Externally Managed,Debt,Structured Products,0.0,0.0
+beneva,Beneva,2025-12-31,Externally Managed,Debt,Other Private Debt,0.0,0.0
+beneva,Beneva,2025-12-31,Other,Other,Other / Unclassified,394.7,0.0325
+ivari,ivari,2026-06-30,Internally Managed,Public Fixed Income,Asset Backed Securities,0.0,0.0
+ivari,ivari,2026-06-30,Internally Managed,Public Fixed Income,Corporate Bonds,3134.36,0.26564
+ivari,ivari,2026-06-30,Internally Managed,Public Fixed Income,Government Bonds,2036.64,0.17261
+ivari,ivari,2026-06-30,Internally Managed,Public Fixed Income,Bonds (issuer n/d),0.0,0.0
+ivari,ivari,2026-06-30,Internally Managed,Public Equity,Common Shares,4038.3,0.34226
+ivari,ivari,2026-06-30,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+ivari,ivari,2026-06-30,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+ivari,ivari,2026-06-30,Internally Managed,Private Fixed Income,Illiquid Term Loans,896.36,0.07597
+ivari,ivari,2026-06-30,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+ivari,ivari,2026-06-30,Internally Managed,Private Fixed Income,Co-Investments,0.0,0.0
+ivari,ivari,2026-06-30,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+ivari,ivari,2026-06-30,Internally Managed,Cash & Cash Equivalents,Cash,1545.15,0.13096
+ivari,ivari,2026-06-30,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+ivari,ivari,2026-06-30,Externally Managed,Equity,Infrastructure Equity,0.0,0.0
+ivari,ivari,2026-06-30,Externally Managed,Equity,Other Private Equity,148.28,0.01257
+ivari,ivari,2026-06-30,Externally Managed,Debt,Infrastructure Debt,0.0,0.0
+ivari,ivari,2026-06-30,Externally Managed,Debt,Structured Products,0.0,0.0
+ivari,ivari,2026-06-30,Externally Managed,Debt,Other Private Debt,0.0,0.0
+ivari,ivari,2026-06-30,Other,Other,Other / Unclassified,0.0,0.0
+empire_life,Empire Life,2026-06-30,Internally Managed,Public Fixed Income,Asset Backed Securities,0.0,0.0
+empire_life,Empire Life,2026-06-30,Internally Managed,Public Fixed Income,Corporate Bonds,3564.26,0.34921
+empire_life,Empire Life,2026-06-30,Internally Managed,Public Fixed Income,Government Bonds,4067.65,0.39853
+empire_life,Empire Life,2026-06-30,Internally Managed,Public Fixed Income,Bonds (issuer n/d),0.0,0.0
+empire_life,Empire Life,2026-06-30,Internally Managed,Public Equity,Common Shares,620.65,0.06081
+empire_life,Empire Life,2026-06-30,Internally Managed,Public Equity,Preferred Shares,711.45,0.0697
+empire_life,Empire Life,2026-06-30,Internally Managed,Private Fixed Income,Commercial Mortgages,58.71,0.00575
+empire_life,Empire Life,2026-06-30,Internally Managed,Private Fixed Income,Illiquid Term Loans,684.37,0.06705
+empire_life,Empire Life,2026-06-30,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+empire_life,Empire Life,2026-06-30,Internally Managed,Private Fixed Income,Co-Investments,0.0,0.0
+empire_life,Empire Life,2026-06-30,Internally Managed,Private Fixed Income,Policy & Other Loans,85.72,0.0084
+empire_life,Empire Life,2026-06-30,Internally Managed,Cash & Cash Equivalents,Cash,300.14,0.02941
+empire_life,Empire Life,2026-06-30,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+empire_life,Empire Life,2026-06-30,Externally Managed,Equity,Infrastructure Equity,0.0,0.0
+empire_life,Empire Life,2026-06-30,Externally Managed,Equity,Other Private Equity,113.63,0.01113
+empire_life,Empire Life,2026-06-30,Externally Managed,Debt,Infrastructure Debt,0.0,0.0
+empire_life,Empire Life,2026-06-30,Externally Managed,Debt,Structured Products,0.0,0.0
+empire_life,Empire Life,2026-06-30,Externally Managed,Debt,Other Private Debt,0.0,0.0
+empire_life,Empire Life,2026-06-30,Other,Other,Other / Unclassified,0.0,0.0
+equitable_life,Equitable Life,2026-06-30,Internally Managed,Public Fixed Income,Asset Backed Securities,0.0,0.0
+equitable_life,Equitable Life,2026-06-30,Internally Managed,Public Fixed Income,Corporate Bonds,1881.44,0.24031
+equitable_life,Equitable Life,2026-06-30,Internally Managed,Public Fixed Income,Government Bonds,1128.77,0.14417
+equitable_life,Equitable Life,2026-06-30,Internally Managed,Public Fixed Income,Bonds (issuer n/d),0.0,0.0
+equitable_life,Equitable Life,2026-06-30,Internally Managed,Public Equity,Common Shares,2296.8,0.29336
+equitable_life,Equitable Life,2026-06-30,Internally Managed,Public Equity,Preferred Shares,490.4,0.06264
+equitable_life,Equitable Life,2026-06-30,Internally Managed,Private Fixed Income,Commercial Mortgages,571.26,0.07296
+equitable_life,Equitable Life,2026-06-30,Internally Managed,Private Fixed Income,Illiquid Term Loans,870.4,0.11117
+equitable_life,Equitable Life,2026-06-30,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+equitable_life,Equitable Life,2026-06-30,Internally Managed,Private Fixed Income,Co-Investments,0.0,0.0
+equitable_life,Equitable Life,2026-06-30,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+equitable_life,Equitable Life,2026-06-30,Internally Managed,Cash & Cash Equivalents,Cash,74.59,0.00953
+equitable_life,Equitable Life,2026-06-30,Externally Managed,Equity,Real Estate Equity,482.55,0.06163
+equitable_life,Equitable Life,2026-06-30,Externally Managed,Equity,Infrastructure Equity,0.0,0.0
+equitable_life,Equitable Life,2026-06-30,Externally Managed,Equity,Other Private Equity,33.15,0.00423
+equitable_life,Equitable Life,2026-06-30,Externally Managed,Debt,Infrastructure Debt,0.0,0.0
+equitable_life,Equitable Life,2026-06-30,Externally Managed,Debt,Structured Products,0.0,0.0
+equitable_life,Equitable Life,2026-06-30,Externally Managed,Debt,Other Private Debt,0.0,0.0
+equitable_life,Equitable Life,2026-06-30,Other,Other,Other / Unclassified,0.0,0.0
+cooperators_life,Co-operators Life,2026-06-30,Internally Managed,Public Fixed Income,Asset Backed Securities,0.0,0.0
+cooperators_life,Co-operators Life,2026-06-30,Internally Managed,Public Fixed Income,Corporate Bonds,2234.07,0.37394
+cooperators_life,Co-operators Life,2026-06-30,Internally Managed,Public Fixed Income,Government Bonds,1756.98,0.29408
+cooperators_life,Co-operators Life,2026-06-30,Internally Managed,Public Fixed Income,Bonds (issuer n/d),0.0,0.0
+cooperators_life,Co-operators Life,2026-06-30,Internally Managed,Public Equity,Common Shares,843.62,0.14121
+cooperators_life,Co-operators Life,2026-06-30,Internally Managed,Public Equity,Preferred Shares,383.91,0.06426
+cooperators_life,Co-operators Life,2026-06-30,Internally Managed,Private Fixed Income,Commercial Mortgages,434.12,0.07266
+cooperators_life,Co-operators Life,2026-06-30,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+cooperators_life,Co-operators Life,2026-06-30,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+cooperators_life,Co-operators Life,2026-06-30,Internally Managed,Private Fixed Income,Co-Investments,0.0,0.0
+cooperators_life,Co-operators Life,2026-06-30,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+cooperators_life,Co-operators Life,2026-06-30,Internally Managed,Cash & Cash Equivalents,Cash,217.73,0.03644
+cooperators_life,Co-operators Life,2026-06-30,Externally Managed,Equity,Real Estate Equity,3.37,0.00056
+cooperators_life,Co-operators Life,2026-06-30,Externally Managed,Equity,Infrastructure Equity,0.0,0.0
+cooperators_life,Co-operators Life,2026-06-30,Externally Managed,Equity,Other Private Equity,100.62,0.01684
+cooperators_life,Co-operators Life,2026-06-30,Externally Managed,Debt,Infrastructure Debt,0.0,0.0
+cooperators_life,Co-operators Life,2026-06-30,Externally Managed,Debt,Structured Products,0.0,0.0
+cooperators_life,Co-operators Life,2026-06-30,Externally Managed,Debt,Other Private Debt,0.0,0.0
+cooperators_life,Co-operators Life,2026-06-30,Other,Other,Other / Unclassified,0.0,0.0
+uv_insurance,UV Insurance,2025-12-31,Internally Managed,Public Fixed Income,Asset Backed Securities,0.0,0.0
+uv_insurance,UV Insurance,2025-12-31,Internally Managed,Public Fixed Income,Corporate Bonds,0.0,0.0
+uv_insurance,UV Insurance,2025-12-31,Internally Managed,Public Fixed Income,Government Bonds,0.0,0.0
+uv_insurance,UV Insurance,2025-12-31,Internally Managed,Public Fixed Income,Bonds (issuer n/d),1925.98,0.80621
+uv_insurance,UV Insurance,2025-12-31,Internally Managed,Public Equity,Common Shares,121.32,0.05078
+uv_insurance,UV Insurance,2025-12-31,Internally Managed,Public Equity,Preferred Shares,103.35,0.04326
+uv_insurance,UV Insurance,2025-12-31,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+uv_insurance,UV Insurance,2025-12-31,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+uv_insurance,UV Insurance,2025-12-31,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+uv_insurance,UV Insurance,2025-12-31,Internally Managed,Private Fixed Income,Co-Investments,0.0,0.0
+uv_insurance,UV Insurance,2025-12-31,Internally Managed,Private Fixed Income,Policy & Other Loans,52.63,0.02203
+uv_insurance,UV Insurance,2025-12-31,Internally Managed,Cash & Cash Equivalents,Cash,83.2,0.03483
+uv_insurance,UV Insurance,2025-12-31,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+uv_insurance,UV Insurance,2025-12-31,Externally Managed,Equity,Infrastructure Equity,0.0,0.0
+uv_insurance,UV Insurance,2025-12-31,Externally Managed,Equity,Other Private Equity,102.45,0.04288
+uv_insurance,UV Insurance,2025-12-31,Externally Managed,Debt,Infrastructure Debt,0.0,0.0
+uv_insurance,UV Insurance,2025-12-31,Externally Managed,Debt,Structured Products,0.0,0.0
+uv_insurance,UV Insurance,2025-12-31,Externally Managed,Debt,Other Private Debt,0.0,0.0
+uv_insurance,UV Insurance,2025-12-31,Other,Other,Other / Unclassified,0.0,0.0
+wawanesa_life,Wawanesa Life,2026-06-30,Internally Managed,Public Fixed Income,Asset Backed Securities,0.0,0.0
+wawanesa_life,Wawanesa Life,2026-06-30,Internally Managed,Public Fixed Income,Corporate Bonds,579.59,0.43828
+wawanesa_life,Wawanesa Life,2026-06-30,Internally Managed,Public Fixed Income,Government Bonds,397.62,0.30067
+wawanesa_life,Wawanesa Life,2026-06-30,Internally Managed,Public Fixed Income,Bonds (issuer n/d),0.0,0.0
+wawanesa_life,Wawanesa Life,2026-06-30,Internally Managed,Public Equity,Common Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,2026-06-30,Internally Managed,Public Equity,Preferred Shares,57.7,0.04363
+wawanesa_life,Wawanesa Life,2026-06-30,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+wawanesa_life,Wawanesa Life,2026-06-30,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,2026-06-30,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,2026-06-30,Internally Managed,Private Fixed Income,Co-Investments,0.0,0.0
+wawanesa_life,Wawanesa Life,2026-06-30,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,2026-06-30,Internally Managed,Cash & Cash Equivalents,Cash,4.26,0.00322
+wawanesa_life,Wawanesa Life,2026-06-30,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+wawanesa_life,Wawanesa Life,2026-06-30,Externally Managed,Equity,Infrastructure Equity,0.0,0.0
+wawanesa_life,Wawanesa Life,2026-06-30,Externally Managed,Equity,Other Private Equity,283.25,0.21419
+wawanesa_life,Wawanesa Life,2026-06-30,Externally Managed,Debt,Infrastructure Debt,0.0,0.0
+wawanesa_life,Wawanesa Life,2026-06-30,Externally Managed,Debt,Structured Products,0.0,0.0
+wawanesa_life,Wawanesa Life,2026-06-30,Externally Managed,Debt,Other Private Debt,0.0,0.0
+wawanesa_life,Wawanesa Life,2026-06-30,Other,Other,Other / Unclassified,0.0,0.0
+assumption_life,Assumption Life,2025-12-31,Internally Managed,Public Fixed Income,Asset Backed Securities,0.0,0.0
+assumption_life,Assumption Life,2025-12-31,Internally Managed,Public Fixed Income,Corporate Bonds,107.67,0.13401
+assumption_life,Assumption Life,2025-12-31,Internally Managed,Public Fixed Income,Government Bonds,400.73,0.49876
+assumption_life,Assumption Life,2025-12-31,Internally Managed,Public Fixed Income,Bonds (issuer n/d),0.0,0.0
+assumption_life,Assumption Life,2025-12-31,Internally Managed,Public Equity,Common Shares,0.49,0.00061
+assumption_life,Assumption Life,2025-12-31,Internally Managed,Public Equity,Preferred Shares,64.58,0.08037
+assumption_life,Assumption Life,2025-12-31,Internally Managed,Private Fixed Income,Commercial Mortgages,177.16,0.2205
+assumption_life,Assumption Life,2025-12-31,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+assumption_life,Assumption Life,2025-12-31,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+assumption_life,Assumption Life,2025-12-31,Internally Managed,Private Fixed Income,Co-Investments,0.0,0.0
+assumption_life,Assumption Life,2025-12-31,Internally Managed,Private Fixed Income,Policy & Other Loans,2.79,0.00347
+assumption_life,Assumption Life,2025-12-31,Internally Managed,Cash & Cash Equivalents,Cash,50.04,0.06228
+assumption_life,Assumption Life,2025-12-31,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+assumption_life,Assumption Life,2025-12-31,Externally Managed,Equity,Infrastructure Equity,0.0,0.0
+assumption_life,Assumption Life,2025-12-31,Externally Managed,Equity,Other Private Equity,0.0,0.0
+assumption_life,Assumption Life,2025-12-31,Externally Managed,Debt,Infrastructure Debt,0.0,0.0
+assumption_life,Assumption Life,2025-12-31,Externally Managed,Debt,Structured Products,0.0,0.0
+assumption_life,Assumption Life,2025-12-31,Externally Managed,Debt,Other Private Debt,0.0,0.0
+assumption_life,Assumption Life,2025-12-31,Other,Other,Other / Unclassified,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),2026-06-30,Internally Managed,Public Fixed Income,Asset Backed Securities,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),2026-06-30,Internally Managed,Public Fixed Income,Corporate Bonds,394.58,0.48099
+foresters_life,Foresters Life (incl. Canada Protection Plan),2026-06-30,Internally Managed,Public Fixed Income,Government Bonds,257.31,0.31367
+foresters_life,Foresters Life (incl. Canada Protection Plan),2026-06-30,Internally Managed,Public Fixed Income,Bonds (issuer n/d),0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),2026-06-30,Internally Managed,Public Equity,Common Shares,9.09,0.01108
+foresters_life,Foresters Life (incl. Canada Protection Plan),2026-06-30,Internally Managed,Public Equity,Preferred Shares,67.66,0.08248
+foresters_life,Foresters Life (incl. Canada Protection Plan),2026-06-30,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),2026-06-30,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),2026-06-30,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),2026-06-30,Internally Managed,Private Fixed Income,Co-Investments,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),2026-06-30,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),2026-06-30,Internally Managed,Cash & Cash Equivalents,Cash,44.62,0.05439
+foresters_life,Foresters Life (incl. Canada Protection Plan),2026-06-30,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),2026-06-30,Externally Managed,Equity,Infrastructure Equity,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),2026-06-30,Externally Managed,Equity,Other Private Equity,47.08,0.05739
+foresters_life,Foresters Life (incl. Canada Protection Plan),2026-06-30,Externally Managed,Debt,Infrastructure Debt,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),2026-06-30,Externally Managed,Debt,Structured Products,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),2026-06-30,Externally Managed,Debt,Other Private Debt,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),2026-06-30,Other,Other,Other / Unclassified,0.0,0.0
+canadian_premier,Canadian Premier Life,2026-06-30,Internally Managed,Public Fixed Income,Asset Backed Securities,0.0,0.0
+canadian_premier,Canadian Premier Life,2026-06-30,Internally Managed,Public Fixed Income,Corporate Bonds,342.27,0.49285
+canadian_premier,Canadian Premier Life,2026-06-30,Internally Managed,Public Fixed Income,Government Bonds,118.42,0.17052
+canadian_premier,Canadian Premier Life,2026-06-30,Internally Managed,Public Fixed Income,Bonds (issuer n/d),0.0,0.0
+canadian_premier,Canadian Premier Life,2026-06-30,Internally Managed,Public Equity,Common Shares,177.15,0.25509
+canadian_premier,Canadian Premier Life,2026-06-30,Internally Managed,Public Equity,Preferred Shares,5.84,0.00841
+canadian_premier,Canadian Premier Life,2026-06-30,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+canadian_premier,Canadian Premier Life,2026-06-30,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,2026-06-30,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,2026-06-30,Internally Managed,Private Fixed Income,Co-Investments,0.0,0.0
+canadian_premier,Canadian Premier Life,2026-06-30,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,2026-06-30,Internally Managed,Cash & Cash Equivalents,Cash,50.79,0.07314
+canadian_premier,Canadian Premier Life,2026-06-30,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,2026-06-30,Externally Managed,Equity,Infrastructure Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,2026-06-30,Externally Managed,Equity,Other Private Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,2026-06-30,Externally Managed,Debt,Infrastructure Debt,0.0,0.0
+canadian_premier,Canadian Premier Life,2026-06-30,Externally Managed,Debt,Structured Products,0.0,0.0
+canadian_premier,Canadian Premier Life,2026-06-30,Externally Managed,Debt,Other Private Debt,0.0,0.0
+canadian_premier,Canadian Premier Life,2026-06-30,Other,Other,Other / Unclassified,0.0,0.0
+humania,Humania,2025-12-31,Internally Managed,Public Fixed Income,Asset Backed Securities,0.0,0.0
+humania,Humania,2025-12-31,Internally Managed,Public Fixed Income,Corporate Bonds,0.0,0.0
+humania,Humania,2025-12-31,Internally Managed,Public Fixed Income,Government Bonds,0.0,0.0
+humania,Humania,2025-12-31,Internally Managed,Public Fixed Income,Bonds (issuer n/d),316.74,0.78002
+humania,Humania,2025-12-31,Internally Managed,Public Equity,Common Shares,0.5,0.00123
+humania,Humania,2025-12-31,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+humania,Humania,2025-12-31,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+humania,Humania,2025-12-31,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+humania,Humania,2025-12-31,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+humania,Humania,2025-12-31,Internally Managed,Private Fixed Income,Co-Investments,0.0,0.0
+humania,Humania,2025-12-31,Internally Managed,Private Fixed Income,Policy & Other Loans,27.22,0.06704
+humania,Humania,2025-12-31,Internally Managed,Cash & Cash Equivalents,Cash,24.49,0.06032
+humania,Humania,2025-12-31,Externally Managed,Equity,Real Estate Equity,19.65,0.04838
+humania,Humania,2025-12-31,Externally Managed,Equity,Infrastructure Equity,14.26,0.03512
+humania,Humania,2025-12-31,Externally Managed,Equity,Other Private Equity,0.0,0.0
+humania,Humania,2025-12-31,Externally Managed,Debt,Infrastructure Debt,0.0,0.0
+humania,Humania,2025-12-31,Externally Managed,Debt,Structured Products,0.0,0.0
+humania,Humania,2025-12-31,Externally Managed,Debt,Other Private Debt,3.2,0.00788
+humania,Humania,2025-12-31,Other,Other,Other / Unclassified,0.0,0.0
+primerica_life,Primerica Life,2026-06-30,Internally Managed,Public Fixed Income,Asset Backed Securities,0.0,0.0
+primerica_life,Primerica Life,2026-06-30,Internally Managed,Public Fixed Income,Corporate Bonds,227.08,0.52322
+primerica_life,Primerica Life,2026-06-30,Internally Managed,Public Fixed Income,Government Bonds,171.32,0.39474
+primerica_life,Primerica Life,2026-06-30,Internally Managed,Public Fixed Income,Bonds (issuer n/d),0.0,0.0
+primerica_life,Primerica Life,2026-06-30,Internally Managed,Public Equity,Common Shares,0.0,0.0
+primerica_life,Primerica Life,2026-06-30,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+primerica_life,Primerica Life,2026-06-30,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+primerica_life,Primerica Life,2026-06-30,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+primerica_life,Primerica Life,2026-06-30,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+primerica_life,Primerica Life,2026-06-30,Internally Managed,Private Fixed Income,Co-Investments,0.0,0.0
+primerica_life,Primerica Life,2026-06-30,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+primerica_life,Primerica Life,2026-06-30,Internally Managed,Cash & Cash Equivalents,Cash,35.6,0.08203
+primerica_life,Primerica Life,2026-06-30,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+primerica_life,Primerica Life,2026-06-30,Externally Managed,Equity,Infrastructure Equity,0.0,0.0
+primerica_life,Primerica Life,2026-06-30,Externally Managed,Equity,Other Private Equity,0.0,0.0
+primerica_life,Primerica Life,2026-06-30,Externally Managed,Debt,Infrastructure Debt,0.0,0.0
+primerica_life,Primerica Life,2026-06-30,Externally Managed,Debt,Structured Products,0.0,0.0
+primerica_life,Primerica Life,2026-06-30,Externally Managed,Debt,Other Private Debt,0.0,0.0
+primerica_life,Primerica Life,2026-06-30,Other,Other,Other / Unclassified,0.0,0.0

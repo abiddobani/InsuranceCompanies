@@ -1,0 +1,141 @@
+{
+ "company_id": "rbc_life",
+ "operating_entities": {
+  "source_url": "https://www.rbcinsurance.com/en-ca/legal/",
+  "page_title": "RBC Insurance Legal Entities | RBC Insurance",
+  "retrieved": "2026-11-03",
+  "entities": [
+   {
+    "name": "RBC Insurance",
+    "parent": null,
+    "description": "Brand: 'Companies operating under the RBC Insurance brand are:' (legal page). Overview page: 'RBC Insurance is the brand name for the insurance operating entities of Royal Bank of Canada'."
+   },
+   {
+    "name": "RBC Life Insurance Company",
+    "parent": "RBC Insurance",
+    "description": "Underwriters page: 'Individual and Group Life and Health insurance is underwritten by RBC Life Insurance Company'; 'sole issuer and guarantor' of RBC Guaranteed Investment Funds (segregated funds); underwrites the Business Loan Insurance Plan; distributes Allstate group critical illness."
+   },
+   {
+    "name": "RBC Insurance Company of Canada",
+    "parent": "RBC Insurance",
+    "description": "Underwriters page: 'Travel Insurance is underwritten by RBC Insurance Company of Canada.'"
+   },
+   {
+    "name": "RBC Insurance Agency Ltd",
+    "parent": "RBC Insurance",
+    "description": "Overview/underwriters pages: home and auto (P&C) offerings 'are distributed by RBC Insurance Agency Ltd. and underwritten by Aviva General Insurance Company'; 'acts as an independent agent selling and servicing these products'."
+   },
+   {
+    "name": "RBC Insurance Services Inc.",
+    "parent": "RBC Insurance",
+    "description": "Overview page: 'provides administrative support services for the creditor insurance products offered to RBC Royal Bank personal and business clients' (life, disability and critical illness insurance for mortgages, loans and credit card balances)."
+   },
+   {
+    "name": "Assured Assistance Inc.",
+    "parent": "RBC Insurance",
+    "description": "Listed on the legal page without a description (travel-assistance company; no description on rbcinsurance.com pages checked)."
+   }
+  ],
+  "ga_manager_statement": {
+   "text": "The participating account is 'collectively invested by the RBC Insurance investment team' which 'manages over $15 billion in assets' and 'follows the same investment philosophy as RBC Capital Markets and RBC Global Asset Management' (participating-account guide, Oct 2025). The legal page itself says nothing about who manages the general account; the Underwriters page only says the underlying funds of RBC Guaranteed Investment Funds 'are managed by RBC Global Asset Management Inc.' (segregated funds, not the general account).",
+   "source": "https://assets.rbcinsurance.com/m/ebaad8f2bf982698/original/Understanding-RBC-Growth-Insurance-and-the-participating-account.pdf ; https://www.rbcinsurance.com/en-ca/underwriters/"
+  },
+  "note": "Legal page lists the five entities as a flat list under the brand; it gives no parent/child detail and no descriptions, so descriptions are taken from two other rbcinsurance.com pages (/en-ca/underwriters/ and /en-ca/about/overview/). The 2019 'RBC Insurance at a Glance' PDF (rbcinsurance.com/pdf/rbci-at-a-glance-e.pdf) also named Royal Bank of Canada Insurance Company Ltd. (the reinsurance entity) as an RBC Insurance operating entity; the current legal page omits it, so it is not listed. RBC Capital Markets and RBC GAM are deliberately excluded (not RBC Insurance entities)."
+ },
+ "ceo": {
+  "name": "Maria Winslow",
+  "title": "Interim Chief Executive Officer, RBC Insurance (Senior Vice President, Individual & Group Insurance Products and Pricing)",
+  "entity": "RBC Insurance / RBC Life Insurance Company",
+  "reports_to": "Neil McLaughlin, Group Head, RBC Wealth Management & Insurance (stated, Bloomberg Law 2026-05-27)",
+  "seat_since": "2026-06",
+  "firm_since": null,
+  "industry_since": null,
+  "prior": "Senior Vice President, Individual & Group, Products and Pricing, RBC Insurance (CAILBA Presidents' Panel bio); 'more than two decades' at RBC (Bloomberg Law); LinkedIn headline cites 'over 25 years of experience' (search snippet only)",
+  "tenure_source": "press release / news (Bloomberg Law 2026-05-27; The Logic 2026-05-27; Globe and Mail 2026-05-27/28)",
+  "comp_total": null,
+  "comp_currency": "CAD",
+  "comp_year": null,
+  "comp_source": "",
+  "sources": [
+   "https://news.bloomberglaw.com/banking-law/rbc-head-of-insurance-publicover-to-depart-the-bank-next-month",
+   "https://thelogic.co/news/exclusive/rbc-insurance-head-departure-shakeup/",
+   "https://www.theglobeandmail.com/business/article-royal-bank-of-canada-insurance-head-jennifer-publicover-depart/",
+   "https://cailba.com/events/presidents-panel/",
+   "https://www.linkedin.com/in/maria-winslow/"
+  ],
+  "note": "Interim CEO on Jennifer Publicover's departure effective 2026-06-01 (seat_since = 2026-06; theofficialboard dates the announcement 2026-06-23). firm_since null: sources say 'more than two decades at RBC' but give no year. industry_since null: 'over 25 years' with no year. Not an NEO of Royal Bank of Canada; pay not disclosed. LinkedIn could not be fetched (HTTP 999 policy)."
+ },
+ "cio": {
+  "name": "Abid Dobani",
+  "title": "Senior Vice President & Chief Investment Officer, RBC Insurance",
+  "entity": "RBC Insurance (in-house investment team / Chief Investment Office)",
+  "reports_to": null,
+  "seat_since": null,
+  "firm_since": "2006",
+  "industry_since": null,
+  "prior": "Joined RBC in 2006 as an institutional rates trader; progressively senior roles across RBC Capital Markets and CFO group in Toronto, Sydney and London (institutional FI/FX sales and trading, equity research, investment banking, corporate treasury portfolio management per OCC bio); MBA MIT Sloan; BMath Waterloo",
+  "tenure_source": "company bio (advisor.rbcinsurance.com; occ.ca)",
+  "comp_total": null,
+  "comp_currency": "CAD",
+  "comp_year": null,
+  "comp_source": "",
+  "sources": [
+   "https://advisor.rbcinsurance.com/en/videos/abid-dobani-insurance-matters/",
+   "https://occ.ca/team/abid-dobani/"
+  ],
+  "note": "Company bio: 'oversees the global investment portfolio and risk-mitigating market transactions for RBC Insurance'; OCC bio: 'leads investment strategy, asset allocation and capital markets activities for the organization's insurance portfolios'. seat_since null: no public source dates the CIO appointment. industry_since null: bios say 'over 20 years' / 'more than two decades' without a start year. reports_to null: no public source states the reporting line (interim CEO Maria Winslow since June 2026). Bank-owned subsidiary: pay not disclosed."
+ },
+ "cio_direct_reports": [],
+ "other_leaders": [
+  {
+   "name": null,
+   "title": "Chief Financial Officer, RBC Insurance (not publicly named)",
+   "entity": "RBC Insurance",
+   "reports_to": "Katherine Gibson, CFO, RBC (inferred from bank structure; not stated)",
+   "seat_since": null,
+   "firm_since": null,
+   "industry_since": null,
+   "prior": "",
+   "tenure_source": "",
+   "comp_total": null,
+   "comp_currency": "CAD",
+   "comp_year": null,
+   "comp_source": "",
+   "sources": [
+    "https://www.jobs.ca/job/2dbed84d-ba9c-4dce-b543-9206a669ff9e",
+    "https://rbc.com/our-company/our-leadership.html"
+   ],
+   "note": "RBC job postings reference an 'RBC Insurance CFO team' and a 'VP and CFO Insurance' but no public source names the incumbent."
+  },
+  {
+   "name": null,
+   "title": "Chief Risk Officer, RBC Insurance (not publicly named)",
+   "entity": "RBC Insurance",
+   "reports_to": "Graeme Hepworth, Chief Risk Officer, RBC (inferred; not stated)",
+   "seat_since": null,
+   "firm_since": null,
+   "industry_since": null,
+   "prior": "",
+   "tenure_source": "",
+   "comp_total": null,
+   "comp_currency": "CAD",
+   "comp_year": null,
+   "comp_source": "",
+   "sources": [
+    "https://rbc.com/our-company/our-leadership.html",
+    "https://www.rbc.com/newsroom/news/executive-biographies/graeme-hepworth.html"
+   ],
+   "note": "Group CRO Graeme Hepworth (CRO since 2018 per bio). No public source names an insurance-segment CRO."
+  }
+ ],
+ "gaps": [
+  "CIO direct reports: no public source names anyone reporting to Abid Dobani. RBC job postings (Sept 2025 onward) show the Chief Investment Office contains a 'Total Fund Management' team (Senior Manager, CIO Finance; Director, Front Office Risk Management Oversight), a 'Cash and Collateral Management & FX Trading' function and a 'Director, External Managers & Alternatives' role, but name no heads. Job pages (jobs.ca, careerbeacon, theladders) returned 403/410 on fetch.",
+  "Maria Winslow: firm_since and industry_since null (sources say 'more than two decades at RBC' / 'over 25 years' without years); LinkedIn (linkedin.com/in/maria-winslow) not fetchable.",
+  "Abid Dobani: CIO appointment date (seat_since) and reporting line not published.",
+  "RBC Insurance CFO and CRO not publicly named (only bank-level CFO Katherine Gibson and CRO Graeme Hepworth).",
+  "No compensation disclosure for any RBC Insurance executive (not NEOs). Group Head Neil McLaughlin FY2025 total direct compensation CAD 6,952,188 per 2026 proxy (carried from round 1).",
+  "Spokespeople page (rbcinsurance.com/en-ca/about/spokespeople/) lists product/claims/group-benefits leaders (Farzana Damji, Carol Lebert, Tony Bruin, Fernando Heleno, Kathryn Bennett, Matthew King, Sarah Willock) but no investment, finance or risk executives.",
+  "Web search budget was exhausted before searches for RBC Insurance CFO/CRO names and for CIO-team LinkedIn snippets could be completed."
+ ],
+ "notes": "Entities page is the footer 'Legal' page (RBC Insurance Legal Entities). Parent-level owner since June 2026: Neil McLaughlin, Group Head, RBC Wealth Management & Insurance (reports to Dave McKay; FY2025 comp CAD 6,952,188 per https://www.rbc.com/investor-relations/_assets-custom/pdf/2026englishproxy.pdf). Former Group Head Jennifer Publicover left 2026-06-01 (joined RBC 2018-04, RBC Insurance 2023-01, Group Head 2024-09-01 per The Logic). A MarketScreener aggregator profile lists a 'Michael Logan' as Head of Investments, RBC Life Insurance Co. since 2006; a Michael Logan is now listed as CIO of BMO Insurance on bmo.com - identity match unverified."
+}

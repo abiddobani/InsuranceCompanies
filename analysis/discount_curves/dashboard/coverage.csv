@@ -1,0 +1,21 @@
+company,regulator,curve_source,periods,note
+Assumption Life,FCNB,"Annual report, year end","2024, 2025","Least and most illiquid curves, all products"
+Beneva,AMF,"Annual report, year end","2024, 2025","Least and most illiquid curves, all products"
+BMO Life,OSFI,"OSFI LF2, quarterly",2023Q2 to 2026Q3,Main operating entity: BMO Life Assurance Company; October fiscal year
+Canada Life,OSFI,"OSFI LF2, quarterly",2023Q2 to 2026Q2,Main operating entity: The Canada Life Assurance Company
+Canada Protection Plan,OSFI,None,,A Foresters business with no separate filing; covered by Foresters Life
+Canadian Premier,OSFI,"OSFI LF2, quarterly",2023Q2 to 2026Q2,Main operating entity: Canadian Premier Life Insurance Company
+Co-operators Life,OSFI,"OSFI LF2, quarterly",2023Q2 to 2026Q2,Main operating entity: Co-operators Life Insurance Company
+Desjardins,AMF,"Annual report, year end","2024, 2025","Least and most illiquid curves, all products"
+Empire Life,OSFI,"OSFI LF2, quarterly",2023Q2 to 2026Q2,Main operating entity: The Empire Life Insurance Company
+Equitable Life,OSFI,"OSFI LF2, quarterly",2023Q2 to 2026Q2,Main operating entity: The Equitable Life Insurance Company of Canada
+Foresters Life,OSFI,"OSFI LF2, quarterly",2023Q2 to 2026Q2,Main operating entity: Foresters Life Insurance Company
+Humania,AMF,None,,Publishes only summary consolidated statements (LS Mutual Management); no discount curve
+iA Financial,AMF,"Annual report, year end","2024, 2025","Least and most illiquid curves, all products"
+ivari,OSFI,"OSFI LF2, quarterly",2023Q2 to 2026Q2,Main operating entity: ivari
+Manulife,OSFI,"OSFI LF2, quarterly",2023Q2 to 2026Q2,Main operating entity: The Manufacturers Life Insurance Company
+Primerica Life,OSFI,"OSFI LF2, quarterly",2023Q2 to 2026Q2,Main operating entity: Primerica Life Insurance Company of Canada
+RBC Life,OSFI,"OSFI LF2, quarterly",2023Q2 to 2026Q3,"Main operating entity: RBC Life Insurance Company; October fiscal year; files forward rates, converted to spot"
+Sun Life,OSFI,"OSFI LF2, quarterly",2023Q2 to 2026Q2,Main operating entity: Sun Life Assurance Company of Canada
+UV Insurance,AMF,None,,Annual report carries summary statements only; full statements on request
+Wawanesa Life,OSFI,"OSFI LF2, quarterly",2023Q2 to 2026Q2,Main operating entity: The Wawanesa Life Insurance Company

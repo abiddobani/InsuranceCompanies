@@ -1,0 +1,15 @@
+id: desjardins
+name: Desjardins Insurance
+anchor: VP, Investments, DFS, and SMD & Business Head, Desjardins Global Asset Management (DGAM runs the general fund; no insurer-side CIO found)
+src: b | Desjardins Financial Security (DFS) page with its management team | https://www.desjardins.com/en/about-us/governance-democracy/group-structure/other-networks/dfs.html
+src: c | Desjardins Global Asset Management team page | https://www.desjardins.com/en/find-us/dgam-team.html
+src: li1 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/tommy-nguyen-7745342
+src: li2 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/guillaumemorency
+L1 | Nicolas Richard | VP, Investments (also SMD & Business Head, DGAM) | H | b,c
+L2 | Christian Duceppe | MD & CIO, Public Markets, DGAM | H | c | ~
+L3 | Tommy Nguyen | VP, Head of Global Equities, DGAM | L | li1 | ~
+L2 | Frédéric Angers | MD & Global CIO, Private Markets, DGAM | H | c | ~
+L3 | Guillaume Morency | VP, Head of Infrastructure Investments, DGAM | L | li2 | ~
+L2 | Guy Lamontagne | MD & Chief of Investment Strategy, DGAM | H | c | ~
+L2 | Frederick Tremblay | VP, Investment Solutions, DFS | H | b | ~
+note: George Mavroudis is President & CEO of DGAM and Guardian Capital (LinkedIn search snippet only).

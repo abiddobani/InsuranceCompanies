@@ -1,0 +1,6 @@
+id: humania
+name: Humania Insurance
+anchor: VP, Investment & Special Projects, Humania (external managers under a Board investment committee)
+src: b | Humania 2025 Annual Report (executive team) | https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf
+L1 | Luc Bergeron | VP, Investment & Special Projects | M | b
+note: No investment staff below the VP visible on LinkedIn.

@@ -1,0 +1,98 @@
+{
+ "company_id": "bmo_life",
+ "operating_entities": null,
+ "ceo": {
+  "name": "Rohit Thomas",
+  "title": "President and Chief Executive Officer, BMO Insurance",
+  "entity": "BMO Life Assurance Company / BMO Insurance",
+  "reports_to": "Deland Kamanga, Group Head, BMO Wealth Management (stated, advisor.ca 2023-03-23)",
+  "seat_since": "2023-03",
+  "firm_since": "2023-03",
+  "industry_since": null,
+  "prior": "VP Life & Health, TD Insurance (nearly three years, to 2023); previously nearly eight years at BMO (incl. head of its pensions/PRT business per round-1 speaker bio); earlier insurance roles in pricing, valuation, capital and risk management",
+  "tenure_source": "press release / trade press (advisor.ca 2023-03-23; Elevate/NRTH speaker bio)",
+  "comp_total": null,
+  "comp_currency": "CAD",
+  "comp_year": null,
+  "comp_source": "",
+  "sources": [
+   "https://www.advisor.ca/news/industry-news/bmo-insurance-welcomes-back-rohit-thomas/",
+   "https://www.investmentexecutive.com/news/people/bmo-insurance-welcomes-back-rohit-thomas/",
+   "https://elevatefestival.ca/festival-speakers/rohit-thomas/"
+  ],
+  "note": "President effective 2023-03-27 (rejoined BMO from TD); 'President and CEO' title by 2025. firm_since = 2023-03 for the current stint; first BMO stint (~8 years) dates not published. industry_since null (no start year published). Not an NEO of Bank of Montreal; pay not disclosed."
+ },
+ "cio": {
+  "name": "Michael Logan",
+  "title": "Chief Investment Officer, BMO Insurance",
+  "entity": "BMO Insurance (BMO Life Assurance Company)",
+  "reports_to": "Rohit Thomas, President & CEO, BMO Insurance (inferred: listed on the BMO Insurance 'Senior Leadership Team'; not stated)",
+  "seat_since": null,
+  "firm_since": null,
+  "industry_since": "2006",
+  "prior": "Head of Investments, RBC Life Insurance Company (from 2006)",
+  "tenure_source": "MarketScreener insider profile; identity confirmed by Abid Dobani (2026-11-03)",
+  "comp_total": null,
+  "comp_currency": "CAD",
+  "comp_year": null,
+  "comp_source": "",
+  "sources": [
+   "https://www.bmo.com/en-ca/insurance/about-us/",
+   "https://www.bmo.com/fr-ca/assurance/a-propos-de-nous/",
+   "https://www.marketscreener.com/insider/MICHAEL-LOGAN-A0JHYN/"
+  ],
+  "note": "bmo.com's 'About BMO Insurance' page lists Michael Logan as Chief Investment Officer ('Chef des placements' on the French page) under 'Senior Leadership Team' alongside Gillian Noble (VP & Chief Operating Officer), Tim Cavallin (Chief Actuary) and Neil Blue (Head of Legal & Chief Compliance Officer). The page could not be fetched from this environment (bmo.com returns 503/empty reply to curl and WebFetch); roster taken from search-engine snippets of the page. Same Michael (Mike) Logan who was Head of Investments at RBC Life (confirmed by Abid Dobani, 2026-11-03); industry start is the earliest dated role found (2006), so may be later than his true start. BMO seat and join dates not found."
+ },
+ "cio_direct_reports": [],
+ "other_leaders": [
+  {
+   "name": null,
+   "title": "Chief Financial Officer, BMO Insurance (not publicly named; role advertised Mar 2026, posting since removed)",
+   "entity": "BMO Insurance",
+   "reports_to": "CFO, BMO Wealth Management, with dotted line to President & CEO, BMO Insurance (stated in job posting)",
+   "seat_since": null,
+   "firm_since": null,
+   "industry_since": null,
+   "prior": "",
+   "tenure_source": "job posting (jobs.bmo.com R250032147, Mar 2026; builtintoronto mirror)",
+   "comp_total": null,
+   "comp_currency": "CAD",
+   "comp_year": null,
+   "comp_source": "",
+   "sources": [
+    "https://jobs.bmo.com/global/en/job/R250032147/Chief-Financial-Officer-BMO-Insurance",
+    "https://builtintoronto.com/job/chief-financial-officer-bmo-insurance/8644836"
+   ],
+   "note": "Posting says the CFO sits on the Investment, Pricing, Risk and IT Steering committees of the insurance entities and works with the 'Chief Risk Officer, Insurance' and the Appointed Actuary. The jobs.bmo.com URL now returns HTTP 410, consistent with the role having been filled; incumbent not identified. BMO Life Insurance Company FY2025 financial statements are signed by a 'Vice-President and Chief Financial Officer' but the PDF (bmo.com) could not be fetched."
+  },
+  {
+   "name": null,
+   "title": "Chief Risk Officer, Insurance (not publicly named)",
+   "entity": "BMO Insurance",
+   "reports_to": "Chief Risk Officer, BMO Wealth Management (Piyush Agrawal) per bank MD&A FY2025",
+   "seat_since": null,
+   "firm_since": null,
+   "industry_since": null,
+   "prior": "",
+   "tenure_source": "",
+   "comp_total": null,
+   "comp_currency": "CAD",
+   "comp_year": null,
+   "comp_source": "",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm"
+   ],
+   "note": "Reporting line from Bank of Montreal FY2025 MD&A; name not disclosed."
+  }
+ ],
+ "gaps": [
+  "Operating-entities page: bmo.com refused every fetch (curl HTTP/1.1 and HTTP/2 'empty reply'; WebFetch 503) for https://www.bmo.com/en-ca/insurance/about-us/, https://www.bmo.com/insurance/about-us, https://www.bmo.com/fr-ca/assurance/a-propos-de-nous/, https://www.bmo.com/main/about-bmo/legal/ and https://www.bmo.com/main/personal/insurance/. Search snippets of the About page show only 'BMO Insurance is part of BMO Financial Group since 2009' and an A.M. Best A (Excellent) rating; no entity list was visible. operating_entities therefore null. Round-1 sources (bank MD&A; BMO Life Insurance Company FS snippet) indicate BMO Life Insurance Company consolidates its wholly owned subsidiary BMO Life Assurance Company (the AIG Life Canada entity acquired 2009) and BMO Reinsurance Ltd sits in the segment, but this is not from an insurer website page.",
+  "CIO direct reports: none found. BMO Insurance publishes no investment-team page; BMO Asset Management Inc. is portfolio manager of the BMO GIF segregated-fund portfolios (client guide) but no statement on who manages the general account.",
+  "Michael Logan: seat_since, firm_since, industry_since all null; the only tenure clue is an aggregator (MarketScreener) profile at RBC Life Insurance Co. that may be a different person.",
+  "Rohit Thomas: industry_since null; dates of his first BMO stint (~8 years) and TD start not published.",
+  "CFO and CRO of BMO Insurance not named; Chief Actuary Tim Cavallin, COO Gillian Noble and Head of Legal Neil Blue are on the leadership page but are outside the CFO/CRO scope.",
+  "No compensation disclosure for any BMO Insurance executive; Group Head Deland Kamanga's pay not verified (BMO 2026 circular not retrieved).",
+  "Web search budget exhausted before a second pass on the bmo.com leadership page snippets and LinkedIn snippets for Logan/Thomas."
+ ],
+ "notes": "Entities page: none readable - set to null. Senior Leadership Team per bmo.com About page (search snippet, retrieved 2026-11-03): Rohit Thomas (President & CEO), Gillian Noble (VP & Chief Operating Officer), Tim Cavallin (Chief Actuary), Michael Logan (Chief Investment Officer), Neil Blue (Head of Legal & Chief Compliance Officer). Peter McCarthy (President & CEO 2009-2023) moved to Vice Chair, Insurance in March 2023; current status unverified. Bank fiscal year ends Oct 31."
+}

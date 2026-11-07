@@ -1,0 +1,16 @@
+id: humania
+name: Humania Insurance
+anchor: President & CEO of Humania Assurance (subsidiary of LS Mutual Management)
+src: a | Humania, Executive team page | https://www.humania.ca/en/about-us/executive-team
+src: b | Humania 2025 Annual Report (executive team) | https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf
+src: c | Humania release: two new vice-presidents (Georgoulas SVP Finance, 2025) | https://www.humania.ca/en/news/humania-appoints-two-new-vice-presidents-to-drive-its-ambition-and-spirit-of-innovation/
+L1 | Nicolas Moskiou | President & Chief Executive Officer | H | a
+L2 | Dimitri Georgoulas | SVP, Finance (and Treasurer) | H | a,c
+L2 | Luc Thibault | SVP, Operations | H | a
+L2 | Alina Dudau | VP, Actuary (Chief Actuary, risk management) | H | a
+L2 | Luc Bergeron | VP, Investment & Special Projects | M | b
+L2 | Valérie Le Roux | VP, Products & Partnerships | H | a
+L2 | Kim Rochette | VP, Culture, Talent & Customer Experience | H | a
+L2 | Jean-Benoît Forgues | VP, Legal Affairs & Compliance | H | a
+L2 | Martin Houde Bergeron | VP, Humania Travel Insurance | H | a
+note: Luc Bergeron is on the executive team in the 2025 Annual Report but not on the current website page, so he is marked Medium. Humania publishes no level below its vice-presidents; the general account is managed by external managers under a Board investment committee.

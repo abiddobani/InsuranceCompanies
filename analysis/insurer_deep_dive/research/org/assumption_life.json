@@ -1,0 +1,168 @@
+{
+  "company_id": "assumption_life",
+  "operating_entities": {
+    "source_url": "https://www.assomption.ca/en/individuals/about-us/our-subsidiaries",
+    "page_title": "Our Subsidiaries (FR: Nos filiales, https://www.assomption.ca/fr/individus/a-propos-de-nous/nos-filiales)",
+    "retrieved": "2026-11-03",
+    "entities": [
+      {
+        "name": "Assumption Life (Assomption Vie)",
+        "parent": null,
+        "description": "Cornerstone of the Assumption Group. Operates in the area of financial services; through its team of representatives and select partners offers the full range of products required for sound financial planning: investment products, individual and group life insurance. Holds its AGM once a year, in February. (Footer: Assumption Mutual Life Insurance Company, doing business under the name Assumption Life.)"
+      },
+      {
+        "name": "Louisbourg Investments (Placements Louisbourg)",
+        "parent": "Assumption Life (Assomption Vie)",
+        "description": "An investment management and financial planning firm for pension plans, pooled funds, insurance companies and individual portfolio holders; one of the few investment management firms established in the Atlantic Provinces, with offices in Moncton and Halifax. www.louisbourg.net"
+      },
+      {
+        "name": "The Assumption Foundation (La Fondation L'Assomption)",
+        "parent": "Assumption Life (Assomption Vie)",
+        "description": "Upholds the 1903 founding objective of supporting the education of Acadians throughout the United States and Canada; has awarded more than $4,000,000 in scholarships since its creation."
+      },
+      {
+        "name": "Lavvi",
+        "parent": "Assumption Life (Assomption Vie)",
+        "description": "A Software-as-a-Service (SaaS) company with deep expertise in the insurance industry; its life insurance sales distribution platform digitizes the sales and compliance process for insurers (direct-to-consumer and advisor channels). Delivering financial services software since 2007. www.lavvi.com"
+      }
+    ],
+    "ga_manager_statement": {
+      "text": "The page does not say who manages Assumption Life's general account. The only investment-management sentence on the page is Louisbourg's description: 'Louisbourg Investments is an investment management and financial planning firm for pension plans, pooled funds, insurance companies and individual portfolio holders.' It does not name Assumption Life as a client.",
+      "source": "https://www.assomption.ca/en/individuals/about-us/our-subsidiaries"
+    },
+    "note": "The page lists the Assumption Group entities without ownership percentages. For reference only (not from the page): the FY2025 consolidated statements (note on consolidation) show Atlantic Holdings (1987) Limited 100%, Louisbourg Investments Inc. 70%, Lavvi (formerly Tech Knowledge Solutions) 52%; Atlantic Holdings and the Foundation are not described as operating entities on the page. The FR page adds that the Assumption Group has its head office in Moncton, NB. Fund Facts documents on assomption.ca name 'Louisbourg Investments Inc.' as manager of the Assumption/Louisbourg segregated funds, but no site page or filing states who manages the insurer's own general account."
+  },
+  "ceo": {
+    "name": "Sébastien Dupuis",
+    "title": "President and CEO (CPA, CA, ICD.D)",
+    "entity": "Assumption Mutual Life Insurance Company (Assumption Life)",
+    "reports_to": "Board of Directors (Chair Marc Landry, since 2025)",
+    "seat_since": "2019-01",
+    "firm_since": "2001",
+    "industry_since": null,
+    "prior": "Assumption Life only, since 2001: financial analyst (2001-2005), Director of Finance (2005-10), VP & CFO (2015), President and CEO since January 2019; succeeded André Vincent",
+    "tenure_source": "company bio (Our Team page) and 2018 succession press release",
+    "comp_total": null,
+    "comp_currency": "CAD",
+    "comp_year": null,
+    "comp_source": "Mutual: no proxy circular; FY2025 annual report discloses only aggregate key-management compensation (C$4.6mm)",
+    "sources": [
+      "https://www.assomption.ca/en/individuals/about-us/our-team",
+      "https://www.assomption.ca/en/individuals/about-us/press-releases/2018/assumption-life-announces-retirement-of-president-and-ceo-and-names-successor"
+    ],
+    "note": "industry_since left null: the company bio starts his career at Assumption Life in 2001 and discloses nothing earlier. No LinkedIn snippet surfaced; web-search budget for the session was exhausted before a direct LinkedIn snippet query could be run."
+  },
+  "cio": {
+    "name": "Michel Allain",
+    "title": "Vice President, Chief Financial Officer and Chief Actuary (FSA, FCIA); mandate includes investment strategies and asset-liability management",
+    "entity": "Assumption Mutual Life Insurance Company (Assumption Life)",
+    "reports_to": "President and CEO (Sébastien Dupuis)",
+    "seat_since": "2018",
+    "firm_since": "1999",
+    "industry_since": null,
+    "prior": "Assumption Life only, since 1999; Vice President since 2012; VP, CFO and Chief Actuary since 2018. Director of Vestcor Inc.",
+    "tenure_source": "company bio (Our Team page: 'with Assumption Life since 1999', VP CFO & Chief Actuary 'since 2018'); CLHIA 2024 speaker bio ('Vice President since 2012')",
+    "comp_total": null,
+    "comp_currency": "CAD",
+    "comp_year": null,
+    "comp_source": "Mutual: no proxy circular; only aggregate key-management compensation disclosed",
+    "sources": [
+      "https://www.assomption.ca/en/individuals/about-us/our-team",
+      "https://clhia.swoogo.com/tax2024/speaker/1341449/michel-allain",
+      "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf"
+    ],
+    "note": "Assumption Life has no CIO or VP Investments. Allain is treated as the most senior investment officer because his CLHIA speaker bio states his team is 'responsible for the company's financial strategies and operations, including corporate actuarial and finance activities, capital management, budgeting, forecasting, investment strategies and asset-liability management', and the company bio adds enterprise risk management. The FY2025 annual report (ALM note) refers only to 'the actuarial department, finance department and investment managers' without naming the managers. industry_since null: 1999 is his first disclosed role (theorg.com also starts his experience in 1999) but no source says it was his first industry job."
+  },
+  "cio_direct_reports": [
+    {
+      "name": "Marie-Pier Martin",
+      "title": "Director, Finance and Business Intelligence (CPA, CAVP)",
+      "entity": "Assumption Mutual Life Insurance Company (Assumption Life)",
+      "reports_to": "Michel Allain, VP, CFO and Chief Actuary (inferred)",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": null,
+      "tenure_source": null,
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.assomption.ca/en/individuals/about-us/our-team"
+      ],
+      "note": "Listed in the second-tier 'Our Leadership Team' on the Our Team page; no bio.",
+      "reporting_line": "inferred from title"
+    },
+    {
+      "name": "Isabelle Bourgeois",
+      "title": "Chief Risk Officer and Chief of Internal Audit (CPA, CA)",
+      "entity": "Assumption Mutual Life Insurance Company (Assumption Life)",
+      "reports_to": "Not stated. Allain's company bio says he is responsible for 'the enterprise risk management'; the B-15 climate report says the CRO provides annual updates to the Audit Committee (inferred)",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": null,
+      "tenure_source": null,
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.assomption.ca/en/individuals/about-us/our-team",
+        "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf"
+      ],
+      "note": "Placed here only because ERM sits in Allain's stated mandate; a combined CRO/Chief Internal Audit role would normally also have a functional line to the Audit Committee. Listed in the second-tier 'Our Leadership Team'; no bio, no dates found (web-search budget exhausted before a LinkedIn snippet query).",
+      "reporting_line": "inferred from title"
+    }
+  ],
+  "other_leaders": [
+    {
+      "name": "Isabelle Bourgeois",
+      "title": "Chief Risk Officer and Chief of Internal Audit (CPA, CA)",
+      "entity": "Assumption Mutual Life Insurance Company (Assumption Life)",
+      "reports_to": "Not stated (see cio_direct_reports note)",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": null,
+      "tenure_source": null,
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.assomption.ca/en/individuals/about-us/our-team"
+      ],
+      "note": "CRO. The CFO is Michel Allain (see cio: the CFO/Chief Actuary and most senior investment officer are the same person)."
+    },
+    {
+      "name": "Luc Gaudet",
+      "title": "Chief Executive Officer (Président-directeur général), Louisbourg Investments (CFA)",
+      "entity": "Louisbourg Investments Inc. (70%-owned subsidiary of Assumption Life)",
+      "reports_to": "Louisbourg Investments board (Assumption Life is 70% owner)",
+      "seat_since": null,
+      "firm_since": "2009",
+      "industry_since": null,
+      "prior": "More than 35 years in financial services (firms not named in bio); BBA finance, Université de Moncton",
+      "tenure_source": "company bio (louisbourg.com team page: 'With Louisbourg: Since 2009')",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.louisbourg.com/team-bio/luc-gaudet",
+        "https://www.louisbourg.com/fr-ca/team/lucgaudet/"
+      ],
+      "note": "Head of the affiliated asset manager. Louisbourg's investment lead is Mathieu Roy, CFA, Chief Investment Officer / Directeur des placements (with Louisbourg since 1999 per his bio, https://www.louisbourg.com/fr-ca/team/mathieuroy/), who runs the Canadian equity, dividend, small-cap and preferred-share funds. Louisbourg AUM C$3.1bn at YE2025 (annual report). Whether Louisbourg manages the insurer's general account is not disclosed anywhere found. seat_since null: no source gives the year he became CEO (MarketScreener shows a 2001 placeholder date that predates his 2009 arrival, so it is not reliable)."
+    }
+  ],
+  "gaps": [
+    "No source names who manages the insurer's general account (in-house finance/actuarial under Allain vs Louisbourg vs third parties); the FY2025 annual report says only 'investment managers'.",
+    "No investment-titled staff disclosed at the insurer; the two CIO direct reports listed are inferred from the team-page hierarchy, not stated.",
+    "Tenure dates missing (null) for Isabelle Bourgeois (all three), Marie-Pier Martin (all three), Luc Gaudet (seat_since, industry_since) and industry_since for Dupuis and Allain. LinkedIn snippets were not obtained: the session's web-search budget ran out before the per-person LinkedIn snippet queries for Bourgeois, Gaudet and Martin; MarketScreener experience pages return HTTP 403 to curl.",
+    "Mutual: no proxy circular, so no individual compensation; only aggregate key-management comp (C$4.6mm FY2025) in the annual report.",
+    "Pages checked for entities: Our Subsidiaries (EN/FR), Our Team (EN/FR), About Us (EN/FR), Legal notice, Terms of use, Consumer Information, sitemap. Only Our Subsidiaries lists entities."
+  ],
+  "notes": "Assumption Life is a NB mutual whose own site lists four Assumption Group entities (insurer, Louisbourg Investments, Assumption Foundation, Lavvi). Investment accountability sits with the VP, CFO and Chief Actuary (Michel Allain), whose stated mandate includes investment strategy and ALM; the 70%-owned Louisbourg Investments (CEO Luc Gaudet since 2009 at the firm; CIO Mathieu Roy since 1999) manages the Assumption/Louisbourg segregated funds and third-party institutional money, but its role on the general account is undisclosed. Senior-management team on the site as of 2026-11-03: Dupuis (CEO), Allain (CFO/Chief Actuary), Luc Bossé (VP Sales & Marketing, since 2020-09), Marie-Claude Thibodeau (VP Offer Management & Client Experience; joined 2022-01), Tony McLaughlin (VP CITO, since 2022), Michel Simard (VP Group Insurance, since 2023-09). Personal library not available in this session; public sources used. Bigdata.com and Firecrawl not used per brief."
+}

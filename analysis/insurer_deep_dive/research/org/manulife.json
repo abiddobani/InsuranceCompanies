@@ -1,0 +1,120 @@
+{
+  "company_id": "manulife",
+  "operating_entities": null,
+  "ceo": {
+    "name": "Phil Witherington",
+    "title": "President & Chief Executive Officer",
+    "entity": "Manulife Financial Corporation",
+    "reports_to": "Board of Directors",
+    "seat_since": "2025-05",
+    "firm_since": "2014",
+    "industry_since": null,
+    "prior": "HSBC (Asia-Pacific head of finance, retail banking & wealth management; HSBC Insurance CFO), AIA, KPMG; Manulife Asia CFO 2014-17, Manulife CFO 2017/18-2023, President & CEO Manulife Asia 2023-25",
+    "tenure_source": "proxy circular (SEC 6-K ex-99.3, 2026) + Manulife 2023 Asia leadership press release",
+    "comp_total": 15472253,
+    "comp_currency": "CAD",
+    "comp_year": 2025,
+    "comp_source": "https://www.sec.gov/Archives/edgar/data/1086888/000119312526127627/d45448dex993.htm",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1086888/000119312526127627/d45448dex993.htm",
+      "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/aiffebruary2026.htm",
+      "https://www.manulife.com/en/news/manulife-announces-leadership-changes-to-accelerate-asia-growth.html"
+    ],
+    "note": "CEO since 2025-05-09 (succeeded Roy Gori). Joined Manulife 2014 as CFO, Manulife Asia. Industry start year not disclosed (pre-Manulife career at HSBC/AIA/KPMG). Pay: 2025 SCT total converted from USD at BoC 2025 average 1.3978 (first-round file)."
+  },
+  "cio": {
+    "name": "Trevor Kreel",
+    "title": "Chief Investment Officer (and Head of the General Account organization)",
+    "entity": "Manulife Financial Corporation (general account; Executive Leadership Team)",
+    "reports_to": "President & CEO (Phil Witherington) - ELT member per AIF/leadership page; reporting line not explicitly worded",
+    "seat_since": "2024-08",
+    "firm_since": "1995",
+    "industry_since": null,
+    "prior": "Manulife career: Global Head of Portfolio Management (2012-2024, U.S./Canada/Asia general-account assets); earlier led the Global Asset Liability Management group; MarketScreener lists VP & CFO, Manulife (International) Ltd. 1995-2010. FCIA/FSA; B.Bus.Sc. and PG Dip Actuarial Science, University of Cape Town",
+    "tenure_source": "seat: AIF Feb 2026 + Q2-2024 earnings call ('appointed CIO and Head of the General Account organization effective August 1, 2024'); firm: marketscreener insider profile (aggregator; 'since 1995', positions table 1994-12-31) - unverified against a Manulife source",
+    "comp_total": null,
+    "comp_currency": "CAD",
+    "comp_year": 2025,
+    "comp_source": "",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/aiffebruary2026.htm",
+      "https://www.marketscreener.com/insider/TREVOR-KREEL-A0NJDG/",
+      "https://www.manulife.com/ca/en/about-us/who-we-are/our-leaders",
+      "https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_ECT_2024_Q2_EN.pdf"
+    ],
+    "note": "Not a named executive officer in the 2026 circular; 2025 pay undisclosed. Manulife leadership page (per search snippets; page itself returns HTTP 403 here) says he 'oversees all U.S., Canadian and Asian general account investments, as well as management of all investment related risks'. LinkedIn URL per leadership page metadata: ca.linkedin.com/in/trevor-kreel-20a79015 (not fetched). Industry start = firm start if Manulife was his first employer after UCT; not verified, left null."
+  },
+  "cio_direct_reports": [],
+  "other_leaders": [
+    {
+      "name": "Colin Simpson",
+      "title": "Chief Financial Officer",
+      "entity": "Manulife Financial Corporation",
+      "reports_to": "President & CEO",
+      "seat_since": "2023-07",
+      "firm_since": "2022-11",
+      "industry_since": null,
+      "prior": "Aviva (CEO Aviva Canada; Aviva plc senior finance roles), Goldman Sachs International (equity research VP); joined Manulife Nov 2022 to lead U.S. segment priorities / John Hancock CFO, then group CFO 1 Jul 2023",
+      "tenure_source": "proxy circular + Manulife investor-day bios 2024 (search snippet)",
+      "comp_total": 5150231,
+      "comp_currency": "CAD",
+      "comp_year": 2025,
+      "comp_source": "https://www.sec.gov/Archives/edgar/data/1086888/000119312526127627/d45448dex993.htm",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1086888/000119312526127627/d45448dex993.htm",
+        "https://www.manulife.com/content/dam/corporate/global/en/documents/investor-relations/investor-day-bios-2024.pdf"
+      ],
+      "note": "Industry start year not disclosed."
+    },
+    {
+      "name": "Halina von dem Hagen",
+      "title": "Chief Risk Officer",
+      "entity": "Manulife Financial Corporation",
+      "reports_to": "President & CEO (direct access to Board Risk Committee)",
+      "seat_since": "2023-06",
+      "firm_since": "2007",
+      "industry_since": null,
+      "prior": "RBC (12 years, treasury and risk management) before joining Manulife in 2007; Manulife Treasurer / EVP Treasury & Capital Management; SVP Capital Management and Program Director, Standard Life integration",
+      "tenure_source": "seat: AIF Feb 2026; firm: IAIS speaker bio ('joined Manulife in 2007 from Royal Bank of Canada where she spent 12 years')",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/aiffebruary2026.htm",
+        "https://iais.org/news-and-events/halina-von-dem-hagen",
+        "https://crocouncil.org/about-us/council-members/profile/halina-von-dem-hagen"
+      ],
+      "note": "Not an NEO; pay undisclosed. Industry start: ~1995 if RBC counts as industry (12 years before 2007) - derived, not stated, so left null."
+    },
+    {
+      "name": "Paul Lorentz",
+      "title": "President & CEO, Global Wealth and Asset Management (Manulife Investment Management)",
+      "entity": "Manulife Financial Corporation / Manulife Investment Management",
+      "reports_to": "President & CEO",
+      "seat_since": "2019",
+      "firm_since": "1993",
+      "industry_since": "1993",
+      "prior": "Career at Manulife since 1993; FCIA; previously Head of Global Wealth Management (2017-19)",
+      "tenure_source": "proxy circular + AIF",
+      "comp_total": 7711879,
+      "comp_currency": "CAD",
+      "comp_year": 2025,
+      "comp_source": "https://www.sec.gov/Archives/edgar/data/1086888/000119312526127627/d45448dex993.htm",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1086888/000119312526127627/d45448dex993.htm",
+        "https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/aiffebruary2026.htm",
+        "https://www.manulifeim.com/en/leadership"
+      ],
+      "note": "Head of the affiliated asset manager (Global WAM manages C$234.4bn of general-fund assets for the insurance segments, FY2025 MD&A). Not the GA CIO. industry_since = firm_since (first job out of university), inferred."
+    }
+  ],
+  "gaps": [
+    "Operating-entities page: every manulife.com and manulife.ca URL tried returned HTTP 403 to curl (honest UA) and to WebFetch from this environment: /en/about/our-companies.html, /en/about.html, /en/legal.html, /en/about/leadership.html, /en/about/leadership/trevor-kreel.html, /ca/en/about-us/who-we-are/our-leaders, /content/dam/.../MFC_AIF_2025_Q4_EN.pdf, manulife.ca/about-us.html, manulife.ca/legal.html, manulife.ca/personal/legal.html. manulifeim.com also 403 (first round). No bypass attempted. operating_entities therefore null; Abid can open the 'Our leaders' / 'Legal' pages from his own browser. The AIF (SEC copy) 'principal subsidiaries' table is the fallback disclosure but is not a website entities page.",
+    "CIO direct reports: no public source names anyone reporting to Trevor Kreel. Searches for Global Head of Portfolio Management (his former seat), Global ALM head, Head of Investment Risk, GA COO, Asia/US GA CIO returned only job postings (Global Asset Liability Management team, Global Portfolio Management team, General Account COO office, Asia General Account Investments team exist per careers.manulife.com) and MIM roles. List left empty rather than inferred.",
+    "Manulife Investment Management leaders who manage GA assets - Colin Purdie (Global CIO Public Markets, 2023), Anne Valentine Andrews (Global Head of Private Markets, 2024), Marc Feliciano (Global Head of Real Estate, Private Markets, 'on behalf of clients, including Manulife's General Account') - sit in Global WAM under Paul Lorentz, not under the CIO; excluded from cio_direct_reports.",
+    "Trevor Kreel firm_since (1995) rests on MarketScreener only; LinkedIn not fetchable (HTTP 999) and no LinkedIn snippet surfaced. Industry start years for Kreel, Witherington, Simpson, von dem Hagen not disclosed.",
+    "Web-search budget for the session was exhausted before a final pass on Kreel's team; Bigdata.com/Firecrawl unavailable per brief."
+  ],
+  "notes": "CIO = Trevor Kreel (corporate CIO, general account, ELT). First-round pay figures retained (2026 circular, FY2025). Scott Hartz (CIO to Aug 2024) and Rahim Hirji (CRO to Jun 2023) are predecessors only."
+}

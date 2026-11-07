@@ -1,0 +1,6 @@
+id: canada_protection_plan
+name: Canada Protection Plan
+anchor: Foresters Financial's Chief Investment Officer (CPP policies are underwritten by Foresters Life)
+src: li1 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/clark-wagner-30201a92
+L1 | Clark Wagner | Chief Investment Officer, Foresters Financial, since Apr 2023 | M | li1
+note: Same investment team as Foresters Life.

@@ -1,0 +1,35 @@
+id: ia
+name: iA Financial Group
+anchor: Group CEO of the listed parent, iA Financial Corporation
+src: a | iA Executive Committee page (ia.ca) | https://ia.ca/about-us/executive-committee/ia-financial-corporation
+src: b | iA release (2026-05-05): Executive Committee changes (Hudon joins 2026-06-01; Berthiaume CGO Canada; Miron retires 2026-12-31; IT reports to CEO) | https://www.businesswire.com/news/home/20260505350542/en/
+src: c | iA Global Asset Management team page (iagam.ca) | https://iagam.ca/team
+src: d | iA GAM bio: Jonathan Mercier, reports to the CIO | https://iagam.ca/team/jonathan-mercier
+src: e | Advisor.ca (2026-02): Adam Elliott, President & CEO, iA Private Wealth | https://www.advisor.ca/industry-news/industry-moves-ia-private-wealth-lands-1-5b-scotiabank-mcleod-advisory/
+src: f | Coverager: John Laudenslager named President, iA American Warranty Group (date not given) | https://coverager.com/ia-financial-names-john-laudenslager-president-of-ia-american/
+src: g | iA release (2025-09-02): Marie-Annick Bonneau EVP & CRO | https://ia.ca/newsroom/2025/september/iafg-announces-the-appointment-of-marie-annick-bonneau-as-executive-vice-president-and-chief-risk-officer
+L1 | Denis Ricard | President & Chief Executive Officer | H | a
+L2 | Éric Jobin | EVP, CFO & Chief Actuary | H | a
+L2 | Marie-Annick Bonneau | EVP & Chief Risk Officer | H | a,g
+L2 | Alain Bergeron | EVP & Chief Investment Officer | H | a
+L3 | Tej Rai | MD, General Funds & Asset Allocation | H | c | ~
+L3 | Alexandre Bannon | SVP, Head of Asset Liability Management | H | c | ~
+L3 | Dominic Siciliano | SVP, Head of Fixed Income | H | c | ~
+L3 | Stéfanie Leduc | SVP, Head of Corporate Bonds & Private Debt | H | c | ~
+L3 | Claude Sirois | MD, Real Assets & Private Equity | H | c | ~
+L3 | Jean-René Adam | MD, Head of Investment Funds, Public Equities | H | c | ~
+L3 | Jean-Pierre Cornillaut | MD, Chief Operating Officer, Investments | H | c | ~
+L3 | Francis Jacob-Roy | VP, Head of Investment Risk | H | c | ~
+L3 | Jonathan Mercier | SVP, Head of Strategy & Transformation | H | d
+L2 | Denis Berthiaume | EVP, Chief Growth Officer, Canadian Operations | H | a,b
+L2 | Renée Laflamme | EVP, Individual Insurance, Savings & Retirement | H | a
+L2 | Louis-Philippe Pouliot | EVP, Group Benefits & Retirement Solutions | H | a
+L2 | Stephan Bourbonnais | EVP, Wealth Management | H | a
+L3 | Adam Elliott | President & CEO, iA Private Wealth | M | e | ~
+L2 | Sean O'Brien | EVP, Dealer Services & Chief Growth Officer, US Operations | H | a
+L3 | John Laudenslager | President, iA American Warranty Group | L | f | ~
+L2 | Nicolas Coulombe | EVP, Information Technology (CIO) | H | a,b
+L2 | Benoit Hudon | EVP, Corporate Strategy & Development | H | a,b
+L2 | Stéphanie Butt Thibodeau | EVP, Talent & Corporate Affairs | H | a
+L2 | Pierre Miron | EVP & Strategic Advisor (retiring 2026-12-31) | H | a,b
+note: All twelve Executive Committee members are on ia.ca and are taken as direct reports of the CEO (the 2026-05-05 release confirms IT now reports to the CEO). Level 3 under the CIO comes from the iA Global Asset Management team page; only Jonathan Mercier's bio states the reporting line, the rest are inferred from title. iA's business-unit pages do not list the teams under the other Executive Committee members.

@@ -1,0 +1,64 @@
+osfi_name,osfi_group,incorporation,city,core_company_id,status,note
+AWP Health & Life SA,Life Insurance Companies,Foreign branch,Toronto,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+Aetna Life Insurance Company,Life Insurance Companies,Foreign branch,Newmarket,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+Alan CA Inc.,Life Insurance Companies,Canadian,Toronto,,candidate,"Digital health insurer, newly licensed"
+Allstate Life Insurance Company of Canada,Life Insurance Companies,Canadian,North York,,candidate_low,Small; legacy/runoff life book
+American Bankers Life Assurance Company of Florida,Life Insurance Companies,Foreign branch,Toronto,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+American Health and Life Insurance Company,Life Insurance Companies,Foreign branch,London,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+American Income Life Insurance Company,Life Insurance Companies,Foreign branch,Toronto,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+BMO Life Assurance Company,Life Insurance Companies,Canadian,Toronto,bmo_life,core,
+Blue Cross Life Insurance Company of Canada,Life Insurance Companies,Canadian,Moncton,,candidate,Blue Cross group life & health (Moncton)
+Blumont Annuity Company,Life Insurance Companies,Canadian,Toronto,,candidate,Brookfield Wealth Solutions annuity / pension risk transfer insurer
+British Insurance Company of Cayman,Life Insurance Companies,Foreign branch,Toronto,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+CIBC Life Insurance Company Limited,Life Insurance Companies,Canadian,Toronto,,candidate,Bank-owned life & creditor insurer
+CIGNA Life Insurance Company of Canada,Life Insurance Companies,Canadian,Scarborough,,candidate_low,Small health/accident book
+Canada Life Assurance Company (The),Life Insurance Companies,Canadian,Winnipeg,canada_life,core,
+Canada Life Insurance Company of Canada (The),Life Insurance Companies,Canadian,Winnipeg,canada_life,core,
+Canadian Premier Life Insurance Company,Life Insurance Companies,Canadian,Toronto,canadian_premier,core,
+Chubb Life Insurance Company of Canada,Life Insurance Companies,Canadian,Toronto,,candidate_low,"Accident & health, direct marketing"
+Co-operators Life Insurance Company,Life Insurance Companies,Canadian,Regina,cooperators_life,core,
+Combined Insurance Company of America,Life Insurance Companies,Foreign branch,Markham,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+CompCorp Life Insurance Company,Life Insurance Companies,Canadian,Toronto,,exclude,"Assuris resolution vehicle, not an operating insurer"
+Connecticut General Life Insurance Company,Life Insurance Companies,Foreign branch,Scarborough,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+Empire Life Insurance Company (The),Life Insurance Companies,Canadian,Kingston,empire_life,core,
+Employers Reassurance Corporation,Life Insurance Companies,Foreign branch,Overland Park,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+Equitable Life Insurance Company of Canada (The),Life Insurance Companies,Canadian,Waterloo,equitable_life,core,
+Foresters Life Insurance Company,Life Insurance Companies,Canadian,Toronto,foresters_life,core,
+General Re Life Corporation,Life Insurance Companies,Foreign branch,Toronto,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+Green Shield Canada Insurance,Life Insurance Companies,Canadian,Windsor,,candidate,Not-for-profit health and dental benefits carrier
+Hannover Re (Ireland) Designated Activity Company,Life Insurance Companies,Foreign branch,Toronto,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+Jackson National Life Insurance Company,Life Insurance Companies,Foreign branch,Toronto,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+Life Insurance Company of North America,Life Insurance Companies,Foreign branch,Toronto,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+MD Life Insurance Company,Life Insurance Companies,Canadian,Ottawa,,candidate_low,Small life insurer serving physicians
+Manufacturers Life Insurance Company (The),Life Insurance Companies,Canadian,Toronto,manulife,core,
+Manulife Assurance Company of Canada,Life Insurance Companies,Canadian,Toronto,manulife,core,
+Manulife Financial Corporation,Life Insurance Companies,Canadian,Toronto,manulife,core,
+Metropolitan Life Insurance Company,Life Insurance Companies,Foreign branch,Newmarket,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+Metropolitan Tower Life Insurance Company,Life Insurance Companies,Foreign branch,Montreal,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+Munich Reinsurance Company,Life Insurance Companies,Foreign branch,Toronto,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+New York Life Insurance Company,Life Insurance Companies,Foreign branch,Toronto,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+Pacific Life Re International Limited,Life Insurance Companies,Foreign branch,Toronto,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+PartnerRe Life Reinsurance Company of Canada,Life Insurance Companies,Canadian,Toronto,,reinsurer,Life reinsurer
+Pavonia Life Insurance Company of Michigan,Life Insurance Companies,Foreign branch,Newmarket,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+Primerica Life Insurance Company of Canada,Life Insurance Companies,Canadian,Mississauga,primerica_life,core,
+RBC Life Insurance Company,Life Insurance Companies,Canadian,Toronto,rbc_life,core,
+RGA Life Reinsurance Company of Canada,Life Insurance Companies,Canadian,Montreal,,reinsurer,Largest Canadian life reinsurer
+ReliaStar Life Insurance Company,Life Insurance Companies,Foreign branch,Vaughan,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+Reliable Life Insurance Company,Life Insurance Companies,Canadian,Hamilton,,candidate_low,Small; Old Republic group
+SCOR SE,Life Insurance Companies,Foreign branch,Toronto,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+Sun Life Assurance Company of Canada,Life Insurance Companies,Canadian,Toronto,sun_life,core,
+Sun Life Financial Inc.,Life Insurance Companies,Canadian,Toronto,sun_life,core,
+Sun Life Insurance (Canada) Limited,Life Insurance Companies,Canadian,Toronto,sun_life,core,
+Swiss Reinsurance Company Ltd,Life Insurance Companies,Foreign branch,Toronto,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+TD Life Insurance Company,Life Insurance Companies,Canadian,Montréal,,candidate,Bank-owned life & creditor insurer
+TruStage Life of Canada,Life Insurance Companies,Canadian,Waterloo,,candidate,Formerly CUMIS Life; credit-union channel
+Wawanesa Life Insurance Company (The),Life Insurance Companies,Canadian,Winnipeg,wawanesa_life,core,
+ivari,Life Insurance Companies,Canadian,Toronto,ivari,core,
+ACTRA Fraternal Benefit Society,Fraternal Benefit Societies,Canadian,Toronto,,candidate_low,"Fraternal, small"
+Grand Orange Lodge of British America (The),Fraternal Benefit Societies,Canadian,Toronto,,candidate_low,"Fraternal, small"
+Independent Order of Foresters (The),Fraternal Benefit Societies,Canadian,Toronto,foresters_life,core,
+Knights of Columbus,Fraternal Benefit Societies,Foreign branch,Belleville,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default
+Serenia Life Financial,Fraternal Benefit Societies,Canadian,Waterloo,,candidate_low,Fraternal (formerly Faith Life Financial)
+Teachers Life Insurance Society (Fraternal),Fraternal Benefit Societies,Canadian,Mississauga,,candidate_low,"Fraternal, small"
+Toronto Police Widows and Orphans Fund,Fraternal Benefit Societies,Canadian,Toronto,,candidate_low,"Fraternal, small"
+Ukrainian National Association,Fraternal Benefit Societies,Foreign branch,Markham,,foreign_branch,Canadian branch of a foreign insurer/reinsurer; excluded by default

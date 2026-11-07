@@ -1,0 +1,144 @@
+company_id,company,sector,pct_of_corporates,is_focus
+manulife,Manulife,Energy,9.5,0
+manulife,Manulife,Materials,3.5,0
+manulife,Manulife,Industrials,13.9,0
+manulife,Manulife,Consumer discretionary,5.6,0
+manulife,Manulife,Consumer staples,13.9,0
+manulife,Manulife,Health care,0.0,0
+manulife,Manulife,Financials,22.1,0
+manulife,Manulife,Technology,1.5,0
+manulife,Manulife,Communications,2.0,0
+manulife,Manulife,Utilities,25.7,0
+manulife,Manulife,Other,2.1,0
+canada_life,Canada Life,Energy,6.6,0
+canada_life,Canada Life,Materials,5.5,0
+canada_life,Canada Life,Industrials,1.7,0
+canada_life,Canada Life,Consumer discretionary,4.8,0
+canada_life,Canada Life,Consumer staples,4.0,0
+canada_life,Canada Life,Health care,4.1,0
+canada_life,Canada Life,Financials,18.9,0
+canada_life,Canada Life,Technology,3.3,0
+canada_life,Canada Life,Communications,3.9,0
+canada_life,Canada Life,Utilities,29.5,0
+canada_life,Canada Life,Other,17.8,0
+sun_life,Sun Life,Energy,6.1,0
+sun_life,Sun Life,Materials,1.5,0
+sun_life,Sun Life,Industrials,13.5,0
+sun_life,Sun Life,Consumer discretionary,2.8,0
+sun_life,Sun Life,Consumer staples,3.3,0
+sun_life,Sun Life,Health care,6.1,0
+sun_life,Sun Life,Financials,24.9,0
+sun_life,Sun Life,Technology,1.6,0
+sun_life,Sun Life,Communications,4.6,0
+sun_life,Sun Life,Utilities,16.5,0
+sun_life,Sun Life,Other,19.3,0
+rbc_life,RBC Life,Energy,37.6,1
+rbc_life,RBC Life,Materials,0.0,1
+rbc_life,RBC Life,Industrials,2.3,1
+rbc_life,RBC Life,Consumer discretionary,1.6,1
+rbc_life,RBC Life,Consumer staples,0.0,1
+rbc_life,RBC Life,Health care,7.3,1
+rbc_life,RBC Life,Financials,16.0,1
+rbc_life,RBC Life,Technology,2.7,1
+rbc_life,RBC Life,Communications,4.9,1
+rbc_life,RBC Life,Utilities,0.0,1
+rbc_life,RBC Life,Other,27.5,1
+bmo_life,BMO Life,Energy,15.0,0
+bmo_life,BMO Life,Materials,0.2,0
+bmo_life,BMO Life,Industrials,7.5,0
+bmo_life,BMO Life,Consumer discretionary,5.9,0
+bmo_life,BMO Life,Consumer staples,5.9,0
+bmo_life,BMO Life,Health care,1.7,0
+bmo_life,BMO Life,Financials,14.2,0
+bmo_life,BMO Life,Technology,0.6,0
+bmo_life,BMO Life,Communications,9.0,0
+bmo_life,BMO Life,Utilities,32.6,0
+bmo_life,BMO Life,Other,7.3,0
+ivari,ivari,Energy,16.7,0
+ivari,ivari,Materials,0.0,0
+ivari,ivari,Industrials,11.1,0
+ivari,ivari,Consumer discretionary,1.3,0
+ivari,ivari,Consumer staples,16.8,0
+ivari,ivari,Health care,0.0,0
+ivari,ivari,Financials,11.8,0
+ivari,ivari,Technology,0.0,0
+ivari,ivari,Communications,18.6,0
+ivari,ivari,Utilities,21.8,0
+ivari,ivari,Other,1.9,0
+empire_life,Empire Life,Energy,18.0,0
+empire_life,Empire Life,Materials,0.1,0
+empire_life,Empire Life,Industrials,4.4,0
+empire_life,Empire Life,Consumer discretionary,0.3,0
+empire_life,Empire Life,Consumer staples,4.4,0
+empire_life,Empire Life,Health care,2.7,0
+empire_life,Empire Life,Financials,36.2,0
+empire_life,Empire Life,Technology,0.5,0
+empire_life,Empire Life,Communications,7.0,0
+empire_life,Empire Life,Utilities,15.7,0
+empire_life,Empire Life,Other,10.6,0
+equitable_life,Equitable Life,Energy,24.5,0
+equitable_life,Equitable Life,Materials,0.0,0
+equitable_life,Equitable Life,Industrials,6.6,0
+equitable_life,Equitable Life,Consumer discretionary,2.5,0
+equitable_life,Equitable Life,Consumer staples,0.0,0
+equitable_life,Equitable Life,Health care,0.3,0
+equitable_life,Equitable Life,Financials,42.0,0
+equitable_life,Equitable Life,Technology,0.0,0
+equitable_life,Equitable Life,Communications,6.3,0
+equitable_life,Equitable Life,Utilities,0.0,0
+equitable_life,Equitable Life,Other,17.7,0
+cooperators_life,Co-operators Life,Energy,25.1,0
+cooperators_life,Co-operators Life,Materials,0.0,0
+cooperators_life,Co-operators Life,Industrials,7.4,0
+cooperators_life,Co-operators Life,Consumer discretionary,0.0,0
+cooperators_life,Co-operators Life,Consumer staples,0.0,0
+cooperators_life,Co-operators Life,Health care,0.5,0
+cooperators_life,Co-operators Life,Financials,27.1,0
+cooperators_life,Co-operators Life,Technology,0.0,0
+cooperators_life,Co-operators Life,Communications,8.5,0
+cooperators_life,Co-operators Life,Utilities,13.2,0
+cooperators_life,Co-operators Life,Other,18.2,0
+wawanesa_life,Wawanesa Life,Energy,10.7,0
+wawanesa_life,Wawanesa Life,Materials,0.0,0
+wawanesa_life,Wawanesa Life,Industrials,9.0,0
+wawanesa_life,Wawanesa Life,Consumer discretionary,2.8,0
+wawanesa_life,Wawanesa Life,Consumer staples,3.5,0
+wawanesa_life,Wawanesa Life,Health care,0.0,0
+wawanesa_life,Wawanesa Life,Financials,35.0,0
+wawanesa_life,Wawanesa Life,Technology,0.0,0
+wawanesa_life,Wawanesa Life,Communications,5.0,0
+wawanesa_life,Wawanesa Life,Utilities,34.0,0
+wawanesa_life,Wawanesa Life,Other,0.0,0
+foresters_life,Foresters Life,Energy,8.2,0
+foresters_life,Foresters Life,Materials,0.0,0
+foresters_life,Foresters Life,Industrials,5.1,0
+foresters_life,Foresters Life,Consumer discretionary,1.9,0
+foresters_life,Foresters Life,Consumer staples,0.7,0
+foresters_life,Foresters Life,Health care,2.1,0
+foresters_life,Foresters Life,Financials,54.3,0
+foresters_life,Foresters Life,Technology,0.0,0
+foresters_life,Foresters Life,Communications,4.9,0
+foresters_life,Foresters Life,Utilities,22.9,0
+foresters_life,Foresters Life,Other,0.0,0
+canadian_premier,Canadian Premier Life,Energy,8.3,0
+canadian_premier,Canadian Premier Life,Materials,0.0,0
+canadian_premier,Canadian Premier Life,Industrials,1.2,0
+canadian_premier,Canadian Premier Life,Consumer discretionary,1.6,0
+canadian_premier,Canadian Premier Life,Consumer staples,6.3,0
+canadian_premier,Canadian Premier Life,Health care,0.0,0
+canadian_premier,Canadian Premier Life,Financials,54.4,0
+canadian_premier,Canadian Premier Life,Technology,0.0,0
+canadian_premier,Canadian Premier Life,Communications,6.1,0
+canadian_premier,Canadian Premier Life,Utilities,10.1,0
+canadian_premier,Canadian Premier Life,Other,11.9,0
+primerica_life,Primerica Life,Energy,10.5,0
+primerica_life,Primerica Life,Materials,0.0,0
+primerica_life,Primerica Life,Industrials,8.7,0
+primerica_life,Primerica Life,Consumer discretionary,13.9,0
+primerica_life,Primerica Life,Consumer staples,10.0,0
+primerica_life,Primerica Life,Health care,0.0,0
+primerica_life,Primerica Life,Financials,37.1,0
+primerica_life,Primerica Life,Technology,0.0,0
+primerica_life,Primerica Life,Communications,9.7,0
+primerica_life,Primerica Life,Utilities,10.2,0
+primerica_life,Primerica Life,Other,0.0,0

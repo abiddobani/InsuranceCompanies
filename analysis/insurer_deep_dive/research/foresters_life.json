@@ -1,0 +1,145 @@
+{
+  "company_id": "foresters_life",
+  "name": "Foresters Life Insurance Company (FLIC) / The Independent Order of Foresters (Foresters Financial)",
+  "as_of": "2025-12-31",
+  "ownership": "FLIC is a wholly owned subsidiary of The Independent Order of Foresters (IOF), a fraternal benefit society (no shareholders, no listing)",
+  "regulator": "OSFI (IOF and FLIC); US branch regulated by state insurance departments (NAIC RBC); UK subsidiary by PRA/FCA",
+  "metrics": [
+    {"metric": "Total assets (IOF consolidated)", "value": 19.597, "unit": "C$bn", "as_of": "2025-12-31", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/us/2025-iof-financial-statements-en.pdf", "note": "Includes C$10.18bn of segregated-fund / unit-linked assets (UK Child Trust Fund savings)"},
+    {"metric": "Total assets (FLIC)", "value": 1.791, "unit": "C$bn", "as_of": "2025-12-31", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/2025-flic-financial-statements-final-ua.pdf", "note": "FLIC statement of financial position; C$914.5mm is reinsurance contract held assets (100% quota share coinsurance to parent IOF)"},
+    {"metric": "General-account investments (IOF)", "value": 8.1, "unit": "C$bn", "as_of": "2025-12-31", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/financial-highlights/2025-financial-highlights-en-ca.pdf", "note": "'Investments' = cash, short-term securities and invested assets, +2.7% y/y; financial assets at FV C$7.862bn; total financial assets incl. cash C$8.114bn"},
+    {"metric": "General-account invested assets (FLIC)", "value": 816.3, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/2025-flic-financial-statements-final-ua.pdf", "note": "Cash 33.2 + short-term 12.0 + financial assets at FV 771.1 (bonds 657.2, equities 67.7, LPs 46.2)"},
+    {"metric": "AUM / AUMA (UK unit-linked)", "value": 5.6, "unit": "GBP bn", "as_of": "2024-12-31", "source": "https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf", "note": "AM Best report: UK segment assets under management ~GBP 5.6bn at YE2024 (Child Trust Fund / unit-linked). Foresters sold its asset-management arms in 2019; no third-party AUM"},
+    {"metric": "Net income (IOF)", "value": 223.9, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/us/2025-iof-financial-statements-en.pdf", "note": "FY2025; FY2024 was a loss of C$56.8mm. Total comprehensive income C$166.2mm (2024: C$93.1mm)"},
+    {"metric": "Net income (FLIC)", "value": 15.1, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/2025-flic-financial-statements-final-ua.pdf", "note": "FY2025 (2024: C$6.2mm). No core/underlying earnings measure disclosed"},
+    {"metric": "Insurance revenue (IOF)", "value": 954.0, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/us/2025-iof-financial-statements-en.pdf", "note": "Gross premiums C$1.4bn; annualized weighted sales C$384.8mm (+14.5%)"},
+    {"metric": "LICAT Total ratio (IOF)", "value": 188.2, "unit": "%", "as_of": "2025-12-31", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/financial-highlights/2025-licat-disclosure_final-ua.pdf", "note": "Core 139.3%; 2024: 182.4% / 132.5%. US RBC ratio 623%. Internal targets exist but are not quantified publicly"},
+    {"metric": "LICAT Total ratio (FLIC)", "value": 207.9, "unit": "%", "as_of": "2025-12-31", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/financial-highlights/2025-licat-disclosure_final-ua.pdf", "note": "Core 171.3%; 2024: 199.7% / 152.3%"},
+    {"metric": "Surplus (IOF)", "value": 2.302, "unit": "C$bn", "as_of": "2025-12-31", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/us/2025-iof-financial-statements-en.pdf", "note": "Retained earnings 2,004 + AOCI 298"},
+    {"metric": "Financial leverage ratio", "value": 9.8, "unit": "%", "as_of": "2025-12-31", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/us/2025-iof-financial-statements-en.pdf", "note": "Inferred: sub debt 248.8 / (sub debt 248.8 + surplus 2,302.2). Company does not publish a leverage ratio; AM Best calls leverage 'manageable'"},
+    {"metric": "Credit rating - AM Best FSR", "value": null, "unit": "A (Excellent), stable; ICR 'a'", "as_of": "2025-10-10", "source": "https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf", "note": "Applies to IOF and FLIC (FLIC rated A for the first time in 2025). Balance sheet strength 'Strongest'; operating performance 'Adequate'; ERM 'Appropriate'"},
+    {"metric": "Credit rating - Morningstar DBRS", "value": null, "unit": "A FSR and Issuer Rating, stable", "as_of": "2025-12-31", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/financial-highlights/2025-financial-highlights-en-ca.pdf", "note": "Per 2025 financial highlights (confirmed in 2025)"},
+    {"metric": "Investments team headcount", "value": null, "unit": "people", "as_of": null, "source": null, "note": "Not disclosed. AM Best: invested assets 100% externally managed; FS refer to a small internal 'Investments team' that oversees external asset managers"},
+    {"metric": "Employees", "value": null, "unit": "people", "as_of": null, "source": null, "note": "Not disclosed in FS or report to members"},
+    {"metric": "Key management compensation (IOF, aggregate)", "value": 22.954, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/us/2025-iof-financial-statements-en.pdf", "note": "Directors and executive officers combined (2024: C$21.5mm). FLIC key management: C$1.8mm"},
+    {"metric": "Certificates and contracts in force", "value": 2.2, "unit": "mm", "as_of": "2025-12-31", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/financial-highlights/2025-financial-highlights-en-ca.pdf", "note": ""}
+  ],
+  "business_mix": {
+    "basis": "IOF insurance revenue by segment, FY2025 (NAI = North American Insurance, US + Canada incl. FLIC; UKSIP = UK Savings, Investments & Protection)",
+    "as_of": "2025-12-31",
+    "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/us/2025-iof-financial-statements-en.pdf",
+    "items": [
+      {"label": "North American Insurance (US + Canada)", "pct": 98.1},
+      {"label": "UK Savings, Investments & Protection", "pct": 1.9}
+    ],
+    "alt_bases": [
+      {"basis": "Investment return by geography, FY2025 (C$561.8mm)", "items": [{"label": "NAI", "pct": 56.0}, {"label": "UKSIP", "pct": 11.7}, {"label": "Non-insurance / surplus", "pct": 32.3}]},
+      {"basis": "Invested assets by segment, YE2024 (AM Best)", "items": [{"label": "IOF US branch", "pct": 60.9}, {"label": "IOF Canada", "pct": 16.6}, {"label": "FLIC", "pct": 10.0}, {"label": "UK", "pct": 12.5}]}
+    ]
+  },
+  "people": [
+    {"role": "CEO", "name": "Matt (Matthew M.) Berman", "title": "President and Chief Executive Officer, Foresters Financial (also signs FLIC statements as President & CEO)", "reports_to": "Board of Directors (Chair: Daniel J. Fortin)", "entity": "The Independent Order of Foresters", "seat_since": 2024, "firm_since": 2017, "industry_since": null, "prior": "AXA, AIG, Zurich Insurance (25+ years P&C and life/savings); at Foresters: President FLIAC and Chief Distribution Officer, President US, President US & Canada (Mar 2023)", "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.foresters.com/en/about/senior-leadership", "https://www.prnewswire.com/news-releases/matt-berman-named-president-foresters-financial-us-and-canada-301758913.html"], "note": "Fraternal: no proxy circular; individual pay not disclosed (only aggregate key-management pay C$23.0mm). CEO since January 2024, succeeding interim CEO Rene Zanin (Louis Gagnon stepped down July 2023)"},
+    {"role": "CFO", "name": "Alvin Sharma", "title": "Global Chief Financial Officer", "reports_to": "CEO", "entity": "The Independent Order of Foresters", "seat_since": 2018, "firm_since": 2018, "industry_since": null, "prior": "CFO, Echelon Insurance; life insurance and asset management roles in US, UK and Canada; CA (UK), CFA", "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.foresters.com/en/about/senior-leadership", "https://www.investmentexecutive.com/news/people/foresters-financial-names-new-global-cfo/"], "note": "Signs IOF statements with CEO. Treasury and investments oversight sit under finance (inferred); no separate CIO on the senior leadership page"},
+    {"role": "CIO", "name": "Clark D. Wagner (listed by AM Best; likely stale)", "title": "Vice President and Chief Investment Officer (per AM Best Oct 2025 officer list)", "reports_to": null, "entity": "The Independent Order of Foresters", "seat_since": 2016, "firm_since": 2016, "industry_since": null, "prior": "President, Foresters Investment Management Company (First Investors funds) 2016-2019", "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf", "https://uk.marketscreener.com/insider/CLARK-DAVID-WAGNER-A03C1N/experience"], "note": "UNCERTAIN: AM Best's Oct 2025 report still lists Wagner as CIO, but Marketscreener shows his CIO tenure ending Nov 2019 when the US asset manager was sold to Macquarie. Foresters' current leadership page shows no CIO. Treat as gap: the most senior investment officer today is not publicly identified"},
+    {"role": "Head of public markets / fixed income", "name": null, "title": null, "reports_to": null, "entity": null, "seat_since": null, "firm_since": null, "industry_since": null, "prior": null, "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": [], "note": "Not applicable in-house: general account is 100% externally managed (AM Best). External managers are not named in FY2025 statements"},
+    {"role": "CRO", "name": "Caroline Rendall", "title": "Chief Risk Officer (Global CRO; segment CROs report to her)", "reports_to": "CEO; ERM Committee and CRO overseen by Board Risk and Investment Committee", "entity": "The Independent Order of Foresters", "seat_since": 2023, "firm_since": 2015, "industry_since": null, "prior": "~8 years in Foresters ERM before appointment (firm_since inferred from that)", "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.foresters.com/en/about/senior-leadership", "https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf"], "note": "Appointed July 2023"},
+    {"role": "Board Chair", "name": "Daniel J. Fortin", "title": "Chair of the Board", "reports_to": "Members (International Assembly)", "entity": "The Independent Order of Foresters", "seat_since": null, "firm_since": null, "industry_since": null, "prior": null, "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/foresters-report/2025-foresters-report-en-ca.pdf"], "note": "Re-appointed Chair in 2025; four new directors elected 2025 (Nikki Sorum, Linda Seymour, Lynn Oldfield, Martin Sheerin per AM Best director list)"}
+  ],
+  "pm_structure": {
+    "summary": "General account is 100% externally managed (AM Best, Oct 2025); Foresters exited asset management in 2019 (Canadian arm to Fiera Capital, US arm to Macquarie) and retains a small internal Investments team that sets policy and oversees external managers under Board-approved Investment Policy.",
+    "manager_entities": ["External asset managers (not named in FY2025 statements)", "Fiera Capital (acquired Foresters Asset Management Aug 2019; expected to keep managing a portion of Foresters assets at the time)"],
+    "bullets": [
+      "Board Risk and Investment Committee approves Investment Policy; enterprise-wide and segment-level portfolio limits",
+      "Assets segmented by liability block and geography (US branch, Canada, FLIC, UK); managed in relation to each segment's liabilities",
+      "Internal Investments team surveys external asset managers annually on ESG; discusses climate/credit risk with managers",
+      "FLIC is charged by IOF for shared services incl. investment management (C$8.8mm total support-function charge in 2025)",
+      "Asset management sold 2019: FAM (C$10.5bn AUM) to Fiera; US First Investors funds to Macquarie; broker-dealer to Cetera"
+    ],
+    "sources": ["https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf", "https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/osfi-climate-risk-management-report-2025-en-ca.pdf", "https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/2025-flic-financial-statements-final-ua.pdf", "https://www.newswire.ca/news-releases/fiera-capital-to-acquire-foresters-asset-management-inc--865349042.html"]
+  },
+  "rotation_commentary": [
+    {"year": 2025, "text": "Mortgages grew to C$294mm from C$244mm; corporates rose to C$4.68bn from C$4.25bn while governments fell to C$1.54bn from C$1.79bn (AAA bucket halved to C$548mm).", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/us/2025-iof-financial-statements-en.pdf"},
+    {"year": 2025, "text": "FLIC LPs (real estate, private debt, infrastructure equity) steady at C$46mm; IOF 'other invested assets' (LPs) C$299mm, ~3.7% of invested assets.", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/2025-flic-financial-statements-final-ua.pdf"},
+    {"year": 2025, "text": "Strategy refocused on life insurance; developing a US multi-year guaranteed annuity (MYGA) to diversify an almost all-life product mix (AM Best).", "source": "https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf"},
+    {"year": 2024, "text": "AM Best: ~77% of consolidated invested assets in bonds, <5% below investment grade; some duration mismatch with long-dated liabilities (assets shorter).", "source": "https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf"}
+  ],
+  "target_allocations": [],
+  "leverage": {
+    "debt_outstanding": [
+      {"type": "Subordinated unsecured fixed/floating debenture, Series 2020-1 (Tier 2)", "amount_cad_mm": 250.0, "as_of": "2025-12-31", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/us/2025-iof-financial-statements-en.pdf", "note": "2.885% to Oct 15 2030 call, then 3M CDOR/alternative + 1.77%; matures Oct 15 2035; carrying value C$248.8mm; interest C$7.4mm/yr"},
+      {"type": "Line of credit (USD)", "amount_cad_mm": 0.0, "as_of": "2024-12-31", "source": "https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf", "note": "US$100mm facility, undrawn at YE2024; counted in FLIC/IOF liquidity ratio"}
+    ],
+    "financial_leverage_ratio_pct": 9.8,
+    "issuance": [
+      {"date": "2020-10-15", "instrument": "Series 2020-1 Subordinated Unsecured Fixed/Floating Debentures due 2035 (NC10)", "amount_cad_mm": 250.0, "coupon_pct": 2.885, "maturity": "2035-10-15", "bookrunners": [], "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/us/2025-iof-financial-statements-en.pdf", "note": "Net proceeds C$247.7mm. Dealer syndicate not disclosed in FS (gap). No issuance 2023-2026"}
+    ],
+    "securities_lending": {"amount_cad_mm": null, "as_of": "2025-12-31", "text": "No securities lending program disclosed in IOF or FLIC FY2025 statements", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/us/2025-iof-financial-statements-en.pdf"},
+    "repos": {"amount_cad_mm": null, "as_of": "2025-12-31", "text": "No repurchase or reverse repurchase agreements disclosed", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/us/2025-iof-financial-statements-en.pdf"},
+    "structured_indirect": [
+      {"text": "FX forwards hedging USD exposure to protect LICAT: notional C$968.8mm (2024: C$812.4mm); net liability C$37.8mm; financial collateral pledged C$41.0mm", "amount_cad_mm": 968.8, "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/us/2025-iof-financial-statements-en.pdf"},
+      {"text": "Limited partnerships in real estate, private debt and infrastructure equity (IOF C$298.9mm; FLIC C$46.2mm)", "amount_cad_mm": 298.9, "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/us/2025-iof-financial-statements-en.pdf"},
+      {"text": "Commercial mortgage loans C$294.4mm (IOF)", "amount_cad_mm": 294.4, "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/us/2025-iof-financial-statements-en.pdf"},
+      {"text": "Internal reinsurance: FLIC cedes a non-par in-force block 100% quota share to IOF (since Oct 1 2021); 2016 10-year US statutory solvency reinsurance arrangement with no risk transfer", "amount_cad_mm": 914.5, "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/2025-flic-financial-statements-final-ua.pdf"},
+      {"text": "No CLO, fund-finance, FHLB or sidecar exposure disclosed", "amount_cad_mm": null, "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/us/2025-iof-financial-statements-en.pdf"}
+    ]
+  },
+  "partnerships": {
+    "underwriters": [],
+    "deals": [
+      {"year": 2020, "text": "Acquired Canada Protection Plan Inc. (Oct 1, 2020), its long-standing no-medical distribution partner; now the main Canadian channel", "source": "https://www.businesswire.com/news/home/20201002005229/en/Foresters-Financial-and-Canada-Protection-Plan-Join-Forces"},
+      {"year": 2020, "text": "Sold Foresters Life Insurance and Annuity Company (FLIAC, US) to Nassau Group (closed Jul 1, 2020), cutting interest-sensitive/variable exposure", "source": "https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf"},
+      {"year": 2020, "text": "Acquired the Halifax Child Trust Fund block in the UK (plans transferred Apr 2020)", "source": "https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf"},
+      {"year": 2019, "text": "Sold Foresters Asset Management (Canada, ~C$10.5bn AUM) to Fiera Capital; US asset management (First Investors) to Macquarie; broker-dealer to Cetera", "source": "https://www.newswire.ca/news-releases/fiera-capital-to-acquire-foresters-asset-management-inc--865349042.html"},
+      {"year": 2021, "text": "Intra-group 100% quota-share coinsurance of FLIC non-par block to IOF (Oct 1, 2021) to optimise capital", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/2025-flic-financial-statements-final-ua.pdf"}
+    ],
+    "sponsorships": [
+      {"year": 2025, "text": "C$12.1mm invested in member benefits and community giving; 520 scholarships worth C$1.4mm; member grants used by 7,200+ members", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/foresters-report/2025-foresters-report-en-ca.pdf"},
+      {"year": 2025, "text": "Multi-year partnerships with KABOOM! (playgrounds, 20 years) and Whole Kids Foundation (US$45k to 14 organisations, extended to Canada/UK)", "source": "https://www.newswire.ca/news-releases/foresters-financial-and-whole-kids-foundation-rejoin-forces-to-green-up-communities-across-the-us-canada-and-the-uk-888347839.html"}
+    ],
+    "bank_relationships": [
+      {"text": "US$100mm bank line of credit (undrawn YE2024); lender not named", "source": "https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf"},
+      {"text": "FX forward counterparties under ISDA/CSA (not named)", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/us/2025-iof-financial-statements-en.pdf"}
+    ]
+  },
+  "risk": {
+    "appetite": [
+      "Board-approved Risk Appetite Framework; financial appetite measures defined vs capital, liquidity, credit; market-risk limits set via FCT/ORSA",
+      "Investment Policy: investment-grade only for fixed income, single-name and sector concentration limits, segment-specific guidelines",
+      "Liquidity: strategic liquidity ratio target 200% under single stress scenario (S&P liquidity model); FLIC ratio shown each year"
+    ],
+    "governance": [
+      "Board Risk and Investment Committee (RIC) oversees ERM Committee and Global CRO; segment CROs report to Global CRO (Caroline Rendall)",
+      "Three lines: business units own risk; Risk Management function reports to ERMC monthly and RIC quarterly; Global Internal Audit (SVP Pat Colavita)",
+      "Capital Management Policy sets internal targets at consolidated and segment level; 5-year capital projections; quarterly monitoring; annual FCT"
+    ],
+    "capital_target": "Internal LICAT targets above OSFI supervisory levels (100% Total / 70% Core) at consolidated and segment level; values not disclosed. Actual: IOF 188.2% Total / 139.3% Core; FLIC 207.9% / 171.3%; US RBC 623%",
+    "sensitivities": [
+      "IOF rates +100bp: net income/surplus -C$79.1mm (liabilities +328.1, financial instruments -407.2); -100bp: +C$60.2mm",
+      "IOF equities +/-10%: +/-C$16.2mm net income",
+      "IOF real estate cap rates +/-: C$-0.8mm/+1.2mm (LP real estate)",
+      "IOF lapse 10% adverse: -C$117.7mm TCI net of reinsurance; mortality +1%: -C$17.0mm net",
+      "FLIC rates +/-1%: FVTPL assets -/+C$8mm; mortality +1%: -C$1.7mm net; lapse 10% adverse: -C$7.6mm net"
+    ],
+    "hedging": [
+      "FX forward programme (since 2017) to insulate LICAT from USD/CAD moves; notional C$968.8mm at YE2025",
+      "No seg-fund dynamic hedge (UK unit-linked guarantees immaterial: C$1k liability)",
+      "Mortgage and bond FVTPL designations used to hedge GMM liability interest sensitivity (accounting mismatch reduction)"
+    ],
+    "events": [
+      "FY2024 IOF net loss C$56.8mm (insurance service loss C$190mm) reversed to C$223.9mm profit in 2025 on investment returns and favourable experience",
+      "CEO transition: Louis Gagnon stepped down Jul 2023; Rene Zanin interim; Matt Berman appointed Jan 2024",
+      "CPP (CA CPP A-Z permanent/term) lapse assumptions increased in early durations in 2025 assumption review"
+    ],
+    "sources": ["https://www.foresters.com/-/media/foresters/documents/pdfs/us/2025-iof-financial-statements-en.pdf", "https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/2025-flic-financial-statements-final-ua.pdf", "https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf"]
+  },
+  "gaps": [
+    "Fraternal benefit society: no proxy circular; individual executive pay not disclosed (only aggregate key-management pay)",
+    "Current most-senior investment officer not identifiable: AM Best lists Clark Wagner (CIO 2016-19) but he appears to have left in 2019; senior leadership page lists no CIO",
+    "External asset managers not named in FY2025 statements (AM Best says 100% externally managed; Fiera was expected to retain a mandate after 2019 sale)",
+    "Employee headcount and investments-team size not disclosed",
+    "Dealer syndicate for the 2020 C$250mm sub-debt not disclosed in FS; web search budget exhausted before a pricing release could be located",
+    "Internal LICAT target range not quantified",
+    "Spread sensitivity not disclosed; UK Solvency II ratio not disclosed"
+  ],
+  "notes": "Two legal entities matter for the deck: FLIC (OSFI id 28432; C$1.8bn assets, LICAT 208%) is small because its non-par block is 100% coinsured to the parent IOF, which carries the group balance sheet (C$19.6bn assets incl. C$10.2bn UK unit-linked; C$8.1bn general-account investments; LICAT 188%). ~98% of insurance revenue is North American; most sales are US. Investment construct is fully outsourced after the 2019 sale of the in-house managers; FX forwards (C$0.97bn) hedge the LICAT ratio. Sources used: FY2025 IOF and FLIC audited FS (Feb 18-19, 2026), 2025 LICAT disclosure, 2025 financial highlights, 2025 Report to Members, AM Best Credit Report (Oct 27, 2025), Foresters senior leadership page, 2025 OSFI climate report, 2023 sustainability report."
+}

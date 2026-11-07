@@ -1,0 +1,16 @@
+id: beneva
+name: Beneva (SSQ + La Capitale)
+anchor: VP & Chief Investment Officer, Beneva (not named on beneva.ca)
+src: li1 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/hugo-drouin
+src: li2 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/carl-cleary-23270940
+src: li3 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/eric-blackburn-mba-456078118
+src: li4 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/emmanuelle-roberge-mba-cfa-972bbb45
+src: li5 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/francois-beaubien-plante
+src: li6 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/mathieu-roy-cfa-0b5837a9
+L1 | Hugo Drouin | VP & Chief Investment Officer, since Jul 2020 | M | li1
+L2 | Carl Cleary | VP, Investissements, since Jan 2024 (previously VP Corporate Development) | M | li2 | ~
+L2 | Eric Blackburn | Director, Investment Strategies & Risk, since Jul 2020 | M | li3 | ~
+L2 | Emmanuelle Roberge | Director, Private Investments & External Management, since May 2023 | M | li4 | ~
+L3 | François Beaubien-Plante | Director, Investment, Private Debt & Equity, since May 2023 | L | li5 | ~
+L3 | Mathieu Roy | Portfolio Manager, Infrastructure | L | li6 | ~
+note: Carl Cleary's role may be strategic or corporate investments rather than the general account.

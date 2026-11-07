@@ -1,0 +1,42 @@
+id: sun_life
+name: Sun Life Financial
+anchor: Group CEO of the listed parent, Sun Life Financial Inc.
+src: a | Sun Life leadership page (sunlife.com, executive team) | https://www.sunlife.com/en/about-us/leadership/
+src: b | Sun Life 2025 Annual Report, Board and Executive Team (as of 2026-03-06) | https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/board-of-directors-executive-team-2025-e.pdf
+src: c | Sun Life release: Tom Murphy named President, Sun Life Asset Management (2025-10-06) | https://www.sunlife.com/en/newsroom/news-releases/announcement/sun-life-announces-the-appointment-of-tom-murphy-as-president-sun-life-asset-management/124006/
+src: d | Sun Life bio: Jacques Goulet, EVP & CRO (interim from 2026-01-01) | https://www.sunlife.com/en/about-us/leadership/jacques-goulet/
+src: e | Sun Life release: Sujoy Ghosh CEO High Net Worth, reports to Manjit Singh (2025-09) | https://www.sunlife.com/en/newsroom/news-releases/announcement/sun-life-appoints-sujoy-ghosh-as-ceo-high-net-worth/124004/
+src: f | Sun Life release: Randy Lianggara President Emerging Markets Asia, reports to Manjit Singh | https://www.sunlife.com/en/newsroom/news-releases/announcement/sun-life-appoints-randy-lianggara-president-emerging-markets-asia/123899/
+src: g | Insurance Business Asia: new Asia asset management president (A Deng) reports to Manjit Singh | https://insurancebusinessmag.com/asia/news/life-insurance/sun-life-creates-new-role-to-drive-asset-management-growth-in-asia-518147.aspx
+src: h | Sun Life media room: Sonny Kalsi CEO of SLC Management from 2026-04-01, reports to Executive Chair Steve Peacher | https://sunlife.mediaroom.com/2026-04-01-Sonny-Kalsi-appointed-President-and-CEO-of-SLC-Management
+src: i | MFS bio: Ted Maloney, CEO of MFS since 2025-01 | https://www.mfs.com/en-it/individual-investor/about-mfs/our-people/individual-bios/ted-maloney.html
+src: j | SLC Management bio: Randy Brown, CIO Sun Life, leads Office of the CIO (in the Sun Life Asset Management pillar from 2026) | https://www.slcmanagement.com/us/en/about-us/our-people/randolph-randy-brown/
+src: k | Stockwatch / Sun Life U.S. release (2026-03-30): Tony Mollica president of Sun Life U.S. Dental, succeeding David Healy | https://wwww.stockwatch.com/News/Item/Z-C!SLF-3800298/C/SLF
+src: l | Sun Life release (Mar 2024): Marie-Chantal Côté, SVP Group Benefits; later SVP Sun Life Health (advisor notice, undated) | https://www.newswire.ca/en/releases/archive/March2024/08/c4853.html
+src: n | sunlife.ca leadership bios (Sun Life Canada SVPs), seen through search snippets; sunlife.ca returns HTTP 403 to fetches | https://sunlife.ca/en/about-us/leadership/greg-dilworth/
+src: m | Manila Bulletin (2026-01-09): JJ Moreno named CEO, Sun Life Philippines, appointed by Manjit Singh | https://mb.com.ph/2026/01/09/sun-life-names-jj-moreno-philippines-chief-as-benedict-sison-retires
+L1 | Kevin D. Strain | President & Chief Executive Officer | H | a,b
+L2 | Tim Deacon | EVP & Chief Financial Officer | H | a,b
+L2 | Jacques Goulet | EVP & Chief Risk Officer (interim) | H | b,d
+L2 | Linda Dougherty | EVP, Chief Client & Strategy Officer | H | a,b
+L2 | Melissa J. Kennedy | EVP, Chief Legal & Public Policy Officer | H | a,b
+L2 | Laura Money | EVP, Chief Information & Technology Innovation Officer | H | a,b
+L2 | Helena Pagano | EVP, Chief People & Culture Officer | H | a,b
+L2 | Jessica Tan | EVP & President, Sun Life Canada | H | a,b
+L3 | Greg Dilworth | SVP & CFO, Sun Life Canada | M | n | ~
+L3 | Mike Schofield | SVP, Chief Actuary & CRO, Sun Life Canada | M | n | ~
+L3 | Dave Keirstead | SVP, Operations, Sun Life Canada | M | n | ~
+L3 | Sarah McEwen | SVP, Canada Strategy & Enablement | M | n | ~
+L3 | Marie-Chantal Côté | SVP, Sun Life Health (formerly SVP Group Benefits) | M | l | ~
+L2 | David Healy | President, Sun Life U.S. | H | a,b
+L3 | Tony Mollica | President, Sun Life U.S. Dental (incl. DentaQuest) | H | k | ~
+L2 | Manjit Singh | President, Sun Life Asia | H | a,b
+L3 | Sujoy Ghosh | CEO, High Net Worth (Asia) | H | e
+L3 | Randy Lianggara | President, Emerging Markets, Asia | H | f
+L3 | A Deng | President, Asia Asset Management | M | g
+L3 | Jonathan Juan "JJ" Moreno | CEO & Country Head, Sun Life Philippines | M | m | ~
+L2 | Tom Murphy | President, Sun Life Asset Management | H | a,b,c
+L3 | Ted Maloney | CEO, MFS Investment Management | H | c,i | ~
+L3 | Steve Peacher | Executive Chair, SLC Management (CEO Sonny Kalsi reports to him) | H | h | ~
+L3 | Randy Brown | Chief Investment Officer (Office of the CIO, general account) | H | j | ~
+note: The sunlife.com executive-team page lists ten names and leaves out the interim CRO; the 2025 Annual Report's executive team (as of 2026-03-06) includes him. Under Tom Murphy, the pillar also holds Aditya Birla Sun Life AMC (stake) and Defined Benefit Solutions (PRT), whose heads are not named publicly. Sun Life Canada, Sun Life U.S. and staff-function leadership pages (sunlife.ca, sunlife.com/us) return HTTP 403 to automated fetches, so most level-3 slots stay open.

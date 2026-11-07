@@ -1,0 +1,718 @@
+{
+  "company_id": "sun_life",
+  "name": "Sun Life Financial Inc.",
+  "as_of": "2026-06-30",
+  "ownership": "Public (TSX/NYSE/PSE: SLF)",
+  "regulator": "OSFI",
+  "metrics": [
+    {
+      "metric": "Total assets",
+      "value": 425.3,
+      "unit": "C$bn",
+      "as_of": "2026-06-30",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-finsupp.pdf",
+      "note": "Consolidated statement of financial position: C$425,330m."
+    },
+    {
+      "metric": "General fund assets",
+      "value": 243.1,
+      "unit": "C$bn",
+      "as_of": "2026-06-30",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-finsupp.pdf",
+      "note": "General fund assets C$243,094m; of which invested assets C$210,244m (C$199.2bn at 2025-12-31)."
+    },
+    {
+      "metric": "General fund invested assets",
+      "value": 210.2,
+      "unit": "C$bn",
+      "as_of": "2026-06-30",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-finsupp.pdf",
+      "note": "Invested assets (cash, debt, equity, mortgages & loans, derivatives, investment properties, other)."
+    },
+    {
+      "metric": "AUM",
+      "value": 1696,
+      "unit": "C$bn",
+      "as_of": "2026-06-30",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-earnings.pdf",
+      "note": "Non-IFRS; includes MFS, SLC, general fund and seg funds. AUMA C$1,793bn."
+    },
+    {
+      "metric": "Sun Life Asset Management AUM",
+      "value": 917.7,
+      "unit": "US$bn",
+      "as_of": "2026-06-30",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-earnings.pdf",
+      "note": "MFS + SLC Management pillar. SLC alone: C$260bn third-party + C$165bn Sun Life GA (Mar 2026); US$308bn total at 2026-03-31."
+    },
+    {
+      "metric": "Underlying net income FY2025",
+      "value": 4201,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-mda.pdf",
+      "note": "Non-IFRS. Reported net income FY2025 C$3,472m."
+    },
+    {
+      "metric": "Underlying net income 1H 2026 (YTD)",
+      "value": 2173,
+      "unit": "C$mm",
+      "as_of": "2026-06-30",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-earnings.pdf",
+      "note": "2Q26 alone C$1,123m. Q3 2026 results not yet published as of 2026-11-03."
+    },
+    {
+      "metric": "Reported net income FY2025",
+      "value": 3472,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-mda.pdf",
+      "note": "Common shareholders."
+    },
+    {
+      "metric": "Reported net income 1H 2026 (YTD)",
+      "value": 1473,
+      "unit": "C$mm",
+      "as_of": "2026-06-30",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-earnings.pdf",
+      "note": "2Q26 alone C$1,008m; Q1 2026 includes ~C$236m charge on BGO/Crescent buy-ups."
+    },
+    {
+      "metric": "Underlying ROE",
+      "value": 19.1,
+      "unit": "%",
+      "as_of": "2026-06-30",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-earnings.pdf",
+      "note": "2Q26. Medium-term objective 20%+."
+    },
+    {
+      "metric": "LICAT ratio (SLF Inc.)",
+      "value": 145,
+      "unit": "%",
+      "as_of": "2026-06-30",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-earnings.pdf",
+      "note": "Sun Life Assurance Company of Canada 133%. FY2025: SLF 157% / SLA 140%; decline reflects BGO/Crescent buy-ups and buybacks. No numeric internal range disclosed."
+    },
+    {
+      "metric": "Financial leverage ratio",
+      "value": 23.8,
+      "unit": "%",
+      "as_of": "2026-06-30",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-earnings.pdf",
+      "note": "23.5% at 2025-12-31. Medium-term objective 25% or below."
+    },
+    {
+      "metric": "Employees (FTE)",
+      "value": 32151,
+      "unit": "count",
+      "as_of": "2025-12-31",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-aif.pdf",
+      "note": "Approx. 68,835 including joint ventures and asset-management affiliates."
+    },
+    {
+      "metric": "Investment professionals",
+      "value": null,
+      "unit": "count",
+      "as_of": null,
+      "source": null,
+      "note": "SLC Management headcount not retrievable (slcmanagement.com 403; aggregators conflict). MFS/SLC totals not broken out in filings."
+    },
+    {
+      "metric": "Financial strength rating (Sun Life Assurance) - S&P",
+      "value": null,
+      "unit": "rating AA",
+      "as_of": "2026-01-31",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-aif.pdf",
+      "note": "Also AM Best A+, DBRS AA, Moody's Aa3 (AIF ratings table)."
+    }
+  ],
+  "business_mix": {
+    "basis": "Underlying net income by business group, FY2025 (% of total C$4,201m)",
+    "as_of": "2025-12-31",
+    "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-mda.pdf",
+    "items": [
+      {
+        "label": "Canada",
+        "pct": 37.9,
+        "amount_cad_mm": 1594
+      },
+      {
+        "label": "Asset Management (MFS C$1,129m; SLC C$242m)",
+        "pct": 32.6,
+        "amount_cad_mm": 1371
+      },
+      {
+        "label": "Asia",
+        "pct": 19.9,
+        "amount_cad_mm": 836
+      },
+      {
+        "label": "U.S.",
+        "pct": 18.3,
+        "amount_cad_mm": 770
+      },
+      {
+        "label": "Corporate",
+        "pct": -8.8,
+        "amount_cad_mm": -370
+      }
+    ],
+    "note": "2Q26 split: Asset Mgmt C$364m, Canada C$427m, U.S. C$227m, Asia C$222m, Corporate -C$117m. By business type (FY2025): wealth & AM, group H&P, individual protection roughly one-third each (MD&A)."
+  },
+  "people": [
+    {
+      "role": "CEO",
+      "name": "Kevin Strain",
+      "title": "President & Chief Executive Officer",
+      "reports_to": "Board",
+      "entity": "Sun Life Financial Inc.",
+      "seat_since": 2021,
+      "firm_since": 2002,
+      "industry_since": 1997,
+      "prior": "Clarica Life (1997-2002, acquired by Sun Life); CA; previously SLF CFO (2017-21), President Sun Life Canada (2012-17)",
+      "comp_total_cad": 12766266,
+      "comp_currency": "CAD",
+      "comp_year": 2025,
+      "comp_source": "https://www.sec.gov/Archives/edgar/data/1097362/000106299326001587/exhibit99-1.htm",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1097362/000106299326001587/exhibit99-1.htm"
+      ],
+      "note": "CEO since 2021-08-07. industry_since = Clarica start (1997), first insurance role per circular bio; earlier accounting career not counted."
+    },
+    {
+      "role": "Most senior investment officer",
+      "name": "Steve Peacher",
+      "title": "Executive Chair, SLC Management",
+      "reports_to": "CEO (Kevin Strain)",
+      "entity": "SLC Management (Sun Life Capital Management)",
+      "seat_since": 2024,
+      "firm_since": 2009,
+      "industry_since": null,
+      "prior": "Sun Life CIO (2009-2016); Putnam Investments (Head of Fixed Income), Loomis Sayles; President SLC Management 2016-24",
+      "comp_total_cad": 9693259,
+      "comp_currency": "CAD",
+      "comp_year": 2025,
+      "comp_source": "https://www.sec.gov/Archives/edgar/data/1097362/000106299326001587/exhibit99-1.htm",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1097362/000106299326001587/exhibit99-1.htm",
+        "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-aif.pdf"
+      ],
+      "note": "Executive Chair since 2024-05-16; circular says he is responsible for the invested asset portfolio and SLC Management. NEO: 2025 total C$9,693,259. Not listed among SLF Inc. executive officers in Feb 2026 AIF (SLC-level role)."
+    },
+    {
+      "role": "Head of asset-management pillar",
+      "name": "Tom Murphy",
+      "title": "President, Sun Life Asset Management",
+      "reports_to": "CEO (Kevin Strain)",
+      "entity": "Sun Life Financial Inc. / Sun Life Asset Management",
+      "seat_since": 2026,
+      "firm_since": 2018,
+      "industry_since": null,
+      "prior": "Mercer (20 yrs); joined SLC 2018; President SLC Fixed Income; SLF CRO 2022-25; FSAI actuary",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-aif.pdf"
+      ],
+      "note": "President SLAM since 2026-01-01 (AIF exec officer list). Pillar = MFS, SLC Management, Aditya Birla SL AMC stake and PRT business (MD&A). Not a NEO; pay not disclosed."
+    },
+    {
+      "role": "CIO (general account)",
+      "name": "Randy Brown",
+      "title": "Chief Investment Officer and Head of Insurance Asset Management",
+      "reports_to": "Tom Murphy / Sun Life Asset Management (inferred)",
+      "entity": "Sun Life Financial Inc. (Office of the CIO within Sun Life Asset Management)",
+      "seat_since": 2016,
+      "firm_since": 2016,
+      "industry_since": null,
+      "prior": "Deutsche Asset & Wealth Management (2007-15, insurance asset mgmt), BlackRock, Morgan Stanley, Salomon Brothers; ~30 yrs",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://www.sunlife.com/en/about-us/leadership/"
+      ],
+      "note": "CIO since Jan 2016 (bio from earlier-session search snippets; not named in FY2025 AIF/MD&A). Placement in SLAM pillar and reporting to Murphy are inferred (inferred: true). Not a NEO; pay not disclosed."
+    },
+    {
+      "role": "Head of fixed income (SLC)",
+      "name": "Rich Familetti",
+      "title": "President & CIO, Fixed Income, SLC Management",
+      "reports_to": "Steve Peacher",
+      "entity": "SLC Management",
+      "seat_since": 2025,
+      "firm_since": 2009,
+      "industry_since": null,
+      "prior": "Ryan Labs (joined 2009; acquired by Sun Life 2015); previously CIO US Total Return Fixed Income",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001097362&type=6-K"
+      ],
+      "note": "Appointed 2025-09-03 (press release). Public fixed income co-led since Apr 2025 by Andrew Hurley and Chris Malcolm after Jeff Gardiner retired 2025-03-31. Pay not disclosed."
+    },
+    {
+      "role": "Head of alternatives / SLC CEO",
+      "name": "Sonny Kalsi",
+      "title": "Chief Executive Officer, SLC Management",
+      "reports_to": "Steve Peacher (Executive Chair) / Tom Murphy",
+      "entity": "SLC Management",
+      "seat_since": 2024,
+      "firm_since": 2019,
+      "industry_since": null,
+      "prior": "Co-CEO BentallGreenOak; co-founder GreenOak Real Estate; Morgan Stanley Real Estate",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-aif.pdf"
+      ],
+      "note": "Oversees affiliates BGO, Crescent, InfraRed, AAM, SLC Fixed Income. Pay not disclosed."
+    },
+    {
+      "role": "CFO",
+      "name": "Tim Deacon",
+      "title": "Executive Vice-President & Chief Financial Officer",
+      "reports_to": "CEO",
+      "entity": "Sun Life Financial Inc.",
+      "seat_since": 2024,
+      "firm_since": 2024,
+      "industry_since": null,
+      "prior": "CFO, Ontario Teachers' Pension Plan (Apr 2021-Apr 2024); Manulife Group Controller & Global Chief Accounting Officer (2020-21)",
+      "comp_total_cad": 3685953,
+      "comp_currency": "CAD",
+      "comp_year": 2025,
+      "comp_source": "https://www.sec.gov/Archives/edgar/data/1097362/000106299326001587/exhibit99-1.htm",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1097362/000106299326001587/exhibit99-1.htm",
+        "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-aif.pdf"
+      ],
+      "note": "EVP & CFO since 2024-04-08 (circular); joined Sun Life April 2024 (AIF)."
+    },
+    {
+      "role": "CRO",
+      "name": "Jacques Goulet",
+      "title": "Executive Vice-President and Chief Risk Officer",
+      "reports_to": "CEO (with access to Board Risk Committee)",
+      "entity": "Sun Life Financial Inc.",
+      "seat_since": 2026,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "Sun Life (prior senior risk/finance roles); succeeded Tom Murphy as CRO effective 2026-01-01",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-aif.pdf"
+      ],
+      "note": "Listed as EVP & CRO in AIF (Feb 2026). Earlier-session release described the appointment as interim; not re-verified. Not a NEO; pay not disclosed."
+    },
+    {
+      "role": "Other NEOs",
+      "name": "Jessica (Sin Yin) Tan / Manjit Singh",
+      "title": "President, Sun Life Canada / President, Sun Life Asia",
+      "reports_to": "CEO",
+      "entity": "Sun Life Financial Inc.",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "Tan: Ping An Group Co-CEO (2018-23), joined Sep 2024; Singh: TD Bank EVP Finance, joined Mar 2021 (ex-SLF CFO)",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": 2025,
+      "comp_source": "https://www.sec.gov/Archives/edgar/data/1097362/000106299326001587/exhibit99-1.htm",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1097362/000106299326001587/exhibit99-1.htm",
+        "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-aif.pdf"
+      ],
+      "note": "2025 SCT totals: Tan C$8,430,800; Singh C$6,600,449. Singh replaced Dan Fishbein as NEO for 2025; Fishbein became Executive Chair Sun Life U.S. 2025-09-01; David Healy now President Sun Life U.S."
+    }
+  ],
+  "pm_structure": {
+    "summary": "General account (C$165bn, Mar 2026) is managed by SLC Management, Sun Life's wholly owned alternatives/fixed-income manager, inside the Sun Life Asset Management pillar (Pres. Tom Murphy, 2026); the insurer's CIO (Randy Brown) sets ALM/SAA and oversees SLC as manager (CIO placement inferred).",
+    "manager_entities": [
+      "Sun Life Asset Management (pillar from 2026-01-01: MFS, SLC Management, Aditya Birla SL AMC stake, PRT business)",
+      "SLC Management (Sun Life Capital Management) - SLC Fixed Income (ex Ryan Labs), BentallGreenOak (BGO, real estate), Crescent Capital (private credit), InfraRed Capital Partners (infrastructure), Advisors Asset Management (AAM, US retail distribution)",
+      "MFS Investment Management (third-party; does not manage GA)"
+    ],
+    "bullets": [
+      "SLC Management: C$260bn third-party + C$165bn Sun Life general account (Mar 2026); GA mandates are the anchor client and seed capital for SLC strategies.",
+      "CIO Randy Brown's Office of the CIO retains ALM, SAA and manager oversight (inferred from bios); day-to-day public FI, RE, private credit, infra run by SLC affiliates.",
+      "Jan 1 2026 reorganisation: Sun Life Asset Management pillar formalized under Tom Murphy: MFS, SLC, ABSL AMC stake (from Asia) and PRT/DB Solutions (from Canada).",
+      "Mar 30 2026: SLC bought remaining 44% of BGO (C$1.59bn) and 49% of Crescent (C$829m) - affiliates now 100% owned; SLC management equity plan up to 25%.",
+      "Jul 2 2026: SLC acquired Bell Partners (US multifamily, US$350m); Aug 2026: SLC named lead asset manager for Wilton Re / Windsor Life Re partnership (up to US$10bn)."
+    ],
+    "sources": [
+      "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-aif.pdf",
+      "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-mda.pdf",
+      "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-earnings.pdf"
+    ]
+  },
+  "rotation_commentary": [
+    {
+      "year": 2025,
+      "text": "Mortgages & loans 30% of GA invested assets (loans C$45.8bn, 96% investment grade); private fixed income remains the main spread sleeve via SLC Fixed Income.",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-mda.pdf"
+    },
+    {
+      "year": 2025,
+      "text": "ABS C$14.2bn = 17% of debt securities; growing structured credit through SLC/Crescent capabilities.",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-mda.pdf"
+    },
+    {
+      "year": 2025,
+      "text": "Investment properties C$9.4bn (5%); real estate experience negative in 2025, exposure held steady while office weighting is reduced (BGO-managed).",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-mda.pdf"
+    },
+    {
+      "year": 2026,
+      "text": "Buy-ups of BGO and Crescent (Q1 2026) deepen in-house private markets origination for the GA; SLC 2026 outlook stresses private credit and infrastructure growth.",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-earnings.pdf"
+    },
+    {
+      "year": 2026,
+      "text": "Wilton Re/Windsor Life Re partnership (Aug 2026) adds third-party insurance balance sheets for SLC to manage - asset-intensive reinsurance as a growth channel.",
+      "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001097362&type=6-K"
+    },
+    {
+      "year": 2026,
+      "text": "DB Solutions (Canadian PRT) moved into SLAM Jan 2026; 2025 PRT market slower, so PRT-driven long-duration asset demand modest in 2025-26.",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-mda.pdf"
+    }
+  ],
+  "target_allocations": [
+    {
+      "asset_class": "General fund asset mix",
+      "target": "No numeric target allocation disclosed. Dec 2025 mix: cash 7%, debt 43%, equities 6%, mortgages & loans 30%, derivatives 1%, investment properties 5%, other 8%.",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-mda.pdf"
+    },
+    {
+      "asset_class": "Medium-term financial objectives (not asset mix)",
+      "target": "Underlying EPS growth 10%+, underlying ROE 20%+, dividend payout 40-50%, leverage <=25%.",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-mda.pdf"
+    }
+  ],
+  "leverage": {
+    "debt_outstanding": [
+      {
+        "type": "Senior debentures (SLEECS Series B 7.093%, via Sun Life Capital Trust)",
+        "amount_cad_mm": 200,
+        "as_of": "2026-06-30",
+        "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-finsupp.pdf"
+      },
+      {
+        "type": "Subordinated debentures (SLF Inc. Series 2016-2 to 2026-1)",
+        "amount_cad_mm": 8171,
+        "as_of": "2026-06-30",
+        "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-finsupp.pdf"
+      },
+      {
+        "type": "LRCN Series 2021-1 (reset 5.614% from 2026-06-30; Class A Preferred Series 2021-1 in trust)",
+        "amount_cad_mm": 1000,
+        "as_of": "2026-06-30",
+        "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-finsupp.pdf"
+      },
+      {
+        "type": "Preferred shares (Class A Series 3, 4, 5, 8R, 9QR, 10R, 11QR)",
+        "amount_cad_mm": null,
+        "as_of": "2026-06-30",
+        "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-finsupp.pdf"
+      }
+    ],
+    "financial_leverage_ratio_pct": 23.8,
+    "issuance": [
+      {
+        "date": "2023-05",
+        "instrument": "Subordinated debentures Series 2023-1, fixed/floating",
+        "amount_cad_mm": 500,
+        "coupon_pct": 5.5,
+        "maturity": "2035",
+        "bookrunners": [],
+        "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-fin-stats.pdf"
+      },
+      {
+        "date": "2024-02",
+        "instrument": "Subordinated debentures Series 2024-1, fixed/floating",
+        "amount_cad_mm": 750,
+        "coupon_pct": 5.12,
+        "maturity": "2036",
+        "bookrunners": [
+          "RBC Capital Markets",
+          "BMO Capital Markets",
+          "Scotiabank"
+        ],
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001097362&type=6-K"
+      },
+      {
+        "date": "2025-02",
+        "instrument": "Subordinated debentures Series 2025-1, fixed/floating",
+        "amount_cad_mm": 1000,
+        "coupon_pct": 4.14,
+        "maturity": "2037",
+        "bookrunners": [
+          "RBC Capital Markets",
+          "CIBC Capital Markets",
+          "TD Securities"
+        ],
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001097362&type=6-K"
+      },
+      {
+        "date": "2025-09",
+        "instrument": "Subordinated debentures Series 2025-2, fixed/floating",
+        "amount_cad_mm": 1000,
+        "coupon_pct": 4.56,
+        "maturity": "2040",
+        "bookrunners": [
+          "RBC Capital Markets",
+          "BMO Capital Markets",
+          "Scotiabank"
+        ],
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001097362&type=6-K"
+      },
+      {
+        "date": "2026-06-19",
+        "instrument": "Subordinated debentures Series 2026-1, fixed/floating",
+        "amount_cad_mm": 750,
+        "coupon_pct": 4.21,
+        "maturity": "2038-06-19",
+        "bookrunners": [
+          "CIBC Capital Markets",
+          "RBC Capital Markets",
+          "TD Securities"
+        ],
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001097362&type=6-K"
+      },
+      {
+        "date": "2026-11-18",
+        "instrument": "Redemption (not issuance): Series 2021-1 subordinated debentures C$500m",
+        "amount_cad_mm": -500,
+        "coupon_pct": null,
+        "maturity": "redeemed at par",
+        "bookrunners": [],
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001097362&type=6-K"
+      }
+    ],
+    "securities_lending": {
+      "amount_cad_mm": 2360,
+      "as_of": "2026-06-30",
+      "text": "Securities lent C$2,360m against collateral C$2,486m (cash collateral C$170m); lending via custodian with 102-105% collateralization.",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-finsupp.pdf"
+    },
+    "repos": {
+      "amount_cad_mm": 2861,
+      "as_of": "2026-06-30",
+      "text": "Securities sold under repurchase agreements C$2,861m (collateral pledged equal amount); collateral pledged for derivatives C$2,254m.",
+      "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-finsupp.pdf"
+    },
+    "structured_indirect": [
+      {
+        "text": "Asset-backed securities C$14.2bn (17% of debt securities) at 2025-12-31; CLO sub-total not broken out.",
+        "amount_cad_mm": 14200,
+        "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-mda.pdf"
+      },
+      {
+        "text": "Loans (private fixed income, 96% IG) C$45.8bn incl. private placements and fund-finance style lending via SLC Fixed Income.",
+        "amount_cad_mm": 45800,
+        "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-mda.pdf"
+      },
+      {
+        "text": "Wilton Re / Windsor Life Re partnership: US$900m capital commitment, SLC lead asset manager, up to US$10bn (asset-intensive reinsurance platform).",
+        "amount_cad_mm": 1240,
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001097362&type=6-K"
+      },
+      {
+        "text": "Investments in SLC-managed funds (BGO, Crescent, InfraRed) as seed/co-invest; amounts not separately disclosed.",
+        "amount_cad_mm": null,
+        "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-aif.pdf"
+      },
+      {
+        "text": "SLEECS innovative Tier 1 trust (Sun Life Capital Trust) C$200m; LRCN limited recourse trust holding C$1bn preferred shares.",
+        "amount_cad_mm": 1200,
+        "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-finsupp.pdf"
+      }
+    ]
+  },
+  "partnerships": {
+    "underwriters": [
+      {
+        "dealer": "RBC Capital Markets",
+        "role": "lead / co-lead",
+        "deals": 5,
+        "note": "Sub debt 2022-1, 2024-1, 2025-1, 2025-2, 2026-1",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001097362&type=6-K"
+      },
+      {
+        "dealer": "BMO Capital Markets",
+        "role": "co-lead",
+        "deals": 3,
+        "note": "Sub debt 2022-1, 2024-1, 2025-2",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001097362&type=6-K"
+      },
+      {
+        "dealer": "TD Securities",
+        "role": "co-lead",
+        "deals": 3,
+        "note": "Sub debt 2022-1, 2025-1, 2026-1",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001097362&type=6-K"
+      },
+      {
+        "dealer": "Scotiabank",
+        "role": "co-lead",
+        "deals": 2,
+        "note": "Sub debt 2024-1, 2025-2",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001097362&type=6-K"
+      },
+      {
+        "dealer": "CIBC Capital Markets",
+        "role": "co-lead",
+        "deals": 2,
+        "note": "Sub debt 2025-1, 2026-1",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001097362&type=6-K"
+      }
+    ],
+    "deals": [
+      {
+        "year": 2022,
+        "text": "Acquired majority stake in Advisors Asset Management (AAM), US retail distribution for SLC; completed 2023-02-01.",
+        "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-aif.pdf"
+      },
+      {
+        "year": 2023,
+        "text": "Acquired Dialogue Health Technologies (to 95% from 23%, cash C$272m); completed 2023-10-03.",
+        "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-aif.pdf"
+      },
+      {
+        "year": 2025,
+        "text": "Increased stake in Bowtie (HK digital insurer); Q3 2025 gain C$176m.",
+        "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-mda.pdf"
+      },
+      {
+        "year": 2025,
+        "text": "AAM + Scotia Global Wealth distribution partnership (US retail alternatives).",
+        "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-mda.pdf"
+      },
+      {
+        "year": 2026,
+        "text": "Bought remaining 44% of BGO (C$1.59bn) and 49% of Crescent (C$829m); completed 2026-03-30; Q1 charge ~C$236m.",
+        "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-earnings.pdf"
+      },
+      {
+        "year": 2026,
+        "text": "SLC acquired Bell Partners (US multifamily operator) for US$350m; closed 2026-07-02.",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001097362&type=6-K"
+      },
+      {
+        "year": 2026,
+        "text": "Wilton Re / Windsor Life Re strategic partnership (2026-08-25): US$900m capital, SLC lead asset manager, up to US$10bn; advisers Jefferies, Sidley Austin.",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001097362&type=6-K"
+      },
+      {
+        "year": 2026,
+        "text": "Agreed to take majority of Malaysia JV (Sun Life Malaysia) for ~C$240m; expected close late 2026.",
+        "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-earnings.pdf"
+      }
+    ],
+    "sponsorships": [
+      {
+        "year": 2026,
+        "text": "Kansas City Royals partnership renewed through 2030 (Apr 2026).",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001097362&type=6-K"
+      },
+      {
+        "year": 2026,
+        "text": "Title sponsor, Hong Kong International Dragon Boat Races (Jun 2026) (secondary source).",
+        "source": "https://www.sunlife.com/en/newsroom/"
+      },
+      {
+        "year": 2025,
+        "text": "TeamSmile dental health program sponsor (US).",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001097362&type=6-K"
+      },
+      {
+        "year": 2024,
+        "text": "Founding partner, Montreal Alliance (CEBL basketball).",
+        "source": "https://www.sunlife.com/en/newsroom/"
+      },
+      {
+        "year": 2023,
+        "text": "Naming rights: Colisee Financiere Sun Life, Rimouski (2023-26).",
+        "source": "https://www.sunlife.com/en/newsroom/"
+      },
+      {
+        "year": 2022,
+        "text": "Toronto Raptors / MLSE partnership (since 2022).",
+        "source": "https://www.sunlife.com/en/newsroom/"
+      }
+    ],
+    "bank_relationships": [
+      {
+        "text": "Bancassurance: CIMB Niaga 15-year exclusive (Indonesia), plus bank partners in Philippines, Vietnam, India (Aditya Birla JV), Malaysia (CIMB).",
+        "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-aif.pdf"
+      },
+      {
+        "text": "Canadian bank syndicate (RBC lead; BMO, TD, Scotia, CIBC rotating) on all CAD subordinated issues 2022-2026.",
+        "source": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001097362&type=6-K"
+      },
+      {
+        "text": "Scotia Global Wealth distributes SLC/AAM alternatives (2025).",
+        "source": "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-mda.pdf"
+      }
+    ]
+  },
+  "risk": {
+    "appetite": [
+      "Board-approved Risk Appetite Policy sets capital, earnings-volatility, liquidity and reputational limits; risk limits cascade to business groups.",
+      "Market-risk appetite expressed via sensitivity limits (equity, rates, credit spreads, real estate) and LICAT-based capital-at-risk measures.",
+      "Three-tier risk framework: Risk Appetite Policy, Risk Management Framework, risk-specific policies (credit, market, liquidity, insurance, operational)."
+    ],
+    "governance": [
+      "Board Risk Committee oversees risk framework; Executive Risk Committee oversees capital/risk; CRO Jacques Goulet (EVP, 2026) with segment risk officers.",
+      "Three Lines of Defence model: business groups (1st), Risk Management/Compliance (2nd), Internal Audit (3rd) (MD&A s.7).",
+      "FCT per CIA standards and ORSA completed annually; Risk Appetite Policy, Capital Risk Policy and Capital & Liquidity Mgmt Framework approved by Board."
+    ],
+    "capital_target": "Internal capital targets above OSFI supervisory target; numeric range not disclosed. SLF LICAT 145% / SLA 133% at 2026-06-30 (157%/140% at 2025-12-31).",
+    "sensitivities": [
+      "Equities -10%: net income -C$125m (private equity) and -C$100m (public); -25%: -C$325m / -C$225m (2025-12-31).",
+      "Interest rates +/-50bp: net income nil / -C$25m; LICAT (SLF) +3 / -3 points (2025-12-31).",
+      "Credit spreads +/-50bp: net income +C$125m / -C$25m; LICAT +/-2.5 points (2025-12-31).",
+      "Real estate +/-10%: net income +/-C$475m (2025-12-31)."
+    ],
+    "hedging": [
+      "Segregated-fund guarantee hedging program covers materially all in-force contracts (dynamic + static hedges).",
+      "Interest-rate swaps, swaptions and bond forwards for ALM duration/convexity; FX forwards on foreign subsidiaries' net investment.",
+      "Reinsurance and partnerships (Wilton Re) used for capital-intensive legacy/PRT blocks."
+    ],
+    "events": [
+      "2026: LICAT fell from 157% to 145% on BGO/Crescent buy-ups (~C$2.4bn) and buybacks - management says within appetite.",
+      "2026: Ocehan mini-tender offers for SLF shares (Jul, Oct 2026) - shareholder cautions issued; no regulatory action.",
+      "2025-26: CRO Tom Murphy moved to lead SLAM; Jacques Goulet CRO from 2026-01-01.",
+      "No regulatory enforcement actions identified in FY2025 AIF/MD&A."
+    ],
+    "sources": [
+      "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-mda.pdf",
+      "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-aif.pdf",
+      "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q226-earnings.pdf"
+    ]
+  },
+  "gaps": [
+    "Investment-professional headcount for SLC Management / Office of the CIO not retrievable (slcmanagement.com 403; aggregator figures conflict).",
+    "Randy Brown (CIO), Tom Murphy, Rich Familetti, Sonny Kalsi, Jacques Goulet: not NEOs, 2025 pay undisclosed; industry start years not in public bios.",
+    "Randy Brown not named in FY2025 AIF/MD&A; CIO bio and his placement in the SLAM pillar come from earlier search snippets and inference.",
+    "Series 2023-1 subordinated debenture bookrunners not confirmed (pricing release not located).",
+    "Preferred share aggregate amount not extracted from finsupp; series listed only.",
+    "Internal LICAT operating range not disclosed numerically.",
+    "CLO, NAV/fund-finance, SRT and FHLB borrowings not separately disclosed; ABS and loan totals used as proxies.",
+    "Other NEO name-to-total mapping (Tan, Singh) should be re-verified against the SCT before use in the deck.",
+    "Q3 2026 results not published as of 2026-11-03 (Sun Life reports early/mid November); figures are Q2 2026 / FY2025.",
+    "Web-search budget exhausted and Firecrawl credits unavailable late in session; sponsorship items partly from earlier snippets.",
+    "Strain's Clarica 1997 start and Peacher/Kalsi/Familetti prior-firm details come from bios read earlier in session (leadership pages/press), not re-verified in filings."
+  ],
+  "notes": "Currency C$ unless stated. US$ amounts converted at approx. 1.38 for indicative CAD (Wilton Re US$900m). SCT totals from 2026 circular (SEC exhibit 99.1). GA construct: Sun Life Financial Inc. -> Sun Life Asset Management pillar (Pres. Tom Murphy, 2026) -> CIO Randy Brown (ALM/SAA; placement inferred) + SLC Management (Exec Chair Peacher, CEO Kalsi) managing C$165bn GA alongside C$260bn third-party. Public FI: SLC Fixed Income (Familetti; Hurley/Malcolm co-heads public FI). Personal library not available in this session; public sources used."
+}

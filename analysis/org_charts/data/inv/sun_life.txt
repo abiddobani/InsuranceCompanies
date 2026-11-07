@@ -1,0 +1,49 @@
+id: sun_life
+name: Sun Life Financial
+anchor: Chief Investment Officer, Sun Life (Office of the CIO; SLC Management executive committee)
+src: j | SLC Management bio: Randy Brown, CIO Sun Life, leads Office of the CIO (in the Sun Life Asset Management pillar from 2026) | https://www.slcmanagement.com/us/en/about-us/our-people/randolph-randy-brown/
+src: li1 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/bryanrowe
+src: li2 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/brent-simmons-17472013
+src: li3 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/logan-kowalchuk
+src: li4 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/elaad-keren-6642a71ba
+src: li5 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/lukemeng
+src: li6 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/danielbernholtz
+src: li7 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/andrew-kleeman-49622622
+src: li8 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/marc-hurley-a579b21
+src: li9 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/todd-williamson-2658409
+src: li10 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/ngmartin
+src: li11 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/edward-ling-cfa-89691840
+src: li12 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/hayleyrdawson
+src: li13 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/christophe-frappier-hudon-fsa-cfa-156935105
+src: li14 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/rabiayusufzai
+src: li15 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/randall-randy-malcolm-cfa-74924812
+src: li16 | LinkedIn profile, read 2026-11-06 (confirmed on profile) | https://www.linkedin.com/in/phil-dougherty-cfa-9b413516
+src: li17 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/foadazima
+src: li18 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/bart-holl-4a295122
+src: li19 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/galvanm
+src: li20 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/philip-gillan-2131109
+src: li21 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/aleem-qureshi-024a8812b
+L1 | Randy Brown | Chief Investment Officer, since Jan 2016 | H | j
+L2 | Bryan Rowe | SMD, Global Portfolio Management (team supporting the general account), since Mar 2022 | M | li1 | ~
+L2 | Brent Simmons | SVP, Global ALM (general account), since Oct 2025 | M | li2 | ~
+L3 | Logan Kowalchuk | VP, Canada ALM, since Nov 2025 | M | li3 | ~
+L2 | Elaad Keren | SMD, Co-Head Private Fixed Income, SLC Management (Toronto), since Jan 2024 | M | li4 | ~
+L3 | Luke Meng | Senior Director, Private Fixed Income | L | li5 | ~
+L3 | Daniel Bernholtz | Senior Director, Private Fixed Income | L | li6 | ~
+L2 | Andrew Kleeman | SMD, Co-Head Private Fixed Income, SLC Management (Wellesley), since Jan 2024 | M | li7 | ~
+L2 | Marc Hurley | Co-Lead, Canadian Public Fixed Income, since Mar 2025 (SMD, Canadian & UK Public FI since Jul 2018) | M | li8 | ~
+L3 | Todd Williamson | Senior Director, UK & Canadian Public Fixed Income | L | li9 | ~
+L3 | Martin Ng | Senior Director, Public Fixed Income | L | li10 | ~
+L3 | Edward Ling | Director, Public Fixed Income | L | li11 | ~
+L3 | Hayley Dawson | Director, Public Fixed Income | L | li12 | ~
+L3 | Christophe Frappier-Hudon | Director, Public Fixed Income (Montreal) | L | li13 | ~
+L3 | Rabia Yusufzai | Director, Public Fixed Income, Credit Research | L | li14 | ~
+L2 | Randall (Randy) Malcolm | Co-Lead, Canadian Public Fixed Income, since Mar 2025 | M | li15 | ~
+L2 | Not publicly named | Head of Canadian Commercial Mortgages (BGO / Sun Life Mortgage Investments) | - | 
+L3 | Phil Dougherty | MD & Portfolio Manager, Commercial Mortgages, since Jan 2024 | M | li16 | ~
+L2 | Foad Azima | MD, Private Credit, Sun Life Capital Management | L | li17 | ~
+L2 | Bart Holl | MD, Head of Insurance Strategy, SLC Management | L | li18 | ~
+L2 | Marco Galvan | MD, Investment Research | L | li19 | ~
+L2 | Philip Gillan | Senior Managing Director | L | li20 | ~
+L2 | Aleem Qureshi | SVP, Head of Insurance Solutions, Sun Life AM (from ~Jul 2026) | L | li21 | ~
+note: BGO is the brand used by the Sun Life Mortgage Investments teams; the overall head of Canadian commercial mortgages was not found. David J. Fletcher (MD, Private Fixed Income) left in Oct 2023 and is excluded.

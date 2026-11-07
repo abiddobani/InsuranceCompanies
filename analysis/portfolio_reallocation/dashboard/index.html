@@ -1,0 +1,961 @@
+<meta name="dash-one-writer">
+<style>
+  .rr { display: flex; flex-direction: column; gap: var(--cds-gap-lg); font-family: var(--font-anthropic-sans); color: var(--color-fg); }
+  .rr-head { display: flex; flex-direction: column; gap: var(--cds-gap-sm); max-width: 66rem; }
+  .rr-head h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+  .rr-take { font-size: var(--cds-font-size-body); margin: 0; line-height: 1.55; }
+  .rr .rr-take b, .rr .rr-note b { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .rr-scope { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; line-height: 1.5; }
+  .rr-tabs { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); border-bottom: 1px solid var(--color-border-line); }
+  .rr-tabs button { font: inherit; font-size: var(--cds-font-size-body); padding: var(--cds-pad-sm) var(--cds-pad-md); background: transparent; color: var(--color-fg-muted); border: 0; border-bottom: 2px solid transparent; cursor: pointer; margin-bottom: -1px; }
+  .rr-tabs button[aria-selected="true"] { color: var(--color-fg); border-bottom-color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+  .rr-tabs button:focus-visible, .rr-toggle button:focus-visible, .rr-pick:focus-visible { outline: 2px solid var(--color-fg); outline-offset: -2px; }
+  .rr-page { display: flex; flex-direction: column; gap: var(--cds-gap-md); }
+  .rr-bar { display: flex; flex-wrap: wrap; align-items: center; gap: var(--cds-gap-sm) var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .rr-pick { font: inherit; font-size: var(--cds-font-size-body); color: var(--color-fg); background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-xs) var(--cds-pad-sm); max-width: 100%; }
+  .rr-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr)); gap: var(--cds-gap-md); }
+  .rr-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-sm); min-width: 0; }
+  .rr-card h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; text-wrap: balance; }
+  .rr-card-head { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: var(--cds-gap-sm); }
+  .rr-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; line-height: 1.5; max-width: 74rem; }
+  .rr-toggle { display: inline-flex; flex-wrap: wrap; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); overflow: hidden; }
+  .rr-toggle button { font: inherit; font-size: var(--cds-font-size-caption); padding: var(--cds-pad-xs) var(--cds-pad-sm); background: transparent; color: var(--color-fg-muted); border: 0; cursor: pointer; }
+  .rr-toggle button + button { border-left: 1px solid var(--color-border-line); }
+  .rr-toggle button[aria-pressed="true"] { background: var(--color-bg); color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+  .rr-chart { position: relative; min-height: 16rem; }
+  .rr-chart-lg { min-height: 24rem; }
+  .rr-chart-sm { min-height: 11rem; }
+  .rr-chart svg { display: block; overflow: visible; }
+  .rr-chart text { font-family: var(--font-anthropic-sans); font-size: 11px; fill: var(--color-fg); }
+  .rr-chart .rr-mt { fill: var(--color-fg-muted); }
+  .rr-chart .rr-ft { font-weight: 600; }
+  .rr-multi { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); gap: var(--cds-gap-md) var(--cds-gap-lg); }
+  .rr-multi h3 { font-size: var(--cds-font-size-caption); font-weight: var(--cds-font-weight-medium); margin: 0 0 2px; }
+  .rr-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs) var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .rr-legend span { display: inline-flex; align-items: center; gap: 0.35rem; }
+  .rr-sw { width: 0.75rem; height: 0.75rem; border-radius: 3px; flex: none; background: var(--cds-chart-muted); }
+  .rr-sw-line { width: 1rem; height: 0; border-top: 2px solid var(--cds-chart-muted); border-radius: 0; background: transparent; }
+  .rr-sw-dash { width: 1rem; height: 0; border-top: 2px dashed var(--color-fg-muted); border-radius: 0; background: transparent; }
+  .rr-sw-band { background: var(--cds-chart-grid); border: 1px solid var(--cds-chart-muted); }
+  .rr-sw-hatch { background: repeating-linear-gradient(45deg, var(--cds-chart-muted) 0 2px, transparent 2px 5px); border: 1px solid var(--cds-chart-muted); }
+  .rr-heat { position: relative; overflow-x: auto; min-height: 20rem; }
+  .rr-hgrid { display: grid; gap: 2px; font-size: var(--cds-font-size-caption); min-width: 40rem; }
+  .rr-hcol { color: var(--color-fg-muted); text-align: center; line-height: 1.2; padding: 0 2px 4px; align-self: end; }
+  .rr-hrow { white-space: nowrap; padding-right: var(--cds-pad-sm); align-self: center; position: sticky; left: 0; background: var(--color-panel); z-index: 1; overflow: hidden; text-overflow: ellipsis; }
+  .rr-hrow.is-focus { font-weight: 600; }
+  .rr-hcell { position: relative; height: 1.8rem; display: flex; align-items: center; justify-content: center; font-variant-numeric: tabular-nums; }
+  .rr-hfill { position: absolute; inset: 0; border-radius: 3px; }
+  .rr-hempty { position: absolute; inset: 0; border-radius: 3px; border: 1px dashed var(--color-border-line); }
+  .rr-hval { position: relative; }
+  .rr-hcell.is-focus .rr-hfill { outline: 2px solid var(--color-fg); outline-offset: 0; }
+  .rr-hnum { justify-content: flex-end; padding-right: var(--cds-pad-sm); color: var(--color-fg-muted); }
+  .rr-tablebox { overflow: auto; max-height: 30rem; }
+  .rr table { border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; width: 100%; }
+  .rr th { position: sticky; top: 0; background: var(--color-panel); text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: bottom; z-index: 1; }
+  .rr td { text-align: left; padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; line-height: 1.45; }
+  .rr td.rr-n, .rr th.rr-n { text-align: right; white-space: nowrap; }
+  .rr tr.is-focus td { font-weight: 600; }
+  .rr-tip { position: absolute; z-index: 5; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); line-height: 1.45; max-width: 20rem; }
+  .rr-tip-h { color: var(--cds-text-secondary); }
+  .rr-tip-v { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .rr-tip-row { display: flex; align-items: center; gap: 0.35rem; }
+  .rr-tip-row i { width: 0.6rem; height: 0.6rem; border-radius: 2px; flex: none; }
+  [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+  [data-dash-source-state=empty] { color: transparent; }
+</style>
+
+<div class="rr">
+  <header class="rr-head">
+    <h1>Peer portfolio reallocations</h1>
+    <p class="rr-take" data-read>From Q1 2020 to Q2 2026 the peer set moved a net <b>C$<span data-draw="take" data-key="bonds_out_bn" data-source="headline" data-field="value" data-where="metric=bonds_out_bn">—</span> bn</b> out of bonds and put <b>C$<span data-draw="take" data-key="equities_in_bn" data-source="headline" data-field="value" data-where="metric=equities_in_bn">—</span> bn</b> into equities and <b>C$<span data-draw="take" data-key="other_in_bn" data-source="headline" data-field="value" data-where="metric=other_in_bn">—</span> bn</b> into other invested assets (mostly alternatives), counting only quarters free of the IFRS 17 switch and corporate events. RBC Life's equity share went from <b><span data-draw="take" data-key="rbc_eq_start" data-source="headline" data-field="value" data-where="metric=rbc_eq_start">—</span>%</b> to <b><span data-draw="take" data-key="rbc_eq_end" data-source="headline" data-field="value" data-where="metric=rbc_eq_end">—</span>%</b> (peer median now <b><span data-draw="take" data-key="median_eq_end" data-source="headline" data-field="value" data-where="metric=median_eq_end">—</span>%</b>) while its other invested assets fell from <b><span data-draw="take" data-key="rbc_oth_start" data-source="headline" data-field="value" data-where="metric=rbc_oth_start">—</span>%</b> to <b><span data-draw="take" data-key="rbc_oth_end" data-source="headline" data-field="value" data-where="metric=rbc_oth_end">—</span>%</b>.</p>
+    <p class="rr-scope">General-account invested assets of the 20 peers, quarterly for the 13 OSFI filers and iA, yearly for Beneva, Assumption Life, Humania and UV Insurance; Desjardins publishes no life-company breakdown. Policy loans, derivative assets, segregated funds and pass-through fund units are left out on both accounting bases. Share changes include market price moves: the market-drift split on the Flows tab is an estimate. RBC Life is highlighted throughout.</p>
+  </header>
+
+  <nav class="rr-tabs" role="tablist" aria-label="Pages">
+    <button type="button" role="tab" data-tab="overview" aria-selected="true">Overview</button>
+    <button type="button" role="tab" data-tab="mix" aria-selected="false">Mix over time</button>
+    <button type="button" role="tab" data-tab="flows" aria-selected="false">Quarterly flows</button>
+    <button type="button" role="tab" data-tab="classes" aria-selected="false">By asset class</button>
+    <button type="button" role="tab" data-tab="detail" aria-selected="false">IFRS 17 detail</button>
+    <button type="button" role="tab" data-tab="breaks" aria-selected="false">Series breaks</button>
+  </nav>
+
+  <section class="rr-page" id="overview" data-page="overview">
+    <div class="rr-grid">
+      <div class="rr-card" id="peer-flows-card">
+        <div class="rr-card-head"><h2>Net C$ reallocated by asset class, Q1 2020 to latest</h2></div>
+        <p class="rr-note">Sum over every quarter (year for annual filers) of the change in share times invested assets, so it is money moved relative to keeping the mix constant. Quarters crossing the IFRS 17 switch (where restatement was material) and corporate events are left out.</p>
+        <div class="rr-legend"><span><i class="rr-sw" style="background: var(--cds-chart-muted)"></i>All 18 peers (C$ bn)</span><span><i class="rr-sw" data-draw="sw-focus"></i>RBC Life (C$ mm, right)</span></div>
+        <div class="rr-chart" data-draw="peer-flows" data-source="headline_flows"></div>
+      </div>
+      <div class="rr-card" id="heat-card">
+        <div class="rr-card-head"><h2>Change in share since Q1 2020, net of series breaks (pp)</h2></div>
+        <p class="rr-note">Each insurer from its first to its latest filing. Hover for the split between the reported change, the IFRS 17 switch, corporate events and the estimated market drift. Rows run largest to smallest by invested assets.</p>
+        <div class="rr-heat" data-draw="heat" data-source="cumulative"></div>
+      </div>
+    </div>
+    <div class="rr-card" id="rbc-vs-peers">
+      <div class="rr-card-head"><h2>RBC Life against the peer range, share of invested assets by class</h2></div>
+      <p class="rr-note">Quarterly filers only. The band is the middle half of peers (25th to 75th percentile), the dashed line their median; the dotted rule marks RBC Life's first IFRS 17 quarter (Q4 2023 on the calendar, its fiscal Q1 2024).</p>
+      <div class="rr-legend"><span><i class="rr-sw rr-sw-line" data-draw="sw-focus-line"></i>RBC Life</span><span><i class="rr-sw rr-sw-dash"></i>Peer median</span><span><i class="rr-sw rr-sw-band"></i>Middle half of peers</span></div>
+      <div class="rr-multi" data-draw="rbc-multi" data-source="mix bands"></div>
+    </div>
+  </section>
+
+  <section class="rr-page" id="mix" data-page="mix" hidden>
+    <div class="rr-bar"><label for="rr-co-mix">Insurer</label><select class="rr-pick" id="rr-co-mix" data-draw="co-pick" data-source="coverage" aria-label="Insurer"></select></div>
+    <div class="rr-card" id="mix-share">
+      <div class="rr-card-head"><h2>Share of invested assets by class</h2></div>
+      <p class="rr-note">100% stacked. The dotted rule is the switch from IFRS 4 to IFRS 17 / IFRS 9; marked quarters carry a flag (switch, corporate event or a size jump) and are listed on the Series breaks tab.</p>
+      <div class="rr-legend" data-draw="class-legend"></div>
+      <div class="rr-chart rr-chart-lg" data-draw="mix-area" data-source="mix flags"></div>
+    </div>
+    <div class="rr-card" id="mix-cad">
+      <div class="rr-card-head"><h2>Invested assets by class (C$ bn)</h2></div>
+      <p class="rr-note">The same classes in dollars. For Manulife, Sun Life and Canada Life this is the Canadian insurer's legal-entity return, which consolidates foreign branches and subsidiaries, so C$ figures also move with exchange rates.</p>
+      <div class="rr-chart" data-draw="mix-bars" data-source="mix"></div>
+    </div>
+  </section>
+
+  <section class="rr-page" id="flows" data-page="flows" hidden>
+    <div class="rr-bar"><label for="rr-co-flows">Insurer</label><select class="rr-pick" id="rr-co-flows" data-draw="co-pick" data-source="coverage" aria-label="Insurer"></select>
+      <span class="rr-toggle" role="group" aria-label="Measure"><button type="button" data-fm="cad" aria-pressed="true">C$ reallocated</button><button type="button" data-fm="pp" aria-pressed="false">Share change (pp)</button></span></div>
+    <div class="rr-card" id="flows-bars">
+      <div class="rr-card-head"><h2>Reallocation each quarter by asset class</h2></div>
+      <p class="rr-note">C$ reallocated is the change in share times invested assets at the end of the quarter: positive means the class grew faster than the portfolio. Hatched bars are flagged quarters kept out of the totals; for iA and Beneva only the restated part of the switch is removed.</p>
+      <div class="rr-legend"><span data-draw="class-legend"></span><span><i class="rr-sw rr-sw-hatch"></i>Flagged, kept out of totals</span></div>
+      <div class="rr-chart rr-chart-lg" data-draw="flow-bars" data-source="changes"></div>
+    </div>
+    <div class="rr-card" id="flows-split">
+      <div class="rr-card-head"><h2>What moved each class's share since the first filing (pp)</h2></div>
+      <p class="rr-note">Reported change split into the IFRS 17 switch, corporate events and size jumps, an estimated market drift (bond prices repriced with the long Canada yield at a 10-year duration, equities with the S&amp;P/TSX composite, other classes held flat) and the rest, which is the insurer's own buying and selling. The drift uses Canadian markets, so it is rougher for Manulife and Sun Life.</p>
+      <div class="rr-legend"><span><i class="rr-sw" data-draw="sw-c" data-c="0"></i>Active (insurer's own trades, est.)</span><span><i class="rr-sw" data-draw="sw-c" data-c="1"></i>Market drift (est.)</span><span><i class="rr-sw" data-draw="sw-c" data-c="4"></i>IFRS 17 switch</span><span><i class="rr-sw rr-sw-hatch"></i>Corporate events and size jumps</span><span><i class="rr-sw rr-sw-dash"></i>Reported change</span></div>
+      <div class="rr-chart" data-draw="flow-split" data-source="cumulative"></div>
+    </div>
+  </section>
+
+  <section class="rr-page" id="classes" data-page="classes" hidden>
+    <div class="rr-bar"><span>Asset class</span>
+      <span class="rr-toggle" role="group" aria-label="Asset class">
+        <button type="button" data-cls="Cash &amp; short-term" aria-pressed="false">Cash &amp; short-term</button><button type="button" data-cls="Bonds" aria-pressed="false">Bonds</button><button type="button" data-cls="Mortgages &amp; loans" aria-pressed="false">Mortgages &amp; loans</button><button type="button" data-cls="Equities" aria-pressed="true">Equities</button><button type="button" data-cls="Real estate" aria-pressed="false">Real estate</button><button type="button" data-cls="Other invested assets" aria-pressed="false">Other invested assets</button>
+      </span></div>
+    <div class="rr-grid">
+      <div class="rr-card" id="class-lines">
+        <div class="rr-card-head"><h2>Share of invested assets, every peer</h2></div>
+        <p class="rr-note">One line per insurer on one scale; annual filers are dots at each year end. Hover a line to name it.</p>
+        <div class="rr-legend"><span><i class="rr-sw rr-sw-line" data-draw="sw-focus-line"></i>RBC Life</span><span><i class="rr-sw rr-sw-dash"></i>Peer median</span><span><i class="rr-sw rr-sw-line"></i>Other peers</span></div>
+        <div class="rr-chart rr-chart-lg" data-draw="class-lines" data-source="mix"></div>
+      </div>
+      <div class="rr-card" id="class-dumbbell">
+        <div class="rr-card-head"><h2>First and latest share, sorted by change</h2></div>
+        <p class="rr-note">Hollow dot is the first filing in the window, filled dot the latest; the bar beside each row is the change net of series breaks.</p>
+        <div class="rr-chart rr-chart-lg" data-draw="class-dumbbell" data-source="cumulative"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="rr-page" id="detail" data-page="detail" hidden>
+    <div class="rr-bar"><label for="rr-co-detail">Insurer</label><select class="rr-pick" id="rr-co-detail" data-draw="co-pick" data-source="coverage" aria-label="Insurer"></select></div>
+    <p class="rr-note">From 2023 the OSFI returns split bonds by issuer and credit grade and separate private placements, so the mix maps onto the CIO taxonomy's Level 3. iA comes from its quarterly packages. Annual filers are not shown here.</p>
+    <div class="rr-grid">
+      <div class="rr-card" id="detail-heat">
+        <div class="rr-card-head"><h2>Level 3 share each quarter (%)</h2></div>
+        <p class="rr-note">Rows follow the taxonomy (Level 1 / Level 2 in the label); the last column is the change from the first IFRS 17 quarter.</p>
+        <div class="rr-heat" data-draw="detail-heat" data-source="detail"></div>
+      </div>
+      <div class="rr-card" id="detail-big">
+        <div class="rr-card-head"><h2>Below-investment-grade share of bonds</h2></div>
+        <p class="rr-note">OSFI LF2 bonds rated below BBB- as a share of all bonds and debentures, OSFI filers only. Primerica Life's first LF2 return (Q1 2023) puts 13.7% of its bonds below investment grade and every later return close to zero, which looks like a classification change in the filing rather than a sale.</p>
+        <div class="rr-legend"><span><i class="rr-sw rr-sw-line" data-draw="sw-focus-line"></i>RBC Life</span><span><i class="rr-sw rr-sw-line" data-draw="sw-sel-line"></i>Selected insurer</span><span><i class="rr-sw rr-sw-line"></i>Other OSFI filers</span></div>
+        <div class="rr-chart" data-draw="big-lines" data-source="quality"></div>
+      </div>
+    </div>
+    <div class="rr-card" id="detail-peers">
+      <div class="rr-card-head"><h2>Change in Level 3 share since the first IFRS 17 quarter, every peer (pp)</h2></div>
+      <p class="rr-note">From Q1 2023 (Q4 2023 on the calendar for RBC Life and BMO Life) to Q2 2026. These quarters are all on one accounting basis.</p>
+      <div class="rr-heat" data-draw="detail-peers" data-source="detail"></div>
+    </div>
+  </section>
+
+  <section class="rr-page" id="breaks" data-page="breaks" hidden>
+    <div class="rr-grid">
+      <div class="rr-card" id="bridge-card">
+        <div class="rr-card-head"><h2>Restatement of the same balance sheet date, IFRS 17 / IFRS 9 against IFRS 4 (%)</h2></div>
+        <p class="rr-note">Invested assets at the last IFRS 4 date as later restated, against the IFRS 4 figure, both without policy loans. Where it is under 1% the switch quarter counts as reallocation; where it is larger the quarter is left out; iA and Beneva restated by class, so only that part is taken out.</p>
+        <div class="rr-chart" data-draw="bridge-bars" data-source="bridge"></div>
+      </div>
+      <div class="rr-card" id="bridge-class-card">
+        <div class="rr-card-head"><h2>Where insurers restated by class, share at the same date (%)</h2></div>
+        <p class="rr-note">Hollow dot is the IFRS 4 share, filled dot the IFRS 17 restated share. Beneva's statement lines did not change; iA's bonds and loans moved by up to two points.</p>
+        <div class="rr-chart" data-draw="bridge-class" data-source="bridge_class"></div>
+      </div>
+    </div>
+    <div class="rr-card" id="market-card">
+      <div class="rr-card-head"><h2>Market backdrop at each quarter end</h2></div>
+      <p class="rr-note">Long Government of Canada benchmark yield (Bank of Canada) and the S&amp;P/TSX composite indexed to 100 at Q1 2020. Rising yields shrink bond values and rising equity markets lift equity shares with no trading at all.</p>
+      <div class="rr-multi" data-draw="market" data-source="market"></div>
+    </div>
+    <div class="rr-card" id="flags-card">
+      <div class="rr-card-head"><h2>Flagged quarters</h2></div>
+      <p class="rr-note">Every quarter where a series break or corporate event, rather than a portfolio decision, may explain the change.</p>
+      <div class="rr-tablebox">
+        <table data-source="flags" data-row-key="company_id,period,flag">
+          <thead><tr><th data-field="company">Insurer</th><th data-field="period">Quarter</th><th data-field="flag">Flag</th><th class="rr-n" data-field="total_change_pct">Invested assets change</th><th data-field="note">What happened and how it is treated</th></tr></thead>
+          <tbody data-draw="flags-table"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="rr-card" id="coverage-card">
+      <div class="rr-card-head"><h2>Sources and coverage</h2></div>
+      <div class="rr-tablebox">
+        <table data-source="coverage" data-row-key="company_id">
+          <thead><tr><th data-field="company">Insurer</th><th data-field="frequency">Frequency</th><th data-field="first">First</th><th data-field="last">Latest</th><th data-field="source">Latest source</th><th data-field="note">Notes</th></tr></thead>
+          <tbody data-draw="coverage-table"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+(() => {
+  const FOCUS = 'rbc_life';
+  const CLASSES = ['Cash & short-term', 'Bonds', 'Mortgages & loans', 'Equities', 'Real estate', 'Other invested assets'];
+  const DEFAULT_CO = FOCUS, DEFAULT_CLS = 'Equities', DEFAULT_FM = 'cad';
+
+  // ---------- calculations (readers see these in Sources) ----------
+  dash.calc('bands', {
+    inputs: ['mix'],
+    title: 'Peer range by class and quarter',
+    description: 'Median and 25th/75th percentile share of each class across quarterly filers other than RBC Life.',
+    fn: (mix) => {
+      const g = d3.group(mix.filter((r) => r.frequency === 'Quarterly' && r.company_id !== 'rbc_life' && r.company_id !== 'peer_median'),
+        (r) => r.period, (r) => r.asset_class);
+      const out = [];
+      for (const [period, byC] of g) for (const [asset_class, rows] of byC) {
+        const v = rows.map((r) => +r.share_pct).sort(d3.ascending);
+        out.push({ period, asset_class, p25: d3.quantileSorted(v, 0.25), p50: d3.quantileSorted(v, 0.5), p75: d3.quantileSorted(v, 0.75), n: v.length });
+      }
+      return out;
+    },
+  });
+  dash.calc('headline_flows', {
+    inputs: ['cumulative'],
+    title: 'Net C$ reallocated by class',
+    description: 'Sum of break-adjusted C$ reallocation over all 18 peers (C$ bn) and for RBC Life (C$ mm).',
+    fn: (cumulative) => ['Cash & short-term', 'Bonds', 'Mortgages & loans', 'Equities', 'Real estate', 'Other invested assets'].map((c) => {
+      const rows = cumulative.filter((r) => r.asset_class === c);
+      const rbc = rows.find((r) => r.company_id === 'rbc_life');
+      return { asset_class: c, peers_cad_bn: d3.sum(rows, (r) => +r.reallocation_cad_mm) / 1000, rbc_cad_mm: rbc ? +rbc.reallocation_cad_mm : 0 };
+    }),
+  });
+  dash.calc('headline', {
+    inputs: ['headline_flows', 'cumulative', 'mix'],
+    title: 'Headline figures',
+    description: 'Rounded figures quoted in the takeaway sentence.',
+    fn: (headline_flows, cumulative, mix) => {
+      const f = (c) => headline_flows.find((r) => r.asset_class === c).peers_cad_bn;
+      const rc = (c) => cumulative.find((r) => r.company_id === 'rbc_life' && r.asset_class === c);
+      const med = mix.filter((r) => r.company_id === 'peer_median' && r.asset_class === 'Equities');
+      const last = med.reduce((a, b) => (b.period > a.period ? b : a), med[0]);
+      const r1 = (v) => Math.round(v * 10) / 10;
+      return [
+        { metric: 'bonds_out_bn', value: r1(-f('Bonds')) },
+        { metric: 'equities_in_bn', value: r1(f('Equities')) },
+        { metric: 'other_in_bn', value: r1(f('Other invested assets')) },
+        { metric: 'rbc_eq_start', value: r1(+rc('Equities').start_share_pct) },
+        { metric: 'rbc_eq_end', value: r1(+rc('Equities').end_share_pct) },
+        { metric: 'median_eq_end', value: r1(+last.share_pct) },
+        { metric: 'rbc_oth_start', value: r1(+rc('Other invested assets').start_share_pct) },
+        { metric: 'rbc_oth_end', value: r1(+rc('Other invested assets').end_share_pct) },
+      ];
+    },
+  });
+
+  // ---------- helpers ----------
+  const ok = (...ids) => ids.every((id) => dash.data(id).status === 'ok');
+  const rows = (id) => dash.data(id).data || [];
+  const fmt1 = d3.format('.1f'), fmtS = d3.format('+.1f'), fmtC = d3.format(',.0f');
+  const fmtBn = (mm) => (Math.abs(mm) >= 1000 ? d3.format(',.1f')(mm / 1000) + ' bn' : d3.format(',.0f')(mm) + ' mm');
+  const minus = (s) => s.replace('-', '−');
+  const qLab = (p) => 'Q' + p[5] + ' ' + p.slice(0, 4);
+  const qKey = (p) => +p.slice(0, 4) * 4 + (+p[5] - 1);
+  const QUARTERS = d3.range(qKey('2020Q1'), qKey('2026Q2') + 1).map((k) => `${Math.floor(k / 4)}Q${(k % 4) + 1}`);
+  const resolveCache = {};
+  const resolve = (c) => {
+    if (resolveCache[c]) return resolveCache[c];
+    const el = document.createElement('span');
+    el.style.color = c; el.style.display = 'none';
+    document.querySelector('.rr').append(el);
+    const v = getComputedStyle(el).color; el.remove();
+    return (resolveCache[c] = v);
+  };
+  const css = (name) => resolve(`var(${name})`);
+  const classColor = (c) => dash.colors[CLASSES.indexOf(c) % dash.colors.length];
+  const focusColor = () => dash.colors[0];
+  const state = () => {
+    const p = dash.params();
+    return { co: p.co || DEFAULT_CO, cls: p.cls || DEFAULT_CLS, fm: p.fm || DEFAULT_FM, tab: p.tab || 'overview' };
+  };
+  const svgIn = (el, h) => {
+    const w = Math.max(el.clientWidth || 600, 280);
+    el.replaceChildren();
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${w} ${h}`).attr('height', h);
+    return { svg, w, h };
+  };
+  const tipIn = (el) => {
+    const t = document.createElement('div'); t.className = 'rr-tip'; t.hidden = true; el.append(t); return t;
+  };
+  const showTip = (el, tip, event, build) => {
+    tip.replaceChildren(); build(tip); tip.hidden = false;
+    const box = el.getBoundingClientRect();
+    let x = event.clientX - box.left + 12, y = event.clientY - box.top + 12;
+    const tw = tip.offsetWidth, th = tip.offsetHeight;
+    if (x + tw > box.width) x = Math.max(0, event.clientX - box.left - tw - 12);
+    if (y + th > box.height) y = Math.max(0, event.clientY - box.top - th - 12);
+    tip.style.left = x + 'px'; tip.style.top = y + 'px';
+  };
+  const tipLine = (tip, text, cls) => { const d = document.createElement('div'); if (cls) d.className = cls; d.textContent = text; tip.append(d); return d; };
+  const tipRow = (tip, color, label, value) => {
+    const d = document.createElement('div'); d.className = 'rr-tip-row';
+    if (color) { const i = document.createElement('i'); i.style.background = color; d.append(i); }
+    const l = document.createElement('span'); l.textContent = label; d.append(l);
+    const v = document.createElement('span'); v.className = 'rr-tip-v'; v.textContent = value; d.append(v);
+    tip.append(d);
+  };
+  const empty = (el, msg) => { el.replaceChildren(); if (msg) { const p = document.createElement('p'); p.className = 'rr-note'; p.textContent = msg; el.append(p); } };
+  const failed = (el, ...ids) => {
+    if (ids.some((id) => ['error', 'connect', 'declined'].includes(dash.data(id).status))) { empty(el, 'Failed to load'); return true; }
+    if (!ok(...ids)) { el.replaceChildren(); el.classList.add('dash-skeleton'); return true; }
+    el.classList.remove('dash-skeleton');
+    return false;
+  };
+  const axisStyle = (g) => {
+    g.attr('font-size', null).attr('font-family', null);
+    g.selectAll('text').attr('class', 'rr-mt');
+    g.selectAll('line').attr('stroke', css('--cds-chart-axis'));
+    g.select('.domain').attr('stroke', css('--cds-chart-axis'));
+  };
+  const grid = (svg, y, x0, x1, ticks) => svg.append('g').selectAll('line').data(ticks).join('line')
+    .attr('x1', x0).attr('x2', x1).attr('y1', y).attr('y2', y).attr('stroke', css('--cds-chart-grid'));
+  const textW = (svg, s) => { const t = svg.append('text').text(s); const w = t.node().getComputedTextLength(); t.remove(); return w; };
+  const coName = () => {
+    const m = new Map(rows('coverage').map((r) => [r.company_id, r.company]));
+    m.set('peer_median', 'Peer median'); return m;
+  };
+  const yearTicks = QUARTERS.filter((q) => q.endsWith('Q1'));
+  const firstIfrs17 = (cid) => {
+    const r = rows('mix').filter((x) => x.company_id === cid && x.basis === 'IFRS 17').map((x) => x.period).sort();
+    const r4 = rows('mix').filter((x) => x.company_id === cid && x.basis === 'IFRS 4').map((x) => x.period).sort();
+    return r.length && r4.length ? { last4: r4[r4.length - 1], first17: r[0] } : null;
+  };
+
+  // ---------- tabs and controls ----------
+  const tabs = [...document.querySelectorAll('.rr-tabs [data-tab]')];
+  tabs.forEach((b) => b.addEventListener('click', () => { dash.setParams({ tab: b.dataset.tab }); dash.setLink(b.dataset.tab); }));
+  document.querySelectorAll('[data-fm]').forEach((b) => b.addEventListener('click', () => dash.setParams({ fm: b.dataset.fm })));
+  document.querySelectorAll('[data-cls]').forEach((b) => b.addEventListener('click', () => dash.setParams({ cls: b.dataset.cls })));
+  const named = location.hash.slice(1);
+  if (named && document.querySelector(`[data-page="${named}"]`)) dash.setParams({ tab: named });
+
+  dash.onData(() => {
+    const s = state();
+    tabs.forEach((b) => b.setAttribute('aria-selected', String(b.dataset.tab === s.tab)));
+    document.querySelectorAll('[data-page]').forEach((p) => { p.hidden = p.dataset.page !== s.tab; });
+    document.querySelectorAll('[data-fm]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.fm === s.fm)));
+    document.querySelectorAll('[data-cls]').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.cls === s.cls)));
+  });
+
+  dash.draw('take', (el) => {
+    if (!ok('headline')) { el.textContent = '—'; return; }
+    const r = rows('headline').find((x) => x.metric === el.dataset.key);
+    el.textContent = r ? fmt1(r.value) : '—';
+  });
+  dash.draw('sw-focus', (el) => { el.style.background = focusColor(); });
+  dash.draw('sw-focus-line', (el) => { el.style.borderTopColor = focusColor(); });
+  dash.draw('sw-sel-line', (el) => { el.style.borderTopColor = dash.colors[1]; });
+  dash.draw('sw-c', (el) => { el.style.background = dash.colors[+el.dataset.c]; });
+  dash.draw('class-legend', (el) => {
+    el.replaceChildren(...CLASSES.map((c) => {
+      const s = document.createElement('span'); const i = document.createElement('i'); i.className = 'rr-sw'; i.style.background = classColor(c);
+      s.append(i, document.createTextNode(c)); return s;
+    }));
+    el.style.display = 'inline-flex'; el.style.flexWrap = 'wrap'; el.style.gap = 'var(--cds-gap-xs) var(--cds-gap-md)';
+  });
+  dash.draw('co-pick', (sel) => {
+    if (!ok('coverage')) { sel.replaceChildren(); return; }
+    const opts = rows('coverage').filter((r) => +r.points > 0);
+    sel.replaceChildren(...opts.map((r) => new Option(r.company + (r.frequency === 'Annual' ? ' (yearly)' : ''), r.company_id)));
+    sel.value = state().co;
+    sel.onchange = () => dash.setParams({ co: sel.value });
+  });
+
+  // ---------- overview ----------
+  dash.draw('peer-flows', (el) => {
+    if (failed(el, 'headline_flows')) return;
+    const data = rows('headline_flows');
+    const { svg, w } = svgIn(el, 260);
+    const m = { l: 140, r: 16, t: 18, b: 24 };
+    const half = (w - m.l - m.r) / 2 - 20;
+    const y = d3.scaleBand(CLASSES, [m.t, 260 - m.b]).padding(0.28);
+    const xp = d3.scaleLinear(d3.extent([0, ...data.map((d) => d.peers_cad_bn)]), [m.l, m.l + half]).nice();
+    const xr = d3.scaleLinear(d3.extent([0, ...data.map((d) => d.rbc_cad_mm)]), [m.l + half + 40, w - m.r]).nice();
+    [[xp, 'All peers, C$ bn', d3.format(',.0f')], [xr, 'RBC Life, C$ mm', d3.format(',.0f')]].forEach(([x, lab, f]) => {
+      svg.append('g').attr('transform', `translate(0,${260 - m.b})`).call(d3.axisBottom(x).ticks(3).tickFormat((v) => minus(f(v)))).call(axisStyle);
+      svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', m.t).attr('y2', 260 - m.b).attr('stroke', css('--cds-chart-reference'));
+      svg.append('text').attr('x', (x.range()[0] + x.range()[1]) / 2).attr('y', 10).attr('text-anchor', 'middle').attr('class', 'rr-mt').text(lab);
+    });
+    svg.append('g').selectAll('text').data(CLASSES).join('text').attr('x', m.l - 8).attr('y', (c) => y(c) + y.bandwidth() / 2).attr('dy', '0.32em').attr('text-anchor', 'end').text((c) => c);
+    const tip = tipIn(el);
+    const bar = (key, x, color) => svg.append('g').selectAll('rect').data(data).join('rect')
+      .attr('x', (d) => Math.min(x(0), x(d[key]))).attr('width', (d) => Math.abs(x(d[key]) - x(0)))
+      .attr('y', (d) => y(d.asset_class)).attr('height', y.bandwidth()).attr('rx', 2).attr('fill', color)
+      .on('pointermove', (e, d) => showTip(el, tip, e, (t) => { tipLine(t, d.asset_class, 'rr-tip-h'); tipRow(t, css('--cds-chart-muted'), 'All peers ', minus('C$' + d3.format(',.1f')(d.peers_cad_bn) + ' bn')); tipRow(t, focusColor(), 'RBC Life ', minus('C$' + fmtC(d.rbc_cad_mm) + ' mm')); }))
+      .on('pointerleave', () => { tip.hidden = true; });
+    bar('peers_cad_bn', xp, css('--cds-chart-muted'));
+    bar('rbc_cad_mm', xr, focusColor());
+  });
+
+  dash.draw('heat', (el) => {
+    if (failed(el, 'cumulative')) return;
+    const data = rows('cumulative');
+    const cos = d3.groups(data, (r) => r.company_id).map(([id, rs]) => ({ id, name: rs[0].company, size: +rs[0].end_total_cad_mm, start: rs[0].start_period, end: rs[0].end_period, freq: rs[0].frequency }))
+      .sort((a, b) => b.size - a.size);
+    const ext = d3.max(data, (r) => Math.abs(+r.reallocation_pp)) || 1;
+    const lim = Math.min(ext, 12);
+    const pos = d3.interpolateRgb(css('--color-panel'), resolve(dash.colors[0]));
+    const neg = d3.interpolateRgb(css('--color-panel'), resolve(dash.colors[1]));
+    const fill = (v) => (v >= 0 ? pos : neg)(Math.min(Math.abs(v) / lim, 1) * 0.85);
+    el.replaceChildren();
+    const g = document.createElement('div'); g.className = 'rr-hgrid';
+    g.style.gridTemplateColumns = `minmax(9rem, 13rem) repeat(${CLASSES.length}, minmax(3.6rem, 1fr)) 5.2rem`;
+    const head = (t, cls) => { const d = document.createElement('div'); d.className = cls || 'rr-hcol'; d.textContent = t; g.append(d); };
+    head(''); CLASSES.forEach((c) => head(c)); head('Invested, C$ bn');
+    const tip = tipIn(el);
+    cos.forEach((co) => {
+      const rl = document.createElement('div'); rl.className = 'rr-hrow' + (co.id === FOCUS ? ' is-focus' : ''); rl.textContent = co.name + (co.freq === 'Annual' ? ' (yearly)' : ''); rl.title = co.name; g.append(rl);
+      CLASSES.forEach((c) => {
+        const r = data.find((x) => x.company_id === co.id && x.asset_class === c);
+        const cell = document.createElement('div'); cell.className = 'rr-hcell' + (co.id === FOCUS ? ' is-focus' : '');
+        const f = document.createElement('div'); f.className = 'rr-hfill'; f.style.background = fill(+r.reallocation_pp); cell.append(f);
+        const v = document.createElement('span'); v.className = 'rr-hval'; v.textContent = Math.abs(+r.reallocation_pp) < 0.05 ? '0.0' : minus(fmtS(+r.reallocation_pp)); cell.append(v);
+        cell.addEventListener('pointermove', (e) => showTip(el, tip, e, (t) => {
+          tipLine(t, `${co.name}, ${c}`, 'rr-tip-h');
+          tipLine(t, `${qLab(r.start_period)} ${fmt1(+r.start_share_pct)}% → ${qLab(r.end_period)} ${fmt1(+r.end_share_pct)}%`);
+          tipRow(t, null, 'Reported change ', minus(fmtS(+r.total_change_pp) + ' pp'));
+          tipRow(t, null, 'IFRS 17 switch ', minus(fmtS(+r.ifrs17_switch_pp) + ' pp'));
+          tipRow(t, null, 'Events and size jumps ', minus(fmtS(+r.event_pp) + ' pp'));
+          tipRow(t, null, 'Net of breaks ', minus(fmtS(+r.reallocation_pp) + ' pp'));
+          tipRow(t, null, '  of which market drift (est.) ', minus(fmtS(+r.market_drift_pp) + ' pp'));
+          tipRow(t, null, 'C$ reallocated ', minus('C$' + fmtBn(+r.reallocation_cad_mm)));
+        }));
+        cell.addEventListener('pointerleave', () => { tip.hidden = true; });
+        g.append(cell);
+      });
+      const n = document.createElement('div'); n.className = 'rr-hcell rr-hnum'; n.textContent = d3.format(',.1f')(co.size / 1000); g.append(n);
+    });
+    el.append(g, tip);
+  });
+
+  dash.draw('rbc-multi', (el) => {
+    if (failed(el, 'mix', 'bands')) return;
+    const mix = rows('mix').filter((r) => r.company_id === FOCUS);
+    const bands = rows('bands');
+    const sw = firstIfrs17(FOCUS);
+    el.replaceChildren();
+    const boxes = CLASSES.map((c) => {
+      const box = document.createElement('div');
+      const h = document.createElement('h3'); h.textContent = c; box.append(h);
+      const ch = document.createElement('div'); ch.className = 'rr-chart rr-chart-sm'; box.append(ch); el.append(box);
+      return ch;
+    });
+    CLASSES.forEach((c, ci) => {
+      const ch = boxes[ci];
+      const b = bands.filter((r) => r.asset_class === c).sort((a, z) => d3.ascending(a.period, z.period));
+      const f = mix.filter((r) => r.asset_class === c).sort((a, z) => d3.ascending(a.period, z.period));
+      const H = 170; const { svg, w } = svgIn(ch, H);
+      const m = { l: 34, r: 40, t: 8, b: 20 };
+      const x = d3.scalePoint(QUARTERS, [m.l, w - m.r]);
+      const ymax = d3.max([...b.map((r) => +r.p75), ...f.map((r) => +r.share_pct)]) || 1;
+      const y = d3.scaleLinear([0, ymax * 1.08], [H - m.b, m.t]).nice();
+      grid(svg, y, m.l, w - m.r, y.ticks(3));
+      svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(3).tickSize(0).tickFormat((v) => v + '%')).call(axisStyle).call((g) => g.select('.domain').remove());
+      svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues(yearTicks.filter((q, i) => i % 2 === 0)).tickFormat((q) => q.slice(0, 4)).tickSize(3)).call(axisStyle);
+      if (sw) svg.append('line').attr('x1', (x(sw.last4) + x(sw.first17)) / 2).attr('x2', (x(sw.last4) + x(sw.first17)) / 2).attr('y1', m.t).attr('y2', H - m.b).attr('stroke', css('--cds-chart-reference')).attr('stroke-dasharray', '2 3');
+      svg.append('path').datum(b).attr('fill', css('--cds-chart-grid')).attr('stroke', 'none')
+        .attr('d', d3.area().x((r) => x(r.period)).y0((r) => y(+r.p25)).y1((r) => y(+r.p75)));
+      svg.append('path').datum(b).attr('fill', 'none').attr('stroke', css('--color-fg-muted')).attr('stroke-width', 1.5).attr('stroke-dasharray', '4 3')
+        .attr('d', d3.line().x((r) => x(r.period)).y((r) => y(+r.p50)));
+      svg.append('path').datum(f).attr('fill', 'none').attr('stroke', focusColor()).attr('stroke-width', 2).attr('stroke-linejoin', 'round').attr('stroke-linecap', 'round')
+        .attr('d', d3.line().x((r) => x(r.period)).y((r) => y(+r.share_pct)));
+      const last = f[f.length - 1];
+      if (last) {
+        svg.append('circle').attr('cx', x(last.period)).attr('cy', y(+last.share_pct)).attr('r', 3).attr('fill', focusColor());
+        svg.append('text').attr('x', x(last.period) + 5).attr('y', y(+last.share_pct)).attr('dy', '0.32em').attr('class', 'rr-ft').text(fmt1(+last.share_pct) + '%');
+      }
+      const tip = tipIn(ch);
+      const lookup = (q) => ({ f: f.find((r) => r.period === q), b: b.find((r) => r.period === q) });
+      const hover = svg.append('line').attr('y1', m.t).attr('y2', H - m.b).attr('stroke', css('--cds-chart-axis')).attr('opacity', 0);
+      svg.append('rect').attr('x', m.l).attr('y', m.t).attr('width', w - m.l - m.r).attr('height', H - m.t - m.b).attr('fill', 'transparent')
+        .on('pointermove', (e) => {
+          const px = d3.pointer(e)[0]; const q = QUARTERS[Math.max(0, Math.min(QUARTERS.length - 1, Math.round((px - m.l) / x.step())))];
+          const v = lookup(q); hover.attr('x1', x(q)).attr('x2', x(q)).attr('opacity', 1);
+          showTip(ch, tip, e, (t) => { tipLine(t, `${qLab(q)} · ${c}`, 'rr-tip-h'); if (v.f) tipRow(t, focusColor(), 'RBC Life ', fmt1(+v.f.share_pct) + '%'); if (v.b) { tipRow(t, null, 'Peer median ', fmt1(+v.b.p50) + '%'); tipRow(t, null, 'Middle half ', `${fmt1(+v.b.p25)}–${fmt1(+v.b.p75)}%`); } });
+        })
+        .on('pointerleave', () => { tip.hidden = true; hover.attr('opacity', 0); });
+    });
+  });
+
+  // ---------- mix over time ----------
+  const coSeries = (cid) => {
+    const r = rows('mix').filter((x) => x.company_id === cid);
+    const periods = [...new Set(r.map((x) => x.period))].sort();
+    return periods.map((p) => {
+      const o = { period: p }; r.filter((x) => x.period === p).forEach((x) => { o[x.asset_class] = +x.share_pct; o['$' + x.asset_class] = +x.amount_cad_mm; o.total = +x.total_cad_mm; o.basis = x.basis; o.source = x.source; }); return o;
+    });
+  };
+  dash.draw('mix-area', (el) => {
+    if (failed(el, 'mix', 'flags')) return;
+    const cid = state().co; const ser = coSeries(cid);
+    if (!ser.length) return empty(el, 'No breakdown is published for this insurer.');
+    const H = +el.dataset.h || 380; const { svg, w } = svgIn(el, H);
+    const m = { l: 40, r: 130, t: 12, b: 24 };
+    const annual = ser.length < 8;
+    const x = d3.scalePoint(annual ? ser.map((d) => d.period) : QUARTERS, [m.l, w - m.r]);
+    const y = d3.scaleLinear([0, 100], [H - m.b, m.t]);
+    const stack = d3.stack().keys(CLASSES).value((d, k) => d[k] || 0)(ser);
+    grid(svg, y, m.l, w - m.r, [0, 25, 50, 75, 100]);
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).tickValues([0, 25, 50, 75, 100]).tickSize(0).tickFormat((v) => v + '%')).call(axisStyle).call((g) => g.select('.domain').remove());
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues(annual ? ser.map((d) => d.period) : yearTicks).tickFormat((q) => (annual ? q.slice(0, 4) : q.slice(0, 4))).tickSize(3)).call(axisStyle);
+    stack.forEach((s) => svg.append('path').datum(s).attr('fill', classColor(s.key)).attr('fill-opacity', 0.9).attr('stroke', css('--color-panel')).attr('stroke-width', 0.5)
+      .attr('d', d3.area().x((d) => x(d.data.period)).y0((d) => y(d[0])).y1((d) => y(d[1]))));
+    const last = ser[ser.length - 1];
+    let ly = []; stack.forEach((s) => { const d = s[s.length - 1]; if ((last[s.key] || 0) >= 0.05) ly.push({ key: s.key, y: y((d[0] + d[1]) / 2), v: last[s.key] || 0 }); });
+    ly.sort((a, b) => a.y - b.y); for (let i = 1; i < ly.length; i++) if (ly[i].y - ly[i - 1].y < 12) ly[i].y = ly[i - 1].y + 12;
+    const over = ly.length ? ly[ly.length - 1].y - (H - m.b) : 0; if (over > 0) ly.forEach((l) => { l.y -= over; });
+    svg.append('g').selectAll('text').data(ly).join('text').attr('x', w - m.r + 6).attr('y', (d) => d.y).attr('dy', '0.32em').text((d) => `${d.key} ${fmt1(d.v)}%`);
+    const sw = firstIfrs17(cid);
+    if (sw && x(sw.first17) !== undefined && x(sw.last4) !== undefined) {
+      const sx = (x(sw.last4) + x(sw.first17)) / 2;
+      svg.append('line').attr('x1', sx).attr('x2', sx).attr('y1', m.t).attr('y2', H - m.b).attr('stroke', css('--color-fg')).attr('stroke-dasharray', '2 3');
+      svg.append('text').attr('x', sx + 4).attr('y', m.t + 10).attr('class', 'rr-ft').text('IFRS 17');
+    }
+    const fl = rows('flags').filter((f) => f.company_id === cid && f.flag !== 'Restatement by class');
+    svg.append('g').selectAll('path').data(fl.filter((f) => x(f.period) !== undefined)).join('path')
+      .attr('d', d3.symbol(d3.symbolTriangle, 40)).attr('transform', (f) => `translate(${x(f.period)},${H - m.b - 6}) rotate(180)`).attr('fill', css('--color-fg'));
+    const tip = tipIn(el);
+    const hover = svg.append('line').attr('y1', m.t).attr('y2', H - m.b).attr('stroke', css('--color-fg')).attr('opacity', 0);
+    svg.append('rect').attr('x', m.l).attr('y', m.t).attr('width', w - m.l - m.r).attr('height', H - m.t - m.b).attr('fill', 'transparent')
+      .on('pointermove', (e) => {
+        const px = d3.pointer(e)[0];
+        const d = ser.reduce((a, b) => (Math.abs(x(b.period) - px) < Math.abs(x(a.period) - px) ? b : a), ser[0]);
+        hover.attr('x1', x(d.period)).attr('x2', x(d.period)).attr('opacity', 0.5);
+        showTip(el, tip, e, (t) => {
+          tipLine(t, `${qLab(d.period)} · ${d.basis} · C$${fmtBn(d.total)} invested`, 'rr-tip-h');
+          CLASSES.slice().reverse().forEach((c) => tipRow(t, classColor(c), c + ' ', fmt1(d[c] || 0) + '%'));
+          fl.filter((f) => f.period === d.period).forEach((f) => tipLine(t, '▲ ' + f.flag));
+        });
+      })
+      .on('pointerleave', () => { tip.hidden = true; hover.attr('opacity', 0); });
+  });
+
+  dash.draw('mix-bars', (el) => {
+    if (failed(el, 'mix')) return;
+    const ser = coSeries(state().co);
+    if (!ser.length) return empty(el, 'No breakdown is published for this insurer.');
+    const H = 280; const { svg, w } = svgIn(el, H);
+    const m = { l: 48, r: 16, t: 10, b: 24 };
+    const annual = ser.length < 8;
+    const x = d3.scaleBand(annual ? ser.map((d) => d.period) : QUARTERS, [m.l, w - m.r]).padding(0.2);
+    const ymax = d3.max(ser, (d) => d.total) / 1000;
+    const y = d3.scaleLinear([0, ymax * 1.05], [H - m.b, m.t]).nice();
+    grid(svg, y, m.l, w - m.r, y.ticks(4));
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(0).tickFormat(d3.format(',.0f'))).call(axisStyle).call((g) => g.select('.domain').remove());
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues(annual ? ser.map((d) => d.period) : yearTicks).tickFormat((q) => q.slice(0, 4)).tickSize(3)).call(axisStyle);
+    const st = d3.stack().keys(CLASSES).value((d, k) => (d['$' + k] || 0) / 1000)(ser);
+    const tip = tipIn(el);
+    st.forEach((s) => svg.append('g').selectAll('rect').data(s).join('rect').attr('x', (d) => x(d.data.period)).attr('width', x.bandwidth())
+      .attr('y', (d) => y(d[1])).attr('height', (d) => Math.max(0, y(d[0]) - y(d[1]))).attr('fill', classColor(s.key))
+      .on('pointermove', (e, d) => showTip(el, tip, e, (t) => { tipLine(t, `${qLab(d.data.period)} · C$${fmtBn(d.data.total)}`, 'rr-tip-h'); CLASSES.slice().reverse().forEach((c) => tipRow(t, classColor(c), c + ' ', 'C$' + fmtBn(d.data['$' + c] || 0))); }))
+      .on('pointerleave', () => { tip.hidden = true; }));
+  });
+
+  // ---------- flows ----------
+  dash.draw('flow-bars', (el) => {
+    if (failed(el, 'changes')) return;
+    const { co, fm } = state();
+    const ch = rows('changes').filter((r) => r.company_id === co);
+    if (!ch.length) return empty(el, 'Only one filing is available for this insurer, so there is no change to show.');
+    // Reported bar = share change x invested assets at the quarter end; counted part = after removing breaks.
+    const tot = new Map(rows('mix').filter((r) => r.company_id === co).map((r) => [r.period, +r.total_cad_mm]));
+    const per = d3.groups(ch, (r) => r.period).map(([p, rs]) => ({ period: p, flag: rs[0].flag, items: rs.map((r) => ({
+      c: r.asset_class, raw: r,
+      full: fm === 'pp' ? +r.share_change_pp : (+r.share_change_pp / 100) * (tot.get(p) || 0),
+      counted: fm === 'pp' ? +r.reallocation_pp : +r.reallocation_cad_mm,
+    })) }));
+    const H = 360; const { svg, w } = svgIn(el, H);
+    const m = { l: 56, r: 16, t: 10, b: 24 };
+    const annual = per.length < 8;
+    const x = d3.scaleBand(annual ? per.map((d) => d.period) : QUARTERS.slice(1), [m.l, w - m.r]).padding(0.2);
+    const sums = per.map((p) => [d3.sum(p.items, (i) => Math.max(0, i.full)), d3.sum(p.items, (i) => Math.min(0, i.full))]);
+    const lim = d3.max(sums, (s) => Math.max(s[0], -s[1])) || 1;
+    const y = d3.scaleLinear([-lim * 1.05, lim * 1.05], [H - m.b, m.t]).nice();
+    const f = fm === 'pp' ? (v) => minus(d3.format('+.1f')(v)) : (v) => minus(d3.format(',.0f')(v));
+    grid(svg, y, m.l, w - m.r, y.ticks(5));
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(5).tickSize(0).tickFormat(f)).call(axisStyle).call((g) => g.select('.domain').remove());
+    svg.append('text').attr('x', m.l).attr('y', m.t - 2).attr('class', 'rr-mt').text(fm === 'pp' ? 'pp of invested assets' : 'C$ mm');
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues(annual ? per.map((d) => d.period) : yearTicks.filter((q) => q !== '2020Q1')).tickFormat((q) => q.slice(0, 4)).tickSize(3)).call(axisStyle);
+    svg.append('line').attr('x1', m.l).attr('x2', w - m.r).attr('y1', y(0)).attr('y2', y(0)).attr('stroke', css('--cds-chart-reference'));
+    const defs = svg.append('defs');
+    CLASSES.forEach((c, i) => {
+      const p = defs.append('pattern').attr('id', 'rr-hatch-' + i).attr('patternUnits', 'userSpaceOnUse').attr('width', 5).attr('height', 5).attr('patternTransform', 'rotate(45)');
+      p.append('rect').attr('width', 5).attr('height', 5).attr('fill', css('--color-panel'));
+      p.append('rect').attr('width', 2).attr('height', 5).attr('fill', resolve(classColor(c)));
+    });
+    const tip = tipIn(el);
+    per.forEach((p) => {
+      if (x(p.period) === undefined) return;
+      let up = 0, dn = 0;
+      p.items.forEach((it) => {
+        const v = it.full; if (!v) return;
+        const y0 = v >= 0 ? up : dn; const y1 = y0 + v; if (v >= 0) up = y1; else dn = y1;
+        const flagged = !!p.flag && Math.abs(it.counted - it.full) > Math.max(fm === 'pp' ? 0.01 : 1, 0.02 * Math.abs(it.full));
+        svg.append('rect').attr('x', x(p.period)).attr('width', x.bandwidth()).attr('y', y(Math.max(y0, y1))).attr('height', Math.abs(y(y0) - y(y1)))
+          .attr('fill', flagged ? `url(#rr-hatch-${CLASSES.indexOf(it.c)})` : classColor(it.c)).attr('stroke', flagged ? resolve(classColor(it.c)) : 'none').attr('stroke-width', 0.75)
+          .on('pointermove', (e) => showTip(el, tip, e, (t) => {
+            tipLine(t, `${qLab(p.period)} · ${it.c}`, 'rr-tip-h');
+            tipRow(t, classColor(it.c), 'Reported ', fm === 'pp' ? minus(fmtS(it.full) + ' pp') : minus('C$' + fmtBn(it.full)));
+            tipRow(t, null, 'Counted as reallocation ', fm === 'pp' ? minus(fmtS(it.counted) + ' pp') : minus('C$' + fmtBn(it.counted)));
+            tipRow(t, null, 'Market drift (est.) ', minus(fmtS(+it.raw.market_drift_pp) + ' pp'));
+            tipRow(t, null, 'Holdings change ', minus('C$' + fmtBn(+it.raw.amount_change_cad_mm)));
+            if (p.flag) tipLine(t, '▲ ' + p.flag);
+          }))
+          .on('pointerleave', () => { tip.hidden = true; });
+      });
+      if (p.flag) svg.append('path').attr('d', d3.symbol(d3.symbolTriangle, 36)).attr('transform', `translate(${x(p.period) + x.bandwidth() / 2},${y(up) - 8}) rotate(180)`).attr('fill', css('--color-fg'));
+    });
+  });
+
+  dash.draw('flow-split', (el) => {
+    if (failed(el, 'cumulative')) return;
+    const co = state().co;
+    const cu = rows('cumulative').filter((r) => r.company_id === co);
+    if (!cu.length) return empty(el, 'No breakdown is published for this insurer.');
+    const H = 300; const { svg, w } = svgIn(el, H);
+    const m = { l: 140, r: 24, t: 22, b: 24 };
+    const parts = [['active_pp', dash.colors[0], 'Active (est.)'], ['market_drift_pp', dash.colors[1], 'Market drift (est.)'], ['ifrs17_switch_pp', dash.colors[4], 'IFRS 17 switch'], ['event_pp', 'hatch', 'Events and size jumps']];
+    const y = d3.scaleBand(CLASSES, [m.t, H - m.b]).padding(0.3);
+    const ext = d3.max(cu, (r) => Math.max(d3.sum(parts, ([k]) => Math.max(0, +r[k])), -d3.sum(parts, ([k]) => Math.min(0, +r[k])), Math.abs(+r.total_change_pp))) || 1;
+    const x = d3.scaleLinear([-ext * 1.08, ext * 1.08], [m.l, w - m.r]).nice();
+    grid(svg, null, 0, 0, []);
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(6).tickFormat((v) => minus(d3.format('+.0f')(v)))).call(axisStyle);
+    svg.append('g').selectAll('line').data(x.ticks(6)).join('line').attr('x1', (v) => x(v)).attr('x2', (v) => x(v)).attr('y1', m.t).attr('y2', H - m.b).attr('stroke', css('--cds-chart-grid'));
+    svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', m.t - 6).attr('y2', H - m.b).attr('stroke', css('--cds-chart-reference'));
+    svg.append('text').attr('x', m.l).attr('y', 10).attr('class', 'rr-mt').text(`${qLab(cu[0].start_period)} to ${qLab(cu[0].end_period)}, pp of invested assets`);
+    svg.append('g').selectAll('text').data(CLASSES).join('text').attr('x', m.l - 8).attr('y', (c) => y(c) + y.bandwidth() / 2).attr('dy', '0.32em').attr('text-anchor', 'end').text((c) => c);
+    const defs = svg.append('defs');
+    const p = defs.append('pattern').attr('id', 'rr-hatch-ev').attr('patternUnits', 'userSpaceOnUse').attr('width', 5).attr('height', 5).attr('patternTransform', 'rotate(45)');
+    p.append('rect').attr('width', 5).attr('height', 5).attr('fill', css('--color-panel'));
+    p.append('rect').attr('width', 2).attr('height', 5).attr('fill', css('--color-fg-muted'));
+    const tip = tipIn(el);
+    cu.forEach((r) => {
+      let up = 0, dn = 0;
+      parts.forEach(([k, col, lab]) => {
+        const v = +r[k]; if (!v) return;
+        const a = v >= 0 ? up : dn; const b = a + v; if (v >= 0) up = b; else dn = b;
+        svg.append('rect').attr('x', x(Math.min(a, b))).attr('width', Math.abs(x(b) - x(a))).attr('y', y(r.asset_class)).attr('height', y.bandwidth())
+          .attr('fill', col === 'hatch' ? 'url(#rr-hatch-ev)' : col).attr('stroke', col === 'hatch' ? css('--color-fg-muted') : 'none').attr('stroke-width', 0.75)
+          .on('pointermove', (e) => showTip(el, tip, e, (t) => {
+            tipLine(t, r.asset_class, 'rr-tip-h');
+            tipRow(t, null, 'Reported change ', minus(fmtS(+r.total_change_pp) + ' pp'));
+            parts.forEach(([k2, c2, l2]) => tipRow(t, c2 === 'hatch' ? css('--color-fg-muted') : c2, l2 + ' ', minus(fmtS(+r[k2]) + ' pp')));
+          }))
+          .on('pointerleave', () => { tip.hidden = true; });
+      });
+      const tx = x(+r.total_change_pp);
+      svg.append('line').attr('x1', tx).attr('x2', tx).attr('y1', y(r.asset_class) - 3).attr('y2', y(r.asset_class) + y.bandwidth() + 3).attr('stroke', css('--color-fg')).attr('stroke-width', 2).attr('stroke-dasharray', '3 2');
+      const lx = Math.max(x(up), tx) + 4;
+      svg.append('text').attr('x', lx).attr('y', y(r.asset_class) + y.bandwidth() / 2).attr('dy', '0.32em').attr('class', 'rr-mt').text(minus(fmtS(+r.total_change_pp)));
+    });
+  });
+
+  // ---------- by asset class ----------
+  dash.draw('class-lines', (el) => {
+    if (failed(el, 'mix')) return;
+    const cls = state().cls;
+    const mix = rows('mix').filter((r) => r.asset_class === cls);
+    const names = coName();
+    const by = d3.groups(mix, (r) => r.company_id).map(([id, rs]) => ({ id, name: names.get(id) || rs[0].company, freq: rs[0].frequency, pts: rs.map((r) => ({ p: r.period, v: +r.share_pct })).sort((a, b) => d3.ascending(a.p, b.p)) }));
+    const H = 380; const { svg, w } = svgIn(el, H);
+    const m = { l: 40, r: 120, t: 10, b: 24 };
+    const x = d3.scalePoint(QUARTERS, [m.l, w - m.r]);
+    const ymax = d3.max(mix, (r) => +r.share_pct) || 1;
+    const y = d3.scaleLinear([0, ymax * 1.05], [H - m.b, m.t]).nice();
+    grid(svg, y, m.l, w - m.r, y.ticks(5));
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(5).tickSize(0).tickFormat((v) => v + '%')).call(axisStyle).call((g) => g.select('.domain').remove());
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues(yearTicks).tickFormat((q) => q.slice(0, 4)).tickSize(3)).call(axisStyle);
+    const line = d3.line().x((d) => x(d.p)).y((d) => y(d.v));
+    const tip = tipIn(el);
+    const order = by.sort((a, b) => (a.id === FOCUS) - (b.id === FOCUS) || (a.id === 'peer_median') - (b.id === 'peer_median'));
+    const labels = [];
+    order.forEach((s) => {
+      const isF = s.id === FOCUS, isM = s.id === 'peer_median';
+      const color = isF ? focusColor() : isM ? css('--color-fg-muted') : css('--cds-chart-muted');
+      const g = svg.append('g');
+      if (s.freq === 'Annual') {
+        g.selectAll('circle').data(s.pts).join('circle').attr('cx', (d) => x(d.p)).attr('cy', (d) => y(d.v)).attr('r', 3).attr('fill', color);
+        g.append('path').datum(s.pts).attr('fill', 'none').attr('stroke', color).attr('stroke-width', 1).attr('stroke-dasharray', '1 3').attr('d', line);
+      } else {
+        g.append('path').datum(s.pts).attr('fill', 'none').attr('stroke', color).attr('stroke-width', isF ? 2.5 : isM ? 2 : 1.25).attr('stroke-dasharray', isM ? '5 3' : null).attr('stroke-linejoin', 'round').attr('d', line);
+      }
+      g.append('path').datum(s.pts).attr('fill', 'none').attr('stroke', 'transparent').attr('stroke-width', 10).attr('d', line)
+        .on('pointermove', (e) => {
+          const px = d3.pointer(e, svg.node())[0];
+          const d = s.pts.reduce((a, b) => (Math.abs(x(b.p) - px) < Math.abs(x(a.p) - px) ? b : a), s.pts[0]);
+          g.selectAll('path').attr('stroke-width', function () { return this.getAttribute('stroke') === 'transparent' ? 10 : 3; });
+          showTip(el, tip, e, (t) => { tipLine(t, `${qLab(d.p)} · ${cls}`, 'rr-tip-h'); tipRow(t, color, s.name + ' ', fmt1(d.v) + '%'); });
+        })
+        .on('pointerleave', () => { tip.hidden = true; dash.draw('class-lines'); });
+      const last = s.pts[s.pts.length - 1];
+      if (isF || isM) labels.push({ y: y(last.v), x: x(last.p), t: `${isF ? 'RBC Life' : 'Peer median'} ${fmt1(last.v)}%`, color, isF });
+    });
+    labels.sort((a, b) => a.y - b.y); if (labels.length === 2 && labels[1].y - labels[0].y < 13) labels[1].y = labels[0].y + 13;
+    labels.forEach((l) => svg.append('text').attr('x', w - m.r + 6).attr('y', l.y).attr('dy', '0.32em').attr('class', l.isF ? 'rr-ft' : 'rr-mt').text(l.t));
+  });
+
+  dash.draw('class-dumbbell', (el) => {
+    if (failed(el, 'cumulative')) return;
+    const cls = state().cls;
+    const cu = rows('cumulative').filter((r) => r.asset_class === cls).sort((a, b) => +b.reallocation_pp - +a.reallocation_pp);
+    const H = Math.max(300, cu.length * 20 + 40); const { svg, w } = svgIn(el, H);
+    el.style.minHeight = H + 'px';
+    const m = { l: 170, r: 10, t: 18, b: 22 };
+    const gap = Math.max(150, (w - m.l) * 0.36);
+    const x = d3.scaleLinear([0, d3.max(cu, (r) => Math.max(+r.start_share_pct, +r.end_share_pct)) * 1.05 || 1], [m.l, w - gap]).nice();
+    const lim = d3.max(cu, (r) => Math.abs(+r.reallocation_pp)) || 1;
+    const xb = d3.scaleLinear([-lim, lim], [w - gap + 34, w - 30]);
+    const y = d3.scaleBand(cu.map((r) => r.company_id), [m.t, H - m.b]).padding(0.35);
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(5).tickFormat((v) => v + '%')).call(axisStyle);
+    svg.append('g').selectAll('line').data(x.ticks(5)).join('line').attr('x1', (v) => x(v)).attr('x2', (v) => x(v)).attr('y1', m.t).attr('y2', H - m.b).attr('stroke', css('--cds-chart-grid'));
+    svg.append('text').attr('x', (xb.range()[0] + xb.range()[1]) / 2).attr('y', 10).attr('text-anchor', 'middle').attr('class', 'rr-mt').text('Net change, pp');
+    svg.append('line').attr('x1', xb(0)).attr('x2', xb(0)).attr('y1', m.t).attr('y2', H - m.b).attr('stroke', css('--cds-chart-reference'));
+    const tip = tipIn(el);
+    cu.forEach((r) => {
+      const isF = r.company_id === FOCUS; const col = isF ? focusColor() : css('--color-fg-muted');
+      const cy = y(r.company_id) + y.bandwidth() / 2;
+      svg.append('text').attr('x', m.l - 8).attr('y', cy).attr('dy', '0.32em').attr('text-anchor', 'end').attr('class', isF ? 'rr-ft' : null).text(r.company.replace(' (incl. Canada Protection Plan)', '') + (r.frequency === 'Annual' ? ' (yearly)' : ''));
+      svg.append('line').attr('x1', x(+r.start_share_pct)).attr('x2', x(+r.end_share_pct)).attr('y1', cy).attr('y2', cy).attr('stroke', col).attr('stroke-width', isF ? 2.5 : 1.5);
+      svg.append('circle').attr('cx', x(+r.start_share_pct)).attr('cy', cy).attr('r', 3.5).attr('fill', css('--color-panel')).attr('stroke', col).attr('stroke-width', 1.5);
+      svg.append('circle').attr('cx', x(+r.end_share_pct)).attr('cy', cy).attr('r', 3.5).attr('fill', col);
+      const v = +r.reallocation_pp;
+      svg.append('rect').attr('x', Math.min(xb(0), xb(v))).attr('width', Math.abs(xb(v) - xb(0))).attr('y', y(r.company_id)).attr('height', y.bandwidth()).attr('rx', 2).attr('fill', isF ? focusColor() : css('--cds-chart-muted'));
+      svg.append('text').attr('x', v >= 0 ? xb(v) + 3 : xb(v) - 3).attr('y', cy).attr('dy', '0.32em').attr('text-anchor', v >= 0 ? 'start' : 'end').attr('class', isF ? 'rr-ft' : 'rr-mt').text(Math.abs(v) < 0.05 ? '0.0' : minus(fmtS(v)));
+      svg.append('rect').attr('x', 0).attr('width', w).attr('y', y(r.company_id) - 2).attr('height', y.bandwidth() + 4).attr('fill', 'transparent')
+        .on('pointermove', (e) => showTip(el, tip, e, (t) => { tipLine(t, `${r.company} · ${cls}`, 'rr-tip-h'); tipRow(t, null, qLab(r.start_period) + ' ', fmt1(+r.start_share_pct) + '%'); tipRow(t, null, qLab(r.end_period) + ' ', fmt1(+r.end_share_pct) + '%'); tipRow(t, null, 'Net of breaks ', minus(fmtS(v) + ' pp')); tipRow(t, null, 'C$ reallocated ', minus('C$' + fmtBn(+r.reallocation_cad_mm))); }))
+        .on('pointerleave', () => { tip.hidden = true; });
+    });
+  });
+
+  // ---------- IFRS 17 detail ----------
+  const L3 = ['Government Bonds', 'Corporate Bonds', 'Illiquid Term Loans', 'Commercial Mortgages', 'Private Liquid Loans', 'Policy & Other Loans', 'Common Shares', 'Preferred Shares', 'Cash', 'Real Estate Equity', 'Other Private Equity', 'Other / Unclassified'];
+  const heatGrid = (el, cols, rowsDef, cell, colW) => {
+    el.replaceChildren();
+    const g = document.createElement('div'); g.className = 'rr-hgrid';
+    g.style.gridTemplateColumns = `minmax(10rem, 15rem) repeat(${cols.length}, minmax(${colW || '3rem'}, 1fr))`;
+    g.style.minWidth = (10 + cols.length * 3.2) + 'rem';
+    const d0 = document.createElement('div'); g.append(d0);
+    cols.forEach((c) => { const d = document.createElement('div'); d.className = 'rr-hcol'; d.textContent = c.label; g.append(d); });
+    const tip = tipIn(el);
+    rowsDef.forEach((r) => {
+      const l = document.createElement('div'); l.className = 'rr-hrow' + (r.focus ? ' is-focus' : ''); l.textContent = r.label; l.title = r.label; g.append(l);
+      cols.forEach((c) => {
+        const info = cell(r, c);
+        const d = document.createElement('div'); d.className = 'rr-hcell' + (r.focus ? ' is-focus' : '');
+        if (info == null) { const e = document.createElement('div'); e.className = 'rr-hempty'; d.append(e); }
+        else {
+          const f = document.createElement('div'); f.className = 'rr-hfill'; f.style.background = info.fill; d.append(f);
+          const v = document.createElement('span'); v.className = 'rr-hval'; v.textContent = info.text; d.append(v);
+          d.addEventListener('pointermove', (e) => showTip(el, tip, e, (t) => info.tip(t)));
+          d.addEventListener('pointerleave', () => { tip.hidden = true; });
+        }
+        g.append(d);
+      });
+    });
+    el.append(g, tip);
+  };
+  dash.draw('detail-heat', (el) => {
+    if (failed(el, 'detail')) return;
+    const co = state().co;
+    const det = rows('detail').filter((r) => r.company_id === co);
+    if (!det.length) return empty(el, 'No IFRS 17 sub-class detail for this insurer: annual filers publish summary statements only.');
+    const periods = [...new Set(det.map((r) => r.period))].sort();
+    const cols = periods.map((p) => ({ key: p, label: p.slice(2, 4) + ' ' + p.slice(4) })).concat([{ key: 'chg', label: 'Change' }]);
+    const v = (l3, p) => { const r = det.find((x) => x.level3 === l3 && x.period === p); return r ? +r.share_pct : null; };
+    const max = d3.max(det, (r) => +r.share_pct) || 1;
+    const seq = d3.interpolateRgb(css('--color-panel'), resolve(dash.colors[0]));
+    const pos = d3.interpolateRgb(css('--color-panel'), resolve(dash.colors[0])), neg = d3.interpolateRgb(css('--color-panel'), resolve(dash.colors[1]));
+    const present = L3.filter((l) => det.some((r) => r.level3 === l && +r.amount_cad_mm !== 0));
+    const lv = new Map(det.map((r) => [r.level3, r.level1 + ' / ' + r.level2]));
+    heatGrid(el, cols, present.map((l) => ({ key: l, label: l })), (r, c) => {
+      if (c.key === 'chg') {
+        const a = v(r.key, periods[0]), b = v(r.key, periods[periods.length - 1]); if (a == null || b == null) return null;
+        const d = b - a;
+        return { fill: (d >= 0 ? pos : neg)(Math.min(Math.abs(d) / 5, 1) * 0.85), text: Math.abs(d) < 0.05 ? '0.0' : minus(fmtS(d)), tip: (t) => { tipLine(t, r.key + ' · ' + lv.get(r.key), 'rr-tip-h'); tipRow(t, null, `${qLab(periods[0])} → ${qLab(periods[periods.length - 1])} `, minus(fmtS(d) + ' pp')); } };
+      }
+      const x = v(r.key, c.key); if (x == null) return null;
+      const amt = det.find((z) => z.level3 === r.key && z.period === c.key);
+      return { fill: seq(Math.sqrt(x / max) * 0.8), text: fmt1(x), tip: (t) => { tipLine(t, `${qLab(c.key)} · ${r.key}`, 'rr-tip-h'); tipLine(t, lv.get(r.key)); tipRow(t, null, 'Share ', fmt1(x) + '%'); tipRow(t, null, 'Amount ', 'C$' + fmtBn(+amt.amount_cad_mm)); } };
+    }, '2.6rem');
+  });
+
+  dash.draw('detail-peers', (el) => {
+    if (failed(el, 'detail')) return;
+    const det = rows('detail');
+    const names = coName();
+    const cos = [...new Set(det.map((r) => r.company_id))];
+    const chg = new Map();
+    cos.forEach((id) => {
+      const d = det.filter((r) => r.company_id === id); const ps = [...new Set(d.map((r) => r.period))].sort();
+      L3.forEach((l) => { const a = d.find((r) => r.level3 === l && r.period === ps[0]); const b = d.find((r) => r.level3 === l && r.period === ps[ps.length - 1]); if (a && b) chg.set(id + '|' + l, { d: +b.share_pct - +a.share_pct, a: +a.share_pct, b: +b.share_pct, p0: ps[0], p1: ps[ps.length - 1] }); });
+    });
+    const present = L3.filter((l) => cos.some((id) => chg.has(id + '|' + l) && (chg.get(id + '|' + l).a || chg.get(id + '|' + l).b)));
+    const pos = d3.interpolateRgb(css('--color-panel'), resolve(dash.colors[0])), neg = d3.interpolateRgb(css('--color-panel'), resolve(dash.colors[1]));
+    heatGrid(el, present.map((l) => ({ key: l, label: l })), cos.map((id) => ({ key: id, label: names.get(id) || id, focus: id === FOCUS })), (r, c) => {
+      const x = chg.get(r.key + '|' + c.key); if (!x || (!x.a && !x.b)) return null;
+      return { fill: (x.d >= 0 ? pos : neg)(Math.min(Math.abs(x.d) / 6, 1) * 0.85), text: Math.abs(x.d) < 0.05 ? '0.0' : minus(fmtS(x.d)),
+        tip: (t) => { tipLine(t, `${r.label} · ${c.key}`, 'rr-tip-h'); tipRow(t, null, qLab(x.p0) + ' ', fmt1(x.a) + '%'); tipRow(t, null, qLab(x.p1) + ' ', fmt1(x.b) + '%'); tipRow(t, null, 'Change ', minus(fmtS(x.d) + ' pp')); } };
+    }, '4.2rem');
+  });
+
+  dash.draw('big-lines', (el) => {
+    if (failed(el, 'quality')) return;
+    const q = rows('quality'); const sel = state().co;
+    const by = d3.groups(q, (r) => r.company_id).map(([id, rs]) => ({ id, name: rs[0].company, pts: rs.map((r) => ({ p: r.period, v: +r.below_ig_share_of_bonds_pct })).sort((a, b) => d3.ascending(a.p, b.p)) }));
+    const H = 300; const { svg, w } = svgIn(el, H);
+    const m = { l: 40, r: 120, t: 10, b: 24 };
+    const qs = QUARTERS.filter((p) => p >= '2023Q1');
+    const x = d3.scalePoint(qs, [m.l, w - m.r]);
+    const y = d3.scaleLinear([0, (d3.max(q, (r) => +r.below_ig_share_of_bonds_pct) || 1) * 1.1], [H - m.b, m.t]).nice();
+    grid(svg, y, m.l, w - m.r, y.ticks(4));
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickSize(0).tickFormat((v) => v + '%')).call(axisStyle).call((g) => g.select('.domain').remove());
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues(qs.filter((p) => p.endsWith('Q1'))).tickFormat((p) => p.slice(0, 4)).tickSize(3)).call(axisStyle);
+    const line = d3.line().x((d) => x(d.p)).y((d) => y(d.v)).defined((d) => x(d.p) !== undefined);
+    const tip = tipIn(el); const labels = [];
+    by.sort((a, b) => (a.id === FOCUS || a.id === sel) - (b.id === FOCUS || b.id === sel)).forEach((s) => {
+      const isF = s.id === FOCUS, isS = s.id === sel && !isF;
+      const color = isF ? focusColor() : isS ? dash.colors[1] : css('--cds-chart-muted');
+      svg.append('path').datum(s.pts).attr('fill', 'none').attr('stroke', color).attr('stroke-width', isF || isS ? 2.5 : 1.25).attr('d', line);
+      svg.append('path').datum(s.pts).attr('fill', 'none').attr('stroke', 'transparent').attr('stroke-width', 10).attr('d', line)
+        .on('pointermove', (e) => { const px = d3.pointer(e, svg.node())[0]; const d = s.pts.reduce((a, b) => (Math.abs(x(b.p) - px) < Math.abs(x(a.p) - px) ? b : a), s.pts[0]); showTip(el, tip, e, (t) => { tipLine(t, qLab(d.p), 'rr-tip-h'); tipRow(t, color, s.name + ' ', fmt1(d.v) + '%'); }); })
+        .on('pointerleave', () => { tip.hidden = true; });
+      const last = s.pts[s.pts.length - 1];
+      if ((isF || isS) && last) labels.push({ y: y(last.v), t: `${s.name} ${fmt1(last.v)}%`, isF });
+    });
+    labels.sort((a, b) => a.y - b.y); if (labels.length === 2 && labels[1].y - labels[0].y < 13) labels[1].y = labels[0].y + 13;
+    labels.forEach((l) => svg.append('text').attr('x', w - m.r + 6).attr('y', l.y).attr('dy', '0.32em').attr('class', l.isF ? 'rr-ft' : null).text(l.t));
+  });
+
+  // ---------- breaks ----------
+  dash.draw('bridge-bars', (el) => {
+    if (failed(el, 'bridge')) return;
+    const b = rows('bridge').slice().sort((a, z) => +a.restatement_pct - +z.restatement_pct);
+    const H = b.length * 20 + 46; el.style.minHeight = H + 'px';
+    const { svg, w } = svgIn(el, H);
+    const m = { l: 160, r: 150, t: 8, b: 24 };
+    const lim = d3.max(b, (r) => Math.abs(+r.restatement_pct)) || 1;
+    const x = d3.scaleLinear([-lim * 1.1, lim * 1.1], [m.l, w - m.r]).nice();
+    const y = d3.scaleBand(b.map((r) => r.company_id), [m.t, H - m.b]).padding(0.3);
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(5).tickFormat((v) => minus(d3.format('+.0f')(v)) + '%')).call(axisStyle);
+    svg.append('g').selectAll('line').data(x.ticks(5)).join('line').attr('x1', (v) => x(v)).attr('x2', (v) => x(v)).attr('y1', m.t).attr('y2', H - m.b).attr('stroke', css('--cds-chart-grid'));
+    [-1, 1].forEach((v) => svg.append('line').attr('x1', x(v)).attr('x2', x(v)).attr('y1', m.t).attr('y2', H - m.b).attr('stroke', css('--cds-chart-axis')).attr('stroke-dasharray', '2 3'));
+    svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', m.t).attr('y2', H - m.b).attr('stroke', css('--cds-chart-reference'));
+    const tip = tipIn(el);
+    b.forEach((r) => {
+      const isF = r.company_id === FOCUS; const cy = y(r.company_id) + y.bandwidth() / 2; const v = +r.restatement_pct;
+      svg.append('text').attr('x', m.l - 8).attr('y', cy).attr('dy', '0.32em').attr('text-anchor', 'end').attr('class', isF ? 'rr-ft' : null).text(r.company.replace(' (incl. Canada Protection Plan)', ''));
+      svg.append('rect').attr('x', Math.min(x(0), x(v))).attr('width', Math.max(1.5, Math.abs(x(v) - x(0)))).attr('y', y(r.company_id)).attr('height', y.bandwidth()).attr('rx', 2).attr('fill', isF ? focusColor() : css('--cds-chart-muted'))
+        .on('pointermove', (e) => showTip(el, tip, e, (t) => { tipLine(t, `${r.company} · ${r.date}`, 'rr-tip-h'); tipRow(t, null, 'IFRS 4 ', 'C$' + fmtBn(+r.ifrs4_cad_mm)); tipRow(t, null, 'IFRS 17 restated ', 'C$' + fmtBn(+r.ifrs17_restated_cad_mm)); tipRow(t, null, 'Restatement ', minus(d3.format('+.2f')(v)) + '%'); if (r.policy_loans_removed_cad_mm) tipRow(t, null, 'Policy loans moved off ', 'C$' + fmtBn(+r.policy_loans_removed_cad_mm)); tipLine(t, r.source); }))
+        .on('pointerleave', () => { tip.hidden = true; });
+      svg.append('text').attr('x', w - m.r + 8).attr('y', cy).attr('dy', '0.32em').attr('class', 'rr-mt').text(minus(d3.format('+.1f')(v)) + '% · ' + r.treatment.replace('restatement under 1%: switch quarter counted', 'quarter counted').replace('switch quarter excluded', 'quarter excluded'));
+    });
+  });
+
+  dash.draw('bridge-class', (el) => {
+    if (failed(el, 'bridge_class')) return;
+    const b = rows('bridge_class');
+    const cos = [...new Set(b.map((r) => r.company))];
+    const H = cos.length * (CLASSES.length * 18 + 26) + 30; el.style.minHeight = H + 'px';
+    const { svg, w } = svgIn(el, H);
+    const m = { l: 170, r: 60, t: 8, b: 24 };
+    const x = d3.scaleLinear([0, d3.max(b, (r) => Math.max(+r.ifrs4_share_pct, +r.ifrs17_restated_share_pct)) * 1.05 || 1], [m.l, w - m.r]).nice();
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(5).tickFormat((v) => v + '%')).call(axisStyle);
+    svg.append('g').selectAll('line').data(x.ticks(5)).join('line').attr('x1', (v) => x(v)).attr('x2', (v) => x(v)).attr('y1', m.t).attr('y2', H - m.b).attr('stroke', css('--cds-chart-grid'));
+    let yy = m.t + 4;
+    cos.forEach((co) => {
+      svg.append('text').attr('x', 0).attr('y', yy + 10).attr('class', 'rr-ft').text(co); yy += 22;
+      b.filter((r) => r.company === co).forEach((r) => {
+        svg.append('text').attr('x', m.l - 8).attr('y', yy).attr('dy', '0.32em').attr('text-anchor', 'end').text(r.asset_class);
+        svg.append('line').attr('x1', x(+r.ifrs4_share_pct)).attr('x2', x(+r.ifrs17_restated_share_pct)).attr('y1', yy).attr('y2', yy).attr('stroke', css('--color-fg-muted')).attr('stroke-width', 1.5);
+        svg.append('circle').attr('cx', x(+r.ifrs4_share_pct)).attr('cy', yy).attr('r', 3.5).attr('fill', css('--color-panel')).attr('stroke', css('--color-fg-muted')).attr('stroke-width', 1.5);
+        svg.append('circle').attr('cx', x(+r.ifrs17_restated_share_pct)).attr('cy', yy).attr('r', 3.5).attr('fill', classColor(r.asset_class));
+        svg.append('text').attr('x', w - m.r + 6).attr('y', yy).attr('dy', '0.32em').attr('class', 'rr-mt').text(minus(fmtS(+r.difference_pp)) + ' pp');
+        yy += 18;
+      });
+      yy += 4;
+    });
+  });
+
+  dash.draw('market', (el) => {
+    if (failed(el, 'market')) return;
+    const mk = rows('market').filter((r) => r.period >= '2020Q1').sort((a, b) => d3.ascending(a.period, b.period));
+    const base = +mk[0].tsx_close;
+    el.replaceChildren();
+    const series = [['long_canada_yield_pct', 'Long Canada yield (%)', (v) => +v, d3.format('.2f')], ['tsx_close', 'S&P/TSX composite (Q1 2020 = 100)', (v) => (100 * +v) / base, d3.format('.0f')], ['usdcad', 'USD/CAD', (v) => +v, d3.format('.3f')]];
+    const boxes = series.map(([, lab]) => {
+      const box = document.createElement('div'); const h = document.createElement('h3'); h.textContent = lab; box.append(h);
+      const ch = document.createElement('div'); ch.className = 'rr-chart rr-chart-sm'; box.append(ch); el.append(box);
+      return ch;
+    });
+    series.forEach(([k, lab, tf, f], i) => {
+      const ch = boxes[i];
+      const pts = mk.filter((r) => r[k] !== '' && r[k] != null).map((r) => ({ p: r.period, v: tf(r[k]) }));
+      const H = 170; const { svg, w } = svgIn(ch, H);
+      const m = { l: 40, r: 44, t: 8, b: 20 };
+      const x = d3.scalePoint(QUARTERS, [m.l, w - m.r]);
+      const y = d3.scaleLinear(d3.extent(pts, (d) => d.v), [H - m.b, m.t]).nice();
+      grid(svg, y, m.l, w - m.r, y.ticks(3));
+      svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(3).tickSize(0).tickFormat(f)).call(axisStyle).call((g) => g.select('.domain').remove());
+      svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues(yearTicks.filter((q, j) => j % 2 === 0)).tickFormat((q) => q.slice(0, 4)).tickSize(3)).call(axisStyle);
+      const x23 = (x('2022Q4') + x('2023Q1')) / 2;
+      svg.append('line').attr('x1', x23).attr('x2', x23).attr('y1', m.t).attr('y2', H - m.b).attr('stroke', css('--cds-chart-reference')).attr('stroke-dasharray', '2 3');
+      svg.append('path').datum(pts).attr('fill', 'none').attr('stroke', dash.colors[i === 0 ? 0 : i === 1 ? 3 : 4]).attr('stroke-width', 2).attr('d', d3.line().x((d) => x(d.p)).y((d) => y(d.v)));
+      const last = pts[pts.length - 1];
+      svg.append('text').attr('x', x(last.p) + 5).attr('y', y(last.v)).attr('dy', '0.32em').attr('class', 'rr-ft').text(f(last.v));
+      const tip = tipIn(ch);
+      svg.append('rect').attr('x', m.l).attr('y', m.t).attr('width', w - m.l - m.r).attr('height', H - m.t - m.b).attr('fill', 'transparent')
+        .on('pointermove', (e) => { const px = d3.pointer(e)[0]; const d = pts.reduce((a, b) => (Math.abs(x(b.p) - px) < Math.abs(x(a.p) - px) ? b : a), pts[0]); showTip(ch, tip, e, (t) => { tipLine(t, qLab(d.p), 'rr-tip-h'); tipRow(t, null, lab + ' ', f(d.v)); }); })
+        .on('pointerleave', () => { tip.hidden = true; });
+    });
+  });
+
+  dash.draw('flags-table', (tb) => {
+    if (!ok('flags')) { tb.replaceChildren(); return; }
+    const order = new Map(rows('coverage').map((r, i) => [r.company_id, i]));
+    const fl = rows('flags').filter((r) => r.flag !== 'Restatement by class').sort((a, b) => (order.get(a.company_id) - order.get(b.company_id)) || d3.ascending(a.period, b.period));
+    tb.replaceChildren(...fl.map((r) => {
+      const tr = document.createElement('tr'); if (r.company_id === FOCUS) tr.className = 'is-focus';
+      tr.dataset.key = [r.company_id, r.period, r.flag].map(encodeURIComponent).join(',');
+      [[r.company], [qLab(r.period)], [r.flag], [minus(d3.format('+.1f')(+r.total_change_pct)) + '%', 'rr-n'], [r.note]].forEach(([t, c]) => { const td = document.createElement('td'); if (c) td.className = c; td.textContent = t; tr.append(td); });
+      return tr;
+    }));
+  });
+  dash.draw('coverage-table', (tb) => {
+    if (!ok('coverage')) { tb.replaceChildren(); return; }
+    tb.replaceChildren(...rows('coverage').filter((r) => r.company_id !== 'peer_median').map((r) => {
+      const tr = document.createElement('tr'); if (r.company_id === FOCUS) tr.className = 'is-focus';
+      [r.company, r.frequency, r.first ? qLab(r.first) : '', r.last ? qLab(r.last) : '', r.source, r.note].forEach((t) => { const td = document.createElement('td'); td.textContent = t; tr.append(td); });
+      return tr;
+    }));
+  });
+})();
+</script>

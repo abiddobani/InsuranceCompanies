@@ -1,0 +1,21 @@
+id: ia
+name: iA Financial Group
+anchor: EVP & Chief Investment Officer, iA (also CEO & CIO, iA Global Asset Management, which runs the general fund)
+src: a | iA Executive Committee page (ia.ca) | https://ia.ca/about-us/executive-committee/ia-financial-corporation
+src: c | iA Global Asset Management team page (iagam.ca) | https://iagam.ca/team
+src: d | iA GAM bio: Jonathan Mercier, reports to the CIO | https://iagam.ca/team/jonathan-mercier
+src: li1 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/giampiero-jp-d-agnillo-cfa-233b7a30
+src: li2 | LinkedIn profile, read 2026-11-06 (search snippet only, not confirmed) | https://www.linkedin.com/in/pavel-kuperman-cfa
+L1 | Alain Bergeron | EVP & CIO, since Sep 2019 | H | a
+L2 | Tej Rai | MD, Head of General Funds & Asset Allocation, since May 2026 | H | c | ~
+L2 | Alexandre Bannon | SVP, Head of Asset Liability Management | H | c | ~
+L2 | Dominic Siciliano | SVP, Head of Fixed Income, since Oct 2021 | H | c | ~
+L2 | Stéfanie Leduc | SVP, Head of Corporate Bonds & Private Debt, since Apr 2024 | H | c | ~
+L3 | Giampiero (JP) D'Agnillo | VP, Principal PM, Corporate Credit, since Jun 2018 | L | li1 | ~
+L2 | Claude Sirois | MD, Real Assets & Private Equity | H | c | ~
+L2 | Jean-René Adam | MD, Head of Investment Funds, Public Equities | H | c | ~
+L2 | Jean-Pierre Cornillaut | MD, Chief Operating Officer, Investments | H | c | ~
+L2 | Francis Jacob-Roy | VP, Head of Investment Risk | H | c | ~
+L2 | Jonathan Mercier | SVP, Head of Strategy & Transformation | H | d
+L2 | Pavel Kuperman | VP & Head, Investment Strategy & Client Solutions | L | li2 | ~
+note: Team from the iA Global Asset Management team page; LinkedIn confirmed Rai, Siciliano and Leduc and added role start dates. Only Mercier's bio states the reporting line.

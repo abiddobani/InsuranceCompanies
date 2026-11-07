@@ -1,0 +1,11 @@
+company_id,company,is_focus,book_cad_mm,rate_shock_used,rates_cad_mm,spreads_cad_mm,equity_cad_mm,alts_cad_mm,total_cad_mm,factors_disclosed,tax_basis
+wawanesa_life,Wawanesa Life,0,25000,+50 bp,140.1,,195.9,,336.1,2,as disclosed (profit or loss)
+equitable_life,Equitable Life,0,25000,-50 bp,10.5,0.0,157.3,79.8,247.6,4,after-tax
+ia,iA Financial Group,0,25000,+50 bp,13.6,13.6,54.3,163.0,244.4,4,after-tax
+empire_life,Empire Life,0,25000,+50 bp,117.7,,40.1,,157.8,2,as disclosed (profit or loss)
+manulife,Manulife,0,25000,+50 bp,5.4,0.0,24.5,119.6,149.5,4,after-tax
+beneva,Beneva,0,25000,+50 bp,0.0,,122.5,,122.5,2,after-tax
+sun_life,Sun Life,0,25000,+50 bp,3.1,3.1,28.2,59.6,94.1,4,after-tax
+foresters_life,Foresters Life,0,25000,+50 bp,86.2,,0.0,,86.2,2,pre-tax (derived)
+canada_life,Canada Life,0,25000,-50 bp,5.0,0.0,5.0,60.0,70.0,4,after-tax
+assumption_life,Assumption Life,0,25000,-50 bp,15.6,0.0,0.0,,15.6,3,after-tax

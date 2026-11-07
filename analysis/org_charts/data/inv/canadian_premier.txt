@@ -1,0 +1,5 @@
+id: canadian_premier
+name: Canadian Premier Life (Securian Canada)
+anchor: No Canadian investment head; portfolio presumed run by the US parent's asset manager
+L1 | Not publicly named | Head of Investments (likely at Securian Financial, US) | - | 
+note: No investment team visible on Securian Canada's site or LinkedIn.
