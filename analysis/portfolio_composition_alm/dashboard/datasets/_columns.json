@@ -1,0 +1,202 @@
+{
+ "genacct_l3": [
+  [
+   "government_bonds",
+   "Government Bonds"
+  ],
+  [
+   "corporate_bonds",
+   "Corporate Bonds"
+  ],
+  [
+   "asset_backed_securities",
+   "Asset Backed Securities"
+  ],
+  [
+   "bonds_issuer_not_disclosed",
+   "Bonds (issuer not disclosed)"
+  ],
+  [
+   "commercial_mortgages",
+   "Commercial Mortgages"
+  ],
+  [
+   "illiquid_term_loan",
+   "Illiquid Term Loan"
+  ],
+  [
+   "private_liquid_loans",
+   "Private Liquid Loans"
+  ],
+  [
+   "consumer_loans",
+   "Consumer Loans"
+  ],
+  [
+   "loans_type_not_disclosed",
+   "Loans (type not disclosed)"
+  ],
+  [
+   "common_shares",
+   "Common Shares"
+  ],
+  [
+   "preferred_shares",
+   "Preferred Shares"
+  ],
+  [
+   "pooled_fund_units",
+   "Pooled Fund Units"
+  ],
+  [
+   "cash_equivalent",
+   "Cash Equivalent"
+  ],
+  [
+   "real_estate_equity",
+   "Real Estate Equity"
+  ],
+  [
+   "infrastructure_equity",
+   "Infrastructure Equity"
+  ],
+  [
+   "other_private_equity",
+   "Other Private Equity"
+  ],
+  [
+   "infrastructure_debt",
+   "Infrastructure Debt"
+  ],
+  [
+   "other_private_debt",
+   "Other Private Debt"
+  ],
+  [
+   "other_invested_unclassified",
+   "Other invested (unclassified)"
+  ]
+ ],
+ "par_l3": [
+  [
+   "government_bonds",
+   "Government Bonds"
+  ],
+  [
+   "corporate_bonds",
+   "Corporate Bonds"
+  ],
+  [
+   "commercial_mortgages",
+   "Commercial Mortgages"
+  ],
+  [
+   "illiquid_term_loan",
+   "Illiquid Term Loan"
+  ],
+  [
+   "common_shares",
+   "Common Shares"
+  ],
+  [
+   "preferred_shares",
+   "Preferred Shares"
+  ],
+  [
+   "cash_equivalent",
+   "Cash Equivalent"
+  ],
+  [
+   "real_estate_equity",
+   "Real Estate Equity"
+  ],
+  [
+   "other_invested_unclassified",
+   "Other invested (unclassified)"
+  ]
+ ],
+ "lookthrough": [
+  [
+   "asset_backed_securities",
+   "Asset Backed Securities"
+  ],
+  [
+   "commercial_mortgages",
+   "Commercial Mortgages"
+  ],
+  [
+   "illiquid_term_loan",
+   "Illiquid Term Loan"
+  ],
+  [
+   "private_liquid_loans",
+   "Private Liquid Loans"
+  ],
+  [
+   "consumer_loans",
+   "Consumer Loans"
+  ],
+  [
+   "reverse_mortgages",
+   "Reverse Mortgages"
+  ],
+  [
+   "pooled_fund_units",
+   "Pooled Fund Units"
+  ],
+  [
+   "real_estate_equity",
+   "Real Estate Equity"
+  ],
+  [
+   "infrastructure_equity",
+   "Infrastructure Equity"
+  ],
+  [
+   "other_private_equity",
+   "Other Private Equity"
+  ],
+  [
+   "infrastructure_debt",
+   "Infrastructure Debt"
+  ],
+  [
+   "structured_products",
+   "Structured Products"
+  ],
+  [
+   "other_invested_unclassified",
+   "Other invested (unclassified)"
+  ]
+ ],
+ "classes": [
+  [
+   "public_fixed_income",
+   "Public fixed income"
+  ],
+  [
+   "private_fixed_income",
+   "Private fixed income"
+  ],
+  [
+   "public_equity",
+   "Public equity"
+  ],
+  [
+   "cash",
+   "Cash"
+  ],
+  [
+   "external_equity",
+   "External equity"
+  ],
+  [
+   "external_debt",
+   "External debt"
+  ],
+  [
+   "other_unclassified",
+   "Other / unclassified"
+  ]
+ ]
+}

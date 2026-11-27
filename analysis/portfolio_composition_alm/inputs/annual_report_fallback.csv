@@ -1,0 +1,25 @@
+company_id,as_of,source,level3,amount_cad_mm,note
+assumption_life,2025-12-31,Assumption Life 2025 annual report note 4,Cash,50.040,
+assumption_life,2025-12-31,Assumption Life 2025 annual report note 4,Government Bonds,400.728,"444,979 less 44,251 matched to participating contracts"
+assumption_life,2025-12-31,Assumption Life 2025 annual report note 4,Corporate Bonds,107.668,"111,056 less 3,388 participating"
+assumption_life,2025-12-31,Assumption Life 2025 annual report note 4,Common Shares,0.488,
+assumption_life,2025-12-31,Assumption Life 2025 annual report note 4,Preferred Shares,64.576,"79,745 less 15,169 participating"
+assumption_life,2025-12-31,Assumption Life 2025 annual report note 4,Commercial Mortgages,177.161,"Commercial 104,953 (ex 4,513 participating) + insured residential 28,767 + other residential 43,442"
+assumption_life,2025-12-31,Assumption Life 2025 annual report note 4,Policy & Other Loans,2.786,Other invested assets
+assumption_life,2025-12-31,excluded,EXCLUDED: Participating account,67.321,Fair value of assets matched to participating contracts
+assumption_life,2025-12-31,excluded,EXCLUDED: Pass-through fund units,379.644,Investment fund units whose return is passed to policyholders (UL)
+humania,2025-12-31,Humania 2025 annual report summary statement of financial position,Cash,24.494,"Cash 22,959 + money market 1,535"
+humania,2025-12-31,Humania 2025 annual report summary statement of financial position,Bonds (issuer n/d),316.738,Government/corporate split not published
+humania,2025-12-31,Humania 2025 annual report summary statement of financial position,Common Shares,0.500,
+humania,2025-12-31,Humania 2025 annual report summary statement of financial position,Infrastructure Equity,14.262,Infrastructure funds
+humania,2025-12-31,Humania 2025 annual report summary statement of financial position,Real Estate Equity,19.647,Real estate funds
+humania,2025-12-31,Humania 2025 annual report summary statement of financial position,Other Private Debt,3.200,Private debt funds
+humania,2025-12-31,Humania 2025 annual report summary statement of financial position,Policy & Other Loans,27.223,Loans (type not published)
+humania,2025-12-31,excluded,EXCLUDED: Derivative assets,0.149,
+uv_insurance,2025-12-31,UV Insurance 2025 annual report summary statement of financial position,Cash,83.205,"Cash 25,751 + money market 57,454"
+uv_insurance,2025-12-31,UV Insurance 2025 annual report summary statement of financial position,Bonds (issuer n/d),1925.983,Government/corporate split not published
+uv_insurance,2025-12-31,UV Insurance 2025 annual report summary statement of financial position,Preferred Shares,103.347,
+uv_insurance,2025-12-31,UV Insurance 2025 annual report summary statement of financial position,Common Shares,121.317,
+uv_insurance,2025-12-31,UV Insurance 2025 annual report summary statement of financial position,Other Private Equity,102.449,Private investments (type not published)
+uv_insurance,2025-12-31,UV Insurance 2025 annual report summary statement of financial position,Policy & Other Loans,52.635,Loans (type not published)
+uv_insurance,2025-12-31,excluded,EXCLUDED: Derivative assets,4.968,

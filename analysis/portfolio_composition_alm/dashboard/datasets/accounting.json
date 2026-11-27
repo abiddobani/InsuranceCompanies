@@ -1,0 +1,86 @@
+[
+ {
+  "insurer": "RBC",
+  "insurer_name": "RBC Life",
+  "fvtpl_pct": 81.6,
+  "fvoci_pct": 16.1,
+  "amortized_cost_pct": 2.2
+ },
+ {
+  "insurer": "BMO",
+  "insurer_name": "BMO Life",
+  "fvtpl_pct": 92.5,
+  "fvoci_pct": 3.6,
+  "amortized_cost_pct": 3.9
+ },
+ {
+  "insurer": "SLF",
+  "insurer_name": "Sun Life",
+  "fvtpl_pct": 91.0,
+  "fvoci_pct": 8.1,
+  "amortized_cost_pct": 0.9
+ },
+ {
+  "insurer": "MFC",
+  "insurer_name": "Manulife",
+  "fvtpl_pct": 25.8,
+  "fvoci_pct": 62.9,
+  "amortized_cost_pct": 11.3
+ },
+ {
+  "insurer": "CLF",
+  "insurer_name": "Canada Life",
+  "fvtpl_pct": 88.8,
+  "fvoci_pct": 7.2,
+  "amortized_cost_pct": 4.0
+ },
+ {
+  "insurer": "EMP",
+  "insurer_name": "Empire Life",
+  "fvtpl_pct": 100.0,
+  "fvoci_pct": 0.0,
+  "amortized_cost_pct": 0.0
+ },
+ {
+  "insurer": "IVA",
+  "insurer_name": "ivari",
+  "fvtpl_pct": 100.0,
+  "fvoci_pct": 0.0,
+  "amortized_cost_pct": 0.0
+ },
+ {
+  "insurer": "BLU",
+  "insurer_name": "Blumont Annuity",
+  "fvtpl_pct": 89.3,
+  "fvoci_pct": 1.3,
+  "amortized_cost_pct": 9.4
+ },
+ {
+  "insurer": "COP",
+  "insurer_name": "Co-operators Life",
+  "fvtpl_pct": 75.2,
+  "fvoci_pct": 16.9,
+  "amortized_cost_pct": 7.9
+ },
+ {
+  "insurer": "EQL",
+  "insurer_name": "Equitable Life",
+  "fvtpl_pct": 100.0,
+  "fvoci_pct": 0.0,
+  "amortized_cost_pct": 0.0
+ },
+ {
+  "insurer": "IOF",
+  "insurer_name": "Foresters Life",
+  "fvtpl_pct": 100.0,
+  "fvoci_pct": 0.0,
+  "amortized_cost_pct": 0.0
+ },
+ {
+  "insurer": "WAW",
+  "insurer_name": "Wawanesa Life",
+  "fvtpl_pct": 100.0,
+  "fvoci_pct": 0.0,
+  "amortized_cost_pct": 0.0
+ }
+]

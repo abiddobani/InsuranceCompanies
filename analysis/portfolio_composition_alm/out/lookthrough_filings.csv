@@ -1,0 +1,41 @@
+insurer,insurer_name,scope,reported_invested_mm,l3,amount_mm,pct_of_reported,source_item
+MFC,Manulife,MFC consolidated (global; incl. par and Manulife Bank),459928.0000,Asset Backed Securities,2262.0000,0.4918,MBS / ABS
+MFC,Manulife,MFC consolidated (global; incl. par and Manulife Bank),459928.0000,Illiquid Term Loan,56048.0000,12.1863,"private placements, leveraged leases"
+MFC,Manulife,MFC consolidated (global; incl. par and Manulife Bank),459928.0000,Commercial Mortgages,30300.0000,6.5880,commercial and agricultural mortgages
+MFC,Manulife,MFC consolidated (global; incl. par and Manulife Bank),459928.0000,Real Estate Equity,12682.0000,2.7574,"real estate (incl. own use 2,631)"
+MFC,Manulife,MFC consolidated (global; incl. par and Manulife Bank),459928.0000,Infrastructure Equity,18629.0000,4.0504,ALDA infrastructure
+MFC,Manulife,MFC consolidated (global; incl. par and Manulife Bank),459928.0000,Other Private Equity,30400.0000,6.6097,"ALDA private equity, timber and agriculture, energy, other"
+SLF,Sun Life,SLF consolidated (global; incl. par),199175.0000,Asset Backed Securities,17558.0000,8.8154,ABS; insured mortgages
+SLF,Sun Life,SLF consolidated (global; incl. par),199175.0000,Illiquid Term Loan,45828.0000,23.0089,private placement loans
+SLF,Sun Life,SLF consolidated (global; incl. par),199175.0000,Commercial Mortgages,10244.0000,5.1432,non-insured mortgages
+SLF,Sun Life,SLF consolidated (global; incl. par),199175.0000,Real Estate Equity,9432.0000,4.7355,investment properties
+SLF,Sun Life,SLF consolidated (global; incl. par),199175.0000,Other Private Equity,8161.0000,4.0974,limited partnerships and funds (not split by type)
+SLF,Sun Life,SLF consolidated (global; incl. par),199175.0000,Structured Products,6213.0000,3.1194,CLO assets
+CLF,Canada Life,Lifeco Canada segment (incl. par),102100.0000,Asset Backed Securities,765.0000,0.7493,single-family residential mortgages
+CLF,Canada Life,Lifeco Canada segment (incl. par),102100.0000,Commercial Mortgages,14069.0000,13.7796,commercial and multi-family mortgages (insured share not split)
+CLF,Canada Life,Lifeco Canada segment (incl. par),102100.0000,Reverse Mortgages,2058.0000,2.0157,equity release mortgages
+CLF,Canada Life,Lifeco Canada segment (incl. par),102100.0000,Real Estate Equity,6478.0000,6.3448,investment properties
+IAG,iA Financial Group,"iA consolidated (incl. US, par and UL backing)",44979.0000,Asset Backed Securities,695.0000,1.5452,securitized and insured mortgages
+IAG,iA Financial Group,"iA consolidated (incl. US, par and UL backing)",44979.0000,Illiquid Term Loan,5072.0000,11.2764,private bond issues
+IAG,iA Financial Group,"iA consolidated (incl. US, par and UL backing)",44979.0000,Commercial Mortgages,462.0000,1.0271,uninsured mortgages
+IAG,iA Financial Group,"iA consolidated (incl. US, par and UL backing)",44979.0000,Private Liquid Loans,250.0000,0.5558,corporate loans
+IAG,iA Financial Group,"iA consolidated (incl. US, par and UL backing)",44979.0000,Consumer Loans,2280.0000,5.0690,car loans and other loans
+IAG,iA Financial Group,"iA consolidated (incl. US, par and UL backing)",44979.0000,Real Estate Equity,1446.0000,3.2148,investment properties
+BEN,Beneva,Beneva consolidated ex policyholder-linked funds (incl. P&C),12145.4000,Asset Backed Securities,590.4000,4.8611,residential mortgages
+BEN,Beneva,Beneva consolidated ex policyholder-linked funds (incl. P&C),12145.4000,Illiquid Term Loan,345.5000,2.8447,other loans
+BEN,Beneva,Beneva consolidated ex policyholder-linked funds (incl. P&C),12145.4000,Commercial Mortgages,44.1000,0.3631,non-residential mortgages
+BEN,Beneva,Beneva consolidated ex policyholder-linked funds (incl. P&C),12145.4000,Real Estate Equity,404.7000,3.3321,real estate in private companies; investment properties
+BEN,Beneva,Beneva consolidated ex policyholder-linked funds (incl. P&C),12145.4000,Infrastructure Equity,458.6000,3.7759,infrastructure equity in private companies
+BEN,Beneva,Beneva consolidated ex policyholder-linked funds (incl. P&C),12145.4000,Other Private Equity,325.1000,2.6767,other private companies; joint venture and associates
+BEN,Beneva,Beneva consolidated ex policyholder-linked funds (incl. P&C),12145.4000,Infrastructure Debt,860.9000,7.0883,private debt (ALM repo maps it to infrastructure debt)
+RBC,RBC Life,"RBC Life entity, ex UL policyholder funds (incl. par, about 1%); OSFI returns only",22632.8190,Illiquid Term Loan,2538.8080,11.2174,private corporate bonds (OSFI LF2)
+RBC,RBC Life,"RBC Life entity, ex UL policyholder funds (incl. par, about 1%); OSFI returns only",22632.8190,Commercial Mortgages,1832.0250,8.0946,mortgage loans (OSFI LF2)
+RBC,RBC Life,"RBC Life entity, ex UL policyholder funds (incl. par, about 1%); OSFI returns only",22632.8190,Other invested (unclassified),550.7320,2.4333,OSFI other invested assets (amortized cost; type not public)
+EQL,Equitable Life,Equitable entity (incl. par and Participating UL),7264.0950,Illiquid Term Loan,853.2480,11.7461,private placements
+EQL,Equitable Life,Equitable entity (incl. par and Participating UL),7264.0950,Commercial Mortgages,517.5380,7.1246,mortgages
+EQL,Equitable Life,Equitable entity (incl. par and Participating UL),7264.0950,Real Estate Equity,545.4820,7.5093,investment property
+EQL,Equitable Life,Equitable entity (incl. par and Participating UL),7264.0950,Other Private Equity,279.9560,3.8540,limited-partnership units: private equity and infrastructure (not split)
+EMP,Empire Life,Empire entity (incl. par),9598.7640,Commercial Mortgages,66.3990,0.6917,mortgages
+EMP,Empire Life,Empire entity (incl. par),9598.7640,Private Liquid Loans,87.6580,0.9132,loans
+EMP,Empire Life,Empire entity (incl. par),9598.7640,Other Private Equity,113.0230,1.1775,associates and joint venture
+WAW,Wawanesa Life,Wawanesa entity (incl. par),1257.6160,Pooled Fund Units,232.2460,18.4672,common stocks incl. units in equity pooled funds (OSFI files them as other invested assets)

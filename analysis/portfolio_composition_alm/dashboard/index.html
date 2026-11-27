@@ -1,0 +1,354 @@
+<meta name="dash-one-writer">
+<meta name="dash-form" content="freeform">
+<style>
+  .pc { display: flex; flex-direction: column; gap: var(--cds-gap-xl); color: var(--color-fg); font-family: var(--font-anthropic-sans); font-size: var(--cds-font-size-body); line-height: 1.45; }
+  .pc-head { display: flex; flex-direction: column; gap: var(--cds-gap-md); }
+  .pc-kicker { margin: 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); letter-spacing: 0.04em; text-transform: uppercase; }
+  .pc-title { margin: 0; font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); line-height: 1.15; }
+  .pc-lede { margin: 0; max-width: 78ch; font-size: var(--cds-font-size-heading); line-height: 1.4; }
+  .pc-p { margin: 0; max-width: 92ch; }
+  .pc-note { margin: 0; max-width: 100ch; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .pc-list { margin: 0; padding-left: 1.2em; max-width: 100ch; display: flex; flex-direction: column; gap: 4px; }
+  .pc-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(165px, 1fr)); gap: var(--cds-gap-md); }
+  .pc-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; }
+  .pc-tile { display: flex; flex-direction: column; gap: 4px; }
+  .pc-tile-l { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .pc-tile-v { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: 30px; line-height: 1.1; }
+  .pc-tile-s { color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .pc-sec { display: flex; flex-direction: column; gap: var(--cds-gap-md); }
+  .pc-h2 { margin: 0; font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); }
+  .pc-h3 { margin: 0 0 2px; font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); }
+  .pc-sub { margin: 0 0 var(--cds-gap-sm); color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .pc-two { display: grid; grid-template-columns: repeat(auto-fit, minmax(330px, 1fr)); gap: var(--cds-gap-md); align-items: start; }
+  .pc-chart { position: relative; min-height: 160px; }
+  .pc-chart-tall { min-height: 420px; }
+  .pc-svg { display: block; overflow: visible; }
+  .pc-fail { margin: 0; padding: var(--cds-pad-md) 0; color: var(--color-fg-muted); }
+  .pc-legend { list-style: none; margin: 0 0 var(--cds-gap-sm); padding: 0; display: flex; flex-wrap: wrap; gap: 4px 14px; color: var(--cds-text-secondary); font-size: var(--cds-font-size-caption); }
+  .pc-legend li { display: flex; align-items: center; gap: 6px; }
+  .pc-sw { display: inline-block; flex: none; width: 10px; height: 10px; border-radius: 2px; }
+  .pc-dotsw { border-radius: 50%; }
+  .pc-c0 { background: var(--pc-c0); } .pc-c1 { background: var(--pc-c1); } .pc-c2 { background: var(--pc-c2); } .pc-c3 { background: var(--pc-c3); }
+  .pc-c4 { background: var(--pc-c4); } .pc-c5 { background: var(--pc-c5); } .pc-cm { background: var(--cds-chart-muted); }
+  .pc-axis { margin: 0; color: var(--cds-text-secondary); font-size: var(--cds-font-size-caption); }
+  .pc-axis-x { text-align: right; }
+  .pc-lab { fill: var(--cds-text-secondary); font-size: 12px; }
+  .pc-lab-on { fill: var(--color-fg); font-weight: 700; }
+  .pc-est { fill: var(--cds-text-secondary); font-size: 10px; font-style: italic; font-weight: 400; }
+  .pc-end { fill: var(--color-fg); font-size: 11.5px; font-variant-numeric: tabular-nums; }
+  .pc-group { fill: var(--cds-text-secondary); font-size: 10.5px; letter-spacing: 0.05em; text-transform: uppercase; }
+  .pc-in { font-size: 10px; font-variant-numeric: tabular-nums; pointer-events: none; }
+  .pc-code { fill: var(--cds-text-secondary); font-size: 11px; }
+  .pc-grid line { stroke: var(--cds-chart-grid); stroke-width: 1; }
+  .pc-tick { fill: var(--cds-text-secondary); font-size: 10.5px; font-variant-numeric: tabular-nums; }
+  .pc-link { stroke: var(--cds-chart-axis); stroke-width: 2; }
+  .pc-dot { stroke: var(--color-panel); stroke-width: 2; }
+  .pc-ring { fill: none; stroke: var(--color-fg); stroke-width: 1.5; pointer-events: none; }
+  .pc-hit { fill: transparent; }
+  .pc-row:focus { outline: none; }
+  .pc-row:focus-visible .pc-lab { text-decoration: underline; }
+  .pc-tip { position: absolute; z-index: 5; pointer-events: none; min-width: 170px; max-width: 280px; padding: 8px 10px; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); font-size: var(--cds-font-size-caption); color: var(--color-fg); }
+  .pc-tip-h { margin-bottom: 4px; font-weight: var(--cds-font-weight-medium); }
+  .pc-tip-r { display: flex; align-items: center; gap: 6px; color: var(--cds-text-secondary); }
+  .pc-tip-on { color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+  .pc-tip-v { margin-left: auto; padding-left: 12px; color: var(--color-fg); font-variant-numeric: tabular-nums; }
+  .pc-scroll { overflow-x: auto; }
+  .pc-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+  .pc-table th, .pc-table td { padding: 5px 7px; border-bottom: 1px solid var(--color-border-line); text-align: left; vertical-align: middle; }
+  .pc-table thead th { color: var(--cds-text-secondary); font-weight: var(--cds-font-weight-medium); vertical-align: bottom; }
+  .pc-table tbody th { font-weight: 400; white-space: nowrap; }
+  .pc-table .pc-num, .pc-table thead th.pc-num { text-align: right; }
+  .pc-table .pc-zero { color: var(--cds-text-secondary); }
+  .pc-table .pc-strong { font-weight: 700; }
+  .pc-table .pc-nw { white-space: nowrap; }
+  .pc-table .pc-src { min-width: 220px; color: var(--cds-text-secondary); white-space: normal; }
+  .pc-tr-on th, .pc-tr-on td { font-weight: 700; }
+  .pc-tr-on .pc-src { font-weight: 400; }
+  .pc-heat td.pc-num { text-align: center; padding: 5px 3px; min-width: 34px; }
+  .pc-heat thead th.pc-v { writing-mode: vertical-rl; transform: rotate(180deg); text-align: left; white-space: nowrap; padding: 6px 3px; }
+  .pc-heat thead th.pc-g { text-align: center; border-left: 1px solid var(--color-border-line); white-space: nowrap; }
+  .pc-details summary { cursor: pointer; color: var(--cds-text-secondary); font-size: var(--cds-font-size-caption); }
+  .pc-details[open] summary { margin-bottom: var(--cds-gap-sm); }
+  .pc-b { font-weight: var(--cds-font-weight-medium); font-variant-numeric: tabular-nums; }
+  @media print {
+    .pc-sec { break-before: page; }
+    .pc-scroll { overflow: visible; }
+  }
+</style>
+
+<div class="pc">
+  <header class="pc-head" id="summary">
+    <p class="pc-kicker">Canadian life insurers · General Account excluding par, UL funds and segregated funds · fiscal 2025 year-ends</p>
+    <h1 class="pc-title">Peer portfolio composition, on the ALM study basis</h1>
+    <p class="pc-lede">RBC Life holds <b class="pc-b dash-skeleton" data-draw="fig" data-source="peers" data-field="pct_public_fixed_income" data-where="insurer=RBC">—</b> of its General Account in public fixed income, <span class="dash-skeleton" data-draw="fig" data-fmt="text" data-source="rbc_vs_peers" data-field="position" data-where="measure=pct_public_fixed_income">—</span> the peer median of <b class="pc-b dash-skeleton" data-draw="fig" data-source="rbc_vs_peers" data-field="peer_median" data-where="measure=pct_public_fixed_income">—</b>. Its private fixed income share of <b class="pc-b dash-skeleton" data-draw="fig" data-source="peers" data-field="pct_private_fixed_income" data-where="insurer=RBC">—</b> is <span class="dash-skeleton" data-draw="fig" data-fmt="text" data-source="rbc_vs_peers" data-field="position" data-where="measure=pct_private_fixed_income">—</span> the median of <b class="pc-b dash-skeleton" data-draw="fig" data-source="rbc_vs_peers" data-field="peer_median" data-where="measure=pct_private_fixed_income">—</b>, and its share outside fixed income of <b class="pc-b dash-skeleton" data-draw="fig" data-source="peers" data-field="non_fixed_income_pct" data-where="insurer=RBC">—</b> is <span class="dash-skeleton" data-draw="fig" data-fmt="text" data-source="rbc_vs_peers" data-field="position" data-where="measure=non_fixed_income_pct">—</span> the median of <b class="pc-b dash-skeleton" data-draw="fig" data-source="rbc_vs_peers" data-field="peer_median" data-where="measure=non_fixed_income_pct">—</b>.</p>
+    <div class="pc-tiles">
+      <div class="pc-card pc-tile" id="tile-genacct">
+        <span class="pc-tile-l">RBC Life General Account, Oct 31, 2025</span>
+        <span class="pc-tile-v dash-skeleton" data-draw="fig" data-fmt="bn" data-source="peers" data-field="genacct_bn" data-where="insurer=RBC">—</span>
+        <span class="pc-tile-s"><span data-draw="fig" data-source="peers" data-field="genacct_share_pct" data-where="insurer=RBC">—</span> of invested assets; the rest is par and UL policyholder funds</span>
+      </div>
+      <div class="pc-card pc-tile" id="tile-private">
+        <span class="pc-tile-l">Private fixed income, share of General Account</span>
+        <span class="pc-tile-v dash-skeleton" data-draw="fig" data-source="peers" data-field="pct_private_fixed_income" data-where="insurer=RBC">—</span>
+        <span class="pc-tile-s">Peer median <span data-draw="fig" data-source="rbc_vs_peers" data-field="peer_median" data-where="measure=pct_private_fixed_income">—</span>, <span data-draw="fig" data-fmt="num" data-source="rbc_vs_peers" data-field="peers_counted" data-where="measure=pct_private_fixed_income">—</span> peers</span>
+      </div>
+      <div class="pc-card pc-tile" id="tile-nonfi">
+        <span class="pc-tile-l">Outside fixed income, share of General Account</span>
+        <span class="pc-tile-v dash-skeleton" data-draw="fig" data-source="peers" data-field="non_fixed_income_pct" data-where="insurer=RBC">—</span>
+        <span class="pc-tile-s">Peer median <span data-draw="fig" data-source="rbc_vs_peers" data-field="peer_median" data-where="measure=non_fixed_income_pct">—</span>, <span data-draw="fig" data-fmt="num" data-source="rbc_vs_peers" data-field="peers_counted" data-where="measure=non_fixed_income_pct">—</span> peers</span>
+      </div>
+      <div class="pc-card pc-tile" id="tile-surplus">
+        <span class="pc-tile-l">Outside fixed income, as a multiple of Surplus</span>
+        <span class="pc-tile-v dash-skeleton" data-draw="fig" data-fmt="x" data-source="peers" data-field="non_fi_to_surplus_x" data-where="insurer=RBC">—</span>
+        <span class="pc-tile-s">Peer median <span data-draw="fig" data-fmt="x" data-source="rbc_vs_peers" data-field="peer_median" data-where="measure=non_fi_to_surplus_x">—</span>, <span data-draw="fig" data-fmt="num" data-source="rbc_vs_peers" data-field="peers_counted" data-where="measure=non_fi_to_surplus_x">—</span> peers</span>
+      </div>
+      <div class="pc-card pc-tile" id="tile-financing">
+        <span class="pc-tile-l">Repo financing, share of General Account</span>
+        <span class="pc-tile-v dash-skeleton" data-draw="fig" data-source="peers" data-field="financing_pct_genacct" data-where="insurer=RBC">—</span>
+        <span class="pc-tile-s">Peer median <span data-draw="fig" data-source="rbc_vs_peers" data-field="peer_median" data-where="measure=financing_pct_genacct">—</span>, <span data-draw="fig" data-fmt="num" data-source="rbc_vs_peers" data-field="peers_counted" data-where="measure=financing_pct_genacct">—</span> peers</span>
+      </div>
+    </div>
+    <p class="pc-note">Public data only. The method, definitions and peer set come from the cdn-life-insurer-alm study, which replaces the October 28 whole-general-fund comparison. Figures tagged est are estimates; the last section lists every one. The peer median covers the other insurers that publish the measure.</p>
+    <div class="pc-card pc-changed" id="changed">
+      <h2 class="pc-h2">What changed from the October 28 version</h2>
+      <ul class="pc-list">
+        <li>Basis: the ALM study compares the General Account (GenAcct), which is Canadian business, net of reinsurance, after taking out participating accounts, universal life (UL) policyholder funds and segregated funds. The October 28 version compared whole general funds and took par out for two insurers only, so equity and real estate held for policyholders counted as the insurer's own risk.</li>
+        <li>Dates: fiscal 2025 year-ends, which are October 31, 2025 for RBC Life and BMO Life and December 31, 2025 for the others.</li>
+        <li>Big 3: Manulife and Sun Life Canada are assumed to follow the global mix (est); Canada Life uses its disclosed Canada column.</li>
+        <li>Taxonomy: the study's Level 1, 2 and 3 asset classes. Private placements stay in illiquid term loans.</li>
+        <li>New: the liabilities each General Account funds, and how the asset mix lines up against them (sections 2 and 5).</li>
+        <li>Coverage: 19 insurers have a General Account mix. Desjardins Insurance publishes none for its life insurer, and Blumont Annuity is added from the study's peer set.</li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="pc-sec" id="basis">
+    <h2 class="pc-h2">1. Basis: which assets are being compared</h2>
+    <p class="pc-p">The General Account is the part of the balance sheet where the insurer, not the policyholder, carries the investment risk. For some insurers it is nearly all of the invested assets; for Canada Life and Equitable it is under a third, because their participating accounts are so large.</p>
+    <div class="pc-two">
+      <div class="pc-card" id="chart-blocks">
+        <h3 class="pc-h3">How much of each balance sheet is General Account</h3>
+        <p class="pc-sub">Share of invested assets by block, with the total of the three blocks in $BN at the right. Segregated funds are outside all three.</p>
+        <ul class="pc-legend"><li><i class="pc-sw pc-c0"></i>General Account</li><li><i class="pc-sw pc-c1"></i>Participating account</li><li><i class="pc-sw pc-c2"></i>UL policyholder funds</li></ul>
+        <div class="pc-chart pc-chart-tall dash-skeleton" data-draw="blocks" data-source="peers" data-label="Share of invested assets held in the General Account, the participating account and UL policyholder funds, by insurer"></div>
+        <p class="pc-note">For Beneva the third block is policyholder-linked funds and for Assumption Life it is pass-through fund units. Insurers shown at 100% do not report par or UL funds separately.</p>
+      </div>
+      <div class="pc-card" id="chart-basis">
+        <h3 class="pc-h3">What the change of basis does to public equity</h3>
+        <p class="pc-sub">Public equity as a share of the whole invested pool (par and UL included) and of the General Account, with the change in points at the right.</p>
+        <ul class="pc-legend"><li><i class="pc-sw pc-dotsw pc-cm"></i>Whole invested pool</li><li><i class="pc-sw pc-dotsw pc-c0"></i>General Account</li></ul>
+        <div class="pc-chart dash-skeleton" data-draw="basis" data-source="basis_effect" data-label="Public equity share before and after removing participating and UL policyholder assets, by insurer"></div>
+        <p class="pc-note">RBC Life moves from <span data-draw="fig" data-source="basis_effect" data-field="entity_public_equity_pct" data-where="insurer=RBC">—</span> to <span data-draw="fig" data-source="basis_effect" data-field="genacct_public_equity_pct" data-where="insurer=RBC">—</span>: most of its common shares back UL policyholder accounts. Rows tagged est rest on the study's estimates for the Big 3 and Equitable; for Sun Life and Equitable its residual method leaves no common shares in the General Account.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pc-sec" id="liabilities">
+    <h2 class="pc-h2">2. What the General Account funds</h2>
+    <p class="pc-p">RBC Life's General Account is funded <b class="pc-b" data-draw="fig" data-source="peers" data-field="fcf_pct_genacct" data-where="insurer=RBC">—</b> by fulfilment cash flows, <b class="pc-b" data-draw="fig" data-source="peers" data-field="csm_pct_genacct" data-where="insurer=RBC">—</b> by contractual service margin (CSM), <b class="pc-b" data-draw="fig" data-source="peers" data-field="surplus_pct_genacct" data-where="insurer=RBC">—</b> by Surplus and <b class="pc-b" data-draw="fig" data-source="peers" data-field="financing_pct_genacct" data-where="insurer=RBC">—</b> by repo financing. <b class="pc-b" data-draw="fig" data-source="peers" data-field="long_liab_pct" data-where="insurer=RBC">—</b> of its non-par liabilities are long: individual insurance and group annuities, which is where pension risk transfer sits.</p>
+    <div class="pc-two">
+      <div class="pc-card" id="chart-funding">
+        <h3 class="pc-h3">Funding of the General Account</h3>
+        <p class="pc-sub">Percent of General Account assets. Bars stop short of 100% where derivative and other liabilities make up the rest.</p>
+        <ul class="pc-legend"><li><i class="pc-sw pc-c0"></i>Fulfilment cash flows</li><li><i class="pc-sw pc-c1"></i>CSM</li><li><i class="pc-sw pc-c2"></i>Surplus</li><li><i class="pc-sw pc-c3"></i>Repos and other financing</li></ul>
+        <div class="pc-chart dash-skeleton" data-draw="funding" data-source="peers" data-label="Fulfilment cash flows, CSM, Surplus and financing as a percent of General Account assets, by insurer"></div>
+        <p class="pc-note">iA Financial Group and Beneva file with the AMF: their CSM is the total, not the non-par share (est). Manulife's Surplus is not reliable on public data (study limitation L43).</p>
+      </div>
+      <div class="pc-card" id="chart-lines">
+        <h3 class="pc-h3">Product lines behind the liabilities</h3>
+        <p class="pc-sub">Non-par insurance contract liabilities, net of reinsurance, Canada, excluding segregated funds.</p>
+        <ul class="pc-legend"><li><i class="pc-sw pc-c0"></i>Individual insurance</li><li><i class="pc-sw pc-c1"></i>Group annuity</li><li><i class="pc-sw pc-c2"></i>Individual annuity</li><li><i class="pc-sw pc-c3"></i>Group insurance</li></ul>
+        <div class="pc-chart dash-skeleton" data-draw="lines" data-source="liabilities" data-label="Share of non-par insurance contract liabilities by product line, by insurer"></div>
+        <p class="pc-note">From OSFI returns, so the three AMF filers are not shown. Primerica is left out because its non-seg contracts are a net asset.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pc-sec" id="mix">
+    <h2 class="pc-h2">3. General Account mix, Level 1 and 2</h2>
+    <p class="pc-p">Sun Life, Canada Life and Equitable carry the most private fixed income. Externally managed equity (real estate, infrastructure and private equity) is material at BMO Life, Beneva and Humania. RBC Life sits with the bond-heavy group, with a private fixed income share behind only the Big 3, Equitable and Assumption Life.</p>
+    <div class="pc-card" id="chart-mix">
+      <h3 class="pc-h3">General Account by asset class</h3>
+      <p class="pc-sub">Percent of General Account assets, with the General Account in $BN at the right. Grouped by type of insurer; RBC Life in bold.</p>
+      <ul class="pc-legend"><li><i class="pc-sw pc-c0"></i>Public fixed income</li><li><i class="pc-sw pc-c1"></i>Private fixed income</li><li><i class="pc-sw pc-c2"></i>Public equity</li><li><i class="pc-sw pc-c3"></i>Cash</li><li><i class="pc-sw pc-c4"></i>External equity</li><li><i class="pc-sw pc-c5"></i>External debt</li><li><i class="pc-sw pc-cm"></i>Other / unclassified</li></ul>
+      <div class="pc-chart pc-chart-tall dash-skeleton" data-draw="mix" data-source="peers" data-label="General Account asset mix by class for 19 Canadian life insurers"></div>
+      <p class="pc-note">Desjardins Insurance is not shown: it files with the AMF and publishes no asset mix for the life insurer. Blumont Annuity is in the study's peer set but not on the standing insurer list. Other / unclassified is the OSFI "other invested assets" line, which is where alternatives sit for OSFI filers.</p>
+    </div>
+    <details class="pc-details" id="table-mix">
+      <summary>The figures as a table, with the Level 1 split</summary>
+      <div class="pc-scroll">
+        <table class="pc-table" data-source="peers" data-row-key="insurer_name">
+          <thead><tr>
+            <th data-field="insurer_name">Insurer</th><th class="pc-num" data-field="genacct_mm">General Account, $MM</th>
+            <th class="pc-num" data-field="pct_public_fixed_income">Public fixed income</th><th class="pc-num" data-field="pct_private_fixed_income">Private fixed income</th>
+            <th class="pc-num" data-field="pct_public_equity">Public equity</th><th class="pc-num" data-field="pct_cash">Cash</th>
+            <th class="pc-num" data-field="pct_external_equity">External equity</th><th class="pc-num" data-field="pct_external_debt">External debt</th>
+            <th class="pc-num" data-field="pct_other_unclassified">Other / unclassified</th><th class="pc-num" data-field="pct_internally_managed">Level 1: internally managed</th>
+            <th class="pc-num" data-field="pct_externally_managed">Level 1: externally managed</th><th class="pc-num" data-field="pct_unclassified">Level 1: unclassified</th>
+            <th data-field="estimate">Estimate</th>
+          </tr></thead>
+          <tbody data-draw="mix-rows"></tbody>
+        </table>
+      </div>
+    </details>
+  </section>
+
+  <section class="pc-sec" id="level3">
+    <h2 class="pc-h2">4. General Account mix, Level 3</h2>
+    <p class="pc-p">Percent of General Account assets; darker cells are larger shares. OSFI returns separate only nine Level 3 categories, so insurers on the OSFI basis show alternatives inside "other invested" and common shares. Insurers on company filings (iA Financial Group, Beneva, UV, Assumption Life, Humania) show finer categories. Section 7 adds what company filings disclose for the others.</p>
+    <div class="pc-card pc-scroll" id="table-level3">
+      <table class="pc-table pc-heat" data-source="genacct_l3" data-row-key="insurer_name">
+        <thead>
+          <tr><th></th><th class="pc-g" colspan="4">Public fixed income</th><th class="pc-g" colspan="5">Private fixed income</th><th class="pc-g" colspan="3">Public equity</th><th class="pc-g">Cash</th><th class="pc-g" colspan="3">External equity</th><th class="pc-g" colspan="2">External debt</th><th class="pc-g">Other</th></tr>
+          <tr>
+            <th data-field="insurer_name">Insurer</th>
+            <th class="pc-v" data-field="government_bonds">Government bonds</th><th class="pc-v" data-field="corporate_bonds">Corporate bonds</th><th class="pc-v" data-field="asset_backed_securities">Asset backed securities</th><th class="pc-v" data-field="bonds_issuer_not_disclosed">Bonds, issuer not disclosed</th>
+            <th class="pc-v" data-field="commercial_mortgages">Commercial mortgages</th><th class="pc-v" data-field="illiquid_term_loan">Illiquid term loans</th><th class="pc-v" data-field="private_liquid_loans">Private liquid loans</th><th class="pc-v" data-field="consumer_loans">Consumer loans</th><th class="pc-v" data-field="loans_type_not_disclosed">Loans, type not disclosed</th>
+            <th class="pc-v" data-field="common_shares">Common shares</th><th class="pc-v" data-field="preferred_shares">Preferred shares</th><th class="pc-v" data-field="pooled_fund_units">Pooled fund units</th>
+            <th class="pc-v" data-field="cash_equivalent">Cash equivalent</th>
+            <th class="pc-v" data-field="real_estate_equity">Real estate</th><th class="pc-v" data-field="infrastructure_equity">Infrastructure equity</th><th class="pc-v" data-field="other_private_equity">Other private equity</th>
+            <th class="pc-v" data-field="infrastructure_debt">Infrastructure debt</th><th class="pc-v" data-field="other_private_debt">Other private debt</th>
+            <th class="pc-v" data-field="other_invested_unclassified">Other invested</th>
+          </tr>
+        </thead>
+        <tbody data-draw="l3-rows"></tbody>
+      </table>
+    </div>
+    <p class="pc-note">A dash is zero on this basis. RBC Life: government bonds <span data-draw="fig" data-source="genacct_l3" data-field="government_bonds" data-where="insurer=RBC">—</span>, corporate bonds <span data-draw="fig" data-source="genacct_l3" data-field="corporate_bonds" data-where="insurer=RBC">—</span>, illiquid term loans <span data-draw="fig" data-source="genacct_l3" data-field="illiquid_term_loan" data-where="insurer=RBC">—</span>, commercial mortgages <span data-draw="fig" data-source="genacct_l3" data-field="commercial_mortgages" data-where="insurer=RBC">—</span>.</p>
+  </section>
+
+  <section class="pc-sec" id="fit">
+    <h2 class="pc-h2">5. Asset mix against the liabilities</h2>
+    <p class="pc-p">Longer liabilities can carry more illiquid assets, and assets outside fixed income are normally sized against Surplus. RBC Life has <b class="pc-b" data-draw="fig" data-source="peers" data-field="long_liab_pct" data-where="insurer=RBC">—</b> long liabilities against <b class="pc-b" data-draw="fig" data-source="peers" data-field="illiquid_pct" data-where="insurer=RBC">—</b> illiquid assets, and its assets outside fixed income are <b class="pc-b" data-draw="fig" data-fmt="x" data-source="peers" data-field="non_fi_to_surplus_x" data-where="insurer=RBC">—</b> its Surplus.</p>
+    <div class="pc-two">
+      <div class="pc-card" id="chart-fit">
+        <h3 class="pc-h3">Illiquid assets against long liabilities</h3>
+        <p class="pc-axis">Illiquid assets, percent of General Account</p>
+        <div class="pc-chart dash-skeleton" data-draw="fit" data-source="peers" data-label="Illiquid asset share of the General Account against the long-liability share of non-par liabilities, one dot per insurer"></div>
+        <p class="pc-axis pc-axis-x">Individual insurance and group annuities, percent of non-par liabilities</p>
+        <p class="pc-note">Illiquid assets are mortgages, private loans, real estate, infrastructure, private equity and other invested assets. CPL is Canadian Premier Life. Manulife, Sun Life and Canada Life use the estimates noted in section 1.</p>
+      </div>
+      <div class="pc-card" id="chart-surplus">
+        <h3 class="pc-h3">Assets outside fixed income against Surplus</h3>
+        <p class="pc-sub">Both as a percent of General Account assets, with assets outside fixed income as a multiple of Surplus at the right.</p>
+        <ul class="pc-legend"><li><i class="pc-sw pc-dotsw pc-cm"></i>Surplus</li><li><i class="pc-sw pc-dotsw pc-c0"></i>Assets outside fixed income</li></ul>
+        <div class="pc-chart dash-skeleton" data-draw="surplus" data-source="peers" data-label="Surplus and assets outside fixed income as a percent of the General Account, by insurer"></div>
+        <p class="pc-note">Directional only: no insurer publishes which assets back Surplus, and the study's waterfall (liabilities backed by fixed income first, Surplus by the residual) is its default assumption. Manulife's multiple reflects its unreliable Surplus figure.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="pc-sec" id="blocks">
+    <h2 class="pc-h2">6. Participating and UL policyholder fund blocks</h2>
+    <p class="pc-p">These are the assets the new basis takes out. Par accounts hold the equity, real estate and private assets that a whole-fund comparison attributes to the insurer; UL policyholder funds are mostly index-linked equity. Canada Life's par account alone is <b class="pc-b" data-draw="fig" data-fmt="mm" data-source="par_l3" data-field="amount_mm" data-where="insurer=CLF">—</b>, with <b class="pc-b" data-draw="fig" data-source="par_l3" data-field="common_shares" data-where="insurer=CLF">—</b> in common shares and <b class="pc-b" data-draw="fig" data-source="par_l3" data-field="real_estate_equity" data-where="insurer=CLF">—</b> in real estate.</p>
+    <ul class="pc-legend"><li><i class="pc-sw pc-c0"></i>Public fixed income</li><li><i class="pc-sw pc-c1"></i>Private fixed income</li><li><i class="pc-sw pc-c2"></i>Public equity</li><li><i class="pc-sw pc-c3"></i>Cash</li><li><i class="pc-sw pc-c4"></i>External equity</li><li><i class="pc-sw pc-c5"></i>External debt</li><li><i class="pc-sw pc-cm"></i>Other / unclassified</li></ul>
+    <div class="pc-two">
+      <div class="pc-card" id="chart-par">
+        <h3 class="pc-h3">Participating accounts</h3>
+        <p class="pc-sub">Percent of the block, with the block in $BN at the right.</p>
+        <div class="pc-chart dash-skeleton" data-draw="par" data-source="block_classes" data-label="Participating account asset mix by class, by insurer"></div>
+      </div>
+      <div class="pc-card" id="chart-ul">
+        <h3 class="pc-h3">UL policyholder funds</h3>
+        <p class="pc-sub">Percent of the block, with the block in $BN at the right.</p>
+        <div class="pc-chart dash-skeleton" data-draw="ul" data-source="block_classes" data-label="UL policyholder fund asset mix by class, by insurer"></div>
+      </div>
+    </div>
+    <div class="pc-card pc-scroll" id="table-par">
+      <h3 class="pc-h3">Participating accounts, Level 3</h3>
+      <table class="pc-table pc-heat" data-source="par_l3" data-row-key="insurer_name">
+        <thead><tr>
+          <th data-field="insurer_name">Insurer</th><th class="pc-num" data-field="amount_mm">Par account, $MM</th>
+          <th class="pc-v" data-field="government_bonds">Government bonds</th><th class="pc-v" data-field="corporate_bonds">Corporate bonds</th><th class="pc-v" data-field="commercial_mortgages">Commercial mortgages</th><th class="pc-v" data-field="illiquid_term_loan">Illiquid term loans</th><th class="pc-v" data-field="common_shares">Common shares</th><th class="pc-v" data-field="preferred_shares">Preferred shares</th><th class="pc-v" data-field="cash_equivalent">Cash equivalent</th><th class="pc-v" data-field="real_estate_equity">Real estate</th><th class="pc-v" data-field="other_invested_unclassified">Other invested</th>
+          <th data-field="source">Source</th>
+        </tr></thead>
+        <tbody data-draw="par-rows"></tbody>
+      </table>
+    </div>
+    <p class="pc-note">Blocks under $50MM are not shown. Where a par account has no public fact sheet, the study spreads the pool mix across it (est). RBC Life's par account is about 1% of its book and is shown at its published target mix, not actual holdings.</p>
+  </section>
+
+  <section class="pc-sec" id="lookthrough">
+    <h2 class="pc-h2">7. Look-through: private and alternative assets in company filings</h2>
+    <p class="pc-p">OSFI returns hide alternatives inside "other invested" and common shares, so this table reads the annual reports. It is at the scope each company reports, which is wider than the General Account: global and including par for Manulife and Sun Life, the Canada segment including par for Canada Life. Use it to see what kinds of private assets each insurer holds, not to compare shares with section 3.</p>
+    <div class="pc-card pc-scroll" id="table-lookthrough">
+      <table class="pc-table pc-heat" data-source="lookthrough" data-row-key="insurer_name">
+        <thead><tr>
+          <th data-field="insurer_name">Insurer</th><th class="pc-num" data-field="reported_invested_mm">Reported invested assets, $MM</th>
+          <th class="pc-v" data-field="asset_backed_securities">Asset backed securities</th><th class="pc-v" data-field="commercial_mortgages">Commercial mortgages</th><th class="pc-v" data-field="illiquid_term_loan">Illiquid term loans</th><th class="pc-v" data-field="private_liquid_loans">Private liquid loans</th><th class="pc-v" data-field="consumer_loans">Consumer loans</th><th class="pc-v" data-field="reverse_mortgages">Reverse mortgages</th><th class="pc-v" data-field="pooled_fund_units">Pooled fund units</th><th class="pc-v" data-field="real_estate_equity">Real estate</th><th class="pc-v" data-field="infrastructure_equity">Infrastructure equity</th><th class="pc-v" data-field="other_private_equity">Other private equity</th><th class="pc-v" data-field="infrastructure_debt">Infrastructure debt</th><th class="pc-v" data-field="structured_products">Structured products</th><th class="pc-v" data-field="other_invested_unclassified">Other invested</th>
+          <th data-field="scope">Scope of the figures</th>
+        </tr></thead>
+        <tbody data-draw="look-rows"></tbody>
+      </table>
+    </div>
+    <p class="pc-note">Percent of reported invested assets. A blank means the filing does not disclose the category. RBC Life is shown from its OSFI returns only; no company figures are used.</p>
+  </section>
+
+  <section class="pc-sec" id="offbs">
+    <h2 class="pc-h2">8. Off-balance-sheet exposures and financing</h2>
+    <p class="pc-p">RBC Life's repos are <b class="pc-b" data-draw="fig" data-fmt="mm" data-source="off_balance_sheet" data-field="repos_mm" data-where="insurer=RBC">—</b>, or <b class="pc-b" data-draw="fig" data-source="off_balance_sheet" data-field="repos_pct_genacct" data-where="insurer=RBC">—</b> of its General Account. Derivative notionals are for the legal entity, which is global for Manulife, Sun Life and Canada Life, so they are not comparable in size with the Canadian General Account.</p>
+    <div class="pc-card pc-scroll" id="table-offbs">
+      <table class="pc-table" data-source="off_balance_sheet" data-row-key="insurer_name">
+        <thead><tr>
+          <th data-field="insurer_name">Insurer</th><th class="pc-num" data-field="repos_mm">Repos, $MM</th><th class="pc-num" data-field="repos_pct_genacct">Repos, % of General Account</th>
+          <th class="pc-num" data-field="securities_lending_mm">Securities lending, $MM</th><th class="pc-num" data-field="fixed_income_linear_notional_mm">Fixed income derivatives, linear, notional $MM</th>
+          <th class="pc-num" data-field="fixed_income_non_linear_notional_mm">Fixed income derivatives, non-linear, notional $MM</th><th class="pc-num" data-field="equity_notional_mm">Equity derivatives, notional $MM</th>
+          <th data-field="derivative_scope">Derivative scope</th>
+        </tr></thead>
+        <tbody data-draw="offbs-rows"></tbody>
+      </table>
+    </div>
+    <p class="pc-note">Repos from the study's balance sheet build and, for AMF filers, company filings; securities lending from company filings; derivative notionals from OSFI returns (FX and credit derivatives count as fixed income, and equity is not split between linear and non-linear). A blank means not disclosed. ivari's negative linear notional is as filed. Internal securitization notes are not public for any insurer.</p>
+  </section>
+
+  <section class="pc-sec" id="accounting">
+    <h2 class="pc-h2">9. Accounting class and the shift since fiscal 2024</h2>
+    <div class="pc-two">
+      <div class="pc-card" id="chart-acct">
+        <h3 class="pc-h3">Accounting classification of invested assets</h3>
+        <p class="pc-sub">Percent of invested assets, legal entity, fiscal 2025 year-end.</p>
+        <ul class="pc-legend"><li><i class="pc-sw pc-c0"></i>FVTPL</li><li><i class="pc-sw pc-c1"></i>FVOCI</li><li><i class="pc-sw pc-c2"></i>Amortized cost</li></ul>
+        <div class="pc-chart dash-skeleton" data-draw="acct" data-source="accounting" data-label="Share of invested assets at fair value through profit or loss, fair value through OCI and amortized cost, by insurer"></div>
+      </div>
+      <div class="pc-card pc-scroll" id="table-trend">
+        <h3 class="pc-h3">Change in mix since fiscal 2024 year-end</h3>
+        <p class="pc-sub">Percentage points of the invested pool excluding UL funds, to the latest filed quarter. Moves of 2 points or more in bold.</p>
+        <table class="pc-table" data-source="trend" data-row-key="insurer_name">
+          <thead><tr>
+            <th data-field="insurer_name">Insurer</th><th data-field="from_date">From</th><th data-field="to_date">To</th>
+            <th class="pc-num" data-field="public_fixed_income_change_pts">Public fixed income</th><th class="pc-num" data-field="private_fixed_income_change_pts">Private fixed income</th>
+            <th class="pc-num" data-field="public_equity_change_pts">Public equity</th><th class="pc-num" data-field="cash_and_cash_equivalent_change_pts">Cash</th><th class="pc-num" data-field="other_unclassified_change_pts">Other</th>
+          </tr></thead>
+          <tbody data-draw="trend-rows"></tbody>
+        </table>
+      </div>
+    </div>
+    <p class="pc-note">Both are for the legal entity including par, which is global for Manulife, Sun Life and Canada Life. RBC Life's private fixed income share changed by <span data-draw="fig" data-fmt="pts" data-source="trend" data-field="private_fixed_income_change_pts" data-where="insurer=RBC">—</span> over the period.</p>
+  </section>
+
+  <section class="pc-sec" id="coverage">
+    <h2 class="pc-h2">10. Coverage, sources and estimates</h2>
+    <p class="pc-p">Fourteen insurers are on the ALM study's own view, and a fifteenth, Desjardins Insurance, is covered on the liability side only. Canadian Premier and Primerica are built with the study's method on OSFI returns but are outside its signed-off peer set. UV, Assumption Life and Humania are not in the OSFI returns, so they stay on the earlier annual-report method. Canada Protection Plan is part of Foresters Life.</p>
+    <div class="pc-card pc-scroll" id="table-coverage">
+      <table class="pc-table" data-source="coverage" data-row-key="insurer_name">
+        <thead><tr>
+          <th data-field="insurer_name">Insurer</th><th data-field="period_end">Period end</th><th data-field="basis">Basis</th><th data-field="on_canonical_list">On the standing list</th><th data-field="estimate">Estimate</th><th data-field="mix_source">Source of the General Account mix</th>
+        </tr></thead>
+        <tbody data-draw="coverage-rows"></tbody>
+      </table>
+    </div>
+    <details class="pc-details" id="definitions">
+      <summary>Definitions used on this page</summary>
+      <ul class="pc-list">
+        <li>General Account (GenAcct): invested assets for Canadian business, net of reinsurance, excluding participating accounts, UL policyholder funds and segregated funds.</li>
+        <li>Level 1: internally managed, externally managed (real estate, infrastructure, private equity and private debt funds) and off-balance-sheet. Level 2 and 3 are the asset classes within them.</li>
+        <li>Illiquid assets: commercial mortgages, private and consumer loans, real estate, infrastructure, private equity, private debt and other invested assets.</li>
+        <li>Outside fixed income: common and preferred shares, pooled fund units, real estate, infrastructure equity, private equity and other invested assets.</li>
+        <li>Long liabilities: individual insurance and group annuities as a share of non-par insurance contract liabilities.</li>
+        <li>Surplus: equity attributed to the non-par General Account under the study's default waterfall, in which fixed income and mortgages back liabilities first and the CSM is backed pro rata.</li>
+        <li>Peer median: the median of the other insurers that publish the measure; RBC Life is not in it.</li>
+      </ul>
+    </details>
+  </section>
+</div>
+<script src="charts.js"></script>

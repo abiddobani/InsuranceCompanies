@@ -1,0 +1,16 @@
+{
+ "dashboard": "https://claude.ai/artifact/6zcGEVLxj8VvYdYdH5DBBF",
+ "assets": {
+  "peers": "/_blob/e341b5e9cfb841eb15247b4964ffe9ea",
+  "genacct_l3": "/_blob/ac9520b3233734592c9294d86d8971da",
+  "par_l3": "/_blob/76e51ce7df232c0f19143c79788d7912",
+  "block_classes": "/_blob/fee6016cc1e792b861b7a73a7f935393",
+  "liabilities": "/_blob/a7601f973aab802826422f608d558bf1",
+  "basis_effect": "/_blob/8ad569a5b20118b4c11a7fdc0d6fec05",
+  "accounting": "/_blob/28129e85273dc38ab69ec5c526ad8530",
+  "trend": "/_blob/0da281572c1e748820b9385969788c10",
+  "off_balance_sheet": "/_blob/89622adfc6458abcfea6501dc6032276",
+  "lookthrough": "/_blob/34065c2d9ef3f2fc4e019bc117121737",
+  "coverage": "/_blob/ef0aed26416d363d35e2061b78924a62"
+ }
+}
