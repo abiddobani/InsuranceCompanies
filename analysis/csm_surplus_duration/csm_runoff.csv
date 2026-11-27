@@ -1,0 +1,246 @@
+peer,company,entity_basis,as_of,segment_line,contract_type,band,band_start_yr,band_end_yr,value_mm,source_file,line_ref
+RBC,RBC Life,RBC group (Royal Bank of Canada consolidated; Note 15 insurance and reinsurance),2025-10-31,,insurance_issued,Within 1 year,0.0,1.0,-222.0,rbc_2025ar_en.txt,14903
+RBC,RBC Life,RBC group (Royal Bank of Canada consolidated; Note 15 insurance and reinsurance),2025-10-31,,insurance_issued,1 to 5 year,1.0,5.0,-814.0,rbc_2025ar_en.txt,14903
+RBC,RBC Life,RBC group (Royal Bank of Canada consolidated; Note 15 insurance and reinsurance),2025-10-31,,insurance_issued,5 to 10 years,5.0,10.0,-634.0,rbc_2025ar_en.txt,14903
+RBC,RBC Life,RBC group (Royal Bank of Canada consolidated; Note 15 insurance and reinsurance),2025-10-31,,insurance_issued,Thereafter,10.0,,-806.0,rbc_2025ar_en.txt,14903
+RBC,RBC Life,RBC group (Royal Bank of Canada consolidated; Note 15 insurance and reinsurance),2025-10-31,,reinsurance_held,Within 1 year,0.0,1.0,68.0,rbc_2025ar_en.txt,14905
+RBC,RBC Life,RBC group (Royal Bank of Canada consolidated; Note 15 insurance and reinsurance),2025-10-31,,reinsurance_held,1 to 5 year,1.0,5.0,213.0,rbc_2025ar_en.txt,14905
+RBC,RBC Life,RBC group (Royal Bank of Canada consolidated; Note 15 insurance and reinsurance),2025-10-31,,reinsurance_held,5 to 10 years,5.0,10.0,167.0,rbc_2025ar_en.txt,14905
+RBC,RBC Life,RBC group (Royal Bank of Canada consolidated; Note 15 insurance and reinsurance),2025-10-31,,reinsurance_held,Thereafter,10.0,,226.0,rbc_2025ar_en.txt,14905
+RBC,RBC Life,RBC group (Royal Bank of Canada consolidated; Note 15 insurance and reinsurance),2025-10-31,,total,Within 1 year,0.0,1.0,-154.0,rbc_2025ar_en.txt,14906
+RBC,RBC Life,RBC group (Royal Bank of Canada consolidated; Note 15 insurance and reinsurance),2025-10-31,,total,1 to 5 year,1.0,5.0,-601.0,rbc_2025ar_en.txt,14906
+RBC,RBC Life,RBC group (Royal Bank of Canada consolidated; Note 15 insurance and reinsurance),2025-10-31,,total,5 to 10 years,5.0,10.0,-467.0,rbc_2025ar_en.txt,14906
+RBC,RBC Life,RBC group (Royal Bank of Canada consolidated; Note 15 insurance and reinsurance),2025-10-31,,total,Thereafter,10.0,,-580.0,rbc_2025ar_en.txt,14906
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Canada,insurance_issued,Less than 1 year,0.0,1.0,414.0,mfc-annual-report-2025.md,13178
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Canada,insurance_issued,1 to 5 years,1.0,5.0,1301.0,mfc-annual-report-2025.md,13178
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Canada,insurance_issued,5 to 10 years,5.0,10.0,1061.0,mfc-annual-report-2025.md,13178
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Canada,insurance_issued,10 to 20 years,10.0,20.0,1031.0,mfc-annual-report-2025.md,13178
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Canada,insurance_issued,More than 20 years,20.0,,661.0,mfc-annual-report-2025.md,13178
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Canada,reinsurance_held,Less than 1 year,0.0,1.0,11.0,mfc-annual-report-2025.md,13179
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Canada,reinsurance_held,1 to 5 years,1.0,5.0,39.0,mfc-annual-report-2025.md,13179
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Canada,reinsurance_held,5 to 10 years,5.0,10.0,23.0,mfc-annual-report-2025.md,13179
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Canada,reinsurance_held,10 to 20 years,10.0,20.0,3.0,mfc-annual-report-2025.md,13179
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Canada,reinsurance_held,More than 20 years,20.0,,-83.0,mfc-annual-report-2025.md,13179
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Canada,net,Less than 1 year,0.0,1.0,425.0,mfc-annual-report-2025.md,13180
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Canada,net,1 to 5 years,1.0,5.0,1340.0,mfc-annual-report-2025.md,13180
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Canada,net,5 to 10 years,5.0,10.0,1084.0,mfc-annual-report-2025.md,13180
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Canada,net,10 to 20 years,10.0,20.0,1034.0,mfc-annual-report-2025.md,13180
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Canada,net,More than 20 years,20.0,,578.0,mfc-annual-report-2025.md,13180
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,U.S.,insurance_issued,Less than 1 year,0.0,1.0,548.0,mfc-annual-report-2025.md,13182
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,U.S.,insurance_issued,1 to 5 years,1.0,5.0,1736.0,mfc-annual-report-2025.md,13182
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,U.S.,insurance_issued,5 to 10 years,5.0,10.0,1370.0,mfc-annual-report-2025.md,13182
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,U.S.,insurance_issued,10 to 20 years,10.0,20.0,1180.0,mfc-annual-report-2025.md,13182
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,U.S.,insurance_issued,More than 20 years,20.0,,454.0,mfc-annual-report-2025.md,13182
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,U.S.,reinsurance_held,Less than 1 year,0.0,1.0,-315.0,mfc-annual-report-2025.md,13183
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,U.S.,reinsurance_held,1 to 5 years,1.0,5.0,-961.0,mfc-annual-report-2025.md,13183
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,U.S.,reinsurance_held,5 to 10 years,5.0,10.0,-708.0,mfc-annual-report-2025.md,13183
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,U.S.,reinsurance_held,10 to 20 years,10.0,20.0,-533.0,mfc-annual-report-2025.md,13183
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,U.S.,reinsurance_held,More than 20 years,20.0,,-11.0,mfc-annual-report-2025.md,13183
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,U.S.,net,Less than 1 year,0.0,1.0,233.0,mfc-annual-report-2025.md,13184
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,U.S.,net,1 to 5 years,1.0,5.0,775.0,mfc-annual-report-2025.md,13184
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,U.S.,net,5 to 10 years,5.0,10.0,662.0,mfc-annual-report-2025.md,13184
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,U.S.,net,10 to 20 years,10.0,20.0,647.0,mfc-annual-report-2025.md,13184
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,U.S.,net,More than 20 years,20.0,,443.0,mfc-annual-report-2025.md,13184
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Asia,insurance_issued,Less than 1 year,0.0,1.0,1978.0,mfc-annual-report-2025.md,13186
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Asia,insurance_issued,1 to 5 years,1.0,5.0,6370.0,mfc-annual-report-2025.md,13186
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Asia,insurance_issued,5 to 10 years,5.0,10.0,4944.0,mfc-annual-report-2025.md,13186
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Asia,insurance_issued,10 to 20 years,10.0,20.0,4592.0,mfc-annual-report-2025.md,13186
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Asia,insurance_issued,More than 20 years,20.0,,2565.0,mfc-annual-report-2025.md,13186
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Asia,reinsurance_held,Less than 1 year,0.0,1.0,-101.0,mfc-annual-report-2025.md,13187
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Asia,reinsurance_held,1 to 5 years,1.0,5.0,-416.0,mfc-annual-report-2025.md,13187
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Asia,reinsurance_held,5 to 10 years,5.0,10.0,-305.0,mfc-annual-report-2025.md,13187
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Asia,reinsurance_held,10 to 20 years,10.0,20.0,-166.0,mfc-annual-report-2025.md,13187
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Asia,reinsurance_held,More than 20 years,20.0,,-113.0,mfc-annual-report-2025.md,13187
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Asia,net,Less than 1 year,0.0,1.0,1877.0,mfc-annual-report-2025.md,13188
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Asia,net,1 to 5 years,1.0,5.0,5954.0,mfc-annual-report-2025.md,13188
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Asia,net,5 to 10 years,5.0,10.0,4639.0,mfc-annual-report-2025.md,13188
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Asia,net,10 to 20 years,10.0,20.0,4426.0,mfc-annual-report-2025.md,13188
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Asia,net,More than 20 years,20.0,,2452.0,mfc-annual-report-2025.md,13188
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Corporate,insurance_issued,Less than 1 year,0.0,1.0,-11.0,mfc-annual-report-2025.md,13190
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Corporate,insurance_issued,1 to 5 years,1.0,5.0,-38.0,mfc-annual-report-2025.md,13190
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Corporate,insurance_issued,5 to 10 years,5.0,10.0,-37.0,mfc-annual-report-2025.md,13190
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Corporate,insurance_issued,10 to 20 years,10.0,20.0,-43.0,mfc-annual-report-2025.md,13190
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Corporate,insurance_issued,More than 20 years,20.0,,-14.0,mfc-annual-report-2025.md,13190
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Corporate,reinsurance_held,Less than 1 year,0.0,1.0,12.0,mfc-annual-report-2025.md,13191
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Corporate,reinsurance_held,1 to 5 years,1.0,5.0,60.0,mfc-annual-report-2025.md,13191
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Corporate,reinsurance_held,5 to 10 years,5.0,10.0,48.0,mfc-annual-report-2025.md,13191
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Corporate,reinsurance_held,10 to 20 years,10.0,20.0,19.0,mfc-annual-report-2025.md,13191
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Corporate,reinsurance_held,More than 20 years,20.0,,3.0,mfc-annual-report-2025.md,13191
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Corporate,net,Less than 1 year,0.0,1.0,1.0,mfc-annual-report-2025.md,13192
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Corporate,net,1 to 5 years,1.0,5.0,22.0,mfc-annual-report-2025.md,13192
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Corporate,net,5 to 10 years,5.0,10.0,11.0,mfc-annual-report-2025.md,13192
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Corporate,net,10 to 20 years,10.0,20.0,-24.0,mfc-annual-report-2025.md,13192
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Corporate,net,More than 20 years,20.0,,-11.0,mfc-annual-report-2025.md,13192
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Total (all segments),total,Less than 1 year,0.0,1.0,2536.0,mfc-annual-report-2025.md,13193
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Total (all segments),total,1 to 5 years,1.0,5.0,8091.0,mfc-annual-report-2025.md,13193
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Total (all segments),total,5 to 10 years,5.0,10.0,6396.0,mfc-annual-report-2025.md,13193
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Total (all segments),total,10 to 20 years,10.0,20.0,6083.0,mfc-annual-report-2025.md,13193
+MFC,Manulife,MFC consolidated (Manulife; Note 6(e) segment table),2025-12-31,Total (all segments),total,More than 20 years,20.0,,3462.0,mfc-annual-report-2025.md,13193
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Canada,insurance_issued,Within 1 year,0.0,1.0,493.0,fs-notes-2025-e.txt,5536
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Canada,insurance_issued,1-3 years,1.0,3.0,882.0,fs-notes-2025-e.txt,5537
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Canada,insurance_issued,3-5 years,3.0,5.0,756.0,fs-notes-2025-e.txt,5538
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Canada,insurance_issued,5-10 years,5.0,10.0,1441.0,fs-notes-2025-e.txt,5539
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Canada,insurance_issued,Over 10 years,10.0,,2876.0,fs-notes-2025-e.txt,5540
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,U.S.,insurance_issued,Within 1 year,0.0,1.0,100.0,fs-notes-2025-e.txt,5536
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,U.S.,insurance_issued,1-3 years,1.0,3.0,173.0,fs-notes-2025-e.txt,5537
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,U.S.,insurance_issued,3-5 years,3.0,5.0,144.0,fs-notes-2025-e.txt,5538
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,U.S.,insurance_issued,5-10 years,5.0,10.0,256.0,fs-notes-2025-e.txt,5539
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,U.S.,insurance_issued,Over 10 years,10.0,,308.0,fs-notes-2025-e.txt,5540
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Asia,insurance_issued,Within 1 year,0.0,1.0,595.0,fs-notes-2025-e.txt,5536
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Asia,insurance_issued,1-3 years,1.0,3.0,1040.0,fs-notes-2025-e.txt,5537
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Asia,insurance_issued,3-5 years,3.0,5.0,860.0,fs-notes-2025-e.txt,5538
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Asia,insurance_issued,5-10 years,5.0,10.0,1559.0,fs-notes-2025-e.txt,5539
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Asia,insurance_issued,Over 10 years,10.0,,2683.0,fs-notes-2025-e.txt,5540
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Total (all segments),insurance_issued,Within 1 year,0.0,1.0,1188.0,fs-notes-2025-e.txt,5536
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Total (all segments),insurance_issued,1-3 years,1.0,3.0,2095.0,fs-notes-2025-e.txt,5537
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Total (all segments),insurance_issued,3-5 years,3.0,5.0,1760.0,fs-notes-2025-e.txt,5538
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Total (all segments),insurance_issued,5-10 years,5.0,10.0,3256.0,fs-notes-2025-e.txt,5539
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Total (all segments),insurance_issued,Over 10 years,10.0,,5867.0,fs-notes-2025-e.txt,5540
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Canada,reinsurance_held,Within 1 year,0.0,1.0,50.0,fs-notes-2025-e.txt,5557
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Canada,reinsurance_held,1-3 years,1.0,3.0,86.0,fs-notes-2025-e.txt,5558
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Canada,reinsurance_held,3-5 years,3.0,5.0,67.0,fs-notes-2025-e.txt,5559
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Canada,reinsurance_held,5-10 years,5.0,10.0,99.0,fs-notes-2025-e.txt,5560
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Canada,reinsurance_held,Over 10 years,10.0,,216.0,fs-notes-2025-e.txt,5561
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,U.S.,reinsurance_held,Within 1 year,0.0,1.0,-13.0,fs-notes-2025-e.txt,5557
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,U.S.,reinsurance_held,1-3 years,1.0,3.0,-23.0,fs-notes-2025-e.txt,5558
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,U.S.,reinsurance_held,3-5 years,3.0,5.0,-20.0,fs-notes-2025-e.txt,5559
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,U.S.,reinsurance_held,5-10 years,5.0,10.0,-36.0,fs-notes-2025-e.txt,5560
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,U.S.,reinsurance_held,Over 10 years,10.0,,-50.0,fs-notes-2025-e.txt,5561
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Asia,reinsurance_held,Within 1 year,0.0,1.0,-7.0,fs-notes-2025-e.txt,5557
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Asia,reinsurance_held,1-3 years,1.0,3.0,-9.0,fs-notes-2025-e.txt,5558
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Asia,reinsurance_held,3-5 years,3.0,5.0,-7.0,fs-notes-2025-e.txt,5559
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Asia,reinsurance_held,5-10 years,5.0,10.0,-11.0,fs-notes-2025-e.txt,5560
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Asia,reinsurance_held,Over 10 years,10.0,,-16.0,fs-notes-2025-e.txt,5561
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Total (all segments),reinsurance_held,Within 1 year,0.0,1.0,30.0,fs-notes-2025-e.txt,5557
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Total (all segments),reinsurance_held,1-3 years,1.0,3.0,54.0,fs-notes-2025-e.txt,5558
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Total (all segments),reinsurance_held,3-5 years,3.0,5.0,40.0,fs-notes-2025-e.txt,5559
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Total (all segments),reinsurance_held,5-10 years,5.0,10.0,52.0,fs-notes-2025-e.txt,5560
+SLF,Sun Life,SLF group (Sun Life Financial Inc. consolidated; Note 10.C),2025-12-31,Total (all segments),reinsurance_held,Over 10 years,10.0,,150.0,fs-notes-2025-e.txt,5561
+CLF,Canada Life,CLF group (Great-West Lifeco Inc. consolidated; Note 21(h)),2025-12-31,,net,1 year or less,0.0,1.0,1287.0,lifeco_ar-2025-e.txt,9584
+CLF,Canada Life,CLF group (Great-West Lifeco Inc. consolidated; Note 21(h)),2025-12-31,,net,1-2 years,1.0,2.0,1158.0,lifeco_ar-2025-e.txt,9584
+CLF,Canada Life,CLF group (Great-West Lifeco Inc. consolidated; Note 21(h)),2025-12-31,,net,2-3 years,2.0,3.0,1036.0,lifeco_ar-2025-e.txt,9584
+CLF,Canada Life,CLF group (Great-West Lifeco Inc. consolidated; Note 21(h)),2025-12-31,,net,3-4 years,3.0,4.0,951.0,lifeco_ar-2025-e.txt,9584
+CLF,Canada Life,CLF group (Great-West Lifeco Inc. consolidated; Note 21(h)),2025-12-31,,net,4-5 years,4.0,5.0,869.0,lifeco_ar-2025-e.txt,9584
+CLF,Canada Life,CLF group (Great-West Lifeco Inc. consolidated; Note 21(h)),2025-12-31,,net,5-10 years,5.0,10.0,3366.0,lifeco_ar-2025-e.txt,9584
+CLF,Canada Life,CLF group (Great-West Lifeco Inc. consolidated; Note 21(h)),2025-12-31,,net,Over 10 years,10.0,,5730.0,lifeco_ar-2025-e.txt,9584
+EMP,Empire Life,Empire Life (The Empire Life Insurance Company),2025-12-31,,insurance_issued,Less than 1 year,0.0,1.0,149.369,empire_AnnualReport2025-EN-web.txt,4739
+EMP,Empire Life,Empire Life (The Empire Life Insurance Company),2025-12-31,,insurance_issued,1 - 2 years,1.0,2.0,136.119,empire_AnnualReport2025-EN-web.txt,4739
+EMP,Empire Life,Empire Life (The Empire Life Insurance Company),2025-12-31,,insurance_issued,2 - 3 years,2.0,3.0,123.277,empire_AnnualReport2025-EN-web.txt,4739
+EMP,Empire Life,Empire Life (The Empire Life Insurance Company),2025-12-31,,insurance_issued,3 - 4 years,3.0,4.0,111.126,empire_AnnualReport2025-EN-web.txt,4739
+EMP,Empire Life,Empire Life (The Empire Life Insurance Company),2025-12-31,,insurance_issued,4 - 5 years,4.0,5.0,99.871,empire_AnnualReport2025-EN-web.txt,4739
+EMP,Empire Life,Empire Life (The Empire Life Insurance Company),2025-12-31,,insurance_issued,5 - 10 years,5.0,10.0,359.697,empire_AnnualReport2025-EN-web.txt,4739
+EMP,Empire Life,Empire Life (The Empire Life Insurance Company),2025-12-31,,insurance_issued,More than 10 years,10.0,,423.424,empire_AnnualReport2025-EN-web.txt,4739
+EMP,Empire Life,Empire Life (The Empire Life Insurance Company),2025-12-31,,reinsurance_held,Less than 1 year,0.0,1.0,-7.757,empire_AnnualReport2025-EN-web.txt,5024
+EMP,Empire Life,Empire Life (The Empire Life Insurance Company),2025-12-31,,reinsurance_held,1 - 2 years,1.0,2.0,-6.789,empire_AnnualReport2025-EN-web.txt,5024
+EMP,Empire Life,Empire Life (The Empire Life Insurance Company),2025-12-31,,reinsurance_held,2 - 3 years,2.0,3.0,-5.881,empire_AnnualReport2025-EN-web.txt,5024
+EMP,Empire Life,Empire Life (The Empire Life Insurance Company),2025-12-31,,reinsurance_held,3 - 4 years,3.0,4.0,-5.026,empire_AnnualReport2025-EN-web.txt,5024
+EMP,Empire Life,Empire Life (The Empire Life Insurance Company),2025-12-31,,reinsurance_held,4 - 5 years,4.0,5.0,-4.274,empire_AnnualReport2025-EN-web.txt,5024
+EMP,Empire Life,Empire Life (The Empire Life Insurance Company),2025-12-31,,reinsurance_held,5 - 10 years,5.0,10.0,-12.393,empire_AnnualReport2025-EN-web.txt,5024
+EMP,Empire Life,Empire Life (The Empire Life Insurance Company),2025-12-31,,reinsurance_held,More than 10 years,10.0,,-6.937,empire_AnnualReport2025-EN-web.txt,5024
+EQL,Equitable,Equitable (The Equitable Life Insurance Company of Canada),2025-12-31,,insurance_issued,1 year or less,0.0,1.0,67.236,equitable_annual-report-2025.txt,2774
+EQL,Equitable,Equitable (The Equitable Life Insurance Company of Canada),2025-12-31,,insurance_issued,Over 1 year to 5 years,1.0,5.0,197.178,equitable_annual-report-2025.txt,2774
+EQL,Equitable,Equitable (The Equitable Life Insurance Company of Canada),2025-12-31,,insurance_issued,Over 5 years to 10 years,5.0,10.0,144.46,equitable_annual-report-2025.txt,2774
+EQL,Equitable,Equitable (The Equitable Life Insurance Company of Canada),2025-12-31,,insurance_issued,Over 10 years,10.0,,271.278,equitable_annual-report-2025.txt,2774
+EQL,Equitable,Equitable (The Equitable Life Insurance Company of Canada),2025-12-31,,reinsurance_held,1 year or less,0.0,1.0,-1.109,equitable_annual-report-2025.txt,2775
+EQL,Equitable,Equitable (The Equitable Life Insurance Company of Canada),2025-12-31,,reinsurance_held,Over 1 year to 5 years,1.0,5.0,-3.4,equitable_annual-report-2025.txt,2775
+EQL,Equitable,Equitable (The Equitable Life Insurance Company of Canada),2025-12-31,,reinsurance_held,Over 5 years to 10 years,5.0,10.0,-2.351,equitable_annual-report-2025.txt,2775
+EQL,Equitable,Equitable (The Equitable Life Insurance Company of Canada),2025-12-31,,reinsurance_held,Over 10 years,10.0,,-1.295,equitable_annual-report-2025.txt,2775
+EQL,Equitable,Equitable (The Equitable Life Insurance Company of Canada),2025-12-31,,total,1 year or less,0.0,1.0,66.127,equitable_annual-report-2025.txt,2776
+EQL,Equitable,Equitable (The Equitable Life Insurance Company of Canada),2025-12-31,,total,Over 1 year to 5 years,1.0,5.0,193.778,equitable_annual-report-2025.txt,2776
+EQL,Equitable,Equitable (The Equitable Life Insurance Company of Canada),2025-12-31,,total,Over 5 years to 10 years,5.0,10.0,142.109,equitable_annual-report-2025.txt,2776
+EQL,Equitable,Equitable (The Equitable Life Insurance Company of Canada),2025-12-31,,total,Over 10 years,10.0,,269.983,equitable_annual-report-2025.txt,2776
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Non-Participating life Risk,insurance_issued,1 year or less,0.0,1.0,74.149,bmo_life_insurance_company_fs_2025.md,3086
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Non-Participating life Risk,insurance_issued,1 - 2 years,1.0,2.0,68.012,bmo_life_insurance_company_fs_2025.md,3086
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Non-Participating life Risk,insurance_issued,2 - 3 years,2.0,3.0,62.386,bmo_life_insurance_company_fs_2025.md,3086
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Non-Participating life Risk,insurance_issued,3 - 4 years,3.0,4.0,57.431,bmo_life_insurance_company_fs_2025.md,3086
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Non-Participating life Risk,insurance_issued,4 - 5 years,4.0,5.0,52.765,bmo_life_insurance_company_fs_2025.md,3086
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Non-Participating life Risk,insurance_issued,5 - 10 years,5.0,10.0,204.208,bmo_life_insurance_company_fs_2025.md,3086
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Non-Participating life Risk,insurance_issued,10 - 20 years,10.0,20.0,222.061,bmo_life_insurance_company_fs_2025.md,3086
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Non-Participating life Risk,insurance_issued,More than 20 years,20.0,,163.3,bmo_life_insurance_company_fs_2025.md,3086
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Annuity contracts,insurance_issued,1 year or less,0.0,1.0,43.903,bmo_life_insurance_company_fs_2025.md,3088
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Annuity contracts,insurance_issued,1 - 2 years,1.0,2.0,41.289,bmo_life_insurance_company_fs_2025.md,3088
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Annuity contracts,insurance_issued,2 - 3 years,2.0,3.0,38.873,bmo_life_insurance_company_fs_2025.md,3088
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Annuity contracts,insurance_issued,3 - 4 years,3.0,4.0,36.392,bmo_life_insurance_company_fs_2025.md,3088
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Annuity contracts,insurance_issued,4 - 5 years,4.0,5.0,33.847,bmo_life_insurance_company_fs_2025.md,3088
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Annuity contracts,insurance_issued,5 - 10 years,5.0,10.0,134.948,bmo_life_insurance_company_fs_2025.md,3088
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Annuity contracts,insurance_issued,10 - 20 years,10.0,20.0,144.149,bmo_life_insurance_company_fs_2025.md,3088
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Annuity contracts,insurance_issued,More than 20 years,20.0,,81.227,bmo_life_insurance_company_fs_2025.md,3088
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Direct Participating Contracts - Segregated Funds,insurance_issued,1 year or less,0.0,1.0,6.744,bmo_life_insurance_company_fs_2025.md,3089
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Direct Participating Contracts - Segregated Funds,insurance_issued,1 - 2 years,1.0,2.0,6.309,bmo_life_insurance_company_fs_2025.md,3089
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Direct Participating Contracts - Segregated Funds,insurance_issued,2 - 3 years,2.0,3.0,5.873,bmo_life_insurance_company_fs_2025.md,3089
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Direct Participating Contracts - Segregated Funds,insurance_issued,3 - 4 years,3.0,4.0,5.459,bmo_life_insurance_company_fs_2025.md,3089
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Direct Participating Contracts - Segregated Funds,insurance_issued,4 - 5 years,4.0,5.0,5.018,bmo_life_insurance_company_fs_2025.md,3089
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Direct Participating Contracts - Segregated Funds,insurance_issued,5 - 10 years,5.0,10.0,18.848,bmo_life_insurance_company_fs_2025.md,3089
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Direct Participating Contracts - Segregated Funds,insurance_issued,10 - 20 years,10.0,20.0,14.816,bmo_life_insurance_company_fs_2025.md,3089
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Direct Participating Contracts - Segregated Funds,insurance_issued,More than 20 years,20.0,,5.01,bmo_life_insurance_company_fs_2025.md,3089
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,ALL PRODUCTS (unlabelled subtotal row),insurance_issued,1 year or less,0.0,1.0,124.796,bmo_life_insurance_company_fs_2025.md,3090
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,ALL PRODUCTS (unlabelled subtotal row),insurance_issued,1 - 2 years,1.0,2.0,115.61,bmo_life_insurance_company_fs_2025.md,3090
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,ALL PRODUCTS (unlabelled subtotal row),insurance_issued,2 - 3 years,2.0,3.0,107.132,bmo_life_insurance_company_fs_2025.md,3090
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,ALL PRODUCTS (unlabelled subtotal row),insurance_issued,3 - 4 years,3.0,4.0,99.282,bmo_life_insurance_company_fs_2025.md,3090
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,ALL PRODUCTS (unlabelled subtotal row),insurance_issued,4 - 5 years,4.0,5.0,91.63,bmo_life_insurance_company_fs_2025.md,3090
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,ALL PRODUCTS (unlabelled subtotal row),insurance_issued,5 - 10 years,5.0,10.0,358.004,bmo_life_insurance_company_fs_2025.md,3090
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,ALL PRODUCTS (unlabelled subtotal row),insurance_issued,10 - 20 years,10.0,20.0,381.026,bmo_life_insurance_company_fs_2025.md,3090
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,ALL PRODUCTS (unlabelled subtotal row),insurance_issued,More than 20 years,20.0,,249.537,bmo_life_insurance_company_fs_2025.md,3090
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Non-Participating life Risk,reinsurance_held,1 year or less,0.0,1.0,-34.318,bmo_life_insurance_company_fs_2025.md,3092
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Non-Participating life Risk,reinsurance_held,1 - 2 years,1.0,2.0,-31.231,bmo_life_insurance_company_fs_2025.md,3092
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Non-Participating life Risk,reinsurance_held,2 - 3 years,2.0,3.0,-28.443,bmo_life_insurance_company_fs_2025.md,3092
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Non-Participating life Risk,reinsurance_held,3 - 4 years,3.0,4.0,-26.009,bmo_life_insurance_company_fs_2025.md,3092
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Non-Participating life Risk,reinsurance_held,4 - 5 years,4.0,5.0,-23.694,bmo_life_insurance_company_fs_2025.md,3092
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Non-Participating life Risk,reinsurance_held,5 - 10 years,5.0,10.0,-89.419,bmo_life_insurance_company_fs_2025.md,3092
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Non-Participating life Risk,reinsurance_held,10 - 20 years,10.0,20.0,-91.287,bmo_life_insurance_company_fs_2025.md,3092
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Non-Participating life Risk,reinsurance_held,More than 20 years,20.0,,-50.518,bmo_life_insurance_company_fs_2025.md,3092
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Annuity contracts,reinsurance_held,1 year or less,0.0,1.0,5.25,bmo_life_insurance_company_fs_2025.md,3093
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Annuity contracts,reinsurance_held,1 - 2 years,1.0,2.0,5.53,bmo_life_insurance_company_fs_2025.md,3093
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Annuity contracts,reinsurance_held,2 - 3 years,2.0,3.0,5.122,bmo_life_insurance_company_fs_2025.md,3093
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Annuity contracts,reinsurance_held,3 - 4 years,3.0,4.0,4.735,bmo_life_insurance_company_fs_2025.md,3093
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Annuity contracts,reinsurance_held,4 - 5 years,4.0,5.0,4.365,bmo_life_insurance_company_fs_2025.md,3093
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Annuity contracts,reinsurance_held,5 - 10 years,5.0,10.0,16.919,bmo_life_insurance_company_fs_2025.md,3093
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Annuity contracts,reinsurance_held,10 - 20 years,10.0,20.0,16.364,bmo_life_insurance_company_fs_2025.md,3093
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,Annuity contracts,reinsurance_held,More than 20 years,20.0,,4.885,bmo_life_insurance_company_fs_2025.md,3093
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,ALL PRODUCTS (unlabelled subtotal row),reinsurance_held,1 year or less,0.0,1.0,-29.068,bmo_life_insurance_company_fs_2025.md,3094
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,ALL PRODUCTS (unlabelled subtotal row),reinsurance_held,1 - 2 years,1.0,2.0,-25.701,bmo_life_insurance_company_fs_2025.md,3094
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,ALL PRODUCTS (unlabelled subtotal row),reinsurance_held,2 - 3 years,2.0,3.0,-23.321,bmo_life_insurance_company_fs_2025.md,3094
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,ALL PRODUCTS (unlabelled subtotal row),reinsurance_held,3 - 4 years,3.0,4.0,-21.274,bmo_life_insurance_company_fs_2025.md,3094
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,ALL PRODUCTS (unlabelled subtotal row),reinsurance_held,4 - 5 years,4.0,5.0,-19.329,bmo_life_insurance_company_fs_2025.md,3094
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,ALL PRODUCTS (unlabelled subtotal row),reinsurance_held,5 - 10 years,5.0,10.0,-72.5,bmo_life_insurance_company_fs_2025.md,3094
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,ALL PRODUCTS (unlabelled subtotal row),reinsurance_held,10 - 20 years,10.0,20.0,-74.923,bmo_life_insurance_company_fs_2025.md,3094
+BMO,BMO Life,"BMO Life Insurance Company (Oct 31, 2025 fiscal year-end)",2025-10-31,ALL PRODUCTS (unlabelled subtotal row),reinsurance_held,More than 20 years,20.0,,-45.633,bmo_life_insurance_company_fs_2025.md,3094
+IVA,ivari,ivari,2025-12-31,,insurance_issued,1 year or less,0.0,1.0,85.7,ivari_annual_report_CS124.md,3206
+IVA,ivari,ivari,2025-12-31,,insurance_issued,1 – 2 years,1.0,2.0,78.6,ivari_annual_report_CS124.md,3206
+IVA,ivari,ivari,2025-12-31,,insurance_issued,2 – 3 years,2.0,3.0,71.9,ivari_annual_report_CS124.md,3206
+IVA,ivari,ivari,2025-12-31,,insurance_issued,3 – 4 years,3.0,4.0,65.7,ivari_annual_report_CS124.md,3206
+IVA,ivari,ivari,2025-12-31,,insurance_issued,4 – 5 years,4.0,5.0,59.9,ivari_annual_report_CS124.md,3206
+IVA,ivari,ivari,2025-12-31,,insurance_issued,5 – 10 years,5.0,10.0,228.4,ivari_annual_report_CS124.md,3206
+IVA,ivari,ivari,2025-12-31,,insurance_issued,More than 10 years,10.0,,352.5,ivari_annual_report_CS124.md,3206
+IVA,ivari,ivari,2025-12-31,,reinsurance_held,1 year or less,0.0,1.0,-14.6,ivari_annual_report_CS124.md,3214
+IVA,ivari,ivari,2025-12-31,,reinsurance_held,1 – 2 years,1.0,2.0,-13.6,ivari_annual_report_CS124.md,3214
+IVA,ivari,ivari,2025-12-31,,reinsurance_held,2 – 3 years,2.0,3.0,-12.6,ivari_annual_report_CS124.md,3214
+IVA,ivari,ivari,2025-12-31,,reinsurance_held,3 – 4 years,3.0,4.0,-11.7,ivari_annual_report_CS124.md,3214
+IVA,ivari,ivari,2025-12-31,,reinsurance_held,4 – 5 years,4.0,5.0,-10.7,ivari_annual_report_CS124.md,3214
+IVA,ivari,ivari,2025-12-31,,reinsurance_held,5 – 10 years,5.0,10.0,-42.6,ivari_annual_report_CS124.md,3214
+IVA,ivari,ivari,2025-12-31,,reinsurance_held,More than 10 years,10.0,,-87.2,ivari_annual_report_CS124.md,3214
+IOF,Foresters Life,Foresters Life (Foresters Life Insurance Company),2025-12-31,,insurance_issued,1 year or less,0.0,1.0,9.552,foresters_2025-flic-financial-statements.txt,3279
+IOF,Foresters Life,Foresters Life (Foresters Life Insurance Company),2025-12-31,,insurance_issued,1 - 2 years,1.0,2.0,8.637,foresters_2025-flic-financial-statements.txt,3279
+IOF,Foresters Life,Foresters Life (Foresters Life Insurance Company),2025-12-31,,insurance_issued,2 - 5 years,2.0,5.0,21.41,foresters_2025-flic-financial-statements.txt,3279
+IOF,Foresters Life,Foresters Life (Foresters Life Insurance Company),2025-12-31,,insurance_issued,5 - 10 years,5.0,10.0,25.2,foresters_2025-flic-financial-statements.txt,3279
+IOF,Foresters Life,Foresters Life (Foresters Life Insurance Company),2025-12-31,,insurance_issued,over 10 years,10.0,,42.034,foresters_2025-flic-financial-statements.txt,3279
+IOF,Foresters Life,Foresters Life (Foresters Life Insurance Company),2025-12-31,,reinsurance_held,1 year or less,0.0,1.0,-0.817,foresters_2025-flic-financial-statements.txt,3283
+IOF,Foresters Life,Foresters Life (Foresters Life Insurance Company),2025-12-31,,reinsurance_held,1 - 2 years,1.0,2.0,-0.874,foresters_2025-flic-financial-statements.txt,3283
+IOF,Foresters Life,Foresters Life (Foresters Life Insurance Company),2025-12-31,,reinsurance_held,2 - 5 years,2.0,5.0,-2.887,foresters_2025-flic-financial-statements.txt,3283
+IOF,Foresters Life,Foresters Life (Foresters Life Insurance Company),2025-12-31,,reinsurance_held,5 - 10 years,5.0,10.0,-3.046,foresters_2025-flic-financial-statements.txt,3283
+IOF,Foresters Life,Foresters Life (Foresters Life Insurance Company),2025-12-31,,reinsurance_held,over 10 years,10.0,,-20.063,foresters_2025-flic-financial-statements.txt,3283
+IAG,iA,"iA consolidated, insurance contracts issued",2025-12-31,,net,0-1,0.0,1.0,746.0,"iA 2025 FS note 13 D), expected recognition of the CSM",
+IAG,iA,"iA consolidated, insurance contracts issued",2025-12-31,,net,1-5,1.0,5.0,2214.0,"iA 2025 FS note 13 D), expected recognition of the CSM",
+IAG,iA,"iA consolidated, insurance contracts issued",2025-12-31,,net,5-10,5.0,10.0,1805.0,"iA 2025 FS note 13 D), expected recognition of the CSM",
+IAG,iA,"iA consolidated, insurance contracts issued",2025-12-31,,net,over 10,10.0,,2423.0,"iA 2025 FS note 13 D), expected recognition of the CSM",
+BEN,Beneva,"Beneva consolidated, insurance contracts issued",2025-12-31,,net,0-1,0.0,1,111.3,"Beneva 2025 AR note 18, timing of expected CSM recognition",
+BEN,Beneva,"Beneva consolidated, insurance contracts issued",2025-12-31,,net,1-5,1.0,5,223.4,"Beneva 2025 AR note 18, timing of expected CSM recognition",
+BEN,Beneva,"Beneva consolidated, insurance contracts issued",2025-12-31,,net,5-10,5.0,10,194.4,"Beneva 2025 AR note 18, timing of expected CSM recognition",
+BEN,Beneva,"Beneva consolidated, insurance contracts issued",2025-12-31,,net,over 10,10.0,,349.8,"Beneva 2025 AR note 18, timing of expected CSM recognition",
+DFS,Desjardins,"Desjardins life and health subsidiary, insurance contracts issued",2025-12-31,,insurance_issued,0-1,0.0,1,193.0,"Desjardins Group 2025 combined FS, CSM recognition table",
+DFS,Desjardins,"Desjardins life and health subsidiary, insurance contracts issued",2025-12-31,,insurance_issued,1-2,1.0,2,179.0,"Desjardins Group 2025 combined FS, CSM recognition table",
+DFS,Desjardins,"Desjardins life and health subsidiary, insurance contracts issued",2025-12-31,,insurance_issued,2-3,2.0,3,166.0,"Desjardins Group 2025 combined FS, CSM recognition table",
+DFS,Desjardins,"Desjardins life and health subsidiary, insurance contracts issued",2025-12-31,,insurance_issued,3-4,3.0,4,154.0,"Desjardins Group 2025 combined FS, CSM recognition table",
+DFS,Desjardins,"Desjardins life and health subsidiary, insurance contracts issued",2025-12-31,,insurance_issued,4-5,4.0,5,143.0,"Desjardins Group 2025 combined FS, CSM recognition table",
+DFS,Desjardins,"Desjardins life and health subsidiary, insurance contracts issued",2025-12-31,,insurance_issued,5-10,5.0,10,571.0,"Desjardins Group 2025 combined FS, CSM recognition table",
+DFS,Desjardins,"Desjardins life and health subsidiary, insurance contracts issued",2025-12-31,,insurance_issued,over 10,10.0,,1193.0,"Desjardins Group 2025 combined FS, CSM recognition table",
