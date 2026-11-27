@@ -3,8 +3,10 @@ name: Empire Life
 anchor: President & CEO of The Empire Life Insurance Company (parent E-L Financial)
 src: a | Empire Life, Our Leadership page | https://www.empire.ca/about-us/our-leadership
 src: b | Empire Life Investments, Investment team page | https://www.empirelifeinvestments.ca/investment-team
+src: c | Munich Re, Canada (Life) release (2026-11-10): Rebecca Rycroft, Empire Life's CFO since 2021, named its CFO from 2027-01-04 | https://www.insurancebusinessmag.com/ca/news/life-insurance/munich-re-names-returning-cfo-as-canadian-life-reinsurance-grows-596971.aspx
+src: d | Empire Life 2025 Annual Report: Appointed Actuary's Report signed by Will Featherstonhaugh; risk governance section names a Chief Risk Officer role without naming the person | https://www.empire.ca/sites/default/files/2026-04/AnnualReport2025-EN-web.pdf
 L1 | Mark Sylvia | President & Chief Executive Officer | H | a
-L2 | Rebecca Rycroft | SVP & Chief Financial Officer | H | a
+L2 | Scott Ewert | SVP & Chief Financial Officer (also VP & CFO, E-L Financial) | H | a,c
 L2 | Paul Holba | SVP & Chief Investment Officer (President & CIO, Empire Life Investments) | H | a,b
 L3 | Geoff Johnston | Leads Fixed Income & Private Placements team | H | b | ~
 L3 | Albert Ngo | Senior PM & Head of Alternative Assets | H | b | ~
@@ -18,3 +20,4 @@ L2 | Mark Rogers | SVP, Corporate Development | H | a
 L2 | Gillian Purvis | SVP & General Counsel (from 2026-02-01) | H | a
 L2 | Richard Carty | SVP, Human Resources (also VP & GC, E-L Financial) | H | a
 note: The leadership page lists eight SVPs and no Chief Risk Officer. The CIO's team is from the Empire Life Investments team page, which gives roles but not reporting lines, so all are dashed. Teams under the other SVPs are not published.
+note: Refresh of 2026-11-27: the leadership page now shows Scott Ewert as SVP & CFO in place of Rebecca Rycroft, who returns to Munich Re, Canada (Life) as CFO on 2027-01-04. The page still lists no Chief Risk Officer or Chief Actuary, although the 2025 Annual Report describes a Chief Risk Officer who sits on the Asset Management Committee.

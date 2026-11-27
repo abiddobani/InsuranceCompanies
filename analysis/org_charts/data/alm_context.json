@@ -1,0 +1,583 @@
+{
+ "assumption_life": {
+  "basis": "Not in the ALM repo: no OSFI returns and no peer view built",
+  "regulator": "New Brunswick (not in OSFI open data)",
+  "short_id": null,
+  "tier": "Outside the ALM repo"
+ },
+ "beneva": {
+  "basis": "ALM repo peer view (peer_summary_2025q4.csv)",
+  "buffer_pct": null,
+  "capital_basis": "CARLI / solvency ratio (AMF; not LICAT)",
+  "capital_pct": 163.0,
+  "csm_abl_bn": null,
+  "financing_pct": 7.340988833923473,
+  "genacct_bn": 10.27,
+  "genacct_bn_rank": [
+   7,
+   13
+  ],
+  "par_bn": 0.0,
+  "par_pct": 0.0,
+  "period_end_date": "2025-12-31",
+  "regulator": "AMF",
+  "reinsurance_pct": 18.83563695498199,
+  "repos_bn": 0.74,
+  "seg_bn": 7.07,
+  "short_id": "BEN",
+  "surplus_bn": 3.98,
+  "tier": "Non-Big 3"
+ },
+ "bmo_life": {
+  "basis": "ALM repo peer view (peer_summary_2025q4.csv)",
+  "buffer_pct": 15.842366661024075,
+  "buffer_pct_rank": [
+   8,
+   11
+  ],
+  "capital_basis": "LICAT total",
+  "capital_pct": 132.87,
+  "capital_pct_rank": [
+   10,
+   13
+  ],
+  "core_mix_pct": {
+   "Group annuity": 43.9,
+   "Group insurance": 0.2,
+   "Individual annuity": 22.4,
+   "Individual insurance": 33.5
+  },
+  "core_total_bn": 13.95,
+  "csm_abl_bn": 1.14,
+  "financing_pct": 0.5077045319212156,
+  "genacct_bn": 14.12,
+  "genacct_bn_rank": [
+   6,
+   13
+  ],
+  "par_bn": 0.0,
+  "par_pct": 0.0,
+  "period_end_date": "2025-10-31",
+  "regulator": "OSFI",
+  "reinsurance_pct": 21.77813194603179,
+  "repos_bn": 0.0,
+  "seg_bn": 2.14,
+  "short_id": "BMO",
+  "surplus_bn": 1.3,
+  "tier": "Bank-owned"
+ },
+ "canada_life": {
+  "basis": "ALM repo peer view (peer_summary_2025q4.csv)",
+  "buffer_pct": 11.654805374699329,
+  "buffer_pct_rank": [
+   10,
+   11
+  ],
+  "capital_basis": "LICAT total",
+  "capital_pct": 127.66,
+  "capital_pct_rank": [
+   13,
+   13
+  ],
+  "core_mix_pct": {
+   "Group annuity": 16.7,
+   "Group insurance": 32.8,
+   "Individual annuity": 8.5,
+   "Individual insurance": 42.0
+  },
+  "core_total_bn": 29.25,
+  "csm_abl_bn": 0.51,
+  "financing_pct": 3.1435856521016032,
+  "genacct_bn": 26.31,
+  "genacct_bn_rank": [
+   4,
+   13
+  ],
+  "par_bn": 64.12,
+  "par_pct": 70.90902841626587,
+  "period_end_date": "2025-12-31",
+  "regulator": "OSFI",
+  "reinsurance_pct": 4.651593707789686,
+  "repos_bn": 0.0,
+  "seg_bn": 121.75,
+  "short_id": "CLF",
+  "surplus_bn": 2.69,
+  "tier": "Big 3"
+ },
+ "canada_protection_plan": {
+  "basis": "ALM repo peer view (peer_summary_2025q4.csv)",
+  "buffer_pct": 45.78000244463919,
+  "buffer_pct_rank": [
+   2,
+   11
+  ],
+  "capital_basis": "LICAT total",
+  "capital_pct": 207.87,
+  "capital_pct_rank": [
+   1,
+   13
+  ],
+  "core_mix_pct": {
+   "Group annuity": 67.3,
+   "Group insurance": 0.9,
+   "Individual annuity": 0.1,
+   "Individual insurance": 31.7
+  },
+  "core_total_bn": 0.48,
+  "csm_abl_bn": 0.08,
+  "financing_pct": 0.0,
+  "genacct_bn": 0.75,
+  "genacct_bn_rank": [
+   12,
+   13
+  ],
+  "note": "Figures are Foresters Life (IOF), which underwrites Canada Protection Plan policies",
+  "par_bn": 0.07,
+  "par_pct": 8.116759538460753,
+  "period_end_date": "2025-12-31",
+  "regulator": "OSFI",
+  "reinsurance_pct": 122.00199688692864,
+  "repos_bn": 0.0,
+  "seg_bn": 0.01,
+  "short_id": "IOF",
+  "surplus_bn": 0.27,
+  "tier": "Non-Big 3"
+ },
+ "canadian_premier": {
+  "basis": "OSFI headline figures from the ALM repo's universe file (universe_2025q4.csv); no peer view built",
+  "capital_basis": "LICAT total",
+  "capital_pct": 163.9,
+  "capital_pct_rank": [
+   4,
+   13
+  ],
+  "entity": "Canadian Premier Life Insurance Company",
+  "equity_bn": 0.29,
+  "icl_bn": 0.57,
+  "investments_bn": 0.73,
+  "period_end_date": "2025-12-31",
+  "regulator": "OSFI",
+  "seg_bn": null,
+  "short_id": null,
+  "tier": "Non-Big 3, outside the peer views",
+  "total_assets_bn": 1.07
+ },
+ "cooperators_life": {
+  "basis": "ALM repo peer view (peer_summary_2025q4.csv)",
+  "buffer_pct": 25.51329209488817,
+  "buffer_pct_rank": [
+   5,
+   11
+  ],
+  "capital_basis": "LICAT total",
+  "capital_pct": 159.63,
+  "capital_pct_rank": [
+   5,
+   13
+  ],
+  "core_mix_pct": {
+   "Group annuity": 21.1,
+   "Group insurance": 27.9,
+   "Individual annuity": 3.4,
+   "Individual insurance": 47.6
+  },
+  "core_total_bn": 2.16,
+  "csm_abl_bn": 0.11,
+  "financing_pct": 0.0,
+  "genacct_bn": 2.31,
+  "genacct_bn_rank": [
+   10,
+   13
+  ],
+  "par_bn": 2.77,
+  "par_pct": 54.48333982354492,
+  "period_end_date": "2025-12-31",
+  "regulator": "OSFI",
+  "reinsurance_pct": 26.509734346556304,
+  "repos_bn": 0.0,
+  "seg_bn": 4.36,
+  "short_id": "COP",
+  "surplus_bn": 0.48,
+  "tier": "Non-Big 3"
+ },
+ "desjardins": {
+  "basis": "ALM repo liabilities view only (dfs_liabilities_2025q4.csv): no public stand-alone balance sheet (L42)",
+  "buffer_pct": null,
+  "capital_basis": "not public (L42)",
+  "capital_pct": null,
+  "csm_abl_bn": null,
+  "csm_total_bn": 2.38,
+  "fcf_est_bn": 20.02,
+  "financing_pct": null,
+  "genacct_bn": null,
+  "icl_bn": 26.91,
+  "par_bn": null,
+  "par_pct": null,
+  "period_end_date": "2025-12-31",
+  "regulator": "AMF",
+  "reinsurance_pct": null,
+  "repos_bn": null,
+  "seg_bn": null,
+  "short_id": "DFS",
+  "surplus_bn": null,
+  "tier": "Non-Big 3"
+ },
+ "empire_life": {
+  "basis": "ALM repo peer view (peer_summary_2025q4.csv)",
+  "buffer_pct": 30.66701451794161,
+  "buffer_pct_rank": [
+   4,
+   11
+  ],
+  "capital_basis": "LICAT total",
+  "capital_pct": 153.04,
+  "capital_pct_rank": [
+   7,
+   13
+  ],
+  "core_mix_pct": {
+   "Group annuity": 0.6,
+   "Group insurance": 5.2,
+   "Individual annuity": 7.3,
+   "Individual insurance": 86.9
+  },
+  "core_total_bn": 5.49,
+  "csm_abl_bn": 0.47,
+  "financing_pct": 5.100358365750063,
+  "genacct_bn": 7.83,
+  "genacct_bn_rank": [
+   8,
+   13
+  ],
+  "par_bn": 1.31,
+  "par_pct": 14.355722132177851,
+  "period_end_date": "2025-12-31",
+  "regulator": "OSFI",
+  "reinsurance_pct": 4.169334996984366,
+  "repos_bn": 0.0,
+  "seg_bn": 10.22,
+  "short_id": "EMP",
+  "surplus_bn": 1.96,
+  "tier": "Non-Big 3"
+ },
+ "equitable_life": {
+  "basis": "ALM repo peer view (peer_summary_2025q4.csv)",
+  "buffer_pct": 46.34172022370106,
+  "buffer_pct_rank": [
+   1,
+   11
+  ],
+  "capital_basis": "LICAT total",
+  "capital_pct": 158.98,
+  "capital_pct_rank": [
+   6,
+   13
+  ],
+  "core_mix_pct": {
+   "Group annuity": 16.0,
+   "Group insurance": 26.4,
+   "Individual annuity": 31.9,
+   "Individual insurance": 25.6
+  },
+  "core_total_bn": 0.92,
+  "csm_abl_bn": 0.11,
+  "financing_pct": 0.5930794864694415,
+  "genacct_bn": 1.81,
+  "genacct_bn_rank": [
+   11,
+   13
+  ],
+  "par_bn": 5.22,
+  "par_pct": 74.25382086919349,
+  "period_end_date": "2025-12-31",
+  "regulator": "OSFI",
+  "reinsurance_pct": 25.274361444637716,
+  "repos_bn": 0.0,
+  "seg_bn": 4.63,
+  "short_id": "EQL",
+  "surplus_bn": 0.71,
+  "tier": "Non-Big 3"
+ },
+ "foresters_life": {
+  "basis": "ALM repo peer view (peer_summary_2025q4.csv)",
+  "buffer_pct": 45.78000244463919,
+  "buffer_pct_rank": [
+   2,
+   11
+  ],
+  "capital_basis": "LICAT total",
+  "capital_pct": 207.87,
+  "capital_pct_rank": [
+   1,
+   13
+  ],
+  "core_mix_pct": {
+   "Group annuity": 67.3,
+   "Group insurance": 0.9,
+   "Individual annuity": 0.1,
+   "Individual insurance": 31.7
+  },
+  "core_total_bn": 0.48,
+  "csm_abl_bn": 0.08,
+  "financing_pct": 0.0,
+  "genacct_bn": 0.75,
+  "genacct_bn_rank": [
+   12,
+   13
+  ],
+  "par_bn": 0.07,
+  "par_pct": 8.116759538460753,
+  "period_end_date": "2025-12-31",
+  "regulator": "OSFI",
+  "reinsurance_pct": 122.00199688692864,
+  "repos_bn": 0.0,
+  "seg_bn": 0.01,
+  "short_id": "IOF",
+  "surplus_bn": 0.27,
+  "tier": "Non-Big 3"
+ },
+ "humania": {
+  "basis": "Not in the ALM repo: no OSFI returns and no peer view built",
+  "regulator": "AMF",
+  "short_id": null,
+  "tier": "Outside the ALM repo"
+ },
+ "ia": {
+  "basis": "ALM repo peer view (peer_summary_2025q4.csv)",
+  "buffer_pct": null,
+  "capital_basis": "CARLI / solvency ratio (AMF; not LICAT)",
+  "capital_pct": 133.0,
+  "csm_abl_bn": null,
+  "financing_pct": 7.833425549475898,
+  "genacct_bn": 37.58,
+  "genacct_bn_rank": [
+   3,
+   13
+  ],
+  "par_bn": 0.0,
+  "par_pct": 0.0,
+  "period_end_date": "2025-12-31",
+  "regulator": "AMF",
+  "reinsurance_pct": 2.1845252636276196,
+  "repos_bn": 0.99,
+  "seg_bn": 63.05,
+  "short_id": "IAG",
+  "surplus_bn": 1.59,
+  "tier": "Non-Big 3"
+ },
+ "ivari": {
+  "basis": "ALM repo peer view (peer_summary_2025q4.csv)",
+  "buffer_pct": 23.79110091791031,
+  "buffer_pct_rank": [
+   6,
+   11
+  ],
+  "capital_basis": "LICAT total",
+  "capital_pct": 129.2,
+  "capital_pct_rank": [
+   12,
+   13
+  ],
+  "core_mix_pct": {
+   "Group annuity": 0.0,
+   "Group insurance": 0.0,
+   "Individual annuity": 1.9,
+   "Individual insurance": 98.1
+  },
+  "core_total_bn": 9.11,
+  "csm_abl_bn": 0.72,
+  "financing_pct": 12.58119628504757,
+  "genacct_bn": 7.5,
+  "genacct_bn_rank": [
+   9,
+   13
+  ],
+  "par_bn": 0.0,
+  "par_pct": 0.0,
+  "period_end_date": "2025-12-31",
+  "regulator": "OSFI",
+  "reinsurance_pct": 39.60430345974602,
+  "repos_bn": 0.0,
+  "seg_bn": 0.66,
+  "short_id": "IVA",
+  "surplus_bn": 1.07,
+  "tier": "Non-Big 3"
+ },
+ "manulife": {
+  "basis": "ALM repo peer view (peer_summary_2025q4.csv)",
+  "buffer_pct": 4.134212497524816,
+  "buffer_pct_rank": [
+   11,
+   11
+  ],
+  "capital_basis": "LICAT total",
+  "capital_pct": 135.57,
+  "capital_pct_rank": [
+   9,
+   13
+  ],
+  "core_mix_pct": {
+   "Group annuity": 4.4,
+   "Group insurance": 21.1,
+   "Individual annuity": 7.7,
+   "Individual insurance": 66.8
+  },
+  "core_total_bn": 60.61,
+  "csm_abl_bn": 2.87,
+  "financing_pct": 0.0,
+  "genacct_bn": 65.58,
+  "genacct_bn_rank": [
+   2,
+   13
+  ],
+  "par_bn": 17.53,
+  "par_pct": 21.09163658727781,
+  "period_end_date": "2025-12-31",
+  "regulator": "OSFI",
+  "reinsurance_pct": 10.001233089314663,
+  "repos_bn": 0.0,
+  "seg_bn": 159.92,
+  "short_id": "MFC",
+  "surplus_bn": 2.49,
+  "tier": "Big 3"
+ },
+ "primerica_life": {
+  "basis": "OSFI headline figures from the ALM repo's universe file (universe_2025q4.csv); no peer view built",
+  "capital_basis": "LICAT total",
+  "capital_pct": 194.3,
+  "capital_pct_rank": [
+   2,
+   13
+  ],
+  "entity": "Primerica Life Insurance Company of Canada",
+  "equity_bn": 0.73,
+  "icl_bn": 3.34,
+  "investments_bn": 0.43,
+  "period_end_date": "2025-12-31",
+  "regulator": "OSFI",
+  "seg_bn": 3.13,
+  "short_id": null,
+  "tier": "Non-Big 3, outside the peer views",
+  "total_assets_bn": 4.1
+ },
+ "rbc_life": {
+  "basis": "ALM repo peer view (peer_summary_2025q4.csv)",
+  "buffer_pct": 17.520052044544887,
+  "buffer_pct_rank": [
+   7,
+   11
+  ],
+  "capital_basis": "LICAT total",
+  "capital_pct": 132.0,
+  "capital_pct_rank": [
+   11,
+   13
+  ],
+  "core_mix_pct": {
+   "Group annuity": 41.0,
+   "Group insurance": 4.9,
+   "Individual annuity": 3.3,
+   "Individual insurance": 50.9
+  },
+  "core_total_bn": 18.51,
+  "csm_abl_bn": 0.92,
+  "financing_pct": 16.027101278561968,
+  "genacct_bn": 22.62,
+  "genacct_bn_rank": [
+   5,
+   13
+  ],
+  "par_bn": 0.3,
+  "par_pct": 1.2897641008669263,
+  "period_end_date": "2025-10-31",
+  "regulator": "OSFI",
+  "reinsurance_pct": 7.8396009608168935,
+  "repos_bn": 3.63,
+  "seg_bn": 3.95,
+  "short_id": "RBC",
+  "surplus_bn": 2.49,
+  "tier": "Bank-owned"
+ },
+ "sun_life": {
+  "basis": "ALM repo peer view (peer_summary_2025q4.csv)",
+  "buffer_pct": 12.430015051276044,
+  "buffer_pct_rank": [
+   9,
+   11
+  ],
+  "capital_basis": "LICAT total",
+  "capital_pct": 139.63,
+  "capital_pct_rank": [
+   8,
+   13
+  ],
+  "core_mix_pct": {
+   "Group annuity": 34.0,
+   "Group insurance": 24.9,
+   "Individual annuity": 10.9,
+   "Individual insurance": 30.2
+  },
+  "core_total_bn": 56.16,
+  "csm_abl_bn": 2.66,
+  "financing_pct": 7.791544103489372,
+  "genacct_bn": 66.37,
+  "genacct_bn_rank": [
+   1,
+   13
+  ],
+  "par_bn": 36.69,
+  "par_pct": 35.59842907077834,
+  "period_end_date": "2025-12-31",
+  "regulator": "OSFI",
+  "reinsurance_pct": 2.44841821105827,
+  "repos_bn": 2.86,
+  "seg_bn": 159.0,
+  "short_id": "SLF",
+  "surplus_bn": 5.87,
+  "tier": "Big 3"
+ },
+ "uv_insurance": {
+  "basis": "Not in the ALM repo: no OSFI returns and no peer view built",
+  "regulator": "AMF",
+  "short_id": null,
+  "tier": "Outside the ALM repo"
+ },
+ "wawanesa_life": {
+  "basis": "ALM repo peer view (peer_summary_2025q4.csv)",
+  "buffer_pct": 42.36582225238344,
+  "buffer_pct_rank": [
+   3,
+   11
+  ],
+  "capital_basis": "LICAT total",
+  "capital_pct": 166.61,
+  "capital_pct_rank": [
+   3,
+   13
+  ],
+  "core_mix_pct": {
+   "Group annuity": 0.0,
+   "Group insurance": 21.3,
+   "Individual annuity": 22.5,
+   "Individual insurance": 56.2
+  },
+  "core_total_bn": 0.6,
+  "csm_abl_bn": 0.04,
+  "financing_pct": 0.0,
+  "genacct_bn": 0.66,
+  "genacct_bn_rank": [
+   13,
+   13
+  ],
+  "par_bn": 0.46,
+  "par_pct": 40.87459054456566,
+  "period_end_date": "2025-12-31",
+  "regulator": "OSFI",
+  "reinsurance_pct": 25.88607029846658,
+  "repos_bn": 0.0,
+  "seg_bn": 0.67,
+  "short_id": "WAW",
+  "surplus_bn": 0.24,
+  "tier": "Non-Big 3"
+ }
+}

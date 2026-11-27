@@ -15,11 +15,13 @@ src: k | Wealth Professional (2026-08): Brett Marchand, President & CEO Manulife
 src: l | Manulife WAM release: Fabio Fontainha Head of Wealth & Asset Management, Asia | https://www.manulifeim.com.hk/en/about-us/press-releases/manulife-wealth-and-asset-management-appoints-fabio-fontainha-head-of-asia.html
 src: m | John Hancock release (2024): Hector Martinez Head of Insurance | https://prnewswire.com/news-releases/john-hancock-names-industry-veteran-hector-martinez-head-of-insurance-302188380.html
 src: n | Manulife Annual Information Form (Feb 2026): Trevor Kreel, CIO, oversees all general account investments | https://www.sec.gov/Archives/edgar/data/1086888/000108688826000003/aiffebruary2026.htm
+src: o | Manulife release (2026-10-08): Sinéad O'Connor appointed Chief Actuary effective 2026-10-12, reporting to the CEO; Derek Houle continues as Appointed Actuary | https://finviz.com/news/400487/manulife-appoints-sinead-oconnor-as-chief-actuary-joining-executive-leadership-team
 L1 | Phil Witherington | President & Chief Executive Officer | H | a
 L2 | Colin Simpson | Chief Financial Officer | H | a
 L2 | Halina von dem Hagen | Chief Risk Officer | H | a
 L2 | Trevor Kreel | Chief Investment Officer | H | a,n
-L2 | Stephanie Fadous | Chief Actuary (adds Inforce Management & Reinsurance) | H | a,b
+L2 | Sinéad O'Connor | Chief Actuary (from 2026-10-12; reports to the CEO) | H | o
+L3 | Derek Houle | Appointed Actuary (continues until the Chief Actuary completes Canadian accreditation) | H | o | ~
 L2 | Mike Coyne | General Counsel | H | a,d
 L2 | Pragashini Fox | Chief People Officer | H | a
 L2 | Rahim Hirji | Chief Auditor & Head of Advisory Services | H | a
@@ -41,3 +43,4 @@ L3 | Anne Valentine Andrews | Global Head of Private Markets | H | j
 L3 | Brett Marchand | President & CEO, Manulife Wealth | L | k | ~
 L3 | Fabio Fontainha | Head of Wealth & Asset Management, Asia | L | l | ~
 note: Executive Leadership Team = 2026 circular list (as of 2026-03-01) updated for the 2026-05-21 changes: Naveed Irshad (Manulife Canada) left and Rahul Joshi (COO) retired; Patrick Graham and Jodie Wallis joined from 2026-07-01. manulife.com, manulife.ca and manulifeim.com return HTTP 403 to automated fetches, so the company's own leadership page could not be read; the circular and Manulife's releases stand in for it. No one reporting to CIO Trevor Kreel is named publicly; the GA's public and private markets teams sit in Global WAM under Paul Lorentz.
+note: Refresh of 2026-11-27: Sinéad O'Connor succeeded Stephanie Fadous as Chief Actuary on 2026-10-12 (the release says Ms Fadous died in September 2026). The 6 November version of this chart still showed Ms Fadous. The release does not say whom the Appointed Actuary reports to, so that line is dashed.
