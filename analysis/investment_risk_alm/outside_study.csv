@@ -1,0 +1,7 @@
+company,regulator,capital_ratio_pct,capital_basis,note
+Canadian Premier Life,OSFI,,LICAT total (OSFI filing),"In the ALM repo's OSFI universe but outside its 15-insurer peer set; mostly group and creditor business"
+Primerica Life,OSFI,,LICAT total (OSFI filing),"In the ALM repo's OSFI universe but outside its peer set; term life with a large segregated fund book"
+Assumption Life,FCNB,167,"Solvency ratio, Dec 31, 2025 (earlier benchmark)","New Brunswick regulated; no OSFI or AMF filing in the ALM repo, so only the published ratio is carried"
+Humania,AMF,185,"CARLI solvency ratio, Dec 31, 2024 (earlier benchmark)","AMF regulated; no life-company return in the ALM repo"
+UV Insurance,AMF,,Not published,"AMF regulated; no capital ratio or return in the ALM repo"
+Canada Protection Plan,OSFI,,Reports inside Foresters Life,"Not a separate filer; its business sits in the Foresters Life row"

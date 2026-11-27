@@ -1,0 +1,109 @@
+id,company,l1,l2,l3,nonpar_mm,share_pct,basis
+RBC,RBC Life,Internally Managed,Cash & Cash Equivalent,Cash Equivalent,17.0,0.1,entity = Canada
+RBC,RBC Life,Internally Managed,Public Fixed Income,Government Bonds,9158.0,40.2,entity = Canada
+RBC,RBC Life,Internally Managed,Public Fixed Income,Corporate Bonds,7589.0,33.3,entity = Canada
+RBC,RBC Life,Internally Managed,Private Fixed Income,Commercial Mortgages,1836.0,8.1,entity = Canada
+RBC,RBC Life,Internally Managed,Private Fixed Income,Illiquid Term Loan,2571.0,11.3,entity = Canada
+RBC,RBC Life,Internally Managed,Public Equity,Common Shares,1007.0,4.4,entity = Canada
+RBC,RBC Life,Internally Managed,Public Equity,Preferred Shares,16.0,0.1,entity = Canada
+RBC,RBC Life,Externally Managed,Equity (real estate),Real Estate Equity,0.0,0.0,entity = Canada
+RBC,RBC Life,Unclassified,Other / unclassified,Other invested (unclassified),561.0,2.5,entity = Canada
+BMO,BMO Life,Internally Managed,Cash & Cash Equivalent,Cash Equivalent,1081.0,7.7,entity = Canada
+BMO,BMO Life,Internally Managed,Public Fixed Income,Government Bonds,2349.0,16.6,entity = Canada
+BMO,BMO Life,Internally Managed,Public Fixed Income,Corporate Bonds,8569.0,60.7,entity = Canada
+BMO,BMO Life,Internally Managed,Private Fixed Income,Commercial Mortgages,313.0,2.2,entity = Canada
+BMO,BMO Life,Internally Managed,Private Fixed Income,Illiquid Term Loan,96.0,0.7,entity = Canada
+BMO,BMO Life,Internally Managed,Public Equity,Common Shares,128.0,0.9,entity = Canada
+BMO,BMO Life,Internally Managed,Public Equity,Preferred Shares,0.0,0.0,entity = Canada
+BMO,BMO Life,Externally Managed,Equity (real estate),Real Estate Equity,1440.0,10.2,entity = Canada
+BMO,BMO Life,Unclassified,Other / unclassified,Other invested (unclassified),140.0,1.0,entity = Canada
+MFC,Manulife,Internally Managed,Cash & Cash Equivalent,Cash Equivalent,1748.0,2.7,Big 3: entity (global) mix applied to Canada (user rule)
+MFC,Manulife,Internally Managed,Public Fixed Income,Government Bonds,13580.0,20.7,Big 3: entity (global) mix applied to Canada (user rule)
+MFC,Manulife,Internally Managed,Public Fixed Income,Corporate Bonds,20230.0,30.8,Big 3: entity (global) mix applied to Canada (user rule)
+MFC,Manulife,Internally Managed,Private Fixed Income,Commercial Mortgages,8841.0,13.5,Big 3: entity (global) mix applied to Canada (user rule)
+MFC,Manulife,Internally Managed,Private Fixed Income,Illiquid Term Loan,7348.0,11.2,Big 3: entity (global) mix applied to Canada (user rule)
+MFC,Manulife,Internally Managed,Public Equity,Common Shares,5539.0,8.4,Big 3: entity (global) mix applied to Canada (user rule)
+MFC,Manulife,Internally Managed,Public Equity,Preferred Shares,0.0,0.0,Big 3: entity (global) mix applied to Canada (user rule)
+MFC,Manulife,Externally Managed,Equity (real estate),Real Estate Equity,1556.0,2.4,Big 3: entity (global) mix applied to Canada (user rule)
+MFC,Manulife,Unclassified,Other / unclassified,Other invested (unclassified),6734.0,10.3,Big 3: entity (global) mix applied to Canada (user rule)
+SLF,Sun Life,Internally Managed,Cash & Cash Equivalent,Cash Equivalent,1629.0,2.5,Big 3: entity (global) mix applied to Canada (user rule)
+SLF,Sun Life,Internally Managed,Public Fixed Income,Government Bonds,16273.0,24.5,Big 3: entity (global) mix applied to Canada (user rule)
+SLF,Sun Life,Internally Managed,Public Fixed Income,Corporate Bonds,13569.0,20.4,Big 3: entity (global) mix applied to Canada (user rule)
+SLF,Sun Life,Internally Managed,Private Fixed Income,Commercial Mortgages,4586.0,6.9,Big 3: entity (global) mix applied to Canada (user rule)
+SLF,Sun Life,Internally Managed,Private Fixed Income,Illiquid Term Loan,27239.0,41.0,Big 3: entity (global) mix applied to Canada (user rule)
+SLF,Sun Life,Internally Managed,Public Equity,Common Shares,0.0,0.0,Big 3: entity (global) mix applied to Canada (user rule)
+SLF,Sun Life,Internally Managed,Public Equity,Preferred Shares,14.0,0.0,Big 3: entity (global) mix applied to Canada (user rule)
+SLF,Sun Life,Externally Managed,Equity (real estate),Real Estate Equity,502.0,0.8,Big 3: entity (global) mix applied to Canada (user rule)
+SLF,Sun Life,Unclassified,Other / unclassified,Other invested (unclassified),2555.0,3.8,Big 3: entity (global) mix applied to Canada (user rule)
+CLF,Canada Life,Internally Managed,Cash & Cash Equivalent,Cash Equivalent,0.0,0.0,CLF: disclosed Canada non-par mix (Canada Life Q4 2025 MD&A); bonds split gov/corp/private at entity ratio (est)
+CLF,Canada Life,Internally Managed,Public Fixed Income,Government Bonds,7083.0,26.3,CLF: disclosed Canada non-par mix (Canada Life Q4 2025 MD&A); bonds split gov/corp/private at entity ratio (est)
+CLF,Canada Life,Internally Managed,Public Fixed Income,Corporate Bonds,6371.0,23.6,CLF: disclosed Canada non-par mix (Canada Life Q4 2025 MD&A); bonds split gov/corp/private at entity ratio (est)
+CLF,Canada Life,Internally Managed,Private Fixed Income,Commercial Mortgages,3114.0,11.5,CLF: disclosed Canada non-par mix (Canada Life Q4 2025 MD&A); bonds split gov/corp/private at entity ratio (est)
+CLF,Canada Life,Internally Managed,Private Fixed Income,Illiquid Term Loan,6883.0,25.5,CLF: disclosed Canada non-par mix (Canada Life Q4 2025 MD&A); bonds split gov/corp/private at entity ratio (est)
+CLF,Canada Life,Internally Managed,Public Equity,Common Shares,2000.0,7.4,CLF: disclosed Canada non-par mix (Canada Life Q4 2025 MD&A); bonds split gov/corp/private at entity ratio (est)
+CLF,Canada Life,Internally Managed,Public Equity,Preferred Shares,0.0,0.0,CLF: disclosed Canada non-par mix (Canada Life Q4 2025 MD&A); bonds split gov/corp/private at entity ratio (est)
+CLF,Canada Life,Externally Managed,Equity (real estate),Real Estate Equity,505.0,1.9,CLF: disclosed Canada non-par mix (Canada Life Q4 2025 MD&A); bonds split gov/corp/private at entity ratio (est)
+CLF,Canada Life,Unclassified,Other / unclassified,Other invested (unclassified),1016.0,3.8,CLF: disclosed Canada non-par mix (Canada Life Q4 2025 MD&A); bonds split gov/corp/private at entity ratio (est)
+EMP,Empire Life,Internally Managed,Cash & Cash Equivalent,Cash Equivalent,0.0,0.0,entity = Canada
+EMP,Empire Life,Internally Managed,Public Fixed Income,Government Bonds,3341.0,42.3,entity = Canada
+EMP,Empire Life,Internally Managed,Public Fixed Income,Corporate Bonds,2996.0,37.9,entity = Canada
+EMP,Empire Life,Internally Managed,Private Fixed Income,Commercial Mortgages,65.0,0.8,entity = Canada
+EMP,Empire Life,Internally Managed,Private Fixed Income,Illiquid Term Loan,580.0,7.3,entity = Canada
+EMP,Empire Life,Internally Managed,Public Equity,Common Shares,325.0,4.1,entity = Canada
+EMP,Empire Life,Internally Managed,Public Equity,Preferred Shares,520.0,6.6,entity = Canada
+EMP,Empire Life,Externally Managed,Equity (real estate),Real Estate Equity,0.0,0.0,entity = Canada
+EMP,Empire Life,Unclassified,Other / unclassified,Other invested (unclassified),75.0,0.9,entity = Canada
+IVA,ivari,Internally Managed,Cash & Cash Equivalent,Cash Equivalent,1315.0,17.4,entity = Canada
+IVA,ivari,Internally Managed,Public Fixed Income,Government Bonds,2063.0,27.4,entity = Canada
+IVA,ivari,Internally Managed,Public Fixed Income,Corporate Bonds,3229.0,42.8,entity = Canada
+IVA,ivari,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0,entity = Canada
+IVA,ivari,Internally Managed,Private Fixed Income,Illiquid Term Loan,806.0,10.7,entity = Canada
+IVA,ivari,Internally Managed,Public Equity,Common Shares,0.0,0.0,entity = Canada
+IVA,ivari,Internally Managed,Public Equity,Preferred Shares,0.0,0.0,entity = Canada
+IVA,ivari,Externally Managed,Equity (real estate),Real Estate Equity,0.0,0.0,entity = Canada
+IVA,ivari,Unclassified,Other / unclassified,Other invested (unclassified),129.0,1.7,entity = Canada
+EQL,Equitable Life,Internally Managed,Cash & Cash Equivalent,Cash Equivalent,0.0,0.0,EQL: par block split into Traditional par (fact sheet) and Participating UL linked accounts (est)
+EQL,Equitable Life,Internally Managed,Public Fixed Income,Government Bonds,359.0,19.8,EQL: par block split into Traditional par (fact sheet) and Participating UL linked accounts (est)
+EQL,Equitable Life,Internally Managed,Public Fixed Income,Corporate Bonds,566.0,31.3,EQL: par block split into Traditional par (fact sheet) and Participating UL linked accounts (est)
+EQL,Equitable Life,Internally Managed,Private Fixed Income,Commercial Mortgages,187.0,10.3,EQL: par block split into Traditional par (fact sheet) and Participating UL linked accounts (est)
+EQL,Equitable Life,Internally Managed,Private Fixed Income,Illiquid Term Loan,357.0,19.7,EQL: par block split into Traditional par (fact sheet) and Participating UL linked accounts (est)
+EQL,Equitable Life,Internally Managed,Public Equity,Common Shares,0.0,0.0,EQL: par block split into Traditional par (fact sheet) and Participating UL linked accounts (est)
+EQL,Equitable Life,Internally Managed,Public Equity,Preferred Shares,230.0,12.7,EQL: par block split into Traditional par (fact sheet) and Participating UL linked accounts (est)
+EQL,Equitable Life,Externally Managed,Equity (real estate),Real Estate Equity,110.0,6.1,EQL: par block split into Traditional par (fact sheet) and Participating UL linked accounts (est)
+EQL,Equitable Life,Unclassified,Other / unclassified,Other invested (unclassified),0.0,0.0,EQL: par block split into Traditional par (fact sheet) and Participating UL linked accounts (est)
+COP,Co-operators Life,Internally Managed,Cash & Cash Equivalent,Cash Equivalent,20.0,0.8,entity = Canada
+COP,Co-operators Life,Internally Managed,Public Fixed Income,Government Bonds,906.0,38.5,entity = Canada
+COP,Co-operators Life,Internally Managed,Public Fixed Income,Corporate Bonds,817.0,34.7,entity = Canada
+COP,Co-operators Life,Internally Managed,Private Fixed Income,Commercial Mortgages,196.0,8.3,entity = Canada
+COP,Co-operators Life,Internally Managed,Private Fixed Income,Illiquid Term Loan,0.0,0.0,entity = Canada
+COP,Co-operators Life,Internally Managed,Public Equity,Common Shares,253.0,10.7,entity = Canada
+COP,Co-operators Life,Internally Managed,Public Equity,Preferred Shares,159.0,6.8,entity = Canada
+COP,Co-operators Life,Externally Managed,Equity (real estate),Real Estate Equity,2.0,0.1,entity = Canada
+COP,Co-operators Life,Unclassified,Other / unclassified,Other invested (unclassified),4.0,0.2,entity = Canada
+IOF,Foresters Life,Internally Managed,Cash & Cash Equivalent,Cash Equivalent,12.0,1.5,entity = Canada
+IOF,Foresters Life,Internally Managed,Public Fixed Income,Government Bonds,292.0,38.9,entity = Canada
+IOF,Foresters Life,Internally Managed,Public Fixed Income,Corporate Bonds,337.0,45.0,entity = Canada
+IOF,Foresters Life,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0,entity = Canada
+IOF,Foresters Life,Internally Managed,Private Fixed Income,Illiquid Term Loan,0.0,0.0,entity = Canada
+IOF,Foresters Life,Internally Managed,Public Equity,Common Shares,10.0,1.3,entity = Canada
+IOF,Foresters Life,Internally Managed,Public Equity,Preferred Shares,55.0,7.4,entity = Canada
+IOF,Foresters Life,Externally Managed,Equity (real estate),Real Estate Equity,0.0,0.0,entity = Canada
+IOF,Foresters Life,Unclassified,Other / unclassified,Other invested (unclassified),44.0,5.9,entity = Canada
+WAW,Wawanesa Life,Internally Managed,Cash & Cash Equivalent,Cash Equivalent,0.0,0.0,entity = Canada
+WAW,Wawanesa Life,Internally Managed,Public Fixed Income,Government Bonds,305.0,38.1,entity = Canada
+WAW,Wawanesa Life,Internally Managed,Public Fixed Income,Corporate Bonds,361.0,45.1,entity = Canada
+WAW,Wawanesa Life,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0,entity = Canada
+WAW,Wawanesa Life,Internally Managed,Private Fixed Income,Illiquid Term Loan,0.0,0.0,entity = Canada
+WAW,Wawanesa Life,Internally Managed,Public Equity,Common Shares,0.0,0.0,entity = Canada
+WAW,Wawanesa Life,Internally Managed,Public Equity,Preferred Shares,0.0,0.0,entity = Canada
+WAW,Wawanesa Life,Externally Managed,Equity (real estate),Real Estate Equity,0.0,0.0,entity = Canada
+WAW,Wawanesa Life,Unclassified,Other / unclassified,Other invested (unclassified),135.0,16.9,entity = Canada
+BLU,Blumont,Internally Managed,Cash & Cash Equivalent,Cash Equivalent,0.0,0.0,entity = Canada
+BLU,Blumont,Internally Managed,Public Fixed Income,Government Bonds,936.0,12.5,entity = Canada
+BLU,Blumont,Internally Managed,Public Fixed Income,Corporate Bonds,5596.0,74.8,entity = Canada
+BLU,Blumont,Internally Managed,Private Fixed Income,Commercial Mortgages,90.0,1.2,entity = Canada
+BLU,Blumont,Internally Managed,Private Fixed Income,Illiquid Term Loan,838.0,11.2,entity = Canada
+BLU,Blumont,Internally Managed,Public Equity,Common Shares,0.0,0.0,entity = Canada
+BLU,Blumont,Internally Managed,Public Equity,Preferred Shares,22.0,0.3,entity = Canada
+BLU,Blumont,Externally Managed,Equity (real estate),Real Estate Equity,0.0,0.0,entity = Canada
+BLU,Blumont,Unclassified,Other / unclassified,Other invested (unclassified),0.0,0.0,entity = Canada

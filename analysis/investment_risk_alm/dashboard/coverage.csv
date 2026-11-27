@@ -1,0 +1,151 @@
+id,company,item,status
+RBC,RBC Life,LICAT capital by category,Regulatory filing
+RBC,RBC Life,General Account and buffer,Regulatory filing
+RBC,RBC Life,Asset mix by block,Regulatory filing
+RBC,RBC Life,Bond sectors,Regulatory filing
+RBC,RBC Life,Repos and financing,Regulatory filing
+RBC,RBC Life,Pledged assets,Not available
+RBC,RBC Life,Rate sensitivity,Estimate or proxy
+RBC,RBC Life,Spread sensitivity,Not available
+RBC,RBC Life,Equity sensitivity,Estimate or proxy
+RBC,RBC Life,Real estate and alternatives sensitivity,Not available
+BMO,BMO Life,LICAT capital by category,Regulatory filing
+BMO,BMO Life,General Account and buffer,Regulatory filing
+BMO,BMO Life,Asset mix by block,Regulatory filing
+BMO,BMO Life,Bond sectors,Regulatory filing
+BMO,BMO Life,Repos and financing,Regulatory filing
+BMO,BMO Life,Pledged assets,Not available
+BMO,BMO Life,Rate sensitivity,Insurer disclosure
+BMO,BMO Life,Spread sensitivity,Not available
+BMO,BMO Life,Equity sensitivity,Insurer disclosure
+BMO,BMO Life,Real estate and alternatives sensitivity,Not available
+MFC,Manulife,LICAT capital by category,Regulatory filing
+MFC,Manulife,General Account and buffer,Regulatory filing
+MFC,Manulife,Asset mix by block,Estimate or proxy
+MFC,Manulife,Bond sectors,Regulatory filing
+MFC,Manulife,Repos and financing,Regulatory filing
+MFC,Manulife,Pledged assets,Insurer disclosure
+MFC,Manulife,Rate sensitivity,Insurer disclosure
+MFC,Manulife,Spread sensitivity,Insurer disclosure
+MFC,Manulife,Equity sensitivity,Insurer disclosure
+MFC,Manulife,Real estate and alternatives sensitivity,Insurer disclosure
+SLF,Sun Life,LICAT capital by category,Regulatory filing
+SLF,Sun Life,General Account and buffer,Regulatory filing
+SLF,Sun Life,Asset mix by block,Estimate or proxy
+SLF,Sun Life,Bond sectors,Regulatory filing
+SLF,Sun Life,Repos and financing,Regulatory filing
+SLF,Sun Life,Pledged assets,Insurer disclosure
+SLF,Sun Life,Rate sensitivity,Insurer disclosure
+SLF,Sun Life,Spread sensitivity,Insurer disclosure
+SLF,Sun Life,Equity sensitivity,Insurer disclosure
+SLF,Sun Life,Real estate and alternatives sensitivity,Insurer disclosure
+CLF,Canada Life,LICAT capital by category,Regulatory filing
+CLF,Canada Life,General Account and buffer,Regulatory filing
+CLF,Canada Life,Asset mix by block,Regulatory filing
+CLF,Canada Life,Bond sectors,Regulatory filing
+CLF,Canada Life,Repos and financing,Regulatory filing
+CLF,Canada Life,Pledged assets,Insurer disclosure
+CLF,Canada Life,Rate sensitivity,Insurer disclosure
+CLF,Canada Life,Spread sensitivity,Insurer disclosure
+CLF,Canada Life,Equity sensitivity,Insurer disclosure
+CLF,Canada Life,Real estate and alternatives sensitivity,Insurer disclosure
+EMP,Empire Life,LICAT capital by category,Regulatory filing
+EMP,Empire Life,General Account and buffer,Regulatory filing
+EMP,Empire Life,Asset mix by block,Regulatory filing
+EMP,Empire Life,Bond sectors,Regulatory filing
+EMP,Empire Life,Repos and financing,Regulatory filing
+EMP,Empire Life,Pledged assets,Insurer disclosure
+EMP,Empire Life,Rate sensitivity,Insurer disclosure
+EMP,Empire Life,Spread sensitivity,Not available
+EMP,Empire Life,Equity sensitivity,Insurer disclosure
+EMP,Empire Life,Real estate and alternatives sensitivity,Not available
+IVA,ivari,LICAT capital by category,Regulatory filing
+IVA,ivari,General Account and buffer,Regulatory filing
+IVA,ivari,Asset mix by block,Regulatory filing
+IVA,ivari,Bond sectors,Regulatory filing
+IVA,ivari,Repos and financing,Regulatory filing
+IVA,ivari,Pledged assets,Insurer disclosure
+IVA,ivari,Rate sensitivity,Insurer disclosure
+IVA,ivari,Spread sensitivity,Not available
+IVA,ivari,Equity sensitivity,Insurer disclosure
+IVA,ivari,Real estate and alternatives sensitivity,Not available
+EQL,Equitable Life,LICAT capital by category,Regulatory filing
+EQL,Equitable Life,General Account and buffer,Regulatory filing
+EQL,Equitable Life,Asset mix by block,Regulatory filing
+EQL,Equitable Life,Bond sectors,Regulatory filing
+EQL,Equitable Life,Repos and financing,Regulatory filing
+EQL,Equitable Life,Pledged assets,Insurer disclosure
+EQL,Equitable Life,Rate sensitivity,Insurer disclosure
+EQL,Equitable Life,Spread sensitivity,Insurer disclosure
+EQL,Equitable Life,Equity sensitivity,Insurer disclosure
+EQL,Equitable Life,Real estate and alternatives sensitivity,Insurer disclosure
+COP,Co-operators Life,LICAT capital by category,Regulatory filing
+COP,Co-operators Life,General Account and buffer,Regulatory filing
+COP,Co-operators Life,Asset mix by block,Regulatory filing
+COP,Co-operators Life,Bond sectors,Regulatory filing
+COP,Co-operators Life,Repos and financing,Regulatory filing
+COP,Co-operators Life,Pledged assets,Not available
+COP,Co-operators Life,Rate sensitivity,Not available
+COP,Co-operators Life,Spread sensitivity,Not available
+COP,Co-operators Life,Equity sensitivity,Not available
+COP,Co-operators Life,Real estate and alternatives sensitivity,Not available
+IOF,Foresters Life,LICAT capital by category,Regulatory filing
+IOF,Foresters Life,General Account and buffer,Regulatory filing
+IOF,Foresters Life,Asset mix by block,Regulatory filing
+IOF,Foresters Life,Bond sectors,Regulatory filing
+IOF,Foresters Life,Repos and financing,Regulatory filing
+IOF,Foresters Life,Pledged assets,Not available
+IOF,Foresters Life,Rate sensitivity,Not available
+IOF,Foresters Life,Spread sensitivity,Not available
+IOF,Foresters Life,Equity sensitivity,Not available
+IOF,Foresters Life,Real estate and alternatives sensitivity,Not available
+WAW,Wawanesa Life,LICAT capital by category,Regulatory filing
+WAW,Wawanesa Life,General Account and buffer,Regulatory filing
+WAW,Wawanesa Life,Asset mix by block,Regulatory filing
+WAW,Wawanesa Life,Bond sectors,Regulatory filing
+WAW,Wawanesa Life,Repos and financing,Regulatory filing
+WAW,Wawanesa Life,Pledged assets,Insurer disclosure
+WAW,Wawanesa Life,Rate sensitivity,Insurer disclosure
+WAW,Wawanesa Life,Spread sensitivity,Not available
+WAW,Wawanesa Life,Equity sensitivity,Insurer disclosure
+WAW,Wawanesa Life,Real estate and alternatives sensitivity,Not available
+BLU,Blumont,LICAT capital by category,Regulatory filing
+BLU,Blumont,General Account and buffer,Regulatory filing
+BLU,Blumont,Asset mix by block,Regulatory filing
+BLU,Blumont,Bond sectors,Regulatory filing
+BLU,Blumont,Repos and financing,Regulatory filing
+BLU,Blumont,Pledged assets,Not available
+BLU,Blumont,Rate sensitivity,Not available
+BLU,Blumont,Spread sensitivity,Not available
+BLU,Blumont,Equity sensitivity,Not available
+BLU,Blumont,Real estate and alternatives sensitivity,Not available
+IAG,iA Financial Group,LICAT capital by category,Not available
+IAG,iA Financial Group,General Account and buffer,Estimate or proxy
+IAG,iA Financial Group,Asset mix by block,Not available
+IAG,iA Financial Group,Bond sectors,Not available
+IAG,iA Financial Group,Repos and financing,Insurer disclosure
+IAG,iA Financial Group,Pledged assets,Not available
+IAG,iA Financial Group,Rate sensitivity,Insurer disclosure
+IAG,iA Financial Group,Spread sensitivity,Insurer disclosure
+IAG,iA Financial Group,Equity sensitivity,Insurer disclosure
+IAG,iA Financial Group,Real estate and alternatives sensitivity,Insurer disclosure
+BEN,Beneva,LICAT capital by category,Not available
+BEN,Beneva,General Account and buffer,Estimate or proxy
+BEN,Beneva,Asset mix by block,Not available
+BEN,Beneva,Bond sectors,Not available
+BEN,Beneva,Repos and financing,Insurer disclosure
+BEN,Beneva,Pledged assets,Not available
+BEN,Beneva,Rate sensitivity,Insurer disclosure
+BEN,Beneva,Spread sensitivity,Not available
+BEN,Beneva,Equity sensitivity,Insurer disclosure
+BEN,Beneva,Real estate and alternatives sensitivity,Not available
+DFS,Desjardins Insurance,LICAT capital by category,Not available
+DFS,Desjardins Insurance,General Account and buffer,Not available
+DFS,Desjardins Insurance,Asset mix by block,Not available
+DFS,Desjardins Insurance,Bond sectors,Not available
+DFS,Desjardins Insurance,Repos and financing,Not available
+DFS,Desjardins Insurance,Pledged assets,Not available
+DFS,Desjardins Insurance,Rate sensitivity,Insurer disclosure
+DFS,Desjardins Insurance,Spread sensitivity,Not available
+DFS,Desjardins Insurance,Equity sensitivity,Insurer disclosure
+DFS,Desjardins Insurance,Real estate and alternatives sensitivity,Insurer disclosure

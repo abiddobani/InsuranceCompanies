@@ -1,0 +1,25 @@
+id,company,purpose,value_mm,basis
+RBC,RBC Life,Repos,3625.0,"Legal entity, OSFI LF3; no pledged-asset note is published"
+MFC,Manulife,Repos,193.0,Manulife consolidated
+MFC,Manulife,Securities lending,1800.0,Manulife consolidated
+MFC,Manulife,Derivatives collateral,14360.0,Manulife consolidated
+MFC,Manulife,Regulatory and trust,1771.0,Manulife consolidated
+MFC,Manulife,Other,8193.0,Manulife consolidated
+SLF,Sun Life,Repos,2861.0,Sun Life group
+SLF,Sun Life,Securities lending,2360.0,Sun Life group
+SLF,Sun Life,Derivatives collateral,2254.0,Sun Life group
+SLF,Sun Life,Other,1205.0,Sun Life group
+CLF,Canada Life,Securities lending,5133.0,Great-West Lifeco group
+CLF,Canada Life,Derivatives collateral,2501.0,Great-West Lifeco group
+CLF,Canada Life,Reinsurance,3577.0,Great-West Lifeco group
+CLF,Canada Life,Regulatory and trust,708.0,Great-West Lifeco group
+CLF,Canada Life,Other,68.0,Great-West Lifeco group
+EMP,Empire Life,Securities lending,3109.0,Legal entity
+EMP,Empire Life,Derivatives collateral,123.0,Legal entity
+IVA,ivari,Derivatives collateral,126.0,Legal entity
+EQL,Equitable Life,Securities lending,898.0,Legal entity
+EQL,Equitable Life,Derivatives collateral,0.0,Legal entity
+EQL,Equitable Life,Other,54.0,Legal entity
+WAW,Wawanesa Life,Securities lending,113.0,Legal entity
+IAG,iA Financial Group,Repos,988.0,"Group consolidated, annual report"
+BEN,Beneva,Repos,744.0,"Group consolidated, annual report"
