@@ -1,0 +1,985 @@
+<meta name="dash-one-writer">
+<style>
+  .ir { display: flex; flex-direction: column; gap: var(--cds-gap-lg); font-family: var(--font-anthropic-sans); color: var(--color-fg); }
+  .ir-head { display: flex; flex-direction: column; gap: var(--cds-gap-sm); max-width: 68rem; }
+  .ir-head h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+  .ir-take { font-size: var(--cds-font-size-body); margin: 0; line-height: 1.55; }
+  .ir .ir-take b, .ir .ir-read b { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .ir-scope { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; line-height: 1.5; }
+  .ir-tabs { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); border-bottom: 1px solid var(--color-border-line); }
+  .ir-tabs button { font: inherit; font-size: var(--cds-font-size-body); padding: var(--cds-pad-sm) var(--cds-pad-md); background: transparent; color: var(--color-fg-muted); border: 0; border-bottom: 2px solid transparent; cursor: pointer; margin-bottom: -1px; }
+  .ir-tabs button[aria-selected="true"] { color: var(--color-fg); border-bottom-color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+  .ir-tabs button:focus-visible { outline: 2px solid var(--color-fg); outline-offset: -2px; }
+  .ir-page { display: flex; flex-direction: column; gap: var(--cds-gap-md); }
+  .ir-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr)); gap: var(--cds-gap-md); }
+  .ir-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-sm); min-width: 0; }
+  .ir-card h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; text-wrap: balance; }
+  .ir-card h3 { font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); margin: 0; }
+  .ir-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; line-height: 1.5; max-width: 72rem; }
+  .ir-read { font-size: var(--cds-font-size-body); margin: 0; line-height: 1.55; max-width: 72rem; }
+  .ir-chart { position: relative; min-height: 14rem; }
+  .ir-chart-sm { min-height: 8rem; }
+  .ir-chart-lg { min-height: 30rem; }
+  .ir-chart svg { display: block; overflow: visible; }
+  .ir-chart text { font-family: var(--font-anthropic-sans); font-size: 12px; fill: var(--color-fg); }
+  .ir-chart .ir-muted-t { fill: var(--color-fg-muted); }
+  .ir-chart .ir-focus-t { font-weight: 600; }
+  .ir-miss { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: var(--cds-gap-xs) 0 0; line-height: 1.5; }
+  .ir .ir-miss b { font-weight: 600; color: var(--color-fg); }
+  .ir-tip { position: absolute; z-index: 5; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); line-height: 1.45; max-width: 20rem; }
+  .ir-tip-co { color: var(--cds-text-secondary); }
+  .ir-tip-v { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .ir-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs) var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .ir-legend span { display: inline-flex; align-items: center; gap: 0.35rem; }
+  .ir-sw { width: 0.75rem; height: 0.75rem; border-radius: 3px; flex: none; background: var(--cds-chart-muted); }
+  .ir-sw-dash { background: transparent; border: 1px dashed var(--color-fg-muted); }
+  .ir-sw-ring { background: transparent; border: 1.5px solid var(--color-fg-muted); border-radius: 50%; }
+  .ir-sw-tick { width: 2px; border-radius: 0; background: var(--color-fg); }
+  .ir-heat { position: relative; overflow-x: auto; min-height: 18rem; }
+  .ir-heat-sm { min-height: 10rem; }
+  .ir-hgrid { display: grid; gap: 2px; font-size: var(--cds-font-size-caption); min-width: 36rem; }
+  .ir-hcol { color: var(--color-fg-muted); text-align: center; line-height: 1.2; padding: 0 2px 4px; align-self: end; }
+  .ir-hrow { white-space: nowrap; padding-right: var(--cds-pad-sm); align-self: center; position: sticky; left: 0; background: var(--color-panel); z-index: 1; }
+  .ir-hrow.is-focus { font-weight: 600; }
+  .ir-hcell { position: relative; height: 1.9rem; display: flex; align-items: center; justify-content: center; font-variant-numeric: tabular-nums; }
+  .ir-hfill { position: absolute; inset: 0; border-radius: 3px; }
+  .ir-hempty { position: absolute; inset: 0; border-radius: 3px; border: 1px dashed var(--color-border-line); }
+  .ir-hval { position: relative; }
+  .ir-hcell.is-focus .ir-hfill, .ir-hcell.is-focus .ir-hempty { outline: 2px solid var(--color-fg); outline-offset: 0; }
+  .ir-tablebox { overflow: auto; max-height: 36rem; }
+  .ir table { border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; width: 100%; }
+  .ir th { position: sticky; top: 0; background: var(--color-panel); text-align: right; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: bottom; z-index: 1; }
+  .ir td { text-align: right; padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; }
+  .ir th.ir-l, .ir td.ir-l { text-align: left; }
+  .ir td.ir-wrap { min-width: 14rem; max-width: 32rem; white-space: normal; line-height: 1.45; }
+  .ir td.ir-strong { font-weight: 600; }
+  .ir tr.is-focus td { font-weight: 600; background: color-mix(in srgb, var(--color-fg) 6%, transparent); }
+  .ir-fail { display: flex; align-items: center; justify-content: center; gap: .5rem; min-height: inherit; color: var(--color-fg-muted); font-size: var(--cds-font-size-caption); }
+  .ir-fail i { width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); }
+  .ir-defs { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); line-height: 1.55; margin: 0; padding-left: 1.1rem; display: flex; flex-direction: column; gap: 0.3rem; max-width: 72rem; }
+  .ir .ir-defs b { color: var(--color-fg); font-weight: 600; }
+  [data-dash-source-state=empty] { color: transparent; }
+  [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+</style>
+
+<div class="ir">
+  <header class="ir-head">
+    <h1>Peer investment risk benchmark</h1>
+    <p class="ir-take">RBC Life carries less market and credit risk than most peers and a thinner capital and liquidity cushion. Market risk capital is <b data-draw="st" data-key="market_cap_ga:rbc" data-source="peerStats" data-field="rbc" data-where="metric=market_cap_ga">—</b>% of its own General Account against a median of <b data-draw="st" data-key="market_cap_ga:median" data-source="peerStats" data-field="median" data-where="metric=market_cap_ga">—</b>% for the other all-Canada filers, and equity-type assets are <b data-draw="st" data-key="eq_ex_ul:rbc" data-source="peerStats" data-field="rbc" data-where="metric=eq_ex_ul">—</b>% of invested assets once universal life pass-through funds are removed (median <b data-draw="st" data-key="eq_ex_ul:median" data-source="peerStats" data-field="median" data-where="metric=eq_ex_ul">—</b>%). Its LICAT total ratio of <b data-draw="st" data-key="licat_pct:rbc" data-source="peerStats" data-field="rbc" data-where="metric=licat_pct">—</b>% is <b data-draw="v" data-key="rbc_pts_above_floor" data-fmt=".1f" data-source="facts" data-field="value" data-where="key=rbc_pts_above_floor">—</b> points above the <b data-draw="v" data-key="floor_pct" data-fmt=".0f" data-source="facts" data-field="value" data-where="key=floor_pct">—</b>% floor used in the ALM study, against a median of <b data-draw="st" data-key="licat_pct:median" data-source="peerStats" data-field="median" data-where="metric=licat_pct">—</b>%. Repos fund <b data-draw="st" data-key="repos_ga:rbc" data-source="peerStats" data-field="rbc" data-where="metric=repos_ga">—</b>% of the General Account, up from <b data-draw="v" data-key="rbc_repos_ga_fy24" data-fmt=".1f" data-source="facts" data-field="value" data-where="key=rbc_repos_ga_fy24">—</b>% a year earlier and the highest in the peer set, which leaves <b data-draw="st" data-key="liquid_unenc:rbc" data-source="peerStats" data-field="rbc" data-where="metric=liquid_unenc">—</b>% of invested assets liquid and unpledged against a median of <b data-draw="st" data-key="liquid_unenc:median" data-source="peerStats" data-field="median" data-where="metric=liquid_unenc">—</b>%.</p>
+    <p class="ir-scope">Built on the cdn-life-insurer-alm framework: Canadian business, net of reinsurance, General Account excluding participating, segregated fund and universal life policyholder funds. Figures are at Oct 31, 2025 for RBC Life and BMO Life and Dec 31, 2025 for the others. Medians are of the eleven other OSFI peers for General Account measures and of the eight other all-Canada filers for LICAT measures. Manulife, Sun Life and Canada Life file legal entities that include foreign business, so their LICAT figures are shown but left out of those medians. Sensitivities are shown one risk at a time on each insurer’s own definition and are never added together. RBC Life is highlighted throughout.</p>
+  </header>
+
+  <nav class="ir-tabs" role="tablist" aria-label="Risk area">
+    <button type="button" role="tab" id="tab-overview" data-tab="overview" aria-selected="true">Overview</button>
+    <button type="button" role="tab" id="tab-capital" data-tab="capital" aria-selected="false">Risk capital</button>
+    <button type="button" role="tab" id="tab-market" data-tab="market" aria-selected="false">Market risk</button>
+    <button type="button" role="tab" id="tab-credit" data-tab="credit" aria-selected="false">Credit risk</button>
+    <button type="button" role="tab" id="tab-liquidity" data-tab="liquidity" aria-selected="false">Liquidity and funding</button>
+    <button type="button" role="tab" id="tab-method" data-tab="method" aria-selected="false">Method and coverage</button>
+  </nav>
+
+  <section class="ir-page" id="overview" data-page="overview">
+    <div class="ir-card" id="where-rbc-sits">
+      <h2>Where RBC Life sits on each measure</h2>
+      <div class="ir-legend">
+        <span><i class="ir-sw" data-color="0" style="border-radius:50%"></i>RBC Life</span>
+        <span><i class="ir-sw" style="border-radius:50%"></i>Peers in the median</span>
+        <span><i class="ir-sw ir-sw-ring"></i>Manulife, Sun Life, Canada Life on LICAT measures (entity includes foreign business)</span>
+        <span><i class="ir-sw ir-sw-tick"></i>Median of the other peers</span>
+      </div>
+      <p class="ir-note">Each row is one measure on its own scale. Hover a dot for the insurer and value.</p>
+      <div class="ir-chart ir-chart-lg" data-draw="strip" data-source="landscape peerStats"></div>
+    </div>
+    <div class="ir-card" id="what-stands-out">
+      <h2>What stands out</h2>
+      <p class="ir-read">Asset risk is low. Market risk capital as a share of the General Account ranks <b data-draw="st" data-key="market_cap_ga:rank_from_low" data-source="peerStats" data-field="rank_from_low" data-where="metric=market_cap_ga">—</b> from the lowest of the <b data-draw="st" data-key="market_cap_ga:n" data-source="peerStats" data-field="n" data-where="metric=market_cap_ga">—</b> all-Canada filers, and credit risk capital ranks <b data-draw="st" data-key="credit_cap_ga:rank_from_low" data-source="peerStats" data-field="rank_from_low" data-where="metric=credit_cap_ga">—</b> from the lowest. Below-investment-grade bonds are <b data-draw="st" data-key="below_ig_bonds:rbc" data-source="peerStats" data-field="rbc" data-where="metric=below_ig_bonds">—</b>% of bonds (median <b data-draw="st" data-key="below_ig_bonds:median" data-source="peerStats" data-field="median" data-where="metric=below_ig_bonds">—</b>%). The net investment result is <b data-draw="st" data-key="nir_cm:rbc" data-source="peerStats" data-field="rbc" data-where="metric=nir_cm">—</b>% of credit and market capital against a median of <b data-draw="st" data-key="nir_cm:median" data-source="peerStats" data-field="median" data-where="metric=nir_cm">—</b>%, so the lower risk comes with a lower return on that capital.</p>
+      <p class="ir-read">Capital headroom and funding are where RBC Life is weakest against peers. Free capital above the floor is C$<b data-draw="v" data-key="rbc_free125_mm" data-fmt=",.0f" data-source="facts" data-field="value" data-where="key=rbc_free125_mm">—</b>MM. The parent injected C$<b data-draw="v" data-key="rbc_injection_fy24_mm" data-fmt=",.0f" data-source="facts" data-field="value" data-where="key=rbc_injection_fy24_mm">—</b>MM in fiscal 2024 and C$<b data-draw="v" data-key="rbc_injection_fy25_mm" data-fmt=",.0f" data-source="facts" data-field="value" data-where="key=rbc_injection_fy25_mm">—</b>MM in fiscal 2025 and no dividends were paid; the ratio stood at <b data-draw="v" data-key="rbc_licat_jul26" data-fmt=".1f" data-source="facts" data-field="value" data-where="key=rbc_licat_jul26">—</b>% at Jul 31, 2026. Repos rose from C$<b data-draw="v" data-key="rbc_repos_mm_fy24" data-fmt=",.0f" data-source="facts" data-field="value" data-where="key=rbc_repos_mm_fy24">—</b>MM to C$<b data-draw="v" data-key="rbc_repos_mm" data-fmt=",.0f" data-source="facts" data-field="value" data-where="key=rbc_repos_mm">—</b>MM over fiscal 2025. Under LICAT a repo is a rollover and collateral exposure, not a deduction from capital, so the ratio does not show it.</p>
+      <p class="ir-read">Three things follow. The repo programme is the item to size first, against liquid assets that are not already pledged: in the first nine months of fiscal 2026 government bonds fell by C$<b data-draw="v" data-key="rbc_gov_bond_fall_mm" data-fmt=",.0f" data-source="facts" data-field="value" data-where="key=rbc_gov_bond_fall_mm">—</b>MM while credit and mortgages grew, and other liabilities, the balance sheet line that holds repos, rose from C$<b data-draw="v" data-key="rbc_other_liab_oct25_mm" data-fmt=",.0f" data-source="facts" data-field="value" data-where="key=rbc_other_liab_oct25_mm">—</b>MM to C$<b data-draw="v" data-key="rbc_other_liab_jul26_mm" data-fmt=",.0f" data-source="facts" data-field="value" data-where="key=rbc_other_liab_jul26_mm">—</b>MM. Any added market or private-asset risk should be paced against free capital, not against peer averages, because capital is the tighter constraint. And the energy weight of <b data-draw="v" data-key="rbc_energy" data-fmt=".1f" data-source="facts" data-field="value" data-where="key=rbc_energy">—</b>% of corporate bonds should be confirmed against sector coding before it is treated as a concentration, since RBC Life files no Utilities line and <b data-draw="v" data-key="rbc_sector_other" data-fmt=".0f" data-source="facts" data-field="value" data-where="key=rbc_sector_other">—</b>% sits in Other.</p>
+    </div>
+    <div class="ir-card" id="what-changed">
+      <h2>What changed against the earlier benchmark</h2>
+      <p class="ir-note">The earlier version used a general framework for market, credit and liquidity risk. This one follows the ALM repo’s definitions, which changes several of RBC Life’s readings.</p>
+      <div class="ir-tablebox">
+        <table>
+          <thead>
+            <tr>
+              <th class="ir-l">Topic</th>
+              <th class="ir-l">Earlier benchmark</th>
+              <th class="ir-l">This version</th>
+              <th class="ir-l">Why</th>
+            </tr>
+          </thead>
+          <tbody data-draw="changesTable" data-source="changes"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="ir-card" id="landscape-table">
+      <h2>All measures by insurer</h2>
+      <p class="ir-note">Blank cells are not published or not in the ALM repo. Capital ratio is LICAT total for OSFI filers and the CARLI solvency ratio for iA and Beneva. Capital as a share of the General Account is shown only for the all-Canada filers, because the other three entities’ capital covers foreign business.</p>
+      <div class="ir-tablebox">
+        <table data-source="landscape" data-row-key="company">
+          <thead>
+            <tr>
+              <th class="ir-l" data-field="company">Insurer</th>
+              <th class="ir-l" data-field="scope">Basis</th>
+              <th data-field="genacct_bn">General Account (C$BN)</th>
+              <th data-field="capital_ratio_pct">Capital ratio (%)</th>
+              <th data-field="buffer_pct">Buffer (% GA)</th>
+              <th data-field="market_cap_ga">Market capital (% GA)</th>
+              <th data-field="credit_cap_ga">Credit capital (% GA)</th>
+              <th data-field="market_cap_inv">Market capital (% entity invested)</th>
+              <th data-field="credit_cap_inv">Credit capital (% entity invested)</th>
+              <th data-field="eq_ex_ul">Equity-type excl. UL (%)</th>
+              <th data-field="alts_incl_others">Alternatives incl. Others (%)</th>
+              <th data-field="private_credit">Private credit (%)</th>
+              <th data-field="below_ig_bonds">Below IG (% bonds)</th>
+              <th data-field="energy_util">Energy + utilities (% corp.)</th>
+              <th data-field="liquid_unenc">Liquid after collateral (%)</th>
+              <th data-field="repos_ga">Repos (% GA)</th>
+              <th data-field="fvoci">FVOCI (%)</th>
+            </tr>
+          </thead>
+          <tbody data-draw="landscapeTable"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="ir-page" id="capital" data-page="capital" hidden>
+    <div class="ir-grid">
+      <div class="ir-card" id="licat-ratio">
+        <h2>LICAT total ratio</h2>
+        <p class="ir-note">OSFI LCQ, fiscal 2025 year end. The dashed line is the median of the other all-Canada filers and the solid line is the floor the ALM study assumes, which is not a filed target. Faded bars are entities that include foreign business.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="licat_pct" data-floor="1" data-source="landscape peerStats facts"></div>
+      </div>
+      <div class="ir-card" id="buffer">
+        <h2>Buffer against the General Account</h2>
+        <p class="ir-note">Surplus plus the CSM on General Account business, less net derivative liabilities, over the General Account net of repos and derivative assets. It measures how much loss-absorbing value sits behind each dollar of assets.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="buffer_pct" data-source="landscape peerStats"></div>
+      </div>
+    </div>
+    <div class="ir-card" id="licat-mix">
+      <h2>What the required capital is held for</h2>
+      <div class="ir-legend">
+        <span><i class="ir-sw" data-color="1"></i>Credit</span>
+        <span><i class="ir-sw" data-color="0"></i>Market</span>
+        <span><i class="ir-sw" data-color="2"></i>Insurance</span>
+        <span><i class="ir-sw" data-color="4"></i>Segregated fund guarantees</span>
+        <span><i class="ir-sw" data-color="5"></i>Operational</span>
+        <span><i class="ir-sw"></i>Participating and other</span>
+      </div>
+      <p class="ir-note">Share of the LICAT requirement before the diversification credit, OSFI LCQ, fiscal 2025 year end. Credit, market and insurance cover non-participating business. For Manulife, Sun Life and Canada Life the mix is for a legal entity that includes foreign business and large participating blocks.</p>
+      <div class="ir-chart ir-chart-lg" data-draw="licatMix" data-source="licatMix"></div>
+    </div>
+    <div class="ir-grid">
+      <div class="ir-card" id="market-capital">
+        <h2>Market risk capital on the General Account</h2>
+        <p class="ir-note">LICAT market risk requirement as a share of each insurer’s own General Account, all-Canada filers only. Equitable and Co-operators run high because their participating and segregated fund business adds market capital that the General Account denominator leaves out.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="market_cap_ga" data-source="landscape peerStats"></div>
+      </div>
+      <div class="ir-card" id="credit-capital">
+        <h2>Credit risk capital on the General Account</h2>
+        <p class="ir-note">LICAT credit risk requirement as a share of each insurer’s own General Account, all-Canada filers only.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="credit_cap_ga" data-source="landscape peerStats"></div>
+      </div>
+    </div>
+    <div class="ir-grid">
+      <div class="ir-card" id="return-on-asset-risk">
+        <h2>Net investment result on credit and market capital</h2>
+        <p class="ir-note">Fiscal 2025 net investment result divided by the credit plus market risk requirement. It is a rough return on the capital held against asset risk.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="nir_cm" data-source="landscape peerStats"></div>
+      </div>
+      <div class="ir-card" id="return-on-capital">
+        <h2>Net income on required capital</h2>
+        <p class="ir-note">Fiscal 2025 net income over the average base solvency buffer. BMO Life’s figure includes a one-time gain; without it the ratio is <span data-draw="v" data-key="bmo_ni_bsb_ex_gain" data-fmt=".1f" data-source="facts" data-field="value" data-where="key=bmo_ni_bsb_ex_gain">—</span>%.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="ni_bsb" data-source="landscape peerStats"></div>
+      </div>
+    </div>
+    <div class="ir-card" id="licat-trend">
+      <h2>RBC Life’s LICAT ratio against the other all-Canada filers</h2>
+      <div class="ir-legend">
+        <span><i class="ir-sw" data-color="0"></i>RBC Life</span>
+        <span><i class="ir-sw ir-sw-dash"></i>Median of the other all-Canada filers</span>
+        <span><i class="ir-sw"></i>Their range</span>
+      </div>
+      <p class="ir-note">Quarterly OSFI filings. RBC Life’s quarters end in January, April, July and October; the others report on calendar quarters, and BMO Life has not filed after Oct 31, 2025. RBC Life moved to the new LICAT CSM form in fiscal 2026, so its last three points are not fully comparable with earlier ones.</p>
+      <div class="ir-chart" data-draw="trend" data-source="licatTrend facts"></div>
+    </div>
+    <div class="ir-card" id="capital-path">
+      <h2>RBC Life’s capital path</h2>
+      <p class="ir-note">OSFI filings. Free capital is capital resources less the floor applied to required capital. C$ millions.</p>
+      <div class="ir-tablebox">
+        <table data-source="capitalPath" data-row-key="date">
+          <thead>
+            <tr>
+              <th class="ir-l" data-field="date">Date</th>
+              <th data-field="licat_pct">LICAT total (%)</th>
+              <th data-field="core_pct">LICAT core (%)</th>
+              <th data-field="required_capital_mm">Required capital</th>
+              <th data-field="free125_mm">Free capital above the floor</th>
+              <th data-field="parent_injection_mm">Parent injection</th>
+              <th data-field="dividends_mm">Dividends</th>
+              <th data-field="net_income_mm">Net income</th>
+              <th class="ir-l" data-field="note">Period</th>
+            </tr>
+          </thead>
+          <tbody data-draw="pathTable"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="ir-page" id="market" data-page="market" hidden>
+    <div class="ir-card" id="asset-mix">
+      <h2>What backs the non-participating General Account</h2>
+      <div class="ir-legend">
+        <span><i class="ir-sw" data-color="5"></i>Cash</span>
+        <span><i class="ir-sw" data-color="0"></i>Government bonds</span>
+        <span><i class="ir-sw" data-color="4"></i>Public corporate bonds</span>
+        <span><i class="ir-sw" data-color="2"></i>Private term loans</span>
+        <span><i class="ir-sw" data-color="1"></i>Commercial mortgages</span>
+        <span><i class="ir-sw" data-color="3"></i>Common and preferred shares</span>
+        <span><i class="ir-sw" data-color="6"></i>Real estate equity</span>
+        <span><i class="ir-sw"></i>Other invested assets</span>
+      </div>
+      <p class="ir-note">The ALM repo’s block allocation: each insurer’s invested assets after removing participating, segregated fund and universal life policyholder funds. Manulife and Sun Life use the global mix applied to Canada (est); Canada Life uses its disclosed Canada non-participating mix; the rest are all-Canada entities.</p>
+      <div class="ir-chart ir-chart-lg" data-draw="assetMix" data-source="assetMix"></div>
+    </div>
+    <div class="ir-grid">
+      <div class="ir-card" id="equity-type">
+        <h2>Equity-type assets after removing pass-through funds</h2>
+        <p class="ir-note">Shares, real estate and other equity-type assets as a share of invested assets excluding universal life policyholder funds. The tick is the share before the removal. Equitable’s removal is an estimate. BMO Life’s split is not available.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="eq_ex_ul" data-mark="eq_gross" data-source="landscape peerStats"></div>
+      </div>
+      <div class="ir-card" id="alternatives">
+        <h2>Alternatives including Others</h2>
+        <p class="ir-note">Private term loans, commercial mortgages, real estate equity and unclassified other invested assets as a share of the non-participating General Account, the definition used in the ALM repo’s third deck.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="alts_incl_others" data-source="landscape peerStats"></div>
+      </div>
+    </div>
+    <div class="ir-card" id="accounting">
+      <h2>Where market moves land in the accounts</h2>
+      <div class="ir-legend">
+        <span><i class="ir-sw" data-color="0"></i>Fair value through profit or loss</span>
+        <span><i class="ir-sw" data-color="1"></i>Fair value through OCI</span>
+        <span><i class="ir-sw"></i>Amortised cost</span>
+      </div>
+      <p class="ir-note">Invested assets by IFRS 9 classification, OSFI LF2, fiscal 2025 year end, legal entity. Assets at fair value through profit or loss move earnings with rates and spreads unless liabilities move with them; assets at fair value through OCI move equity instead.</p>
+      <div class="ir-chart ir-chart-lg" data-draw="acctMix" data-source="landscape"></div>
+    </div>
+    <div class="ir-card" id="sensitivities">
+      <h2>Published earnings sensitivities, one risk at a time</h2>
+      <p class="ir-note">Immediate impact on net income as each insurer publishes it, divided by invested assets on the same reporting basis (1 bp of C$10BN is C$1MM). A shock in brackets after a name means the insurer publishes a different shock from the one in the chart title; it is shown as published and not rescaled. Manulife, Sun Life, Canada Life (Great-West Lifeco), iA and Beneva are group figures. RBC Life publishes none of its own: its bar is the RBC Insurance group figure from RBC’s annual report over RBC Life’s invested assets (est). Sun Life’s equity line is public equity only. The four charts must not be added together.</p>
+      <div class="ir-grid">
+        <div>
+          <h3>Interest rates −50 bps</h3>
+          <div class="ir-chart ir-chart-sm" data-draw="sens" data-risk="Interest rates" data-source="sens"></div>
+        </div>
+        <div>
+          <h3>Credit spreads +50 bps</h3>
+          <div class="ir-chart ir-chart-sm" data-draw="sens" data-risk="Credit spreads" data-source="sens"></div>
+        </div>
+        <div>
+          <h3>Public equity −10%</h3>
+          <div class="ir-chart ir-chart-sm" data-draw="sens" data-risk="Public equity" data-source="sens"></div>
+        </div>
+        <div>
+          <h3>Real estate and alternatives −10%</h3>
+          <div class="ir-chart ir-chart-sm" data-draw="sens" data-risk="Real estate and alternatives" data-source="sens"></div>
+        </div>
+      </div>
+    </div>
+    <div class="ir-card" id="capital-sensitivity">
+      <h2>Published capital ratio sensitivities</h2>
+      <p class="ir-note">Change in the capital ratio, in points, for the same four shocks. Only five insurers publish this. Canada Life gives some figures as a range of less than one point. iA’s ratio is the CARLI solvency ratio, not LICAT.</p>
+      <div class="ir-heat ir-heat-sm" data-draw="sensCap" data-source="sens"></div>
+    </div>
+    <div class="ir-card" id="sens-table">
+      <h2>Sensitivity disclosures as published</h2>
+      <p class="ir-note">C$ millions except capital ratio points. Blank cells are not published.</p>
+      <div class="ir-tablebox">
+        <table>
+          <thead>
+            <tr>
+              <th class="ir-l">Insurer</th>
+              <th class="ir-l">Risk</th>
+              <th class="ir-l">Shock</th>
+              <th>Net income</th>
+              <th>CSM</th>
+              <th>OCI</th>
+              <th>Capital ratio (pts)</th>
+              <th>Net income (bps of invested)</th>
+              <th class="ir-l">Basis</th>
+              <th class="ir-l">Definition and source</th>
+            </tr>
+          </thead>
+          <tbody data-draw="sensTable" data-source="sens"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="ir-page" id="credit" data-page="credit" hidden>
+    <div class="ir-grid">
+      <div class="ir-card" id="private-credit">
+        <h2>Private credit and mortgages</h2>
+        <p class="ir-note">Commercial mortgages and private corporate debt as a share of invested assets excluding universal life policyholder funds, OSFI LF2, fiscal 2025 year end. BMO Life’s split is not available.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="private_credit" data-source="landscape peerStats"></div>
+      </div>
+      <div class="ir-card" id="below-ig">
+        <h2>Below-investment-grade bonds</h2>
+        <p class="ir-note">Government and corporate bonds rated below investment grade as a share of all bonds, OSFI LF2, fiscal 2025 year end, legal entity. Blumont’s are almost all private placements.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="below_ig_bonds" data-source="landscape peerStats"></div>
+      </div>
+    </div>
+    <div class="ir-card" id="sectors">
+      <h2>Corporate bonds by sector</h2>
+      <p class="ir-note">Public and private corporate bonds by issuer sector as a share of each filer’s total, OSFI LF3, fiscal 2025 year end. Sector coding is the insurer’s own. RBC Life reports no Utilities line and a large Other line, so pipelines and power producers may be sitting in Energy; read Energy and Utilities together.</p>
+      <div class="ir-heat" data-draw="sectors" data-source="sectors"></div>
+    </div>
+    <div class="ir-grid">
+      <div class="ir-card" id="energy-utilities">
+        <h2>Energy and utilities together</h2>
+        <p class="ir-note">The two sectors combined, which removes most of the coding difference between insurers.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="energy_util" data-source="landscape peerStats"></div>
+      </div>
+      <div class="ir-card" id="reinsurance">
+        <h2>Reinsurance counterparty exposure</h2>
+        <p class="ir-note">Reinsurance contract assets as a share of the General Account, OSFI LF1 (iA and Beneva from their annual reports, group basis). All of RBC Life’s ceded business is with affiliates, so its counterparty is the RBC group. Foresters Life’s exceeds its General Account because most of its book is ceded.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="reins_pct" data-source="landscape peerStats"></div>
+      </div>
+    </div>
+    <div class="ir-card" id="ecl">
+      <h2>Credit loss allowances</h2>
+      <p class="ir-note">Expected credit loss allowances (stages 1 to 3) in basis points of invested assets, OSFI LF2, fiscal 2025 year end, legal entity. Insurers that hold everything at fair value through profit or loss book no allowance and are listed as having no figure.</p>
+      <div class="ir-chart ir-chart-sm" data-draw="bar" data-metric="ecl_bps" data-source="landscape peerStats"></div>
+    </div>
+  </section>
+
+  <section class="ir-page" id="liquidity" data-page="liquidity" hidden>
+    <div class="ir-grid">
+      <div class="ir-card" id="liquid-assets">
+        <h2>Liquid assets after repo collateral</h2>
+        <p class="ir-note">Cash, public bonds and public shares as a share of invested assets excluding universal life policyholder funds, after taking out bonds delivered as repo collateral. The tick is the share before collateral. BMO Life’s split is not available.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="liquid_unenc" data-mark="liquid_ex_ul" data-source="landscape peerStats"></div>
+      </div>
+      <div class="ir-card" id="repos">
+        <h2>Repo funding</h2>
+        <p class="ir-note">Securities sold under repurchase agreements as a share of the General Account at fiscal 2025 year end (OSFI LF3; iA and Beneva from their annual reports, group basis). The tick is a year earlier. Peers with no bar report none.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="repos_ga" data-mark="repos_ga_fy24" data-source="landscape peerStats"></div>
+      </div>
+    </div>
+    <div class="ir-grid">
+      <div class="ir-card" id="financing">
+        <h2>Repos and other financing</h2>
+        <p class="ir-note">Repos plus debt, funds withheld and other financing liabilities as a share of the General Account. For RBC Life the whole amount is repos; for ivari and Empire Life it is other financing.</p>
+        <div class="ir-chart" data-draw="bar" data-metric="financing_pct" data-source="landscape peerStats"></div>
+      </div>
+      <div class="ir-card" id="rotation">
+        <h2>RBC Life’s asset rotation in fiscal 2026</h2>
+        <p class="ir-note">Change in holdings from Oct 31, 2025 to Jul 31, 2026, OSFI LF2, C$ millions. Government bonds are the main repo collateral, so the rotation lowers the pool that can be pledged.</p>
+        <div class="ir-chart ir-chart-sm" data-draw="rotation" data-source="rotation"></div>
+      </div>
+    </div>
+    <div class="ir-card" id="encumbrance">
+      <h2>Pledged and encumbered assets</h2>
+      <p class="ir-note">C$ millions at fiscal 2025 year end, from each insurer’s pledged-asset note where one is published. RBC Life, BMO Life, Co-operators Life, Foresters Life and Blumont publish no such note; RBC Life’s repo figure is from its OSFI filing. Group figures cover more than the Canadian business.</p>
+      <div class="ir-tablebox">
+        <table>
+          <thead>
+            <tr>
+              <th class="ir-l">Insurer</th>
+              <th>Repos</th>
+              <th>Securities lending</th>
+              <th>Derivatives collateral</th>
+              <th>Reinsurance</th>
+              <th>Regulatory and trust</th>
+              <th>Other</th>
+              <th class="ir-l">Basis</th>
+            </tr>
+          </thead>
+          <tbody data-draw="encTable" data-source="encumbrance"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="ir-page" id="method" data-page="method" hidden>
+    <div class="ir-card" id="coverage">
+      <h2>What each figure rests on</h2>
+      <div class="ir-legend">
+        <span><i class="ir-sw" data-color="0"></i>Regulatory filing</span>
+        <span><i class="ir-sw" data-color="2"></i>Insurer’s own disclosure</span>
+        <span><i class="ir-sw" data-color="1"></i>Estimate or proxy</span>
+        <span><i class="ir-sw ir-sw-dash"></i>Not available</span>
+      </div>
+      <p class="ir-note">OSFI returns give the same measures for every federally regulated insurer. iA, Beneva and Desjardins report to the AMF, so only their published figures are available. Co-operators Life and Blumont sensitivities were not reviewed in the ALM repo.</p>
+      <div class="ir-heat" data-draw="coverage" data-source="coverage"></div>
+    </div>
+    <div class="ir-card" id="method-notes">
+      <h2>How the measures are built</h2>
+      <ul class="ir-defs">
+        <li><b>Framework.</b> The cdn-life-insurer-alm repo is the method throughout. It looks at Canadian business net of reinsurance, and at the General Account after removing participating accounts, segregated funds and universal life policyholder funds, because investment results on those pass through to policyholders.</li>
+        <li><b>Capital.</b> LICAT required capital by category comes from the OSFI LCQ return. Credit, market and insurance requirements cover non-participating business. The floor on the capital charts is the level the ALM study assumes, not a regulatory or company target.</li>
+        <li><b>Two peer sets.</b> General Account measures use the median of the eleven other OSFI peers. LICAT measures use the median of the eight other all-Canada filers, because the Manulife, Sun Life and Canada Life entities include foreign business.</li>
+        <li><b>Market risk.</b> Asset mix follows the repo’s block allocation at its third level. Sensitivities are each insurer’s own published figures for its own shock; they are never added across risks and never rescaled.</li>
+        <li><b>Credit risk.</b> Private credit, below-investment-grade bonds, sector mix and credit loss allowances come from OSFI LF2 and LF3 for the legal entity.</li>
+        <li><b>Liquidity and funding.</b> Liquid assets are cash, public bonds and public shares, net of bonds delivered as repo collateral. Repos are treated as a rollover and collateral risk, in line with LICAT sections 2.1.2.6 and 3.5, not as a capital deduction.</li>
+        <li><b>Estimates.</b> Items marked est are the repo’s estimates: the Manulife and Sun Life Canada asset mix, Equitable’s universal life removal, and the RBC Life sensitivity proxy.</li>
+        <li><b>Fallback.</b> The repo holds no sensitivities for iA, Beneva or Desjardins, so those rows are carried from the earlier benchmark as published.</li>
+      </ul>
+    </div>
+    <div class="ir-card" id="outside-study">
+      <h2>Project-list insurers outside the ALM study</h2>
+      <p class="ir-note">These six names are on the project’s insurer list but not in the ALM repo’s peer set, so they are not in the charts. Canadian Premier and Primerica are in its OSFI data and are shown on the same LICAT basis; the others carry only a published ratio from the earlier benchmark.</p>
+      <div class="ir-tablebox">
+        <table data-source="outside" data-row-key="company">
+          <thead>
+            <tr>
+              <th class="ir-l" data-field="company">Insurer</th>
+              <th class="ir-l" data-field="regulator">Regulator</th>
+              <th data-field="capital_ratio_pct">Capital ratio (%)</th>
+              <th class="ir-l" data-field="capital_basis">Ratio basis</th>
+              <th data-field="market_cap_inv">Market capital (% invested)</th>
+              <th data-field="credit_cap_inv">Credit capital (% invested)</th>
+              <th data-field="ins_share">Insurance share of capital (%)</th>
+              <th class="ir-l" data-field="note">Note</th>
+            </tr>
+          </thead>
+          <tbody data-draw="outsideTable"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+  window.irFocus = 'RBC Life';
+  window.irBig3 = ['Manulife', 'Sun Life', 'Canada Life'];
+  window.irNum = (v) => (v === '' || v === null || v === undefined || isNaN(Number(v))) ? null : Number(v);
+
+  // Tabs.
+  window.irShowTab = (name) => {
+    document.querySelectorAll('[data-page]').forEach((s) => { s.hidden = s.dataset.page !== name; });
+    document.querySelectorAll('[data-tab]').forEach((b) => b.setAttribute('aria-selected', String(b.dataset.tab === name)));
+  };
+  document.querySelectorAll('[data-tab]').forEach((b) => b.addEventListener('click', () => {
+    irShowTab(b.dataset.tab);
+    dash.setLink(b.dataset.tab);
+  }));
+  const irStart = document.getElementById(location.hash.slice(1));
+  if (irStart) {
+    const page = irStart.closest('[data-page]');
+    if (page) irShowTab(page.dataset.page);
+  }
+
+  // Legend swatches take the series colors.
+  document.querySelectorAll('.ir-sw[data-color]').forEach((s) => { s.style.background = dash.colors[Number(s.dataset.color)]; });
+</script>
+
+<script>
+  // Shared drawing helpers.
+  window.irFail = (el, d) => {
+    el.replaceChildren();
+    if (d.status === 'error' || d.status === 'connect' || d.status === 'declined') {
+      const f = document.createElement('div');
+      f.className = 'ir-fail';
+      f.append(document.createElement('i'), document.createTextNode('Failed to load'));
+      el.append(f);
+    } else {
+      el.textContent = '—';
+    }
+  };
+
+  window.irTip = (el) => {
+    const tip = document.createElement('div');
+    tip.className = 'ir-tip';
+    tip.hidden = true;
+    el.append(tip);
+    return {
+      show(ev, lines) {
+        tip.replaceChildren(...lines.map(([cls, text]) => { const d = document.createElement('div'); d.className = cls; d.textContent = text; return d; }));
+        tip.hidden = false;
+        const box = el.getBoundingClientRect();
+        let x = ev.clientX - box.left + 12, y = ev.clientY - box.top + 12;
+        const w = tip.offsetWidth, h = tip.offsetHeight;
+        if (x + w > el.clientWidth) x = Math.max(0, ev.clientX - box.left - w - 12);
+        if (y + h > el.clientHeight) y = Math.max(0, ev.clientY - box.top - h - 12);
+        tip.style.left = `${x}px`; tip.style.top = `${y}px`;
+      },
+      hide() { tip.hidden = true; },
+    };
+  };
+
+  window.irMeasure = (svg, texts) => {
+    const g = svg.append('g').attr('opacity', 0);
+    let w = 0;
+    texts.forEach((t) => { const n = g.append('text').text(t).node(); w = Math.max(w, n.getComputedTextLength()); });
+    g.remove();
+    return w;
+  };
+
+  // Horizontal bars, one per row: {name, v, focus?, faded?, mark?, note?}. Focus row in the first series color.
+  window.irBars = (el, rows, opt) => {
+    el.replaceChildren();
+    const fmt = d3.format(opt.fmt || '.1f');
+    const label = (v) => (opt.signed && v > 0 ? '+' : '') + fmt(v).replace('-', '−') + (opt.unit || '');
+    const W = Math.max(el.clientWidth, 280);
+    const svg = d3.select(el).append('svg').attr('width', '100%');
+    const labelW = Math.min(irMeasure(svg, rows.map((r) => r.name)) + 10, W * 0.46);
+    const valW = irMeasure(svg, rows.map((r) => label(r.v))) + 12;
+    const hasMed = opt.median !== null && opt.median !== undefined;
+    const hasRef = opt.ref && opt.ref.v !== null && opt.ref.v !== undefined;
+    const rowH = window.irDense ? 20 : 24, top = 22;
+    const H = top + rows.length * rowH + ((hasMed || hasRef) ? 20 : 4);
+    svg.attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    const all = rows.map((r) => r.v).concat(rows.map((r) => r.mark).filter((m) => m !== null && m !== undefined))
+      .concat(hasMed ? [opt.median] : []).concat(hasRef ? [opt.ref.v] : []);
+    const lo = Math.min(0, d3.min(all)), hi = Math.max(0, d3.max(all));
+    const x = d3.scaleLinear([lo, hi === lo ? lo + 1 : hi], [labelW, W - valW]).nice();
+    const ticks = x.ticks(Math.max(2, Math.floor((W - labelW - valW) / 90)));
+    const yEnd = top + rows.length * rowH;
+    svg.append('g').selectAll('line').data(ticks).join('line')
+      .attr('x1', (t) => x(t)).attr('x2', (t) => x(t)).attr('y1', top - 4).attr('y2', yEnd)
+      .attr('stroke', (t) => t === 0 ? 'var(--cds-chart-axis)' : 'var(--cds-chart-grid)').attr('stroke-width', 1);
+    svg.append('g').selectAll('text').data(ticks).join('text')
+      .attr('x', (t) => x(t)).attr('y', 11).attr('text-anchor', 'middle').attr('class', 'ir-muted-t')
+      .text((t) => d3.format(opt.tickFmt || '~f')(t).replace('-', '−') + (opt.tickUnit === undefined ? (opt.unit || '').trim() : opt.tickUnit));
+    if (hasMed) {
+      svg.append('line').attr('x1', x(opt.median)).attr('x2', x(opt.median)).attr('y1', top - 4).attr('y2', yEnd)
+        .attr('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '4 3').attr('stroke-width', 1);
+    }
+    if (hasRef) {
+      svg.append('line').attr('x1', x(opt.ref.v)).attr('x2', x(opt.ref.v)).attr('y1', top - 4).attr('y2', yEnd)
+        .attr('stroke', 'var(--cds-chart-reference)').attr('stroke-width', 1.5);
+    }
+    const tip = irTip(el);
+    const g = svg.append('g').selectAll('g').data(rows).join('g')
+      .attr('transform', (r, i) => `translate(0,${top + i * rowH})`);
+    g.append('text').attr('x', labelW - 8).attr('y', rowH / 2).attr('dy', '0.35em').attr('text-anchor', 'end')
+      .attr('class', (r) => r.focus ? 'ir-focus-t' : null).text((r) => r.name);
+    g.append('rect')
+      .attr('x', (r) => Math.min(x(0), x(r.v))).attr('y', 4).attr('height', rowH - 8)
+      .attr('width', (r) => Math.max(Math.abs(x(r.v) - x(0)), r.v === 0 ? 0 : 1)).attr('rx', 2)
+      .attr('fill', (r) => r.focus ? dash.colors[0] : 'var(--cds-chart-muted)')
+      .attr('fill-opacity', (r) => r.faded ? 0.45 : 1);
+    g.filter((r) => r.mark !== null && r.mark !== undefined).append('line')
+      .attr('x1', (r) => x(r.mark)).attr('x2', (r) => x(r.mark)).attr('y1', 2).attr('y2', rowH - 2)
+      .attr('stroke', 'var(--color-fg)').attr('stroke-width', 2);
+    g.append('text').attr('x', W - valW + 6).attr('y', rowH / 2).attr('dy', '0.35em')
+      .attr('class', (r) => r.focus ? 'ir-focus-t' : null).text((r) => label(r.v));
+    g.append('rect').attr('x', 0).attr('y', 0).attr('width', W).attr('height', rowH).attr('fill', 'transparent')
+      .on('pointermove', (ev, r) => tip.show(ev, [['ir-tip-co', r.name], ['ir-tip-v', label(r.v)]]
+        .concat(r.mark !== null && r.mark !== undefined && opt.markLabel ? [['', `${opt.markLabel}: ${label(r.mark)}`]] : [])
+        .concat(r.note ? [['', r.note]] : [])))
+      .on('pointerleave', () => tip.hide());
+    const foot = [];
+    if (hasMed) foot.push({ at: x(opt.median), text: `Median ${label(opt.median)}` });
+    if (hasRef) foot.push({ at: x(opt.ref.v), text: `${opt.ref.label} ${label(opt.ref.v)}` });
+    foot.sort((a, b) => a.at - b.at);
+    let lastEnd = -1;
+    foot.forEach((f) => {
+      const w = irMeasure(svg, [f.text]);
+      let at = Math.min(f.at + 4, W - w);
+      if (foot.length > 1 && f === foot[0]) at = Math.max(0, Math.min(f.at - w - 4, W - w));
+      if (at < lastEnd + 8) at = lastEnd + 8;
+      svg.append('text').attr('x', at).attr('y', H - 4).attr('class', 'ir-muted-t').text(f.text);
+      lastEnd = at + w;
+    });
+    if (opt.missing && opt.missing.length) {
+      const p = document.createElement('p');
+      p.className = 'ir-miss';
+      p.append(document.createTextNode(opt.missingLabel || 'No figure: '));
+      opt.missing.forEach((m, i) => {
+        if (i) p.append(document.createTextNode(', '));
+        if (m === irFocus) { const b = document.createElement('b'); b.textContent = m; p.append(b); } else p.append(document.createTextNode(m));
+      });
+      el.append(p);
+    }
+  };
+
+  // 100% stacked bars: rows {name, parts: [{key, v, color}]}.
+  window.irStack = (el, rows) => {
+    el.replaceChildren();
+    const W = Math.max(el.clientWidth, 280);
+    const svg = d3.select(el).append('svg').attr('width', '100%');
+    const labelW = Math.min(irMeasure(svg, rows.map((r) => r.name)) + 10, W * 0.42);
+    const rowH = window.irDense ? 22 : 26, top = 22, H = top + rows.length * rowH + 4;
+    svg.attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    const x = d3.scaleLinear([0, 100], [labelW, W - 8]);
+    const ticks = [0, 25, 50, 75, 100];
+    svg.append('g').selectAll('line').data(ticks).join('line')
+      .attr('x1', (t) => x(t)).attr('x2', (t) => x(t)).attr('y1', top - 4).attr('y2', H)
+      .attr('stroke', 'var(--cds-chart-grid)');
+    svg.append('g').selectAll('text').data(ticks).join('text')
+      .attr('x', (t) => x(t)).attr('y', 11).attr('text-anchor', (t) => t === 0 ? 'start' : t === 100 ? 'end' : 'middle')
+      .attr('class', 'ir-muted-t').text((t) => `${t}%`);
+    const tip = irTip(el);
+    const fmt = d3.format('.1f');
+    rows.forEach((r, i) => {
+      const g = svg.append('g').attr('transform', `translate(0,${top + i * rowH})`);
+      g.append('text').attr('x', labelW - 8).attr('y', rowH / 2).attr('dy', '0.35em').attr('text-anchor', 'end')
+        .attr('class', r.name === irFocus ? 'ir-focus-t' : null).text(r.name);
+      let acc = 0;
+      const total = d3.sum(r.parts, (p) => p.v) || 1;
+      r.parts.forEach((p) => {
+        const share = 100 * p.v / total;
+        if (share <= 0) return;
+        const x0 = x(acc), x1 = x(acc + share);
+        acc += share;
+        g.append('rect').attr('x', x0).attr('y', 4).attr('width', Math.max(x1 - x0 - 1, 0.5)).attr('height', rowH - 8)
+          .attr('rx', 2).attr('fill', p.color);
+        if (x1 - x0 > 34) {
+          g.append('text').attr('x', (x0 + x1) / 2).attr('y', rowH / 2).attr('dy', '0.35em').attr('text-anchor', 'middle')
+            .style('fill', p.dark ? 'var(--color-fg)' : 'var(--color-bg)').style('font-weight', 600).style('pointer-events', 'none').text(fmt(share));
+        }
+      });
+      if (r.name === irFocus) {
+        g.append('rect').attr('x', x(0) - 2).attr('y', 2).attr('width', x(100) - x(0) + 3).attr('height', rowH - 4)
+          .attr('rx', 3).attr('fill', 'none').attr('stroke', 'var(--color-fg)').attr('stroke-width', 1.5);
+      }
+      g.append('rect').attr('x', 0).attr('y', 0).attr('width', W).attr('height', rowH).attr('fill', 'transparent')
+        .on('pointermove', (ev) => tip.show(ev, [['ir-tip-co', r.name]].concat(r.parts.filter((p) => p.v > 0).map((p) => ['', `${p.key}: ${fmt(100 * p.v / total)}%`])).concat(r.note ? [['ir-tip-co', r.note]] : [])))
+        .on('pointerleave', () => tip.hide());
+    });
+  };
+
+  // Heat grid: rows (insurers) x columns, cells {text, fill, opacity} or null for empty.
+  window.irHeat = (el, rowNames, cols, cell, opt) => {
+    el.replaceChildren();
+    const grid = document.createElement('div');
+    grid.className = 'ir-hgrid';
+    grid.style.gridTemplateColumns = `minmax(9rem, max-content) repeat(${cols.length}, minmax(${opt.colW || '4rem'}, 1fr))`;
+    grid.append(document.createElement('div'));
+    cols.forEach((c) => { const h = document.createElement('div'); h.className = 'ir-hcol'; h.textContent = c; grid.append(h); });
+    const tip = irTip(el);
+    rowNames.forEach((name) => {
+      const lab = document.createElement('div');
+      lab.className = 'ir-hrow' + (name === irFocus ? ' is-focus' : '');
+      lab.textContent = name;
+      grid.append(lab);
+      cols.forEach((c) => {
+        const d = cell(name, c);
+        const box = document.createElement('div');
+        box.className = 'ir-hcell' + (name === irFocus ? ' is-focus' : '');
+        const bg = document.createElement('div');
+        if (d && d.fill) { bg.className = 'ir-hfill'; bg.style.background = d.fill; bg.style.opacity = d.opacity ?? 1; } else bg.className = 'ir-hempty';
+        box.append(bg);
+        if (d && d.text) { const t = document.createElement('span'); t.className = 'ir-hval'; t.textContent = d.text; if (d.strong) t.style.color = 'var(--color-bg)'; box.append(t); }
+        box.addEventListener('pointermove', (ev) => tip.show(ev, [['ir-tip-co', name], ['', c], ['ir-tip-v', d ? d.tipText || d.text || '' : 'Not available']]));
+        box.addEventListener('pointerleave', () => tip.hide());
+        grid.append(box);
+      });
+    });
+    el.append(grid);
+  };
+
+  window.irCells = (tb, rows, build, isFocus) => {
+    tb.replaceChildren();
+    rows.forEach((r) => {
+      const tr = document.createElement('tr');
+      if (isFocus && isFocus(r)) tr.className = 'is-focus';
+      build(r).forEach(([cls, text]) => { const td = document.createElement('td'); if (cls) td.className = cls; td.textContent = text; tr.append(td); });
+      tb.append(tr);
+    });
+  };
+  window.irF = (v, f) => (irNum(v) === null ? '' : d3.format(f)(irNum(v)).replace('-', '−'));
+</script>
+
+<script>
+  // One number from the facts file.
+  dash.draw('v', (el) => {
+    const d = dash.data('facts');
+    if (d.status !== 'ok') { el.textContent = '—'; return; }
+    const row = d.data.find((r) => r.key === el.dataset.key);
+    const v = row ? irNum(row.value) : null;
+    el.textContent = v === null ? '—' : d3.format(el.dataset.fmt || '.1f')(v);
+  });
+
+  // One number from the RBC-against-median table.
+  dash.draw('st', (el) => {
+    const d = dash.data('peerStats');
+    if (d.status !== 'ok') { el.textContent = '—'; return; }
+    const [metric, field] = el.dataset.key.split(':');
+    const row = d.data.find((r) => r.metric === metric);
+    const v = row ? irNum(row[field]) : null;
+    if (v === null) { el.textContent = '—'; return; }
+    el.textContent = (field === 'rbc' || field === 'median') ? d3.format(`.${row.decimals}f`)(v) : String(v);
+  });
+
+  dash.draw('bar', (el) => {
+    const d = dash.data('landscape'), s = dash.data('peerStats');
+    if (d.status !== 'ok') { irFail(el, d); return; }
+    const m = el.dataset.metric, mark = el.dataset.mark;
+    const st = (s.status === 'ok' ? s.data.find((r) => r.metric === m) : null) || {};
+    const unit = st.unit === undefined || st.unit === null ? '%' : String(st.unit);
+    const licatSet = String(st.peer_set || '').includes('all-Canada');
+    const rows = d.data.filter((r) => irNum(r[m]) !== null).map((r) => ({
+      name: r.company, v: irNum(r[m]), focus: r.company === irFocus, faded: licatSet && irBig3.includes(r.company),
+      mark: mark ? irNum(r[mark]) : null,
+      note: [r.scope, r.period].concat(m === 'capital_ratio_pct' || m === 'licat_pct' ? [r.capital_basis] : []).join(' · '),
+    })).sort((a, b) => b.v - a.v);
+    const shown = m === 'repos_ga' ? rows.filter((r) => r.v > 0 || (r.mark || 0) > 0) : rows;
+    const missing = d.data.filter((r) => irNum(r[m]) === null && r.regulator === 'OSFI').map((r) => r.company);
+    let ref = null;
+    if (el.dataset.floor) {
+      const f = dash.data('facts');
+      const fr = f.status === 'ok' ? f.data.find((r) => r.key === 'floor_pct') : null;
+      if (fr) ref = { v: irNum(fr.value), label: 'Floor' };
+    }
+    if (!shown.length) { el.textContent = '—'; return; }
+    irBars(el, shown, { fmt: `.${irNum(st.decimals) === null ? 1 : st.decimals}f`, unit, tickUnit: unit.includes('bps') ? '' : undefined,
+      median: irNum(st.median), ref, markLabel: mark === 'repos_ga_fy24' ? 'A year earlier' : mark === 'eq_gross' ? 'Including pass-through funds' : mark ? 'Before repo collateral' : null,
+      missing, missingLabel: 'No figure: ' });
+  });
+
+  dash.draw('strip', (el) => {
+    const d = dash.data('landscape'), s = dash.data('peerStats');
+    if (d.status !== 'ok' || s.status !== 'ok') { irFail(el, d.status !== 'ok' ? d : s); return; }
+    el.replaceChildren();
+    const metrics = s.data.filter((r) => Number(r.strip) === 1);
+    const W = Math.max(el.clientWidth, 300);
+    const narrow = W < 620;
+    const svg = d3.select(el).append('svg').attr('width', '100%');
+    const labelW = narrow ? 0 : Math.min(irMeasure(svg, metrics.map((m) => m.label)) + 16, W * 0.46);
+    const rowH = narrow ? 52 : window.irDense ? 35 : 38, H = metrics.length * rowH + 8;
+    svg.attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    const tip = irTip(el);
+    metrics.forEach((st, i) => {
+      const key = st.metric, unit = st.unit || '';
+      const fmt = d3.format(`.${st.decimals}f`);
+      const licatSet = String(st.peer_set).includes('all-Canada');
+      const g = svg.append('g').attr('transform', `translate(0,${i * rowH})`);
+      const vals = d.data.filter((r) => r.regulator === 'OSFI').map((r) => ({ co: r.company, v: irNum(r[key]), out: licatSet && irBig3.includes(r.company) })).filter((x) => x.v !== null);
+      const x0 = narrow ? 8 : labelW, x1 = W - 74;
+      const yMid = narrow ? 34 : rowH / 2 - 2;
+      g.append('text').attr('x', narrow ? 0 : labelW - 12).attr('y', narrow ? 12 : yMid).attr('dy', narrow ? 0 : '0.35em')
+        .attr('text-anchor', narrow ? 'start' : 'end').text(st.label);
+      if (st.hint && !narrow) g.append('text').attr('x', labelW - 12).attr('y', yMid + 13).attr('dy', '0.35em')
+        .attr('text-anchor', 'end').attr('class', 'ir-muted-t').style('font-size', '10px').text(st.hint);
+      g.append('line').attr('x1', x0).attr('x2', x1).attr('y1', yMid).attr('y2', yMid).attr('stroke', 'var(--cds-chart-grid)');
+      if (!vals.length) return;
+      const ext = d3.extent(vals, (v) => v.v);
+      const x = d3.scaleLinear([ext[0] > 100 ? 100 : Math.min(0, ext[0]), ext[1] === ext[0] ? ext[0] + 1 : ext[1]], [x0 + 6, x1 - 6]);
+      g.append('text').attr('x', x0).attr('y', yMid + 15).attr('class', 'ir-muted-t').style('font-size', '10px')
+        .text(fmt(x.domain()[0]) + unit);
+      g.append('text').attr('x', x1).attr('y', yMid + 15).attr('text-anchor', 'end').attr('class', 'ir-muted-t').style('font-size', '10px')
+        .text(fmt(x.domain()[1]) + unit);
+      const med = irNum(st.median);
+      if (med !== null) {
+        g.append('line').attr('x1', x(med)).attr('x2', x(med)).attr('y1', yMid - 9).attr('y2', yMid + 9)
+          .attr('stroke', 'var(--color-fg)').attr('stroke-width', 2);
+      }
+      const others = vals.filter((v) => v.co !== irFocus);
+      g.append('g').selectAll('circle').data(others).join('circle')
+        .attr('cx', (v) => x(v.v)).attr('cy', yMid).attr('r', 5)
+        .attr('fill', (v) => v.out ? 'var(--color-panel)' : 'var(--cds-chart-muted)').attr('fill-opacity', (v) => v.out ? 1 : 0.75)
+        .attr('stroke', (v) => v.out ? 'var(--cds-chart-axis)' : 'none').attr('stroke-width', 1.5)
+        .on('pointermove', (ev, v) => tip.show(ev, [['ir-tip-co', v.co], ['', st.label], ['ir-tip-v', fmt(v.v) + unit]].concat(v.out ? [['ir-tip-co', 'Entity includes foreign business; not in the median']] : [])))
+        .on('pointerleave', () => tip.hide());
+      const focus = vals.find((v) => v.co === irFocus);
+      if (focus) {
+        g.append('circle').attr('cx', x(focus.v)).attr('cy', yMid).attr('r', 7).attr('fill', dash.colors[0])
+          .attr('stroke', 'var(--color-panel)').attr('stroke-width', 2)
+          .on('pointermove', (ev) => tip.show(ev, [['ir-tip-co', irFocus], ['', st.label], ['ir-tip-v', `${fmt(focus.v)}${unit}`], ['', `Median of ${st.peer_set}: ${med === null ? 'n/a' : fmt(med) + unit}`]]))
+          .on('pointerleave', () => tip.hide());
+        g.append('text').attr('x', W).attr('y', yMid - 6).attr('dy', '0.35em').attr('text-anchor', 'end').attr('class', 'ir-focus-t')
+          .style('fill', dash.colors[0]).text(fmt(focus.v) + unit);
+        if (med !== null) g.append('text').attr('x', W).attr('y', yMid + 8).attr('dy', '0.35em').attr('text-anchor', 'end').attr('class', 'ir-muted-t')
+          .style('font-size', '10px').text(`med. ${fmt(med)}${unit}`);
+      }
+    });
+  });
+
+  dash.draw('landscapeTable', (tb) => {
+    const d = dash.data('landscape');
+    tb.replaceChildren();
+    if (d.status !== 'ok') return;
+    const two = ['market_cap_ga', 'credit_cap_ga', 'market_cap_inv', 'credit_cap_inv', 'below_ig_bonds', 'genacct_bn'];
+    const cols = ['genacct_bn', 'capital_ratio_pct', 'buffer_pct', 'market_cap_ga', 'credit_cap_ga', 'market_cap_inv', 'credit_cap_inv',
+      'eq_ex_ul', 'alts_incl_others', 'private_credit', 'below_ig_bonds', 'energy_util', 'liquid_unenc', 'repos_ga', 'fvoci'];
+    irCells(tb, d.data, (r) => [['ir-l', r.company], ['ir-l', r.scope]].concat(cols.map((c) => ['', irF(r[c], two.includes(c) ? '.2f' : '.1f')])),
+      (r) => r.company === irFocus);
+  });
+
+  dash.draw('changesTable', (tb) => {
+    const d = dash.data('changes');
+    tb.replaceChildren();
+    if (d.status !== 'ok') return;
+    irCells(tb, d.data, (r) => [['ir-l ir-strong', r.topic], ['ir-l', r.earlier], ['ir-l ir-strong', r.now], ['ir-l ir-wrap', r.why]]);
+  });
+
+  dash.draw('pathTable', (tb) => {
+    const d = dash.data('capitalPath');
+    tb.replaceChildren();
+    if (d.status !== 'ok') return;
+    irCells(tb, d.data, (r) => [['ir-l', r.date], ['', irF(r.licat_pct, '.1f')], ['', irF(r.core_pct, '.1f')], ['', irF(r.required_capital_mm, ',.0f')],
+      ['', irF(r.free125_mm, ',.0f')], ['', irF(r.parent_injection_mm, ',.0f')], ['', irF(r.dividends_mm, ',.0f')], ['', irF(r.net_income_mm, ',.0f')], ['ir-l', r.note]]);
+  });
+
+  dash.draw('outsideTable', (tb) => {
+    const d = dash.data('outside');
+    tb.replaceChildren();
+    if (d.status !== 'ok') return;
+    irCells(tb, d.data, (r) => [['ir-l', r.company], ['ir-l', r.regulator], ['', irF(r.capital_ratio_pct, '.1f')], ['ir-l', r.capital_basis],
+      ['', irF(r.market_cap_inv, '.2f')], ['', irF(r.credit_cap_inv, '.2f')], ['', irF(r.ins_share, '.1f')], ['ir-l ir-wrap', r.note]]);
+  });
+
+  dash.draw('encTable', (tb) => {
+    const d = dash.data('encumbrance');
+    tb.replaceChildren();
+    if (d.status !== 'ok') return;
+    const purposes = ['Repos', 'Securities lending', 'Derivatives collateral', 'Reinsurance', 'Regulatory and trust', 'Other'];
+    const by = d3.group(d.data, (r) => r.company);
+    irCells(tb, Array.from(by, ([name, rs]) => ({ name, rs })), (g) => [['ir-l', g.name]]
+      .concat(purposes.map((p) => { const x = g.rs.find((r) => r.purpose === p); return ['', x && irNum(x.value_mm) ? irF(x.value_mm, ',.0f') : '']; }))
+      .concat([['ir-l', g.rs[0].basis]]), (g) => g.name === irFocus);
+  });
+
+  dash.draw('licatMix', (el) => {
+    const d = dash.data('licatMix');
+    if (d.status !== 'ok') { irFail(el, d); return; }
+    const c = dash.colors;
+    const order = [['Insurance', c[2]], ['Market', c[0]], ['Credit', c[1]], ['Segregated fund guarantees', c[4]], ['Operational', c[5]], ['Participating and other', 'var(--cds-chart-muted)']];
+    const by = d3.group(d.data, (r) => r.company);
+    const rows = Array.from(by, ([name, rs]) => ({ name, note: rs[0].scope,
+      parts: order.map(([k, color]) => ({ key: k, v: irNum((rs.find((r) => r.component === k) || {}).share_pct) || 0, color, dark: k === 'Participating and other' })) }));
+    irStack(el, rows);
+  });
+
+  dash.draw('assetMix', (el) => {
+    const d = dash.data('assetMix');
+    if (d.status !== 'ok') { irFail(el, d); return; }
+    const c = dash.colors;
+    const groups = [['Cash', ['Cash Equivalent'], c[5]], ['Government bonds', ['Government Bonds'], c[0]], ['Public corporate bonds', ['Corporate Bonds'], c[4]],
+      ['Private term loans', ['Illiquid Term Loan'], c[2]], ['Commercial mortgages', ['Commercial Mortgages'], c[1]],
+      ['Common and preferred shares', ['Common Shares', 'Preferred Shares'], c[3]], ['Real estate equity', ['Real Estate Equity'], c[6]],
+      ['Other invested assets', ['Other invested (unclassified)'], 'var(--cds-chart-muted)']];
+    const by = d3.group(d.data, (r) => r.company);
+    const rows = Array.from(by, ([name, rs]) => ({ name, note: rs[0].basis,
+      parts: groups.map(([k, l3, color]) => ({ key: k, v: d3.sum(rs.filter((r) => l3.includes(r.l3)), (r) => irNum(r.share_pct) || 0), color, dark: k === 'Other invested assets' })) }));
+    irStack(el, rows);
+  });
+
+  dash.draw('acctMix', (el) => {
+    const d = dash.data('landscape');
+    if (d.status !== 'ok') { irFail(el, d); return; }
+    const c = dash.colors;
+    const rows = d.data.filter((r) => irNum(r.fvtpl) !== null).map((r) => ({ name: r.company, note: r.scope, parts: [
+      { key: 'Fair value through profit or loss', v: irNum(r.fvtpl) || 0, color: c[0] },
+      { key: 'Fair value through OCI', v: irNum(r.fvoci) || 0, color: c[1] },
+      { key: 'Amortised cost', v: irNum(r.amortised_cost) || 0, color: 'var(--cds-chart-muted)', dark: true }] }));
+    irStack(el, rows);
+  });
+
+  dash.draw('sens', (el) => {
+    const d = dash.data('sens');
+    if (d.status !== 'ok') { irFail(el, d); return; }
+    const mine = d.data.filter((r) => r.risk === el.dataset.risk);
+    const rows = mine.filter((r) => irNum(r.ni_bps) !== null).map((r) => ({
+      name: r.company + (Number(r.standard_shock) === 1 ? '' : ` (${r.shock})`), v: irNum(r.ni_bps), focus: r.company === irFocus,
+      note: `C$${irF(r.net_income_mm, ',.1f')}MM net income for ${r.shock}. ${r.basis}; ${r.denominator}.`,
+    })).sort((a, b) => a.v - b.v);
+    const missing = mine.filter((r) => irNum(r.ni_bps) === null).map((r) => r.company);
+    if (!rows.length) { el.textContent = '—'; return; }
+    irBars(el, rows, { fmt: '.1f', unit: ' bps', tickUnit: '', signed: true, missing, missingLabel: 'Published without a comparable net income figure: ' });
+  });
+
+  dash.draw('sensCap', (el) => {
+    const d = dash.data('sens');
+    if (d.status !== 'ok') { irFail(el, d); return; }
+    const have = d.data.filter((r) => r.capital_text);
+    const cols = ['Interest rates', 'Credit spreads', 'Public equity', 'Real estate and alternatives'];
+    const names = Array.from(new Set(have.map((r) => r.company)));
+    const look = new Map(have.map((r) => [`${r.company}|${r.risk}`, r]));
+    irHeat(el, names, cols, (n, col) => {
+      const r = look.get(`${n}|${col}`);
+      if (!r) return null;
+      const v = irNum(r.capital_pts);
+      const up = v !== null ? v > 0 : r.capital_text.includes('+');
+      const mag = v === null ? 0.5 : Math.min(Math.abs(v), 3);
+      return { fill: v === 0 ? 'var(--cds-chart-muted)' : up ? dash.colors[2] : dash.colors[3], opacity: 0.2 + 0.25 * mag, text: r.capital_text,
+        tipText: `${r.capital_text} points for ${r.shock}. ${r.capital_basis}.` };
+    }, { colW: '6rem' });
+  });
+
+  dash.draw('sensTable', (tb) => {
+    const d = dash.data('sens');
+    tb.replaceChildren();
+    if (d.status !== 'ok') return;
+    irCells(tb, d.data, (r) => [['ir-l', r.company], ['ir-l', r.risk], ['ir-l', r.shock], ['', irF(r.net_income_mm, ',.1f')], ['', irF(r.csm_mm, ',.1f')],
+      ['', irF(r.oci_mm, ',.1f')], ['', r.capital_text || ''], ['', irF(r.ni_bps, '+.1f')], ['ir-l', r.basis],
+      ['ir-l ir-wrap', `${r.definition}. ${r.source}.`]], (r) => r.company === irFocus);
+  });
+
+  dash.draw('sectors', (el) => {
+    const d = dash.data('sectors');
+    if (d.status !== 'ok') { irFail(el, d); return; }
+    const cols = Array.from(new Set(d.data.map((r) => r.sector)));
+    const names = Array.from(new Set(d.data.map((r) => r.company)));
+    const max = d3.max(d.data, (r) => irNum(r.pct)) || 1;
+    const look = new Map(d.data.map((r) => [`${r.company}|${r.sector}`, irNum(r.pct)]));
+    irHeat(el, names, cols, (n, col) => {
+      const v = look.get(`${n}|${col}`);
+      if (v === null || v === undefined) return null;
+      const op = 0.12 + 0.88 * v / max;
+      return { fill: n === irFocus ? dash.colors[0] : dash.colors[4], opacity: op, text: d3.format('.0f')(v), strong: op > 0.55, tipText: `${d3.format('.1f')(v)}% of corporate bonds` };
+    }, { colW: '4.2rem' });
+  });
+
+  dash.draw('coverage', (el) => {
+    const d = dash.data('coverage');
+    if (d.status !== 'ok') { irFail(el, d); return; }
+    const cols = Array.from(new Set(d.data.map((r) => r.item)));
+    const names = Array.from(new Set(d.data.map((r) => r.company)));
+    const look = new Map(d.data.map((r) => [`${r.company}|${r.item}`, r.status]));
+    const fill = { 'Regulatory filing': dash.colors[0], 'Insurer disclosure': dash.colors[2], 'Estimate or proxy': dash.colors[1] };
+    irHeat(el, names, cols, (n, col) => {
+      const st = look.get(`${n}|${col}`);
+      return fill[st] ? { fill: fill[st], opacity: 0.8, tipText: st } : null;
+    }, { colW: '4.8rem' });
+  });
+
+  dash.draw('rotation', (el) => {
+    const d = dash.data('rotation');
+    if (d.status !== 'ok') { irFail(el, d); return; }
+    irBars(el, d.data.map((r) => ({ name: r.asset, v: irNum(r.change_mm), focus: true })), { fmt: ',.0f', unit: '', signed: true, tickFmt: ',~f' });
+  });
+
+  dash.draw('trend', (el) => {
+    const d = dash.data('licatTrend'), f = dash.data('facts');
+    if (d.status !== 'ok') { irFail(el, d); return; }
+    el.replaceChildren();
+    const fr = f.status === 'ok' ? f.data.find((r) => r.key === 'floor_pct') : null;
+    const floor = fr ? irNum(fr.value) : null;
+    const rows = d.data.map((r) => ({ per: r.per, rbcDate: r.rbc_date, peerDate: r.peer_date, rbc: irNum(r.rbc), med: irNum(r.median), lo: irNum(r.low), hi: irNum(r.high) }));
+    const W = Math.max(el.clientWidth, 300), H = 280, m = { t: 14, r: 96, b: 30, l: 40 };
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+    const x = d3.scalePoint(rows.map((r) => r.per), [m.l, W - m.r]).padding(0.3);
+    const all = rows.flatMap((r) => [r.rbc, r.lo, r.hi]).filter((v) => v !== null).concat(floor === null ? [] : [floor]);
+    const y = d3.scaleLinear([Math.floor(d3.min(all) / 10) * 10, Math.ceil(d3.max(all) / 10) * 10], [H - m.b, m.t]);
+    svg.append('g').selectAll('line').data(y.ticks(5)).join('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', (t) => y(t)).attr('y2', (t) => y(t)).attr('stroke', 'var(--cds-chart-grid)');
+    svg.append('g').selectAll('text').data(y.ticks(5)).join('text').attr('x', m.l - 6).attr('y', (t) => y(t)).attr('dy', '0.35em').attr('text-anchor', 'end').attr('class', 'ir-muted-t').text((t) => `${t}%`);
+    const step = rows.length > 8 && W < 620 ? 2 : 1;
+    svg.append('g').selectAll('text').data(rows.filter((r, i) => i % step === 0)).join('text').attr('x', (r) => x(r.per)).attr('y', H - 10).attr('text-anchor', 'middle').attr('class', 'ir-muted-t')
+      .text((r) => `Q${r.per.slice(5)} ${r.per.slice(0, 4)}`);
+    const band = rows.filter((r) => r.lo !== null);
+    svg.append('path').attr('d', d3.area().x((r) => x(r.per)).y0((r) => y(r.lo)).y1((r) => y(r.hi))(band)).attr('fill', 'var(--cds-chart-muted)').attr('fill-opacity', 0.3);
+    svg.append('path').attr('d', d3.line().x((r) => x(r.per)).y((r) => y(r.med))(band)).attr('fill', 'none').attr('stroke', 'var(--cds-chart-reference)').attr('stroke-dasharray', '4 3');
+    if (floor !== null) {
+      svg.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(floor)).attr('y2', y(floor)).attr('stroke', 'var(--cds-chart-reference)').attr('stroke-width', 1.5);
+      svg.append('text').attr('x', W - m.r + 6).attr('y', y(floor)).attr('dy', '0.35em').attr('class', 'ir-muted-t').text(`Floor ${d3.format('.0f')(floor)}%`);
+    }
+    svg.append('path').attr('d', d3.line().x((r) => x(r.per)).y((r) => y(r.rbc))(rows)).attr('fill', 'none').attr('stroke', dash.colors[0]).attr('stroke-width', 2.5);
+    const tip = irTip(el);
+    svg.append('g').selectAll('circle').data(rows).join('circle').attr('cx', (r) => x(r.per)).attr('cy', (r) => y(r.rbc)).attr('r', 4).attr('fill', dash.colors[0])
+      .attr('stroke', 'var(--color-panel)').attr('stroke-width', 1.5);
+    const last = rows[rows.length - 1], lastBand = band[band.length - 1];
+    svg.append('text').attr('x', x(last.per) + 8).attr('y', y(last.rbc)).attr('dy', '-0.5em').attr('class', 'ir-focus-t').style('fill', dash.colors[0]).text(`${d3.format('.1f')(last.rbc)}%`);
+    if (lastBand) svg.append('text').attr('x', x(lastBand.per) + 8).attr('y', y(lastBand.med)).attr('dy', '0.35em').attr('class', 'ir-muted-t').text(`Median ${d3.format('.1f')(lastBand.med)}%`);
+    svg.append('g').selectAll('rect').data(rows).join('rect').attr('x', (r) => x(r.per) - x.step() / 2).attr('y', m.t).attr('width', x.step()).attr('height', H - m.b - m.t).attr('fill', 'transparent')
+      .on('pointermove', (ev, r) => tip.show(ev, [['ir-tip-co', `RBC Life at ${r.rbcDate}`], ['ir-tip-v', `${d3.format('.1f')(r.rbc)}%`]]
+        .concat(r.med === null ? [['', 'Peers have not filed this quarter yet']] : [['', `Others at ${r.peerDate}: median ${d3.format('.1f')(r.med)}%, range ${d3.format('.1f')(r.lo)}% to ${d3.format('.1f')(r.hi)}%`]])))
+      .on('pointerleave', () => tip.hide());
+  });
+</script>

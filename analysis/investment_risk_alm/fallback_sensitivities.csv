@@ -1,0 +1,10 @@
+id,risk,shock,net_income_mm,csm_mm,oci_mm,capital_pts,capital_text,basis,definition,source
+IAG,rates,-50 bps,0,,,0.5,+0.5,group consolidated,"Immediate parallel shift in rates; solvency ratio is CARLI (AMF), not LICAT","iA Financial Group 2025 annual MD&A, market risk immediate sensitivities"
+IAG,spreads,+50 bps,-25,,,0.5,+0.5,group consolidated,"Immediate change in corporate bond spreads; solvency ratio is CARLI (AMF)","iA Financial Group 2025 annual MD&A, market risk immediate sensitivities"
+IAG,equity,-10%,-100,,,-1.0,−1.0,group consolidated,"Immediate change in public equity markets; solvency ratio is CARLI (AMF)","iA Financial Group 2025 annual MD&A, market risk immediate sensitivities"
+IAG,real_estate_alts,-10%,-300,,,-1.0,−1.0,group consolidated,"Private non-fixed income assets: private equity, investment property and infrastructure","iA Financial Group 2025 annual MD&A, private non-fixed income asset sensitivities"
+BEN,rates,-100 bps,3.3,,,,,group consolidated (incl. P&C),"Disclosed for a 100 bps move only; shown as disclosed, not scaled","Beneva 2025 annual report, note on interest rate risk"
+BEN,equity,-15%,-89.3,,,,,group consolidated (incl. P&C),"Disclosed for a 15% fall only (investments -74.7, guarantees -14.6); shown as disclosed, not scaled","Beneva 2025 annual report, note on market price risk"
+DFS,rates,-100 bps,11,,,,,life and health segment,"Disclosed for a 100 bps move only, after member dividends; shown as disclosed, not scaled","Desjardins Group 2025 combined financial statements, note 16"
+DFS,equity,-15%,-105,,,,,life and health segment,"Disclosed for a 15% fall only, after member dividends; shown as disclosed, not scaled","Desjardins Group 2025 combined financial statements, note 16"
+DFS,real_estate_alts,-10%,-106,,,,,life and health segment,"Other markets, after member dividends","Desjardins Group 2025 combined financial statements, note 16"

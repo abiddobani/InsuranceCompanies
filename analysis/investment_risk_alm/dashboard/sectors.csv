@@ -1,0 +1,133 @@
+id,company,sector,pct
+RBC,RBC Life,Energy,37.6
+RBC,RBC Life,Utilities,
+RBC,RBC Life,Financials,16.0
+RBC,RBC Life,Industrials,2.3
+RBC,RBC Life,Communications,4.9
+RBC,RBC Life,Consumer staples,
+RBC,RBC Life,Consumer discretionary,1.6
+RBC,RBC Life,Health care and diversified,7.3
+RBC,RBC Life,Materials,
+RBC,RBC Life,Technology,2.7
+RBC,RBC Life,Other,27.5
+BMO,BMO Life,Energy,15.0
+BMO,BMO Life,Utilities,32.6
+BMO,BMO Life,Financials,14.2
+BMO,BMO Life,Industrials,7.5
+BMO,BMO Life,Communications,9.0
+BMO,BMO Life,Consumer staples,5.9
+BMO,BMO Life,Consumer discretionary,5.9
+BMO,BMO Life,Health care and diversified,1.7
+BMO,BMO Life,Materials,0.2
+BMO,BMO Life,Technology,0.6
+BMO,BMO Life,Other,7.3
+MFC,Manulife,Energy,9.5
+MFC,Manulife,Utilities,25.7
+MFC,Manulife,Financials,22.1
+MFC,Manulife,Industrials,13.9
+MFC,Manulife,Communications,2.0
+MFC,Manulife,Consumer staples,13.9
+MFC,Manulife,Consumer discretionary,5.6
+MFC,Manulife,Health care and diversified,0.0
+MFC,Manulife,Materials,3.5
+MFC,Manulife,Technology,1.5
+MFC,Manulife,Other,2.1
+SLF,Sun Life,Energy,6.1
+SLF,Sun Life,Utilities,16.5
+SLF,Sun Life,Financials,24.9
+SLF,Sun Life,Industrials,13.5
+SLF,Sun Life,Communications,4.6
+SLF,Sun Life,Consumer staples,3.3
+SLF,Sun Life,Consumer discretionary,2.8
+SLF,Sun Life,Health care and diversified,6.1
+SLF,Sun Life,Materials,1.5
+SLF,Sun Life,Technology,1.6
+SLF,Sun Life,Other,19.3
+CLF,Canada Life,Energy,6.6
+CLF,Canada Life,Utilities,29.5
+CLF,Canada Life,Financials,18.9
+CLF,Canada Life,Industrials,1.7
+CLF,Canada Life,Communications,3.9
+CLF,Canada Life,Consumer staples,4.0
+CLF,Canada Life,Consumer discretionary,4.8
+CLF,Canada Life,Health care and diversified,4.1
+CLF,Canada Life,Materials,5.5
+CLF,Canada Life,Technology,3.3
+CLF,Canada Life,Other,17.8
+EMP,Empire Life,Energy,18.0
+EMP,Empire Life,Utilities,15.7
+EMP,Empire Life,Financials,36.2
+EMP,Empire Life,Industrials,4.4
+EMP,Empire Life,Communications,7.0
+EMP,Empire Life,Consumer staples,4.4
+EMP,Empire Life,Consumer discretionary,0.3
+EMP,Empire Life,Health care and diversified,2.7
+EMP,Empire Life,Materials,0.1
+EMP,Empire Life,Technology,0.5
+EMP,Empire Life,Other,10.6
+IVA,ivari,Energy,16.7
+IVA,ivari,Utilities,21.8
+IVA,ivari,Financials,11.8
+IVA,ivari,Industrials,11.1
+IVA,ivari,Communications,18.6
+IVA,ivari,Consumer staples,16.8
+IVA,ivari,Consumer discretionary,1.3
+IVA,ivari,Health care and diversified,
+IVA,ivari,Materials,
+IVA,ivari,Technology,
+IVA,ivari,Other,1.9
+EQL,Equitable Life,Energy,24.5
+EQL,Equitable Life,Utilities,
+EQL,Equitable Life,Financials,42.0
+EQL,Equitable Life,Industrials,6.6
+EQL,Equitable Life,Communications,6.3
+EQL,Equitable Life,Consumer staples,
+EQL,Equitable Life,Consumer discretionary,2.5
+EQL,Equitable Life,Health care and diversified,0.3
+EQL,Equitable Life,Materials,
+EQL,Equitable Life,Technology,
+EQL,Equitable Life,Other,17.7
+COP,Co-operators Life,Energy,25.1
+COP,Co-operators Life,Utilities,13.2
+COP,Co-operators Life,Financials,27.1
+COP,Co-operators Life,Industrials,7.4
+COP,Co-operators Life,Communications,8.5
+COP,Co-operators Life,Consumer staples,
+COP,Co-operators Life,Consumer discretionary,
+COP,Co-operators Life,Health care and diversified,0.5
+COP,Co-operators Life,Materials,
+COP,Co-operators Life,Technology,
+COP,Co-operators Life,Other,18.2
+IOF,Foresters Life,Energy,8.2
+IOF,Foresters Life,Utilities,22.9
+IOF,Foresters Life,Financials,54.3
+IOF,Foresters Life,Industrials,5.1
+IOF,Foresters Life,Communications,4.9
+IOF,Foresters Life,Consumer staples,0.7
+IOF,Foresters Life,Consumer discretionary,1.9
+IOF,Foresters Life,Health care and diversified,2.1
+IOF,Foresters Life,Materials,
+IOF,Foresters Life,Technology,
+IOF,Foresters Life,Other,
+WAW,Wawanesa Life,Energy,10.7
+WAW,Wawanesa Life,Utilities,34.0
+WAW,Wawanesa Life,Financials,35.0
+WAW,Wawanesa Life,Industrials,9.0
+WAW,Wawanesa Life,Communications,5.0
+WAW,Wawanesa Life,Consumer staples,3.5
+WAW,Wawanesa Life,Consumer discretionary,2.8
+WAW,Wawanesa Life,Health care and diversified,
+WAW,Wawanesa Life,Materials,
+WAW,Wawanesa Life,Technology,
+WAW,Wawanesa Life,Other,
+BLU,Blumont,Energy,24.5
+BLU,Blumont,Utilities,15.0
+BLU,Blumont,Financials,27.4
+BLU,Blumont,Industrials,4.7
+BLU,Blumont,Communications,13.0
+BLU,Blumont,Consumer staples,4.0
+BLU,Blumont,Consumer discretionary,3.3
+BLU,Blumont,Health care and diversified,2.9
+BLU,Blumont,Materials,3.4
+BLU,Blumont,Technology,1.8
+BLU,Blumont,Other,

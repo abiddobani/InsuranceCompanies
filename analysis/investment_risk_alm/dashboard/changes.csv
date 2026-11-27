@@ -1,0 +1,11 @@
+topic,earlier,now,why
+"Equity, real estate and private equity",14.7% of the portfolio,7.5% of invested assets,"The earlier figure included C$1.96BN of equities held for universal life policyholders. Their return passes through to policyholders, so the ALM repo removes them."
+Liquid assets,78.5% public and liquid,62.2% after repo collateral,C$3.6BN of bonds are out as repo collateral and cannot be sold. The peer median is 84%.
+Repo funding,14.1% of the portfolio,16.0% of own General Account,Measured against the non-par General Account it funds. It was 12.4% a year earlier; Sun Life is at 4.3% and the other 10 OSFI peers report none.
+Energy bonds,37.6% read as a concentration,"37.6%, a sector coding question",RBC Life files no Utilities line and puts 28% in Other. Energy and utilities together are 37.6% against a peer median of 36.0%.
+Market risk capital,"3.79% of invested assets, near the median",4.12% of own General Account,On its own General Account RBC Life ranks 2 from the lowest of 9 all-Canada filers (median 6.02%).
+BMO Life capital ratio,134.1%,132.9%,Corrected to the fiscal 2025 Q4 OSFI filing.
+Earnings at risk,"One total per insurer, against a limit",Removed,"The ALM repo never adds sensitivities across risks, the total mixed group and entity figures and pre-tax and after-tax figures, and an internal limit does not belong in a peer document."
+Sensitivities,Scaled to ±50 bps and −10%; RBC Life shown as not disclosed,Each insurer's own shock; RBC Insurance group figures used as a proxy,Scaling assumed linear behaviour. RBC's annual report (Note 15) gives a −100 bps rate and a −10% equity sensitivity for the insurance group.
+Liquidity weights and time buckets,Illustrative haircuts by asset class (Doff),Removed,"The weights were illustrative. The repo measures liquidity as liquid assets net of collateral, repos and other financing against the General Account."
+Peer set,20 insurers on the project list,15 insurers in the ALM study,The repo's set adds Blumont (pension risk transfer). Six project-list names sit outside it and are listed on the Method tab.

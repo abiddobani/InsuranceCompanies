@@ -1,0 +1,73 @@
+id,company,component,share_pct,amount_mm,scope
+RBC,RBC Life,Credit,12.5,603.0,All-Canada filer
+RBC,RBC Life,Market,19.4,932.0,All-Canada filer
+RBC,RBC Life,Insurance,61.0,2937.0,All-Canada filer
+RBC,RBC Life,Segregated fund guarantees,0.0,0.0,All-Canada filer
+RBC,RBC Life,Operational,6.4,307.0,All-Canada filer
+RBC,RBC Life,Participating and other,0.7,35.0,All-Canada filer
+BMO,BMO Life,Credit,22.6,614.0,All-Canada filer
+BMO,BMO Life,Market,23.3,632.0,All-Canada filer
+BMO,BMO Life,Insurance,46.1,1250.0,All-Canada filer
+BMO,BMO Life,Segregated fund guarantees,1.2,31.0,All-Canada filer
+BMO,BMO Life,Operational,6.9,186.0,All-Canada filer
+BMO,BMO Life,Participating and other,0.0,0.0,All-Canada filer
+MFC,Manulife,Credit,10.8,11668.0,Entity includes foreign business
+MFC,Manulife,Market,22.3,24089.0,Entity includes foreign business
+MFC,Manulife,Insurance,25.9,27936.0,Entity includes foreign business
+MFC,Manulife,Segregated fund guarantees,2.8,3039.0,Entity includes foreign business
+MFC,Manulife,Operational,5.9,6313.0,Entity includes foreign business
+MFC,Manulife,Participating and other,32.3,34813.0,Entity includes foreign business
+SLF,Sun Life,Credit,10.1,4085.0,Entity includes foreign business
+SLF,Sun Life,Market,10.3,4146.0,Entity includes foreign business
+SLF,Sun Life,Insurance,28.1,11299.0,Entity includes foreign business
+SLF,Sun Life,Segregated fund guarantees,2.2,889.0,Entity includes foreign business
+SLF,Sun Life,Operational,6.4,2558.0,Entity includes foreign business
+SLF,Sun Life,Participating and other,43.0,17302.0,Entity includes foreign business
+CLF,Canada Life,Credit,8.0,3326.0,Entity includes foreign business
+CLF,Canada Life,Market,8.9,3681.0,Entity includes foreign business
+CLF,Canada Life,Insurance,39.7,16437.0,Entity includes foreign business
+CLF,Canada Life,Segregated fund guarantees,5.7,2356.0,Entity includes foreign business
+CLF,Canada Life,Operational,6.8,2812.0,Entity includes foreign business
+CLF,Canada Life,Participating and other,30.8,12742.0,Entity includes foreign business
+EMP,Empire Life,Credit,4.3,153.0,All-Canada filer
+EMP,Empire Life,Market,13.3,474.0,All-Canada filer
+EMP,Empire Life,Insurance,40.0,1428.0,All-Canada filer
+EMP,Empire Life,Segregated fund guarantees,27.5,983.0,All-Canada filer
+EMP,Empire Life,Operational,6.4,229.0,All-Canada filer
+EMP,Empire Life,Participating and other,8.4,301.0,All-Canada filer
+IVA,ivari,Credit,10.5,245.0,All-Canada filer
+IVA,ivari,Market,16.7,389.0,All-Canada filer
+IVA,ivari,Insurance,64.2,1501.0,All-Canada filer
+IVA,ivari,Segregated fund guarantees,2.1,49.0,All-Canada filer
+IVA,ivari,Operational,6.6,154.0,All-Canada filer
+IVA,ivari,Participating and other,0.0,0.0,All-Canada filer
+EQL,Equitable Life,Credit,3.0,100.0,All-Canada filer
+EQL,Equitable Life,Market,13.4,444.0,All-Canada filer
+EQL,Equitable Life,Insurance,28.2,933.0,All-Canada filer
+EQL,Equitable Life,Segregated fund guarantees,6.7,221.0,All-Canada filer
+EQL,Equitable Life,Operational,5.7,189.0,All-Canada filer
+EQL,Equitable Life,Participating and other,42.9,1421.0,All-Canada filer
+COP,Co-operators Life,Credit,5.8,91.0,All-Canada filer
+COP,Co-operators Life,Market,24.5,385.0,All-Canada filer
+COP,Co-operators Life,Insurance,45.5,716.0,All-Canada filer
+COP,Co-operators Life,Segregated fund guarantees,8.2,128.0,All-Canada filer
+COP,Co-operators Life,Operational,6.8,108.0,All-Canada filer
+COP,Co-operators Life,Participating and other,9.3,146.0,All-Canada filer
+IOF,Foresters Life,Credit,12.4,31.0,All-Canada filer
+IOF,Foresters Life,Market,18.1,45.0,All-Canada filer
+IOF,Foresters Life,Insurance,55.7,139.0,All-Canada filer
+IOF,Foresters Life,Segregated fund guarantees,0.2,1.0,All-Canada filer
+IOF,Foresters Life,Operational,9.4,23.0,All-Canada filer
+IOF,Foresters Life,Participating and other,4.2,11.0,All-Canada filer
+WAW,Wawanesa Life,Credit,4.7,20.0,All-Canada filer
+WAW,Wawanesa Life,Market,12.7,54.0,All-Canada filer
+WAW,Wawanesa Life,Insurance,46.3,196.0,All-Canada filer
+WAW,Wawanesa Life,Segregated fund guarantees,8.6,36.0,All-Canada filer
+WAW,Wawanesa Life,Operational,6.9,29.0,All-Canada filer
+WAW,Wawanesa Life,Participating and other,20.9,88.0,All-Canada filer
+BLU,Blumont,Credit,58.6,288.0,All-Canada filer
+BLU,Blumont,Market,12.8,63.0,All-Canada filer
+BLU,Blumont,Insurance,20.1,99.0,All-Canada filer
+BLU,Blumont,Segregated fund guarantees,0.0,0.0,All-Canada filer
+BLU,Blumont,Operational,8.5,42.0,All-Canada filer
+BLU,Blumont,Participating and other,0.0,0.0,All-Canada filer
