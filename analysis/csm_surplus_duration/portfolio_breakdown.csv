@@ -1,0 +1,147 @@
+peer,company,portfolio,asset_class,amount_mm,weight,duration,contribution,duration_low,duration_high,duration_basis
+RBC,RBC Life,CSM,Government bonds,588.3,0.6429,4.11,2.643,1.92,4.88,"realised OCI sensitivity of the FVOCI bond book, OSFI LF1 against the 5-year Canada yield, 8 observations, R2 0.85 (est, low confidence); low = the 7 quarters since Nov 2024 alone, high = fiscal 2024 alone"
+RBC,RBC Life,CSM,Corporate bonds,77.6,0.0848,4.11,0.349,1.92,4.88,"realised OCI sensitivity of the FVOCI bond book, OSFI LF1 against the 5-year Canada yield, 8 observations, R2 0.85 (est, low confidence); low = the 7 quarters since Nov 2024 alone, high = fiscal 2024 alone"
+RBC,RBC Life,CSM,Commercial mortgages,147.1,0.1608,4.11,0.661,1.92,4.88,"realised OCI sensitivity of the FVOCI bond book, OSFI LF1 against the 5-year Canada yield, 8 observations, R2 0.85 (est, low confidence); low = the 7 quarters since Nov 2024 alone, high = fiscal 2024 alone"
+RBC,RBC Life,CSM,Private placements and loans,102.1,0.1116,4.11,0.459,1.92,4.88,"realised OCI sensitivity of the FVOCI bond book, OSFI LF1 against the 5-year Canada yield, 8 observations, R2 0.85 (est, low confidence); low = the 7 quarters since Nov 2024 alone, high = fiscal 2024 alone"
+RBC,RBC Life,Surplus,Government bonds,1634.6,0.4533,4.11,1.864,1.92,4.88,"realised OCI sensitivity of the FVOCI bond book, OSFI LF1 against the 5-year Canada yield, 8 observations, R2 0.85 (est, low confidence); low = the 7 quarters since Nov 2024 alone, high = fiscal 2024 alone"
+RBC,RBC Life,Surplus,Corporate bonds,215.6,0.0598,4.11,0.246,1.92,4.88,"realised OCI sensitivity of the FVOCI bond book, OSFI LF1 against the 5-year Canada yield, 8 observations, R2 0.85 (est, low confidence); low = the 7 quarters since Nov 2024 alone, high = fiscal 2024 alone"
+RBC,RBC Life,Surplus,Commercial mortgages,408.8,0.1134,4.11,0.466,1.92,4.88,"realised OCI sensitivity of the FVOCI bond book, OSFI LF1 against the 5-year Canada yield, 8 observations, R2 0.85 (est, low confidence); low = the 7 quarters since Nov 2024 alone, high = fiscal 2024 alone"
+RBC,RBC Life,Surplus,Private placements and loans,283.7,0.0787,4.11,0.324,1.92,4.88,"realised OCI sensitivity of the FVOCI bond book, OSFI LF1 against the 5-year Canada yield, 8 observations, R2 0.85 (est, low confidence); low = the 7 quarters since Nov 2024 alone, high = fiscal 2024 alone"
+RBC,RBC Life,Surplus,Common shares,496.3,0.1376,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+RBC,RBC Life,Surplus,Preferred shares,16.0,0.0044,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+RBC,RBC Life,Surplus,Others,550.7,0.1527,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+BMO,BMO Life,CSM,Cash and short term,96.5,0.0843,0.25,0.021,0.25,0.25,assumed 0.25 years
+BMO,BMO Life,CSM,Government bonds,209.8,0.1833,19.22,3.524,10.14,19.22,"disclosed sensitivity of financial instruments (net of tax, 26.5% assumed; includes derivatives); low case = bond maturity bands alone"
+BMO,BMO Life,CSM,Corporate bonds,765.4,0.6687,19.22,12.855,10.14,19.22,"disclosed sensitivity of financial instruments (net of tax, 26.5% assumed; includes derivatives); low case = bond maturity bands alone"
+BMO,BMO Life,CSM,Commercial mortgages,27.9,0.0244,19.22,0.469,10.14,19.22,"disclosed sensitivity of financial instruments (net of tax, 26.5% assumed; includes derivatives); low case = bond maturity bands alone"
+BMO,BMO Life,CSM,Private placements and loans,8.6,0.0075,19.22,0.145,10.14,19.22,"disclosed sensitivity of financial instruments (net of tax, 26.5% assumed; includes derivatives); low case = bond maturity bands alone"
+BMO,BMO Life,CSM,Common shares,2.7,0.0024,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+BMO,BMO Life,CSM,Real estate,30.6,0.0268,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+BMO,BMO Life,CSM,Others,3.0,0.0026,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+BMO,BMO Life,Surplus,Common shares,97.3,0.0748,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+BMO,BMO Life,Surplus,Real estate,1097.1,0.8433,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+BMO,BMO Life,Surplus,Others,106.5,0.0818,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+MFC,Manulife,CSM,Cash and short term,79.6,0.0277,0.25,0.007,0.25,0.25,assumed 0.25 years
+MFC,Manulife,CSM,Government bonds,618.8,0.2153,11.43,2.46,9.56,12.94,maturity bands (group)
+MFC,Manulife,CSM,Corporate bonds,921.8,0.3207,7.89,2.529,6.92,8.67,maturity bands (group)
+MFC,Manulife,CSM,Commercial mortgages,402.9,0.1401,3.8,0.533,3.55,4.23,maturity bands (group)
+MFC,Manulife,CSM,Private placements and loans,334.8,0.1165,9.03,1.052,7.76,10.06,maturity bands (group)
+MFC,Manulife,CSM,Common shares,207.0,0.072,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+MFC,Manulife,CSM,Real estate,58.1,0.0202,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+MFC,Manulife,CSM,Others,251.7,0.0875,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+MFC,Manulife,Surplus,Common shares,995.7,0.4006,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+MFC,Manulife,Surplus,Real estate,279.7,0.1125,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+MFC,Manulife,Surplus,Others,1210.5,0.4869,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+SLF,Sun Life,CSM,Cash and short term,68.4,0.0257,0.25,0.006,0.25,0.25,assumed 0.25 years
+SLF,Sun Life,CSM,Government bonds,683.1,0.2571,5.1,1.31,4.54,5.55,maturity bands of FVOCI debt securities (group)
+SLF,Sun Life,CSM,Corporate bonds,569.6,0.2144,5.1,1.093,4.54,5.55,maturity bands of FVOCI debt securities (group)
+SLF,Sun Life,CSM,Commercial mortgages,192.5,0.0725,5.1,0.369,4.54,5.55,maturity bands of FVOCI debt securities (group)
+SLF,Sun Life,CSM,Private placements and loans,1143.4,0.4303,5.1,2.193,4.54,5.55,maturity bands of FVOCI debt securities (group)
+SLF,Sun Life,Surplus,Cash and short term,72.0,0.0123,0.25,0.003,0.25,0.25,assumed 0.25 years
+SLF,Sun Life,Surplus,Government bonds,719.4,0.1226,5.1,0.625,4.54,5.55,maturity bands of FVOCI debt securities (group)
+SLF,Sun Life,Surplus,Corporate bonds,599.9,0.1022,5.1,0.521,4.54,5.55,maturity bands of FVOCI debt securities (group)
+SLF,Sun Life,Surplus,Commercial mortgages,202.8,0.0345,5.1,0.176,4.54,5.55,maturity bands of FVOCI debt securities (group)
+SLF,Sun Life,Surplus,Private placements and loans,1204.2,0.2052,5.1,1.046,4.54,5.55,maturity bands of FVOCI debt securities (group)
+SLF,Sun Life,Surplus,Preferred shares,14.5,0.0025,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+SLF,Sun Life,Surplus,Real estate,502.1,0.0855,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+SLF,Sun Life,Surplus,Others,2554.9,0.4353,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+CLF,Canada Life,CSM,Government bonds,150.0,0.2924,6.75,1.973,5.2,8.01,maturity bands (Lifeco group; open band over 5 years)
+CLF,Canada Life,CSM,Corporate bonds,134.9,0.2631,6.75,1.775,5.2,8.01,maturity bands (Lifeco group; open band over 5 years)
+CLF,Canada Life,CSM,Commercial mortgages,66.0,0.1286,4.42,0.569,3.77,5.54,maturity bands (Lifeco group; open band over 5 years)
+CLF,Canada Life,CSM,Private placements and loans,145.8,0.2842,6.75,1.917,5.2,8.01,maturity bands (Lifeco group; open band over 5 years)
+CLF,Canada Life,CSM,Common shares,9.2,0.018,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+CLF,Canada Life,CSM,Real estate,2.3,0.0046,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+CLF,Canada Life,CSM,Others,4.7,0.0092,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+CLF,Canada Life,Surplus,Common shares,1525.2,0.568,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+CLF,Canada Life,Surplus,Real estate,385.1,0.1434,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+CLF,Canada Life,Surplus,Others,774.8,0.2886,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+EMP,Empire Life,CSM,Government bonds,223.5,0.4785,11.1,5.312,11.1,11.1,"disclosed sensitivity of debt instruments (net of tax, 26.5% assumed)"
+EMP,Empire Life,CSM,Corporate bonds,200.4,0.4292,11.1,4.764,11.1,11.1,"disclosed sensitivity of debt instruments (net of tax, 26.5% assumed)"
+EMP,Empire Life,CSM,Commercial mortgages,4.3,0.0093,11.1,0.103,11.1,11.1,"disclosed sensitivity of debt instruments (net of tax, 26.5% assumed)"
+EMP,Empire Life,CSM,Private placements and loans,38.8,0.083,11.1,0.922,11.1,11.1,"disclosed sensitivity of debt instruments (net of tax, 26.5% assumed)"
+EMP,Empire Life,Surplus,Government bonds,502.5,0.256,11.1,2.842,4.49,11.1,"disclosed sensitivity of debt instruments (net of tax, 26.5% assumed); low case = median of disclosed peer surplus books"
+EMP,Empire Life,Surplus,Corporate bonds,450.7,0.2297,11.1,2.549,4.49,11.1,"disclosed sensitivity of debt instruments (net of tax, 26.5% assumed); low case = median of disclosed peer surplus books"
+EMP,Empire Life,Surplus,Commercial mortgages,9.7,0.005,11.1,0.055,4.49,11.1,"disclosed sensitivity of debt instruments (net of tax, 26.5% assumed); low case = median of disclosed peer surplus books"
+EMP,Empire Life,Surplus,Private placements and loans,87.2,0.0444,11.1,0.493,4.49,11.1,"disclosed sensitivity of debt instruments (net of tax, 26.5% assumed); low case = median of disclosed peer surplus books"
+EMP,Empire Life,Surplus,Common shares,322.4,0.1643,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+EMP,Empire Life,Surplus,Preferred shares,515.7,0.2628,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+EMP,Empire Life,Surplus,Others,74.3,0.0378,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+IVA,ivari,CSM,Cash and short term,127.8,0.1774,0.25,0.044,0.25,0.25,assumed 0.25 years
+IVA,ivari,CSM,Government bonds,200.4,0.2783,12.83,3.572,10.58,14.66,maturity bands
+IVA,ivari,CSM,Corporate bonds,313.7,0.4356,12.18,5.305,10.16,13.82,maturity bands
+IVA,ivari,CSM,Private placements and loans,78.3,0.1087,12.18,1.324,10.16,13.82,maturity bands
+IVA,ivari,Surplus,Cash and short term,166.3,0.1561,0.25,0.039,0.25,0.25,assumed 0.25 years
+IVA,ivari,Surplus,Government bonds,260.8,0.2447,12.83,3.141,4.49,14.66,maturity bands; low case = median of disclosed peer surplus books
+IVA,ivari,Surplus,Corporate bonds,408.2,0.3831,12.18,4.665,4.49,13.82,maturity bands; low case = median of disclosed peer surplus books
+IVA,ivari,Surplus,Private placements and loans,101.9,0.0956,12.18,1.164,4.49,13.82,maturity bands; low case = median of disclosed peer surplus books
+IVA,ivari,Surplus,Others,128.4,0.1205,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+EQL,Equitable,CSM,Government bonds,27.8,0.2444,10.59,2.589,7.8,12.86,maturity bands (open band over 5 years)
+EQL,Equitable,CSM,Corporate bonds,43.8,0.3853,7.52,2.896,5.82,8.9,maturity bands (open band over 5 years)
+EQL,Equitable,CSM,Commercial mortgages,14.5,0.1274,2.66,0.339,2.58,2.8,maturity bands (open band over 5 years)
+EQL,Equitable,CSM,Private placements and loans,27.6,0.2429,4.69,1.139,3.99,5.25,maturity bands (open band over 5 years)
+EQL,Equitable,Surplus,Government bonds,90.1,0.1271,10.59,1.347,4.49,12.86,maturity bands (open band over 5 years); low case = median of disclosed peer surplus books
+EQL,Equitable,Surplus,Corporate bonds,142.0,0.2004,7.52,1.506,4.49,8.9,maturity bands (open band over 5 years); low case = median of disclosed peer surplus books
+EQL,Equitable,Surplus,Commercial mortgages,46.9,0.0662,2.66,0.176,2.58,2.8,maturity bands (open band over 5 years); low case = median of disclosed peer surplus books
+EQL,Equitable,Surplus,Private placements and loans,89.5,0.1264,4.69,0.592,3.99,5.25,maturity bands (open band over 5 years); low case = median of disclosed peer surplus books
+EQL,Equitable,Surplus,Preferred shares,229.9,0.3244,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+EQL,Equitable,Surplus,Real estate,110.2,0.1555,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+COP,Co-operators Life,CSM,Cash and short term,1.1,0.0102,0.25,0.003,0.25,0.25,assumed 0.25 years
+COP,Co-operators Life,CSM,Government bonds,52.1,0.4673,10.75,5.024,8.55,11.72,peer median by class (est; no public maturity table or sensitivity)
+COP,Co-operators Life,CSM,Corporate bonds,46.9,0.4214,8.62,3.631,7.43,9.69,peer median by class (est; no public maturity table or sensitivity)
+COP,Co-operators Life,CSM,Commercial mortgages,11.3,0.1011,4.32,0.436,4.04,4.98,peer median by class (est; no public maturity table or sensitivity)
+COP,Co-operators Life,Surplus,Cash and short term,0.7,0.0014,0.25,0.0,0.25,0.25,assumed 0.25 years
+COP,Co-operators Life,Surplus,Government bonds,31.2,0.0653,5.33,0.348,3.88,5.56,"realised OCI sensitivity of the FVOCI bond book, OSFI LF1 against the 5-year Canada yield, 11 quarters, R2 0.97 (est); range = disclosed peer surplus books"
+COP,Co-operators Life,Surplus,Corporate bonds,28.1,0.0589,5.33,0.314,3.88,5.56,"realised OCI sensitivity of the FVOCI bond book, OSFI LF1 against the 5-year Canada yield, 11 quarters, R2 0.97 (est); range = disclosed peer surplus books"
+COP,Co-operators Life,Surplus,Commercial mortgages,6.7,0.0141,5.33,0.075,3.88,5.56,"realised OCI sensitivity of the FVOCI bond book, OSFI LF1 against the 5-year Canada yield, 11 quarters, R2 0.97 (est); range = disclosed peer surplus books"
+COP,Co-operators Life,Surplus,Common shares,248.6,0.5213,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+COP,Co-operators Life,Surplus,Preferred shares,156.3,0.3278,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+COP,Co-operators Life,Surplus,Real estate,1.5,0.0031,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+COP,Co-operators Life,Surplus,Others,3.8,0.0079,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+IOF,Foresters Life,CSM,Cash and short term,11.9,0.1574,0.25,0.039,0.25,0.25,assumed 0.25 years
+IOF,Foresters Life,CSM,Government bonds,29.6,0.3909,5.56,2.173,5.56,5.56,disclosed sensitivity of surplus financial instruments (pre-tax balance-sheet change)
+IOF,Foresters Life,CSM,Corporate bonds,34.2,0.4517,5.56,2.512,5.56,5.56,disclosed sensitivity of surplus financial instruments (pre-tax balance-sheet change)
+IOF,Foresters Life,Surplus,Cash and short term,32.9,0.124,0.25,0.031,0.25,0.25,assumed 0.25 years
+IOF,Foresters Life,Surplus,Government bonds,81.6,0.3079,5.56,1.712,5.56,5.56,disclosed sensitivity of surplus financial instruments (pre-tax balance-sheet change)
+IOF,Foresters Life,Surplus,Corporate bonds,94.3,0.3558,5.56,1.979,5.56,5.56,disclosed sensitivity of surplus financial instruments (pre-tax balance-sheet change)
+IOF,Foresters Life,Surplus,Preferred shares,24.9,0.094,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+IOF,Foresters Life,Surplus,Others,31.4,0.1183,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+WAW,Wawanesa Life,CSM,Government bonds,19.8,0.4579,13.44,6.153,9.88,13.44,"disclosed sensitivity of non-participating financial instruments (net of tax, 26.5% assumed); low case = no gross-up or the contractual cash-flow table"
+WAW,Wawanesa Life,CSM,Corporate bonds,23.4,0.5421,13.44,7.286,9.88,13.44,"disclosed sensitivity of non-participating financial instruments (net of tax, 26.5% assumed); low case = no gross-up or the contractual cash-flow table"
+WAW,Wawanesa Life,Surplus,Government bonds,57.4,0.2424,13.44,3.258,4.49,13.44,"disclosed sensitivity of non-participating financial instruments (net of tax, 26.5% assumed); low case = no gross-up or the contractual cash-flow table; low case = median of disclosed peer surplus books"
+WAW,Wawanesa Life,Surplus,Corporate bonds,68.0,0.287,13.44,3.858,4.49,13.44,"disclosed sensitivity of non-participating financial instruments (net of tax, 26.5% assumed); low case = no gross-up or the contractual cash-flow table; low case = median of disclosed peer surplus books"
+WAW,Wawanesa Life,Surplus,Others,111.4,0.4705,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+BLU,Blumont,CSM,Government bonds,1.2,0.0105,4.49,0.047,3.88,6.04,"median of disclosed peer surplus-type books (est; no public financial statements, book is mostly amortized cost); high = realised OCI sensitivity of its small FVOCI bond holding"
+BLU,Blumont,CSM,Corporate bonds,12.7,0.11,4.49,0.494,3.88,6.04,"median of disclosed peer surplus-type books (est; no public financial statements, book is mostly amortized cost); high = realised OCI sensitivity of its small FVOCI bond holding"
+BLU,Blumont,CSM,Commercial mortgages,13.0,0.1126,4.49,0.506,3.88,6.04,"median of disclosed peer surplus-type books (est; no public financial statements, book is mostly amortized cost); high = realised OCI sensitivity of its small FVOCI bond holding"
+BLU,Blumont,CSM,Private placements and loans,88.8,0.7669,4.49,3.444,3.88,6.04,"median of disclosed peer surplus-type books (est; no public financial statements, book is mostly amortized cost); high = realised OCI sensitivity of its small FVOCI bond holding"
+BLU,Blumont,Surplus,Government bonds,6.9,0.0105,4.49,0.047,3.88,6.04,"median of disclosed peer surplus-type books (est; no public financial statements, book is mostly amortized cost); high = realised OCI sensitivity of its small FVOCI bond holding"
+BLU,Blumont,Surplus,Corporate bonds,72.6,0.11,4.49,0.494,3.88,6.04,"median of disclosed peer surplus-type books (est; no public financial statements, book is mostly amortized cost); high = realised OCI sensitivity of its small FVOCI bond holding"
+BLU,Blumont,Surplus,Commercial mortgages,74.3,0.1126,4.49,0.506,3.88,6.04,"median of disclosed peer surplus-type books (est; no public financial statements, book is mostly amortized cost); high = realised OCI sensitivity of its small FVOCI bond holding"
+BLU,Blumont,Surplus,Private placements and loans,505.9,0.7669,4.49,3.444,3.88,6.04,"median of disclosed peer surplus-type books (est; no public financial statements, book is mostly amortized cost); high = realised OCI sensitivity of its small FVOCI bond holding"
+IAG,iA,CSM,Cash and short term,380.5,0.0524,0.25,0.013,0.25,0.25,assumed 0.25 years
+IAG,iA,CSM,Government bonds,1490.4,0.2052,10.91,2.238,9.16,12.33,maturity bands (consolidated)
+IAG,iA,CSM,Corporate bonds,3000.9,0.4131,10.91,4.507,9.16,12.33,maturity bands (consolidated)
+IAG,iA,CSM,Commercial mortgages,77.7,0.0107,4.01,0.043,3.99,4.05,maturity bands (consolidated)
+IAG,iA,CSM,Private placements and loans,1278.6,0.176,10.91,1.92,9.16,12.33,maturity bands (consolidated)
+IAG,iA,CSM,Common shares,564.5,0.0777,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+IAG,iA,CSM,Preferred shares,59.2,0.0081,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+IAG,iA,CSM,Real estate,201.0,0.0277,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+IAG,iA,CSM,Others,211.5,0.0291,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+IAG,iA,Surplus,Common shares,866.5,0.5448,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+IAG,iA,Surplus,Preferred shares,90.9,0.0571,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+IAG,iA,Surplus,Real estate,308.5,0.194,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+IAG,iA,Surplus,Others,324.7,0.2041,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+BEN,Beneva,CSM,Cash and short term,83.9,0.0987,0.25,0.025,0.25,0.25,assumed 0.25 years
+BEN,Beneva,CSM,Government bonds,333.0,0.3918,7.12,2.789,6.23,7.84,maturity bands (consolidated)
+BEN,Beneva,CSM,Corporate bonds,317.1,0.3731,7.12,2.656,6.23,7.84,maturity bands (consolidated)
+BEN,Beneva,CSM,Commercial mortgages,4.1,0.0048,2.35,0.011,2.35,2.36,maturity bands (consolidated)
+BEN,Beneva,CSM,Private placements and loans,111.8,0.1316,9.0,1.184,7.86,9.93,maturity bands (consolidated)
+BEN,Beneva,Surplus,Cash and short term,144.2,0.0363,0.25,0.009,0.25,0.25,assumed 0.25 years
+BEN,Beneva,Surplus,Government bonds,572.5,0.144,3.89,0.56,2.86,3.89,"disclosed OCI sensitivity of FVOCI bonds (tax basis not legible in the report; 26.5% gross-up assumed, low case = none)"
+BEN,Beneva,Surplus,Corporate bonds,545.2,0.1371,3.89,0.533,2.86,3.89,"disclosed OCI sensitivity of FVOCI bonds (tax basis not legible in the report; 26.5% gross-up assumed, low case = none)"
+BEN,Beneva,Surplus,Commercial mortgages,7.0,0.0018,3.89,0.007,2.86,3.89,"disclosed OCI sensitivity of FVOCI bonds (tax basis not legible in the report; 26.5% gross-up assumed, low case = none)"
+BEN,Beneva,Surplus,Private placements and loans,192.2,0.0483,3.89,0.188,2.86,3.89,"disclosed OCI sensitivity of FVOCI bonds (tax basis not legible in the report; 26.5% gross-up assumed, low case = none)"
+BEN,Beneva,Surplus,Common shares,311.9,0.0784,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+BEN,Beneva,Surplus,Preferred shares,864.7,0.2175,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+BEN,Beneva,Surplus,Real estate,342.1,0.086,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"
+BEN,Beneva,Surplus,Others,996.0,0.2505,0.0,0.0,0.0,0.0,"no rate duration assigned (equity, real estate, others)"

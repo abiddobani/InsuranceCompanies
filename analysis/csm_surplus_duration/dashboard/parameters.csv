@@ -1,0 +1,13 @@
+parameter,value,note
+Flat yield for band-to-duration conversion,4.25%,Modified duration of a par bond at each band's representative term; unchanged from the earlier version
+Closed maturity bands,midpoint,e.g. 1 to 5 years = 3 years
+"Open band, bonds and private placements",start + 10 years (range + 5 to + 15),Low case is the ALM repo's CSM convention (start + 5). Empire's disclosed sensitivity (11.1 years) sits within 0.5 years of its band estimate at + 10
+"Open band, mortgages and loans",start + 5 years (range + 2.5 to + 10),
+Cash and short term,0.25 years,assumed
+"Equity, preferred shares, real estate, others",0,no rate duration assigned
+Tax gross-up for sensitivities disclosed net of tax,26.5%,assumed; the report's own basis is quoted in sensitivities.csv
+CSM run-off,"weighted average years, band midpoints, open band at start + 5",ALM repo scripts/deck2/build_deck2_data.py; undiscounted
+Median duration of disclosed surplus-type fixed income,4.5 years (range 3.9 to 5.6),BMO Life 3.9; Beneva 3.9; Sun Life 5.1; Foresters Life 5.6
+Realised OCI sensitivity,regression through the origin of pre-tax OCI return on the change in the 5-year Canada yield,"RBC Life 4.1 years (8 observations, R2 0.85); BMO Life 3.8 years (11 observations, R2 0.85); Sun Life 3.0 years (11 observations, R2 0.72); Canada Life 3.1 years (11 observations, R2 0.87); Co-operators Life 5.3 years (11 observations, R2 0.97); Blumont 6.0 years (11 observations, R2 0.67)"
+Run-off estimate without a schedule,WAL = 0.99 / release rate,"peer median of WAL x release rate; Co-operators, Wawanesa, Blumont"
+ALM repo commit,9e8d671afa91aba66def270480297d6133f3593d,"MooseDragon/cdn-life-insurer-alm, branch main"
