@@ -1,0 +1,122 @@
+company_id,company,focus,period,level1,level2,level3,amount_cad_mm,share_pct
+ia,iA Financial Group,0,2023Q4,Internally Managed,Public Fixed Income,Government Bonds,9903.0,23.2367
+ia,iA Financial Group,0,2023Q4,Internally Managed,Public Fixed Income,Corporate Bonds,14358.0,33.69
+ia,iA Financial Group,0,2023Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,5679.0,13.3254
+ia,iA Financial Group,0,2023Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,1426.0,3.346
+ia,iA Financial Group,0,2023Q4,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+ia,iA Financial Group,0,2023Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,2234.0,5.2419
+ia,iA Financial Group,0,2023Q4,Internally Managed,Public Equity,Common Shares,2002.0,4.6975
+ia,iA Financial Group,0,2023Q4,Internally Managed,Cash & Cash Equivalents,Cash,1379.0,3.2357
+ia,iA Financial Group,0,2023Q4,Externally Managed,Equity,Real Estate Equity,1611.0,3.7801
+ia,iA Financial Group,0,2023Q4,Externally Managed,Equity,Other Private Equity,2113.0,4.958
+ia,iA Financial Group,0,2023Q4,Other,Other,Other / Unclassified,1913.0,4.4887
+ia,iA Financial Group,0,2024Q1,Internally Managed,Public Fixed Income,Government Bonds,9216.0,22.1613
+ia,iA Financial Group,0,2024Q1,Internally Managed,Public Fixed Income,Corporate Bonds,16275.0,39.1358
+ia,iA Financial Group,0,2024Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,4005.0,9.6306
+ia,iA Financial Group,0,2024Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,1339.0,3.2198
+ia,iA Financial Group,0,2024Q1,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+ia,iA Financial Group,0,2024Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,2230.0,5.3624
+ia,iA Financial Group,0,2024Q1,Internally Managed,Public Equity,Common Shares,2221.0,5.3407
+ia,iA Financial Group,0,2024Q1,Internally Managed,Cash & Cash Equivalents,Cash,1462.0,3.5156
+ia,iA Financial Group,0,2024Q1,Externally Managed,Equity,Real Estate Equity,1599.0,3.845
+ia,iA Financial Group,0,2024Q1,Externally Managed,Equity,Other Private Equity,2144.0,5.1556
+ia,iA Financial Group,0,2024Q1,Other,Other,Other / Unclassified,1095.0,2.6331
+ia,iA Financial Group,0,2024Q2,Internally Managed,Public Fixed Income,Government Bonds,9261.0,21.717
+ia,iA Financial Group,0,2024Q2,Internally Managed,Public Fixed Income,Corporate Bonds,16242.0,38.0874
+ia,iA Financial Group,0,2024Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,4213.0,9.8795
+ia,iA Financial Group,0,2024Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,1342.0,3.147
+ia,iA Financial Group,0,2024Q2,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+ia,iA Financial Group,0,2024Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,2247.0,5.2692
+ia,iA Financial Group,0,2024Q2,Internally Managed,Public Equity,Common Shares,2429.0,5.696
+ia,iA Financial Group,0,2024Q2,Internally Managed,Cash & Cash Equivalents,Cash,1990.0,4.6665
+ia,iA Financial Group,0,2024Q2,Externally Managed,Equity,Real Estate Equity,1576.0,3.6957
+ia,iA Financial Group,0,2024Q2,Externally Managed,Equity,Other Private Equity,2185.0,5.1238
+ia,iA Financial Group,0,2024Q2,Other,Other,Other / Unclassified,1159.0,2.7179
+ia,iA Financial Group,0,2024Q3,Internally Managed,Public Fixed Income,Government Bonds,9575.0,21.4681
+ia,iA Financial Group,0,2024Q3,Internally Managed,Public Fixed Income,Corporate Bonds,17323.0,38.8399
+ia,iA Financial Group,0,2024Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,4391.0,9.8451
+ia,iA Financial Group,0,2024Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,1275.0,2.8587
+ia,iA Financial Group,0,2024Q3,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+ia,iA Financial Group,0,2024Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,2273.0,5.0963
+ia,iA Financial Group,0,2024Q3,Internally Managed,Public Equity,Common Shares,2590.0,5.807
+ia,iA Financial Group,0,2024Q3,Internally Managed,Cash & Cash Equivalents,Cash,2097.0,4.7017
+ia,iA Financial Group,0,2024Q3,Externally Managed,Equity,Real Estate Equity,1578.0,3.538
+ia,iA Financial Group,0,2024Q3,Externally Managed,Equity,Other Private Equity,2266.0,5.0806
+ia,iA Financial Group,0,2024Q3,Other,Other,Other / Unclassified,1233.0,2.7645
+ia,iA Financial Group,0,2024Q4,Internally Managed,Public Fixed Income,Government Bonds,10173.0,22.319
+ia,iA Financial Group,0,2024Q4,Internally Managed,Public Fixed Income,Corporate Bonds,17829.0,39.1158
+ia,iA Financial Group,0,2024Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,4688.0,10.2852
+ia,iA Financial Group,0,2024Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,1193.0,2.6174
+ia,iA Financial Group,0,2024Q4,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+ia,iA Financial Group,0,2024Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,2251.0,4.9386
+ia,iA Financial Group,0,2024Q4,Internally Managed,Public Equity,Common Shares,2641.0,5.7942
+ia,iA Financial Group,0,2024Q4,Internally Managed,Cash & Cash Equivalents,Cash,1566.0,3.4357
+ia,iA Financial Group,0,2024Q4,Externally Managed,Equity,Real Estate Equity,1519.0,3.3326
+ia,iA Financial Group,0,2024Q4,Externally Managed,Equity,Other Private Equity,2525.0,5.5397
+ia,iA Financial Group,0,2024Q4,Other,Other,Other / Unclassified,1195.0,2.6218
+ia,iA Financial Group,0,2025Q1,Internally Managed,Public Fixed Income,Government Bonds,9489.0,20.7746
+ia,iA Financial Group,0,2025Q1,Internally Managed,Public Fixed Income,Corporate Bonds,17925.0,39.2438
+ia,iA Financial Group,0,2025Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,4757.0,10.4147
+ia,iA Financial Group,0,2025Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,1168.0,2.5571
+ia,iA Financial Group,0,2025Q1,Internally Managed,Private Fixed Income,Private Liquid Loans,6.0,0.0131
+ia,iA Financial Group,0,2025Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,2257.0,4.9413
+ia,iA Financial Group,0,2025Q1,Internally Managed,Public Equity,Common Shares,2911.0,6.3732
+ia,iA Financial Group,0,2025Q1,Internally Managed,Cash & Cash Equivalents,Cash,1794.0,3.9277
+ia,iA Financial Group,0,2025Q1,Externally Managed,Equity,Real Estate Equity,1517.0,3.3212
+ia,iA Financial Group,0,2025Q1,Externally Managed,Equity,Other Private Equity,2727.0,5.9703
+ia,iA Financial Group,0,2025Q1,Other,Other,Other / Unclassified,1125.0,2.463
+ia,iA Financial Group,0,2025Q2,Internally Managed,Public Fixed Income,Government Bonds,9168.0,20.0148
+ia,iA Financial Group,0,2025Q2,Internally Managed,Public Fixed Income,Corporate Bonds,17567.0,38.3509
+ia,iA Financial Group,0,2025Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,4808.0,10.4964
+ia,iA Financial Group,0,2025Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,1106.0,2.4145
+ia,iA Financial Group,0,2025Q2,Internally Managed,Private Fixed Income,Private Liquid Loans,42.0,0.0917
+ia,iA Financial Group,0,2025Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,2256.0,4.9251
+ia,iA Financial Group,0,2025Q2,Internally Managed,Public Equity,Common Shares,3035.0,6.6258
+ia,iA Financial Group,0,2025Q2,Internally Managed,Cash & Cash Equivalents,Cash,2207.0,4.8181
+ia,iA Financial Group,0,2025Q2,Externally Managed,Equity,Real Estate Equity,1533.0,3.3467
+ia,iA Financial Group,0,2025Q2,Externally Managed,Equity,Other Private Equity,2669.0,5.8267
+ia,iA Financial Group,0,2025Q2,Other,Other,Other / Unclassified,1415.0,3.0891
+ia,iA Financial Group,0,2025Q3,Internally Managed,Public Fixed Income,Government Bonds,9309.0,19.8821
+ia,iA Financial Group,0,2025Q3,Internally Managed,Public Fixed Income,Corporate Bonds,17604.0,37.5985
+ia,iA Financial Group,0,2025Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,5016.0,10.7131
+ia,iA Financial Group,0,2025Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,1175.0,2.5096
+ia,iA Financial Group,0,2025Q3,Internally Managed,Private Fixed Income,Private Liquid Loans,145.0,0.3097
+ia,iA Financial Group,0,2025Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,2280.0,4.8696
+ia,iA Financial Group,0,2025Q3,Internally Managed,Public Equity,Common Shares,3491.0,7.4561
+ia,iA Financial Group,0,2025Q3,Internally Managed,Cash & Cash Equivalents,Cash,2324.0,4.9636
+ia,iA Financial Group,0,2025Q3,Externally Managed,Equity,Real Estate Equity,1444.0,3.0841
+ia,iA Financial Group,0,2025Q3,Externally Managed,Equity,Other Private Equity,2700.0,5.7666
+ia,iA Financial Group,0,2025Q3,Other,Other,Other / Unclassified,1333.0,2.847
+ia,iA Financial Group,0,2025Q4,Internally Managed,Public Fixed Income,Government Bonds,8861.0,19.253
+ia,iA Financial Group,0,2025Q4,Internally Managed,Public Fixed Income,Corporate Bonds,17147.0,37.2566
+ia,iA Financial Group,0,2025Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,5072.0,11.0203
+ia,iA Financial Group,0,2025Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,1157.0,2.5139
+ia,iA Financial Group,0,2025Q4,Internally Managed,Private Fixed Income,Private Liquid Loans,250.0,0.5432
+ia,iA Financial Group,0,2025Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,2280.0,4.9539
+ia,iA Financial Group,0,2025Q4,Internally Managed,Public Equity,Common Shares,3612.0,7.8481
+ia,iA Financial Group,0,2025Q4,Internally Managed,Cash & Cash Equivalents,Cash,2262.0,4.9148
+ia,iA Financial Group,0,2025Q4,Externally Managed,Equity,Real Estate Equity,1446.0,3.1418
+ia,iA Financial Group,0,2025Q4,Externally Managed,Equity,Other Private Equity,2843.0,6.1772
+ia,iA Financial Group,0,2025Q4,Other,Other,Other / Unclassified,1094.0,2.377
+ia,iA Financial Group,0,2026Q1,Internally Managed,Public Fixed Income,Government Bonds,8715.0,18.9403
+ia,iA Financial Group,0,2026Q1,Internally Managed,Public Fixed Income,Corporate Bonds,16329.0,35.4878
+ia,iA Financial Group,0,2026Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,5293.0,11.5033
+ia,iA Financial Group,0,2026Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,1104.0,2.3993
+ia,iA Financial Group,0,2026Q1,Internally Managed,Private Fixed Income,Private Liquid Loans,280.0,0.6085
+ia,iA Financial Group,0,2026Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,2339.0,5.0833
+ia,iA Financial Group,0,2026Q1,Internally Managed,Public Equity,Common Shares,4294.0,9.3321
+ia,iA Financial Group,0,2026Q1,Internally Managed,Cash & Cash Equivalents,Cash,2208.0,4.7986
+ia,iA Financial Group,0,2026Q1,Externally Managed,Equity,Real Estate Equity,1422.0,3.0904
+ia,iA Financial Group,0,2026Q1,Externally Managed,Equity,Other Private Equity,3014.0,6.5503
+ia,iA Financial Group,0,2026Q1,Other,Other,Other / Unclassified,1015.0,2.2059
+ia,iA Financial Group,0,2026Q2,Internally Managed,Public Fixed Income,Government Bonds,8838.0,18.6905
+ia,iA Financial Group,0,2026Q2,Internally Managed,Public Fixed Income,Corporate Bonds,16072.0,33.9889
+ia,iA Financial Group,0,2026Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,5733.0,12.1241
+ia,iA Financial Group,0,2026Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,1080.0,2.284
+ia,iA Financial Group,0,2026Q2,Internally Managed,Private Fixed Income,Private Liquid Loans,329.0,0.6958
+ia,iA Financial Group,0,2026Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,2419.0,5.1157
+ia,iA Financial Group,0,2026Q2,Internally Managed,Public Equity,Common Shares,4428.0,9.3643
+ia,iA Financial Group,0,2026Q2,Internally Managed,Cash & Cash Equivalents,Cash,2378.0,5.029
+ia,iA Financial Group,0,2026Q2,Externally Managed,Equity,Real Estate Equity,1381.0,2.9205
+ia,iA Financial Group,0,2026Q2,Externally Managed,Equity,Other Private Equity,3274.0,6.9238
+ia,iA Financial Group,0,2026Q2,Other,Other,Other / Unclassified,1354.0,2.8634
