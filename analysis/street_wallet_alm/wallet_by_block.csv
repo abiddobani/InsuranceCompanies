@@ -1,0 +1,38 @@
+company_id,company,block,assets_cad_mm,securities_cost_cad_mm,bps_of_block
+rbc_life,RBC Life,"General Account, excl. par / seg fund",22756.0,4.177,1.84
+rbc_life,RBC Life,Par block,296.0,0.052,1.75
+rbc_life,RBC Life,UL policyholder funds,1956.0,0.133,0.68
+manulife,Manulife (Canada),"General Account, excl. par / seg fund",65575.0,19.207,2.93
+manulife,Manulife (Canada),Par block,17528.0,5.134,2.93
+manulife,Manulife (Canada),UL policyholder funds,5187.0,0.353,0.68
+sun_life,Sun Life (Canada),"General Account, excl. par / seg fund",66368.0,14.439,2.18
+sun_life,Sun Life (Canada),Par block,36686.0,10.519,2.87
+sun_life,Sun Life (Canada),UL policyholder funds,2556.0,0.174,0.68
+canada_life,Canada Life (Canada),"General Account, excl. par / seg fund",26973.0,2.12,0.79
+canada_life,Canada Life (Canada),Par block,64124.0,4.854,0.76
+canada_life,Canada Life (Canada),UL policyholder funds,7640.0,0.52,0.68
+ia,iA Financial Group,"General Account, excl. par / seg fund",37583.0,30.718,8.17
+bmo_life,BMO Life,"General Account, excl. par / seg fund",14116.0,2.722,1.93
+bmo_life,BMO Life,UL policyholder funds,1436.0,0.098,0.68
+beneva,Beneva,"General Account, excl. par / seg fund",10266.0,7.862,7.66
+ivari,ivari,"General Account, excl. par / seg fund",7542.0,0.907,1.2
+ivari,ivari,UL policyholder funds,3587.0,0.244,0.68
+empire_life,Empire Life,"General Account, excl. par / seg fund",7902.0,2.156,2.73
+empire_life,Empire Life,Par block,1313.0,0.37,2.81
+equitable_life,Equitable Life,"General Account, excl. par / seg fund",1809.0,0.616,3.4
+equitable_life,Equitable Life,Par block,3157.0,0.898,2.85
+equitable_life,Equitable Life,UL policyholder funds,2060.0,0.14,0.68
+cooperators_life,Co-operators Life,"General Account, excl. par / seg fund",2357.0,0.906,3.84
+cooperators_life,Co-operators Life,Par block,2770.0,1.065,3.84
+cooperators_life,Co-operators Life,UL policyholder funds,278.0,0.019,0.68
+uv_insurance,UV Insurance,"General Account, excl. par / seg fund",2389.0,1.008,4.22
+wawanesa_life,Wawanesa Life,"General Account, excl. par / seg fund",802.0,0.557,6.95
+wawanesa_life,Wawanesa Life,Par block,457.0,0.317,6.95
+wawanesa_life,Wawanesa Life,UL policyholder funds,33.0,0.002,0.68
+assumption_life,Assumption Life,"General Account, excl. par / seg fund",871.0,0.328,3.77
+foresters_life,Foresters Life (incl. Canada Protection Plan),"General Account, excl. par / seg fund",750.0,0.616,8.21
+foresters_life,Foresters Life (incl. Canada Protection Plan),Par block,66.0,0.054,8.21
+canadian_premier,Canadian Premier Life,"General Account, excl. par / seg fund",731.0,0.461,6.31
+primerica_life,Primerica Life,"General Account, excl. par / seg fund",426.0,0.294,6.91
+humania,Humania,"General Account, excl. par / seg fund",406.0,0.145,3.58
+blumont,"Blumont Annuity (memo, not on the list of 20)","General Account, excl. par / seg fund",7483.0,3.054,4.08

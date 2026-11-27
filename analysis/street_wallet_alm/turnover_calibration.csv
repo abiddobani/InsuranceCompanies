@@ -1,0 +1,13 @@
+company_id,company,years,gross_flows_pct_of_assets,short_term_rolls_pct,maturities_pct,traded_pct,private_originations_pct,public_structural_pct,active_pct_of_assets,active_pct_of_public_holdings
+manulife,Manulife (Canada),2021-2024,48.6,0.0,5.1,43.4,4.8,4.7,34.0,55.3
+sun_life,Sun Life (Canada),2021-2025,61.8,10.9,7.0,43.9,7.8,5.3,30.8,60.0
+canada_life,Canada Life (Canada),2024-2025,38.2,0.0,13.4,24.9,10.0,9.8,5.1,9.0
+ia,iA Financial Group,2021-2025,170.3,0.0,2.6,97.4,0.5,2.1,94.8,135.5
+bmo_life,BMO Life,2024-2025,71.9,38.4,2.2,31.3,2.1,16.8,12.5,14.3
+beneva,Beneva,2022-2025,94.6,0.0,2.9,91.7,0.8,2.0,88.8,107.7
+ivari,ivari,2024-2025,10.7,0.0,0.2,10.5,0.8,2.5,7.2,10.3
+empire_life,Empire Life,2022-2025,39.8,0.0,6.5,33.3,1.7,9.9,21.7,23.6
+equitable_life,Equitable Life,2021-2025,54.4,0.0,1.4,53.0,6.2,7.5,39.3,49.6
+wawanesa_life,Wawanesa Life,2024-2025,125.2,0.0,1.8,98.2,2.8,6.8,88.6,109.5
+assumption_life,Assumption Life,2022-2025,54.2,0.0,4.4,49.8,2.1,2.3,45.5,62.5
+foresters_life,Foresters Life (incl. Canada Protection Plan),2021-2025,216.1,17.2,1.1,98.9,1.1,19.2,78.7,85.0
