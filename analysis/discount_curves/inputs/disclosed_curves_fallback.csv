@@ -1,0 +1,53 @@
+company_id,company,as_at,region,bucket,tenor,rate_pct,source_document,location
+beneva,Beneva,2025-12-31,Canada,least_illiquid,1,3.6,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,least_illiquid,5,3.9,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,least_illiquid,10,4.6,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,least_illiquid,20,5.2,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,least_illiquid,30,4.4,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,least_illiquid,70,4.9,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,most_illiquid,1,3.1,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,most_illiquid,5,3.9,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,most_illiquid,10,4.7,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,most_illiquid,20,5.6,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,most_illiquid,30,5.3,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2025-12-31,Canada,most_illiquid,70,5.2,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,least_illiquid,1,4.0,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,least_illiquid,5,4.0,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,least_illiquid,10,4.5,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,least_illiquid,20,4.8,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,least_illiquid,30,4.3,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,least_illiquid,70,4.9,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,most_illiquid,1,3.8,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,most_illiquid,5,4.0,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,most_illiquid,10,4.5,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,most_illiquid,20,5.1,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,most_illiquid,30,4.8,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+beneva,Beneva,2024-12-31,Canada,most_illiquid,70,5.2,docs/beneva/2025/2025-annual-report.pdf,"PDF p.50 (note 4, Discount rates)"
+assumption_life,Assumption Life,2025-12-31,Canada,least_illiquid,1,2.53,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,least_illiquid,5,3.31,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,least_illiquid,10,4.09,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,least_illiquid,15,4.59,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,least_illiquid,20,4.84,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,least_illiquid,30,4.81,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,least_illiquid,ult,4.35,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,most_illiquid,1,2.95,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,most_illiquid,5,3.73,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,most_illiquid,10,4.51,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,most_illiquid,15,5.01,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,most_illiquid,20,5.26,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,most_illiquid,30,5.23,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2025-12-31,Canada,most_illiquid,ult,4.84,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,least_illiquid,1,3.1,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,least_illiquid,5,3.38,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,least_illiquid,10,3.98,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,least_illiquid,15,4.31,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,least_illiquid,20,4.4,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,least_illiquid,30,4.26,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,least_illiquid,ult,4.35,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,most_illiquid,1,3.52,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,most_illiquid,5,3.8,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,most_illiquid,10,4.4,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,most_illiquid,15,4.73,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,most_illiquid,20,4.82,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,most_illiquid,30,4.68,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)
+assumption_life,Assumption Life,2024-12-31,Canada,most_illiquid,ult,4.84,docs/assumption_life/2025/AssomptionVie_RA_EN-2025.pdf,PDF p.54 (Discount rates)

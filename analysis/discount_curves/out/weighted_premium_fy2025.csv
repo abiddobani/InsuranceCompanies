@@ -1,0 +1,18 @@
+id,insurer,nonpar_liabilities_bn,weighted_premium_30y,weighting,share_individual_insurance,share_individual_annuity,share_group_insurance,share_group_annuity
+MFC,MFC,60.612,2.05,"liability-weighted over Individual insurance, Individual annuity, Group insurance, Group annuity",0.668,0.077,0.211,0.044
+SLF,SLF,56.163,1.078,"liability-weighted over Individual insurance, Individual annuity, Group insurance, Group annuity",0.302,0.109,0.249,0.34
+CLF,CLF,29.252,1.258,"liability-weighted over Individual insurance, Individual annuity, Group insurance, Group annuity",0.42,0.085,0.328,0.167
+RBC,RBC Life,18.513,2.491,"liability-weighted over Individual insurance, Individual annuity, Group insurance, Group annuity",0.509,0.033,0.049,0.41
+BMO,BMO Life,13.947,1.581,"liability-weighted over Individual insurance, Individual annuity, Group insurance",0.335,0.224,0.002,0.439
+IVA,ivari,9.111,1.41,"liability-weighted over Individual insurance, Individual annuity",0.981,0.019,0.0,0.0
+EMP,Empire Life,5.493,1.55,"liability-weighted over Individual insurance, Individual annuity, Group insurance, Group annuity",0.869,0.073,0.052,0.006
+COP,Co-operators Life,2.157,1.11,"liability-weighted over Individual insurance, Individual annuity, Group insurance, Group annuity",0.476,0.034,0.279,0.211
+EQL,Equitable Life,0.919,1.121,"liability-weighted over Individual insurance, Individual annuity, Group insurance",0.256,0.319,0.264,0.16
+WAW,Wawanesa Life,0.598,1.37,"liability-weighted over Individual insurance, Individual annuity, Group insurance",0.562,0.225,0.213,0.0
+CPL,Canadian Premier,0.54,1.12,"liability-weighted over Individual insurance, Group insurance",0.036,0.0,0.964,0.0
+IOF,Foresters Life,0.482,1.28,"liability-weighted over Individual insurance, Group insurance, Group annuity",0.317,0.0,0.009,0.674
+PRI,Primerica Life,-0.195,0.72,liability-weighted over Individual insurance,-15.002,16.002,-0.0,-0.0
+ASL,Assumption Life,,1.2,single all-products curve (no liability split by line),,,,
+BEN,Beneva,,1.27,single all-products curve (no liability split by line),,,,
+DFS,Desjardins,,1.37,single all-products curve (no liability split by line),,,,
+IAG,iA Financial,,1.77,single all-products curve (no liability split by line),,,,
