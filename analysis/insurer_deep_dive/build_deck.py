@@ -1,15 +1,22 @@
 """Build the deep-dive deck on the 20 Canadian life & health insurers in the analysis set.
 
-Each insurer gets seven pages: summary and business mix, leadership org chart, portfolio-management construct,
-portfolio holdings over time, leverage and funding, bank/sponsor partnerships, and risk constructs.
+Primary basis: the ALM framework (MooseDragon/cdn-life-insurer-alm). alm.py reads that repository's processed data and
+writes alm.json; every balance-sheet, asset, leverage and capital page here is drawn from it: Canadian business only,
+net of reinsurance, "General Account, excl. par / seg fund" (GenAcct), buffer, CSM split, L1/L2/L3 asset taxonomy.
+Leadership, corporate structure and partnerships are outside that framework and keep the earlier web research.
+Insurers with no OSFI return and no place in the ALM study (Assumption Life, Humania, UV Insurance) keep the earlier
+financial-statement pages (the *_fs page builders), labelled as such.
+
+Each insurer gets eight pages: Canadian summary, leadership and pay, corporate structure and entity assessed, assets
+and rotation, new money and liabilities, leverage and reinsurance, partnerships, capital and risk.
 
 Every slide is an HTML page (1280 x 720) in the project's dashboard style with inline-SVG charts, printed to PDF
 with the preinstalled Playwright Chromium; the .pptx carries native title and source text, the slide body as a
 2x image, and the slide's text plus full source URLs in the speaker notes.
 
-Inputs: quant.json (python3 analysis/insurer_deep_dive/quant.py), research/<company_id>.json (web research),
-prices.csv (share prices). Run from the repository root:
-    python3 analysis/insurer_deep_dive/quant.py
+Inputs: alm.json (alm.py, run with the ALM repository's uv environment), quant.json (quant.py), research/*.json,
+prices.csv. Run from the repository root:
+    ALM_REPO=../cdn-life-insurer-alm uv run --project ../cdn-life-insurer-alm python analysis/insurer_deep_dive/alm.py
     python3 analysis/insurer_deep_dive/build_deck.py
 """
 import csv
@@ -37,8 +44,8 @@ OUT_DIR = Path(os.environ.get("DECK_OUT", HERE / "output"))
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 PDF_OUT = OUT_DIR / "canadian-lh-insurer-deep-dives.pdf"
 PPTX_OUT = OUT_DIR / "canadian-lh-insurer-deep-dives.pptx"
-NOW = 2026.84  # 3 Nov 2026
-TODAY = "3 Nov 2026"
+NOW = 2026.91  # Nov 27, 2026
+TODAY = "Nov 27, 2026"
 
 Q = json.loads((HERE / "quant.json").read_text())
 QC = Q["companies"]
@@ -114,14 +121,8 @@ def num(v):
 
 
 def bn(mm, digits=None):
-    v = num(mm)
-    if v is None:
-        return "n/d"
-    b = v / 1000
-    if abs(b) < 1 and digits is None:
-        return f"C${v:,.0f}MM"
-    d = digits if digits is not None else (0 if b >= 100 else 1)
-    return f"C${b:,.{d}f}bn"
+    """C$ millions in; the framework's $MM / $BN out (kept under its old name for the financial-statement pages)."""
+    return usd(mm, digits) if num(mm) is not None else "n/d"
 
 
 PROC = r"search budget|search-budget|this session|firecrawl|earlier-session|earlier session|personal library|library of textbooks|MANDATES\.md|MANDATES file|budget ran out|budget was exhausted"
@@ -146,8 +147,17 @@ def scrub(t):
     return t
 
 
+def units(t):
+    """Research text to the framework's units: C$2.5bn -> $2.5BN, C$350M -> $350MM (US$ and other currencies keep their prefix)."""
+    t = re.sub(r"(?<![A-Z])C\$", "$", str(t))
+    t = re.sub(r"(\$\s?\d[\d,.]*)\s?(bn|billion|B)\b", lambda m: m.group(1) + "BN", t)
+    t = re.sub(r"(\$\s?\d[\d,.]*)\s?(mm|million|mn|m|M)\b", lambda m: m.group(1) + "MM", t)
+    t = re.sub(r"\b(\d[\d.]*)\s?bn\b", r"\1BN", t)
+    return re.sub(r"\bGA\b(?! \d{5})", "General Account", t)
+
+
 def clip(t, n=150):
-    t = re.sub(r"\s+", " ", scrub(t)).strip()
+    t = re.sub(r"\s+", " ", units(scrub(t))).strip()
     return t if len(t) <= n else t[: n - 1].rstrip() + "…"
 
 
@@ -218,8 +228,8 @@ def table(headers, rows, cls="", left=1):
 
 
 def kpi(label, value, sub="", accent=False):
-    return (f'<div class="kpi{" acc" if accent else ""}"><span>{esc(label)}</span><b>{esc(value)}</b>'
-            f'<small>{esc(sub)}</small></div>')
+    return (f'<div class="kpi{" acc" if accent else ""}"><span>{esc(label)}</span><b>{esc(units(value))}</b>'
+            f'<small>{esc(units(sub))}</small></div>')
 
 
 SLIDES = []
@@ -264,7 +274,7 @@ def first_sentence(t):
 
 
 def short_label(t, n=40):
-    return clip(re.split(r" \(", str(t))[0], n)
+    return clip(re.sub(r"\s*\([^)]*\)?", "", str(t)), n)
 
 
 # ---------------------------------------------------------------- research accessors
@@ -365,16 +375,119 @@ def capital(cid):
     return None, None, None
 
 
+# ---------------------------------------------------------------- ALM framework (primary basis for every Canadian figure)
+ALMD = json.loads((HERE / "alm.json").read_text())
+AC, AMED = ALMD["companies"], ALMD["peer_median"]
+TNAME = {"manulife": "MFC", "sun_life": "SLF", "canada_life": "CLF"}  # the framework's short names for the Big 3
+LAB = {"manulife": "MFC", "sun_life": "SLF", "canada_life": "CLF", "ia": "iA", "desjardins": "Desjardins", "rbc_life": "RBC Life",
+       "bmo_life": "BMO Life", "beneva": "Beneva", "ivari": "ivari", "empire_life": "Empire Life", "equitable_life": "Equitable",
+       "cooperators_life": "Co-operators", "uv_insurance": "UV", "wawanesa_life": "Wawanesa", "assumption_life": "Assumption",
+       "foresters_life": "Foresters", "canada_protection_plan": "CPP", "canadian_premier": "Cdn Premier",
+       "primerica_life": "Primerica", "humania": "Humania"}
+L2_COLORS = {"Public Fixed Income": BLUE, "Private Fixed Income": TEAL, "Public Equity": ORANGE, "Equity": RED,
+             "Equity (real estate)": PURPLE, "Cash & Cash Equivalent": "#9fb7d6", "Other / unclassified": GREY}
+L2_SHORT = {"Public Fixed Income": "Public fixed income", "Private Fixed Income": "Private fixed income", "Public Equity": "Public equity",
+            "Equity": "Private equity and real assets", "Equity (real estate)": "Real estate equity", "Cash & Cash Equivalent": "Cash",
+            "Other / unclassified": "Other / unclassified"}
+STATUS_TXT = {"study": "ALM study", "built": "Built on ALM rules", "amf": "ALM study, AMF rule", "amf_liab": "ALM study, liabilities only",
+              "covered": "Foresters Life brand", "none": "Financial statements only"}
+FS_TAG = " · financial-statement basis, outside the ALM study"
+MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
+
+
+def is_licat(b):
+    """True for an OSFI LICAT ratio; the AMF basis string reads 'CARLI ... (AMF; not LICAT)'."""
+    return str((b or {}).get("cap_basis") or "").startswith("LICAT")
+
+
+def qdate(p):
+    """'2023Q1' -> 'Mar 31, 2023' (calendar quarters; used on the financial-statement pages)."""
+    m = re.fullmatch(r"(\d{4})Q([1-4])", str(p or ""))
+    return f"{['Mar 31', 'Jun 30', 'Sep 30', 'Dec 31'][int(m.group(2)) - 1]}, {m.group(1)}" if m else str(p or "")
+
+
+def on_alm(cid):
+    return AC.get(cid, {}).get("status") in ("study", "built", "amf", "amf_liab")
+
+
+def yb(cid, y=2025):
+    return (AC.get(cid, {}).get("years") or {}).get(str(y)) or {}
+
+
+def tn(cid):
+    return TNAME.get(cid, NAMES[cid])
+
+
+def usd(v, d=None):
+    """C$ millions in, '$1.2BN' / '$345MM' out (the framework's units; never M or B)."""
+    v = num(v)
+    if v is None:
+        return "n/a"
+    sign = "-" if v < 0 else ""
+    if abs(v) >= 1000:
+        b = abs(v) / 1000
+        dd = d if d is not None else (0 if b >= 100 else 1)
+        return f"{sign}${b:,.{dd}f}BN"
+    return f"{sign}${abs(v):,.0f}MM"
+
+
+def dfmt(iso):
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})", str(iso or ""))
+    return f"{MONTHS[int(m.group(2)) - 1]} {int(m.group(3))}, {m.group(1)}" if m else str(iso or "")
+
+
+def pc(v, d=1, suffix="%"):
+    v = num(v)
+    return "n/a" if v is None else f"{v:.{d}f}{suffix}"
+
+
+def peer_vals(key):
+    """{cid: fiscal year-end 2025 value} for every insurer on the ALM basis that has the measure."""
+    out = {}
+    for c in AC:
+        v = AC[c].get(key) if key == "alts_share" else yb(c).get(key)
+        if on_alm(c) and num(v) is not None:
+            out[c] = num(v)
+    return out
+
+
+def peer_hbar(vals, cid, fmt, W=350, rowh=15, label_w=108, right_w=46, color=BLUE, median=None, top=18, tick_target=4):
+    """Peers ranked high to low; the section's insurer in colour, RBC Life in lighter blue, peer median as a dashed line (named in the caption)."""
+    its = sorted(((LAB[c], v) for c, v in vals.items()), key=lambda x: -x[1])
+    return hbar(its, fmt, W=W, rowh=rowh, label_w=label_w, right_w=right_w, focus=LAB[cid], mark="RBC Life", median=median,
+                color=color, top=top, tick_target=tick_target)
+
+
+def rank_txt(vals, cid):
+    """'3rd lowest of 14' style position, lowest first."""
+    if cid not in vals:
+        return ""
+    order_ = sorted(vals, key=lambda c: vals[c])
+    i = order_.index(cid) + 1
+    n = len(order_)
+    return f"{i} of {n}, lowest first"
+
+
+def group_ni(cid):
+    m = metric(cid, "net income", "net earnings", "net result", exclude=("core", "underlying"))
+    v = mfmt(m) if m else None
+    return (v.replace("C$", "$").replace("bn", "BN").replace("tn", "TN") if v else None), m
+
+
 # ---------------------------------------------------------------- ordering
 def order():
+    """RBC Life first (the reader's own insurer), then by General Account size on the ALM basis; insurers without an ALM
+    balance sheet follow by their financial-statement invested assets. Canada Protection Plan sits after Foresters Life."""
     def size(cid):
-        v = ga_mm(cid)
-        return v if v is not None else -1
-    ids = [c for c in NAMES if c != "canada_protection_plan"]
-    ids.sort(key=lambda c: -size(c))
-    # Canada Protection Plan sits right after Foresters Life, which underwrites it
-    i = ids.index("foresters_life")
-    ids.insert(i + 1, "canada_protection_plan")
+        b_ = yb(cid)
+        v = num(b_.get("ga")) or ((num(b_.get("fcf")) or 0) + (num(b_.get("csm_total")) or 0))   # liabilities-only view: FCF + CSM
+        if v:
+            return (0, -v)
+        return (1, -(ga_mm(cid) or 0))
+    ids = [c for c in NAMES if c not in ("canada_protection_plan", "rbc_life")]
+    ids.sort(key=size)
+    ids.insert(0, "rbc_life")
+    ids.insert(ids.index("foresters_life") + 1, "canada_protection_plan")
     return ids
 
 
@@ -405,7 +518,7 @@ def mix_view(cid, view):
         lm = q["liability_mix"]
         tot = sum(num(i["amount_cad_mm"]) or 0 for i in lm["items"])
         out = [(i["label"], (num(i["amount_cad_mm"]) or 0) / tot * 100) for i in lm["items"]]
-        return out, ("Foresters Life: " if src != cid else "") + f"% of C${tot / 1000:,.1f}bn; OSFI LF3 P22010 by line (CSM carved out pro rata), CSM, surplus"
+        return out, ("Foresters Life: " if src != cid else "") + f"% of {usd(tot)}; OSFI LF3 P22010 by line (CSM carved out pro rata), CSM, surplus"
     if m2 and view == "geography":
         rows = [(re.sub(r"\s*\(.*?\)", "", x["label"]).strip(), num(x.get("amount_cad_mm")), num(x.get("pct"))) for x in m2]
         neg = any((a or 0) < 0 for _, a, _ in rows)
@@ -446,7 +559,7 @@ def mix_view(cid, view):
         out = [(l, a / tot * 100) for l, a in out]
         gaps = [w for w, ok in (("CSM", csm), ("surplus", sur)) if not ok]
         asof = next((m.group(0) for x in m2 for m in [re.search(r"20\d\d-\d\d-\d\d", (x.get("as_of") or "") + (x.get("basis") or ""))] if m), "")
-        basis = (f"% of C${tot / 1000:,.1f}bn; annual-report notes {asof}, general fund (segregated funds excluded), CSM carved out of lines pro rata"
+        basis = (f"% of {usd(tot)}; annual-report notes {asof}, general fund (segregated funds excluded), CSM carved out of lines pro rata"
                  + (f"; {' and '.join(gaps)} not disclosed" if gaps else ""))
         return out, ("Foresters Life: " if src != cid else "") + basis
     if view == "geography" and num((q.get("liability_mix") or {}).get("canada_share")) is not None:
@@ -464,14 +577,14 @@ def mix_html(its, kind):
     return '<div style="flex-shrink:0;height:22px">' + mix_bar(its[:8], colors=cols, W=420, h=22) + f'</div><div class="lg2">{leg}</div>'
 
 
-def page_summary(cid, n):
+def page_summary_fs(cid, n):
     r, q = R(cid), QC.get(cid, {})
     name = NAMES[cid]
     ga = ga_mm(cid)
     cap, fw, cap_asof = capital(cid)
     tiles = []
     ga_src = (q.get("landscape") or {}).get("portfolio_as_of")
-    tiles.append(kpi("General-account invested assets", bn(ga) if ga else "n/d",
+    tiles.append(kpi("General Account invested assets (financial statements)", bn(ga) if ga else "n/d",
                      f"as at {ga_src}" if ga_src else "", accent=True))
     tiles.append(kpi(f"Capital ratio ({fw or 'n/d'})", f"{cap:.0f}%" if cap else "n/d",
                      f"as at {clip(cap_asof, 60)}" if cap_asof else "not disclosed", accent=True))
@@ -514,7 +627,7 @@ def page_summary(cid, n):
                 + card("Business mix: liabilities by type, incl. CSM and surplus", mix_html(lia, "lia"), cap=clip(lia_basis, 110), style="flex:0 0 180px")
                 + card("", profile, style="flex:0 0 58px") + gap_html, w=452)
     body = col(grid, w=724) + right
-    title = f"{name}: {bn(ga) if ga else 'undisclosed'} general account"
+    title = f"{name}: {bn(ga) if ga else 'undisclosed'} General Account"
     if cap:
         title += f", {fw} {cap:.0f}%"
     if lia:
@@ -530,7 +643,7 @@ def page_summary(cid, n):
     src = src_line("OSFI LF2/LCQ returns and annual reports (project dataset)", urls)
     notes = "\n".join(f"- {m.get('metric')}: {m.get('value')} {m.get('unit') or ''} ({m.get('as_of')}) {m.get('note') or ''} {m.get('source') or ''}"
                       for m in (r.get("metrics") or []))
-    slide(title, body, src, tag=(n, name, "Summary"), notes=notes, urls=urls)
+    slide(title, body, src, tag=(n, name, "Summary" + FS_TAG), notes=notes, urls=urls)
 
 
 def lead(cid):
@@ -798,30 +911,40 @@ def page_pm(cid, n):
     gm = (oe or {}).get("ga_manager_statement") or {}
     how = ([f'Website: "{clip(gm.get("text"), 220)}"'] if gm.get("text") else []) + [b for b in items(pm.get("bullets")) if not not_ga(cid, b)]
     if cid in COVERED_BY:
-        how = [f"Policies are underwritten by {COVERED_BY[cid]}; its general account and investment team manage the assets"] + how
-    tg = items(r.get("target_allocations"), 4)
-    tg_html = table(["Asset class", "Target / stated range"], [[clip(t.get("asset_class"), 30), clip(t.get("target"), 70)] for t in tg],
+        how = [f"Policies are underwritten by {COVERED_BY[cid]}; its General Account and investment team manage the assets"] + how
+    tg = items(r.get("target_allocations"), 3)
+    tg_html = table(["Asset class", "Target / stated range"], [[clip(t.get("asset_class"), 28), clip(t.get("target"), 62)] for t in tg],
                     cls="sm wrap") if tg else '<p class="nd">No target allocation disclosed.</p>'
-    right = col(card("Who manages the general account", bullets(how, 6, 165, "sm"), style="flex:0 0 318px")
-                + card("Disclosed targets", tg_html))
+    a_ = AC.get(cid, {})
+    if on_alm(cid):
+        ent = "".join(f'<p class="kv sm"><b>{esc(k)}</b>{esc(clip(v, 150))}</p>' for k, v in (
+            ("Entity", a_.get("entity")), ("Year-end", a_.get("fye")), ("Basis", a_.get("basis")), ("Consolidates", a_.get("consolidates")),
+            ("Left out", a_.get("excluded"))) if v)
+    elif a_.get("status") == "covered":
+        ent = f'<p class="nd">A brand of {COVERED_BY[cid]}: its policies sit in the Foresters Life entity (OSFI 28432). See that section.</p>'
+    else:
+        ent = ('<p class="nd">Not in the ALM study and files no OSFI return, so there is no Canadian block view. The balance-sheet pages in this section '
+               'come from its own financial statements.</p>')
+    right = col(card("Entity assessed for the Canadian view (ALM framework)", ent, style="flex:0 0 auto")
+                + card("Who manages the General Account", bullets(how, 3, 165, "sm"), style="flex:0 0 auto") + card("Disclosed targets", tg_html))
     mgr = ga_managers(cid)
     if cid in COVERED_BY:
-        head = f"a {COVERED_BY[cid]} brand: assets sit in {COVERED_BY[cid]}'s general account"
+        head = f"a {COVERED_BY[cid]} brand: assets sit in {COVERED_BY[cid]}'s General Account"
     elif oe and mgr:
-        head = f"{len(oe['entities'])} operating entities on its site; general account run by {short_label(mgr[0], 60)}"
+        head = f"{len(oe['entities'])} operating entities on its site; General Account run by {short_label(mgr[0], 60)}"
     elif oe:
-        head = f"{len(oe['entities'])} operating entities on its site; general-account manager not stated there"
+        head = f"{len(oe['entities'])} operating entities on its site; General Account manager not stated there"
     elif mgr:
-        head = f"general account run by {short_label(mgr[0], 60)}; no entity list on its website"
+        head = f"General Account run by {short_label(mgr[0], 60)}; no entity list on its website"
     else:
-        head = "no entity list on its website and no stated general-account manager"
+        head = "no entity list on its website and no stated General Account manager"
     title = f"{name}: " + clip(head, 140)
     urls = collect_urls(oe or {}) + collect_urls(pm) + collect_urls(tg)
     notes = ("Operating entities (" + str((oe or {}).get("source_url")) + "):\n" + "\n".join(
         f"- {e.get('name')} (parent: {e.get('parent')}): {e.get('description') or ''}" for e in items((oe or {}).get("entities")))
              + "\n\n" + (pm.get("summary") or "") + "\n" + "\n".join(f"- {b}" for b in how))
     slide(title, left + right, src_line("Insurer's own website (entities page); company and asset-manager disclosures", urls),
-          tag=(n, name, "Corporate structure"), notes=notes, urls=urls)
+          tag=(n, sname(cid), "Corporate structure"), notes=notes, urls=urls)
 
 
 PROSE = {"Bonds": "bonds", "Mortgages (real-estate debt)": "mortgages", "Equity: public": "public equity",
@@ -832,11 +955,12 @@ SHORT = {"Bonds": "Bonds", "Mortgages (real-estate debt)": "Mortgages (RE debt)"
          "Cash & short-term": "Cash & short-term"}
 
 
-def page_holdings(cid, n):
+def page_holdings_fs(cid, n):
     r, q = R(cid), QC.get(cid, {})
     name = NAMES[cid]
-    mh = q.get("mix_history") or []
-    rot = q.get("rotation_yoy_pp") or {}
+    # the framework reads IFRS 17 periods only, with trends from fiscal year-end 2023
+    mh = [x for x in q.get("mix_history") or [] if x["period"] >= "2023Q4" and "17" in str(x.get("basis"))]
+    rot = {k: v for k, v in (q.get("rotation_yoy_pp") or {}).items() if k >= "2024Q4"}
     com = items(r.get("rotation_commentary"), 3)
     nd_txt = (f"Underwritten by {COVERED_BY[cid]}: see the {COVERED_BY[cid]} section." if cid in COVERED_BY else
               "No asset-mix history is published for this insurer (no OSFI return, no annual report with an invested-asset breakdown).")
@@ -857,20 +981,18 @@ def page_holdings(cid, n):
                 continue
             a_, b_ = a_ or 0, b_ or 0
             rows.append([k, f"{a_:.1f}%", f"{b_:.1f}%", f"{b_ - a_:+.1f}"])
-        cum = {c["asset_class"]: c for c in q.get("cumulative") or []}
-        for k in CLASSES:
-            c = cum.get(k)
-            if c and num(c.get("reallocation_cad_mm")) is not None:
-                act.append((SHORT[k], num(c["reallocation_cad_mm"]) / 1000))
+        if len(mh) > 1 and num(last.get("total_cad_mm")):
+            for k in CLASSES:  # share change over the window x closing portfolio
+                act.append((SHORT[k], ((num(last.get(k)) or 0) - (num(first.get(k)) or 0)) / 100 * num(last["total_cad_mm"]) / 1000))
         small = bool(act) and max(abs(v) for _, v in act) < 1
         if small:
             act = [(k, v * 1000) for k, v in act]
         act = [(k, v) for k, v in act if abs(v) >= (0.05 if not small else 0.5)]
-        clean_rot = [v for k, v in rot.items() if not k.startswith("2023")] or list(rot.values())
+        clean_rot = list(rot.values())
         avg_rot = sum(clean_rot) / len(clean_rot) if clean_rot else None
         big = max(rows, key=lambda x: abs(float(x[3]))) if rows else None
-        mix_h = f"Invested-asset mix, {first['period']} to {last['period']} ({q.get('mix_frequency', '').lower()})"
-        p0, p1 = first["period"], last["period"]
+        p0, p1 = qdate(first["period"]), qdate(last["period"])
+        mix_h = f"Invested-asset mix, {p0} to {p1} ({q.get('mix_frequency', '').lower()})"
     else:
         chart = f'<div class="ph" style="height:228px">{esc(nd_txt)}</div>'
         mix_h, p0, p1 = "Invested-asset mix", "Start", "Latest"
@@ -880,61 +1002,66 @@ def page_holdings(cid, n):
     com_card = card("What management says about repositioning", bullets(com, 3, 170, "sm"))
     es = q.get("equity_split") or {}
     alda = num(q.get("alda_pct"))
-    ah = [(x["period"][2:4] + x["period"][4:], x["pct"]) for x in q.get("alda_history") or [] if num(x.get("pct")) is not None]
+    ahist = [x for x in q.get("alda_history") or [] if num(x.get("pct")) is not None and x["period"] >= "2023Q4"]
+    ah = [(x["period"], x["pct"]) for x in ahist]
     if es:
         eq_items = [({"Commercial real estate": "Commercial RE"}.get(k, k), num(v) or 0) for k, v in es["items"].items()]
         eq_html = hbar(eq_items, lambda v: f"{v:.1f}%", W=270, rowh=19, label_w=120, right_w=44, color=ORANGE, top=6)
-        eq_html += (f'<div class="alda"><b>ALDA {alda:.1f}%</b> of GA<span>private + infra + CRE equity, {esc(es.get("as_of", ""))}</span></div>'
+        eq_html += (f'<div class="alda"><b>ALDA {alda:.1f}%</b> of invested assets<span>private + infra + CRE equity, {esc(es.get("as_of", ""))}</span></div>'
                     if alda is not None else "")
-        if len(ah) > 2:
+        if len(ah) > 1:
             eq_html += (f'<p class="cap">Same definition on the history (private, infra &amp; alts + CRE equity): {ah[0][1]:.1f}% in '
-                        f'{esc(q["alda_history"][0]["period"])}, {ah[-1][1]:.1f}% in {esc(q["alda_history"][-1]["period"])}.</p>')
+                        f'{esc(qdate(ah[0][0]))}, {ah[-1][1]:.1f}% in {esc(qdate(ah[-1][0]))}.</p>')
     else:
         eq_html = f'<p class="nd">{esc(nd_txt) if cid in COVERED_BY else "No equity breakdown disclosed."}</p>'
-    eq_card = card("Equity split and ALDA, % of GA", eq_html, style="flex:0 0 296px")
+    eq_card = card("Equity split and ALDA, % of invested assets", eq_html, style="flex:0 0 296px")
     bottom = f'<div class="row" style="gap:12px;flex:1;min-height:0">{eq_card}{com_card}</div>'
-    tbl = table(["Asset class", p0, p1, "Δ pp"], rows, cls="sm xs") if rows else f'<p class="nd">{esc(nd_txt) if not mh else "n/d"}</p>'
+    tbl = table(["Asset class", p0, p1, "Change, pts"], rows, cls="sm xs") if rows else f'<p class="nd">{esc(nd_txt) if not mh else "n/d"}</p>'
     rot_items = [(k[:4], v) for k, v in sorted(rot.items())]
-    rot_chart = hbar(rot_items, lambda v: f"{v:.1f}pp", W=400, rowh=17, label_w=50, right_w=50, color=ORANGE) if rot_items else '<p class="nd">n/d</p>'
+    rot_chart = hbar(rot_items, lambda v: f"{v:.1f}", W=400, rowh=17, label_w=50, right_w=50, color=ORANGE) if rot_items else '<p class="nd">n/d</p>'
     act_chart = (hbar(act, (lambda v: f"{v:+,.0f}") if small else (lambda v: f"{v:+.1f}"), W=400, rowh=17, label_w=150, right_w=46, color=TEAL)
                  if act else '<p class="nd">n/d</p>')
     left = col(mix_card + bottom)
-    right = col(card("Then vs now", tbl, style="flex:0 0 196px") + card("Rotation per year (pp of portfolio)", rot_chart, style="flex:0 0 150px")
-                + card(f"Net reallocation since start, {'C$MM' if small else 'C$bn'}", act_chart), w=430)
+    right = col(card("Then vs now", tbl, style="flex:0 0 210px") + card("Rotation per year (pts of portfolio)", rot_chart, style="flex:0 0 136px")
+                + card(f"Net reallocation since start, {'$MM' if small else '$BN'}", act_chart), w=430)
     if mh:
-        title = f"{name}: " + (f"{PROSE.get(big[0], big[0].lower())} {'up' if float(big[3]) > 0 else 'down'} {abs(float(big[3])):.1f}pp since {p0}" if big else "mix history")
+        title = f"{name}: " + (f"{PROSE.get(big[0], big[0].lower())} {'up' if float(big[3]) > 0 else 'down'} {abs(float(big[3])):.1f} pts since {p0}" if big else "mix history")
         if avg_rot is not None:
-            title += f"; the book rotates ~{avg_rot:.1f}pp a year"
+            title += f"; the book rotates ~{avg_rot:.1f} pts a year"
         if alda is not None:
-            title += f"; ALDA {alda:.0f}% of GA"
+            title += f"; ALDA {alda:.0f}% of invested assets"
         src = ("Project portfolio-reallocation series: " + clip(q.get("mix_source") or "OSFI 10Q/LF2 returns and annual reports", 80)
-               + ". Rotation = half the sum of absolute class-share changes Q4 to Q4 (2023 includes the IFRS 17 basis change); "
-                 "net reallocation = share change × portfolio, net of the IFRS 17 restatement")
+               + ". IFRS 17 periods only. Rotation = half the sum of absolute class-share changes, year-end to year-end; "
+                 "net reallocation = share change × closing portfolio")
     else:
-        title = f"{name}: " + (f"holdings sit in {COVERED_BY[cid]}'s general account" if cid in COVERED_BY else "no published portfolio history")
+        title = f"{name}: " + (f"holdings sit in {COVERED_BY[cid]}'s General Account" if cid in COVERED_BY else "no published portfolio history")
         src = "No OSFI or annual-report series available"
     urls = collect_urls(com)
     notes = "\n".join(f"- {txt(c)} {c.get('source', '') if isinstance(c, dict) else ''}" for c in com)
-    slide(title, left + right, src_line(src, urls, 2), tag=(n, name, "Holdings rotation"), notes=notes, urls=urls)
+    slide(title, left + right, src_line(src, urls, 2), tag=(n, name, "Assets and rotation" + FS_TAG), notes=notes, urls=urls)
 
 
-def page_newmoney(cid, n):
+def page_newmoney_fs(cid, n):
     """New money vs in-force: where the period's net new assets went compared with the in-force mix, next to which
     insurance liabilities grew (OSFI LF3 by line). Net flows only: maturities reinvested inside a class are not visible."""
     q = QC.get(cid, {})
     name = NAMES[cid]
-    nm = q.get("new_money") or []
+    nm = [w for w in q.get("new_money") or [] if w["start"] >= "2022Q4"]  # IFRS 17 periods only
     nd = (f"Underwritten by {COVERED_BY[cid]}: see the {COVERED_BY[cid]} section." if cid in COVERED_BY else
           "No asset-mix history is published for this insurer.")
     read = []
     if nm:
         base = nm[0]
-        series = [("In-force mix at " + base["start"], [num(base["inforce_mix"].get(k)) for k in CLASSES])]
+        series = [("In-force mix at " + qdate(base["start"]), [num(base["inforce_mix"].get(k)) for k in CLASSES])]
         cols = [MUTED_BAR, BLUE, ORANGE]
+        seen_w = set()
         for w in nm:
             dt = sum(num(v) or 0 for v in w["delta_cad_mm"].values())
+            if (w["start"], w["end"]) in seen_w:
+                continue
+            seen_w.add((w["start"], w["end"]))
             if dt > 0:
-                series.append((f"Net new money, {w['window'][0].lower() + w['window'][1:]} ({w['start']} to {w['end']})",
+                series.append((f"Net new money, {w['window'][0].lower() + w['window'][1:]} ({qdate(w['start'])} to {qdate(w['end'])})",
                                [(num(w["delta_cad_mm"].get(k)) or 0) / dt * 100 for k in CLASSES]))
         chart = grouped_hbar([SHORT[k] for k in CLASSES], series, cols, fmt=lambda v: f"{v:.0f}%", W=620, rowh=40, label_w=150,
                              xlabel="% of in-force assets (grey) / % of net new money (colour)")
@@ -947,7 +1074,7 @@ def page_newmoney(cid, n):
         if dt > 0:
             tilt = sorted(((k, (num(w["delta_cad_mm"].get(k)) or 0) / dt * 100 - (num(w["inforce_mix"].get(k)) or 0)) for k in CLASSES),
                           key=lambda x: -x[1])
-            read.append(f"{w['window']}: net new assets " + (f"C${dt / 1000:,.1f}bn" if dt >= 1000 else f"C${dt:,.0f}MM") + f" ({w['start']} to {w['end']}), "
+            read.append(f"{w['window']}: net new assets " + usd(dt) + f" ({qdate(w['start'])} to {qdate(w['end'])}), "
                         f"{dt / (num(w['start_total_cad_mm']) or 1) * 100:.0f}% growth on the in-force book")
             if _g(w) < 0.05:
                 read.append(f"Caution: net new money was only {_g(w) * 100:.0f}% of the book over the window, so the class shares are "
@@ -955,11 +1082,11 @@ def page_newmoney(cid, n):
             elif w is not nm[-1] and _g(nm[-1]) > 0:
                 read.append(f"{nm[-1]['window']}: net new money was only {_g(nm[-1]) * 100:.0f}% of the book, so its class shares swing "
                             "widely; the headline uses the longer window")
-            read.append(f"New money over-weights {PROSE[tilt[0][0]]} by {tilt[0][1]:+.0f}pp and under-weights "
-                        f"{PROSE[tilt[-1][0]]} by {tilt[-1][1]:+.0f}pp versus the in-force mix")
+            read.append(f"New money over-weights {PROSE[tilt[0][0]]} by {tilt[0][1]:.0f} pts and under-weights "
+                        f"{PROSE[tilt[-1][0]]} by {-tilt[-1][1]:.0f} pts versus the in-force mix")
         else:
-            read.append(f"{w['window']}: the portfolio shrank by " + (f"C${-dt / 1000:,.1f}bn" if -dt >= 1000 else f"C${-dt:,.0f}MM")
-                        + f" ({w['start']} to {w['end']}), so there is no net new money to allocate")
+            read.append(f"{w['window']}: the portfolio shrank by " + usd(-dt)
+                        + f" ({qdate(w['start'])} to {qdate(w['end'])}), so there is no net new money to allocate")
         left_html = chart + leg
     else:
         left_html = f'<div class="ph" style="height:330px">{esc(nd)}</div>'
@@ -970,9 +1097,9 @@ def page_newmoney(cid, n):
     if lines:
         dl = [(k, (num(v["current"]) or 0) - (num(v["prior"]) or 0)) for k, v in lines.items()]
         big = max(abs(v) for _, v in dl) if dl else 0
-        unit = "C$MM" if big < 1000 else "C$bn"
-        dlv = [(k, v if unit == "C$MM" else v / 1000) for k, v in dl]
-        lia_chart = hbar(dlv, (lambda v: f"{v:+,.0f}") if unit == "C$MM" else (lambda v: f"{v:+,.1f}"), W=470, rowh=26, label_w=160,
+        unit = "$MM" if big < 1000 else "$BN"
+        dlv = [(k, v if unit == "$MM" else v / 1000) for k, v in dl]
+        lia_chart = hbar(dlv, (lambda v: f"{v:+,.0f}") if unit == "$MM" else (lambda v: f"{v:+,.1f}"), W=470, rowh=26, label_w=160,
                          right_w=50, color=TEAL, xlabel=f"Change in insurance contract liabilities, {unit}")
         rows = [[k, f"{num(v['prior']) / 1000:,.1f}", f"{num(v['current']) / 1000:,.1f}",
                  f"{((num(v['current']) or 0) / num(v['prior']) - 1) * 100:+.0f}%" if num(v["prior"]) and num(v["prior"]) > 0 else "n/m"]
@@ -981,7 +1108,7 @@ def page_newmoney(cid, n):
         grow = max(dl, key=lambda x: x[1])
         if grow[1] > 0:
             read.insert(1 if len(read) > 1 else 0, f"Fastest-growing liability line in FY{lg['fiscal_year']}: {grow[0].lower()} "
-                                                   f"(+C${grow[1]:,.0f}MM), the new business the new money is backing")
+                                                   f"(+{usd(grow[1])}), the new business the new money is backing")
         lia_h = f"Which liabilities grew, FY{lg['fiscal_year']} vs FY{lg['fiscal_year'] - 1}"
     else:
         lv, lb = mix_view(cid, "liability")
@@ -994,7 +1121,7 @@ def page_newmoney(cid, n):
         lia_h = "Liability mix by type (no growth by line available)" if lv and cid not in COVERED_BY else "Which liabilities grew"
     left = col(card("Where net new assets went vs the in-force mix", left_html, style="flex:0 0 372px")
                + card("Reading", bullets(read, 4, 175, "sm")), w=650)
-    right = col(card(lia_h, lia_chart, style="flex:0 0 230px") + card("Insurance contract liabilities by line, C$bn (policies issued)", tbl))
+    right = col(card(lia_h, lia_chart, style="flex:0 0 230px") + card("Insurance contract liabilities by line, $BN (policies issued)", tbl))
     if nm and read and read[0].startswith(("Since", "Last")) and "over-weights" in " ".join(read):
         t = f"{name}: " + first_sentence(next(x for x in read if "over-weights" in x)).replace("New money over-weights", "new money over-weights")
     elif nm:
@@ -1002,11 +1129,11 @@ def page_newmoney(cid, n):
     else:
         t = f"{name}: new money vs in-force not measurable from public data"
     slide(clip(t, 150), left + right, "OSFI LF1/LF2 (assets) and LF3 P22010 (liabilities by line, all regions, policies issued); "
-          "iA supplements and annual reports for others. New money = change in C$ held by class over the window",
-          tag=(n, name, "New money vs in-force"), notes="\n".join(read))
+          "iA supplements and annual reports for others. New money = change in $ held by class over the window",
+          tag=(n, name, "New money and liabilities" + FS_TAG), notes="\n".join(read))
 
 
-def page_leverage(cid, n):
+def page_leverage_fs(cid, n):
     r, q = R(cid), QC.get(cid, {})
     name = NAMES[cid]
     lv = r.get("leverage") or {}
@@ -1023,7 +1150,7 @@ def page_leverage(cid, n):
     repo_grp, sl_grp = grp(lv.get("repos")), grp(lv.get("securities_lending"))
     repo = None if repo_grp else (num((lv.get("repos") or {}).get("amount_cad_mm")) or (repo_osfi or None))
     secl = None if sl_grp else (num((lv.get("securities_lending") or {}).get("amount_cad_mm")) or (sl_osfi or None))
-    pct = lambda v: f"{v / ga * 100:.1f}% of GA" if (v and ga) else ""
+    pct = lambda v: f"{v / ga * 100:.1f}% of invested assets" if (v and ga) else ""
     flr = num(lv.get("financial_leverage_ratio_pct"))
     tiles = "".join([
         kpi("Debt & hybrids outstanding", bn(debt_tot) if debt_tot else "n/d", ("issued at group / parent level" if group_level else "senior, sub, LRCN, prefs") if debt_tot else "none disclosed"),
@@ -1037,21 +1164,21 @@ def page_leverage(cid, n):
     iss_rows = [[str(i.get("date") or "")[:7], clip(i.get("instrument"), 38), f"{num(i.get('amount_cad_mm')):,.0f}" if num(i.get("amount_cad_mm")) else "",
                  f"{num(i.get('coupon_pct')):.3f}%" if num(i.get("coupon_pct")) else "", str(i.get("maturity") or "")[:4],
                  clip(", ".join(re.split(r" \(| / ", b)[0] for b in (i.get("bookrunners") or [])), 44)] for i in iss]
-    iss_html = table(["Date", "Instrument", "C$MM", "Coupon", "Due", "Bookrunners"], iss_rows, cls="sm", left=2) if iss_rows else '<p class="nd">No 2023-2026 issuance found.</p>'
+    iss_html = table(["Date", "Instrument", "$MM", "Coupon", "Due", "Bookrunners"], iss_rows, cls="sm", left=2) if iss_rows else '<p class="nd">No 2023-2026 issuance found.</p>'
     dl = [(clip(re.split(r" \(", str(d.get("type")))[0], 21), (num(d.get("amount_cad_mm")) or 0) / 1000) for d in debt if num(d.get("amount_cad_mm"))]
-    debt_unit = "C$bn"
+    debt_unit = "$BN"
     if dl and max(abs(v) for _, v in dl) < 1:
-        dl, debt_unit = [(k, v * 1000) for k, v in dl], "C$MM"
-    debt_chart = hbar(dl[:6], (lambda v: f"{v:,.0f}") if debt_unit == "C$MM" else (lambda v: f"{v:.1f}"), W=370, rowh=22, label_w=160,
+        dl, debt_unit = [(k, v * 1000) for k, v in dl], "$MM"
+    debt_chart = hbar(dl[:6], (lambda v: f"{v:,.0f}") if debt_unit == "$MM" else (lambda v: f"{v:.1f}"), W=370, rowh=22, label_w=160,
                       right_w=40, color=BLUE) if dl else '<p class="nd">No debt disclosed (mutual / subsidiary funded by parent).</p>'
     dv = {}
     for o in obs:
         if o.get("level1") == "Derivatives":
             dv[o.get("level2")] = dv.get(o.get("level2"), 0) + abs(num(o["amount_cad_mm"]) or 0) / 1000
-    dv_unit = "C$bn"
+    dv_unit = "$BN"
     if dv and max(dv.values()) < 1:
-        dv, dv_unit = {k: v * 1000 for k, v in dv.items()}, "C$MM"
-    dv_chart = hbar(sorted(dv.items(), key=lambda x: -x[1]), (lambda v: f"{v:,.0f}") if dv_unit == "C$MM" else (lambda v: f"{v:,.1f}"), W=370, rowh=22, label_w=110, right_w=50,
+        dv, dv_unit = {k: v * 1000 for k, v in dv.items()}, "$MM"
+    dv_chart = hbar(sorted(dv.items(), key=lambda x: -x[1]), (lambda v: f"{v:,.0f}") if dv_unit == "$MM" else (lambda v: f"{v:,.1f}"), W=370, rowh=22, label_w=110, right_w=50,
                     color=PURPLE) if dv else '<p class="nd">No derivative notionals in OSFI LF3 for this insurer.</p>'
     struct = [s.get("text") if isinstance(s, dict) else s for s in items(lv.get("structured_indirect"), 5)]
     rp_t = (lv.get("repos") or {}).get("text")
@@ -1070,13 +1197,13 @@ def page_leverage(cid, n):
     if repo:
         bits.append(f"repos {pct(repo) or bn(repo, 2)}")
     if deriv and ga:
-        bits.append(f"derivative notional {deriv / ga * 100:.0f}% of GA")
+        bits.append(f"derivative notional {deriv / ga * 100:.0f}% of invested assets")
     if not bits:
         bits.append("little disclosed balance-sheet leverage")
     urls = collect_urls(lv)
     notes = json.dumps(lv, indent=1)[:6000]
     slide(t + ", ".join(bits), left + right, src_line("OSFI LF3 (repos P22030, derivatives P21110); financial statement notes", urls),
-          tag=(n, name, "Leverage"), notes=notes, urls=urls)
+          tag=(n, name, "Leverage" + FS_TAG), notes=notes, urls=urls)
 
 
 def page_partners(cid, n):
@@ -1128,7 +1255,7 @@ def shock_label(f):
     return clip(f"{amt} {rest}", 34)
 
 
-def page_risk(cid, n):
+def page_risk_fs(cid, n):
     r, q = R(cid), QC.get(cid, {})
     name = NAMES[cid]
     rk = r.get("risk") or {}
@@ -1157,7 +1284,7 @@ def page_risk(cid, n):
     if s_items:
         big = max(abs(v) for _, v in s_items)
         f_ = (lambda v: f"{v:+,.0f}") if big >= 10 else (lambda v: f"{v:+,.1f}")
-        sens_html = hbar(s_items, f_, W=520, rowh=22, label_w=215, right_w=50, color=RED, xlabel="C$MM P&L impact (after-tax net income)")
+        sens_html = hbar(s_items, f_, W=520, rowh=22, label_w=215, right_w=50, color=RED, xlabel="$MM impact on after-tax net income")
         asof = next((s.get("as_of") for s in sens if s.get("as_of")), "")
         sens_html += f'<p class="cap">As disclosed{(", " + str(asof)) if asof else ""}; immediate shocks, after tax, before management action.</p>'
     else:
@@ -1185,61 +1312,620 @@ def page_risk(cid, n):
         t += f" (stated target: {target})"
     eq = next((s for s in sens if "equit" in s["factor"].lower() and "10" in s["factor"]), None)
     if eq and num(eq.get("ni_impact_cad_mm")) is not None and abs(num(eq["ni_impact_cad_mm"])) >= 0.5:
-        t += f"; -10% public equity costs C${abs(num(eq['ni_impact_cad_mm'])):,.0f}MM of net income"
+        t += f"; -10% public equity costs {usd(abs(num(eq['ni_impact_cad_mm'])))} of net income"
     elif eq and num(eq.get("ni_impact_cad_mm")) is not None:
         t += "; a 10% equity fall barely touches net income (disclosed)"
     urls = collect_urls(rk)
     notes = json.dumps(rk, indent=1)[:6000]
     slide(t, body, src_line("OSFI LCQ; annual MD&A risk sections; project investment-risk benchmark", urls),
-          tag=(n, name, "Risk constructs"), notes=notes, urls=urls)
+          tag=(n, name, "Capital and risk" + FS_TAG), notes=notes, urls=urls)
+
+
+# ---------------------------------------------------------------- ALM-basis pages (Canadian business, net of reinsurance)
+ALM_SRC = "ALM framework (cdn-life-insurer-alm): OSFI LF1/LF2/LF3/LCQ returns and 2025 annual reports"
+BIG3 = ("MFC", "SLF", "CLF")
+ALLOC_TXT = {"MFC": "Legal-entity (global) mix applied to the Canadian pool",
+             "SLF": "Legal-entity (global) mix applied to the Canadian pool",
+             "CLF": "Disclosed Canada non-par mix (Q4 2025 MD&A); bonds split at the entity ratio (est)"}
+OTHER_FIN = {"IVA": "funds-withheld reinsurer deposit", "BMO": "mortgage loans on investment property", "IAG": "debentures and similar",
+             "BEN": "debt and similar", "SLF": "debt inside the insurer", "CLF": "debt inside the insurer", "EMP": "debt inside the insurer",
+             "EQL": "debt inside the insurer"}
+RISK_LAB = {"equity": "Equity markets", "rates": "Interest rates", "spreads": "Credit spreads", "real_estate_alts": "Real estate and alternatives"}
+
+
+def line_shift(ll, y0, y1):
+    """A filer moving business between two OSFI lines shows as one line more than doubling while another drops by a
+    like amount. Returns (line up, line down) so the two are read together instead of as growth; None otherwise."""
+    a0, a1 = ll.get(y0) or {}, ll.get(y1) or {}
+    for up in a1:
+        u0, u1 = num(a0.get(up)) or 0, num(a1.get(up)) or 0
+        if u0 > 0 and u1 - u0 > u0:
+            for dn in a1:
+                d0, d1 = num(a0.get(dn)) or 0, num(a1.get(dn)) or 0
+                if dn != up and d0 > 0 and d0 - d1 > 0.2 * d0 and d0 - d1 > 0.4 * (u1 - u0):
+                    return up, dn
+    return None
+
+
+def sname(cid):
+    return NAMES[cid] + (f" ({TNAME[cid]})" if cid in TNAME else "")
+
+
+def page_summary(cid, n):
+    a = AC.get(cid, {})
+    if not on_alm(cid):
+        return page_summary_fs(cid, n)
+    r, q, b = R(cid), QC.get(cid, {}), yb(cid)
+    t, st, sid = tn(cid), a["status"], a.get("sid")
+    liab_only = st == "amf_liab"
+    amf = st.startswith("amf")
+    date = dfmt(b.get("date"))
+    e = (a.get("earn") or {}).get("2025") or {}
+    T = [kpi("GenAcct (excl. par / seg fund), est", "n/a" if liab_only else usd(b.get("ga")),
+             "no public balance sheet: liability side only" if liab_only else f"at {date}; Canadian business, net of reinsurance", True)]
+    if num(b.get("buffer")) is not None:
+        T.append(kpi("Buffer, est", pc(b["buffer"]), f"(Surplus + ABL CSM less net derivative liabilities) / GenAcct net of repos; peer median {pc(AMED['buffer'])}", True))
+    elif a.get("buffer_note"):
+        T.append(kpi("Buffer", "n/m", "net fulfilment cash flows are an asset (term book, heavily reinsured), so there is no liability base to cushion", True))
+    elif num(b.get("buffer_memo")) is not None:
+        T.append(kpi("Buffer", "n/a", f"AMF filer: no ABL CSM split. Memo on total CSM † {pc(b['buffer_memo'])}, not comparable with peers", True))
+    else:
+        T.append(kpi("Buffer", "n/a", "needs a balance sheet", True))
+    licat = is_licat(b)
+    if num(b.get("cap_ratio")) is not None:
+        T.append(kpi("Capital ratio (LICAT total)" if licat else "Capital ratio (CARLI, AMF)", pc(b["cap_ratio"]),
+                     f"at {date}; peer median {pc(AMED['cap_ratio'])} (LICAT filers)" if licat else f"AMF solvency ratio at {date}; not comparable with LICAT", True))
+    else:
+        T.append(kpi("Capital ratio", "n/a", "not public for the insurer", True))
+    T.append(kpi("Surplus" + (", est" if sid in BIG3 else ""), usd(b.get("surplus")),
+                 "n/a without a balance sheet" if liab_only else f"{pc(b.get('surplus_pct'))} of GenAcct" + ("; In Canada equity = assets less liabilities" if sid in BIG3 else "; equity less the part backing other assets")))
+    if num(b.get("csm_abl")) is not None:
+        es = lambda k: " est" if "est" in str(b.get(k) or "") else ""
+        sub = f"ABL {usd(b['csm_abl'])} · seg fund {usd(b.get('seg_csm') or 0)}{es('seg_csm_basis')} · par {usd(b.get('par_csm') or 0)}{es('par_csm_basis')}"
+    else:
+        sub = "total only: no ABL / seg fund / par split (AMF rule)"
+    T.append(kpi("CSM, net of reinsurance", usd(b.get("csm_total")), sub))
+    if amf:
+        T.append(kpi("Par share", "n/a", "par is not separable in the filings"))
+    else:
+        T.append(kpi("Par share", pc(b.get("par_share")), f"par block {usd(b.get('par') or 0)}; par / (par + GenAcct); peer median {pc(AMED['par_share'])}"))
+    T.append(kpi("Financing / GenAcct", pc(b.get("fin_pct")), "n/a without a balance sheet" if liab_only else
+                 (" + ".join(x for x in [f"repos {usd(b['repos'])}" if num(b.get("repos")) else None, f"other financing {usd(b['fin_other'])}" if num(b.get("fin_other")) else None] if x)
+                  or "no repos or debt inside the insurer") + f"; peer median {pc(AMED['fin_pct'])}"))
+    bsrow = lambda pat: next((x for x in a.get("bs") or [] if pat in x["item"]), None)
+    if liab_only:
+        rh, icl = bsrow("Reinsurance contract held assets"), bsrow("Insurance contract liabilities, L&H")
+        T.append(kpi("Reinsurance held assets", usd(rh["mm"]) if rh else "n/a", "as disclosed; no GenAcct to scale it against"))
+        T.append(kpi("Insurance contract liabilities", usd(icl["mm"]) if icl else "n/a", "life and health, as disclosed, incl. par and UL"))
+    else:
+        T.append(kpi("Reinsurance / GenAcct", pc(b.get("reins_pct")), f"reinsurance held assets {usd(b.get('reins_assets'))}; peer median {pc(AMED['reins_pct'])}"))
+    seg = num(b.get("seg_fv"))
+    if liab_only:
+        segrow = next((x for x in a.get("bs") or [] if "insurance contracts" in x["item"] and x["group"].startswith("Seg")), None)
+        T.append(kpi("Seg fund liabilities (insurance)", usd(segrow["mm"]) if segrow else "n/a", "own block, outside GenAcct"))
+    else:
+        T.append(kpi("Seg fund value", usd(seg) if seg else "none", "own block, outside GenAcct" + (f"; seg fund CSM {usd(b['seg_csm'])} est" if num(b.get("seg_csm")) else "")))
+    if num(b.get("ul")):
+        T.append(kpi("UL policyholder fund", usd(b["ul"]), "pass-through assets, outside GenAcct"))
+    elif num(b.get("inv_contracts")):
+        T.append(kpi("Investment contracts", usd(b["inv_contracts"]), "IFRS 9 liabilities, own block"))
+    else:
+        T.append(kpi("Fulfilment cash flows, est", usd(b.get("fcf")), "BEL + RA net of reinsurance" + ("" if liab_only else " (residual of the block view)")))
+    if e:
+        isr, nir = num(e.get("isr")), num(e.get("nir"))
+        share = f"; insurance is {isr / (isr + nir) * 100:.0f}% of the two" if (isr or 0) > 0 and (nir or 0) > 0 else ""
+        T.append(kpi("Insurance service result, fiscal 2025", usd(isr), (f"net investment result {usd(nir)}{share}" if nir is not None else "net investment result n/a")
+                     if isr is not None else f"not in the study's earnings panel; net investment result {usd(nir)}"))
+        T.append(kpi("Net income, fiscal 2025", usd(e.get("ni")), f"return on equity {pc(e.get('roe'))}; " + ("Canada (OSFI LF2)" if sid in BIG3 else "legal entity (OSFI LF1)")))
+    else:
+        if len(T) < 10 or "Fulfilment" not in T[-1]:
+            T.append(kpi("Fulfilment cash flows, est", usd(b.get("fcf")), "BEL + RA net of reinsurance" + ("" if liab_only else " (residual of the block view)")))
+        v, m = group_ni(cid)
+        T.append(kpi("Net income (group, as reported)", v or "n/a", clip(f"{m.get('metric')}" + (f" · {m['as_of']}" if m.get("as_of") else ""), 70) if m else "not found"))
+    grid = '<div class="kgrid">' + "".join(T[:12]) + "</div>"
+
+    ll = (a.get("liab_line") or {}).get("2025") or {}
+    pos = [(k, num(v)) for k, v in ll.items() if num(v) and num(v) > 0]
+    neg = [(k, num(v)) for k, v in ll.items() if num(v) and num(v) <= -0.5]
+    lia_override = None
+    if neg and sum(v for _, v in pos) < 0.05 * -sum(v for _, v in neg):
+        lia_override = ('<p class="kv">' + esc("; ".join(f"{k} is a net asset of {usd(-v)}" for k, v in neg) + " after reinsurance held: the insurer cedes more than it holds, "
+                        "so there is no liability mix by line to show.") + "</p>")
+        lia_h, lia_cap, lia = f"Liabilities by product line, net of reinsurance, {date}", "Insurance contract liabilities by OSFI line, excl. seg funds.", []
+    elif pos:
+        tot = sum(v for _, v in pos)
+        lia = [(k, v / tot * 100) for k, v in pos]
+        sh_ = line_shift(a.get("liab_line") or {}, "2024", "2025")
+        lia_cap = f"% of {usd(tot)}; insurance contract liabilities by OSFI line, excl. seg funds" + (f"; the 2025 return moves business from {sh_[1].lower()} to {sh_[0].lower()}" if sh_ else "") + (
+            "; " + ", ".join(f"{k.lower()} is a net asset ({usd(v)})" for k, v in neg) + ", left out" if neg else "")
+        lia_h = f"Liabilities by product line, net of reinsurance, {date}"
+    else:
+        lia, lb = mix_view(cid, "liability")
+        lia_cap = "Consolidated, from annual-report notes: the ALM study holds no product lines for AMF filers."
+        lia_h = "Liabilities by type (consolidated, incl. CSM and surplus)"
+    rows = []
+    for lab, key in [("Buffer, est", "buffer"), ("Capital ratio", "cap_ratio"), ("Par share", "par_share"), ("Financing / GenAcct", "fin_pct"),
+                     ("Reinsurance / GenAcct", "reins_pct"), ("Private and alternative assets", "alts_share")]:
+        vals = peer_vals(key)
+        mine = pc(vals.get(cid)) if not (amf and key in ("buffer", "par_share")) else "n/a"
+        if key == "cap_ratio" and amf and cid in vals:
+            mine += " †"
+        if cid == "rbc_life":
+            lic = {c: v for c, v in vals.items() if AC[c]["status"] in ("study", "built")}
+            rows.append([lab, mine, pc(AMED.get(key)), rank_txt(lic, cid)])
+        else:
+            rows.append([lab, mine, pc(vals.get("rbc_life")), pc(AMED.get(key))])
+    hdr = ["Fiscal year-end 2025", LAB[cid], "Peer median", "Position"] if cid == "rbc_life" else ["Fiscal year-end 2025", LAB[cid], "RBC Life", "Peer median"]
+    peer_cap = None
+    own = clip(r.get("ownership") or q.get("ownership"), 64)
+    profile = (f'<p class="kv one"><b>Ownership</b> {esc(own)}</p>'
+               f'<p class="kv one"><b>Entity</b> {esc(clip(str(a.get("entity")) + " · " + str(a.get("fye")) + " year-end", 68))}</p>')
+    right = col(card(lia_h, lia_override or mix_html(lia, "lia"), cap=clip(lia_cap, 150), style="flex:0 0 auto")
+                + card("Against RBC Life and the median of OSFI filers" if cid != "rbc_life" else "Against the median of OSFI filers on this basis", table(hdr, rows, cls="sm xs"), cap=peer_cap, style="flex:0 0 auto")
+                + card("", profile, style="flex:0 0 auto") + card("Read with care", bullets([clip(("† " if "not LICAT" in f else "") + f.replace("so ABL / seg fund / par CSM and the buffer are n/a", "so no CSM split and no buffer"), 150 if len(a.get("flags") or []) < 3 else 100) for f in a.get("flags") or []], 3, 160, "sm"), cls="warn"), w=452)
+    if liab_only:
+        title = (f"{t}: liability side only, with {usd(b.get('csm_total'))} of CSM and {usd(b.get('fcf'))} of fulfilment cash flows (est); "
+                 "no public balance sheet, so no GenAcct, buffer or capital ratio")
+    else:
+        title = f"{t}: {usd(b.get('ga'))} GenAcct in Canada"
+        if num(b.get("buffer")) is not None:
+            d = b["buffer"] - AMED["buffer"]
+            if any("buffer are unreliable" in f for f in a.get("flags") or []):
+                title += f" with a {b['buffer']:.1f}% buffer (est) that is not reliable, because In Canada assets follow asset territory"
+            else:
+                title += f" with a {b['buffer']:.1f}% buffer, {'below' if d < -0.5 else 'above' if d > 0.5 else 'in line with'} the {AMED['buffer']:.1f}% peer median"
+        elif a.get("buffer_note"):
+            title += "; buffer not meaningful because net fulfilment cash flows are an asset"
+        elif num(b.get("buffer_memo")) is not None:
+            title += f"; buffer n/a under the AMF rule (memo on total CSM † {b['buffer_memo']:.1f}%)"
+        if num(b.get("cap_ratio")) is not None:
+            title += f"; {'LICAT' if licat else 'CARLI'} {b['cap_ratio']:.1f}%"
+            if licat:
+                title += f" against a {AMED['cap_ratio']:.1f}% median"
+    notes = "Read with care:\n" + "\n".join(f"- {x}" for x in a.get("flags") or []) + "\n\nBlock view at fiscal year-end 2025 (C$MM):\n" + "\n".join(
+        f"- [{x['side']}] {x['group']}: {x['item']}: {x['mm']:,.0f} ({x['basis']})" for x in (a.get("bs") or []) if num(x.get("mm")) is not None)
+    slide(title, col(grid, w=724) + right, ALM_SRC + f"; fiscal year-end 2025 ({date}). C$, Canadian business, net of reinsurance; est = estimate",
+          tag=(n, sname(cid), "Summary, Canadian business"), notes=notes, urls=collect_urls({"m": r.get("metrics")}))
+
+
+def page_holdings(cid, n):
+    a = AC.get(cid, {})
+    at = a.get("asset_trend") or {}
+    if not on_alm(cid) or not at:
+        return page_holdings_fs(cid, n)
+    r, b = R(cid), yb(cid)
+    t, sid = tn(cid), a.get("sid")
+    dates = sorted(at)
+    classes = [k for k in L2_COLORS if any(num(at[d].get(k)) for d in dates)]
+    series = {L2_SHORT[k]: [num(at[d].get(k)) or 0 for d in dates] for k in classes}
+    colors = {L2_SHORT[k]: L2_COLORS[k] for k in classes}
+    chart = stacked_columns([dfmt(d) for d in dates], series, colors, W=336, H=236)
+    leg = '<div class="lg">' + "".join(f'<span><i style="background:{L2_COLORS[k]}"></i>{esc(L2_SHORT[k])}</span>' for k in classes) + "</div>"
+    scope = ("legal entity, all territories" if sid in BIG3 else "consolidated, 2025 annual report (par, UL and US not separable)" if sid == "IAG" else "legal entity = Canada")
+    tot = num(at[dates[-1]].get("_total_bn"))
+    mix_card = card("Mix by Level 2 class" + (f", {dfmt(dates[0])} to {dfmt(dates[-1])}" if len(dates) > 1 else f" at {dfmt(dates[0])}"), chart + leg,
+                    cap=f"Share of invested assets ({usd(tot * 1000) if tot else 'n/a'} at {dfmt(dates[-1])}); {scope}.", style="flex:0 0 362px")
+    rows3 = [x for x in (a.get("alloc") or {}).get("l3") or [] if (num(x.get("nonpar")) or 0) > 0]
+    pool = sum(num(x["nonpar"]) for x in rows3) or 1
+    l3 = sorted(((x["l3"].replace("Other invested (unclassified)", "Other invested").replace("Asset Backed Securities", "Asset-backed securities"),
+                  num(x["nonpar"]) / pool * 100) for x in rows3), key=lambda x: -x[1])
+    l3 = [x for x in l3 if x[1] >= 0.3][:10]
+    l3_chart = hbar(l3, lambda v: f"{v:.0f}%", W=340, rowh=max(20, min(30, 230 // max(len(l3), 1))), label_w=150, right_w=40, color=BLUE, top=18) if l3 else '<p class="nd">No Level 3 allocation.</p>'
+    fye = dfmt(b.get("date"))
+    l3_card = card(f"Non-par, non-UL pool by Level 3 class, {fye}", l3_chart,
+                   cap=f"% of {usd(pool)} (est). " + (ALLOC_TXT.get(sid) or clip((a.get('alloc') or {}).get('basis_note') or '', 110) if sid in BIG3 or sid is None or sid == "IAG"
+                                                       else "OSFI LF2 pool less UL policyholder funds and par assets") + ".")
+    com = items(r.get("rotation_commentary"), 3)
+    left = col(f'<div class="row" style="gap:12px;flex:0 0 334px;min-height:0">{mix_card}{l3_card}</div>'
+               + card("What management says about repositioning", bullets(com, 3, 190, "sm")), w=736)
+    hdr = ["Level 2 class"] + [dfmt(d) for d in dates] + (["Change, pts"] if len(dates) > 1 else [])
+    trows = []
+    for k in classes:
+        v = [num(at[d].get(k)) or 0 for d in dates]
+        trows.append([L2_SHORT[k]] + [f"{x:.1f}%" for x in v] + ([f"{v[-1] - v[0]:+.1f}"] if len(dates) > 1 else []))
+    ul = num(at[dates[-1]].get("_ul_bn"))
+    alts = peer_vals("alts_share")
+    zero = [LAB[c] for c, v in alts.items() if v < 0.05 and c != cid and c != "rbc_life"]
+    shown = {c: v for c, v in alts.items() if v >= 0.05 or c in (cid, "rbc_life")}
+    alt_chart = peer_hbar(shown, cid, lambda v: f"{v:.0f}%", W=400, rowh=14, label_w=112, right_w=40, color=TEAL, median=AMED.get("alts_share"))
+    ac = (a.get("acct") or {}).get(b.get("date")) or {}
+    if ac:
+        its = [("FVTPL", num(ac.get("fvtpl")) or 0), ("FVOCI", num(ac.get("fvoci")) or 0), ("Amortized cost", num(ac.get("ac")) or 0)]
+        acols = [BLUE, ORANGE, GREY]
+        ac_html = ('<div style="flex-shrink:0;height:18px">' + mix_bar(its, colors=acols, W=400, h=18) + '</div><div class="lg">' + "".join(
+            f'<span><i style="background:{acols[i]}"></i>{esc(l)} {p:.0f}%</span>' for i, (l, p) in enumerate(its)) + "</div>"
+                   + (f'<p class="cap">UL policyholder fund of {usd(ul * 1000)} is a pass-through and sits outside GenAcct.</p>' if ul else ""))
+    else:
+        ac_html = '<p class="nd">Accounting classes are not in the public data for this insurer.</p>'
+    right = col(card("Then and now, % of invested assets", table(hdr, trows, cls="sm xs"), style="flex:0 0 auto")
+                + card("Private and alternative share of the pool, fiscal year-end 2025", alt_chart,
+                       cap=f"Private fixed income plus external and real-asset holdings (est). Dashed: median {AMED['alts_share']:.0f}%." + (f" None at {', '.join(zero)}." if zero else ""), style="flex:0 0 auto")
+                + card(f"Accounting class of invested assets, {fye}", ac_html))
+    my_alt = num(a.get("alts_share"))
+    alt_txt = (f"private and alternative assets are {my_alt:.0f}% of the non-par pool against a {AMED['alts_share']:.0f}% peer median" if my_alt is not None and my_alt >= 0.5
+               else "it holds no private or alternative assets (peer median {:.0f}%)".format(AMED["alts_share"]))
+    if len(dates) > 1:
+        ch = max(((k, (num(at[dates[-1]].get(k)) or 0) - (num(at[dates[0]].get(k)) or 0)) for k in classes), key=lambda x: abs(x[1]))
+        if abs(ch[1]) < 0.5:
+            top2 = max(classes, key=lambda k: num(at[dates[-1]].get(k)) or 0)
+            title = f"{t}: asset mix unchanged since {dfmt(dates[0])}, with {L2_SHORT[top2].lower()} at {num(at[dates[-1]].get(top2)):.0f}%; {alt_txt}"
+        else:
+            title = f"{t}: {L2_SHORT[ch[0]].lower()} {'up' if ch[1] > 0 else 'down'} {abs(ch[1]):.1f} pts since {dfmt(dates[0])}; {alt_txt}"
+    else:
+        title = f"{t}: {l3[0][0].lower()} is the largest holding at {l3[0][1]:.0f}% of the pool; {alt_txt}" if l3 else f"{t}: {alt_txt}"
+    urls = collect_urls(com)
+    notes = "\n".join(f"- {txt(c)} {c.get('source', '') if isinstance(c, dict) else ''}" for c in com)
+    slide(title, left + right, src_line("ALM framework: OSFI LF2 invested assets on the L1/L2/L3 taxonomy; block allocation at fiscal year-end 2025 (est); IFRS 17 periods only", urls, 2),
+          tag=(n, sname(cid), "Assets and rotation"), notes=notes, urls=urls)
+
+
+def page_newmoney(cid, n):
+    """Net additions by Level 3 class (closing less opening balance, no run-off; est) beside the liabilities that grew."""
+    a = AC.get(cid, {})
+    nm = a.get("new_money") or []
+    if not on_alm(cid) or not nm:
+        return page_newmoney_fs(cid, n)
+    t, sid = tn(cid), a.get("sid")
+    w = nm[0]
+    ot, ct = sum(x["open"] for x in w["rows"]), sum(x["close"] for x in w["rows"])
+    net = ct - ot
+    growth = net / ot if ot else 0
+    keep = sorted(w["rows"], key=lambda x: -max(x["open"], x["close"]))[:7]
+    short = lambda s_: s_.replace("Other invested (unclassified)", "Other invested").replace("Asset Backed Securities", "Asset-backed securities")
+    labs = [short(x["l3"]) for x in keep]
+    read, tilt = [], None
+    period = f"{dfmt(w['start'])} to {dfmt(w['end'])}"
+    if growth >= 0.05:
+        series = [(f"Opening mix at {dfmt(w['start'])}", [x["open"] / ot * 100 for x in keep]),
+                  (f"Share of net additions, {period}", [(x["close"] - x["open"]) / net * 100 for x in keep])]
+        if len(nm) > 1:
+            w2 = nm[1]
+            o2, c2 = sum(x["open"] for x in w2["rows"]), sum(x["close"] for x in w2["rows"])
+            if o2 and (c2 - o2) / o2 >= 0.05:
+                by = {x["l3"]: x for x in w2["rows"]}
+                series.append((f"Share of net additions, {dfmt(w2['start'])} to {dfmt(w2['end'])}",
+                               [((by.get(x["l3"]) or {}).get("close", 0) - (by.get(x["l3"]) or {}).get("open", 0)) / (c2 - o2) * 100 for x in keep]))
+        cols = [MUTED_BAR, BLUE, ORANGE]
+        chart = grouped_hbar(labs, series, cols, fmt=lambda v: f"{v:.0f}%", W=640, rowh=33 if len(labs) > 5 else 44, label_w=160,
+                             xlabel="% of opening invested assets (grey) / % of net additions (colour)")
+        chart += '<div class="lg">' + "".join(f'<span><i style="background:{cols[i]}"></i>{esc(nme)}</span>' for i, (nme, _) in enumerate(series)) + "</div>"
+        tilt = sorted(((short(x["l3"]), (x["close"] - x["open"]) / net * 100 - x["open"] / ot * 100) for x in keep), key=lambda x: -x[1])
+        read.append(f"Net additions of {usd(net)} in the year to {dfmt(w['end'])}, {growth * 100:.0f}% of opening invested assets")
+        read.append(f"Additions over-weight {tilt[0][0].lower()} by {tilt[0][1]:.0f} pts and under-weight {tilt[-1][0].lower()} by {-tilt[-1][1]:.0f} pts against the opening mix")
+        chart_h = "Where net additions went against the opening mix (Level 3 classes)"
+    else:
+        its = [(short(x["l3"]), x["close"] - x["open"]) for x in keep]
+        chart = hbar(its, lambda v: f"{v:+,.0f}", W=640, rowh=32, label_w=170, right_w=60, color=TEAL, xlabel=f"Change in balance, $MM, {period}")
+        read.append(f"Invested assets {'grew' if net >= 0 else 'shrank'} by {usd(abs(net))} ({growth * 100:+.0f}%) in the year to {dfmt(w['end'])}: "
+                    "too little net new money to read an allocation, so the chart shows the change in each balance")
+        chart_h = "Change in balance by Level 3 class"
+    ll = a.get("liab_line") or {}
+    yrs_ = [y for y in ("2023", "2024", "2025") if ll.get(y)]
+    lines = [k for k in ("Individual insurance", "Individual annuity", "Group insurance", "Group annuity", "Participating")
+             if any(abs(num((ll.get(y) or {}).get(k)) or 0) >= 0.5 for y in yrs_)]
+    grow = None
+    if len(yrs_) >= 2:
+        y0, y1 = yrs_[-2], yrs_[-1]
+        dl = [(k, (num(ll[y1].get(k)) or 0) - (num(ll[y0].get(k)) or 0)) for k in lines]
+        lia_chart = hbar(dl, lambda v: "0" if abs(v) < 0.5 else f"{v:+,.0f}", W=430, rowh=16, label_w=140, right_w=56, color=TEAL, xlabel="Change in fiscal 2025, $MM", tick_target=4)
+        sh = line_shift(ll, y0, y1)
+        if sh:  # read the two lines together
+            both = sum(d for k, d in dl if k in sh)
+            grow = max([(k, d) for k, d in dl if k not in sh] + [(f"{sh[0]} and {sh[1].lower()} together", both)], key=lambda x: x[1])
+            read.append(f"The fiscal 2025 OSFI return moves business from the {sh[1].lower()} line to {sh[0].lower()}, so the two lines are read together ({'+' if both >= 0 else '-'}{usd(abs(both))} combined)")
+        else:
+            dl_pos = [(k, d) for k, d in dl if (num(ll[y1].get(k)) or 0) > 0]
+            grow = max(dl_pos, key=lambda x: x[1]) if dl_pos else None
+        trows = [[k] + [f"{num(ll[y].get(k)) or 0:,.0f}".replace("-0", "0") for y in yrs_] + [f"{d:+,.0f}".replace("-0", "0").replace("+0", "0") if abs(d) < 0.5 else f"{d:+,.0f}"] for (k, d) in dl]
+        tbl = table(["Line"] + [dfmt(yb(cid, y).get("date")) or y for y in yrs_] + ["Change"], trows, cls="sm xs")
+        if grow and grow[1] > 0:
+            if not sh:
+                read.append(f"Fastest-growing liability line in fiscal 2025: {grow[0].lower()} (+{usd(grow[1])}), the business the additions back")
+    else:
+        lia_chart, tbl = '<p class="nd">One year of product lines only.</p>', '<p class="nd">n/a</p>'
+    b4, b5 = yb(cid, 2024), yb(cid, 2025)
+    crow = []
+    for lab, k, bk in [("ABL CSM", "csm_abl", None), ("Seg fund CSM", "seg_csm", "seg_csm_basis"), ("Par CSM", "par_csm", "par_csm_basis"), ("Total CSM", "csm_total", None)]:
+        v4, v5 = num(b4.get(k)), num(b5.get(k))
+        if v5 is None or (not v5 and not v4):
+            continue
+        crow.append([lab + (", est" if bk and "est" in str(b5.get(bk) or "") else ""), f"{v4:,.0f}" if v4 is not None else "n/a", f"{v5:,.0f}",
+                     f"{(v5 / v4 - 1) * 100:+.0f}%" if v4 else "n/m"])
+    nb = a.get("nb_csm") or {}
+    nb_txt = f"New business CSM in 2025: {usd(nb['total'])}" + (f" ({usd(nb['total24'])} in 2024)" if nb.get("total24") else "") + f"; {nb.get('note')}." if num(nb.get("total")) else None
+    csm_html = table(["CSM, net of reinsurance ($MM)", dfmt(b4.get("date")), dfmt(b5.get("date")), "Change"], crow, cls="sm xs") + (f'<p class="cap">{esc(clip(nb_txt, 100))}</p>' if nb_txt else "")
+    read.append("Net additions = closing less opening balance by class, no run-off (est): cash reinvested inside a class does not show, and values move with markets")
+    if sid in BIG3:
+        read.append("Assets here are the legal entity across all territories; the liabilities are Canada only")
+    left = col(card(chart_h, chart, style="flex:0 0 auto") + card("Reading", bullets(read, 6, 190, "sm")), w=670)
+    right = col(card("Liabilities by line, net of reinsurance, excl. seg funds ($MM)", tbl, style="flex:0 0 auto")
+                + card("Which liabilities grew", lia_chart, style="flex:0 0 auto") + card("CSM by piece", csm_html))
+    if tilt:
+        title = f"{t}: net additions over-weight {tilt[0][0].lower()} by {tilt[0][1]:.0f} pts and under-weight {tilt[-1][0].lower()} by {-tilt[-1][1]:.0f} pts against the opening mix"
+    else:
+        title = f"{t}: invested assets {'grew' if net >= 0 else 'shrank'} {abs(growth) * 100:.0f}% in fiscal 2025, too little net new money to read an allocation"
+    if grow and grow[1] > 0:
+        title += (f"; {grow[0].lower().replace(' together', '')} grew most (+{usd(grow[1])} combined)" if "together" in grow[0]
+                  else f"; {grow[0].lower()} liabilities grew most (+{usd(grow[1])})")
+    slide(clip(title, 235), left + right, "ALM framework: OSFI LF2 invested assets by Level 3 class and LF3 liabilities by line (Canada, net of reinsurance held); "
+          "CSM split per the study. Net additions = closing less opening balance, no run-off (est)", tag=(n, sname(cid), "New money and liabilities"), notes="\n".join(read))
+
+
+def page_leverage(cid, n):
+    a = AC.get(cid, {})
+    b = yb(cid)
+    if not on_alm(cid) or num(b.get("ga")) is None:
+        return page_leverage_fs(cid, n)
+    r = R(cid)
+    lv = r.get("leverage") or {}
+    t, sid = tn(cid), a.get("sid")
+    e = (a.get("earn") or {}).get("2025") or {}
+    b4 = yb(cid, 2024)
+    dl_, da_ = num(b.get("deriv_liab")) or 0, num(b.get("deriv_assets")) or 0
+    fin, rein = num(b.get("fin_pct")) or 0, num(b.get("reins_pct")) or 0
+    tiles = "".join([
+        kpi("Financing / GenAcct", pc(fin), f"peer median {pc(AMED['fin_pct'])}" + (f"; {pc(b4.get('fin_pct'))} a year earlier" if num(b4.get("fin_pct")) is not None else ""), True),
+        kpi("Repos", usd(b.get("repos")) if num(b.get("repos")) else "none", "counted as GenAcct financing" if num(b.get("repos")) else "none on the balance sheet"),
+        kpi("Other financing", usd(b.get("fin_other")) if num(b.get("fin_other")) else "none", OTHER_FIN.get(sid, "debt and similar inside the insurer") if num(b.get("fin_other")) else "no debt inside the insurer"),
+        kpi("Derivative liabilities less assets", usd(dl_ - da_) if (dl_ or da_) else "none", f"liabilities {usd(dl_) if dl_ else 'nil'}, assets {usd(da_) if da_ else 'nil'}"),
+        kpi("Reinsurance / GenAcct", pc(rein), f"held assets {usd(b.get('reins_assets'))}; peer median {pc(AMED['reins_pct'])}", True)])
+    fv = peer_vals("fin_pct")
+    zero = [LAB[c] for c, v in fv.items() if v < 0.05 and c not in (cid, "rbc_life")]
+    fin_chart = peer_hbar({c: v for c, v in fv.items() if v >= 0.05 or c in (cid, "rbc_life")}, cid, lambda v: f"{v:.1f}%", W=350, rowh=14, label_w=108, right_w=44,
+                          color=BLUE, median=AMED.get("fin_pct"))
+    rv = peer_vals("reins_pct")
+    re_chart = peer_hbar(rv, cid, lambda v: f"{v:.0f}%", W=350, rowh=13, label_w=108, right_w=40, color=TEAL, median=AMED.get("reins_pct"))
+    dv = (a.get("deriv") or {})
+    dper = max(dv) if dv else None
+    if dper:
+        d_ = sorted(dv[dper].items(), key=lambda x: -x[1])
+        big = max(v for _, v in d_)
+        d_ = [(k.replace(" / n/s", "").replace("Fixed Income", "Rates and FX"), v / 1000 if big >= 1000 else v) for k, v in d_]
+        dv_chart = hbar(d_[:4], (lambda v: f"{v:,.1f}") if big >= 1000 else (lambda v: f"{v:,.0f}"), W=350, rowh=17, label_w=176, right_w=44, color=PURPLE, top=18, tick_target=3)
+        dv_h = f"Derivative notional by type, {'$BN' if big >= 1000 else '$MM'}"
+        dv_cap = "Gross notionals at fiscal year-end 2025" + ("; legal entity, all territories." if sid in BIG3 else "; consolidated." if sid == "IAG" else "; legal entity.")
+    else:
+        dv_chart, dv_h, dv_cap = '<p class="nd">No derivative notionals filed.</p>', "Derivative notional by type", None
+    kv = []
+    tot_r, aff = num(e.get("reins_total_lf3")), num(e.get("reins_affil_lf3"))
+    if tot_r and aff is not None and abs(tot_r) > 1:
+        scope_r = ", legal entity, all territories" if sid in BIG3 else ""
+        kv.append(("With affiliates", f"{aff / tot_r * 100:.0f}% of reinsurance held ({usd(aff)} of {usd(tot_r)}{scope_r})" if abs(aff) >= 0.5
+                   else f"none of the {usd(tot_r)} of reinsurance held"))
+    if (num(e.get("reins_collateral")) or 0) >= 0.5 and tot_r:
+        kv.append(("Collateral held", usd(e.get("reins_collateral"))))
+    rc = a.get("reins_ceded") or {}
+    if num(rc.get("total")) is not None and rc["total"] >= 0.05:
+        by = [f"{k.lower()} {v:.0f}%" for k, v in sorted((rc.get("by_line") or {}).items(), key=lambda x: -(x[1] or 0)) if num(v) and v >= 0.5][:3]
+        kv.append(("Liabilities ceded", f"{rc['total']:.1f}% of issued insurance liabilities" + (f": {', '.join(by)}" if by else "")))
+    pl = a.get("pledged") or {}
+    PL = {"derivatives": "derivatives", "securities_lending": "securities lending", "repos": "repos", "reinsurance": "reinsurance", "regulatory_trust": "regulatory trusts", "other": "other"}
+    if pl:
+        kv.append(("Assets pledged", "; ".join(f"{PL.get(k, k)} {usd(v)}" for k, v in sorted(pl.items(), key=lambda x: -x[1]) if v >= 0.5) + (" (group)" if sid in BIG3 else "")))
+    else:
+        kv.append(("Assets pledged", "not disclosed for the insurer"))
+    kv_html = "".join(f'<p class="kv sm"><b>{esc(k)}</b>{esc(clip(v, 170))}</p>' for k, v in kv)
+    debt = [d for d in items(lv.get("debt_outstanding")) if "deposit" not in str(d.get("type", "")).lower()]
+    debt_tot = sum(num(d.get("amount_cad_mm")) or 0 for d in debt)
+    iss = items(lv.get("issuance"), 5)
+    iss_rows = [[str(i.get("date") or "")[:7], clip(i.get("instrument"), 30), f"{num(i.get('amount_cad_mm')):,.0f}" if num(i.get("amount_cad_mm")) else "",
+                 f"{num(i.get('coupon_pct')):.2f}%" if num(i.get("coupon_pct")) else ""] for i in iss]
+    iss_html = (table(["Date", "Instrument", "$MM", "Coupon"], iss_rows, cls="sm xs", left=2) if iss_rows else '<p class="nd">No 2023-2026 issuance found.</p>')
+    iss_cap = (f"{usd(debt_tot)} of debt and hybrids outstanding above or at the insurer, as disclosed." if debt_tot else "No debt disclosed at or above the insurer (mutual, or funded by its parent).")
+    struct = [s.get("text") if isinstance(s, dict) else s for s in items(lv.get("structured_indirect"), 3)]
+    rp_t, sl_t = (lv.get("repos") or {}).get("text"), (lv.get("securities_lending") or {}).get("text")
+    fund = [x for x in [("Repos: " + rp_t) if rp_t else None, ("Securities lending: " + sl_t) if sl_t else None] if x] + struct
+    c1 = col(card("Financing / GenAcct against peers", fin_chart, cap=f"Dashed line: peer median {AMED['fin_pct']:.1f}%." + (f" Nil at {', '.join(zero)}." if zero else ""), style="flex:0 0 auto") + card("Pledged assets and reinsurance counterparties", kv_html), w=376)
+    c2 = col(card("Reinsurance held / GenAcct against peers", re_chart, cap=f"Dashed line: peer median {AMED['reins_pct']:.0f}%.", style="flex:0 0 auto") + card(dv_h, dv_chart, cap=dv_cap), w=376)
+    c3 = col(card("Debt and hybrids issued by the group or parent (memo, outside GenAcct)", iss_html, cap=iss_cap, style="flex:0 0 auto")
+             + card("Repo, securities lending and structured funding, as disclosed", bullets(fund, 3 if len(iss_rows) >= 5 else 4, 140, "sm")))
+    body = f'<div class="col" style="flex:1;gap:12px"><div class="kpis">{tiles}</div><div class="row" style="gap:14px;flex:1;min-height:0">{c1}{c2}{c3}</div></div>'
+    if fin >= 0.05:
+        parts = [x for x in [f"repos {usd(b.get('repos'))}" if num(b.get("repos")) else None, f"other {usd(b.get('fin_other'))}" if num(b.get("fin_other")) else None] if x]
+        title = f"{t}: financing is {fin:.1f}% of GenAcct ({', '.join(parts)}) against a {AMED['fin_pct']:.1f}% peer median"
+    else:
+        title = f"{t}: no financing inside the General Account"
+    title += f"; reinsurance held is {rein:.0f}% of GenAcct (median {AMED['reins_pct']:.0f}%)"
+    if tot_r and aff is not None and abs(tot_r) > 1 and aff / tot_r > 0.89:
+        title += f", {aff / tot_r * 100:.0f}% of the " + ("legal entity's cessions" if sid in BIG3 else "cessions") + " with affiliates"
+    urls = collect_urls(lv)
+    slide(title, body, src_line("ALM framework: block view at fiscal year-end 2025 (OSFI LF1/LF3, annual reports); issuance from company releases", urls, 3),
+          tag=(n, sname(cid), "Leverage and reinsurance"), notes=json.dumps(lv, indent=1)[:6000], urls=urls)
+
+
+def to_per(iso, oct_fye):
+    y, m = int(iso[:4]), int(iso[5:7])
+    q = ({1: 1, 4: 2, 7: 3, 10: 4} if oct_fye else {3: 1, 6: 2, 9: 3, 12: 4}).get(m)
+    return f"{y}Q{q}" if q else None
+
+
+def amf_sens(rows):
+    """Pivot an AMF filer's sensitivity rows (as worded in its report) into shock x measure."""
+    out = {}
+    for x in rows:
+        it = re.sub(r",\s*2025$", "", x["item"])
+        m = re.split(r" - |: ", it, maxsplit=1)
+        if len(m) < 2 or num(x.get("amount")) is None:
+            continue
+        shock, meas = m[0].strip(), m[1].lower()
+        k = ("ratio" if "ratio" in meas else "csm" if "csm" in meas else "eq" if ("equity" in meas and "net income" not in meas) or "oci" in meas
+             else "ni" if re.search(r"net income|net surplus|fair value", meas) else None)
+        if k:
+            out.setdefault(shock, {})[k] = num(x["amount"])
+            if "net income and equity" in meas:
+                out[shock]["eq"] = num(x["amount"])
+    return out
+
+
+def page_risk(cid, n):
+    a = AC.get(cid, {})
+    if not on_alm(cid):
+        return page_risk_fs(cid, n)
+    r, b = R(cid), yb(cid)
+    rk = r.get("risk") or {}
+    t, sid, st = tn(cid), a.get("sid"), a["status"]
+    name = NAMES[cid]
+    oct_fye = sid in ("RBC", "BMO")
+    hist = {to_per(d, oct_fye): (d, v) for d, v in (a.get("licat_hist") or {}).items() if to_per(d, oct_fye)}
+    hist = {p: x for p, x in hist.items() if p >= "2023Q4" and num(x[1])}
+    licat = is_licat(b)
+    if hist:
+        pts = sorted((p, num(v)) for p, (d, v) in hist.items())
+        med = [(m_["per"], m_["med_total"]) for m_ in AMED["licat_series"] if m_["per"] in hist and num(m_.get("med_total"))]
+        dd = {p: dfmt(d) for p, (d, v) in hist.items()}
+        chart = line_chart([("Peer median", MUTED_BAR, med), (name, BLUE, pts)], W=520, H=206, ref=100, ref_label="OSFI supervisory target 100%", label_every=4,
+                           xfmt=lambda p: dd.get(p, p))
+        cap_card = card(f"LICAT total ratio, {dfmt(hist[pts[0][0]][0])} to {dfmt(hist[pts[-1][0]][0])}", chart,
+                        cap="OSFI LCQ, quarterly, legal entity" + (" (all territories)" if sid in BIG3 else "") + ". Dashed grey = median of the eight all-Canada OSFI filers in the ALM study.",
+                        style="flex:0 0 306px")
+    else:
+        crow = [[clip(x["item"], 62), (f"{x['amount']:,.1f}%" if "%" in x["units"] else f"{x['amount']:+.1f} pts" if "pct" in x["units"] else f"{x['amount']:,.0f}")]
+                for x in (a.get("cap_rows") or []) if num(x.get("amount")) is not None and re.search(r"solvency ratio|leverage ratio|available capital|base solvency", x["item"], re.I)][:7]
+        cap_card = card("Capital position as disclosed (AMF basis; $MM unless a ratio)", table(["Item", "Fiscal 2025"], crow, cls="sm xs wrap") if crow else
+                        '<p class="nd">The capital ratio of the insurer is not public.</p>', cap="CARLI is the AMF's ratio and is not comparable with LICAT.", style="flex:0 0 306px")
+    srows, s_cap = [], None
+    fm = lambda v: "" if num(v) is None else f"{num(v):+,.0f}"
+    if a.get("sens"):
+        for s in a["sens"]:
+            eq = s.get("equity") if num(s.get("equity")) is not None else s.get("oci")
+            if all(num(s.get(k)) is None for k in ("net_income", "csm")) and num(eq) is None:
+                continue
+            srows.append([RISK_LAB.get(s["risk"], s["risk"]), clip(s["shock"], 26), fm(s.get("net_income")), fm(eq) + (" OCI" if num(s.get("equity")) is None and num(s.get("oci")) is not None else ""),
+                          fm(s.get("csm")), f"{num(s['licat_pts']):+.1f} pts" if num(s.get("licat_pts")) is not None else ""])
+        grp = "group" in str(a["sens"][0].get("basis"))
+        s_cap = ("Group consolidated disclosure, not the Canadian entity" if grp else "Legal-entity disclosure") + "; $MM. Each row uses the insurer's own shock definition, so rows are not added together or compared one for one with peers."
+        if not srows:
+            s_cap = "Only balance-sheet changes are disclosed (liabilities and assets move together); no net income, equity or CSM effect is published."
+    elif a.get("sens_rows"):
+        pv = amf_sens(a["sens_rows"])
+        down = [k for k in pv if re.search(r"decrease|deterioration|-\d|adverse|−", k)] or list(pv)
+        for k in down[:7]:
+            x = pv[k]
+            srows.append(["", clip(k, 46), fm(x.get("ni")), fm(x.get("eq")), fm(x.get("csm")), f"{x['ratio']:+.1f} pts" if num(x.get("ratio")) is not None else ""])
+        s_cap = "Consolidated disclosure; $MM. Each row uses the insurer's own shock definition, so rows are not added together or compared one for one with peers."
+    if srows:
+        hdr = ["Risk", "Shock", "Net income", "Equity", "CSM", "Capital ratio"]
+        if not any(x[0] for x in srows):
+            hdr, srows = hdr[1:], [x[1:] for x in srows]
+        sens_html = table(hdr, srows, cls="sm xs", left=2 if len(hdr) == 6 else 1)
+    else:
+        sens_html = '<p class="nd">No market sensitivities are public for this insurer' + (" (OSFI returns only, no notes)." if st == "built" or sid == "COP" else ".") + "</p>"
+    cp = a.get("cap") or {}
+    if cp.get("mix"):
+        mm_ = AMED["licat_medians"]["mix"]
+        crow = [[lab, usd(cp.get(k)) if num(cp.get(k)) else "nil", pc(cp["mix"].get(mk)), pc(mm_.get(mk))] for lab, k, mk in
+                [("Credit", "credit", "credit"), ("Market", "market", "market"), ("Insurance", "insurance", "insurance"),
+                 ("Seg fund guarantees", "seg_risk", "seg"), ("Operational", "operational", "operational")]]
+        f125 = num(cp.get("free125"))
+        req_html = table(["Risk", "Required", "Share", "Median share"], crow, cls="sm xs") + (
+            f'<p class="kv sm" style="margin-top:6px"><b>Base solvency buffer</b>{usd(cp.get("bsb"))} after a {usd(cp.get("div_credit"))} diversification credit</p>'
+            f'<p class="kv sm"><b>Capital above 125%</b>{usd(f125)} · above 100%: {usd(cp.get("free100"))}</p>')
+        req_cap = "OSFI LCQ at fiscal year-end 2025, legal entity" + (" (all territories)" if sid in BIG3 else "") + "; shares before diversification."
+    else:
+        comp = [[re.sub(r"BSB component - ", "", x["item"]), f"{x['amount']:,.0f}"] for x in (a.get("cap_rows") or []) if "BSB component" in x["item"] and num(x.get("amount")) is not None]
+        req_html = table(["Risk (AMF base solvency buffer)", "$MM"], comp, cls="sm xs") if comp else '<p class="nd">Required capital by risk is not public for this insurer.</p>'
+        req_cap = "CARLI components as disclosed, consolidated." if comp else None
+    left = col(cap_card + card("Disclosed sensitivities, downside shocks", sens_html, cap=s_cap), w=548)
+    target = clip(rk.get("capital_target"), 130)
+    mid = col(card("Required capital by risk", req_html, cap=req_cap, style="flex:0 0 306px") + card("Risk appetite and limits", bullets(rk.get("appetite"), 3, 135, "sm")), w=318)
+    rgt = col(card("Capital target", f'<p class="kv">{esc(target)}</p>' if target else '<p class="nd">Not stated.</p>', style="flex:0 0 124px")
+              + card("Hedging and notable events", bullets(items(rk.get("hedging"), 2) + items(rk.get("events"), 1), 3, 120, "sm"), style="flex:0 0 216px")
+              + card("Governance", bullets(rk.get("governance"), 2, 120, "sm")))
+    cr = num(b.get("cap_ratio"))
+    if cr is not None and licat:
+        title = f"{t}: LICAT {cr:.1f}% against a {AMED['cap_ratio']:.1f}% peer median"
+        if num(cp.get("free125")) is not None:
+            title += f", {usd(cp['free125'])} above 125%"
+    elif cr is not None:
+        title = f"{t}: CARLI {cr:.1f}% (AMF basis, not comparable with LICAT)"
+    else:
+        title = f"{t}: capital ratio not public for the insurer"
+    # a group-wide disclosure is shown in the table but does not lead the page: it is not the Canadian entity
+    eqs = next((s for s in a.get("sens") or [] if s["risk"] == "equity" and num(s.get("net_income")) is not None and "group" not in str(s.get("basis"))), None)
+    if eqs:
+        v = num(eqs["net_income"])
+        title += f"; a {eqs['shock'].replace('-', '')} equity fall {'costs ' + usd(abs(v)) + ' of net income' if abs(v) >= 0.5 else 'barely touches net income'}" + (
+            " (group disclosure)" if "group" in str(eqs.get("basis")) else "")
+    elif cp.get("mix"):
+        top = max(("credit", "market", "insurance", "seg", "operational"), key=lambda k: num(cp["mix"].get(k)) or 0)
+        title += f"; {top.replace('seg', 'seg fund guarantee')} risk is {num(cp['mix'][top]):.0f}% of required capital"
+    urls = collect_urls(rk)
+    notes = "\n".join(f"- {s['risk']} {s['shock']} ({s['basis']}): {s.get('applied_to')}" for s in a.get("sens") or []) + "\n\n" + json.dumps(rk, indent=1)[:5000]
+    slide(title, left + mid + rgt, src_line("ALM framework: OSFI LCQ capital returns; sensitivities as worded in each insurer's 2025 report; risk appetite from MD&A", urls, 3),
+          tag=(n, sname(cid), "Capital and risk"), notes=notes, urls=urls)
 
 
 # ---------------------------------------------------------------- opening pages
 def opening():
-    slide("Canadian life & health insurers: deep dives on the top 20", f'<p class="lead">Per insurer: key metrics and business mix, '
-          f'leadership from CEO to CIO and every CIO direct report with tenure and pay, corporate structure from each insurer\'s own entity disclosure, holdings rotation, '
-          f'leverage and funding, bank and sponsor partnerships, and risk constructs.</p><p class="cap" style="margin-top:18px">'
-          f'Prepared {TODAY}. Data: OSFI regulatory returns, annual reports and quarterly filings already in the project dataset, '
-          f'plus web research (company sites, proxy circulars, press releases). Figures carry their own as-of dates; gaps are flagged, '
-          f'not estimated.</p>', "Insurance Firms project", cls="title")
+    n_alm = sum(1 for c in ORDER if on_alm(c))
+    slide("Canadian life & health insurers: deep dives on the Canadian business of the top 20", '<p class="lead">Rebuilt on the ALM framework. Every balance-sheet, '
+          'asset, leverage and capital figure is for the Canadian business, net of reinsurance, on one definition of the General Account (excl. par / seg fund), '
+          'so the 20 insurers can be read side by side. Per insurer: the Canadian summary, leadership and pay, corporate structure and the entity assessed, '
+          'assets and rotation, new money against liabilities, leverage and reinsurance, partnerships, and capital and risk.</p><p class="cap" style="margin-top:18px">'
+          f'Prepared {TODAY}. Anchor: fiscal year-end 2025 (Oct 31, 2025 for RBC Life and BMO Life; Dec 31, 2025 for the others), with fiscal 2023 to 2025 trends and the '
+          'latest OSFI quarter on trend pages. C$ throughout, in $MM and $BN. Public data only; every estimate is marked est.</p>', "Insurance Firms project", cls="title")
 
-    # universe table
+    # what the basis covers
     rows = []
     for i, cid in enumerate(ORDER, 1):
-        q, r = QC.get(cid, {}), R(cid)
-        cap, fw, _ = capital(cid)
-        pm = ga_managers(cid)
-        if cid == "canada_protection_plan":
-            pm = ["Foresters Life (underwriter)"]
-        own = short_label(q.get("ownership"), 44)
-        pr = PRICES.get(cid)
-        rows.append([f"{i}. {NAMES[cid]}", own, str(q.get("regulator")).split(";")[0].split(" (")[0],
-                     bn(ga_mm(cid)) if ga_mm(cid) else "n/d", f"{cap:.0f}% {fw}" if cap else "n/d",
-                     short_label(pm[0], 40) if pm else "not disclosed", f"{pr['ticker']} {pr['price']}" if pr and pr.get("price") else ""])
-    slide("The universe: three groups hold most general-account assets, and only Manulife, Sun Life and iA are listed in their own right",
-          col(table(["Insurer (section order)", "Ownership", "Regulator", "GA invested", "Capital ratio", "Main GA manager", "Listed (price)"],
-                    rows, cls="sm uni", left={0, 1, 2, 5})), "OSFI LF2/LCQ; annual reports; web research; TSX/NYSE closes 2 Nov 2026 (EODData, Nasdaq)")
+        a, b = AC.get(cid, {}), yb(cid)
+        st = a.get("status")
+        ent = a.get("entity") or ("Policies sit in Foresters Life (OSFI 28432)" if st == "covered" else "Group financial statements; no OSFI return")
+        buf = pc(b.get("buffer")) if num(b.get("buffer")) is not None else ("n/m" if a.get("buffer_note") else f"† {pc(b.get('buffer_memo'))}" if num(b.get("buffer_memo")) is not None else "n/a")
+        capv = pc(b.get("cap_ratio")) + ("" if is_licat(b) else " †") if num(b.get("cap_ratio")) is not None else "n/a"
+        amf_ = str(st).startswith("amf")
+        rows.append([f"{i}. {sname(cid)}", STATUS_TXT.get(st, ""), clip(ent, 58), dfmt(b.get("date")) if b else "", usd(b.get("ga")) if num(b.get("ga")) else "n/a", buf, capv,
+                     "n/a" if amf_ or not b else pc(b.get("par_share")), pc(b.get("fin_pct")) if b else "n/a", pc(b.get("reins_pct"), 0) if b else "n/a"])
+    slide(f"{n_alm} of the 20 insurers are now on one Canadian basis; Assumption Life, Humania and UV Insurance file no OSFI return and stay on their own financial statements",
+          col(card("", table(["Insurer (section order)", "Basis", "Entity assessed", "Year-end", "GenAcct, est", "Buffer, est", "Capital ratio", "Par share", "Financing", "Reinsurance"],
+                             rows, cls="sm uni2", left={0, 1, 2}),
+                   cap="GenAcct = General Account, excl. par / seg fund. Buffer = (Surplus + ABL CSM less net derivative liabilities) / GenAcct net of repos. Financing and reinsurance held are % of GenAcct. "
+                       "† AMF filers: CARLI instead of LICAT, and a memo buffer on total CSM that is not comparable. n/m: net fulfilment cash flows are an asset. "
+                       "Built on ALM rules = OSFI filer outside the ALM study, built for this deck with the study's all-Canada rules and not reviewed there.")),
+          ALM_SRC + "; fiscal year-end 2025")
 
-    # size and capital
-    sz = [(NAMES[c], ga_mm(c) / 1000) for c in ORDER if ga_mm(c)]
-    sz.sort(key=lambda x: -x[1])
-    cp = [(NAMES[c], capital(c)[0]) for c in ORDER if capital(c)[0]]
-    cp.sort(key=lambda x: -x[1])
-    med_cap = sorted(v for _, v in cp)[len(cp) // 2] if cp else None
-    body = col(card("General-account invested assets, C$bn", hbar(sz, lambda v: f"{v:,.0f}" if v >= 10 else f"{v:,.1f}", W=560, rowh=24,
-                                                                  label_w=160, right_w=50, color=BLUE, focus="RBC Life")))
-    body += col(card("Capital ratio, latest disclosed (LICAT / CARLI / solvency)", hbar(cp, lambda v: f"{v:.0f}%", W=560, rowh=24, label_w=160,
-                                                                                       right_w=50, color=TEAL, median=med_cap, focus="RBC Life",
-                                                                                       median_label=f"Median {med_cap:.0f}%" if med_cap else None)))
-    big3 = sum(v for nme, v in sz[:3])
-    slide(f"Manulife, Sun Life and Canada Life hold {big3 / sum(v for _, v in sz) * 100:.0f}% of the 20 insurers' general-account assets; "
-          f"smaller mutuals run the highest capital ratios", body,
-          "OSFI LF2 P21012 / annual reports (GA invested assets); OSFI LCQ and company disclosures (capital)")
+    # RBC Life first, against peers
+    bv, cv, fv, av = peer_vals("buffer"), {c: v for c, v in peer_vals("cap_ratio").items() if is_licat(yb(c))}, peer_vals("fin_pct"), peer_vals("alts_share")
+    ch = lambda vals, fmt, color, key: peer_hbar(vals, "rbc_life", fmt, W=262, rowh=30 if len(vals) <= 13 else 27, label_w=92, right_w=44, color=color, median=AMED.get(key), top=20, tick_target=3)
+    body = (col(card("Buffer, est", ch(bv, lambda v: f"{v:.0f}%", BLUE, "buffer"), cap=f"(Surplus + ABL CSM less net derivative liabilities) / GenAcct net of repos. Peer median {AMED['buffer']:.1f}%. MFC's figure is not reliable: its In Canada assets follow asset territory."), w=289)
+            + col(card("LICAT total ratio", ch(cv, lambda v: f"{v:.0f}%", BLUE, "cap_ratio"), cap=f"OSFI filers only; legal entity. Peer median {AMED['cap_ratio']:.1f}%."), w=289)
+            + col(card("Financing / GenAcct", ch({c: v for c, v in fv.items()}, lambda v: f"{v:.1f}%", BLUE, "fin_pct"), cap=f"Repos plus other financing inside the insurer. Peer median {AMED['fin_pct']:.1f}%."), w=289)
+            + col(card("Private and alternative assets", ch(av, lambda v: f"{v:.0f}%", BLUE, "alts_share"), cap=f"% of the non-par, non-UL pool (est). Peer median {AMED['alts_share']:.0f}%.")))
+    rb = yb("rbc_life")
+    hi_fin = max(fv, key=lambda c: fv[c]) == "rbc_life"
+    slide(f"RBC Life holds a {rb['buffer']:.1f}% buffer against a {AMED['buffer']:.1f}% peer median and LICAT of {rb['cap_ratio']:.1f}% against {AMED['cap_ratio']:.1f}%, "
+          f"and funds {rb['fin_pct']:.1f}% of its General Account with repos" + (", the most of any insurer here" if hi_fin else ""),
+          body, ALM_SRC + "; fiscal year-end 2025 (RBC Life and BMO Life Oct 31, 2025; others Dec 31, 2025). Dashed line = peer median")
+
+    ra = AC["rbc_life"]
+    e5 = ra["earn"]["2025"]
+    b4 = yb("rbc_life", 2024)
+    ll5, ll4 = ra["liab_line"]["2025"], ra["liab_line"]["2024"]
+    lt = sum(v for v in ll5.values() if v and v > 0)
+    prt = ll5["Group annuity"] / lt * 100
+    ul = ra.get("ul") or {}
+    cp = ra.get("cap") or {}
+    good = [f"Investment risk is low: private and alternative assets are {ra['alts_share']:.0f}% of the non-par pool, against {AC['manulife']['alts_share']:.0f}% at MFC, "
+            f"{AC['canada_life']['alts_share']:.0f}% at CLF and {AC['sun_life']['alts_share']:.0f}% at SLF (est)",
+            f"The liabilities are long and can carry illiquid assets: group annuities are {prt:.0f}% of insurance liabilities excl. seg funds and grew {usd(ll5['Group annuity'] - ll4['Group annuity'])} in fiscal 2025",
+            f"Earnings lean on spread, not underwriting: the net investment result was {usd(e5['nir'])} against an insurance service result of {usd(e5['isr'])}",
+            f"Reinsurance held is modest at {rb['reins_pct']:.1f}% of GenAcct against a {AMED['reins_pct']:.1f}% median, and all of it is with an affiliate"]
+    bad = [f"The cushion is thin: buffer {rb['buffer']:.1f}% against a {AMED['buffer']:.1f}% median, and LICAT {rb['cap_ratio']:.1f}% leaves {usd(cp.get('free125'))} above 125%",
+           f"Repos fund {rb['fin_pct']:.1f}% of GenAcct ({pc(b4.get('fin_pct'))} a year earlier). After repo collateral, liquid and unencumbered assets are {ul.get('liquid_unenc', 0):.0f}% of the pool",
+           f"The margin that backs the General Account is shrinking: ABL CSM fell {(1 - rb['csm_abl'] / b4['csm_abl']) * 100:.0f}% in fiscal 2025 to {usd(rb['csm_abl'])}, while growth came in group annuities and group insurance, which add little CSM",
+           "Sensitivities, duration and the surplus portfolio are not public for the legal entity, so outsiders cannot size its rate and spread risk"]
+    todo = [f"Test how much private credit fits inside the {usd(cp.get('free125'))} of capital above 125% LICAT: the liabilities would carry more than the {ra['alts_share']:.0f}% held today",
+            "Set an encumbrance and liquidity limit for repo funding, since it is the one funding source no other peer leans on",
+            "Rebuild ABL CSM through individual insurance and annuity sales, or accept a thinner buffer as group annuities grow",
+            "Publish, or at least prepare, entity-level sensitivities on the peers' shock definitions so the comparison can be closed"]
+    slide("RBC Life pairs low investment risk and long liabilities with a below-median capital cushion and the heaviest repo funding; room for more private credit is the open question",
+          col(card("Where the position is sound", bullets(good, 4, 230, "lg"))) + col(card("Where it is exposed", bullets(bad, 4, 240, "lg")))
+          + col(card("What could be done about it", bullets(todo, 4, 230, "lg"), cap="Options to test, drawn from the ALM study's findings; not recommendations on internal limits, which are outside public data."), w=372),
+          ALM_SRC + "; ALM study findings BI-01 to BI-05. est = estimate")
 
     # who manages the money + CIO tenure
     rows = []
     for cid in ORDER:
-        r = R(cid)
         cio = lead(cid)["cio"]
         ents = [short_label(e, 40) for e in ga_managers(cid)[:2]]
         if cid == "canada_protection_plan":
@@ -1249,18 +1935,20 @@ def opening():
                      f"{yrs(cio.get('firm_since')):.0f}y" if cio and yrs(cio.get("firm_since")) is not None else "",
                      money(cio.get("comp_total_cad") or cio.get("comp_total"), cio.get("comp_currency"), cio.get("comp_year")) or "n/d" if cio else ""])
     slide("Who runs the money: affiliated asset managers at the large groups, in-house teams or parents' managers elsewhere",
-          col(table(["Insurer", "General-account manager(s)", "Most senior investment officer", "In seat", "At firm", "Latest pay"], rows, cls="sm uni", left={0, 1, 2})),
+          col(table(["Insurer", "General Account manager(s)", "Most senior investment officer", "In seat", "At firm", "Latest pay"], rows, cls="sm uni", left={0, 1, 2})),
           "Web research: company leadership pages, proxy circulars, annual reports (see each insurer's leadership page)")
 
     # coverage heatmap
-    secs = [("Metrics", lambda c: len(R(c).get("metrics") or [])), ("Mix", lambda c: len((R(c).get("business_mix") or {}).get("items") or [])),
+    alm_lvl = lambda c: {"study": 3, "built": 3, "amf": 1, "amf_liab": 1}.get(AC.get(c, {}).get("status"), 0)
+    secs = [("Canada block view", alm_lvl),
+            ("Assets (L3)", lambda c: 3 if on_alm(c) and len(AC[c].get("asset_trend") or {}) > 1 else 1 if (on_alm(c) and AC[c].get("asset_trend")) or QC.get(c, {}).get("mix_history") else 0),
+            ("New money", lambda c: 3 if on_alm(c) and AC[c].get("new_money") else 1 if QC.get(c, {}).get("new_money") else 0),
+            ("Leverage", lambda c: 3 if num(yb(c).get("fin_pct")) is not None else 1 if (R(c).get("leverage") or {}).get("debt_outstanding") else 0),
+            ("Capital", lambda c: 3 if (AC.get(c, {}).get("cap") or {}).get("mix") else 1 if capital(c)[0] else 0),
+            ("Sensitivities", lambda c: 3 if any(num(s.get("net_income")) is not None for s in AC.get(c, {}).get("sens") or []) or AC.get(c, {}).get("sens_rows") else 1 if QC.get(c, {}).get("sensitivities") else 0),
             ("Org chart", lambda c: (lambda L: 3 if (L["ceo"] and L["cio"] and L["drs"]) else 1 if (L["ceo"] or L["cio"]) else 0)(lead(c))),
             ("Pay", lambda c: (lambda L: 3 if (pay(L["ceo"]) and pay(L["cio"])) else 1 if (pay(L["ceo"]) or pay(L["cio"])) else 0)(lead(c))),
-            ("PM construct", lambda c: len((R(c).get("pm_structure") or {}).get("bullets") or [])),
-            ("Holdings history", lambda c: len(QC.get(c, {}).get("mix_history") or [])),
-            ("Leverage", lambda c: len((R(c).get("leverage") or {}).get("debt_outstanding") or []) + len(QC.get(c, {}).get("off_balance_sheet") or [])),
-            ("Partnerships", lambda c: sum(len((R(c).get("partnerships") or {}).get(k) or []) for k in ("underwriters", "deals", "sponsorships"))),
-            ("Risk", lambda c: len(QC.get(c, {}).get("sensitivities") or []) + sum(len((R(c).get("risk") or {}).get(k) or []) for k in ("appetite", "sensitivities")))]
+            ("Partnerships", lambda c: sum(len((R(c).get("partnerships") or {}).get(k) or []) for k in ("underwriters", "deals", "sponsorships")))]
     th = "".join(f"<th>{esc(s)}</th>" for s, _ in secs)
     trs = []
     for cid in ORDER:
@@ -1274,25 +1962,29 @@ def opening():
             cells.append(f'<td class="h{lvl}">{"●" if lvl else "–"}</td>')
         trs.append(f'<tr><td class="l">{esc(NAMES[cid])}</td>{"".join(cells)}</tr>')
     heat = f'<table class="heat"><thead><tr><th class="l">Insurer</th>{th}</tr></thead><tbody>{"".join(trs)}</tbody></table>'
-    legend = ('<p class="cap">Dark blue ● well covered (3+ sourced points; org chart = CEO, CIO and at least one CIO direct report named; pay = CEO and CIO pay disclosed) · teal ● partial · – not publicly disclosed or not found. Mutuals, fraternals and bank-owned '
-              'subsidiaries publish far less: no proxy circular, no investor presentation, often a single annual statement.</p>')
-    slide("Disclosure depth falls off sharply outside the listed groups: read the smaller insurers' gaps as findings, not omissions",
-          col(card("What the public record supports, by insurer and page", heat + legend)), "Count of sourced data points per page")
+    legend = ('<p class="cap">Dark blue ● full view on the Canadian basis (or, for people pages, CEO, CIO and direct reports named and both paid figures disclosed) · teal ● partial: AMF rule, '
+              'consolidated or financial-statement figures only · – not public. The AMF and FCNB filers publish no return with Canadian blocks, and OSFI-only filers publish no notes, so no sensitivities.</p>')
+    slide("The Canadian view is complete for the OSFI filers and thins out for the Quebec and New Brunswick insurers: read their gaps as findings, not omissions",
+          col(card("What the public record supports, by insurer and page", heat + legend)), "ALM framework data layer and web research; count of sourced data points per page")
 
 
 def closing():
-    rows = [["GA invested assets", "OSFI LF2 P21012 col 40 (OSFI filers, latest quarter); annual reports for AMF/FCNB filers"],
-            ["Capital ratios", "OSFI LCQ public extract D10100 (total ratio, main legal entity); company disclosures for others"],
-            ["Holdings history", "OSFI 10Q (IFRS 4, 2020-22) and LF2 (IFRS 17, 2023-) harmonised into 6 classes; annual reports for AMF/FCNB"],
-            ["Rotation", "Half the sum of absolute class-share changes, Q4 to Q4; 2023 includes the IFRS 17 change of basis"],
-            ["Repos / derivatives", "OSFI LF3 P22030 row 280 (repos) and P21110 notionals, legal entity, latest fiscal year end"],
-            ["Sensitivities", "Company MD&A / FS notes, after-tax NI as bps of invested assets (project investment-risk benchmark)"],
-            ["Corporate structure", "Only the operating entities each insurer lists on its own website (entities / our-companies page)"],
-            ["People and pay", "Tenure from LinkedIn experience sections where read, else company bios and appointment releases; "
-                               "pay from proxy circular summary compensation tables; CIO direct reports from team pages and releases"],
-            ["Partnerships", "Pricing press releases and prospectus supplements for dealers; company news for deals and sponsorships"]]
-    slide("Method and sources", col(card("How each figure was built", table(["Item", "Source and method"], rows, cls="wrap roomy"))),
-          "Insurance Firms project; code in analysis/insurer_deep_dive")
+    rows = [["Basis", "Canadian business only, net of reinsurance, IFRS 17 periods only. OSFI filers: LF3 In Canada schedule for groups with foreign business, legal entity for all-Canada filers. "
+                      "Fiscal year-end anchor: Oct 31, 2025 (RBC Life, BMO Life), Dec 31, 2025 (others)"],
+            ["GenAcct and blocks", "General Account, excl. par / seg fund; separate blocks for reinsurance, UL policyholder fund, seg funds, par, investment contracts and other assets. Every block balances; "
+                                   "fulfilment cash flows are the residual (est)"],
+            ["Buffer and ratios", "Buffer = (Surplus + ABL CSM less net derivative liabilities) / (GenAcct less repos less derivative assets). Par share = par / (par + GenAcct). "
+                                  "Financing and reinsurance held are % of GenAcct. AMF filers: total CSM only, buffer n/a, memo buffer † on total CSM"],
+            ["CSM split", "ABL CSM, seg fund CSM and par CSM. Seg fund CSM from the gap between the balance-sheet CSM and the LICAT CSM line where not disclosed (est); par CSM pro rata where not disclosed (est)"],
+            ["Assets", "OSFI LF2 invested assets on the L1 / L2 / L3 taxonomy; the non-par, non-UL pool at fiscal year-end 2025 is allocated by block (est). MFC and SLF follow the global mix; "
+                       "CLF uses its disclosed Canada column. Net additions = closing less opening balance by class, no run-off (est)"],
+            ["Capital and sensitivities", "OSFI LCQ (LICAT total, required capital by risk, capital above 125% and 100%). Sensitivities as worded in each insurer's 2025 report; never combined across risks or re-based to a common shock"],
+            ["Insurers outside the study", "Canadian Premier and Primerica Life Canada: built here from the study's OSFI panel on its all-Canada rules, not reviewed in the study. Assumption Life, Humania and UV Insurance: "
+                                           "no OSFI return, so their pages stay on financial statements (earlier method). Canada Protection Plan is a Foresters Life brand"],
+            ["People, structure, partnerships", "Unchanged from the earlier deck (the ALM framework does not cover them): operating entities from each insurer's own website, tenure from LinkedIn where read, "
+                                                "pay from proxy circulars, dealers from pricing releases"]]
+    slide("Method and sources", col(card("How each figure was built", table(["Item", "Source and method"], rows, cls="wrap roomy2", left=2))),
+          "Insurance Firms project; ALM framework: MooseDragon/cdn-life-insurer-alm; code in analysis/insurer_deep_dive")
 
 
 # ---------------------------------------------------------------- build
@@ -1354,6 +2046,10 @@ ul.sm li {{ font-size: 11.5px; margin-bottom: 3px; }}
 .lg {{ display: flex; flex-wrap: wrap; gap: 3px 14px; font-size: 11px; }}
 .lg i {{ display: inline-block; width: 10px; height: 10px; border-radius: 3px; vertical-align: -1px; margin-right: 5px; }}
 .kv {{ margin: 0 0 4px; font-size: 12.5px; }}
+.kv.sm {{ font-size: 11.5px; margin: 0 0 3px; line-height: 1.35; }}
+table.roomy2 td {{ padding: 6px 9px; font-size: 12px; }}
+table.uni2 td {{ padding: 2.5px 6px; font-size: 11.5px; }}
+ul.lg li {{ font-size: 14.5px; line-height: 1.45; margin-bottom: 14px; }}
 .kv.one {{ white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 0 0 2px; font-size: 11.5px; }}
 .kv b {{ color: {SUB}; font-weight: 600; margin-right: 6px; }}
 table {{ border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; font-size: 12px; }}

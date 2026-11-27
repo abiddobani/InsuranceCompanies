@@ -1,48 +1,67 @@
 # Deep dives on the 20 Canadian life & health insurers
 
-One deck (PowerPoint and PDF, 166 slides) with the same eight-page section, in the same fixed layout, for every insurer in the
-analysis set (empty slots say not disclosed rather than changing the layout):
+One deck (PowerPoint and PDF, 167 slides) with the same eight-page section for every insurer in the analysis set.
 
-1. Summary: general-account invested assets, capital ratio, AUM, total assets, earnings, investment team, employees,
-   financial leverage, credit rating, share price (insurer or listed parent), disclosure gaps, and two business-mix
-   views: geography (as each insurer reports it) and liabilities by type including CSM and surplus
-2. Leadership: CEO → CIO → six fixed function slots under the CIO (public markets, private markets / alts, direct
-   lending / private credit, trading, real assets, ALM / total portfolio; dashed = reporting line not stated), with
-   years in seat / at the firm / in the industry and total pay from the summary compensation table (base + bonus +
-   equity + other), plus CFO, CRO and the affiliated asset manager's head
-3. Corporate structure: only the operating entities the insurer lists on its own website, plus who manages the general
-   account (group affiliates that are neither listed nor GA managers, e.g. RBC Capital Markets for RBC Life, are left out)
-4. Holdings rotation: invested-asset mix 2020-2026 (6 classes: bonds, mortgages as real-estate debt, public equity,
-   private / infra / alts equity, commercial real estate equity, cash), then vs now, rotation per year, net
-   reallocation, the latest equity split (public, private, infrastructure, commercial real estate) with ALDA as % of
-   GA, and management's own repositioning commentary
-5. New money vs in-force: where net new assets went since IFRS 17 and over the last 12 months compared with the
-   in-force mix at the start, next to which insurance liabilities grew (OSFI LF3 P22010 by line, FY vs prior FY)
-6. Leverage: debt and hybrids, issuance 2023-2026 with bookrunners, repos, securities lending, derivative notionals,
-   structured / indirect lending
-7. Partnerships: dealers on the top line, notable deals 2020-2026, bank and distribution relationships, sponsorships
-8. Risk constructs: LICAT history vs the OSFI-filer median, disclosed market sensitivities (shock first, C$MM after-tax P&L), risk appetite,
-   governance, capital target, hedging, risk profile vs peers
+**Basis (from Nov 27, 2026): the ALM framework in `MooseDragon/cdn-life-insurer-alm` is the primary method.** Every
+balance-sheet, asset, leverage and capital figure is for the Canadian business, net of reinsurance, on the framework's
+block view: General Account excl. par / seg fund (GenAcct), fulfilment cash flows as the residual (est), CSM split into
+ABL / seg fund / par, Surplus, and the buffer = (Surplus + ABL CSM less net derivative liabilities) / (GenAcct less
+repos less derivative assets). Anchor is fiscal year-end 2025 (Oct 31, 2025 for RBC Life and BMO Life, Dec 31, 2025
+for the others), IFRS 17 periods only, $MM / $BN, every estimate marked est. The earlier financial-statement method is
+kept only where the framework has no data.
 
-Canada Protection Plan is underwritten by Foresters Life: its section keeps all eight pages, with the investment pages
-pointing to Foresters. Five overview pages open the deck (universe, size and capital, who runs the money,
-disclosure coverage).
+| Basis | Insurers | What the pages use |
+| --- | --- | --- |
+| ALM study | RBC Life, BMO Life, MFC, SLF, CLF, Empire Life, ivari, Equitable Life, Co-operators Life, Foresters Life, Wawanesa Life | The study's peer summary, block view, L1/L2/L3 asset panel, LF3 lines, LICAT and sensitivities |
+| ALM study, AMF rule | iA Financial Group, Beneva | Total CSM only, buffer n/a (memo buffer † on total CSM), CARLI instead of LICAT |
+| ALM study, liabilities only | Desjardins Insurance | No public balance sheet for Desjardins Financial Security: CSM and fulfilment cash flows only |
+| Built on ALM rules | Canadian Premier Life, Primerica Life | Not in the study: built in `alm.py` from the study's OSFI panel on its all-Canada rules (template: the repo's `scripts/build_iof_genacct.py`). Not reviewed in the study and no short ID assigned |
+| Financial statements only | Assumption Life, Humania, UV Insurance | No OSFI return: earlier method, pages tagged "financial-statement basis, outside the ALM study" |
+| Brand | Canada Protection Plan | Underwritten by Foresters Life: investment pages point to Foresters |
+
+Sections run RBC Life first (the reader's own insurer), then by GenAcct size. Six opening pages: title, basis and
+universe table, RBC Life against peers, RBC Life position (sound / exposed / what could be done), who runs the money,
+and disclosure coverage. One method page closes the deck.
+
+Pages per insurer:
+
+1. Summary, Canadian business: GenAcct, buffer, capital ratio, Surplus, CSM by piece, par share, financing and
+   reinsurance held as % of GenAcct, seg fund and UL blocks, insurance service result and net income, liabilities by
+   OSFI product line, a table against RBC Life and the peer median, and the framework's "read with care" flags
+2. Leadership: CEO, CIO and six fixed function slots under the CIO, with tenure and total pay (unchanged method)
+3. Corporate structure: operating entities from the insurer's own website, who manages the General Account, and the
+   entity the ALM framework assesses (what it consolidates and leaves out)
+4. Assets and rotation: Level 2 mix at fiscal year-ends 2024 and 2025 and the latest OSFI quarter, the non-par, non-UL
+   pool by Level 3 class, private and alternative share against peers, accounting class (FVTPL / FVOCI / amortized cost)
+5. New money and liabilities: net additions by Level 3 class (closing less opening balance, no run-off, est) against
+   the opening mix, liabilities by line net of reinsurance, and CSM by piece
+6. Leverage and reinsurance: financing / GenAcct and reinsurance held / GenAcct against peers, pledged assets,
+   affiliate share of reinsurance, derivative notionals, group debt as a memo
+7. Partnerships: dealers, notable deals, bank and distribution relationships (unchanged method)
+8. Capital and risk: LICAT total ratio by date against the median of the all-Canada OSFI filers, required capital by
+   risk with capital above 125% and 100%, sensitivities as worded in each insurer's report (never combined across
+   risks or re-based to a common shock), risk appetite, governance
 
 ## Rebuild
 
-From the repository root (needs python-pptx, pandas, Pillow and the preinstalled Playwright Chromium):
+From the repository root, with a checkout of `MooseDragon/cdn-life-insurer-alm` beside it (the data layer runs inside
+that repo's uv environment, as its CLAUDE.md requires; the deck build needs python-pptx, pandas, Pillow and the
+preinstalled Playwright Chromium):
 
 ```
-python3 analysis/insurer_deep_dive/quant.py
+ALM_REPO=../cdn-life-insurer-alm uv run --project ../cdn-life-insurer-alm python analysis/insurer_deep_dive/alm.py
+python3 analysis/insurer_deep_dive/quant.py        # only if the earlier analyses changed
 python3 analysis/insurer_deep_dive/build_deck.py
 ```
 
-Outputs land in `analysis/insurer_deep_dive/output/`. `DECK_OUT`, `SHOTS`, `KEEP_HTML`, `RESEARCH_DIR` and
-`PDF_ONLY` environment variables redirect outputs or inputs. The build prints `OVERFLOW [...]` with any slide whose
-cards overflow; it should be empty.
+`alm.py` reads the ALM repo's processed data and deck JSON (read only) and writes `alm.json` ($MM). Outputs land in
+`analysis/insurer_deep_dive/output/`. `DECK_OUT`, `SHOTS`, `KEEP_HTML`, `RESEARCH_DIR` and `PDF_ONLY` environment
+variables redirect outputs or inputs. The build prints `OVERFLOW [...]` with any slide whose cards overflow; it
+should be empty. `alm.json` was built from the ALM repo at commit 9e8d671.
 
 | File | What it holds |
 | --- | --- |
+| `alm.py` | Data layer on the ALM framework: one record per insurer with the block view for fiscal 2023 to 2025, asset panel, net additions, liabilities by line, capital, sensitivities and the framework's flags, written to `alm.json` |
 | `quant.py` | Pulls the quantitative facts per insurer from the earlier analyses (portfolio reallocation, composition, investment risk, street wallet) and OSFI data into `quant.json` |
 | `research/<company_id>.json` | Web research per insurer, every figure with an as-of date and source URL; `research/BRIEF.md` is the research brief |
 | `research/org/<company_id>.json` | Round-2 research: operating entities from the insurer's own site, CEO, CIO, all CIO direct reports, CFO/CRO; `research/BRIEF_ORG.md` is the brief |
@@ -61,6 +80,25 @@ the title as native text on top, and the slide's underlying research (all bullet
 plus the full source URLs in the speaker notes.
 
 ## Choices to know
+
+- MFC and SLF: the Canadian asset mix follows the legal-entity (global) mix; CLF uses its disclosed Canada column.
+  Their asset trend, derivative notionals, LICAT and affiliate share of reinsurance are the legal entity across all
+  territories and are labelled so. MFC's buffer is flagged as not reliable (In Canada assets follow asset territory).
+- AMF filers (iA, Beneva, Desjardins) are left out of the buffer and LICAT medians; CARLI is shown but not compared.
+- Primerica Life: net fulfilment cash flows are an asset (term book, heavily reinsured), so the buffer is n/m and it
+  is left out of the buffer median.
+- Group-wide sensitivities (RBC, MFC, SLF, CLF) are shown in the table and labelled as group disclosure; they do not
+  lead the page title because they are not the Canadian entity.
+- Equitable Life: the fiscal 2025 OSFI return moves business from the participating line to individual insurance, so
+  the page reads the two lines together.
+- Net additions follow the repo's new-money method: closing less opening balance by Level 3 class, no run-off. When
+  net additions are under 5% of opening assets the page shows the change in each balance instead of an allocation.
+- RBC Life comes first and is marked on every peer chart. The "what could be done" list is drawn from the ALM
+  study's public findings; RBC internal figures are not used anywhere.
+- Financial-statement pages (insurers outside the study) show IFRS 17 periods from fiscal year-end 2023 only.
+
+The points below apply to the pages that keep the earlier method (people, structure, partnerships and the
+financial-statement fallback pages):
 
 - Capital ratio on summary pages is the disclosed figure for the main entity (Sun Life shows SLF Inc. 145%; the risk
   page charts the OSFI LCQ series for Sun Life Assurance Company of Canada). AMF filers show CARLI, Assumption its

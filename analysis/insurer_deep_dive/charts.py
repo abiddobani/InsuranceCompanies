@@ -40,7 +40,7 @@ def svg(W, H, parts):
 
 
 def hbar(items, fmt, W=560, rowh=24, label_w=150, right_w=70, focus=None, median=None, median_label=None,
-         color=BLUE, top=20, vmax=None, xlabel=None):
+         color=BLUE, top=20, vmax=None, xlabel=None, mark=None, mark_color="#86a9d4", tick_target=5):
     """Horizontal bars; items = [(label, value)]. The focus row is coloured and outlined, the rest muted.
     xlabel: axis descriptor printed under the plot area."""
     vals = [v for _, v in items if v is not None]
@@ -49,7 +49,7 @@ def hbar(items, fmt, W=560, rowh=24, label_w=150, right_w=70, focus=None, median
     lo = min(0, min(vals))
     hi = max(vals) if vmax is None else vmax
     hi = hi if hi > lo else lo + 1
-    tk = ticks_for(lo, hi)
+    tk = ticks_for(lo, hi, tick_target)
     lo, hi = min(lo, tk[0]), max(hi, tk[-1])
     x0, x1 = label_w + (42 if lo < 0 else 0), W - right_w
     sx = lambda v: x0 + (v - lo) / (hi - lo) * (x1 - x0)
@@ -71,13 +71,13 @@ def hbar(items, fmt, W=560, rowh=24, label_w=150, right_w=70, focus=None, median
     for i, (name, v) in enumerate(items):
         y = top + i * rowh
         foc = focus is None or name == focus
-        wt = ' font-weight="700"' if (focus is not None and name == focus) else ""
+        wt = ' font-weight="700"' if (focus is not None and name == focus) or (mark is not None and name == mark) else ""
         g.append(f'<text x="{label_w - 10}" y="{y + rowh / 2 + 4:.1f}" text-anchor="end" class="lb"{wt}>{esc(name)}</text>')
         if v is None:
             g.append(f'<text x="{x0 + 4}" y="{y + rowh / 2 + 4:.1f}" class="tk">not disclosed</text>')
             continue
         xa, xb = sorted((sx(0), sx(v)))
-        fill = color if foc else MUTED_BAR
+        fill = color if foc else (mark_color if name == mark else MUTED_BAR)   # mark: a second highlighted row (RBC Life)
         stroke = f' stroke="{INK}" stroke-width="1.6"' if (focus is not None and name == focus) else ""
         g.append(f'<rect x="{xa:.1f}" y="{y + 4}" width="{max(xb - xa, 0.8):.1f}" height="{rowh - 8}" rx="2" fill="{fill}"{stroke}/>')
         if v >= 0:
@@ -127,7 +127,7 @@ def stacked_columns(periods, series, colors, W=760, H=330, break_after=None, lab
 
 
 def line_chart(series, W=560, H=250, fmt=lambda v: f"{v:.0f}%", band=None, band_label=None, label_every=4,
-               ref=None, ref_label=None):
+               ref=None, ref_label=None, xfmt=None):
     """series = [(name, color, [(x_label, value)])]; x positions follow the first series' labels."""
     labels = []
     for _, _, pts in series:
@@ -163,8 +163,14 @@ def line_chart(series, W=560, H=250, fmt=lambda v: f"{v:.0f}%", band=None, band_
         if ref_label:
             g.append(f'<text x="{m[3] + 4}" y="{sy(ref) - 4:.1f}" class="tk" fill="{RED}">{esc(ref_label)}</text>')
     for i, x in enumerate(labels):
-        if len(labels) <= 8 or i % label_every == 0 or (i == len(labels) - 1 and (len(labels) - 1) % label_every >= label_every / 2):
-            g.append(f'<text x="{sx(i):.1f}" y="{H - m[2] + 15}" text-anchor="middle" class="tk">{esc(x)}</text>')
+        last = len(labels) - 1
+        if xfmt:  # wide date labels: first, last, and every nth that sits clear of the last one
+            show = i in (0, last) or (i % label_every == 0 and last - i >= 3)
+        else:
+            show = len(labels) <= 8 or i % label_every == 0 or (i == last and last % label_every >= label_every / 2)
+        if show:
+            anchor = "middle" if not xfmt else ("start" if i == 0 else "end" if i == len(labels) - 1 else "middle")
+            g.append(f'<text x="{sx(i):.1f}" y="{H - m[2] + 15}" text-anchor="{anchor}" class="tk">{esc(xfmt(x) if xfmt else x)}</text>')
     for name, col, pts in series:
         idx = {x: i for i, x in enumerate(labels)}
         p = [(sx(idx[x]), sy(v)) for x, v in pts if v is not None]
