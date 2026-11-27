@@ -1,0 +1,37 @@
+insurer,insurer_name,accounting_class,pct
+RBC,RBC Life,FVTPL,81.6139
+RBC,RBC Life,FVOCI,16.1464
+RBC,RBC Life,Amortized cost,2.2397
+BMO,BMO Life,FVTPL,92.5106
+BMO,BMO Life,FVOCI,3.5873
+BMO,BMO Life,Amortized cost,3.9022
+MFC,Manulife,FVTPL,25.7762
+MFC,Manulife,FVOCI,62.9008
+MFC,Manulife,Amortized cost,11.3230
+SLF,Sun Life,FVTPL,90.9750
+SLF,Sun Life,FVOCI,8.0895
+SLF,Sun Life,Amortized cost,0.9355
+CLF,Canada Life,FVTPL,88.8299
+CLF,Canada Life,FVOCI,7.1532
+CLF,Canada Life,Amortized cost,4.0169
+EMP,Empire Life,FVTPL,100.0000
+EMP,Empire Life,FVOCI,0.0000
+EMP,Empire Life,Amortized cost,0.0000
+IVA,ivari,FVTPL,100.0000
+IVA,ivari,FVOCI,0.0000
+IVA,ivari,Amortized cost,0.0000
+EQL,Equitable Life,FVTPL,100.0000
+EQL,Equitable Life,FVOCI,0.0000
+EQL,Equitable Life,Amortized cost,0.0000
+COP,Co-operators Life,FVTPL,75.2161
+COP,Co-operators Life,FVOCI,16.8749
+COP,Co-operators Life,Amortized cost,7.9089
+IOF,Foresters Life (incl. Canada Protection Plan),FVTPL,100.0000
+IOF,Foresters Life (incl. Canada Protection Plan),FVOCI,0.0000
+IOF,Foresters Life (incl. Canada Protection Plan),Amortized cost,0.0000
+WAW,Wawanesa Life,FVTPL,100.0000
+WAW,Wawanesa Life,FVOCI,0.0000
+WAW,Wawanesa Life,Amortized cost,0.0000
+BLU,Blumont Annuity,FVTPL,89.2866
+BLU,Blumont Annuity,FVOCI,1.2907
+BLU,Blumont Annuity,Amortized cost,9.4227

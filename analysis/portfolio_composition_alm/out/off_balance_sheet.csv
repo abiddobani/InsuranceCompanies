@@ -1,0 +1,45 @@
+insurer,l1,l2,l3,amount_mm,pct_of_entity_investments,scope,source,pct_of_genacct,insurer_name
+RBC,Derivatives,Equity,Linear and non-linear (not split),179.4020,0.7296,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,RBC Life
+RBC,Derivatives,Fixed Income,Linear,6595.0700,26.8210,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,RBC Life
+RBC,Derivatives,Fixed Income,Non-Linear,785.8370,3.1959,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,RBC Life
+MFC,Derivatives,Equity,Linear and non-linear (not split),29647.7370,7.0796,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,Manulife
+MFC,Derivatives,Fixed Income,Linear,482060.6720,115.1111,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,Manulife
+MFC,Derivatives,Fixed Income,Non-Linear,4875.6310,1.1642,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,Manulife
+SLF,Derivatives,Equity,Linear and non-linear (not split),6229.5910,3.7719,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,Sun Life
+SLF,Derivatives,Fixed Income,Linear,70637.9020,42.7702,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,Sun Life
+SLF,Derivatives,Fixed Income,Non-Linear,2463.4550,1.4916,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,Sun Life
+CLF,Derivatives,Equity,Linear and non-linear (not split),4994.8600,3.3815,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,Canada Life
+CLF,Derivatives,Fixed Income,Linear,52235.9340,35.3640,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,Canada Life
+CLF,Derivatives,Fixed Income,Non-Linear,4245.5320,2.8742,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,Canada Life
+IVA,Derivatives,Equity,Linear and non-linear (not split),888.4570,8.0654,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,ivari
+IVA,Derivatives,Fixed Income,Linear,-109.2400,-0.9917,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,ivari
+EQL,Derivatives,Fixed Income,Linear,623.1660,9.3799,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,Equitable Life
+COP,Derivatives,Fixed Income,Linear,189.5960,3.4051,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,Co-operators Life
+BLU,Derivatives,Fixed Income,Linear,4927.3240,68.0777,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,Blumont Annuity
+EMP,Derivatives,Equity,Linear and non-linear (not split),1309.6882,14.0150,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,Empire Life
+EMP,Derivatives,Fixed Income,Linear,1350.3481,14.4501,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,Empire Life
+EMP,Derivatives,Fixed Income,Non-Linear,0.0036,0.0000,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,Empire Life
+BMO,Derivatives,Equity,Linear and non-linear (not split),234.3920,1.5983,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,BMO Life
+BMO,Derivatives,Fixed Income,Linear,3018.0200,20.5802,"legal entity (global for Manulife, Sun Life, Canada Life)",OSFI LF3 P2111 gross notional,,BMO Life
+RBC,Asset Financing,Encumbered Assets,Repos,3625.3840,,Canadian General Account,OSFI LF3 P2203028001,16.0271,RBC Life
+BMO,Asset Financing,Encumbered Assets,Repos,0.0000,,Canadian General Account,OSFI LF3 P2203028001,0.0000,BMO Life
+MFC,Asset Financing,Encumbered Assets,Repos,0.0000,,Canadian General Account,OSFI LF3 P2203028001,0.0000,Manulife
+SLF,Asset Financing,Encumbered Assets,Repos,2860.7400,,Canadian General Account,OSFI LF3 P2203028001,4.3104,Sun Life
+CLF,Asset Financing,Encumbered Assets,Repos,0.0000,,Canadian General Account,OSFI LF3 P2203028001,0.0000,Canada Life
+EMP,Asset Financing,Encumbered Assets,Repos,0.0000,,Canadian General Account,OSFI LF3 P2203028001,0.0000,Empire Life
+IVA,Asset Financing,Encumbered Assets,Repos,0.0000,,Canadian General Account,OSFI LF3 P2203028001,0.0000,ivari
+EQL,Asset Financing,Encumbered Assets,Repos,0.0000,,Canadian General Account,OSFI LF3 P2203028001,0.0000,Equitable Life
+COP,Asset Financing,Encumbered Assets,Repos,0.0000,,Canadian General Account,OSFI LF3 P2203028001,0.0000,Co-operators Life
+IOF,Asset Financing,Encumbered Assets,Repos,0.0000,,Canadian General Account,OSFI LF3 P2203028001,0.0000,Foresters Life (incl. Canada Protection Plan)
+WAW,Asset Financing,Encumbered Assets,Repos,0.0000,,Canadian General Account,OSFI LF3 P2203028001,0.0000,Wawanesa Life
+BLU,Asset Financing,Encumbered Assets,Repos,0.0000,,Canadian General Account,OSFI LF3 P2203028001,0.0000,Blumont Annuity
+IAG,Asset Financing,Encumbered Assets,Repos,988.0000,,Canadian General Account,annual report,2.6289,iA Financial Group
+BEN,Asset Financing,Encumbered Assets,Repos,744.1000,,Canadian General Account,annual report,7.2484,Beneva
+MFC,Asset Financing,Encumbered Assets,Security Lending,1800.0000,,consolidated,2025 financial statements,,Manulife
+SLF,Asset Financing,Encumbered Assets,Security Lending,2360.0000,,consolidated,2025 financial statements,,Sun Life
+CLF,Asset Financing,Encumbered Assets,Security Lending,5133.0000,,Lifeco consolidated,2025 financial statements,,Canada Life
+IAG,Asset Financing,Encumbered Assets,Security Lending,1483.0000,,consolidated,2025 financial statements,,iA Financial Group
+BEN,Asset Financing,Encumbered Assets,Security Lending,1050.5000,,consolidated,2025 financial statements,,Beneva
+EMP,Asset Financing,Encumbered Assets,Security Lending,1384.2930,,"entity, general funds",2025 financial statements,,Empire Life
+EQL,Asset Financing,Encumbered Assets,Security Lending,898.0730,,entity,2025 financial statements,,Equitable Life
+WAW,Asset Financing,Encumbered Assets,Security Lending,112.9370,,entity,2025 financial statements,,Wawanesa Life

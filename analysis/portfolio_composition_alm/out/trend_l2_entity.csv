@@ -1,0 +1,176 @@
+insurer,insurer_name,date,asset_class,pct,invested_ex_ul_bn
+RBC,RBC Life,2024-10-31,Public Fixed Income,71.8222,20.2438
+RBC,RBC Life,2024-10-31,Private Fixed Income,18.5162,20.2438
+RBC,RBC Life,2024-10-31,Public Equity,4.8275,20.2438
+RBC,RBC Life,2024-10-31,Cash & Cash Equivalent,2.2935,20.2438
+RBC,RBC Life,2024-10-31,Other / unclassified,2.5407,20.2438
+RBC,RBC Life,2025-10-31,Public Fixed Income,73.0977,22.6328
+RBC,RBC Life,2025-10-31,Private Fixed Income,19.3119,22.6328
+RBC,RBC Life,2025-10-31,Public Equity,5.0812,22.6328
+RBC,RBC Life,2025-10-31,Cash & Cash Equivalent,0.0758,22.6328
+RBC,RBC Life,2025-10-31,Other / unclassified,2.4333,22.6328
+RBC,RBC Life,2026-07-31,Public Fixed Income,70.5982,23.2171
+RBC,RBC Life,2026-07-31,Private Fixed Income,21.4953,23.2171
+RBC,RBC Life,2026-07-31,Public Equity,5.5319,23.2171
+RBC,RBC Life,2026-07-31,Cash & Cash Equivalent,0.0000,23.2171
+RBC,RBC Life,2026-07-31,Other / unclassified,2.3747,23.2171
+BMO,BMO Life,2024-10-31,Public Fixed Income,89.4871,12.0827
+BMO,BMO Life,2024-10-31,Private Fixed Income,3.0578,12.0827
+BMO,BMO Life,2024-10-31,Public Equity,1.3772,12.0827
+BMO,BMO Life,2024-10-31,Cash & Cash Equivalent,3.3903,12.0827
+BMO,BMO Life,2024-10-31,Other / unclassified,2.6877,12.0827
+BMO,BMO Life,2025-10-31,Public Fixed Income,86.0330,13.2285
+BMO,BMO Life,2025-10-31,Private Fixed Income,3.2247,13.2285
+BMO,BMO Life,2025-10-31,Public Equity,1.0068,13.2285
+BMO,BMO Life,2025-10-31,Cash & Cash Equivalent,8.6344,13.2285
+BMO,BMO Life,2025-10-31,Other / unclassified,1.1011,13.2285
+MFC,Manulife,2024-12-31,Public Fixed Income,54.3073,396.1654
+MFC,Manulife,2024-12-31,Private Fixed Income,25.1385,396.1654
+MFC,Manulife,2024-12-31,Public Equity,7.3566,396.1654
+MFC,Manulife,2024-12-31,Cash & Cash Equivalent,2.5387,396.1654
+MFC,Manulife,2024-12-31,Other / unclassified,10.6590,396.1654
+MFC,Manulife,2025-12-31,Public Fixed Income,52.8120,413.5916
+MFC,Manulife,2025-12-31,Private Fixed Income,25.2879,413.5916
+MFC,Manulife,2025-12-31,Public Equity,8.6521,413.5916
+MFC,Manulife,2025-12-31,Cash & Cash Equivalent,2.7301,413.5916
+MFC,Manulife,2025-12-31,Other / unclassified,10.5179,413.5916
+MFC,Manulife,2026-06-30,Public Fixed Income,51.7303,439.0355
+MFC,Manulife,2026-06-30,Private Fixed Income,24.9960,439.0355
+MFC,Manulife,2026-06-30,Public Equity,9.7187,439.0355
+MFC,Manulife,2026-06-30,Cash & Cash Equivalent,2.8829,439.0355
+MFC,Manulife,2026-06-30,Other / unclassified,10.6721,439.0355
+SLF,Sun Life,2024-12-31,Public Fixed Income,46.2166,154.3521
+SLF,Sun Life,2024-12-31,Private Fixed Income,42.3351,154.3521
+SLF,Sun Life,2024-12-31,Public Equity,5.1268,154.3521
+SLF,Sun Life,2024-12-31,Cash & Cash Equivalent,2.2310,154.3521
+SLF,Sun Life,2024-12-31,Other / unclassified,4.0905,154.3521
+SLF,Sun Life,2025-12-31,Public Fixed Income,45.0628,162.6006
+SLF,Sun Life,2025-12-31,Private Fixed Income,42.2264,162.6006
+SLF,Sun Life,2025-12-31,Public Equity,6.1701,162.6006
+SLF,Sun Life,2025-12-31,Cash & Cash Equivalent,2.5310,162.6006
+SLF,Sun Life,2025-12-31,Other / unclassified,4.0097,162.6006
+SLF,Sun Life,2026-06-30,Public Fixed Income,45.4685,172.9744
+SLF,Sun Life,2026-06-30,Private Fixed Income,40.8931,172.9744
+SLF,Sun Life,2026-06-30,Public Equity,6.8650,172.9744
+SLF,Sun Life,2026-06-30,Cash & Cash Equivalent,2.7436,172.9744
+SLF,Sun Life,2026-06-30,Other / unclassified,4.0297,172.9744
+CLF,Canada Life,2024-12-31,Public Fixed Income,46.9521,134.2792
+CLF,Canada Life,2024-12-31,Private Fixed Income,40.8274,134.2792
+CLF,Canada Life,2024-12-31,Public Equity,9.4502,134.2792
+CLF,Canada Life,2024-12-31,Cash & Cash Equivalent,2.6962,134.2792
+CLF,Canada Life,2024-12-31,Other / unclassified,0.0741,134.2792
+CLF,Canada Life,2025-12-31,Public Fixed Income,45.0111,140.0699
+CLF,Canada Life,2025-12-31,Private Fixed Income,41.5964,140.0699
+CLF,Canada Life,2025-12-31,Public Equity,10.4763,140.0699
+CLF,Canada Life,2025-12-31,Cash & Cash Equivalent,2.8743,140.0699
+CLF,Canada Life,2025-12-31,Other / unclassified,0.0419,140.0699
+CLF,Canada Life,2026-06-30,Public Fixed Income,45.4925,144.1712
+CLF,Canada Life,2026-06-30,Private Fixed Income,42.4572,144.1712
+CLF,Canada Life,2026-06-30,Public Equity,10.1660,144.1712
+CLF,Canada Life,2026-06-30,Cash & Cash Equivalent,1.8613,144.1712
+CLF,Canada Life,2026-06-30,Other / unclassified,0.0230,144.1712
+EMP,Empire Life,2024-12-31,Public Fixed Income,79.7402,9.2568
+EMP,Empire Life,2024-12-31,Private Fixed Income,7.0480,9.2568
+EMP,Empire Life,2024-12-31,Public Equity,12.5230,9.2568
+EMP,Empire Life,2024-12-31,Cash & Cash Equivalent,0.0091,9.2568
+EMP,Empire Life,2024-12-31,Other / unclassified,0.6797,9.2568
+EMP,Empire Life,2025-12-31,Public Fixed Income,78.5257,9.3449
+EMP,Empire Life,2025-12-31,Private Fixed Income,7.0866,9.3449
+EMP,Empire Life,2025-12-31,Public Equity,13.4449,9.3449
+EMP,Empire Life,2025-12-31,Cash & Cash Equivalent,0.0048,9.3449
+EMP,Empire Life,2025-12-31,Other / unclassified,0.9380,9.3449
+EMP,Empire Life,2026-06-30,Public Fixed Income,77.9278,9.7936
+EMP,Empire Life,2026-06-30,Private Fixed Income,7.5874,9.7936
+EMP,Empire Life,2026-06-30,Public Equity,13.6018,9.7936
+EMP,Empire Life,2026-06-30,Cash & Cash Equivalent,0.0078,9.7936
+EMP,Empire Life,2026-06-30,Other / unclassified,0.8753,9.7936
+IVA,ivari,2024-12-31,Public Fixed Income,72.6663,7.3610
+IVA,ivari,2024-12-31,Private Fixed Income,10.3796,7.3610
+IVA,ivari,2024-12-31,Public Equity,0.0000,7.3610
+IVA,ivari,2024-12-31,Cash & Cash Equivalent,15.7028,7.3610
+IVA,ivari,2024-12-31,Other / unclassified,1.2513,7.3610
+IVA,ivari,2025-12-31,Public Fixed Income,70.1628,7.4287
+IVA,ivari,2025-12-31,Private Fixed Income,10.6847,7.4287
+IVA,ivari,2025-12-31,Public Equity,0.0000,7.4287
+IVA,ivari,2025-12-31,Cash & Cash Equivalent,17.4412,7.4287
+IVA,ivari,2025-12-31,Other / unclassified,1.7112,7.4287
+IVA,ivari,2026-06-30,Public Fixed Income,67.0301,7.7144
+IVA,ivari,2026-06-30,Private Fixed Income,11.6192,7.7144
+IVA,ivari,2026-06-30,Public Equity,0.0000,7.7144
+IVA,ivari,2026-06-30,Cash & Cash Equivalent,19.4286,7.7144
+IVA,ivari,2026-06-30,Other / unclassified,1.9220,7.7144
+EQL,Equitable Life,2024-12-31,Public Fixed Income,46.6796,5.7608
+EQL,Equitable Life,2024-12-31,Private Fixed Income,18.2441,5.7608
+EQL,Equitable Life,2024-12-31,Public Equity,35.0763,5.7608
+EQL,Equitable Life,2024-12-31,Cash & Cash Equivalent,0.0000,5.7608
+EQL,Equitable Life,2024-12-31,Other / unclassified,0.0000,5.7608
+EQL,Equitable Life,2025-12-31,Public Fixed Income,41.1494,6.6436
+EQL,Equitable Life,2025-12-31,Private Fixed Income,20.6331,6.6436
+EQL,Equitable Life,2025-12-31,Public Equity,38.1253,6.6436
+EQL,Equitable Life,2025-12-31,Cash & Cash Equivalent,0.0000,6.6436
+EQL,Equitable Life,2025-12-31,Other / unclassified,0.0921,6.6436
+EQL,Equitable Life,2026-06-30,Public Fixed Income,41.5451,7.2456
+EQL,Equitable Life,2026-06-30,Private Fixed Income,19.8970,7.2456
+EQL,Equitable Life,2026-06-30,Public Equity,38.4672,7.2456
+EQL,Equitable Life,2026-06-30,Cash & Cash Equivalent,0.0000,7.2456
+EQL,Equitable Life,2026-06-30,Other / unclassified,0.0907,7.2456
+COP,Co-operators Life,2024-12-31,Public Fixed Income,74.1611,5.2042
+COP,Co-operators Life,2024-12-31,Private Fixed Income,8.9938,5.2042
+COP,Co-operators Life,2024-12-31,Public Equity,16.0801,5.2042
+COP,Co-operators Life,2024-12-31,Cash & Cash Equivalent,0.6245,5.2042
+COP,Co-operators Life,2024-12-31,Other / unclassified,0.1405,5.2042
+COP,Co-operators Life,2025-12-31,Public Fixed Income,73.1676,5.2901
+COP,Co-operators Life,2025-12-31,Private Fixed Income,8.3244,5.2901
+COP,Co-operators Life,2025-12-31,Public Equity,17.5063,5.2901
+COP,Co-operators Life,2025-12-31,Cash & Cash Equivalent,0.8378,5.2901
+COP,Co-operators Life,2025-12-31,Other / unclassified,0.1639,5.2901
+COP,Co-operators Life,2026-06-30,Public Fixed Income,73.1915,5.4529
+COP,Co-operators Life,2026-06-30,Private Fixed Income,7.9613,5.4529
+COP,Co-operators Life,2026-06-30,Public Equity,17.2031,5.4529
+COP,Co-operators Life,2026-06-30,Cash & Cash Equivalent,1.4646,5.4529
+COP,Co-operators Life,2026-06-30,Other / unclassified,0.1796,5.4529
+IOF,Foresters Life (incl. Canada Protection Plan),2024-12-31,Public Fixed Income,80.0350,0.7419
+IOF,Foresters Life (incl. Canada Protection Plan),2024-12-31,Private Fixed Income,0.0000,0.7419
+IOF,Foresters Life (incl. Canada Protection Plan),2024-12-31,Public Equity,9.5762,0.7419
+IOF,Foresters Life (incl. Canada Protection Plan),2024-12-31,Cash & Cash Equivalent,4.3343,0.7419
+IOF,Foresters Life (incl. Canada Protection Plan),2024-12-31,Other / unclassified,6.0544,0.7419
+IOF,Foresters Life (incl. Canada Protection Plan),2025-12-31,Public Fixed Income,83.9199,0.7831
+IOF,Foresters Life (incl. Canada Protection Plan),2025-12-31,Private Fixed Income,0.0000,0.7831
+IOF,Foresters Life (incl. Canada Protection Plan),2025-12-31,Public Equity,8.6445,0.7831
+IOF,Foresters Life (incl. Canada Protection Plan),2025-12-31,Cash & Cash Equivalent,1.5349,0.7831
+IOF,Foresters Life (incl. Canada Protection Plan),2025-12-31,Other / unclassified,5.9007,0.7831
+IOF,Foresters Life (incl. Canada Protection Plan),2026-06-30,Public Fixed Income,83.0567,0.7849
+IOF,Foresters Life (incl. Canada Protection Plan),2026-06-30,Private Fixed Income,0.0000,0.7849
+IOF,Foresters Life (incl. Canada Protection Plan),2026-06-30,Public Equity,9.7787,0.7849
+IOF,Foresters Life (incl. Canada Protection Plan),2026-06-30,Cash & Cash Equivalent,1.1658,0.7849
+IOF,Foresters Life (incl. Canada Protection Plan),2026-06-30,Other / unclassified,5.9988,0.7849
+WAW,Wawanesa Life,2024-12-31,Public Fixed Income,85.9760,1.1987
+WAW,Wawanesa Life,2024-12-31,Private Fixed Income,0.0000,1.1987
+WAW,Wawanesa Life,2024-12-31,Public Equity,0.0000,1.1987
+WAW,Wawanesa Life,2024-12-31,Cash & Cash Equivalent,0.0000,1.1987
+WAW,Wawanesa Life,2024-12-31,Other / unclassified,14.0240,1.1987
+WAW,Wawanesa Life,2025-12-31,Public Fixed Income,83.1431,1.2244
+WAW,Wawanesa Life,2025-12-31,Private Fixed Income,0.0000,1.2244
+WAW,Wawanesa Life,2025-12-31,Public Equity,0.0000,1.2244
+WAW,Wawanesa Life,2025-12-31,Cash & Cash Equivalent,0.0000,1.2244
+WAW,Wawanesa Life,2025-12-31,Other / unclassified,16.8569,1.2244
+WAW,Wawanesa Life,2026-06-30,Public Fixed Income,76.2943,1.2808
+WAW,Wawanesa Life,2026-06-30,Private Fixed Income,0.0000,1.2808
+WAW,Wawanesa Life,2026-06-30,Public Equity,4.5051,1.2808
+WAW,Wawanesa Life,2026-06-30,Cash & Cash Equivalent,0.0000,1.2808
+WAW,Wawanesa Life,2026-06-30,Other / unclassified,19.2007,1.2808
+BLU,Blumont Annuity,2024-12-31,Public Fixed Income,90.0068,6.8989
+BLU,Blumont Annuity,2024-12-31,Private Fixed Income,9.7091,6.8989
+BLU,Blumont Annuity,2024-12-31,Public Equity,0.2841,6.8989
+BLU,Blumont Annuity,2024-12-31,Cash & Cash Equivalent,0.0000,6.8989
+BLU,Blumont Annuity,2024-12-31,Other / unclassified,0.0000,6.8989
+BLU,Blumont Annuity,2025-12-31,Public Fixed Income,87.3051,7.2378
+BLU,Blumont Annuity,2025-12-31,Private Fixed Income,12.4056,7.2378
+BLU,Blumont Annuity,2025-12-31,Public Equity,0.2893,7.2378
+BLU,Blumont Annuity,2025-12-31,Cash & Cash Equivalent,0.0000,7.2378
+BLU,Blumont Annuity,2025-12-31,Other / unclassified,0.0000,7.2378
+BLU,Blumont Annuity,2026-06-30,Public Fixed Income,84.1680,7.4327
+BLU,Blumont Annuity,2026-06-30,Private Fixed Income,14.5407,7.4327
+BLU,Blumont Annuity,2026-06-30,Public Equity,1.2913,7.4327
+BLU,Blumont Annuity,2026-06-30,Cash & Cash Equivalent,0.0000,7.4327
+BLU,Blumont Annuity,2026-06-30,Other / unclassified,0.0000,7.4327

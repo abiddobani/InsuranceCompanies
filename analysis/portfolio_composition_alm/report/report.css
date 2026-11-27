@@ -1,0 +1,36 @@
+/* Stand-ins for the dashboard's design tokens, plus the paged layout. Light theme only: this is a printed document. */
+:root {
+  --color-fg: #191919; --color-fg-muted: #666666; --color-bg: #ffffff; --color-panel: #ffffff; --color-border-line: #e3e3e3;
+  --cds-text-secondary: #5f5f5f; --cds-chart-muted: #b9b9b9; --cds-chart-grid: #ececec; --cds-chart-axis: #c2c2c2;
+  --cds-surface-popover: #ffffff; --cds-border: #e3e3e3; --cds-shadow-popover: none;
+  --font-anthropic-sans: Inter, "Helvetica Neue", Arial, sans-serif; --font-anthropic-serif: Inter, "Helvetica Neue", Arial, sans-serif;
+  --cds-font-size-caption: 10.5px; --cds-font-size-body: 12.5px; --cds-font-size-heading: 15.5px; --cds-font-size-title: 30px;
+  --cds-font-weight-medium: 600;
+  --cds-gap-xs: 4px; --cds-gap-sm: 6px; --cds-gap-md: 12px; --cds-gap-lg: 18px; --cds-gap-xl: 0px;
+  --cds-pad-md: 10px; --cds-pad-lg: 14px; --cds-radius: 6px;
+}
+html, body { margin: 0; background: #fff; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+#dash-root { width: 1090px; }
+.pc-sec { break-before: page; }
+.pc-head { gap: 16px; padding-top: 70px; }
+.pc-title { font-weight: 600; letter-spacing: -0.01em; }
+.pc-tile-v { font-weight: 600; font-size: 28px; }
+.pc-lede { font-size: 17px; max-width: 86ch; }
+.pc-card:not(.pc-scroll), .pc-two > .pc-card { break-inside: avoid; }
+.pc-changed { border: 0; padding: 0; margin-top: 10px; }
+.pc-changed .pc-list { gap: 7px; font-size: 13.5px; }
+.pc-table tr { break-inside: avoid; }
+.pc-scroll { overflow: visible; }
+.pc-table .pc-src { min-width: 0; }
+.pc-chart-tall { min-height: 0; }
+.pc-chart { min-height: 0; }
+.pc-p, .pc-note, .pc-list { max-width: none; }
+.pc-tip { display: none; }
+.pc-table th, .pc-table td { padding: 3px 6px; }
+.pc-heat td.pc-num { padding: 3px 3px; }
+.pc-table { line-height: 1.3; }
+.pc-details summary { list-style: none; cursor: default; color: var(--color-fg); font-size: var(--cds-font-size-body); font-weight: 600; margin-bottom: 8px; }
+.pc-details summary::-webkit-details-marker { display: none; }
+#table-mix, #table-par, #definitions { break-before: page; }
+#table-coverage th, #table-coverage td { padding: 2px 6px; }
+#table-coverage th:nth-child(3) { min-width: 210px; }

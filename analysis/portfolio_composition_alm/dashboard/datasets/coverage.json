@@ -1,0 +1,182 @@
+[
+ {
+  "insurer": "RBC",
+  "insurer_name": "RBC Life",
+  "period_end": "2025-10-31",
+  "basis": "ALM study view (OSFI returns)",
+  "on_canonical_list": "yes",
+  "estimate": "",
+  "mix_source": "OSFI LF2 pool less UL index-linked lines and par; entity = Canada"
+ },
+ {
+  "insurer": "BMO",
+  "insurer_name": "BMO Life",
+  "period_end": "2025-10-31",
+  "basis": "ALM study view (OSFI returns)",
+  "on_canonical_list": "yes",
+  "estimate": "",
+  "mix_source": "OSFI LF2 pool less UL index-linked lines and par; entity = Canada"
+ },
+ {
+  "insurer": "SLF",
+  "insurer_name": "Sun Life",
+  "period_end": "2025-12-31",
+  "basis": "ALM study view (OSFI returns)",
+  "on_canonical_list": "yes",
+  "estimate": "est",
+  "mix_source": "est: Canada assumed to follow the entity (global) mix (ALM study rule)"
+ },
+ {
+  "insurer": "MFC",
+  "insurer_name": "Manulife",
+  "period_end": "2025-12-31",
+  "basis": "ALM study view (OSFI returns)",
+  "on_canonical_list": "yes",
+  "estimate": "est",
+  "mix_source": "est: Canada assumed to follow the entity (global) mix (ALM study rule)"
+ },
+ {
+  "insurer": "CLF",
+  "insurer_name": "Canada Life",
+  "period_end": "2025-12-31",
+  "basis": "ALM study view (OSFI returns)",
+  "on_canonical_list": "yes",
+  "estimate": "est",
+  "mix_source": "disclosed Canada non-par mix (Canada Life Q4 2025 MD&A); bond split gov / corp / private at the entity ratio (est)"
+ },
+ {
+  "insurer": "IAG",
+  "insurer_name": "iA Financial Group",
+  "period_end": "2025-12-31",
+  "basis": "ALM study view (AMF filer, company filings)",
+  "on_canonical_list": "yes",
+  "estimate": "est",
+  "mix_source": "est: consolidated invested assets by class (iA 2025 annual report), assumed to hold for the Canadian General Account; par and UL backing not separable; US Operations and investment-contract backing carved out by amount"
+ },
+ {
+  "insurer": "BEN",
+  "insurer_name": "Beneva",
+  "period_end": "2025-12-31",
+  "basis": "ALM study view (AMF filer, company filings)",
+  "on_canonical_list": "yes",
+  "estimate": "est",
+  "mix_source": "est: Beneva Group consolidated note 5 less policyholder-linked mutual funds, assumed to hold after the P&C carve-out; par and UL not separable beyond the linked funds"
+ },
+ {
+  "insurer": "DFS",
+  "insurer_name": "Desjardins Insurance",
+  "period_end": "2025-12-31",
+  "basis": "No public asset mix (liabilities only)",
+  "on_canonical_list": "yes",
+  "estimate": "",
+  "mix_source": "No stand-alone balance sheet or invested-asset mix is public for Desjardins Financial Security (ALM limitation L42)"
+ },
+ {
+  "insurer": "EMP",
+  "insurer_name": "Empire Life",
+  "period_end": "2025-12-31",
+  "basis": "ALM study view (OSFI returns)",
+  "on_canonical_list": "yes",
+  "estimate": "",
+  "mix_source": "OSFI LF2 pool less UL index-linked lines and par; entity = Canada"
+ },
+ {
+  "insurer": "IVA",
+  "insurer_name": "ivari",
+  "period_end": "2025-12-31",
+  "basis": "ALM study view (OSFI returns)",
+  "on_canonical_list": "yes",
+  "estimate": "",
+  "mix_source": "OSFI LF2 pool less UL index-linked lines and par; entity = Canada"
+ },
+ {
+  "insurer": "BLU",
+  "insurer_name": "Blumont Annuity",
+  "period_end": "2025-12-31",
+  "basis": "ALM study view (OSFI returns)",
+  "on_canonical_list": "no",
+  "estimate": "",
+  "mix_source": "OSFI LF2 pool less UL index-linked lines and par; entity = Canada"
+ },
+ {
+  "insurer": "COP",
+  "insurer_name": "Co-operators Life",
+  "period_end": "2025-12-31",
+  "basis": "ALM study view (OSFI returns)",
+  "on_canonical_list": "yes",
+  "estimate": "",
+  "mix_source": "OSFI LF2 pool less UL index-linked lines and par; entity = Canada"
+ },
+ {
+  "insurer": "EQL",
+  "insurer_name": "Equitable Life",
+  "period_end": "2025-12-31",
+  "basis": "ALM study view (OSFI returns)",
+  "on_canonical_list": "yes",
+  "estimate": "est",
+  "mix_source": "OSFI pool less par (fact sheet) and Participating UL linked accounts (est)"
+ },
+ {
+  "insurer": "IOF",
+  "insurer_name": "Foresters Life (incl. Canada Protection Plan)",
+  "period_end": "2025-12-31",
+  "basis": "ALM study view (OSFI returns)",
+  "on_canonical_list": "yes",
+  "estimate": "",
+  "mix_source": "OSFI LF2 pool less UL index-linked lines and par; entity = Canada"
+ },
+ {
+  "insurer": "WAW",
+  "insurer_name": "Wawanesa Life",
+  "period_end": "2025-12-31",
+  "basis": "ALM study view (OSFI returns)",
+  "on_canonical_list": "yes",
+  "estimate": "",
+  "mix_source": "OSFI LF2 pool less UL index-linked lines and par; entity = Canada"
+ },
+ {
+  "insurer": "uv_insurance",
+  "insurer_name": "UV Insurance",
+  "period_end": "2025-12-31",
+  "basis": "Annual report, earlier method (ALM repo silent)",
+  "on_canonical_list": "yes",
+  "estimate": "est",
+  "mix_source": "UV Insurance 2025 annual report summary statement of financial position; consolidated general fund; par and UL backing not separable (summary statements)"
+ },
+ {
+  "insurer": "assumption_life",
+  "insurer_name": "Assumption Life",
+  "period_end": "2025-12-31",
+  "basis": "Annual report, earlier method (ALM repo silent)",
+  "on_canonical_list": "yes",
+  "estimate": "",
+  "mix_source": "Assumption Life 2025 annual report note 4; consolidated general fund; par and pass-through fund units excluded (note 4)"
+ },
+ {
+  "insurer": "canadian_premier",
+  "insurer_name": "Canadian Premier Life",
+  "period_end": "2025-12-31",
+  "basis": "ALM method on OSFI returns (outside the study's peer set)",
+  "on_canonical_list": "yes",
+  "estimate": "est",
+  "mix_source": "OSFI LF2 investments by class (no UL or par lines filed); entity = Canada; not a signed-off study view"
+ },
+ {
+  "insurer": "primerica_life",
+  "insurer_name": "Primerica Life",
+  "period_end": "2025-12-31",
+  "basis": "ALM method on OSFI returns (outside the study's peer set)",
+  "on_canonical_list": "yes",
+  "estimate": "est",
+  "mix_source": "OSFI LF2 investments by class (no UL or par lines filed); entity = Canada; not a signed-off study view"
+ },
+ {
+  "insurer": "humania",
+  "insurer_name": "Humania",
+  "period_end": "2025-12-31",
+  "basis": "Annual report, earlier method (ALM repo silent)",
+  "on_canonical_list": "yes",
+  "estimate": "est",
+  "mix_source": "Humania 2025 annual report summary statement of financial position; consolidated general fund; par and UL backing not separable (summary statements)"
+ }
+]

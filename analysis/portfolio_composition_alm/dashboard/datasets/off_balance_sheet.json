@@ -1,0 +1,145 @@
+[
+ {
+  "insurer": "RBC",
+  "insurer_name": "RBC Life",
+  "repos_mm": 3625,
+  "securities_lending_mm": null,
+  "fixed_income_linear_notional_mm": 6595,
+  "fixed_income_non_linear_notional_mm": 786,
+  "equity_notional_mm": 179,
+  "repos_pct_genacct": 16.0,
+  "derivative_scope": "entity"
+ },
+ {
+  "insurer": "BMO",
+  "insurer_name": "BMO Life",
+  "repos_mm": 0,
+  "securities_lending_mm": null,
+  "fixed_income_linear_notional_mm": 3018,
+  "fixed_income_non_linear_notional_mm": null,
+  "equity_notional_mm": 234,
+  "repos_pct_genacct": 0.0,
+  "derivative_scope": "entity"
+ },
+ {
+  "insurer": "SLF",
+  "insurer_name": "Sun Life",
+  "repos_mm": 2861,
+  "securities_lending_mm": 2360,
+  "fixed_income_linear_notional_mm": 70638,
+  "fixed_income_non_linear_notional_mm": 2463,
+  "equity_notional_mm": 6230,
+  "repos_pct_genacct": 4.3,
+  "derivative_scope": "global entity"
+ },
+ {
+  "insurer": "MFC",
+  "insurer_name": "Manulife",
+  "repos_mm": 0,
+  "securities_lending_mm": 1800,
+  "fixed_income_linear_notional_mm": 482061,
+  "fixed_income_non_linear_notional_mm": 4876,
+  "equity_notional_mm": 29648,
+  "repos_pct_genacct": 0.0,
+  "derivative_scope": "global entity"
+ },
+ {
+  "insurer": "CLF",
+  "insurer_name": "Canada Life",
+  "repos_mm": 0,
+  "securities_lending_mm": 5133,
+  "fixed_income_linear_notional_mm": 52236,
+  "fixed_income_non_linear_notional_mm": 4246,
+  "equity_notional_mm": 4995,
+  "repos_pct_genacct": 0.0,
+  "derivative_scope": "global entity"
+ },
+ {
+  "insurer": "IAG",
+  "insurer_name": "iA Financial Group",
+  "repos_mm": 988,
+  "securities_lending_mm": 1483,
+  "fixed_income_linear_notional_mm": null,
+  "fixed_income_non_linear_notional_mm": null,
+  "equity_notional_mm": null,
+  "repos_pct_genacct": 2.6,
+  "derivative_scope": "entity"
+ },
+ {
+  "insurer": "BEN",
+  "insurer_name": "Beneva",
+  "repos_mm": 744,
+  "securities_lending_mm": 1050,
+  "fixed_income_linear_notional_mm": null,
+  "fixed_income_non_linear_notional_mm": null,
+  "equity_notional_mm": null,
+  "repos_pct_genacct": 7.2,
+  "derivative_scope": "entity"
+ },
+ {
+  "insurer": "EMP",
+  "insurer_name": "Empire Life",
+  "repos_mm": 0,
+  "securities_lending_mm": 1384,
+  "fixed_income_linear_notional_mm": 1350,
+  "fixed_income_non_linear_notional_mm": 0,
+  "equity_notional_mm": 1310,
+  "repos_pct_genacct": 0.0,
+  "derivative_scope": "entity"
+ },
+ {
+  "insurer": "IVA",
+  "insurer_name": "ivari",
+  "repos_mm": 0,
+  "securities_lending_mm": null,
+  "fixed_income_linear_notional_mm": -109,
+  "fixed_income_non_linear_notional_mm": null,
+  "equity_notional_mm": 888,
+  "repos_pct_genacct": 0.0,
+  "derivative_scope": "entity"
+ },
+ {
+  "insurer": "BLU",
+  "insurer_name": "Blumont Annuity",
+  "repos_mm": 0,
+  "securities_lending_mm": null,
+  "fixed_income_linear_notional_mm": 4927,
+  "fixed_income_non_linear_notional_mm": null,
+  "equity_notional_mm": null,
+  "repos_pct_genacct": 0.0,
+  "derivative_scope": "entity"
+ },
+ {
+  "insurer": "COP",
+  "insurer_name": "Co-operators Life",
+  "repos_mm": 0,
+  "securities_lending_mm": null,
+  "fixed_income_linear_notional_mm": 190,
+  "fixed_income_non_linear_notional_mm": null,
+  "equity_notional_mm": null,
+  "repos_pct_genacct": 0.0,
+  "derivative_scope": "entity"
+ },
+ {
+  "insurer": "EQL",
+  "insurer_name": "Equitable Life",
+  "repos_mm": 0,
+  "securities_lending_mm": 898,
+  "fixed_income_linear_notional_mm": 623,
+  "fixed_income_non_linear_notional_mm": null,
+  "equity_notional_mm": null,
+  "repos_pct_genacct": 0.0,
+  "derivative_scope": "entity"
+ },
+ {
+  "insurer": "WAW",
+  "insurer_name": "Wawanesa Life",
+  "repos_mm": 0,
+  "securities_lending_mm": 113,
+  "fixed_income_linear_notional_mm": null,
+  "fixed_income_non_linear_notional_mm": null,
+  "equity_notional_mm": null,
+  "repos_pct_genacct": 0.0,
+  "derivative_scope": "entity"
+ }
+]
