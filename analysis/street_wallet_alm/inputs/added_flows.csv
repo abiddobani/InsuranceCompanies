@@ -1,0 +1,7 @@
+company_id,year,months,asset,purchases_cad_mm,sales_maturities_cad_mm,scope,source
+bmo_life,2025,12,all,5323.896,4466.975,BMO Life Insurance Company (consolidated),"cdn-life-insurer-alm data/raw/bmo/2026-10-31/bmo_life_insurance_company_fs_2025.md, statement of cash flows: investments acquired; investments sold or matured (year to 31 October 2025)"
+bmo_life,2024,12,all,5592.965,4347.729,BMO Life Insurance Company (consolidated),"same file, comparative year (year to 31 October 2024)"
+ivari,2025,12,bonds,627.895,616.236,ivari,"cdn-life-insurer-alm data/raw/ivari/2026-10-31/ivari_annual_report_CS124.md, statement of cash flows: bonds and other fixed-term securities"
+ivari,2025,12,funds,283.424,123.983,ivari,"same file: exchange-traded and mutual funds (back universal life policyholder accounts)"
+ivari,2024,12,bonds,145.628,191.524,ivari,"same file, comparative year"
+ivari,2024,12,funds,283.095,121.786,ivari,"same file, comparative year"

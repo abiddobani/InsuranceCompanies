@@ -1,0 +1,33 @@
+item,value,source
+Government of Canada bonds,0.25 bp of yield x bond duration,market convention; duration from the ALM repo maturity bands
+Provincial bonds,0.5 bp of yield x duration,as above
+Municipal bonds,0.75 bp of yield x duration,as above
+Investment-grade public corporate bonds,1.25 bp of yield x duration,as above
+Asset-backed securities,1.0 bp of yield x duration,as above
+Below-investment-grade public bonds,35 bps of price,October schedule
+Common shares,10 bps,October schedule
+Preferred shares,25 bps,October schedule
+UL policyholder fund units,5 bps; turnover 13.6% a year,"turnover: ivari cash flow statement, fund purchases and sales / UL funds (ALM repo raw file)"
+Money market,"0.5 bps a roll, 3 rolls a year",October schedule; roll count assumed
+"Private placements, mortgages, real estate, funds",0 (not street),October schedule
+Repo funding,3 bps a year on the average balance,assumed dealer margin; balances from OSFI LF3 P2203028001 and the ALM repo peer summary
+Active rate: individual insurance,10.3% of public holdings,ivari cash flow statement residual
+"Active rate: annuities (PRT, payout)",16.3%,implied by BMO Life's residual after its individual insurance share at ivari's rate
+Active rate: par,49.6%,Equitable Life cash flow statement residual
+Active rate: group insurance and insurers with no line data,57.6% (quartiles 16.6% to 102.0%),median of disclosing insurers
+"Bonds maturing within a year, no maturity table","liability-mix proxy (ivari, BMO Life) or peer median",ALM repo maturity bands
+Low and high cases,Rates x0.5 to x1.7; Corporate bonds x0.67 to x1.67; Equities x0.6 to x1.5; FX x0.5 to x2; Rates & credit derivatives x0.5 to x2; Equity derivatives x0.5 to x2; Repo funding x0.5 to x2,"October ranges; insurers proxied by liability mix also flex the active rate from half to double, and insurers at the discloser median flex it over the discloser quartiles"
+Interest rate swaps,cost bps <1y/1-5y/>5y 0.125/0.75/3; traded a year per unit 1.10/0.43/0.20,"October schedule; notionals OSFI LF3 P21110 (Big 3 scaled to the Canadian share of entity investments), iA and Beneva notes"
+Bond forwards and FRAs,cost bps <1y/1-5y/>5y 1/1/1; traded a year per unit 4.00/4.00/4.00,"October schedule; notionals OSFI LF3 P21110 (Big 3 scaled to the Canadian share of entity investments), iA and Beneva notes"
+Interest rate and bond futures,cost bps <1y/1-5y/>5y 0.25/0.25/0.25; traded a year per unit 4.00/4.00/4.00,"October schedule; notionals OSFI LF3 P21110 (Big 3 scaled to the Canadian share of entity investments), iA and Beneva notes"
+Interest rate options and swaptions,cost bps <1y/1-5y/>5y 5/5/5; traded a year per unit 1.00/0.33/0.10,"October schedule; notionals OSFI LF3 P21110 (Big 3 scaled to the Canadian share of entity investments), iA and Beneva notes"
+Credit default swaps,cost bps <1y/1-5y/>5y 2/2/2; traded a year per unit 2.00/2.00/2.00,"October schedule; notionals OSFI LF3 P21110 (Big 3 scaled to the Canadian share of entity investments), iA and Beneva notes"
+FX spot and forwards,cost bps <1y/1-5y/>5y 1.5/1.5/1.5; traded a year per unit 4.00/4.00/4.00,"October schedule; notionals OSFI LF3 P21110 (Big 3 scaled to the Canadian share of entity investments), iA and Beneva notes"
+FX futures,cost bps <1y/1-5y/>5y 0.5/0.5/0.5; traded a year per unit 4.00/4.00/4.00,"October schedule; notionals OSFI LF3 P21110 (Big 3 scaled to the Canadian share of entity investments), iA and Beneva notes"
+FX and cross-currency swaps,cost bps <1y/1-5y/>5y 2/5/10; traded a year per unit 1.10/0.43/0.20,"October schedule; notionals OSFI LF3 P21110 (Big 3 scaled to the Canadian share of entity investments), iA and Beneva notes"
+FX options,cost bps <1y/1-5y/>5y 10/10/10; traded a year per unit 1.00/0.33/0.10,"October schedule; notionals OSFI LF3 P21110 (Big 3 scaled to the Canadian share of entity investments), iA and Beneva notes"
+Equity index futures,cost bps <1y/1-5y/>5y 0.5/0.5/0.5; traded a year per unit 4.00/4.00/4.00,"October schedule; notionals OSFI LF3 P21110 (Big 3 scaled to the Canadian share of entity investments), iA and Beneva notes"
+Equity options,cost bps <1y/1-5y/>5y 10/10/10; traded a year per unit 1.00/0.33/0.10,"October schedule; notionals OSFI LF3 P21110 (Big 3 scaled to the Canadian share of entity investments), iA and Beneva notes"
+Equity swaps,cost bps <1y/1-5y/>5y 5/5/5; traded a year per unit 1.00/0.33/0.10,"October schedule; notionals OSFI LF3 P21110 (Big 3 scaled to the Canadian share of entity investments), iA and Beneva notes"
+"Equity-related contracts (OSFI, type not split)",cost bps <1y/1-5y/>5y 8/8/8; traded a year per unit 1.00/0.33/0.10,"October schedule; notionals OSFI LF3 P21110 (Big 3 scaled to the Canadian share of entity investments), iA and Beneva notes"
+Commodity and other contracts,cost bps <1y/1-5y/>5y 5/5/5; traded a year per unit 1.00/0.33/0.10,"October schedule; notionals OSFI LF3 P21110 (Big 3 scaled to the Canadian share of entity investments), iA and Beneva notes"
