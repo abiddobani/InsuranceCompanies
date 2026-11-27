@@ -1,0 +1,172 @@
+company_id,company,driver,cost_cad_mm,share_pct
+rbc_life,RBC Life,Reinvesting maturities,0.14,2.1
+rbc_life,RBC Life,New money and rotation,1.847,28.4
+rbc_life,RBC Life,Active trading and ALM rebalancing,2.239,34.4
+rbc_life,RBC Life,Money market rolls,0.003,0.0
+rbc_life,RBC Life,UL policyholder fund flows,0.133,2.0
+rbc_life,RBC Life,Repo funding,0.918,14.1
+rbc_life,RBC Life,Rate hedging (derivatives),0.232,3.6
+rbc_life,RBC Life,FX hedging (derivatives),0.863,13.2
+rbc_life,RBC Life,Equity hedging (derivatives),0.14,2.2
+manulife,Manulife (Canada),Reinvesting maturities,1.678,3.8
+manulife,Manulife (Canada),New money and rotation,1.589,3.6
+manulife,Manulife (Canada),Active trading and ALM rebalancing,20.742,47.6
+manulife,Manulife (Canada),Money market rolls,0.332,0.8
+manulife,Manulife (Canada),UL policyholder fund flows,0.353,0.8
+manulife,Manulife (Canada),Repo funding,0.0,0.0
+manulife,Manulife (Canada),Rate hedging (derivatives),7.605,17.4
+manulife,Manulife (Canada),FX hedging (derivatives),6.891,15.8
+manulife,Manulife (Canada),Equity hedging (derivatives),4.406,10.1
+sun_life,Sun Life (Canada),Reinvesting maturities,2.298,5.8
+sun_life,Sun Life (Canada),New money and rotation,1.243,3.1
+sun_life,Sun Life (Canada),Active trading and ALM rebalancing,21.058,53.1
+sun_life,Sun Life (Canada),Money market rolls,0.359,0.9
+sun_life,Sun Life (Canada),UL policyholder fund flows,0.174,0.4
+sun_life,Sun Life (Canada),Repo funding,0.855,2.2
+sun_life,Sun Life (Canada),Rate hedging (derivatives),2.041,5.2
+sun_life,Sun Life (Canada),FX hedging (derivatives),9.441,23.8
+sun_life,Sun Life (Canada),Equity hedging (derivatives),2.156,5.4
+canada_life,Canada Life (Canada),Reinvesting maturities,3.086,18.0
+canada_life,Canada Life (Canada),New money and rotation,1.006,5.9
+canada_life,Canada Life (Canada),Active trading and ALM rebalancing,2.774,16.2
+canada_life,Canada Life (Canada),Money market rolls,0.107,0.6
+canada_life,Canada Life (Canada),UL policyholder fund flows,0.52,3.0
+canada_life,Canada Life (Canada),Repo funding,0.0,0.0
+canada_life,Canada Life (Canada),Rate hedging (derivatives),0.602,3.5
+canada_life,Canada Life (Canada),FX hedging (derivatives),7.519,43.8
+canada_life,Canada Life (Canada),Equity hedging (derivatives),1.544,9.0
+ia,iA Financial Group,Reinvesting maturities,0.683,1.5
+ia,iA Financial Group,New money and rotation,0.0,0.0
+ia,iA Financial Group,Active trading and ALM rebalancing,29.752,64.1
+ia,iA Financial Group,Money market rolls,0.283,0.6
+ia,iA Financial Group,UL policyholder fund flows,0,0.0
+ia,iA Financial Group,Repo funding,0.274,0.6
+ia,iA Financial Group,Rate hedging (derivatives),3.866,8.3
+ia,iA Financial Group,FX hedging (derivatives),5.512,11.9
+ia,iA Financial Group,Equity hedging (derivatives),6.064,13.1
+bmo_life,BMO Life,Reinvesting maturities,0.185,4.5
+bmo_life,BMO Life,New money and rotation,0.841,20.2
+bmo_life,BMO Life,Active trading and ALM rebalancing,1.534,36.9
+bmo_life,BMO Life,Money market rolls,0.162,3.9
+bmo_life,BMO Life,UL policyholder fund flows,0.098,2.3
+bmo_life,BMO Life,Repo funding,0.0,0.0
+bmo_life,BMO Life,Rate hedging (derivatives),0.955,23.0
+bmo_life,BMO Life,FX hedging (derivatives),0.183,4.4
+bmo_life,BMO Life,Equity hedging (derivatives),0.2,4.8
+beneva,Beneva,Reinvesting maturities,0.168,1.9
+beneva,Beneva,New money and rotation,0.0,0.0
+beneva,Beneva,Active trading and ALM rebalancing,7.576,83.9
+beneva,Beneva,Money market rolls,0.119,1.3
+beneva,Beneva,UL policyholder fund flows,0,0.0
+beneva,Beneva,Repo funding,0.222,2.5
+beneva,Beneva,Rate hedging (derivatives),0.151,1.7
+beneva,Beneva,FX hedging (derivatives),0.787,8.7
+beneva,Beneva,Equity hedging (derivatives),0.007,0.1
+ivari,ivari,Reinvesting maturities,0.017,0.9
+ivari,ivari,New money and rotation,0.14,7.5
+ivari,ivari,Active trading and ALM rebalancing,0.553,29.8
+ivari,ivari,Money market rolls,0.197,10.6
+ivari,ivari,UL policyholder fund flows,0.244,13.1
+ivari,ivari,Repo funding,0.0,0.0
+ivari,ivari,Rate hedging (derivatives),0.0,0.0
+ivari,ivari,FX hedging (derivatives),0.056,3.0
+ivari,ivari,Equity hedging (derivatives),0.649,34.9
+empire_life,Empire Life,Reinvesting maturities,0.464,12.8
+empire_life,Empire Life,New money and rotation,0.379,10.5
+empire_life,Empire Life,Active trading and ALM rebalancing,1.668,46.1
+empire_life,Empire Life,Money market rolls,0.016,0.4
+empire_life,Empire Life,UL policyholder fund flows,0.0,0.0
+empire_life,Empire Life,Repo funding,0.0,0.0
+empire_life,Empire Life,Rate hedging (derivatives),0.03,0.8
+empire_life,Empire Life,FX hedging (derivatives),0.149,4.1
+empire_life,Empire Life,Equity hedging (derivatives),0.913,25.2
+equitable_life,Equitable Life,Reinvesting maturities,0.005,0.3
+equitable_life,Equitable Life,New money and rotation,0.241,13.6
+equitable_life,Equitable Life,Active trading and ALM rebalancing,1.261,71.2
+equitable_life,Equitable Life,Money market rolls,0.008,0.4
+equitable_life,Equitable Life,UL policyholder fund flows,0.14,7.9
+equitable_life,Equitable Life,Repo funding,0.0,0.0
+equitable_life,Equitable Life,Rate hedging (derivatives),0.003,0.2
+equitable_life,Equitable Life,FX hedging (derivatives),0.114,6.4
+equitable_life,Equitable Life,Equity hedging (derivatives),0.0,0.0
+cooperators_life,Co-operators Life,Reinvesting maturities,0.043,2.1
+cooperators_life,Co-operators Life,New money and rotation,0.443,21.1
+cooperators_life,Co-operators Life,Active trading and ALM rebalancing,1.478,70.5
+cooperators_life,Co-operators Life,Money market rolls,0.006,0.3
+cooperators_life,Co-operators Life,UL policyholder fund flows,0.019,0.9
+cooperators_life,Co-operators Life,Repo funding,0.0,0.0
+cooperators_life,Co-operators Life,Rate hedging (derivatives),0.0,0.0
+cooperators_life,Co-operators Life,FX hedging (derivatives),0.106,5.1
+cooperators_life,Co-operators Life,Equity hedging (derivatives),0.0,0.0
+uv_insurance,UV Insurance,Reinvesting maturities,0.054,5.4
+uv_insurance,UV Insurance,New money and rotation,0.0,0.0
+uv_insurance,UV Insurance,Active trading and ALM rebalancing,0.941,93.4
+uv_insurance,UV Insurance,Money market rolls,0.012,1.2
+uv_insurance,UV Insurance,UL policyholder fund flows,0,0.0
+uv_insurance,UV Insurance,Repo funding,0.0,0.0
+uv_insurance,UV Insurance,Rate hedging (derivatives),0,0.0
+uv_insurance,UV Insurance,FX hedging (derivatives),0,0.0
+uv_insurance,UV Insurance,Equity hedging (derivatives),0,0.0
+wawanesa_life,Wawanesa Life,Reinvesting maturities,0.018,2.1
+wawanesa_life,Wawanesa Life,New money and rotation,0.037,4.2
+wawanesa_life,Wawanesa Life,Active trading and ALM rebalancing,0.819,93.4
+wawanesa_life,Wawanesa Life,Money market rolls,0,0.0
+wawanesa_life,Wawanesa Life,UL policyholder fund flows,0.002,0.3
+wawanesa_life,Wawanesa Life,Repo funding,0.0,0.0
+wawanesa_life,Wawanesa Life,Rate hedging (derivatives),0,0.0
+wawanesa_life,Wawanesa Life,FX hedging (derivatives),0,0.0
+wawanesa_life,Wawanesa Life,Equity hedging (derivatives),0,0.0
+assumption_life,Assumption Life,Reinvesting maturities,0.016,4.8
+assumption_life,Assumption Life,New money and rotation,0.0,0.0
+assumption_life,Assumption Life,Active trading and ALM rebalancing,0.305,92.9
+assumption_life,Assumption Life,Money market rolls,0.008,2.3
+assumption_life,Assumption Life,UL policyholder fund flows,0,0.0
+assumption_life,Assumption Life,Repo funding,0.0,0.0
+assumption_life,Assumption Life,Rate hedging (derivatives),0,0.0
+assumption_life,Assumption Life,FX hedging (derivatives),0,0.0
+assumption_life,Assumption Life,Equity hedging (derivatives),0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),Reinvesting maturities,0.008,1.2
+foresters_life,Foresters Life (incl. Canada Protection Plan),New money and rotation,0.09,13.4
+foresters_life,Foresters Life (incl. Canada Protection Plan),Active trading and ALM rebalancing,0.571,85.1
+foresters_life,Foresters Life (incl. Canada Protection Plan),Money market rolls,0.002,0.3
+foresters_life,Foresters Life (incl. Canada Protection Plan),UL policyholder fund flows,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),Repo funding,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),Rate hedging (derivatives),0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),FX hedging (derivatives),0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),Equity hedging (derivatives),0,0.0
+canadian_premier,Canadian Premier Life,Reinvesting maturities,0.017,3.7
+canadian_premier,Canadian Premier Life,New money and rotation,0.086,18.6
+canadian_premier,Canadian Premier Life,Active trading and ALM rebalancing,0.357,77.3
+canadian_premier,Canadian Premier Life,Money market rolls,0.002,0.5
+canadian_premier,Canadian Premier Life,UL policyholder fund flows,0.0,0.0
+canadian_premier,Canadian Premier Life,Repo funding,0.0,0.0
+canadian_premier,Canadian Premier Life,Rate hedging (derivatives),0,0.0
+canadian_premier,Canadian Premier Life,FX hedging (derivatives),0,0.0
+canadian_premier,Canadian Premier Life,Equity hedging (derivatives),0,0.0
+primerica_life,Primerica Life,Reinvesting maturities,0.012,4.2
+primerica_life,Primerica Life,New money and rotation,0.095,32.4
+primerica_life,Primerica Life,Active trading and ALM rebalancing,0.186,63.3
+primerica_life,Primerica Life,Money market rolls,0,0.0
+primerica_life,Primerica Life,UL policyholder fund flows,0.0,0.0
+primerica_life,Primerica Life,Repo funding,0.0,0.0
+primerica_life,Primerica Life,Rate hedging (derivatives),0,0.0
+primerica_life,Primerica Life,FX hedging (derivatives),0,0.0
+primerica_life,Primerica Life,Equity hedging (derivatives),0,0.0
+humania,Humania,Reinvesting maturities,0.009,6.1
+humania,Humania,New money and rotation,0.0,0.0
+humania,Humania,Active trading and ALM rebalancing,0.133,91.3
+humania,Humania,Money market rolls,0.004,2.5
+humania,Humania,UL policyholder fund flows,0,0.0
+humania,Humania,Repo funding,0.0,0.0
+humania,Humania,Rate hedging (derivatives),0,0.0
+humania,Humania,FX hedging (derivatives),0,0.0
+humania,Humania,Equity hedging (derivatives),0,0.0
+blumont,"Blumont Annuity (memo, not on the list of 20)",Reinvesting maturities,0.12,2.4
+blumont,"Blumont Annuity (memo, not on the list of 20)",New money and rotation,1.782,36.2
+blumont,"Blumont Annuity (memo, not on the list of 20)",Active trading and ALM rebalancing,1.152,23.4
+blumont,"Blumont Annuity (memo, not on the list of 20)",Money market rolls,0,0.0
+blumont,"Blumont Annuity (memo, not on the list of 20)",UL policyholder fund flows,0.0,0.0
+blumont,"Blumont Annuity (memo, not on the list of 20)",Repo funding,0.0,0.0
+blumont,"Blumont Annuity (memo, not on the list of 20)",Rate hedging (derivatives),0.165,3.4
+blumont,"Blumont Annuity (memo, not on the list of 20)",FX hedging (derivatives),1.703,34.6
+blumont,"Blumont Annuity (memo, not on the list of 20)",Equity hedging (derivatives),0.0,0.0

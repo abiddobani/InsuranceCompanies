@@ -1,0 +1,102 @@
+{
+ "discount_curves": {
+  "branch": "claude/project-thread-eg45ke",
+  "pull_request": 8,
+  "commit": "ae863f9ac67f6835cefbe64208ff34dfd41e799b",
+  "folder": "analysis/discount_curves/out",
+  "files": [
+   "headline_fy2025.csv",
+   "band.csv",
+   "reference_curve_check.csv",
+   "par_fy2025.csv",
+   "ultimates_and_basis.csv",
+   "trend.csv",
+   "not_covered.csv"
+  ]
+ },
+ "portfolio_composition": {
+  "branch": "claude/project-thread-mk8ea5",
+  "pull_request": 7,
+  "commit": "a069e3da5ba99c4e07c914611a5988abb2ba1b17",
+  "folder": "analysis/portfolio_composition_alm/out",
+  "files": [
+   "peers.csv",
+   "genacct_mix_l2.csv",
+   "block_mix_l3.csv",
+   "liabilities_by_line.csv",
+   "basis_effect.csv"
+  ]
+ },
+ "investment_risk": {
+  "branch": "claude/project-thread-1yngox",
+  "pull_request": 6,
+  "commit": "e1e951ac2a0d024941352c4ad0204d03c31dcbd1",
+  "folder": "analysis/investment_risk_alm/dashboard",
+  "files": [
+   "landscape.csv",
+   "peer_stats.csv",
+   "facts.csv",
+   "licat_mix.csv",
+   "licat_trend.csv",
+   "sensitivities.csv",
+   "encumbrance.csv",
+   "rbc_capital_path.csv",
+   "rbc_rotation.csv",
+   "outside_study.csv",
+   "build_info.json"
+  ]
+ },
+ "portfolio_reallocation": {
+  "branch": "claude/project-thread-i4fgtn",
+  "pull_request": 3,
+  "commit": "92556e57bdb07937415a170376779cefd12e9317",
+  "folder": "analysis/portfolio_reallocation_alm",
+  "files": [
+   "changes.csv",
+   "context.csv",
+   "mix_by_date.csv"
+  ]
+ },
+ "street_wallet": {
+  "branch": "claude/project-thread-76d0od",
+  "pull_request": 4,
+  "commit": "e0d9363940600bdeb8a69190abcfce3abfaf93bd",
+  "folder": "analysis/street_wallet_alm",
+  "files": [
+   "wallet_by_insurer.csv",
+   "wallet_by_driver.csv"
+  ]
+ },
+ "csm_surplus_duration": {
+  "branch": "claude/project-thread-reptne",
+  "pull_request": 9,
+  "commit": "c9f4bd2925a0b29859aa0987757114a8e94d718d",
+  "folder": "analysis/csm_surplus_duration",
+  "files": [
+   "results.csv",
+   "csm_runoff_summary.csv",
+   "fvoci.csv",
+   "coverage.csv",
+   "parameters.csv"
+  ]
+ },
+ "insurer_deep_dive": {
+  "branch": "claude/project-thread-yhjyr9",
+  "pull_request": 10,
+  "commit": "25220cb80c8f3a418164e332e716b94b2fb599f2",
+  "folder": "analysis/insurer_deep_dive",
+  "files": [
+   "alm.json"
+  ]
+ },
+ "org_charts": {
+  "branch": "claude/project-thread-dc6j9p",
+  "pull_request": 5,
+  "commit": "2adb6b0dbc0692122e9e69341b21d59faaadae7d",
+  "folder": "analysis/org_charts/data",
+  "files": [
+   "functions.json",
+   "alm_context.json"
+  ]
+ }
+}

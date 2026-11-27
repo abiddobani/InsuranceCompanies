@@ -1,0 +1,65 @@
+insurer,insurer_name,product_line,net_icl_mm,pct_of_nonpar,basis
+RBC,RBC Life,Individual insurance,9420.8900,50.8891,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+RBC,RBC Life,Individual annuity,608.0220,3.2844,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+RBC,RBC Life,Group insurance,902.3630,4.8743,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+RBC,RBC Life,Group annuity,7581.3270,40.9522,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+RBC,RBC Life,Participating,252.3360,,memo: outside GenAcct
+BMO,BMO Life,Individual insurance,4665.7400,33.4526,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+BMO,BMO Life,Individual annuity,3123.6500,22.3961,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+BMO,BMO Life,Group insurance,30.2200,0.2167,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+BMO,BMO Life,Group annuity,6127.7150,43.9347,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+BMO,BMO Life,Participating,-0.0210,,memo: outside GenAcct
+MFC,Manulife,Individual insurance,40497.6050,66.8145,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+MFC,Manulife,Individual annuity,4640.4820,7.6560,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+MFC,Manulife,Group insurance,12778.8650,21.0831,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+MFC,Manulife,Group annuity,2695.0110,4.4463,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+MFC,Manulife,Participating,17372.6060,,memo: outside GenAcct
+SLF,Sun Life,Individual insurance,16988.0850,30.2478,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+SLF,Sun Life,Individual annuity,6123.7880,10.9036,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+SLF,Sun Life,Group insurance,13971.6200,24.8769,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+SLF,Sun Life,Group annuity,19079.5580,33.9717,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+SLF,Sun Life,Participating,36267.7390,,memo: outside GenAcct
+CLF,Canada Life,Individual insurance,12272.2340,41.9535,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+CLF,Canada Life,Individual annuity,2499.6510,8.5452,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+CLF,Canada Life,Group insurance,9602.6710,32.8274,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+CLF,Canada Life,Group annuity,4877.4680,16.6740,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+CLF,Canada Life,Participating,61045.1590,,memo: outside GenAcct
+EMP,Empire Life,Individual insurance,4772.7950,86.8909,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+EMP,Empire Life,Individual annuity,400.3620,7.2888,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+EMP,Empire Life,Group insurance,284.6370,5.1819,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+EMP,Empire Life,Group annuity,35.0650,0.6384,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+EMP,Empire Life,Participating,1257.3440,,memo: outside GenAcct
+IVA,ivari,Individual insurance,8941.1350,98.1305,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+IVA,ivari,Individual annuity,170.2720,1.8688,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+IVA,ivari,Group insurance,0.0680,0.0007,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+IVA,ivari,Group annuity,0.0000,0.0000,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+IVA,ivari,Participating,7.2190,,memo: outside GenAcct
+EQL,Equitable Life,Individual insurance,2296.1180,77.0597,est (Participating UL moved from par to individual insurance)
+EQL,Equitable Life,Individual annuity,293.1300,9.8377,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+EQL,Equitable Life,Group insurance,242.9320,8.1530,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+EQL,Equitable Life,Group annuity,147.4830,4.9497,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+EQL,Equitable Life,Participating,2203.9460,,memo: outside GenAcct
+COP,Co-operators Life,Individual insurance,1026.1860,47.5818,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+COP,Co-operators Life,Individual annuity,73.0360,3.3865,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+COP,Co-operators Life,Group insurance,602.3180,27.9280,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+COP,Co-operators Life,Group annuity,455.1380,21.1037,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+COP,Co-operators Life,Participating,1773.4690,,memo: outside GenAcct
+IOF,Foresters Life (incl. Canada Protection Plan),Individual insurance,152.7860,31.6786,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+IOF,Foresters Life (incl. Canada Protection Plan),Individual annuity,0.4190,0.0869,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+IOF,Foresters Life (incl. Canada Protection Plan),Group insurance,4.3310,0.8980,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+IOF,Foresters Life (incl. Canada Protection Plan),Group annuity,324.7640,67.3365,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+IOF,Foresters Life (incl. Canada Protection Plan),Participating,65.2240,,memo: outside GenAcct
+WAW,Wawanesa Life,Individual insurance,336.3670,56.2386,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+WAW,Wawanesa Life,Individual annuity,134.3770,22.4671,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+WAW,Wawanesa Life,Group insurance,127.3630,21.2944,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+WAW,Wawanesa Life,Group annuity,0.0000,0.0000,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+WAW,Wawanesa Life,Participating,357.7260,,memo: outside GenAcct
+BLU,Blumont Annuity,Individual insurance,0.0000,0.0000,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+BLU,Blumont Annuity,Individual annuity,2.2500,0.0325,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+BLU,Blumont Annuity,Group insurance,0.0390,0.0006,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+BLU,Blumont Annuity,Group annuity,6916.0800,99.9669,"OSFI LF3 Canada column, net of reinsurance, excl. seg funds"
+BLU,Blumont Annuity,Participating,0.0000,,memo: outside GenAcct
+canadian_premier,Canadian Premier Life,Individual insurance,19.4380,3.5988,"OSFI LF3 Canada column, net of reinsurance (ALM method; not a signed-off study view)"
+canadian_premier,Canadian Premier Life,Individual annuity,0.0000,0.0000,"OSFI LF3 Canada column, net of reinsurance (ALM method; not a signed-off study view)"
+canadian_premier,Canadian Premier Life,Group insurance,520.6860,96.4012,"OSFI LF3 Canada column, net of reinsurance (ALM method; not a signed-off study view)"
+canadian_premier,Canadian Premier Life,Group annuity,0.0000,0.0000,"OSFI LF3 Canada column, net of reinsurance (ALM method; not a signed-off study view)"

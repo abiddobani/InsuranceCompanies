@@ -1,0 +1,2030 @@
+{
+ "sources": {
+  "rbc_ar": [
+   "RBC 2025 Annual Report (year ended 2025-10-31): market risk and insurance risk sections",
+   "https://www.rbc.com/investor-relations/_assets-custom/pdf/ar_2025_e.pdf"
+  ],
+  "rbc_ricc": [
+   "RBC Insurance Company of Canada 2025 financial statements (copy in the ALM repo, data/raw/rbc): Appointed Actuary's Report signed by Brian Guo, 2025-12-16. This is a separate RBC Insurance entity, not RBC Life",
+   ""
+  ],
+  "rbc_post": [
+   "RBC job postings 2025-26 that refer to an RBC Insurance CFO team and Chief Actuary (incumbents not named)",
+   "https://www.tealhq.com/job/director-insurance-finance-transformation_7ea1a9d6f5dbc6181166c626318a391f7b7bb"
+  ],
+  "bmo_fs": [
+   "BMO Life Insurance Company consolidated financial statements, year ended 2025-10-31 (signed 2025-12-04)",
+   "https://www.bmo.com/advisor/PDFs/bmo-life-insurance-company-consolidated-financial-statements-e.pdf"
+  ],
+  "mfc_mda": [
+   "Manulife 2025 MD&A: risk governance and market & liquidity risk management strategy",
+   "https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_MDA_2025_Y1_EN.pdf"
+  ],
+  "mfc_ar": [
+   "Manulife 2025 Annual Report: Appointed Actuary's Report dated 2026-02-11",
+   "https://www.manulife.com/content/dam/manulife-com/ca/financial-documents/investors/MFC_SR_2025_Y1_EN.pdf"
+  ],
+  "slf_ar": [
+   "Sun Life 2025 Annual Report: risk governance committees; Appointed Actuary's Report signed by Brennan Kennedy, 2026-02-11",
+   "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/annual-report-2025-e.pdf"
+  ],
+  "slf_ca": [
+   "Sun Life release: Brennan Kennedy appointed SVP & Chief Actuary from 2025-10-04; previously SVP, Global Asset Liability Management",
+   "https://www.sunlife.com/en/newsroom/news-releases/announcement/sun-life-appoints-brennan-kennedy-as-new-chief-actuary/123975/"
+  ],
+  "clf_ar": [
+   "The Canada Life Assurance Company 2025 Annual Report: Senior Officers list; Appointed Actuary's Report signed by Linda Kerrigan",
+   "https://www.canadalife.com/content/dam/canadalife/documents/corporate/annual-reports/canada-life-2025-annual-report.pdf"
+  ],
+  "gwo_ar": [
+   "Great-West Lifeco 2025 Annual Report: risk governance (ERMC chaired by the CRO; CRO reports to the CEO and the Board Risk Committee), Investment Committee mandate, ALM strategy",
+   "https://www.greatwestlifeco.com/content/dam/lifeco/documents/investor-relations/reports/2026/annual/lifeco-2025-annual-report.pdf"
+  ],
+  "clf_jobs": [
+   "Canada Life careers site: ALM analytics, ALM systems and financial risk postings in Winnipeg and London, Ontario (no incumbents named)",
+   "https://jobs.canadalife.com/job/Winnipeg-Manager%2C-ALM-Analytics-&-Platform-Development-MB/1382396733"
+  ],
+  "ia_ar": [
+   "iA Financial Group 2025 Annual Report: management's responsibility statement, risk management, Total Portfolio Management strategy",
+   "https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/annuel/2026/en/foa-annualreport2025.pdf"
+  ],
+  "dfs_ar": [
+   "Desjardins Group 2025 Annual Report: Asset/Liability Committee, Note 16 (insurance risk management)",
+   "https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf"
+  ],
+  "ben_ar": [
+   "Beneva Group 2025 Annual Report (copy in the ALM repo, data/raw/beneva): investment policy and matching, printed pp.106-113",
+   "https://www.beneva.ca/en/media/20911/download"
+  ],
+  "emp_ar": [
+   "Empire Life 2025 Annual Report: risk governance (Asset Management Committee, Chief Risk Officer), Appointed Actuary's Report signed by Will Featherstonhaugh",
+   "https://www.empire.ca/sites/default/files/2026-04/AnnualReport2025-EN-web.pdf"
+  ],
+  "emp_2021": [
+   "Empire Life release (2021-12): Edward Gibson named SVP, Capital Management & Chief Actuary",
+   "https://www.newswire.ca/news-releases/empire-life-announces-leadership-appointments-807374483.html"
+  ],
+  "iva_ar": [
+   "ivari Annual Report 2025: Appointed Actuary's Report signed by Devika Prashad, 2026-02-24; market risk management (ALM working group); risk management function",
+   "https://ivari.ca/files/CS124.pdf"
+  ],
+  "eql_ar": [
+   "Equitable Annual Report 2025: risk governance, Appointed Actuary's Report signed by Phillip K. Watson, 2026-02-20",
+   "https://equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf"
+  ],
+  "eql_post": [
+   "Equitable job posting, Chief Risk Officer (Waterloo; undated, now closed): role reports to the EVP, Chief Financial Officer",
+   "https://tietalent.com/en/jobs/p-241521736/waterloo-chief-risk-officer"
+  ],
+  "cop_iar": [
+   "Co-operators Group 2025 Integrated Annual Report: group risk appetite statement (no Co-operators Life statements are public)",
+   "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf"
+  ],
+  "cop_2019": [
+   "Insurance Business (2019): Alec Blundell, then VP Individual Insurance & Chief Actuary of Co-operators Life, named EVP & COO",
+   "https://insurancebusinessmag.com/ca/news/breaking-news/the-cooperators-to-name-executive-vicepresident-and-coo-of-life-insurance-business-161929.aspx"
+  ],
+  "iof_fs": [
+   "Foresters Life Insurance Company 2025 financial statements: Appointed Actuary's Report signed by Trudy Engel; investment policy limits; ALM testing",
+   "https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/2025-flic-financial-statements-final-ua.pdf"
+  ],
+  "waw_fs": [
+   "Wawanesa Life 2025 audited financial statements: Appointed Actuary's Report signed by Graham Kent; Note 18 risk management",
+   "https://wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf"
+  ],
+  "alm_repo": [
+   "MooseDragon/cdn-life-insurer-alm: data/processed/filings_all_long.csv (metric group alm_mandate: verbatim ALM statements with page references) and docs/DATA.md entity register",
+   "https://github.com/MooseDragon/cdn-life-insurer-alm"
+  ]
+ },
+ "insurers": {
+  "rbc_life": {
+   "title": "RBC Life: only the CIO is named publicly; five of six seats cannot be seen",
+   "lead": "Outside-in, RBC Life shows the least about who holds ALM, actuarial, finance and risk, against a General Account that is 16% repo-financed.",
+   "alm_home": "Investments",
+   "inv_seat": "Not published",
+   "combo": null,
+   "seats": [
+    {
+     "fn": "Investments",
+     "name": "Abid Dobani",
+     "title": "SVP & Chief Investment Officer, RBC Insurance",
+     "where": "RBC Insurance leadership; no executive team is published",
+     "cert": "H",
+     "src": [
+      "org:c"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "ALM",
+     "name": "Not publicly named",
+     "title": "Head of ALM, Office of the CIO",
+     "where": "Seat sits in the CIO office; no incumbent visible since July 2025 (LinkedIn)",
+     "cert": "-",
+     "src": [
+      "inv:c"
+     ],
+     "inferred": true
+    },
+    {
+     "fn": "Chief Actuary",
+     "name": "Not publicly named",
+     "title": "Chief Actuary, RBC Insurance",
+     "where": "Job postings refer to a CFO team and a Chief Actuary",
+     "cert": "-",
+     "src": [
+      "rbc_post"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Appointed Actuary",
+     "name": "Not publicly named",
+     "title": "Appointed Actuary, RBC Life Insurance Company",
+     "where": "RBC Life's own statements are not public; Brian Guo signs for RBC Insurance Company of Canada, a separate entity",
+     "cert": "-",
+     "src": [
+      "rbc_ricc"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Finance",
+     "name": "Not publicly named",
+     "title": "Chief Financial Officer, RBC Insurance",
+     "where": "Not on any RBC page",
+     "cert": "-",
+     "src": [
+      "rbc_post"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Risk",
+     "name": "Not publicly named",
+     "title": "Chief Risk Officer, RBC Insurance",
+     "where": "Risk appetite is set at bank level",
+     "cert": "-",
+     "src": [
+      "rbc_ar"
+     ],
+     "inferred": false
+    }
+   ],
+   "gov": [
+    {
+     "kind": "Policy",
+     "text": "\"Our exposure to market risk is managed through our asset/liability management activities, developed to ensure our risk profile remains within the Bank's risk appetite.\"",
+     "src": [
+      "rbc_ar"
+     ]
+    },
+    {
+     "kind": "Assets",
+     "text": "\"The investments which support actuarial liabilities are predominantly fixed income assets measured at FVTPL.\"",
+     "src": [
+      "rbc_ar"
+     ]
+    },
+    {
+     "kind": "Committees",
+     "text": "The bank's Asset Liability Committee and Group Risk Management cover the bank's own rate and liquidity risk; no insurer-level ALM or investment committee is described.",
+     "src": [
+      "rbc_ar"
+     ]
+    }
+   ]
+  },
+  "bmo_life": {
+   "title": "BMO Life: the CIO, Chief Actuary and CFO all sit on the CEO's leadership team",
+   "lead": "The Chief Actuary is also the Appointed Actuary, ALM measurement sits in the CIO office, and the CFO seat was advertised during 2026.",
+   "alm_home": "Investments",
+   "inv_seat": "Executive team",
+   "combo": "Chief Actuary is also Appointed Actuary",
+   "seats": [
+    {
+     "fn": "Investments",
+     "name": "Michael Logan",
+     "title": "Chief Investment Officer, BMO Insurance (since January 2025)",
+     "where": "Senior leadership team under the CEO",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "ALM",
+     "name": "Yiwen Zhu",
+     "title": "Director, ALM Measurement & Analysis (since July 2023)",
+     "where": "CIO office (LinkedIn title; line inferred)",
+     "cert": "M",
+     "src": [
+      "inv:li4"
+     ],
+     "inferred": true
+    },
+    {
+     "fn": "Chief Actuary",
+     "name": "Tim Cavallin",
+     "title": "Chief Actuary",
+     "where": "Senior leadership team under the CEO",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Appointed Actuary",
+     "name": "Timothy Cavallin",
+     "title": "Signed the fiscal 2025 Appointed Actuary's opinion",
+     "where": "Same person as the Chief Actuary",
+     "cert": "H",
+     "src": [
+      "bmo_fs"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Finance",
+     "name": "Linda Thorpe",
+     "title": "VP & Chief Financial Officer",
+     "where": "Signed the fiscal 2025 statements; BMO advertised the role in 2026",
+     "cert": "M",
+     "src": [
+      "bmo_fs",
+      "org:c"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Risk",
+     "name": "Not publicly named",
+     "title": "Chief Risk Officer, Insurance",
+     "where": "Seat named in the 2026 CFO posting; partners with the CFO on risk appetite",
+     "cert": "-",
+     "src": [
+      "org:c"
+     ],
+     "inferred": false
+    }
+   ],
+   "gov": [
+    {
+     "kind": "Board",
+     "text": "\"The Board has established an Investment Policy and Asset Liability Management Policy\"; responsibility for interest rate risk management \"falls to our Investment Committee\".",
+     "src": [
+      "bmo_fs"
+     ]
+    },
+    {
+     "kind": "Policy",
+     "text": "\"Our policy is to match the interest rates offered to policyholders with equivalent interest yielding assets, designated as FVTPL investments.\"",
+     "src": [
+      "bmo_fs"
+     ]
+    },
+    {
+     "kind": "Programs",
+     "text": "Risk programs named: asset-liability matching, hedging with derivatives, and quota share reinsurance.",
+     "src": [
+      "bmo_fs"
+     ]
+    }
+   ]
+  },
+  "manulife": {
+   "title": "Manulife: CIO, CFO, CRO and Chief Actuary each report to the CEO",
+   "lead": "ALM has a global head inside the CIO organisation and its own risk committee; the Chief Actuary seat changed on 12 October 2026.",
+   "alm_home": "Investments",
+   "inv_seat": "Executive team",
+   "combo": null,
+   "seats": [
+    {
+     "fn": "Investments",
+     "name": "Trevor Kreel",
+     "title": "Chief Investment Officer (since August 2024): all general account investments",
+     "where": "Executive Leadership Team; reports to the CEO",
+     "cert": "H",
+     "src": [
+      "org:a",
+      "org:n"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "ALM",
+     "name": "Ian Roke",
+     "title": "Global Head of Asset Liability Management (Boston; since July 2022)",
+     "where": "CIO organisation (LinkedIn profile; line inferred)",
+     "cert": "M",
+     "src": [
+      "inv:li1"
+     ],
+     "inferred": true
+    },
+    {
+     "fn": "Chief Actuary",
+     "name": "Sinéad O'Connor",
+     "title": "Chief Actuary (from 12 October 2026; was Global Head of Inforce Management)",
+     "where": "Executive Leadership Team; reports to the CEO",
+     "cert": "H",
+     "src": [
+      "org:o"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Appointed Actuary",
+     "name": "Derek Houle",
+     "title": "Appointed Actuary until the Chief Actuary completes Canadian accreditation",
+     "where": "The 2025 opinion was signed by Stephanie Fadous",
+     "cert": "H",
+     "src": [
+      "org:o",
+      "mfc_ar"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Finance",
+     "name": "Colin Simpson",
+     "title": "Chief Financial Officer",
+     "where": "Executive Leadership Team; reports to the CEO",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Risk",
+     "name": "Halina von dem Hagen",
+     "title": "Chief Risk Officer",
+     "where": "Executive Leadership Team; reports to the CEO",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    }
+   ],
+   "gov": [
+    {
+     "kind": "Management",
+     "text": "\"Market & liquidity risk management strategy is governed by the Global Asset Liability Committee\", one of the risk oversight committees under the Executive Risk Committee.",
+     "src": [
+      "mfc_mda"
+     ]
+    },
+    {
+     "kind": "Second line",
+     "text": "\"The Chief Actuary and the Actuarial function are considered to have accountability for both the First Line and Second Line duties.\"",
+     "src": [
+      "mfc_mda"
+     ]
+    },
+    {
+     "kind": "Policy",
+     "text": "General fund philosophy: \"invest in an asset mix that optimizes our risk adjusted returns and matches the characteristics of our underlying liabilities\".",
+     "src": [
+      "alm_repo"
+     ]
+    }
+   ]
+  },
+  "sun_life": {
+   "title": "Sun Life: the Chief Actuary came from Global ALM; the CIO sits below the top team",
+   "lead": "The CIO works inside the Sun Life Asset Management pillar, the CRO has been interim since 1 January 2026, and a Corporate ALM Committee owns the framework.",
+   "alm_home": "Investments",
+   "inv_seat": "Below executive team",
+   "combo": "Chief Actuary is also Appointed Actuary",
+   "seats": [
+    {
+     "fn": "Investments",
+     "name": "Randy Brown",
+     "title": "Chief Investment Officer (since January 2016): Office of the CIO",
+     "where": "Sun Life Asset Management pillar under Tom Murphy, not the CEO's executive team",
+     "cert": "H",
+     "src": [
+      "org:j"
+     ],
+     "inferred": true
+    },
+    {
+     "fn": "ALM",
+     "name": "Brent Simmons",
+     "title": "SVP, Global ALM, general account (since October 2025)",
+     "where": "Office of the CIO (LinkedIn profile; line inferred)",
+     "cert": "M",
+     "src": [
+      "inv:li2"
+     ],
+     "inferred": true
+    },
+    {
+     "fn": "Chief Actuary",
+     "name": "Brennan Kennedy",
+     "title": "SVP & Chief Actuary (since 4 October 2025)",
+     "where": "Previously SVP, Global ALM; reporting line not stated",
+     "cert": "H",
+     "src": [
+      "slf_ca"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Appointed Actuary",
+     "name": "Brennan Kennedy",
+     "title": "Signed the 2025 Appointed Actuary's Report",
+     "where": "Same person as the Chief Actuary",
+     "cert": "H",
+     "src": [
+      "slf_ar"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Finance",
+     "name": "Tim Deacon",
+     "title": "EVP & Chief Financial Officer",
+     "where": "Executive team; reports to the CEO",
+     "cert": "H",
+     "src": [
+      "org:a",
+      "org:b"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Risk",
+     "name": "Jacques Goulet",
+     "title": "EVP & Chief Risk Officer (interim since 1 January 2026)",
+     "where": "Executive team; permanent appointment pending",
+     "cert": "H",
+     "src": [
+      "org:b",
+      "org:d"
+     ],
+     "inferred": false
+    }
+   ],
+   "gov": [
+    {
+     "kind": "Management",
+     "text": "\"The Corporate Asset Liability Management Committee is responsible for providing oversight and input on the Asset Liability Management framework, policies, guidelines, limits\" and hedging strategy changes.",
+     "src": [
+      "slf_ar"
+     ]
+    },
+    {
+     "kind": "Management",
+     "text": "An Investment & Credit Risk Committee reviews \"critical matters related to the on-going management of the Company's General Fund\".",
+     "src": [
+      "slf_ar"
+     ]
+    },
+    {
+     "kind": "Policy",
+     "text": "\"Liabilities having a similar risk profile are grouped together and a customized investment and hedging strategy is developed\" within risk appetite limits.",
+     "src": [
+      "alm_repo"
+     ]
+    }
+   ]
+  },
+  "canada_life": {
+   "title": "Canada Life: investments, actuarial, finance and risk are led at Lifeco level",
+   "lead": "The Canadian executive page names a CFO and CRO for Canada but no investment or actuarial lead; the Appointed Actuary is a Lifeco senior officer.",
+   "alm_home": "Not disclosed",
+   "inv_seat": "Group / affiliate",
+   "combo": null,
+   "seats": [
+    {
+     "fn": "Investments",
+     "name": "John Melvin",
+     "title": "EVP & Chief Investment Officer, Canada Life and Great-West Lifeco",
+     "where": "Senior officer of the company; Robert Barnes is SVP & CIO, Canada Life (LinkedIn)",
+     "cert": "H",
+     "src": [
+      "clf_ar",
+      "inv:li1"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "ALM",
+     "name": "Not publicly named",
+     "title": "Head of ALM",
+     "where": "ALM analytics, ALM systems and financial risk teams are advertised; no head is named",
+     "cert": "-",
+     "src": [
+      "clf_jobs"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Chief Actuary",
+     "name": "Not publicly named",
+     "title": "Chief Actuary",
+     "where": "No Chief Actuary title appears in the senior officers list",
+     "cert": "-",
+     "src": [
+      "clf_ar"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Appointed Actuary",
+     "name": "Linda Kerrigan",
+     "title": "SVP & Appointed Actuary",
+     "where": "Senior officer of The Canada Life Assurance Company",
+     "cert": "H",
+     "src": [
+      "clf_ar"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Finance",
+     "name": "Jon Nielsen",
+     "title": "EVP & Chief Financial Officer, Canada Life and Lifeco",
+     "where": "Mei Dong is CFO for Canada on the Canadian executive page",
+     "cert": "H",
+     "src": [
+      "clf_ar",
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Risk",
+     "name": "Dervla Tomlin",
+     "title": "EVP & Chief Risk Officer, Canada Life and Lifeco",
+     "where": "Reports to the CEO and the Board Risk Committee; Nancy Hudson is CRO for Canada",
+     "cert": "H",
+     "src": [
+      "clf_ar",
+      "gwo_ar",
+      "org:a"
+     ],
+     "inferred": false
+    }
+   ],
+   "gov": [
+    {
+     "kind": "Management",
+     "text": "An Executive Risk Management Committee chaired by the CRO is advised by three enterprise-wide sub-committees.",
+     "src": [
+      "gwo_ar"
+     ]
+    },
+    {
+     "kind": "Board",
+     "text": "The Investment Committee oversees global investment strategy and approves the Investment Policy; the Risk Committee meets with it as appropriate.",
+     "src": [
+      "gwo_ar"
+     ]
+    },
+    {
+     "kind": "Policy",
+     "text": "\"Asset and liability cash flows are matched within established limits\"; the ALM strategy \"uses public equities and other non-fixed income assets\" to support liabilities.",
+     "src": [
+      "alm_repo"
+     ]
+    }
+   ]
+  },
+  "ia": {
+   "title": "iA: one executive is both CFO and Chief Actuary; ALM has an SVP in investments",
+   "lead": "The CIO, the CRO and the combined CFO and Chief Actuary each sit on the Executive Committee; the Appointed Actuary is not named in the annual report.",
+   "alm_home": "Investments",
+   "inv_seat": "Executive team",
+   "combo": "CFO is also Chief Actuary",
+   "seats": [
+    {
+     "fn": "Investments",
+     "name": "Alain Bergeron",
+     "title": "EVP & Chief Investment Officer (since September 2019); CEO & CIO, iA Global Asset Management",
+     "where": "Executive Committee",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "ALM",
+     "name": "Alexandre Bannon",
+     "title": "SVP, Head of Asset Liability Management, iA Global Asset Management",
+     "where": "CIO organisation (team page; line inferred)",
+     "cert": "H",
+     "src": [
+      "inv:c"
+     ],
+     "inferred": true
+    },
+    {
+     "fn": "Chief Actuary",
+     "name": "Éric Jobin",
+     "title": "EVP, CFO & Chief Actuary (since August 2023)",
+     "where": "Executive Committee",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Appointed Actuary",
+     "name": "Not publicly named",
+     "title": "Appointed Actuary, Industrial Alliance Insurance and Financial Services",
+     "where": "Appointed by the subsidiary's Board under the Insurers Act (Quebec); not named",
+     "cert": "-",
+     "src": [
+      "ia_ar"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Finance",
+     "name": "Éric Jobin",
+     "title": "EVP, CFO & Chief Actuary",
+     "where": "Executive Committee",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Risk",
+     "name": "Marie-Annick Bonneau",
+     "title": "EVP & Chief Risk Officer",
+     "where": "Executive Committee; the Chief Compliance Officer reports to her",
+     "cert": "H",
+     "src": [
+      "org:a",
+      "org:g",
+      "ia_ar"
+     ],
+     "inferred": false
+    }
+   ],
+   "gov": [
+    {
+     "kind": "Policy",
+     "text": "Total Portfolio Management strategy \"designed to optimize long-term returns on the assets while maintaining strict asset/liability replicating criteria\".",
+     "src": [
+      "alm_repo"
+     ]
+    },
+    {
+     "kind": "Board",
+     "text": "Compliance with the investment policy is \"reported to the Board of Directors' Investment Committee at least quarterly\".",
+     "src": [
+      "ia_ar"
+     ]
+    },
+    {
+     "kind": "Second line",
+     "text": "The Chief Risk Officer \"oversees the risk management function, which spans the entire organization\".",
+     "src": [
+      "ia_ar"
+     ]
+    }
+   ]
+  },
+  "desjardins": {
+   "title": "Desjardins: one VP holds finance and corporate actuarial; the group manager runs assets",
+   "lead": "DFS lists its own Appointed Actuary, CRO and VP Investments on one management team; rate and liquidity risk go to a group-level Asset/Liability Committee.",
+   "alm_home": "Not disclosed",
+   "inv_seat": "Executive team",
+   "combo": "Finance lead also heads corporate actuarial",
+   "seats": [
+    {
+     "fn": "Investments",
+     "name": "Nicolas Richard",
+     "title": "VP, Investments, DFS (also SMD & Business Head, Desjardins Global Asset Management)",
+     "where": "DFS management team",
+     "cert": "H",
+     "src": [
+      "org:b",
+      "org:c"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "ALM",
+     "name": "Not publicly named",
+     "title": "Head of ALM",
+     "where": "No DFS seat named; the group Asset/Liability Committee approves matching strategy",
+     "cert": "-",
+     "src": [
+      "dfs_ar"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Chief Actuary",
+     "name": "Alexandre Guertin",
+     "title": "VP, Wealth Management and L&H Insurance Finance & Corporate Actuarial",
+     "where": "DFS management team",
+     "cert": "H",
+     "src": [
+      "org:b"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Appointed Actuary",
+     "name": "Nathalie Bouchard",
+     "title": "VP, Corporate Actuarial Services & Appointed Actuary",
+     "where": "DFS management team",
+     "cert": "H",
+     "src": [
+      "org:b"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Finance",
+     "name": "Alexandre Guertin",
+     "title": "VP, Wealth Management and L&H Insurance Finance & Corporate Actuarial",
+     "where": "DFS management team",
+     "cert": "H",
+     "src": [
+      "org:b"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Risk",
+     "name": "Mario St-Hilaire",
+     "title": "Chief Risk Officer, Life Insurance",
+     "where": "DFS management team",
+     "cert": "H",
+     "src": [
+      "org:b"
+     ],
+     "inferred": false
+    }
+   ],
+   "gov": [
+    {
+     "kind": "Management",
+     "text": "\"The Asset/Liability Committee supports the Desjardins Group Finance and Risk Management Committee in providing interest rate and liquidity risk\" oversight (group level).",
+     "src": [
+      "dfs_ar"
+     ]
+    },
+    {
+     "kind": "Policy",
+     "text": "\"A hedging program was implemented by the life and health insurance subsidiary to minimize the impact of interest rate fluctuations on guarantees under segregated fund contracts.\"",
+     "src": [
+      "alm_repo"
+     ]
+    },
+    {
+     "kind": "Board",
+     "text": "DFS has its own Board Investment Committee (named in a director's biography).",
+     "src": [
+      "dfs_ar"
+     ]
+    }
+   ]
+  },
+  "beneva": {
+   "title": "Beneva: no investment, actuarial or risk officer sits on the executive team",
+   "lead": "The CIO and the risk head appear only on LinkedIn and in the annual report, placed under Finance by inference; the Board's Investment Committee monitors matching.",
+   "alm_home": "Not disclosed",
+   "inv_seat": "Below executive team",
+   "combo": null,
+   "seats": [
+    {
+     "fn": "Investments",
+     "name": "Hugo Drouin",
+     "title": "VP & Chief Investment Officer (since July 2020)",
+     "where": "Not on beneva.ca; placed under the EVP Finance by inference",
+     "cert": "M",
+     "src": [
+      "inv:li1"
+     ],
+     "inferred": true
+    },
+    {
+     "fn": "ALM",
+     "name": "Not publicly named",
+     "title": "Head of ALM",
+     "where": "Matching is done by line of business; no seat named",
+     "cert": "-",
+     "src": [
+      "ben_ar"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Chief Actuary",
+     "name": "Not publicly named",
+     "title": "Chief Actuary",
+     "where": "Not on the management team page",
+     "cert": "-",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Appointed Actuary",
+     "name": "Not publicly named",
+     "title": "Appointed Actuary",
+     "where": "The annual report refers to \"the actuary appointed by the Board\" without a name",
+     "cert": "-",
+     "src": [
+      "ben_ar"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Finance",
+     "name": "Mélissa Gilbert",
+     "title": "EVP & Leader, Finance",
+     "where": "Management team; reports to the CEO",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Risk",
+     "name": "Michel Fournier",
+     "title": "VP, Risk Management",
+     "where": "Placed under the EVP Finance by inference",
+     "cert": "M",
+     "src": [
+      "org:b"
+     ],
+     "inferred": true
+    }
+   ],
+   "gov": [
+    {
+     "kind": "Policy",
+     "text": "Assets are matched to liabilities by line of business with separate surplus segments; compliance is reviewed monthly.",
+     "src": [
+      "alm_repo"
+     ]
+    },
+    {
+     "kind": "Board",
+     "text": "Interest rate risk is managed by cash-flow matching with maximum spread limits, reported quarterly to the Board's Investment Committee.",
+     "src": [
+      "alm_repo"
+     ]
+    },
+    {
+     "kind": "Board",
+     "text": "A sub-committee of the Investment Committee covers investments in private companies.",
+     "src": [
+      "ben_ar"
+     ]
+    }
+   ]
+  },
+  "empire_life": {
+   "title": "Empire Life: a management committee, not a named officer, owns ALM",
+   "lead": "The CFO changed in November 2026; the leadership page lists no Chief Risk Officer or Chief Actuary, though the annual report describes both roles.",
+   "alm_home": "Committee",
+   "inv_seat": "Executive team",
+   "combo": null,
+   "seats": [
+    {
+     "fn": "Investments",
+     "name": "Paul Holba",
+     "title": "SVP & Chief Investment Officer (CIO since July 2022); President, Empire Life Investments",
+     "where": "Leadership team; reports to the CEO",
+     "cert": "H",
+     "src": [
+      "org:a",
+      "org:b"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "ALM",
+     "name": "Not publicly named",
+     "title": "Head of ALM",
+     "where": "The Asset Management Committee monitors ALM practices; no seat named",
+     "cert": "-",
+     "src": [
+      "emp_ar"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Chief Actuary",
+     "name": "Not publicly named",
+     "title": "Chief Actuary",
+     "where": "Edward Gibson was named SVP, Capital Management & Chief Actuary in 2021; not on the current page",
+     "cert": "-",
+     "src": [
+      "emp_2021",
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Appointed Actuary",
+     "name": "Will Featherstonhaugh",
+     "title": "Signed the 2025 Appointed Actuary's Report",
+     "where": "Not on the leadership page",
+     "cert": "H",
+     "src": [
+      "emp_ar"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Finance",
+     "name": "Scott Ewert",
+     "title": "SVP & Chief Financial Officer (also VP & CFO, E-L Financial)",
+     "where": "Leadership team; succeeded Rebecca Rycroft in November 2026",
+     "cert": "H",
+     "src": [
+      "org:a",
+      "org:c"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Risk",
+     "name": "Not publicly named",
+     "title": "Chief Risk Officer",
+     "where": "Sits on the Asset Management Committee; shares Board reporting on capital with the CFO",
+     "cert": "-",
+     "src": [
+      "emp_ar"
+     ],
+     "inferred": false
+    }
+   ],
+   "gov": [
+    {
+     "kind": "Management",
+     "text": "\"The Company has an Asset Management Committee\" overseeing \"market, credit and liquidity risk including asset/liability management as well as capital management\".",
+     "src": [
+      "emp_ar"
+     ]
+    },
+    {
+     "kind": "Board",
+     "text": "The Investment Committee \"also monitors the Company's asset/liability management activities\"; a Risk and Capital Committee oversees risk and capital.",
+     "src": [
+      "emp_ar"
+     ]
+    },
+    {
+     "kind": "Policy",
+     "text": "An Equity Risk Hedging Policy supports general fund equity hedging and is reported at least quarterly to the Risk and Capital Committee.",
+     "src": [
+      "alm_repo"
+     ]
+    }
+   ]
+  },
+  "ivari": {
+   "title": "ivari: an ALM working group runs market risk; finance and risk are group roles",
+   "lead": "ivari publishes no leadership team. Its Appointed Actuary signs locally, while the CFO, CRO and Chief Actuary carry Sagicor group titles.",
+   "alm_home": "Investments",
+   "inv_seat": "Below executive team",
+   "combo": null,
+   "seats": [
+    {
+     "fn": "Investments",
+     "name": "Andrew Bloom",
+     "title": "SVP, Investments (since August 2026)",
+     "where": "LinkedIn profile; no ivari team page",
+     "cert": "M",
+     "src": [
+      "inv:li1"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "ALM",
+     "name": "Puneet Malik",
+     "title": "AVP, Investments & ALM (since 2020)",
+     "where": "Investment team (LinkedIn; line inferred)",
+     "cert": "M",
+     "src": [
+      "inv:li2"
+     ],
+     "inferred": true
+    },
+    {
+     "fn": "Chief Actuary",
+     "name": "Nari Persad",
+     "title": "Group Chief Actuary, Sagicor",
+     "where": "Group role with an ivari remit (inferred)",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": true
+    },
+    {
+     "fn": "Appointed Actuary",
+     "name": "Devika Prashad",
+     "title": "Appointed Actuary: signed the 2025 report",
+     "where": "ivari",
+     "cert": "H",
+     "src": [
+      "iva_ar"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Finance",
+     "name": "Kathryn Jenkins",
+     "title": "Chief Financial Officer, ivari (Group CFO, Sagicor)",
+     "where": "Signed the 2025 statements with the CEO",
+     "cert": "H",
+     "src": [
+      "org:a",
+      "org:b"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Risk",
+     "name": "Lynda Gauthier",
+     "title": "Group Chief Risk Officer & Chief Sustainability Officer, Sagicor",
+     "where": "Group role; ivari's report describes a CRO directing Risk Management",
+     "cert": "H",
+     "src": [
+      "org:a",
+      "org:d",
+      "iva_ar"
+     ],
+     "inferred": true
+    }
+   ],
+   "gov": [
+    {
+     "kind": "Management",
+     "text": "\"The Asset-Liability Management working group oversees key market risk strategies and tactics, reviews compliance with applicable policies and standards and reviews investment and hedging performance.\"",
+     "src": [
+      "alm_repo"
+     ]
+    },
+    {
+     "kind": "Second line",
+     "text": "The Risk Management function, \"under the direction of the Chief Risk Officer\", works with a Risk and Capital Committee that can adjust or limit risk positions.",
+     "src": [
+      "iva_ar"
+     ]
+    },
+    {
+     "kind": "Assets",
+     "text": "All invested assets are FVTPL; ETFs support equity-linked universal life account values.",
+     "src": [
+      "alm_repo"
+     ]
+    }
+   ]
+  },
+  "equitable_life": {
+   "title": "Equitable: the Chief Actuary is the Appointed Actuary; the CRO reports to the CFO",
+   "lead": "CIO, CFO and Chief Actuary are senior management; the CRO is not named, and an Asset Management Committee oversees market and credit risk.",
+   "alm_home": "Committee",
+   "inv_seat": "Executive team",
+   "combo": "Chief Actuary is also Appointed Actuary",
+   "seats": [
+    {
+     "fn": "Investments",
+     "name": "Eugene Lundrigan",
+     "title": "EVP, Chief Investment Officer & Head of Asset Management (since September 2025)",
+     "where": "Senior management; reports to the CEO",
+     "cert": "H",
+     "src": [
+      "org:a",
+      "org:b"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "ALM",
+     "name": "Not publicly named",
+     "title": "Head of ALM",
+     "where": "The Asset Management division manages exposures; no seat named",
+     "cert": "-",
+     "src": [
+      "eql_ar"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Chief Actuary",
+     "name": "Phillip K. Watson",
+     "title": "SVP, Chief Actuary",
+     "where": "Senior management",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Appointed Actuary",
+     "name": "Phillip K. Watson",
+     "title": "Signed the 2025 Appointed Actuary's Report",
+     "where": "Same person as the Chief Actuary",
+     "cert": "H",
+     "src": [
+      "eql_ar"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Finance",
+     "name": "Melanie Kliska",
+     "title": "EVP, Chief Financial Officer",
+     "where": "Senior management; reports to the CEO",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Risk",
+     "name": "Not publicly named",
+     "title": "Chief Risk Officer",
+     "where": "Seat reports to the EVP, CFO (job posting); not in the senior management list",
+     "cert": "-",
+     "src": [
+      "eql_post"
+     ],
+     "inferred": false
+    }
+   ],
+   "gov": [
+    {
+     "kind": "Management",
+     "text": "Senior management oversees risk \"through the Senior Risk and Capital Committee and Asset Management Committee\".",
+     "src": [
+      "eql_ar"
+     ]
+    },
+    {
+     "kind": "Second line",
+     "text": "Risk oversight teams are \"led by the Chief Risk Officer, Chief Compliance Officer, Chief Actuary, and Head of Technology - Risk and Governance\".",
+     "src": [
+      "eql_ar"
+     ]
+    },
+    {
+     "kind": "Board",
+     "text": "The Investment Committee \"recommends investment and lending policies and objectives for Board approval\".",
+     "src": [
+      "eql_ar"
+     ]
+    }
+   ]
+  },
+  "cooperators_life": {
+   "title": "Co-operators Life: the asset manager's CEO sits on the group executive team",
+   "lead": "Co-operators Life has no statements or leadership page of its own. Finance is a group role; no risk or actuarial officer is named.",
+   "alm_home": "Not disclosed",
+   "inv_seat": "Group / affiliate",
+   "combo": null,
+   "seats": [
+    {
+     "fn": "Investments",
+     "name": "Ian A. McKinnon",
+     "title": "Chief Investment Officer, Addenda Capital (the group's asset manager)",
+     "where": "Addenda's CEO Roger Beauchemin sits on the group executive team",
+     "cert": "H",
+     "src": [
+      "inv:b",
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "ALM",
+     "name": "Not publicly named",
+     "title": "Head of ALM",
+     "where": "Not disclosed",
+     "cert": "-",
+     "src": [
+      "cop_iar"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Chief Actuary",
+     "name": "Not publicly named",
+     "title": "Chief Actuary, Co-operators Life",
+     "where": "Alec Blundell held the title until 2019 and is now EVP & COO of Co-operators Life",
+     "cert": "-",
+     "src": [
+      "cop_2019"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Appointed Actuary",
+     "name": "Not publicly named",
+     "title": "Appointed Actuary, Co-operators Life",
+     "where": "No Co-operators Life statements are public",
+     "cert": "-",
+     "src": [
+      "cop_iar"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Finance",
+     "name": "Karen Higgins",
+     "title": "EVP, Finance & Chief Financial Officer, The Co-operators Group",
+     "where": "Group executive team",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Risk",
+     "name": "Not publicly named",
+     "title": "Chief Risk Officer",
+     "where": "No CRO appears on the group executive team page",
+     "cert": "-",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    }
+   ],
+   "gov": [
+    {
+     "kind": "Group",
+     "text": "\"Our risk appetite defines the types and amount of risk we are willing and able to responsibly accept\" (group statement; nothing specific to Co-operators Life).",
+     "src": [
+      "alm_repo"
+     ]
+    },
+    {
+     "kind": "Limits",
+     "text": "The ALM repo builds this insurer from OSFI returns only, because no Co-operators Life financial statements are published.",
+     "src": [
+      "alm_repo"
+     ]
+    },
+    {
+     "kind": "Assets",
+     "text": "Addenda Capital manages the general account; its Executive Committee is on the investment-team slide.",
+     "src": [
+      "org:b"
+     ]
+    }
+   ]
+  },
+  "foresters_life": {
+   "title": "Foresters Life: the Global CFO owns investments and ALM",
+   "lead": "The CIO appears only on LinkedIn and likely reports to the CFO. The in-force non-par block is fully coinsured to the parent, so most ALM sits at group level.",
+   "alm_home": "Finance",
+   "inv_seat": "Below executive team",
+   "combo": "CFO also owns investments and ALM",
+   "seats": [
+    {
+     "fn": "Investments",
+     "name": "Clark Wagner",
+     "title": "Chief Investment Officer, Foresters Financial (since April 2023)",
+     "where": "Likely under the Global CFO (LinkedIn; line inferred)",
+     "cert": "M",
+     "src": [
+      "inv:li1"
+     ],
+     "inferred": true
+    },
+    {
+     "fn": "ALM",
+     "name": "Alvin Sharma",
+     "title": "Global Chief Financial Officer: owns the investment and ALM functions",
+     "where": "Executive team; reports to the CEO",
+     "cert": "H",
+     "src": [
+      "org:b"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Chief Actuary",
+     "name": "Not publicly named",
+     "title": "Chief Actuary",
+     "where": "Not on the senior leadership page",
+     "cert": "-",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Appointed Actuary",
+     "name": "Trudy Engel",
+     "title": "Signed the 2025 Appointed Actuary's Report for Foresters Life",
+     "where": "Not on the senior leadership page",
+     "cert": "H",
+     "src": [
+      "iof_fs"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Finance",
+     "name": "Alvin Sharma",
+     "title": "Global Chief Financial Officer (since September 2018)",
+     "where": "Executive team; signed the 2025 statements",
+     "cert": "H",
+     "src": [
+      "org:a",
+      "iof_fs"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Risk",
+     "name": "Caroline Rendall",
+     "title": "Chief Risk Officer (since July 2023)",
+     "where": "Executive team",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    }
+   ],
+   "gov": [
+    {
+     "kind": "Policy",
+     "text": "\"Testing is performed under several interest rate scenarios (including increasing and decreasing rates) to make appropriate provision for reinvestment or disinvestment risk.\"",
+     "src": [
+      "alm_repo"
+     ]
+    },
+    {
+     "kind": "Board",
+     "text": "A Board-approved Investment Policy limits fixed income to investment grade, common stocks to 10% and preferred stocks to 15% of invested assets; a Risk and Investment Committee sits at Board level.",
+     "src": [
+      "alm_repo",
+      "org:a"
+     ]
+    },
+    {
+     "kind": "Structure",
+     "text": "The in-force non-par block is 100% quota-share coinsured to the parent (2021), per the ALM repo's entity register.",
+     "src": [
+      "alm_repo"
+     ]
+    }
+   ]
+  },
+  "canada_protection_plan": {
+   "title": "Canada Protection Plan: names no functions of its own; Foresters supplies them",
+   "lead": "CPP's policies are underwritten by Foresters Life, so the seats and figures below are Foresters'. cpp.ca names no executives.",
+   "alm_home": "Finance",
+   "inv_seat": "Below executive team",
+   "combo": "CFO also owns investments and ALM",
+   "seats": [
+    {
+     "fn": "Investments",
+     "name": "Clark Wagner",
+     "title": "Chief Investment Officer, Foresters Financial (since April 2023)",
+     "where": "Likely under the Global CFO (LinkedIn; line inferred)",
+     "cert": "M",
+     "src": [
+      "inv:li1"
+     ],
+     "inferred": true
+    },
+    {
+     "fn": "ALM",
+     "name": "Alvin Sharma",
+     "title": "Global Chief Financial Officer: owns the investment and ALM functions",
+     "where": "Executive team; reports to the CEO",
+     "cert": "H",
+     "src": [
+      "org:b"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Chief Actuary",
+     "name": "Not publicly named",
+     "title": "Chief Actuary",
+     "where": "Not on the senior leadership page",
+     "cert": "-",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Appointed Actuary",
+     "name": "Trudy Engel",
+     "title": "Signed the 2025 Appointed Actuary's Report for Foresters Life",
+     "where": "Not on the senior leadership page",
+     "cert": "H",
+     "src": [
+      "iof_fs"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Finance",
+     "name": "Alvin Sharma",
+     "title": "Global Chief Financial Officer (since September 2018)",
+     "where": "Executive team; signed the 2025 statements",
+     "cert": "H",
+     "src": [
+      "org:a",
+      "iof_fs"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Risk",
+     "name": "Caroline Rendall",
+     "title": "Chief Risk Officer (since July 2023)",
+     "where": "Executive team",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    }
+   ],
+   "gov": [
+    {
+     "kind": "Policy",
+     "text": "\"Testing is performed under several interest rate scenarios (including increasing and decreasing rates) to make appropriate provision for reinvestment or disinvestment risk.\"",
+     "src": [
+      "alm_repo"
+     ]
+    },
+    {
+     "kind": "Board",
+     "text": "A Board-approved Investment Policy limits fixed income to investment grade, common stocks to 10% and preferred stocks to 15% of invested assets; a Risk and Investment Committee sits at Board level.",
+     "src": [
+      "alm_repo",
+      "org:a"
+     ]
+    },
+    {
+     "kind": "Structure",
+     "text": "The in-force non-par block is 100% quota-share coinsured to the parent (2021), per the ALM repo's entity register.",
+     "src": [
+      "alm_repo"
+     ]
+    }
+   ]
+  },
+  "wawanesa_life": {
+   "title": "Wawanesa Life: finance, risk and investments come from the P&C parent",
+   "lead": "The life company keeps its own actuarial seats; the Board's Investment Committee sets guidelines and receives quarterly duration and matching reports.",
+   "alm_home": "Not disclosed",
+   "inv_seat": "Below executive team",
+   "combo": null,
+   "seats": [
+    {
+     "fn": "Investments",
+     "name": "Wes Peters",
+     "title": "VP, Investments, Wawanesa group (external managers)",
+     "where": "Placed under the group CFO by inference; aggregator profiles only",
+     "cert": "L",
+     "src": [
+      "org:d"
+     ],
+     "inferred": true
+    },
+    {
+     "fn": "ALM",
+     "name": "Not publicly named",
+     "title": "Head of ALM",
+     "where": "Assets and liabilities are grouped into funds by liability profile; no seat named",
+     "cert": "-",
+     "src": [
+      "waw_fs"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Chief Actuary",
+     "name": "Not publicly named",
+     "title": "VP, Chief Actuary & Risk Management, Wawanesa Life",
+     "where": "Seat named in the 2025 statements; person not named",
+     "cert": "-",
+     "src": [
+      "waw_fs"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Appointed Actuary",
+     "name": "Julia Vul",
+     "title": "VP, Corporate Actuarial & Appointed Actuary (June 2026)",
+     "where": "Graham Kent signed the 2025 opinion",
+     "cert": "M",
+     "src": [
+      "org:c",
+      "waw_fs"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Finance",
+     "name": "Gord Dowhan",
+     "title": "SVP, Chief Financial Officer, Wawanesa Mutual",
+     "where": "Group Executive Leadership Team",
+     "cert": "H",
+     "src": [
+      "org:a",
+      "org:b"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Risk",
+     "name": "Maja Dos Santos",
+     "title": "SVP, Chief Risk Officer, Wawanesa Mutual (June 2026)",
+     "where": "Group Executive Leadership Team",
+     "cert": "M",
+     "src": [
+      "org:c"
+     ],
+     "inferred": false
+    }
+   ],
+   "gov": [
+    {
+     "kind": "Policy",
+     "text": "\"Insurance product lines with similar liability profiles and the assets supporting those liabilities are grouped into separate funds.\"",
+     "src": [
+      "alm_repo"
+     ]
+    },
+    {
+     "kind": "Board",
+     "text": "Fixed income duration ranges sit in the Investment Policy Statement; compliance is reported quarterly to the Board Investment Committee.",
+     "src": [
+      "alm_repo"
+     ]
+    },
+    {
+     "kind": "Second line",
+     "text": "\"The Offices of the Chief Risk Officer and the Chief Compliance Officer and the Vice President, Chief Actuary & Risk Management\" support the Risk Committee and the Life Risk Committee.",
+     "src": [
+      "waw_fs"
+     ]
+    }
+   ]
+  },
+  "assumption_life": {
+   "title": "Assumption Life: one VP is CFO and Chief Actuary and oversees risk",
+   "lead": "The same VP's remit covers finance, enterprise risk and corporate actuarial; a wholly owned manager, Louisbourg Investments, runs the assets.",
+   "alm_home": "Not disclosed",
+   "inv_seat": "Group / affiliate",
+   "combo": "CFO is also Chief Actuary",
+   "seats": [
+    {
+     "fn": "Investments",
+     "name": "Luc Gaudet",
+     "title": "President & CEO, Louisbourg Investments (wholly owned asset manager)",
+     "where": "Subsidiary; line to Assumption Life's CFO inferred",
+     "cert": "M",
+     "src": [
+      "org:b",
+      "org:c"
+     ],
+     "inferred": true
+    },
+    {
+     "fn": "ALM",
+     "name": "Not publicly named",
+     "title": "Head of ALM",
+     "where": "Not disclosed",
+     "cert": "-",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Chief Actuary",
+     "name": "Michel Allain",
+     "title": "VP, Chief Financial Officer & Chief Actuary",
+     "where": "Management team; reports to the CEO",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Appointed Actuary",
+     "name": "Lyne Francoeur",
+     "title": "Appointed Actuary",
+     "where": "Leadership team",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Finance",
+     "name": "Michel Allain",
+     "title": "VP, Chief Financial Officer & Chief Actuary",
+     "where": "Management team; reports to the CEO",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Risk",
+     "name": "Isabelle Bourgeois",
+     "title": "Chief Risk Officer & Chief of Internal Audit",
+     "where": "Leadership team (line inferred)",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": true
+    }
+   ],
+   "gov": [
+    {
+     "kind": "Remit",
+     "text": "The CFO & Chief Actuary is \"responsible for the company's financial strategies and operations, the enterprise risk management and corporate actuarial activities\".",
+     "src": [
+      "org:a"
+     ]
+    },
+    {
+     "kind": "Limits",
+     "text": "Assumption Life is outside the ALM repo: it files no OSFI returns, so no balance-sheet view or ALM statement has been collected.",
+     "src": [
+      "alm_repo"
+     ]
+    }
+   ]
+  },
+  "canadian_premier": {
+   "title": "Canadian Premier Life: no investment or actuarial lead is named in Canada",
+   "lead": "The five-person team puts actuarial under the CFO and risk under the Chief Legal Officer; the portfolio is presumed to be run by the US parent.",
+   "alm_home": "Not disclosed",
+   "inv_seat": "Not named",
+   "combo": "CFO also covers actuarial",
+   "seats": [
+    {
+     "fn": "Investments",
+     "name": "Not publicly named",
+     "title": "Head of Investments",
+     "where": "Likely at Securian Financial in the US (presumed)",
+     "cert": "-",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "ALM",
+     "name": "Not publicly named",
+     "title": "Head of ALM",
+     "where": "Not disclosed",
+     "cert": "-",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Chief Actuary",
+     "name": "Not publicly named",
+     "title": "Chief Actuary",
+     "where": "Actuarial sits in the CFO's remit",
+     "cert": "-",
+     "src": [
+      "org:b"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Appointed Actuary",
+     "name": "Not publicly named",
+     "title": "Appointed Actuary",
+     "where": "No statements are public",
+     "cert": "-",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Finance",
+     "name": "Marc Peliel",
+     "title": "Chief Financial Officer (finance, actuarial, procurement)",
+     "where": "Leadership team; reports to the CEO",
+     "cert": "H",
+     "src": [
+      "org:a",
+      "org:b"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Risk",
+     "name": "Mark Geldernick",
+     "title": "Chief Legal Officer (legal, compliance, risk management)",
+     "where": "Leadership team; reports to the CEO",
+     "cert": "H",
+     "src": [
+      "org:a",
+      "org:c"
+     ],
+     "inferred": false
+    }
+   ],
+   "gov": [
+    {
+     "kind": "Limits",
+     "text": "The ALM repo keeps this insurer in its OSFI universe but outside the peer views (creditor and group insurer), so no ALM statement has been collected.",
+     "src": [
+      "alm_repo"
+     ]
+    }
+   ]
+  },
+  "primerica_life": {
+   "title": "Primerica Life Canada: investments, finance and risk are US group functions",
+   "lead": "The Canadian company names a CEO and a President; the group CFO oversees investments run by a third-party adviser.",
+   "alm_home": "Not disclosed",
+   "inv_seat": "Group / affiliate",
+   "combo": "Group CFO also oversees investments",
+   "seats": [
+    {
+     "fn": "Investments",
+     "name": "Tracy Tan",
+     "title": "EVP & CFO, Primerica, Inc. (oversees investments; third-party adviser)",
+     "where": "US group function",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": true
+    },
+    {
+     "fn": "ALM",
+     "name": "Not publicly named",
+     "title": "Head of ALM",
+     "where": "Not disclosed",
+     "cert": "-",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Chief Actuary",
+     "name": "Not publicly named",
+     "title": "Chief Actuary, Primerica Life Canada",
+     "where": "Not disclosed",
+     "cert": "-",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Appointed Actuary",
+     "name": "Not publicly named",
+     "title": "Appointed Actuary, Primerica Life Canada",
+     "where": "No statements are public",
+     "cert": "-",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Finance",
+     "name": "Tracy Tan",
+     "title": "EVP & CFO, Primerica, Inc. (since December 2023)",
+     "where": "US group function",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": true
+    },
+    {
+     "fn": "Risk",
+     "name": "Stacey K. Geer",
+     "title": "EVP, Chief Governance & Risk Officer, Primerica, Inc.",
+     "where": "US group function",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": true
+    }
+   ],
+   "gov": [
+    {
+     "kind": "Limits",
+     "text": "The ALM repo keeps this insurer in its OSFI universe but outside the peer views, so no ALM statement has been collected.",
+     "src": [
+      "alm_repo"
+     ]
+    }
+   ]
+  },
+  "humania": {
+   "title": "Humania: actuarial and finance are named; the investment VP is off the web page",
+   "lead": "External managers run the general account. The VP, Actuary also covers risk; the Appointed Actuary is not named.",
+   "alm_home": "Not disclosed",
+   "inv_seat": "Below executive team",
+   "combo": null,
+   "seats": [
+    {
+     "fn": "Investments",
+     "name": "Luc Bergeron",
+     "title": "VP, Investment & Special Projects",
+     "where": "In the 2025 Annual Report's executive team; not on the current web page",
+     "cert": "M",
+     "src": [
+      "org:b"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "ALM",
+     "name": "Not publicly named",
+     "title": "Head of ALM",
+     "where": "Not disclosed",
+     "cert": "-",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Chief Actuary",
+     "name": "Alina Dudau",
+     "title": "VP, Actuary",
+     "where": "Executive team; reports to the CEO",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Appointed Actuary",
+     "name": "Not publicly named",
+     "title": "Appointed Actuary",
+     "where": "Not named",
+     "cert": "-",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Finance",
+     "name": "Dimitri Georgoulas",
+     "title": "SVP, Finance (and Treasurer)",
+     "where": "Executive team; reports to the CEO",
+     "cert": "H",
+     "src": [
+      "org:a",
+      "org:c"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Risk",
+     "name": "Not publicly named",
+     "title": "Chief Risk Officer",
+     "where": "No risk seat on the executive team page",
+     "cert": "-",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    }
+   ],
+   "gov": [
+    {
+     "kind": "Limits",
+     "text": "Humania is AMF-regulated and outside the ALM repo, so no balance-sheet view or ALM statement has been collected.",
+     "src": [
+      "alm_repo"
+     ]
+    }
+   ]
+  },
+  "uv_insurance": {
+   "title": "UV Insurance: the Appointed Actuary also runs finance; no investment lead is named",
+   "lead": "Actuarial, finance and risk all sit under one senior VP; the management team page lists no investment role.",
+   "alm_home": "Not disclosed",
+   "inv_seat": "Not named",
+   "combo": "Appointed Actuary also leads finance",
+   "seats": [
+    {
+     "fn": "Investments",
+     "name": "Not publicly named",
+     "title": "Head of Investments",
+     "where": "No investment role on the management team page",
+     "cert": "-",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "ALM",
+     "name": "Not publicly named",
+     "title": "Head of ALM",
+     "where": "Not disclosed",
+     "cert": "-",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Chief Actuary",
+     "name": "Hugo Boutin-Ouellet",
+     "title": "VP, Corporate Actuarial",
+     "where": "Reports to the SVP, Actuarial & Finance",
+     "cert": "H",
+     "src": [
+      "org:a",
+      "org:d"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Appointed Actuary",
+     "name": "Pierre Parenteau",
+     "title": "SVP, Actuarial & Finance; Appointed Actuary",
+     "where": "Management team; reports to the CEO",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Finance",
+     "name": "Pierre Parenteau",
+     "title": "SVP, Actuarial & Finance; Appointed Actuary",
+     "where": "Management team; reports to the CEO",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": false
+    },
+    {
+     "fn": "Risk",
+     "name": "Eric Timmons",
+     "title": "Chief, Risk Management",
+     "where": "Placed under the SVP, Actuarial & Finance by inference",
+     "cert": "H",
+     "src": [
+      "org:a"
+     ],
+     "inferred": true
+    }
+   ],
+   "gov": [
+    {
+     "kind": "Limits",
+     "text": "UV is AMF-regulated and outside the ALM repo, so no balance-sheet view or ALM statement has been collected.",
+     "src": [
+      "alm_repo"
+     ]
+    }
+   ]
+  }
+ }
+}

@@ -1,0 +1,26 @@
+metric,label,unit,decimals,group,hint,peer_set,rbc,median,n_others,n,rank_from_high,rank_from_low,strip,order
+licat_pct,LICAT total ratio,%,1,Capital,higher is stronger,the eight other all-Canada filers,132.0,156.9,8,9,8,2,1,0
+buffer_pct,"Buffer, % of General Account",%,1,Capital,higher is stronger,the eleven other OSFI peers,17.5,23.8,11,12,7,6,1,1
+market_cap_ga,"Market risk capital, % of own General Account",%,2,Market,,the eight other all-Canada filers,4.12,6.02,8,9,8,2,1,2
+eq_ex_ul,"Equity-type assets excl. UL pass-through, % of invested",%,1,Market,,the eleven other OSFI peers,7.5,15.4,10,11,9,3,1,3
+alts_incl_others,"Alternatives incl. Others, % of non-par General Account",%,1,Market,,the eleven other OSFI peers,21.9,14.1,11,12,5,8,1,4
+credit_cap_ga,"Credit risk capital, % of own General Account",%,2,Credit,,the eight other all-Canada filers,2.66,3.89,8,9,8,2,1,5
+private_credit,"Private credit and mortgages, % of invested",%,1,Credit,,the eleven other OSFI peers,19.3,11.6,10,11,4,8,1,6
+below_ig_bonds,"Below investment grade, % of bonds",%,2,Credit,,the eleven other OSFI peers,0.09,1.05,11,12,8,5,1,7
+energy_util,"Energy + utilities, % of corporate bonds",%,1,Credit,,the eleven other OSFI peers,37.6,36.0,11,12,6,7,1,8
+liquid_unenc,"Liquid assets after repo collateral, % of invested",%,1,Liquidity,higher is more liquid,the eleven other OSFI peers,62.2,84.0,10,11,9,3,1,9
+repos_ga,"Repos, % of General Account",%,1,Liquidity,,the eleven other OSFI peers,16.0,0.0,11,12,1,12,1,10
+nir_cm,"Net investment result, % of credit + market capital",%,1,Return,,the eight other all-Canada filers,22.8,31.5,8,9,6,4,1,11
+ins_share,"Insurance risk, % of credit + market + insurance capital",%,1,Capital,,the eight other all-Canada filers,65.7,63.8,8,9,4,6,0,12
+ni_bsb,"Net income, % of required capital",%,1,Return,,the eight other all-Canada filers,7.6,7.6,8,9,5,5,0,13
+market_cap_inv,"Market risk capital, % of entity invested assets",%,2,Market,,the eleven other OSFI peers,3.79,4.31,11,12,8,5,0,14
+credit_cap_inv,"Credit risk capital, % of entity invested assets",%,2,Credit,,the eleven other OSFI peers,2.45,2.25,11,12,6,7,0,15
+eq_gross,"Equity-type assets incl. UL pass-through, % of invested",%,1,Market,,the eleven other OSFI peers,14.4,17.7,10,11,9,2,0,16
+liquid_ex_ul,"Liquid assets before repo collateral, % of invested",%,1,Liquidity,,the eleven other OSFI peers,78.3,84.0,10,11,7,5,0,17
+ecl_bps,"Expected credit loss allowance, bps of invested", bps,1,Credit,,the eleven other OSFI peers,0.7,1.9,5,6,5,2,0,18
+financing_pct,"Repos and other financing, % of General Account",%,1,Liquidity,,the eleven other OSFI peers,16.0,0.5,11,12,1,12,0,19
+free125_mm,"Free capital above the 125% floor, C$MM",,0,Capital,,the eight other all-Canada filers,292.0,182.0,8,9,4,6,0,20
+pts_above_floor,LICAT points above the 125% floor, pts,1,Capital,,the eight other all-Canada filers,7.0,31.9,8,9,8,2,0,21
+energy,"Energy, % of corporate bonds",%,1,Credit,,the eleven other OSFI peers,37.6,15.0,11,12,1,12,0,22
+fvoci,"FVOCI, % of invested assets",%,1,Market,,the eleven other OSFI peers,16.1,1.3,11,12,3,10,0,23
+reins_pct,"Reinsurance assets, % of General Account",%,1,Credit,,the eleven other OSFI peers,7.8,21.8,11,12,8,5,0,24

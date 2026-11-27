@@ -1,0 +1,15 @@
+id,insurer,as_at,par_liabilities_bn,par_size_source,dividend_scale_rate,risk_free_30y,risk_free_basis,par_premium_30y,filed_curve,filed_1y,filed_5y,filed_10y,filed_20y,filed_30y,filed_80y,filed_premium_30y,gap_bp_30y,basis
+CLF,CLF,2025-12-31,61.045,"OSFI LF3 par liabilities, net (ALM repo)",5.75,4.03,own Dec 31 risk-free,1.72,par curve (OSFI),3.71,4.38,4.88,5.24,5.35,5.15,1.32,40.0,spot (risk-free plus filed premium)
+SLF,SLF,2025-12-31,36.268,"OSFI LF3 par liabilities, net (ALM repo)",6.25,4.04,own Dec 31 risk-free,2.21,par curve (OSFI),3.07,3.69,4.18,5.36,5.29,4.95,1.25,96.0,spot as filed
+MFC,MFC,2025-12-31,17.373,"OSFI LF3 par liabilities, net (ALM repo)",6.35,4.05,own Dec 31 risk-free,2.3,par curve (OSFI),2.87,3.81,4.9,5.61,6.0,4.4,1.95,35.0,spot (risk-free plus filed premium)
+EQL,Equitable Life,2025-12-31,4.264,"OSFI LF3 par liabilities, net (ALM repo)",6.4,3.86,own Dec 31 risk-free,2.54,par curve (OSFI),6.42,6.42,6.42,6.42,6.42,6.42,2.56,-2.0,spot (risk-free plus filed premium)
+COP,Co-operators Life,2025-12-31,1.773,"OSFI LF3 par liabilities, net (ALM repo)",6.0,4.04,own Dec 31 risk-free,1.96,par curve (OSFI),2.92,3.7,4.49,5.07,4.97,4.75,0.93,103.0,spot (risk-free plus filed premium)
+EMP,Empire Life,2025-12-31,1.257,"OSFI LF3 par liabilities, net (ALM repo)",6.25,3.99,own Dec 31 risk-free,2.26,par curve (OSFI),3.38,4.13,4.86,5.6,5.54,5.15,1.55,71.0,spot as filed
+WAW,Wawanesa Life,2025-12-31,0.358,"OSFI LF3 par liabilities, net (ALM repo)",,4.01,own Dec 31 risk-free,,par curve (OSFI),3.31,4.12,4.83,5.41,5.38,5.15,1.37,,spot (risk-free plus filed premium)
+RBC,RBC Life,2025-10-31,0.252,"OSFI LF3 par liabilities, net (ALM repo)",6.3,4.03,est: median Dec 31 risk-free of the OSFI filers,2.27,par curve (OSFI),2.59,3.157,4.015,5.153,5.292,4.189,2.032,100.848,spot from filed 1-year forwards (est)
+IAG,iA Financial,2025-12-31,0.069,par account size published for advisors (earlier analysis),6.35,4.03,est: median Dec 31 risk-free of the OSFI filers,2.32,all-products curve (annual report),3.5,4.39,5.08,5.62,5.8,5.15,1.77,55.0,"spot (annual report, most illiquid curve)"
+IOF,Foresters Life,2025-12-31,0.065,"OSFI LF3 par liabilities, net (ALM repo)",6.25,4.03,est: median Dec 31 risk-free of the OSFI filers,2.22,no par curve filed,,,,,,,,,
+IVA,ivari,2025-12-31,0.007,"OSFI LF3 par liabilities, net (ALM repo)",,4.04,own Dec 31 risk-free,,par curve (OSFI),3.22,4.03,4.8,5.44,5.45,5.15,1.41,,spot (risk-free plus filed premium)
+ASL,Assumption Life,2025-12-31,,not published,5.75,4.03,est: median Dec 31 risk-free of the OSFI filers,1.72,all-products curve (annual report),2.95,3.73,4.51,5.26,5.23,4.84,1.2,52.0,"spot (annual report, most illiquid curve)"
+BEN,Beneva,2025-12-31,,not published,,4.03,est: median Dec 31 risk-free of the OSFI filers,,all-products curve (annual report),3.1,3.9,4.7,5.6,5.3,5.2,1.27,,"spot (annual report, most illiquid curve)"
+DFS,Desjardins,2025-12-31,,not published,6.3,4.03,est: median Dec 31 risk-free of the OSFI filers,2.27,all-products curve (annual report),3.0,3.8,4.6,5.5,5.4,5.2,1.37,90.0,"spot (annual report, most illiquid curve)"
