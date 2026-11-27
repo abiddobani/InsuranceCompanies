@@ -1,0 +1,70 @@
+{
+  "company_id": "canada_protection_plan",
+  "name": "Canada Protection Plan (CPP)",
+  "as_of": "2025-12-31",
+  "ownership": "Brand and wholly owned subsidiary (Canada Protection Plan Inc., insurance broker and administrator) of The Independent Order of Foresters since Oct 1, 2020; policies underwritten by Foresters Life Insurance Company or IOF",
+  "regulator": "Not a licensed insurer; its policies are underwritten by Foresters Life Insurance Company / IOF (OSFI). CPP Inc. is a licensed insurance agency/administrator",
+  "metrics": [
+    {"metric": "Total assets", "value": null, "unit": "C$bn", "as_of": null, "source": null, "note": "Not applicable: CPP is a distributor/administrator, not a risk carrier. See foresters_life.json (FLIC total assets C$1.79bn; IOF C$19.6bn)"},
+    {"metric": "Commissions charged by CPP to FLIC", "value": 13.5, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/2025-flic-financial-statements-final-ua.pdf", "note": "FLIC related-party note: C$13.454mm commissions in 2025 (2024: C$24.6mm commissions + C$6.4mm service fees + C$6.5mm management fees)"},
+    {"metric": "Claims paid (Foresters, North America)", "value": 662.0, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.cpp.ca/about-us/", "note": "Foresters group figure quoted on cpp.ca, not CPP-only"},
+    {"metric": "Credit rating", "value": null, "unit": "A (Excellent) AM Best FSR of IOF/FLIC, 25th consecutive year", "as_of": "2025-10-10", "source": "https://www.cpp.ca/about-us/", "note": "Rating belongs to the underwriters (IOF and FLIC); CPP itself is unrated"},
+    {"metric": "Employees", "value": null, "unit": "people", "as_of": null, "source": null, "note": "Not disclosed; since 2008 Foresters staff are employed by IOF and charged out"}
+  ],
+  "business_mix": {
+    "basis": "Product lines distributed (no financial split published)",
+    "as_of": "2025-12-31",
+    "source": "https://www.cpp.ca/about-us/",
+    "items": [
+      {"label": "No-medical / simplified-issue life (Guaranteed Acceptance, Deferred, Preferred Life; Express Elite Term, Preferred Term)", "pct": null},
+      {"label": "Critical illness (Cardiac Protect, Cancer Protect, combined)", "pct": null}
+    ]
+  },
+  "people": [
+    {"role": "CEO", "name": "Matt Berman", "title": "President and CEO, Foresters Financial (CPP's parent); earlier President, Foresters Financial US and Canada", "reports_to": "IOF Board", "entity": "The Independent Order of Foresters", "seat_since": 2024, "firm_since": 2017, "industry_since": null, "prior": "AXA, AIG, Zurich", "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.foresters.com/en/about/senior-leadership"], "note": "No CPP-specific president is named on cpp.ca or in Foresters releases found; CPP is run inside Foresters' Canadian division (Canadian division president Henry Auyeung retired 2023 and the role folded into Berman's US & Canada remit)"}
+  ],
+  "pm_structure": {
+    "summary": "CPP holds no general account. All invested assets backing CPP policies sit on FLIC/IOF balance sheets and are managed under Foresters' fully outsourced external-manager model. Refer to foresters_life.json for every investment, leverage and risk item.",
+    "manager_entities": ["See foresters_life.json"],
+    "bullets": [
+      "CPP Inc. is an 'insurance broker and administrator' subsidiary of IOF (IOF FS note 22)",
+      "FLIC reinsures its non-par in-force block 100% to IOF, so CPP-sourced liabilities ultimately sit at IOF",
+      "AM Best: most Canadian distribution for FLIC/IOF Canada branch runs through the Canada Protection Plan program, with a shift toward whole life"
+    ],
+    "sources": ["https://www.foresters.com/-/media/foresters/documents/pdfs/us/2025-iof-financial-statements-en.pdf", "https://www.foresters.com/-/media/forestersmvc/files/ol6740960132002finalua.pdf"]
+  },
+  "rotation_commentary": [],
+  "target_allocations": [],
+  "leverage": {
+    "debt_outstanding": [],
+    "financial_leverage_ratio_pct": null,
+    "issuance": [],
+    "securities_lending": {"amount_cad_mm": null, "as_of": "", "text": "Not applicable (no balance sheet); see foresters_life.json", "source": ""},
+    "repos": {"amount_cad_mm": null, "as_of": "", "text": "Not applicable; see foresters_life.json", "source": ""},
+    "structured_indirect": []
+  },
+  "partnerships": {
+    "underwriters": [],
+    "deals": [
+      {"year": 2020, "text": "Foresters Financial acquired Canada Protection Plan Inc. (closed Oct 1, 2020) after a long-standing underwriting partnership", "source": "https://www.businesswire.com/news/home/20201002005229/en/Foresters-Financial-and-Canada-Protection-Plan-Join-Forces"}
+    ],
+    "sponsorships": [],
+    "bank_relationships": []
+  },
+  "risk": {
+    "appetite": ["Covered by Foresters' Risk Appetite Framework (see foresters_life.json)"],
+    "governance": ["CPP Inc. is a wholly owned IOF subsidiary within Foresters' three-lines model"],
+    "capital_target": "Not applicable (no regulatory capital); underwriters' LICAT: FLIC 207.9%, IOF 188.2% at 2025-12-31",
+    "sensitivities": ["2025 assumption review raised early-duration lapse assumptions on CA CPP (A-Z) permanent and term plans (FLIC FS note)"],
+    "hedging": [],
+    "events": ["Mar 2023: Canadian division president Henry Auyeung retired; Matt Berman named President, Foresters Financial US and Canada"],
+    "sources": ["https://www.foresters.com/-/media/foresters/documents/pdfs/en-ca/2025-flic-financial-statements-final-ua.pdf", "https://www.prnewswire.com/news-releases/matt-berman-named-president-foresters-financial-us-and-canada-301758913.html"]
+  },
+  "gaps": [
+    "No separate financial statements: CPP is a distribution brand/agency; all balance-sheet items are in Foresters Life / IOF filings",
+    "No named CPP president or leadership team on cpp.ca (leadership URL 404); no 2024-2026 appointment releases found",
+    "Policy count, in-force volume and advisor headcount not published",
+    "Web search budget was exhausted in this session before further CPP leadership searches could be run"
+  ],
+  "notes": "Deck treatment: show CPP as a one-line distribution note inside the Foresters section rather than a standalone insurer. OSFI id 28432 is FLIC's. CPP's economic footprint is visible only through FLIC's related-party note (C$13.5mm commissions in 2025, down from C$24.6mm in 2024 as service/management-fee arrangements were restructured)."
+}

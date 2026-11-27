@@ -1,0 +1,612 @@
+company,source,period,as_at,product,size_mm,size_basis,size_all_lines_mm,dr_5y,dr_10y,dr_20y,dr_30y,dr_80y,lp_5y,lp_10y,lp_20y,lp_30y,lp_80y,last_tenor,lp_basis
+Assumption Life,Dividend scale interest rate 2023,2023Q2,2023Q2,Participating,,Not published,,5.75,5.75,5.75,5.75,5.75,2.12,2.51,2.53,2.71,2.1,80,Peer median risk-free (estimate)
+Assumption Life,Dividend scale interest rate 2023,2023Q3,2023Q3,Participating,,Not published,,5.75,5.75,5.75,5.75,5.75,1.49,1.73,1.78,2.02,2.1,80,Peer median risk-free (estimate)
+Assumption Life,Dividend scale interest rate 2023,2023Q4,2023Q4,Participating,,Not published,,5.75,5.75,5.75,5.75,5.75,2.6,2.64,2.64,2.75,2.1,80,Peer median risk-free (estimate)
+Assumption Life,Dividend scale interest rate 2024,2024Q1,2024Q1,Participating,,Not published,,5.75,5.75,5.75,5.75,5.75,2.25,2.28,2.32,2.41,2.1,80,Peer median risk-free (estimate)
+Assumption Life,Dividend scale interest rate 2024,2024Q2,2024Q2,Participating,,Not published,,5.75,5.75,5.75,5.75,5.75,2.24,2.23,2.28,2.37,2.1,80,Peer median risk-free (estimate)
+Assumption Life,Dividend scale interest rate 2024,2024Q3,2024Q3,Participating,,Not published,,5.75,5.75,5.75,5.75,5.75,3.02,2.75,2.57,2.56,2.1,80,Peer median risk-free (estimate)
+Assumption Life,"Annual report, all products",2024Q4,2024Q4,Group annuity,,Not published by line,,3.8,4.4,4.82,4.68,4.84,0.81,1.13,1.45,1.3,1.19,70,Peer median risk-free (estimate)
+Assumption Life,"Annual report, all products",2024Q4,2024Q4,Individual annuity,,Not published by line,,3.8,4.4,4.82,4.68,4.84,0.81,1.13,1.45,1.3,1.19,70,Peer median risk-free (estimate)
+Assumption Life,"Annual report, all products",2024Q4,2024Q4,Individual life,,Not published by line,,3.8,4.4,4.82,4.68,4.84,0.81,1.13,1.45,1.3,1.19,70,Peer median risk-free (estimate)
+Assumption Life,Dividend scale interest rate 2024,2024Q4,2024Q4,Participating,,Not published,,5.75,5.75,5.75,5.75,5.75,2.76,2.48,2.38,2.37,2.1,80,Peer median risk-free (estimate)
+Assumption Life,Dividend scale interest rate 2025,2025Q1,2025Q1,Participating,,Not published,,5.75,5.75,5.75,5.75,5.75,3.11,2.72,2.49,2.43,2.1,80,Peer median risk-free (estimate)
+Assumption Life,Dividend scale interest rate 2025,2025Q2,2025Q2,Participating,,Not published,,5.75,5.75,5.75,5.75,5.75,2.86,2.4,2.14,2.08,2.1,80,Peer median risk-free (estimate)
+Assumption Life,Dividend scale interest rate 2025,2025Q3,2025Q3,Participating,,Not published,,5.75,5.75,5.75,5.75,5.75,2.97,2.49,2.08,1.97,2.1,80,Peer median risk-free (estimate)
+Assumption Life,"Annual report, all products",2025Q4,2025Q4,Group annuity,,Not published by line,,3.73,4.51,5.26,5.23,4.84,0.7,0.99,1.36,1.2,1.19,70,Peer median risk-free (estimate)
+Assumption Life,"Annual report, all products",2025Q4,2025Q4,Individual annuity,,Not published by line,,3.73,4.51,5.26,5.23,4.84,0.7,0.99,1.36,1.2,1.19,70,Peer median risk-free (estimate)
+Assumption Life,"Annual report, all products",2025Q4,2025Q4,Individual life,,Not published by line,,3.73,4.51,5.26,5.23,4.84,0.7,0.99,1.36,1.2,1.19,70,Peer median risk-free (estimate)
+Assumption Life,Dividend scale interest rate 2025,2025Q4,2025Q4,Participating,,Not published,,5.75,5.75,5.75,5.75,5.75,2.72,2.23,1.85,1.72,2.1,80,Peer median risk-free (estimate)
+Assumption Life,Dividend scale interest rate 2026,2026Q1,2026Q1,Participating,,Not published,,5.8,5.8,5.8,5.8,5.8,2.66,2.25,1.87,1.74,2.15,80,Peer median risk-free (estimate)
+Assumption Life,Dividend scale interest rate 2026,2026Q2,2026Q2,Participating,,Not published,,5.8,5.8,5.8,5.8,5.8,2.75,2.37,2.01,1.86,2.15,80,Peer median risk-free (estimate)
+BMO Life,OSFI LF2,2024Q1,Oct FY 2024Q1,Individual annuity,89.5,"Insurance revenue in Canada, fiscal 2024",1330.7,4.75,4.95,5.07,5.14,5.0,1.35,1.62,1.72,1.9,1.35,80,Own risk-free curve
+BMO Life,OSFI LF2,2024Q1,Oct FY 2024Q1,Individual life,434.6,"Insurance revenue in Canada, fiscal 2024",1330.7,4.26,4.52,4.68,4.66,4.68,0.86,1.19,1.33,1.42,1.03,80,Own risk-free curve
+BMO Life,OSFI LF2,2024Q2,Oct FY 2024Q2,Individual annuity,89.5,"Insurance revenue in Canada, fiscal 2024",1330.7,5.05,5.19,5.48,5.32,5.0,1.17,1.35,1.75,1.66,1.35,80,Own risk-free curve
+BMO Life,OSFI LF2,2024Q2,Oct FY 2024Q2,Individual life,434.6,"Insurance revenue in Canada, fiscal 2024",1330.7,4.64,4.88,5.12,4.97,4.68,0.76,1.04,1.39,1.31,1.03,80,Own risk-free curve
+BMO Life,OSFI LF2,2024Q3,Oct FY 2024Q3,Individual annuity,89.5,"Insurance revenue in Canada, fiscal 2024",1330.7,4.25,4.69,5.07,4.96,5.0,1.16,1.5,1.8,1.72,1.35,80,Own risk-free curve
+BMO Life,OSFI LF2,2024Q3,Oct FY 2024Q3,Individual life,434.6,"Insurance revenue in Canada, fiscal 2024",1330.7,3.83,4.29,4.71,4.57,4.68,0.74,1.1,1.44,1.33,1.03,80,Own risk-free curve
+BMO Life,OSFI LF2,2024Q4,Oct FY 2024Q4,Individual annuity,89.5,"Insurance revenue in Canada, fiscal 2024",1330.7,4.14,4.82,5.14,4.98,5.0,1.08,1.55,1.81,1.65,1.35,80,Own risk-free curve
+BMO Life,OSFI LF2,2024Q4,Oct FY 2024Q4,Individual life,434.6,"Insurance revenue in Canada, fiscal 2024",1330.7,3.63,4.38,4.74,4.58,4.68,0.57,1.11,1.41,1.25,1.03,80,Own risk-free curve
+BMO Life,OSFI LF2,2025Q1,Oct FY 2025Q1,Individual annuity,106.9,"Insurance revenue in Canada, fiscal 2025",1442.3,4.04,4.63,5.04,4.89,5.0,1.23,1.51,1.76,1.58,1.35,80,Own risk-free curve
+BMO Life,OSFI LF2,2025Q1,Oct FY 2025Q1,Individual life,423.9,"Insurance revenue in Canada, fiscal 2025",1442.3,3.55,4.19,4.67,4.55,4.68,0.74,1.07,1.39,1.24,1.03,80,Own risk-free curve
+BMO Life,OSFI LF2,2025Q2,Oct FY 2025Q2,Individual annuity,106.9,"Insurance revenue in Canada, fiscal 2025",1442.3,4.04,4.72,5.25,5.1,5.0,1.31,1.57,1.79,1.55,1.35,80,Own risk-free curve
+BMO Life,OSFI LF2,2025Q2,Oct FY 2025Q2,Individual life,423.9,"Insurance revenue in Canada, fiscal 2025",1442.3,3.5,4.27,4.89,4.79,4.68,0.77,1.12,1.43,1.24,1.03,80,Own risk-free curve
+BMO Life,OSFI LF2,2025Q3,Oct FY 2025Q3,Individual annuity,106.9,"Insurance revenue in Canada, fiscal 2025",1442.3,4.18,4.87,5.36,5.23,5.0,1.08,1.35,1.55,1.35,1.35,80,Own risk-free curve
+BMO Life,OSFI LF2,2025Q3,Oct FY 2025Q3,Individual life,423.9,"Insurance revenue in Canada, fiscal 2025",1442.3,3.71,4.47,5.06,4.96,4.68,0.61,0.95,1.25,1.08,1.03,80,Own risk-free curve
+BMO Life,OSFI LF2,2025Q4,Oct FY 2025Q4,Individual annuity,106.9,"Insurance revenue in Canada, fiscal 2025",1442.3,3.89,4.67,5.25,4.99,5.0,1.39,1.76,1.91,1.73,1.54,80,Own risk-free curve
+BMO Life,OSFI LF2,2025Q4,Oct FY 2025Q4,Individual life,423.9,"Insurance revenue in Canada, fiscal 2025",1442.3,3.64,4.42,5.0,4.74,4.68,1.14,1.51,1.66,1.48,1.22,80,Own risk-free curve
+BMO Life,OSFI LF2,2026Q1,Oct FY 2026Q1,Individual life,423.9,"Insurance revenue in Canada, fiscal 2025",1442.3,3.86,4.61,5.16,4.99,4.68,1.05,1.36,1.42,1.31,1.03,80,Own risk-free curve
+BMO Life,OSFI LF2,2026Q2,Oct FY 2026Q2,Group annuity,586.5,"Insurance revenue in Canada, fiscal 2025",1442.3,4.46,5.07,5.56,5.44,5.0,1.44,1.72,1.8,1.79,1.38,80,Own risk-free curve
+BMO Life,OSFI LF2,2026Q2,Oct FY 2026Q2,Individual annuity,106.9,"Insurance revenue in Canada, fiscal 2025",1442.3,4.46,5.07,5.56,5.44,5.0,1.44,1.72,1.8,1.79,1.38,80,Own risk-free curve
+BMO Life,OSFI LF2,2026Q2,Oct FY 2026Q2,Individual life,423.9,"Insurance revenue in Canada, fiscal 2025",1442.3,4.21,4.82,5.31,5.19,4.68,1.19,1.47,1.55,1.54,1.06,80,Own risk-free curve
+BMO Life,OSFI LF2,2026Q3,Oct FY 2026Q3,Group annuity,586.5,"Insurance revenue in Canada, fiscal 2025",1442.3,4.65,5.31,5.87,5.79,5.0,1.5,1.82,1.96,1.96,1.3,80,Own risk-free curve
+BMO Life,OSFI LF2,2026Q3,Oct FY 2026Q3,Individual annuity,106.9,"Insurance revenue in Canada, fiscal 2025",1442.3,4.5,5.16,5.73,5.65,5.0,1.35,1.67,1.82,1.82,1.3,80,Own risk-free curve
+BMO Life,OSFI LF2,2026Q3,Oct FY 2026Q3,Individual life,423.9,"Insurance revenue in Canada, fiscal 2025",1442.3,4.26,4.92,5.49,5.41,4.68,1.11,1.43,1.58,1.58,0.98,80,Own risk-free curve
+Beneva,"Annual report, all products",2024Q4,2024Q4,Group annuity,,Not published by line,,4.0,4.5,5.1,4.8,5.2,1.01,1.23,1.73,1.42,1.55,70,Peer median risk-free (estimate)
+Beneva,"Annual report, all products",2024Q4,2024Q4,Individual annuity,,Not published by line,,4.0,4.5,5.1,4.8,5.2,1.01,1.23,1.73,1.42,1.55,70,Peer median risk-free (estimate)
+Beneva,"Annual report, all products",2024Q4,2024Q4,Individual life,,Not published by line,,4.0,4.5,5.1,4.8,5.2,1.01,1.23,1.73,1.42,1.55,70,Peer median risk-free (estimate)
+Beneva,"Annual report, all products",2025Q4,2025Q4,Group annuity,,Not published by line,,3.9,4.7,5.6,5.3,5.2,0.87,1.18,1.7,1.27,1.55,70,Peer median risk-free (estimate)
+Beneva,"Annual report, all products",2025Q4,2025Q4,Individual annuity,,Not published by line,,3.9,4.7,5.6,5.3,5.2,0.87,1.18,1.7,1.27,1.55,70,Peer median risk-free (estimate)
+Beneva,"Annual report, all products",2025Q4,2025Q4,Individual life,,Not published by line,,3.9,4.7,5.6,5.3,5.2,0.87,1.18,1.7,1.27,1.55,70,Peer median risk-free (estimate)
+Canada Life,OSFI LF2,2023Q2,2023Q2,Group annuity,502.3,"Insurance revenue in Canada, fiscal 2023",9377.6,5.15,4.88,4.83,4.68,5.15,1.53,1.53,1.48,1.5,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2023Q2,2023Q2,Individual annuity,904.9,"Insurance revenue in Canada, fiscal 2023",9377.6,5.11,4.83,4.78,4.64,5.15,1.49,1.48,1.43,1.46,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2023Q2,2023Q2,Individual life,1653.1,"Insurance revenue in Canada, fiscal 2023",9377.6,5.39,5.11,5.06,4.92,5.15,1.77,1.76,1.71,1.74,1.5,80,Own risk-free curve
+Canada Life,Dividend scale interest rate 2023,2023Q2,2023Q2,Participating,62770.0,Par account size,9377.6,5.5,5.5,5.5,5.5,5.5,1.88,2.15,2.15,2.32,1.85,80,Own risk-free curve
+Canada Life,OSFI LF2,2023Q3,2023Q3,Group annuity,502.3,"Insurance revenue in Canada, fiscal 2023",9377.6,5.81,5.65,5.57,5.4,5.15,1.67,1.73,1.73,1.73,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2023Q3,2023Q3,Individual annuity,904.9,"Insurance revenue in Canada, fiscal 2023",9377.6,5.78,5.62,5.54,5.37,5.15,1.64,1.7,1.7,1.7,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2023Q3,2023Q3,Individual life,1653.1,"Insurance revenue in Canada, fiscal 2023",9377.6,6.1,5.94,5.86,5.69,5.15,1.96,2.02,2.02,2.02,1.5,80,Own risk-free curve
+Canada Life,Dividend scale interest rate 2023,2023Q3,2023Q3,Participating,62770.0,Par account size,9377.6,5.5,5.5,5.5,5.5,5.5,1.36,1.58,1.66,1.83,1.85,80,Own risk-free curve
+Canada Life,OSFI LF2,2023Q4,2023Q4,Group annuity,502.3,"Insurance revenue in Canada, fiscal 2023",9377.6,4.56,4.57,4.56,4.47,5.15,1.44,1.5,1.57,1.59,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2023Q4,2023Q4,Individual annuity,904.9,"Insurance revenue in Canada, fiscal 2023",9377.6,4.59,4.6,4.59,4.49,5.15,1.47,1.53,1.6,1.61,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2023Q4,2023Q4,Individual life,1653.1,"Insurance revenue in Canada, fiscal 2023",9377.6,4.88,4.89,4.88,4.79,5.15,1.76,1.82,1.89,1.91,1.5,80,Own risk-free curve
+Canada Life,Dividend scale interest rate 2023,2023Q4,2023Q4,Participating,62770.0,Par account size,9377.6,5.5,5.5,5.5,5.5,5.5,2.38,2.43,2.51,2.62,1.85,80,Own risk-free curve
+Canada Life,OSFI LF2,2024Q1,2024Q1,Group annuity,489.8,"Insurance revenue in Canada, fiscal 2024",9460.2,4.9,4.92,4.88,4.77,5.15,1.44,1.41,1.37,1.37,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2024Q1,2024Q1,Individual annuity,944.5,"Insurance revenue in Canada, fiscal 2024",9460.2,4.89,4.92,4.87,4.76,5.15,1.43,1.41,1.36,1.36,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2024Q1,2024Q1,Individual life,1650.0,"Insurance revenue in Canada, fiscal 2024",9460.2,5.22,5.24,5.2,5.09,5.15,1.76,1.73,1.69,1.69,1.5,80,Own risk-free curve
+Canada Life,Dividend scale interest rate 2024,2024Q1,2024Q1,Participating,62770.0,Par account size,9460.2,5.5,5.5,5.5,5.5,5.5,2.04,1.99,1.99,2.1,1.85,80,Own risk-free curve
+Canada Life,OSFI LF2,2024Q2,2024Q2,Group annuity,489.8,"Insurance revenue in Canada, fiscal 2024",9460.2,4.94,5.02,4.98,4.88,5.15,1.63,1.65,1.62,1.62,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2024Q2,2024Q2,Individual annuity,944.5,"Insurance revenue in Canada, fiscal 2024",9460.2,4.91,4.99,4.95,4.85,5.15,1.6,1.62,1.59,1.59,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2024Q2,2024Q2,Individual life,1650.0,"Insurance revenue in Canada, fiscal 2024",9460.2,5.25,5.33,5.29,5.19,5.15,1.94,1.96,1.93,1.93,1.5,80,Own risk-free curve
+Canada Life,Dividend scale interest rate 2024,2024Q2,2024Q2,Participating,62770.0,Par account size,9460.2,5.5,5.5,5.5,5.5,5.5,2.19,2.13,2.14,2.24,1.85,80,Own risk-free curve
+Canada Life,OSFI LF2,2024Q3,2024Q3,Group annuity,489.8,"Insurance revenue in Canada, fiscal 2024",9460.2,4.16,4.46,4.63,4.62,5.15,1.45,1.46,1.45,1.44,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2024Q3,2024Q3,Individual annuity,944.5,"Insurance revenue in Canada, fiscal 2024",9460.2,4.17,4.47,4.64,4.63,5.15,1.46,1.47,1.46,1.45,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2024Q3,2024Q3,Individual life,1650.0,"Insurance revenue in Canada, fiscal 2024",9460.2,4.49,4.79,4.96,4.95,5.15,1.78,1.79,1.78,1.77,1.5,80,Own risk-free curve
+Canada Life,Dividend scale interest rate 2024,2024Q3,2024Q3,Participating,62770.0,Par account size,9460.2,5.5,5.5,5.5,5.5,5.5,2.79,2.5,2.32,2.32,1.85,80,Own risk-free curve
+Canada Life,OSFI LF2,2024Q4,2024Q4,Group annuity,489.8,"Insurance revenue in Canada, fiscal 2024",9460.2,4.24,4.54,4.64,4.62,5.15,1.1,1.14,1.22,1.2,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2024Q4,2024Q4,Individual annuity,944.5,"Insurance revenue in Canada, fiscal 2024",9460.2,4.29,4.59,4.68,4.67,5.15,1.15,1.19,1.26,1.25,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2024Q4,2024Q4,Individual life,1650.0,"Insurance revenue in Canada, fiscal 2024",9460.2,4.59,4.89,4.98,4.97,5.15,1.45,1.49,1.56,1.55,1.5,80,Own risk-free curve
+Canada Life,Dividend scale interest rate 2024,2024Q4,2024Q4,Participating,62770.0,Par account size,9460.2,5.5,5.5,5.5,5.5,5.5,2.36,2.1,2.08,2.08,1.85,80,Own risk-free curve
+Canada Life,OSFI LF2,2025Q1,2025Q1,Group annuity,475.0,"Insurance revenue in Canada, fiscal 2025",9629.9,4.03,4.44,4.65,4.67,5.15,1.3,1.3,1.3,1.32,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2025Q1,2025Q1,Individual annuity,965.5,"Insurance revenue in Canada, fiscal 2025",9629.9,4.05,4.46,4.67,4.69,5.15,1.32,1.32,1.32,1.34,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2025Q1,2025Q1,Individual life,1651.3,"Insurance revenue in Canada, fiscal 2025",9629.9,4.32,4.73,4.94,4.96,5.15,1.59,1.59,1.59,1.61,1.5,80,Own risk-free curve
+Canada Life,Dividend scale interest rate 2025,2025Q1,2025Q1,Participating,62770.0,Par account size,9629.9,5.75,5.75,5.75,5.75,5.75,3.02,2.61,2.4,2.4,2.1,80,Own risk-free curve
+Canada Life,OSFI LF2,2025Q2,2025Q2,Group annuity,475.0,"Insurance revenue in Canada, fiscal 2025",9629.9,4.16,4.64,4.87,4.92,5.15,1.24,1.26,1.26,1.26,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2025Q2,2025Q2,Individual annuity,965.5,"Insurance revenue in Canada, fiscal 2025",9629.9,4.19,4.66,4.9,4.94,5.15,1.27,1.28,1.29,1.28,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2025Q2,2025Q2,Individual life,1651.3,"Insurance revenue in Canada, fiscal 2025",9629.9,4.48,4.95,5.19,5.23,5.15,1.56,1.57,1.58,1.57,1.5,80,Own risk-free curve
+Canada Life,Dividend scale interest rate 2025,2025Q2,2025Q2,Participating,62770.0,Par account size,9629.9,5.75,5.75,5.75,5.75,5.75,2.83,2.37,2.14,2.09,2.1,80,Own risk-free curve
+Canada Life,OSFI LF2,2025Q3,2025Q3,Group annuity,475.0,"Insurance revenue in Canada, fiscal 2025",9629.9,3.96,4.46,4.83,4.93,5.15,1.19,1.16,1.15,1.14,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2025Q3,2025Q3,Individual annuity,965.5,"Insurance revenue in Canada, fiscal 2025",9629.9,4.01,4.51,4.87,4.97,5.15,1.24,1.21,1.19,1.18,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2025Q3,2025Q3,Individual life,1651.3,"Insurance revenue in Canada, fiscal 2025",9629.9,4.33,4.83,5.19,5.29,5.15,1.56,1.53,1.51,1.5,1.5,80,Own risk-free curve
+Canada Life,Dividend scale interest rate 2025,2025Q3,2025Q3,Participating,62770.0,Par account size,9629.9,5.75,5.75,5.75,5.75,5.75,2.98,2.45,2.07,1.96,2.1,80,Own risk-free curve
+Canada Life,OSFI LF2,2025Q4,2025Q4,Group annuity,475.0,"Insurance revenue in Canada, fiscal 2025",9629.9,4.19,4.67,5.04,5.15,5.15,1.13,1.11,1.12,1.12,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2025Q4,2025Q4,Individual annuity,965.5,"Insurance revenue in Canada, fiscal 2025",9629.9,4.19,4.67,5.04,5.14,5.15,1.13,1.11,1.12,1.11,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2025Q4,2025Q4,Individual life,1651.3,"Insurance revenue in Canada, fiscal 2025",9629.9,4.57,5.05,5.42,5.52,5.15,1.51,1.49,1.5,1.49,1.5,80,Own risk-free curve
+Canada Life,Dividend scale interest rate 2025,2025Q4,2025Q4,Participating,62770.0,Par account size,9629.9,5.75,5.75,5.75,5.75,5.75,2.69,2.19,1.83,1.72,2.1,80,Own risk-free curve
+Canada Life,OSFI LF2,2026Q1,2026Q1,Group annuity,475.0,"Insurance revenue in Canada, fiscal 2025",9629.9,4.38,4.82,5.17,5.28,5.15,1.11,1.13,1.17,1.17,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2026Q1,2026Q1,Individual annuity,965.5,"Insurance revenue in Canada, fiscal 2025",9629.9,4.35,4.79,5.14,5.25,5.15,1.08,1.1,1.14,1.14,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2026Q1,2026Q1,Individual life,1651.3,"Insurance revenue in Canada, fiscal 2025",9629.9,4.73,5.16,5.52,5.63,5.15,1.46,1.47,1.52,1.52,1.5,80,Own risk-free curve
+Canada Life,Dividend scale interest rate 2026,2026Q1,2026Q1,Participating,62770.0,Par account size,9629.9,6.0,6.0,6.0,6.0,6.0,2.73,2.31,2.0,1.89,2.35,80,Own risk-free curve
+Canada Life,OSFI LF2,2026Q2,2026Q2,Group annuity,475.0,"Insurance revenue in Canada, fiscal 2025",9629.9,4.21,4.59,4.93,5.04,5.15,1.1,1.08,1.09,1.07,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2026Q2,2026Q2,Individual annuity,965.5,"Insurance revenue in Canada, fiscal 2025",9629.9,4.21,4.6,4.94,5.05,5.15,1.1,1.09,1.1,1.08,1.5,80,Own risk-free curve
+Canada Life,OSFI LF2,2026Q2,2026Q2,Individual life,1651.3,"Insurance revenue in Canada, fiscal 2025",9629.9,4.57,4.95,5.29,5.4,5.15,1.46,1.44,1.45,1.43,1.5,80,Own risk-free curve
+Canada Life,Dividend scale interest rate 2026,2026Q2,2026Q2,Participating,62770.0,Par account size,9629.9,6.0,6.0,6.0,6.0,6.0,2.89,2.49,2.16,2.03,2.35,80,Own risk-free curve
+Canadian Premier,OSFI LF2,2023Q2,2023Q2,Individual life,12.9,"Insurance revenue in Canada, fiscal 2023",1065.5,5.02,4.77,4.83,4.62,4.9,1.39,1.54,1.61,1.64,1.25,80,Own risk-free curve
+Canadian Premier,OSFI LF2,2023Q3,2023Q3,Individual life,12.9,"Insurance revenue in Canada, fiscal 2023",1065.5,5.67,5.58,5.54,5.47,4.9,1.41,1.56,1.57,1.79,1.25,80,Own risk-free curve
+Canadian Premier,OSFI LF2,2023Q4,2023Q4,Individual life,12.9,"Insurance revenue in Canada, fiscal 2023",1065.5,4.49,4.54,4.66,4.53,4.9,1.32,1.45,1.54,1.56,1.25,80,Own risk-free curve
+Canadian Premier,OSFI LF2,2024Q1,2024Q1,Individual life,42.6,"Insurance revenue in Canada, fiscal 2024",989.9,4.64,4.84,4.96,4.81,4.9,1.14,1.4,1.52,1.51,1.25,80,Own risk-free curve
+Canadian Premier,OSFI LF2,2024Q2,2024Q2,Individual life,42.6,"Insurance revenue in Canada, fiscal 2024",989.9,4.66,4.91,5.06,4.91,4.9,1.15,1.4,1.57,1.54,1.25,80,Own risk-free curve
+Canadian Premier,OSFI LF2,2024Q3,2024Q3,Individual life,42.6,"Insurance revenue in Canada, fiscal 2024",989.9,3.79,4.38,4.81,4.62,4.9,1.06,1.38,1.64,1.42,1.25,80,Own risk-free curve
+Canadian Premier,OSFI LF2,2024Q4,2024Q4,Individual life,42.6,"Insurance revenue in Canada, fiscal 2024",989.9,3.95,4.49,4.82,4.72,4.9,0.93,1.22,1.45,1.34,1.25,80,Own risk-free curve
+Canadian Premier,OSFI LF2,2025Q1,2025Q1,Individual life,84.2,"Insurance revenue in Canada, fiscal 2025",915.9,3.7,4.35,4.8,4.66,4.9,1.04,1.31,1.54,1.34,1.25,80,Own risk-free curve
+Canadian Premier,OSFI LF2,2025Q2,2025Q2,Individual life,84.2,"Insurance revenue in Canada, fiscal 2025",915.9,3.85,4.53,5.02,4.85,4.9,0.94,1.19,1.4,1.17,1.25,80,Own risk-free curve
+Canadian Premier,OSFI LF2,2025Q3,2025Q3,Individual life,84.2,"Insurance revenue in Canada, fiscal 2025",915.9,3.64,4.42,5.07,4.91,4.9,0.86,1.16,1.42,1.16,1.25,80,Own risk-free curve
+Canadian Premier,OSFI LF2,2025Q4,2025Q4,Individual life,84.2,"Insurance revenue in Canada, fiscal 2025",915.9,3.87,4.58,5.16,5.13,4.9,0.83,1.09,1.26,1.12,1.25,80,Own risk-free curve
+Canadian Premier,OSFI LF2,2026Q1,2026Q1,Individual life,84.2,"Insurance revenue in Canada, fiscal 2025",915.9,4.06,4.68,5.26,5.29,4.9,0.9,1.14,1.31,1.26,1.25,80,Own risk-free curve
+Canadian Premier,OSFI LF2,2026Q2,2026Q2,Individual life,84.2,"Insurance revenue in Canada, fiscal 2025",915.9,3.91,4.52,5.1,5.16,4.9,0.83,1.09,1.31,1.21,1.25,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2023Q2,2023Q2,Group annuity,71.1,"Insurance revenue in Canada, fiscal 2023",1015.1,5.57,5.3,5.14,4.98,5.15,2.06,2.07,1.96,1.86,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2023Q2,2023Q2,Individual annuity,37.8,"Insurance revenue in Canada, fiscal 2023",1015.1,5.57,5.3,5.14,4.98,5.15,2.06,2.07,1.96,1.86,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2023Q2,2023Q2,Individual life,359.7,"Insurance revenue in Canada, fiscal 2023",1015.1,5.57,5.3,5.14,4.98,5.15,2.06,2.07,1.96,1.86,1.5,80,Own risk-free curve
+Co-operators Life,Dividend scale interest rate 2023,2023Q2,2023Q2,Participating,2936.0,Par account size,1015.1,5.9,5.9,5.9,5.9,5.9,2.39,2.67,2.72,2.78,2.25,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2023Q4,2023Q4,Group annuity,71.1,"Insurance revenue in Canada, fiscal 2023",1015.1,4.97,5.02,4.99,4.83,5.15,1.87,1.9,1.92,1.83,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2023Q4,2023Q4,Individual annuity,37.8,"Insurance revenue in Canada, fiscal 2023",1015.1,4.97,5.02,4.99,4.83,5.15,1.87,1.9,1.92,1.83,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2023Q4,2023Q4,Individual life,359.7,"Insurance revenue in Canada, fiscal 2023",1015.1,4.97,5.02,4.99,4.83,5.15,1.87,1.9,1.92,1.83,1.5,80,Own risk-free curve
+Co-operators Life,Dividend scale interest rate 2023,2023Q4,2023Q4,Participating,2936.0,Par account size,1015.1,5.9,5.9,5.9,5.9,5.9,2.8,2.78,2.83,2.9,2.25,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2024Q1,2024Q1,Group annuity,70.5,"Insurance revenue in Canada, fiscal 2024",1027.0,5.14,5.31,5.3,5.15,5.15,1.66,1.78,1.81,1.74,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2024Q1,2024Q1,Individual annuity,31.3,"Insurance revenue in Canada, fiscal 2024",1027.0,5.14,5.31,5.3,5.15,5.15,1.66,1.78,1.81,1.74,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2024Q1,2024Q1,Individual life,364.5,"Insurance revenue in Canada, fiscal 2024",1027.0,5.14,5.31,5.3,5.15,5.15,1.66,1.78,1.81,1.74,1.5,80,Own risk-free curve
+Co-operators Life,Dividend scale interest rate 2024,2024Q1,2024Q1,Participating,2936.0,Par account size,1027.0,6.0,6.0,6.0,6.0,6.0,2.52,2.47,2.51,2.59,2.35,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2024Q2,2024Q2,Group annuity,70.5,"Insurance revenue in Canada, fiscal 2024",1027.0,5.11,5.3,5.3,5.14,5.15,1.65,1.8,1.86,1.81,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2024Q2,2024Q2,Individual annuity,31.3,"Insurance revenue in Canada, fiscal 2024",1027.0,5.11,5.3,5.3,5.14,5.15,1.65,1.8,1.86,1.81,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2024Q2,2024Q2,Individual life,364.5,"Insurance revenue in Canada, fiscal 2024",1027.0,5.11,5.3,5.3,5.14,5.15,1.65,1.8,1.86,1.81,1.5,80,Own risk-free curve
+Co-operators Life,Dividend scale interest rate 2024,2024Q2,2024Q2,Participating,2936.0,Par account size,1027.0,6.0,6.0,6.0,6.0,6.0,2.54,2.5,2.56,2.67,2.35,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2024Q3,2024Q3,Group annuity,70.5,"Insurance revenue in Canada, fiscal 2024",1027.0,4.36,4.9,5.19,4.94,5.15,1.57,1.85,1.92,1.7,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2024Q3,2024Q3,Individual annuity,31.3,"Insurance revenue in Canada, fiscal 2024",1027.0,4.36,4.9,5.19,4.94,5.15,1.57,1.85,1.92,1.7,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2024Q3,2024Q3,Individual life,364.5,"Insurance revenue in Canada, fiscal 2024",1027.0,4.36,4.9,5.19,4.94,5.15,1.57,1.85,1.92,1.7,1.5,80,Own risk-free curve
+Co-operators Life,Dividend scale interest rate 2024,2024Q3,2024Q3,Participating,2936.0,Par account size,1027.0,6.0,6.0,6.0,6.0,6.0,3.21,2.95,2.73,2.76,2.35,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2024Q4,2024Q4,Group annuity,70.5,"Insurance revenue in Canada, fiscal 2024",1027.0,4.36,4.92,5.1,4.83,5.15,1.38,1.68,1.73,1.49,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2024Q4,2024Q4,Individual annuity,31.3,"Insurance revenue in Canada, fiscal 2024",1027.0,4.36,4.92,5.1,4.83,5.15,1.38,1.68,1.73,1.49,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2024Q4,2024Q4,Individual life,364.5,"Insurance revenue in Canada, fiscal 2024",1027.0,4.36,4.92,5.1,4.83,5.15,1.38,1.68,1.73,1.49,1.5,80,Own risk-free curve
+Co-operators Life,Dividend scale interest rate 2024,2024Q4,2024Q4,Participating,2936.0,Par account size,1027.0,6.0,6.0,6.0,6.0,6.0,3.02,2.76,2.63,2.66,2.35,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2025Q1,2025Q1,Group annuity,79.5,"Insurance revenue in Canada, fiscal 2025",1061.4,4.16,4.79,5.09,4.83,5.15,1.51,1.75,1.82,1.51,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2025Q1,2025Q1,Individual annuity,34.2,"Insurance revenue in Canada, fiscal 2025",1061.4,4.16,4.79,5.09,4.83,5.15,1.51,1.75,1.82,1.51,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2025Q1,2025Q1,Individual life,366.3,"Insurance revenue in Canada, fiscal 2025",1061.4,4.16,4.79,5.09,4.83,5.15,1.51,1.75,1.82,1.51,1.5,80,Own risk-free curve
+Co-operators Life,Dividend scale interest rate 2025,2025Q1,2025Q1,Participating,2936.0,Par account size,1061.4,6.0,6.0,6.0,6.0,6.0,3.35,2.96,2.73,2.68,2.35,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2025Q2,2025Q2,Group annuity,79.5,"Insurance revenue in Canada, fiscal 2025",1061.4,4.25,4.95,5.24,4.96,5.15,1.36,1.6,1.62,1.21,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2025Q2,2025Q2,Individual annuity,34.2,"Insurance revenue in Canada, fiscal 2025",1061.4,4.25,4.95,5.24,4.96,5.15,1.36,1.6,1.62,1.21,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2025Q2,2025Q2,Individual life,366.3,"Insurance revenue in Canada, fiscal 2025",1061.4,4.25,4.95,5.24,4.96,5.15,1.36,1.6,1.62,1.21,1.5,80,Own risk-free curve
+Co-operators Life,Dividend scale interest rate 2025,2025Q2,2025Q2,Participating,2936.0,Par account size,1061.4,6.0,6.0,6.0,6.0,6.0,3.11,2.65,2.38,2.25,2.35,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2025Q3,2025Q3,Group annuity,79.5,"Insurance revenue in Canada, fiscal 2025",1061.4,4.0,4.81,5.3,5.0,5.15,1.21,1.53,1.61,1.2,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2025Q3,2025Q3,Individual annuity,34.2,"Insurance revenue in Canada, fiscal 2025",1061.4,4.0,4.81,5.3,5.0,5.15,1.21,1.53,1.61,1.2,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2025Q3,2025Q3,Individual life,366.3,"Insurance revenue in Canada, fiscal 2025",1061.4,4.0,4.81,5.3,5.0,5.15,1.21,1.53,1.61,1.2,1.5,80,Own risk-free curve
+Co-operators Life,Dividend scale interest rate 2025,2025Q3,2025Q3,Participating,2936.0,Par account size,1061.4,6.0,6.0,6.0,6.0,6.0,3.21,2.72,2.31,2.2,2.35,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2025Q4,2025Q4,Group annuity,79.5,"Insurance revenue in Canada, fiscal 2025",1061.4,4.22,4.95,5.36,5.15,5.15,1.17,1.43,1.45,1.11,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2025Q4,2025Q4,Individual annuity,34.2,"Insurance revenue in Canada, fiscal 2025",1061.4,4.22,4.95,5.36,5.15,5.15,1.17,1.43,1.45,1.11,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2025Q4,2025Q4,Individual life,366.3,"Insurance revenue in Canada, fiscal 2025",1061.4,4.22,4.95,5.36,5.15,5.15,1.17,1.43,1.45,1.11,1.5,80,Own risk-free curve
+Co-operators Life,Dividend scale interest rate 2025,2025Q4,2025Q4,Participating,2936.0,Par account size,1061.4,6.0,6.0,6.0,6.0,6.0,2.95,2.48,2.09,1.96,2.35,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2026Q1,2026Q1,Group annuity,79.5,"Insurance revenue in Canada, fiscal 2025",1061.4,4.44,5.02,5.49,5.38,5.15,1.29,1.45,1.55,1.29,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2026Q1,2026Q1,Individual annuity,34.2,"Insurance revenue in Canada, fiscal 2025",1061.4,4.44,5.02,5.49,5.38,5.15,1.29,1.45,1.55,1.29,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2026Q1,2026Q1,Individual life,366.3,"Insurance revenue in Canada, fiscal 2025",1061.4,4.44,5.02,5.49,5.38,5.15,1.29,1.45,1.55,1.29,1.5,80,Own risk-free curve
+Co-operators Life,Dividend scale interest rate 2026,2026Q1,2026Q1,Participating,2936.0,Par account size,1061.4,6.0,6.0,6.0,6.0,6.0,2.85,2.43,2.06,1.91,2.35,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2026Q2,2026Q2,Group annuity,79.5,"Insurance revenue in Canada, fiscal 2025",1061.4,4.28,4.88,5.35,5.27,5.15,1.21,1.45,1.52,1.32,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2026Q2,2026Q2,Individual annuity,34.2,"Insurance revenue in Canada, fiscal 2025",1061.4,4.28,4.88,5.35,5.27,5.15,1.21,1.45,1.52,1.32,1.5,80,Own risk-free curve
+Co-operators Life,OSFI LF2,2026Q2,2026Q2,Individual life,366.3,"Insurance revenue in Canada, fiscal 2025",1061.4,4.28,4.88,5.35,5.27,5.15,1.21,1.45,1.52,1.32,1.5,80,Own risk-free curve
+Co-operators Life,Dividend scale interest rate 2026,2026Q2,2026Q2,Participating,2936.0,Par account size,1061.4,6.0,6.0,6.0,6.0,6.0,2.93,2.57,2.17,2.05,2.35,80,Own risk-free curve
+Desjardins,Dividend scale interest rate 2023,2023Q2,2023Q2,Participating,,Not published,,6.2,6.2,6.2,6.2,6.2,2.57,2.96,2.98,3.16,2.55,80,Peer median risk-free (estimate)
+Desjardins,Dividend scale interest rate 2023,2023Q3,2023Q3,Participating,,Not published,,6.2,6.2,6.2,6.2,6.2,1.94,2.18,2.23,2.47,2.55,80,Peer median risk-free (estimate)
+Desjardins,Dividend scale interest rate 2023,2023Q4,2023Q4,Participating,,Not published,,6.2,6.2,6.2,6.2,6.2,3.05,3.09,3.09,3.2,2.55,80,Peer median risk-free (estimate)
+Desjardins,Dividend scale interest rate 2024,2024Q1,2024Q1,Participating,,Not published,,6.3,6.3,6.3,6.3,6.3,2.8,2.83,2.87,2.96,2.65,80,Peer median risk-free (estimate)
+Desjardins,Dividend scale interest rate 2024,2024Q2,2024Q2,Participating,,Not published,,6.3,6.3,6.3,6.3,6.3,2.79,2.78,2.83,2.92,2.65,80,Peer median risk-free (estimate)
+Desjardins,Dividend scale interest rate 2024,2024Q3,2024Q3,Participating,,Not published,,6.3,6.3,6.3,6.3,6.3,3.57,3.3,3.12,3.11,2.65,80,Peer median risk-free (estimate)
+Desjardins,"Annual report, all products",2024Q4,2024Q4,Group annuity,,Not published by line,,3.9,4.6,5.1,4.9,5.2,0.91,1.33,1.73,1.52,1.55,70,Peer median risk-free (estimate)
+Desjardins,"Annual report, all products",2024Q4,2024Q4,Individual annuity,,Not published by line,,3.9,4.6,5.1,4.9,5.2,0.91,1.33,1.73,1.52,1.55,70,Peer median risk-free (estimate)
+Desjardins,"Annual report, all products",2024Q4,2024Q4,Individual life,,Not published by line,,3.9,4.6,5.1,4.9,5.2,0.91,1.33,1.73,1.52,1.55,70,Peer median risk-free (estimate)
+Desjardins,Dividend scale interest rate 2024,2024Q4,2024Q4,Participating,,Not published,,6.3,6.3,6.3,6.3,6.3,3.31,3.03,2.93,2.92,2.65,80,Peer median risk-free (estimate)
+Desjardins,Dividend scale interest rate 2025,2025Q1,2025Q1,Participating,,Not published,,6.3,6.3,6.3,6.3,6.3,3.66,3.27,3.04,2.98,2.65,80,Peer median risk-free (estimate)
+Desjardins,Dividend scale interest rate 2025,2025Q2,2025Q2,Participating,,Not published,,6.3,6.3,6.3,6.3,6.3,3.41,2.95,2.69,2.63,2.65,80,Peer median risk-free (estimate)
+Desjardins,Dividend scale interest rate 2025,2025Q3,2025Q3,Participating,,Not published,,6.3,6.3,6.3,6.3,6.3,3.52,3.04,2.63,2.52,2.65,80,Peer median risk-free (estimate)
+Desjardins,"Annual report, all products",2025Q4,2025Q4,Group annuity,,Not published by line,,3.8,4.6,5.5,5.4,5.2,0.77,1.08,1.6,1.37,1.55,70,Peer median risk-free (estimate)
+Desjardins,"Annual report, all products",2025Q4,2025Q4,Individual annuity,,Not published by line,,3.8,4.6,5.5,5.4,5.2,0.77,1.08,1.6,1.37,1.55,70,Peer median risk-free (estimate)
+Desjardins,"Annual report, all products",2025Q4,2025Q4,Individual life,,Not published by line,,3.8,4.6,5.5,5.4,5.2,0.77,1.08,1.6,1.37,1.55,70,Peer median risk-free (estimate)
+Desjardins,Dividend scale interest rate 2025,2025Q4,2025Q4,Participating,,Not published,,6.3,6.3,6.3,6.3,6.3,3.27,2.78,2.4,2.27,2.65,80,Peer median risk-free (estimate)
+Desjardins,Dividend scale interest rate 2026,2026Q1,2026Q1,Participating,,Not published,,6.3,6.3,6.3,6.3,6.3,3.16,2.75,2.37,2.24,2.65,80,Peer median risk-free (estimate)
+Desjardins,Dividend scale interest rate 2026,2026Q2,2026Q2,Participating,,Not published,,6.3,6.3,6.3,6.3,6.3,3.25,2.87,2.51,2.36,2.65,80,Peer median risk-free (estimate)
+Empire Life,OSFI LF2,2023Q2,2023Q2,Group annuity,,No revenue filed for this line,1207.0,5.18,4.99,5.07,4.99,4.65,1.64,1.72,1.85,1.92,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2023Q2,2023Q2,Individual annuity,234.8,"Insurance revenue in Canada, fiscal 2023",1207.0,5.18,4.99,5.07,4.99,4.65,1.64,1.72,1.85,1.92,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2023Q2,2023Q2,Individual life,412.4,"Insurance revenue in Canada, fiscal 2023",1207.0,5.18,4.99,5.07,4.99,4.65,1.64,1.72,1.85,1.92,1.5,80,Own risk-free curve
+Empire Life,Dividend scale interest rate 2023,2023Q2,2023Q2,Participating,1320.0,Par account size,1207.0,6.0,6.0,6.0,6.0,6.0,2.46,2.73,2.78,2.93,2.85,80,Own risk-free curve
+Empire Life,OSFI LF2,2023Q3,2023Q3,Group annuity,,No revenue filed for this line,1207.0,5.76,5.79,5.77,5.73,4.65,1.55,1.75,1.8,1.94,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2023Q3,2023Q3,Individual annuity,234.8,"Insurance revenue in Canada, fiscal 2023",1207.0,5.76,5.79,5.77,5.73,4.65,1.55,1.75,1.8,1.94,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2023Q3,2023Q3,Individual life,412.4,"Insurance revenue in Canada, fiscal 2023",1207.0,5.76,5.79,5.77,5.73,4.65,1.55,1.75,1.8,1.94,1.5,80,Own risk-free curve
+Empire Life,Dividend scale interest rate 2023,2023Q3,2023Q3,Participating,1320.0,Par account size,1207.0,6.0,6.0,6.0,6.0,6.0,1.79,1.96,2.03,2.21,2.85,80,Own risk-free curve
+Empire Life,OSFI LF2,2023Q4,2023Q4,Group annuity,,No revenue filed for this line,1207.0,4.56,4.74,4.83,4.89,4.65,1.46,1.63,1.74,1.89,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2023Q4,2023Q4,Individual annuity,234.8,"Insurance revenue in Canada, fiscal 2023",1207.0,4.56,4.74,4.83,4.89,4.65,1.46,1.63,1.74,1.89,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2023Q4,2023Q4,Individual life,412.4,"Insurance revenue in Canada, fiscal 2023",1207.0,4.56,4.74,4.83,4.89,4.65,1.46,1.63,1.74,1.89,1.5,80,Own risk-free curve
+Empire Life,Dividend scale interest rate 2023,2023Q4,2023Q4,Participating,1320.0,Par account size,1207.0,6.0,6.0,6.0,6.0,6.0,2.9,2.89,2.91,3.0,2.85,80,Own risk-free curve
+Empire Life,OSFI LF2,2024Q1,2024Q1,Group annuity,,No revenue filed for this line,1266.6,4.8,5.05,5.12,5.19,4.65,1.35,1.58,1.69,1.87,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2024Q1,2024Q1,Individual annuity,238.0,"Insurance revenue in Canada, fiscal 2024",1266.6,4.8,5.05,5.12,5.19,4.65,1.35,1.58,1.69,1.87,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2024Q1,2024Q1,Individual life,448.1,"Insurance revenue in Canada, fiscal 2024",1266.6,4.8,5.05,5.12,5.19,4.65,1.35,1.58,1.69,1.87,1.5,80,Own risk-free curve
+Empire Life,Dividend scale interest rate 2024,2024Q1,2024Q1,Participating,1320.0,Par account size,1266.6,6.0,6.0,6.0,6.0,6.0,2.55,2.53,2.57,2.68,2.85,80,Own risk-free curve
+Empire Life,OSFI LF2,2024Q2,2024Q2,Group annuity,,No revenue filed for this line,1266.6,4.75,5.1,5.3,5.19,4.65,1.31,1.58,1.83,1.81,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2024Q2,2024Q2,Individual annuity,238.0,"Insurance revenue in Canada, fiscal 2024",1266.6,4.75,5.1,5.3,5.19,4.65,1.31,1.58,1.83,1.81,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2024Q2,2024Q2,Individual life,448.1,"Insurance revenue in Canada, fiscal 2024",1266.6,4.75,5.1,5.3,5.19,4.65,1.31,1.58,1.83,1.81,1.5,80,Own risk-free curve
+Empire Life,Dividend scale interest rate 2024,2024Q2,2024Q2,Participating,1320.0,Par account size,1266.6,6.0,6.0,6.0,6.0,6.0,2.56,2.48,2.53,2.62,2.85,80,Own risk-free curve
+Empire Life,OSFI LF2,2024Q3,2024Q3,Group annuity,,No revenue filed for this line,1266.6,4.09,4.62,5.09,4.96,5.15,1.37,1.6,1.9,1.78,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2024Q3,2024Q3,Individual annuity,238.0,"Insurance revenue in Canada, fiscal 2024",1266.6,4.09,4.62,5.09,4.96,5.15,1.37,1.6,1.9,1.78,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2024Q3,2024Q3,Individual life,448.1,"Insurance revenue in Canada, fiscal 2024",1266.6,4.09,4.62,5.09,4.96,5.15,1.37,1.6,1.9,1.78,1.5,80,Own risk-free curve
+Empire Life,Dividend scale interest rate 2024,2024Q3,2024Q3,Participating,1320.0,Par account size,1266.6,6.0,6.0,6.0,6.0,6.0,3.28,2.98,2.81,2.82,2.35,80,Own risk-free curve
+Empire Life,OSFI LF2,2024Q4,2024Q4,Group annuity,,No revenue filed for this line,1266.6,4.19,4.75,5.15,5.0,5.15,1.22,1.48,1.78,1.65,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2024Q4,2024Q4,Individual annuity,238.0,"Insurance revenue in Canada, fiscal 2024",1266.6,4.19,4.75,5.15,5.0,5.15,1.22,1.48,1.78,1.65,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2024Q4,2024Q4,Individual life,448.1,"Insurance revenue in Canada, fiscal 2024",1266.6,4.19,4.75,5.15,5.0,5.15,1.22,1.48,1.78,1.65,1.5,80,Own risk-free curve
+Empire Life,Dividend scale interest rate 2024,2024Q4,2024Q4,Participating,1320.0,Par account size,1266.6,6.0,6.0,6.0,6.0,6.0,3.03,2.73,2.63,2.65,2.35,80,Own risk-free curve
+Empire Life,OSFI LF2,2025Q1,2025Q1,Group annuity,,No revenue filed for this line,1369.1,3.94,4.61,5.18,5.07,5.15,1.29,1.55,1.91,1.78,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2025Q1,2025Q1,Individual annuity,253.1,"Insurance revenue in Canada, fiscal 2025",1369.1,3.94,4.61,5.18,5.07,5.15,1.29,1.55,1.91,1.78,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2025Q1,2025Q1,Individual life,489.5,"Insurance revenue in Canada, fiscal 2025",1369.1,3.94,4.61,5.18,5.07,5.15,1.29,1.55,1.91,1.78,1.5,80,Own risk-free curve
+Empire Life,Dividend scale interest rate 2025,2025Q1,2025Q1,Participating,1320.0,Par account size,1369.1,6.25,6.25,6.25,6.25,6.25,3.6,3.19,2.98,2.96,2.6,80,Own risk-free curve
+Empire Life,OSFI LF2,2025Q2,2025Q2,Group annuity,,No revenue filed for this line,1369.1,4.07,4.82,5.39,5.27,5.15,1.16,1.43,1.77,1.61,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2025Q2,2025Q2,Individual annuity,253.1,"Insurance revenue in Canada, fiscal 2025",1369.1,4.07,4.82,5.39,5.27,5.15,1.16,1.43,1.77,1.61,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2025Q2,2025Q2,Individual life,489.5,"Insurance revenue in Canada, fiscal 2025",1369.1,4.07,4.82,5.39,5.27,5.15,1.16,1.43,1.77,1.61,1.5,80,Own risk-free curve
+Empire Life,Dividend scale interest rate 2025,2025Q2,2025Q2,Participating,1320.0,Par account size,1369.1,6.25,6.25,6.25,6.25,6.25,3.34,2.86,2.63,2.59,2.6,80,Own risk-free curve
+Empire Life,OSFI LF2,2025Q3,2025Q3,Group annuity,,No revenue filed for this line,1369.1,3.9,4.69,5.45,5.36,5.15,1.12,1.41,1.81,1.62,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2025Q3,2025Q3,Individual annuity,253.1,"Insurance revenue in Canada, fiscal 2025",1369.1,3.9,4.69,5.45,5.36,5.15,1.12,1.41,1.81,1.62,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2025Q3,2025Q3,Individual life,489.5,"Insurance revenue in Canada, fiscal 2025",1369.1,3.9,4.69,5.45,5.36,5.15,1.12,1.41,1.81,1.62,1.5,80,Own risk-free curve
+Empire Life,Dividend scale interest rate 2025,2025Q3,2025Q3,Participating,1320.0,Par account size,1369.1,6.25,6.25,6.25,6.25,6.25,3.47,2.97,2.61,2.51,2.6,80,Own risk-free curve
+Empire Life,OSFI LF2,2025Q4,2025Q4,Group annuity,,No revenue filed for this line,1369.1,4.13,4.86,5.6,5.54,5.15,1.1,1.35,1.72,1.55,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2025Q4,2025Q4,Individual annuity,253.1,"Insurance revenue in Canada, fiscal 2025",1369.1,4.13,4.86,5.6,5.54,5.15,1.1,1.35,1.72,1.55,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2025Q4,2025Q4,Individual life,489.5,"Insurance revenue in Canada, fiscal 2025",1369.1,4.13,4.86,5.6,5.54,5.15,1.1,1.35,1.72,1.55,1.5,80,Own risk-free curve
+Empire Life,Dividend scale interest rate 2025,2025Q4,2025Q4,Participating,1320.0,Par account size,1369.1,6.25,6.25,6.25,6.25,6.25,3.22,2.74,2.37,2.26,2.6,80,Own risk-free curve
+Empire Life,OSFI LF2,2026Q1,2026Q1,Group annuity,,No revenue filed for this line,1369.1,4.29,4.95,5.71,5.67,5.15,1.35,1.66,1.99,2.04,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2026Q1,2026Q1,Individual annuity,253.1,"Insurance revenue in Canada, fiscal 2025",1369.1,4.29,4.95,5.71,5.67,5.15,1.35,1.66,1.99,2.04,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2026Q1,2026Q1,Individual life,489.5,"Insurance revenue in Canada, fiscal 2025",1369.1,4.29,4.95,5.71,5.67,5.15,1.35,1.66,1.99,2.04,1.5,80,Own risk-free curve
+Empire Life,Dividend scale interest rate 2026,2026Q1,2026Q1,Participating,1320.0,Par account size,1369.1,6.25,6.25,6.25,6.25,6.25,3.31,2.96,2.53,2.62,2.6,80,Own risk-free curve
+Empire Life,OSFI LF2,2026Q2,2026Q2,Group annuity,,No revenue filed for this line,1369.1,4.19,4.78,5.52,5.5,5.15,1.31,1.6,1.93,1.99,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2026Q2,2026Q2,Individual annuity,253.1,"Insurance revenue in Canada, fiscal 2025",1369.1,4.19,4.78,5.52,5.5,5.15,1.31,1.6,1.93,1.99,1.5,80,Own risk-free curve
+Empire Life,OSFI LF2,2026Q2,2026Q2,Individual life,489.5,"Insurance revenue in Canada, fiscal 2025",1369.1,4.19,4.78,5.52,5.5,5.15,1.31,1.6,1.93,1.99,1.5,80,Own risk-free curve
+Empire Life,Dividend scale interest rate 2026,2026Q2,2026Q2,Participating,1320.0,Par account size,1369.1,6.25,6.25,6.25,6.25,6.25,3.37,3.07,2.66,2.74,2.6,80,Own risk-free curve
+Equitable Life,OSFI LF2,2023Q2,2023Q2,Individual annuity,65.8,"Insurance revenue in Canada, fiscal 2023",843.2,5.24,5.01,4.96,4.79,5.15,1.66,1.73,1.75,1.7,1.5,80,Own risk-free curve
+Equitable Life,OSFI LF2,2023Q2,2023Q2,Individual life,134.8,"Insurance revenue in Canada, fiscal 2023",843.2,4.74,4.61,4.66,4.51,5.15,1.16,1.33,1.45,1.42,1.5,80,Own risk-free curve
+Equitable Life,Dividend scale interest rate 2023,2023Q2,2023Q2,Participating,3320.0,Par account size,843.2,6.25,6.25,6.25,6.25,6.25,2.67,2.97,3.04,3.16,2.6,80,Own risk-free curve
+Equitable Life,OSFI LF2,2023Q3,2023Q3,Individual annuity,65.8,"Insurance revenue in Canada, fiscal 2023",843.2,5.82,5.75,5.68,5.52,5.15,1.63,1.7,1.73,1.71,1.5,80,Own risk-free curve
+Equitable Life,OSFI LF2,2023Q3,2023Q3,Individual life,134.8,"Insurance revenue in Canada, fiscal 2023",843.2,5.34,5.38,5.34,5.27,5.15,1.15,1.33,1.39,1.46,1.5,80,Own risk-free curve
+Equitable Life,Dividend scale interest rate 2023,2023Q3,2023Q3,Participating,3320.0,Par account size,843.2,6.25,6.25,6.25,6.25,6.25,2.06,2.2,2.3,2.44,2.6,80,Own risk-free curve
+Equitable Life,OSFI LF2,2023Q4,2023Q4,Individual annuity,65.8,"Insurance revenue in Canada, fiscal 2023",843.2,4.61,4.72,4.75,4.62,5.15,1.49,1.61,1.67,1.6,1.5,80,Own risk-free curve
+Equitable Life,OSFI LF2,2023Q4,2023Q4,Individual life,134.8,"Insurance revenue in Canada, fiscal 2023",843.2,4.18,4.36,4.44,4.41,5.15,1.06,1.25,1.36,1.39,1.5,80,Own risk-free curve
+Equitable Life,Dividend scale interest rate 2023,2023Q4,2023Q4,Participating,3320.0,Par account size,843.2,6.25,6.25,6.25,6.25,6.25,3.13,3.14,3.17,3.23,2.6,80,Own risk-free curve
+Equitable Life,OSFI LF2,2024Q1,2024Q1,Individual annuity,80.3,"Insurance revenue in Canada, fiscal 2024",919.7,4.83,4.99,5.01,4.89,5.15,1.36,1.53,1.6,1.55,1.5,80,Own risk-free curve
+Equitable Life,OSFI LF2,2024Q1,2024Q1,Individual life,132.9,"Insurance revenue in Canada, fiscal 2024",919.7,4.49,4.68,4.75,4.72,5.15,1.02,1.22,1.34,1.38,1.5,80,Own risk-free curve
+Equitable Life,Dividend scale interest rate 2024,2024Q1,2024Q1,Participating,3320.0,Par account size,919.7,6.4,6.4,6.4,6.4,6.4,2.93,2.94,2.99,3.06,2.75,80,Own risk-free curve
+Equitable Life,OSFI LF2,2024Q2,2024Q2,Individual annuity,80.3,"Insurance revenue in Canada, fiscal 2024",919.7,4.82,5.03,5.07,4.95,5.15,1.35,1.51,1.61,1.55,1.5,80,Own risk-free curve
+Equitable Life,OSFI LF2,2024Q2,2024Q2,Individual life,132.9,"Insurance revenue in Canada, fiscal 2024",919.7,4.46,4.72,4.82,4.77,5.15,0.99,1.2,1.36,1.37,1.5,80,Own risk-free curve
+Equitable Life,Dividend scale interest rate 2024,2024Q2,2024Q2,Participating,3320.0,Par account size,919.7,6.4,6.4,6.4,6.4,6.4,2.93,2.88,2.94,3.0,2.75,80,Own risk-free curve
+Equitable Life,OSFI LF2,2024Q3,2024Q3,Individual annuity,80.3,"Insurance revenue in Canada, fiscal 2024",919.7,3.99,4.43,4.71,4.65,5.15,1.28,1.47,1.59,1.5,1.5,80,Own risk-free curve
+Equitable Life,OSFI LF2,2024Q3,2024Q3,Individual life,132.9,"Insurance revenue in Canada, fiscal 2024",919.7,3.66,4.15,4.5,4.52,5.15,0.95,1.19,1.38,1.37,1.5,80,Own risk-free curve
+Equitable Life,Dividend scale interest rate 2024,2024Q3,2024Q3,Participating,3320.0,Par account size,919.7,6.4,6.4,6.4,6.4,6.4,3.69,3.44,3.28,3.25,2.75,80,Own risk-free curve
+Equitable Life,OSFI LF2,2024Q4,2024Q4,Individual annuity,80.3,"Insurance revenue in Canada, fiscal 2024",919.7,4.11,4.55,4.79,4.67,5.15,1.13,1.33,1.47,1.34,1.5,80,Own risk-free curve
+Equitable Life,OSFI LF2,2024Q4,2024Q4,Individual life,132.9,"Insurance revenue in Canada, fiscal 2024",919.7,3.83,4.36,4.67,4.61,5.15,0.85,1.14,1.35,1.28,1.5,80,Own risk-free curve
+Equitable Life,Dividend scale interest rate 2024,2024Q4,2024Q4,Participating,3320.0,Par account size,919.7,6.4,6.4,6.4,6.4,6.4,3.42,3.18,3.08,3.07,2.75,80,Own risk-free curve
+Equitable Life,OSFI LF2,2025Q1,2025Q1,Individual annuity,116.9,"Insurance revenue in Canada, fiscal 2025",1062.1,3.88,4.4,4.7,4.66,5.15,1.25,1.41,1.51,1.43,1.5,80,Own risk-free curve
+Equitable Life,OSFI LF2,2025Q1,2025Q1,Individual life,140.4,"Insurance revenue in Canada, fiscal 2025",1062.1,3.53,4.18,4.61,4.59,5.15,0.9,1.19,1.42,1.36,1.5,80,Own risk-free curve
+Equitable Life,Dividend scale interest rate 2025,2025Q1,2025Q1,Participating,3320.0,Par account size,1062.1,6.4,6.4,6.4,6.4,6.4,3.77,3.41,3.21,3.17,2.75,80,Own risk-free curve
+Equitable Life,OSFI LF2,2025Q2,2025Q2,Individual annuity,116.9,"Insurance revenue in Canada, fiscal 2025",1062.1,4.02,4.57,4.87,4.83,5.15,1.16,1.29,1.37,1.27,1.5,80,Own risk-free curve
+Equitable Life,OSFI LF2,2025Q2,2025Q2,Individual life,140.4,"Insurance revenue in Canada, fiscal 2025",1062.1,3.7,4.38,4.82,4.81,5.15,0.84,1.1,1.32,1.25,1.5,80,Own risk-free curve
+Equitable Life,Dividend scale interest rate 2025,2025Q2,2025Q2,Participating,3320.0,Par account size,1062.1,6.4,6.4,6.4,6.4,6.4,3.54,3.12,2.9,2.84,2.75,80,Own risk-free curve
+Equitable Life,OSFI LF2,2025Q3,2025Q3,Individual annuity,116.9,"Insurance revenue in Canada, fiscal 2025",1062.1,3.82,4.42,4.81,4.78,5.15,1.07,1.22,1.29,1.15,1.5,80,Own risk-free curve
+Equitable Life,OSFI LF2,2025Q3,2025Q3,Individual life,140.4,"Insurance revenue in Canada, fiscal 2025",1062.1,3.55,4.25,4.79,4.82,5.15,0.8,1.05,1.27,1.19,1.5,80,Own risk-free curve
+Equitable Life,Dividend scale interest rate 2025,2025Q3,2025Q3,Participating,3320.0,Par account size,1062.1,6.4,6.4,6.4,6.4,6.4,3.65,3.2,2.88,2.77,2.75,80,Own risk-free curve
+Equitable Life,OSFI LF2,2025Q4,2025Q4,Individual annuity,116.9,"Insurance revenue in Canada, fiscal 2025",1062.1,4.04,4.58,4.95,4.95,5.15,1.03,1.15,1.2,1.09,1.5,80,Own risk-free curve
+Equitable Life,OSFI LF2,2025Q4,2025Q4,Individual life,140.4,"Insurance revenue in Canada, fiscal 2025",1062.1,3.78,4.42,4.96,4.99,5.15,0.77,0.99,1.21,1.13,1.5,80,Own risk-free curve
+Equitable Life,Dividend scale interest rate 2025,2025Q4,2025Q4,Participating,3320.0,Par account size,1062.1,6.4,6.4,6.4,6.4,6.4,3.39,2.97,2.65,2.54,2.75,80,Own risk-free curve
+Equitable Life,OSFI LF2,2026Q1,2026Q1,Individual annuity,116.9,"Insurance revenue in Canada, fiscal 2025",1062.1,4.2,4.69,5.05,5.07,5.15,1.1,1.2,1.25,1.17,1.5,80,Own risk-free curve
+Equitable Life,OSFI LF2,2026Q1,2026Q1,Individual life,140.4,"Insurance revenue in Canada, fiscal 2025",1062.1,3.92,4.52,5.06,5.09,5.15,0.82,1.03,1.26,1.19,1.5,80,Own risk-free curve
+Equitable Life,Dividend scale interest rate 2026,2026Q1,2026Q1,Participating,3320.0,Par account size,1062.1,6.4,6.4,6.4,6.4,6.4,3.3,2.91,2.6,2.5,2.75,80,Own risk-free curve
+Equitable Life,OSFI LF2,2026Q2,2026Q2,Individual annuity,116.9,"Insurance revenue in Canada, fiscal 2025",1062.1,4.07,4.49,4.84,5.05,5.15,1.04,1.12,1.18,1.28,1.5,80,Own risk-free curve
+Equitable Life,OSFI LF2,2026Q2,2026Q2,Individual life,140.4,"Insurance revenue in Canada, fiscal 2025",1062.1,3.81,4.34,4.86,4.95,5.15,0.78,0.97,1.2,1.18,1.5,80,Own risk-free curve
+Equitable Life,Dividend scale interest rate 2026,2026Q2,2026Q2,Participating,3320.0,Par account size,1062.1,6.4,6.4,6.4,6.4,6.4,3.37,3.03,2.74,2.63,2.75,80,Own risk-free curve
+Foresters Life,OSFI LF2,2023Q2,2023Q2,Group annuity,19.6,"Insurance revenue in Canada, fiscal 2023",222.9,4.9,4.7,4.82,4.67,5.15,1.26,1.49,1.64,1.66,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2023Q2,2023Q2,Individual annuity,0.1,"Insurance revenue in Canada, fiscal 2023",222.9,4.9,4.7,4.82,4.67,5.15,1.26,1.49,1.64,1.66,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2023Q2,2023Q2,Individual life,200.4,"Insurance revenue in Canada, fiscal 2023",222.9,4.9,4.7,4.82,4.67,5.15,1.26,1.49,1.64,1.66,1.5,80,Own risk-free curve
+Foresters Life,Dividend scale interest rate 2023,2023Q2,2023Q2,Participating,,Not published,222.9,5.5,5.5,5.5,5.5,5.5,1.86,2.29,2.32,2.49,1.85,80,Own risk-free curve
+Foresters Life,OSFI LF2,2023Q3,2023Q3,Group annuity,19.6,"Insurance revenue in Canada, fiscal 2023",222.9,4.36,4.46,4.85,4.76,5.15,1.38,1.59,1.75,1.78,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2023Q3,2023Q3,Individual annuity,0.1,"Insurance revenue in Canada, fiscal 2023",222.9,4.36,4.46,4.85,4.76,5.15,1.38,1.59,1.75,1.78,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2023Q3,2023Q3,Individual life,200.4,"Insurance revenue in Canada, fiscal 2023",222.9,4.36,4.46,4.85,4.76,5.15,1.38,1.59,1.75,1.78,1.5,80,Own risk-free curve
+Foresters Life,Dividend scale interest rate 2023,2023Q3,2023Q3,Participating,,Not published,222.9,5.5,5.5,5.5,5.5,5.5,2.52,2.63,2.4,2.52,1.85,80,Own risk-free curve
+Foresters Life,OSFI LF2,2023Q4,2023Q4,Group annuity,19.6,"Insurance revenue in Canada, fiscal 2023",222.9,4.26,4.52,4.67,4.55,5.15,1.13,1.44,1.58,1.57,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2023Q4,2023Q4,Individual annuity,0.1,"Insurance revenue in Canada, fiscal 2023",222.9,4.26,4.52,4.67,4.55,5.15,1.13,1.44,1.58,1.57,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2023Q4,2023Q4,Individual life,200.4,"Insurance revenue in Canada, fiscal 2023",222.9,4.26,4.52,4.67,4.55,5.15,1.13,1.44,1.58,1.57,1.5,80,Own risk-free curve
+Foresters Life,Dividend scale interest rate 2023,2023Q4,2023Q4,Participating,,Not published,222.9,5.5,5.5,5.5,5.5,5.5,2.37,2.42,2.41,2.52,1.85,80,Own risk-free curve
+Foresters Life,OSFI LF2,2024Q1,2024Q1,Group annuity,17.8,"Insurance revenue in Canada, fiscal 2024",237.2,4.54,4.84,4.98,4.88,5.15,1.04,1.39,1.59,1.57,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2024Q1,2024Q1,Individual annuity,0.1,"Insurance revenue in Canada, fiscal 2024",237.2,4.54,4.84,4.98,4.88,5.15,1.04,1.39,1.59,1.57,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2024Q1,2024Q1,Individual life,216.3,"Insurance revenue in Canada, fiscal 2024",237.2,4.54,4.84,4.98,4.88,5.15,1.04,1.39,1.59,1.57,1.5,80,Own risk-free curve
+Foresters Life,Dividend scale interest rate 2024,2024Q1,2024Q1,Participating,,Not published,237.2,5.5,5.5,5.5,5.5,5.5,2.0,2.05,2.11,2.19,1.85,80,Own risk-free curve
+Foresters Life,OSFI LF2,2024Q2,2024Q2,Group annuity,17.8,"Insurance revenue in Canada, fiscal 2024",237.2,4.5,4.86,5.08,4.9,5.15,1.01,1.37,1.64,1.55,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2024Q2,2024Q2,Individual annuity,0.1,"Insurance revenue in Canada, fiscal 2024",237.2,4.5,4.86,5.08,4.9,5.15,1.01,1.37,1.64,1.55,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2024Q2,2024Q2,Individual life,216.3,"Insurance revenue in Canada, fiscal 2024",237.2,4.5,4.86,5.08,4.9,5.15,1.01,1.37,1.64,1.55,1.5,80,Own risk-free curve
+Foresters Life,Dividend scale interest rate 2024,2024Q2,2024Q2,Participating,,Not published,237.2,5.5,5.5,5.5,5.5,5.5,2.01,2.01,2.06,2.15,1.85,80,Own risk-free curve
+Foresters Life,OSFI LF2,2024Q3,2024Q3,Group annuity,17.8,"Insurance revenue in Canada, fiscal 2024",237.2,3.74,4.34,4.88,4.74,5.15,1.01,1.37,1.7,1.57,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2024Q3,2024Q3,Individual annuity,0.1,"Insurance revenue in Canada, fiscal 2024",237.2,3.74,4.34,4.88,4.74,5.15,1.01,1.37,1.7,1.57,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2024Q3,2024Q3,Individual life,216.3,"Insurance revenue in Canada, fiscal 2024",237.2,3.74,4.34,4.88,4.74,5.15,1.01,1.37,1.7,1.57,1.5,80,Own risk-free curve
+Foresters Life,Dividend scale interest rate 2024,2024Q3,2024Q3,Participating,,Not published,237.2,5.5,5.5,5.5,5.5,5.5,2.77,2.53,2.32,2.33,1.85,80,Own risk-free curve
+Foresters Life,OSFI LF2,2024Q4,2024Q4,Group annuity,17.8,"Insurance revenue in Canada, fiscal 2024",237.2,3.91,4.49,4.89,4.78,5.15,0.94,1.24,1.53,1.42,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2024Q4,2024Q4,Individual annuity,0.1,"Insurance revenue in Canada, fiscal 2024",237.2,3.91,4.49,4.89,4.78,5.15,0.94,1.24,1.53,1.42,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2024Q4,2024Q4,Individual life,216.3,"Insurance revenue in Canada, fiscal 2024",237.2,3.91,4.49,4.89,4.78,5.15,0.94,1.24,1.53,1.42,1.5,80,Own risk-free curve
+Foresters Life,Dividend scale interest rate 2024,2024Q4,2024Q4,Participating,,Not published,237.2,5.5,5.5,5.5,5.5,5.5,2.53,2.25,2.14,2.14,1.85,80,Own risk-free curve
+Foresters Life,OSFI LF2,2025Q1,2025Q1,Group annuity,17.2,"Insurance revenue in Canada, fiscal 2025",245.7,3.63,4.31,4.86,4.78,5.15,1.01,1.31,1.62,1.49,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2025Q1,2025Q1,Individual annuity,0.1,"Insurance revenue in Canada, fiscal 2025",245.7,3.63,4.31,4.86,4.78,5.15,1.01,1.31,1.62,1.49,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2025Q1,2025Q1,Individual life,226.9,"Insurance revenue in Canada, fiscal 2025",245.7,3.63,4.31,4.86,4.78,5.15,1.01,1.31,1.62,1.49,1.5,80,Own risk-free curve
+Foresters Life,Dividend scale interest rate 2025,2025Q1,2025Q1,Participating,,Not published,245.7,6.25,6.25,6.25,6.25,6.25,3.63,3.25,3.01,2.96,2.6,80,Own risk-free curve
+Foresters Life,OSFI LF2,2025Q2,2025Q2,Group annuity,17.2,"Insurance revenue in Canada, fiscal 2025",245.7,3.79,4.55,5.09,5.01,5.15,0.96,1.23,1.5,1.36,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2025Q2,2025Q2,Individual annuity,0.1,"Insurance revenue in Canada, fiscal 2025",245.7,3.79,4.55,5.09,5.01,5.15,0.96,1.23,1.5,1.36,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2025Q2,2025Q2,Individual life,226.9,"Insurance revenue in Canada, fiscal 2025",245.7,3.79,4.55,5.09,5.01,5.15,0.96,1.23,1.5,1.36,1.5,80,Own risk-free curve
+Foresters Life,Dividend scale interest rate 2025,2025Q2,2025Q2,Participating,,Not published,245.7,6.25,6.25,6.25,6.25,6.25,3.42,2.93,2.66,2.6,2.6,80,Own risk-free curve
+Foresters Life,OSFI LF2,2025Q3,2025Q3,Group annuity,17.2,"Insurance revenue in Canada, fiscal 2025",245.7,3.64,4.42,5.15,5.11,5.15,0.88,1.19,1.5,1.35,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2025Q3,2025Q3,Individual annuity,0.1,"Insurance revenue in Canada, fiscal 2025",245.7,3.64,4.42,5.15,5.11,5.15,0.88,1.19,1.5,1.35,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2025Q3,2025Q3,Individual life,226.9,"Insurance revenue in Canada, fiscal 2025",245.7,3.64,4.42,5.15,5.11,5.15,0.88,1.19,1.5,1.35,1.5,80,Own risk-free curve
+Foresters Life,Dividend scale interest rate 2025,2025Q3,2025Q3,Participating,,Not published,245.7,6.25,6.25,6.25,6.25,6.25,3.49,3.02,2.6,2.49,2.6,80,Own risk-free curve
+Foresters Life,OSFI LF2,2025Q4,2025Q4,Group annuity,17.2,"Insurance revenue in Canada, fiscal 2025",245.7,3.86,4.6,5.27,5.29,5.15,0.87,1.11,1.41,1.28,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2025Q4,2025Q4,Individual annuity,0.1,"Insurance revenue in Canada, fiscal 2025",245.7,3.86,4.6,5.27,5.29,5.15,0.87,1.11,1.41,1.28,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2025Q4,2025Q4,Individual life,226.9,"Insurance revenue in Canada, fiscal 2025",245.7,3.86,4.6,5.27,5.29,5.15,0.87,1.11,1.41,1.28,1.5,80,Own risk-free curve
+Foresters Life,Dividend scale interest rate 2025,2025Q4,2025Q4,Participating,,Not published,245.7,6.25,6.25,6.25,6.25,6.25,3.26,2.76,2.39,2.24,2.6,80,Own risk-free curve
+Foresters Life,OSFI LF2,2026Q1,2026Q1,Group annuity,17.2,"Insurance revenue in Canada, fiscal 2025",245.7,4.01,4.68,5.35,5.39,5.15,0.9,1.16,1.46,1.35,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2026Q1,2026Q1,Individual annuity,0.1,"Insurance revenue in Canada, fiscal 2025",245.7,4.01,4.68,5.35,5.39,5.15,0.9,1.16,1.46,1.35,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2026Q1,2026Q1,Individual life,226.9,"Insurance revenue in Canada, fiscal 2025",245.7,4.01,4.68,5.35,5.39,5.15,0.9,1.16,1.46,1.35,1.5,80,Own risk-free curve
+Foresters Life,Dividend scale interest rate 2026,2026Q1,2026Q1,Participating,,Not published,245.7,6.25,6.25,6.25,6.25,6.25,3.14,2.73,2.36,2.21,2.6,80,Own risk-free curve
+Foresters Life,OSFI LF2,2026Q2,2026Q2,Group annuity,17.2,"Insurance revenue in Canada, fiscal 2025",245.7,3.92,4.54,5.18,5.25,5.15,0.89,1.12,1.43,1.34,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2026Q2,2026Q2,Individual annuity,0.1,"Insurance revenue in Canada, fiscal 2025",245.7,3.92,4.54,5.18,5.25,5.15,0.89,1.12,1.43,1.34,1.5,80,Own risk-free curve
+Foresters Life,OSFI LF2,2026Q2,2026Q2,Individual life,226.9,"Insurance revenue in Canada, fiscal 2025",245.7,3.92,4.54,5.18,5.25,5.15,0.89,1.12,1.43,1.34,1.5,80,Own risk-free curve
+Foresters Life,Dividend scale interest rate 2026,2026Q2,2026Q2,Participating,,Not published,245.7,6.25,6.25,6.25,6.25,6.25,3.22,2.83,2.5,2.34,2.6,80,Own risk-free curve
+Manulife,OSFI LF2,2023Q2,2023Q2,Group annuity,317.3,"Insurance revenue in Canada, fiscal 2023",8167.7,4.95,5.15,5.0,4.76,4.4,1.33,1.91,1.81,1.72,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2023Q2,2023Q2,Individual annuity,687.3,"Insurance revenue in Canada, fiscal 2023",8167.7,4.95,5.15,5.0,4.76,4.4,1.33,1.91,1.81,1.72,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2023Q2,2023Q2,Individual life,2068.1,"Insurance revenue in Canada, fiscal 2023",8167.7,4.95,5.15,5.0,4.76,4.4,1.33,1.91,1.81,1.72,1.0,80,Own risk-free curve
+Manulife,Dividend scale interest rate 2023,2023Q2,2023Q2,Participating,15980.0,Par account size,8167.7,6.35,6.35,6.35,6.35,6.35,2.73,3.11,3.16,3.31,2.95,80,Own risk-free curve
+Manulife,OSFI LF2,2023Q3,2023Q3,Group annuity,317.3,"Insurance revenue in Canada, fiscal 2023",8167.7,5.6,5.94,5.72,5.54,4.4,1.35,1.92,1.78,1.8,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2023Q3,2023Q3,Individual annuity,687.3,"Insurance revenue in Canada, fiscal 2023",8167.7,5.6,5.94,5.72,5.54,4.4,1.35,1.92,1.78,1.8,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2023Q3,2023Q3,Individual life,2068.1,"Insurance revenue in Canada, fiscal 2023",8167.7,5.6,5.94,5.72,5.54,4.4,1.35,1.92,1.78,1.8,1.0,80,Own risk-free curve
+Manulife,Dividend scale interest rate 2023,2023Q3,2023Q3,Participating,15980.0,Par account size,8167.7,6.35,6.35,6.35,6.35,6.35,2.1,2.33,2.41,2.61,2.95,80,Own risk-free curve
+Manulife,OSFI LF2,2023Q4,2023Q4,Group annuity,317.3,"Insurance revenue in Canada, fiscal 2023",8167.7,4.33,4.92,4.86,4.8,4.4,1.18,1.81,1.75,1.78,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2023Q4,2023Q4,Individual annuity,687.3,"Insurance revenue in Canada, fiscal 2023",8167.7,4.33,4.92,4.86,4.8,4.4,1.18,1.81,1.75,1.78,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2023Q4,2023Q4,Individual life,2068.1,"Insurance revenue in Canada, fiscal 2023",8167.7,4.33,4.92,4.86,4.8,4.4,1.18,1.81,1.75,1.78,1.0,80,Own risk-free curve
+Manulife,Dividend scale interest rate 2023,2023Q4,2023Q4,Participating,15980.0,Par account size,8167.7,6.35,6.35,6.35,6.35,6.35,3.2,3.24,3.24,3.33,2.95,80,Own risk-free curve
+Manulife,OSFI LF2,2024Q1,2024Q1,Group annuity,301.4,"Insurance revenue in Canada, fiscal 2024",8860.4,4.58,5.2,5.14,5.2,4.4,1.08,1.75,1.71,1.87,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2024Q1,2024Q1,Individual annuity,694.5,"Insurance revenue in Canada, fiscal 2024",8860.4,4.58,5.2,5.14,5.2,4.4,1.08,1.75,1.71,1.87,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2024Q1,2024Q1,Individual life,2248.8,"Insurance revenue in Canada, fiscal 2024",8860.4,4.58,5.2,5.14,5.2,4.4,1.08,1.75,1.71,1.87,1.0,80,Own risk-free curve
+Manulife,Dividend scale interest rate 2024,2024Q1,2024Q1,Participating,15980.0,Par account size,8860.4,6.35,6.35,6.35,6.35,6.35,2.85,2.9,2.92,3.02,2.95,80,Own risk-free curve
+Manulife,OSFI LF2,2024Q2,2024Q2,Group annuity,301.4,"Insurance revenue in Canada, fiscal 2024",8860.4,4.61,5.3,5.25,5.27,4.4,1.09,1.78,1.78,1.88,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2024Q2,2024Q2,Individual annuity,694.5,"Insurance revenue in Canada, fiscal 2024",8860.4,4.61,5.3,5.25,5.27,4.4,1.09,1.78,1.78,1.88,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2024Q2,2024Q2,Individual life,2248.8,"Insurance revenue in Canada, fiscal 2024",8860.4,4.61,5.3,5.25,5.27,4.4,1.09,1.78,1.78,1.88,1.0,80,Own risk-free curve
+Manulife,Dividend scale interest rate 2024,2024Q2,2024Q2,Participating,15980.0,Par account size,8860.4,6.35,6.35,6.35,6.35,6.35,2.83,2.83,2.88,2.96,2.95,80,Own risk-free curve
+Manulife,OSFI LF2,2024Q3,2024Q3,Group annuity,301.4,"Insurance revenue in Canada, fiscal 2024",8860.4,3.78,4.72,4.94,5.15,4.4,1.03,1.72,1.76,1.95,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2024Q3,2024Q3,Individual annuity,694.5,"Insurance revenue in Canada, fiscal 2024",8860.4,3.78,4.72,4.94,5.15,4.4,1.03,1.72,1.76,1.95,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2024Q3,2024Q3,Individual life,2248.8,"Insurance revenue in Canada, fiscal 2024",8860.4,3.78,4.72,4.94,5.15,4.4,1.03,1.72,1.76,1.95,1.0,80,Own risk-free curve
+Manulife,Dividend scale interest rate 2024,2024Q3,2024Q3,Participating,15980.0,Par account size,8860.4,6.35,6.35,6.35,6.35,6.35,3.6,3.35,3.17,3.15,2.95,80,Own risk-free curve
+Manulife,OSFI LF2,2024Q4,2024Q4,Group annuity,301.4,"Insurance revenue in Canada, fiscal 2024",8860.4,3.93,4.86,5.0,5.32,4.4,0.93,1.58,1.62,1.94,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2024Q4,2024Q4,Individual annuity,694.5,"Insurance revenue in Canada, fiscal 2024",8860.4,3.93,4.86,5.0,5.32,4.4,0.93,1.58,1.62,1.94,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2024Q4,2024Q4,Individual life,2248.8,"Insurance revenue in Canada, fiscal 2024",8860.4,3.93,4.86,5.0,5.32,4.4,0.93,1.58,1.62,1.94,1.0,80,Own risk-free curve
+Manulife,Dividend scale interest rate 2024,2024Q4,2024Q4,Participating,15980.0,Par account size,8860.4,6.35,6.35,6.35,6.35,6.35,3.35,3.07,2.97,2.97,2.95,80,Own risk-free curve
+Manulife,OSFI LF2,2025Q1,2025Q1,Group annuity,286.3,"Insurance revenue in Canada, fiscal 2025",9307.3,3.66,4.68,4.96,5.36,4.4,1.02,1.65,1.71,2.04,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2025Q1,2025Q1,Individual annuity,681.2,"Insurance revenue in Canada, fiscal 2025",9307.3,3.66,4.68,4.96,5.36,4.4,1.02,1.65,1.71,2.04,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2025Q1,2025Q1,Individual life,2546.5,"Insurance revenue in Canada, fiscal 2025",9307.3,3.66,4.68,4.96,5.36,4.4,1.02,1.65,1.71,2.04,1.0,80,Own risk-free curve
+Manulife,Dividend scale interest rate 2025,2025Q1,2025Q1,Participating,15980.0,Par account size,9307.3,6.35,6.35,6.35,6.35,6.35,3.71,3.32,3.1,3.03,2.95,80,Own risk-free curve
+Manulife,OSFI LF2,2025Q2,2025Q2,Group annuity,286.3,"Insurance revenue in Canada, fiscal 2025",9307.3,3.82,4.88,5.16,5.72,4.4,0.92,1.53,1.55,2.04,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2025Q2,2025Q2,Individual annuity,681.2,"Insurance revenue in Canada, fiscal 2025",9307.3,3.82,4.88,5.16,5.72,4.4,0.92,1.53,1.55,2.04,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2025Q2,2025Q2,Individual life,2546.5,"Insurance revenue in Canada, fiscal 2025",9307.3,3.82,4.88,5.16,5.72,4.4,0.92,1.53,1.55,2.04,1.0,80,Own risk-free curve
+Manulife,Dividend scale interest rate 2025,2025Q2,2025Q2,Participating,15980.0,Par account size,9307.3,6.35,6.35,6.35,6.35,6.35,3.45,3.0,2.74,2.67,2.95,80,Own risk-free curve
+Manulife,OSFI LF2,2025Q3,2025Q3,Group annuity,286.3,"Insurance revenue in Canada, fiscal 2025",9307.3,3.62,4.74,5.22,5.88,4.4,0.84,1.47,1.54,2.08,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2025Q3,2025Q3,Individual annuity,681.2,"Insurance revenue in Canada, fiscal 2025",9307.3,3.62,4.74,5.22,5.88,4.4,0.84,1.47,1.54,2.08,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2025Q3,2025Q3,Individual life,2546.5,"Insurance revenue in Canada, fiscal 2025",9307.3,3.62,4.74,5.22,5.88,4.4,0.84,1.47,1.54,2.08,1.0,80,Own risk-free curve
+Manulife,Dividend scale interest rate 2025,2025Q3,2025Q3,Participating,15980.0,Par account size,9307.3,6.35,6.35,6.35,6.35,6.35,3.57,3.08,2.67,2.55,2.95,80,Own risk-free curve
+Manulife,OSFI LF2,2025Q4,2025Q4,Group annuity,286.3,"Insurance revenue in Canada, fiscal 2025",9307.3,3.85,4.94,5.36,6.1,4.4,0.81,1.42,1.46,2.05,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2025Q4,2025Q4,Individual annuity,681.2,"Insurance revenue in Canada, fiscal 2025",9307.3,3.85,4.94,5.36,6.1,4.4,0.81,1.42,1.46,2.05,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2025Q4,2025Q4,Individual life,2546.5,"Insurance revenue in Canada, fiscal 2025",9307.3,3.85,4.94,5.36,6.1,4.4,0.81,1.42,1.46,2.05,1.0,80,Own risk-free curve
+Manulife,Dividend scale interest rate 2025,2025Q4,2025Q4,Participating,15980.0,Par account size,9307.3,6.35,6.35,6.35,6.35,6.35,3.31,2.83,2.45,2.3,2.95,80,Own risk-free curve
+Manulife,OSFI LF2,2026Q1,2026Q1,Group annuity,286.3,"Insurance revenue in Canada, fiscal 2025",9307.3,4.03,5.04,5.48,6.16,4.4,0.89,1.47,1.54,2.1,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2026Q1,2026Q1,Individual annuity,681.2,"Insurance revenue in Canada, fiscal 2025",9307.3,4.03,5.04,5.48,6.16,4.4,0.89,1.47,1.54,2.1,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2026Q1,2026Q1,Individual life,2546.5,"Insurance revenue in Canada, fiscal 2025",9307.3,4.03,5.04,5.48,6.16,4.4,0.89,1.47,1.54,2.1,1.0,80,Own risk-free curve
+Manulife,Dividend scale interest rate 2026,2026Q1,2026Q1,Participating,15980.0,Par account size,9307.3,6.35,6.35,6.35,6.35,6.35,3.21,2.78,2.41,2.29,2.95,80,Own risk-free curve
+Manulife,OSFI LF2,2026Q2,2026Q2,Group annuity,286.3,"Insurance revenue in Canada, fiscal 2025",9307.3,3.88,4.87,5.29,5.94,4.4,0.81,1.42,1.5,2.01,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2026Q2,2026Q2,Individual annuity,681.2,"Insurance revenue in Canada, fiscal 2025",9307.3,3.88,4.87,5.29,5.94,4.4,0.81,1.42,1.5,2.01,1.0,80,Own risk-free curve
+Manulife,OSFI LF2,2026Q2,2026Q2,Individual life,2546.5,"Insurance revenue in Canada, fiscal 2025",9307.3,3.88,4.87,5.29,5.94,4.4,0.81,1.42,1.5,2.01,1.0,80,Own risk-free curve
+Manulife,Dividend scale interest rate 2026,2026Q2,2026Q2,Participating,15980.0,Par account size,9307.3,6.35,6.35,6.35,6.35,6.35,3.28,2.9,2.56,2.42,2.95,80,Own risk-free curve
+Primerica Life,OSFI LF2,2023Q2,2023Q2,Individual life,341.5,"Insurance revenue in Canada, fiscal 2023",341.6,4.78,4.42,4.41,4.15,4.38,1.11,1.18,1.19,1.11,1.03,80,Own risk-free curve
+Primerica Life,OSFI LF2,2023Q3,2023Q3,Individual life,341.5,"Insurance revenue in Canada, fiscal 2023",341.6,5.32,5.32,5.1,4.83,4.68,1.06,1.29,1.12,1.1,1.04,80,Own risk-free curve
+Primerica Life,OSFI LF2,2023Q4,2023Q4,Individual life,341.5,"Insurance revenue in Canada, fiscal 2023",341.6,4.14,4.29,4.23,4.07,4.36,0.97,1.17,1.1,1.05,1.01,80,Own risk-free curve
+Primerica Life,OSFI LF2,2024Q1,2024Q1,Individual life,359.4,"Insurance revenue in Canada, fiscal 2024",359.4,4.38,4.56,4.52,4.38,4.5,0.85,1.08,1.1,1.04,1.0,80,Own risk-free curve
+Primerica Life,OSFI LF2,2024Q2,2024Q2,Individual life,359.4,"Insurance revenue in Canada, fiscal 2024",359.4,4.3,4.61,4.69,4.41,4.5,0.78,1.09,1.22,1.03,0.98,80,Own risk-free curve
+Primerica Life,OSFI LF2,2024Q3,2024Q3,Individual life,359.4,"Insurance revenue in Canada, fiscal 2024",359.4,3.53,4.06,4.47,4.2,4.4,0.78,1.06,1.26,1.0,0.95,80,Own risk-free curve
+Primerica Life,OSFI LF2,2024Q4,2024Q4,Individual life,359.4,"Insurance revenue in Canada, fiscal 2024",359.4,3.6,4.18,4.5,4.26,4.44,0.61,0.9,1.11,0.87,0.9,80,Own risk-free curve
+Primerica Life,OSFI LF2,2025Q1,2025Q1,Individual life,379.0,"Insurance revenue in Canada, fiscal 2025",379.1,3.34,4.02,4.46,4.23,4.43,0.7,0.99,1.19,0.91,0.91,80,Own risk-free curve
+Primerica Life,OSFI LF2,2025Q2,2025Q2,Individual life,379.0,"Insurance revenue in Canada, fiscal 2025",379.1,3.47,4.23,4.68,4.46,4.53,0.62,0.88,1.06,0.77,0.85,80,Own risk-free curve
+Primerica Life,OSFI LF2,2025Q3,2025Q3,Individual life,379.0,"Insurance revenue in Canada, fiscal 2025",379.1,3.18,4.16,4.8,4.59,4.59,0.4,0.9,1.11,0.79,0.85,80,Own risk-free curve
+Primerica Life,OSFI LF2,2025Q4,2025Q4,Individual life,379.0,"Insurance revenue in Canada, fiscal 2025",379.1,3.52,4.29,4.9,4.78,4.69,0.51,0.77,0.99,0.72,0.83,80,Own risk-free curve
+Primerica Life,OSFI LF2,2026Q1,2026Q1,Individual life,379.0,"Insurance revenue in Canada, fiscal 2025",379.1,3.7,4.38,4.97,4.89,4.75,0.56,0.83,1.04,0.8,0.87,80,Own risk-free curve
+Primerica Life,OSFI LF2,2026Q2,2026Q2,Individual life,379.0,"Insurance revenue in Canada, fiscal 2025",379.1,3.61,4.25,4.82,4.76,4.69,0.56,0.79,1.03,0.8,0.87,80,Own risk-free curve
+RBC Life,OSFI LF2,2024Q1,Oct FY 2024Q1,Group annuity,484.4,"Insurance revenue in Canada, fiscal 2024",2335.9,4.59,4.95,5.35,5.19,4.07,1.09,1.48,1.92,1.85,0.42,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2024Q1,Oct FY 2024Q1,Individual annuity,37.3,"Insurance revenue in Canada, fiscal 2024",2335.9,4.59,4.95,5.35,5.19,4.07,1.09,1.48,1.92,1.85,0.42,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2024Q1,Oct FY 2024Q1,Individual life,1143.0,"Insurance revenue in Canada, fiscal 2024",2335.9,4.59,4.95,5.35,5.19,4.07,1.09,1.48,1.92,1.85,0.42,80,Peer median risk-free (estimate)
+RBC Life,Dividend scale interest rate 2024,2024Q1,Oct FY 2024Q1,Participating,51.39,Par account size,2335.9,6.25,6.25,6.25,6.25,6.25,2.75,2.78,2.82,2.91,2.6,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2024Q2,Oct FY 2024Q2,Group annuity,484.4,"Insurance revenue in Canada, fiscal 2024",2335.9,4.78,5.08,5.41,5.25,4.08,1.27,1.56,1.94,1.87,0.43,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2024Q2,Oct FY 2024Q2,Individual annuity,37.3,"Insurance revenue in Canada, fiscal 2024",2335.9,4.78,5.08,5.41,5.25,4.08,1.27,1.56,1.94,1.87,0.43,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2024Q2,Oct FY 2024Q2,Individual life,1143.0,"Insurance revenue in Canada, fiscal 2024",2335.9,4.78,5.08,5.41,5.25,4.08,1.27,1.56,1.94,1.87,0.43,80,Peer median risk-free (estimate)
+RBC Life,Dividend scale interest rate 2024,2024Q2,Oct FY 2024Q2,Participating,51.39,Par account size,2335.9,6.25,6.25,6.25,6.25,6.25,2.74,2.73,2.78,2.87,2.6,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2024Q3,Oct FY 2024Q3,Group annuity,484.4,"Insurance revenue in Canada, fiscal 2024",2335.9,4.79,5.11,5.55,5.38,4.05,2.06,2.11,2.37,2.19,0.4,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2024Q3,Oct FY 2024Q3,Individual annuity,37.3,"Insurance revenue in Canada, fiscal 2024",2335.9,4.79,5.11,5.55,5.38,4.05,2.06,2.11,2.37,2.19,0.4,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2024Q3,Oct FY 2024Q3,Individual life,1143.0,"Insurance revenue in Canada, fiscal 2024",2335.9,4.79,5.11,5.55,5.38,4.05,2.06,2.11,2.37,2.19,0.4,80,Peer median risk-free (estimate)
+RBC Life,Dividend scale interest rate 2024,2024Q3,Oct FY 2024Q3,Participating,51.39,Par account size,2335.9,6.25,6.25,6.25,6.25,6.25,3.52,3.25,3.07,3.06,2.6,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2024Q4,Oct FY 2024Q4,Group annuity,484.4,"Insurance revenue in Canada, fiscal 2024",2335.9,4.01,4.53,5.16,5.11,4.05,1.02,1.26,1.79,1.73,0.4,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2024Q4,Oct FY 2024Q4,Individual annuity,37.3,"Insurance revenue in Canada, fiscal 2024",2335.9,4.01,4.53,5.16,5.11,4.05,1.02,1.26,1.79,1.73,0.4,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2024Q4,Oct FY 2024Q4,Individual life,1143.0,"Insurance revenue in Canada, fiscal 2024",2335.9,4.01,4.53,5.16,5.11,4.05,1.02,1.26,1.79,1.73,0.4,80,Peer median risk-free (estimate)
+RBC Life,Dividend scale interest rate 2024,2024Q4,Oct FY 2024Q4,Participating,51.39,Par account size,2335.9,6.25,6.25,6.25,6.25,6.25,3.26,2.98,2.88,2.87,2.6,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2025Q1,Oct FY 2025Q1,Group annuity,601.2,"Insurance revenue in Canada, fiscal 2025",2536.7,4.09,4.72,5.45,5.37,4.09,1.45,1.69,2.19,2.05,0.44,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2025Q1,Oct FY 2025Q1,Individual annuity,131.1,"Insurance revenue in Canada, fiscal 2025",2536.7,4.09,4.72,5.45,5.37,4.09,1.45,1.69,2.19,2.05,0.44,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2025Q1,Oct FY 2025Q1,Individual life,1102.1,"Insurance revenue in Canada, fiscal 2025",2536.7,4.09,4.72,5.45,5.37,4.09,1.45,1.69,2.19,2.05,0.44,80,Peer median risk-free (estimate)
+RBC Life,Dividend scale interest rate 2025,2025Q1,Oct FY 2025Q1,Participating,51.39,Par account size,2536.7,6.3,6.3,6.3,6.3,6.3,3.66,3.27,3.04,2.98,2.65,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2025Q2,Oct FY 2025Q2,Group annuity,601.2,"Insurance revenue in Canada, fiscal 2025",2536.7,3.76,4.52,5.46,5.54,4.2,0.87,1.17,1.85,1.87,0.55,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2025Q2,Oct FY 2025Q2,Individual annuity,131.1,"Insurance revenue in Canada, fiscal 2025",2536.7,3.76,4.52,5.46,5.54,4.2,0.87,1.17,1.85,1.87,0.55,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2025Q2,Oct FY 2025Q2,Individual life,1102.1,"Insurance revenue in Canada, fiscal 2025",2536.7,3.76,4.52,5.46,5.54,4.2,0.87,1.17,1.85,1.87,0.55,80,Peer median risk-free (estimate)
+RBC Life,Dividend scale interest rate 2025,2025Q2,Oct FY 2025Q2,Participating,51.39,Par account size,2536.7,6.3,6.3,6.3,6.3,6.3,3.41,2.95,2.69,2.63,2.65,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2025Q3,Oct FY 2025Q3,Group annuity,601.2,"Insurance revenue in Canada, fiscal 2025",2536.7,3.98,4.74,5.64,5.68,4.19,1.2,1.48,1.97,1.9,0.54,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2025Q3,Oct FY 2025Q3,Individual annuity,131.1,"Insurance revenue in Canada, fiscal 2025",2536.7,3.98,4.74,5.64,5.68,4.19,1.2,1.48,1.97,1.9,0.54,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2025Q3,Oct FY 2025Q3,Individual life,1102.1,"Insurance revenue in Canada, fiscal 2025",2536.7,3.98,4.74,5.64,5.68,4.19,1.2,1.48,1.97,1.9,0.54,80,Peer median risk-free (estimate)
+RBC Life,Dividend scale interest rate 2025,2025Q3,Oct FY 2025Q3,Participating,51.39,Par account size,2536.7,6.3,6.3,6.3,6.3,6.3,3.52,3.04,2.63,2.52,2.65,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2025Q4,Oct FY 2025Q4,Group annuity,601.2,"Insurance revenue in Canada, fiscal 2025",2536.7,3.69,4.5,5.59,5.75,4.23,0.66,0.98,1.69,1.72,0.58,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2025Q4,Oct FY 2025Q4,Individual annuity,131.1,"Insurance revenue in Canada, fiscal 2025",2536.7,3.69,4.5,5.59,5.75,4.23,0.66,0.98,1.69,1.72,0.58,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2025Q4,Oct FY 2025Q4,Individual life,1102.1,"Insurance revenue in Canada, fiscal 2025",2536.7,3.69,4.5,5.59,5.75,4.23,0.66,0.98,1.69,1.72,0.58,80,Peer median risk-free (estimate)
+RBC Life,Dividend scale interest rate 2025,2025Q4,Oct FY 2025Q4,Participating,51.39,Par account size,2536.7,6.3,6.3,6.3,6.3,6.3,3.27,2.78,2.4,2.27,2.65,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2026Q1,Oct FY 2026Q1,Group annuity,601.2,"Insurance revenue in Canada, fiscal 2025",2536.7,4.11,4.91,5.91,6.04,4.28,0.97,1.36,1.98,1.98,0.63,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2026Q1,Oct FY 2026Q1,Individual annuity,131.1,"Insurance revenue in Canada, fiscal 2025",2536.7,4.11,4.91,5.91,6.04,4.28,0.97,1.36,1.98,1.98,0.63,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2026Q1,Oct FY 2026Q1,Individual life,1102.1,"Insurance revenue in Canada, fiscal 2025",2536.7,4.11,4.91,5.91,6.04,4.28,0.97,1.36,1.98,1.98,0.63,80,Peer median risk-free (estimate)
+RBC Life,Dividend scale interest rate 2026,2026Q1,Oct FY 2026Q1,Participating,51.39,Par account size,2536.7,6.3,6.3,6.3,6.3,6.3,3.16,2.75,2.37,2.24,2.65,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2026Q2,Oct FY 2026Q2,Group annuity,601.2,"Insurance revenue in Canada, fiscal 2025",2536.7,4.25,4.98,5.98,6.13,4.26,1.2,1.55,2.19,2.19,0.61,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2026Q2,Oct FY 2026Q2,Individual annuity,131.1,"Insurance revenue in Canada, fiscal 2025",2536.7,4.25,4.98,5.98,6.13,4.26,1.2,1.55,2.19,2.19,0.61,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2026Q2,Oct FY 2026Q2,Individual life,1102.1,"Insurance revenue in Canada, fiscal 2025",2536.7,4.25,4.98,5.98,6.13,4.26,1.2,1.55,2.19,2.19,0.61,80,Peer median risk-free (estimate)
+RBC Life,Dividend scale interest rate 2026,2026Q2,Oct FY 2026Q2,Participating,51.39,Par account size,2536.7,6.3,6.3,6.3,6.3,6.3,3.25,2.87,2.51,2.36,2.65,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2026Q3,Oct FY 2026Q3,Group annuity,601.2,"Insurance revenue in Canada, fiscal 2025",2536.7,3.91,4.68,5.66,5.86,4.26,0.86,1.25,1.87,1.92,0.61,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2026Q3,Oct FY 2026Q3,Individual annuity,131.1,"Insurance revenue in Canada, fiscal 2025",2536.7,3.91,4.68,5.66,5.86,4.26,0.86,1.25,1.87,1.92,0.61,80,Peer median risk-free (estimate)
+RBC Life,OSFI LF2,2026Q3,Oct FY 2026Q3,Individual life,1102.1,"Insurance revenue in Canada, fiscal 2025",2536.7,3.91,4.68,5.66,5.86,4.26,0.86,1.25,1.87,1.92,0.61,80,Peer median risk-free (estimate)
+RBC Life,Dividend scale interest rate 2026,2026Q3,Oct FY 2026Q3,Participating,51.39,Par account size,2536.7,6.3,6.3,6.3,6.3,6.3,3.25,2.87,2.51,2.36,2.65,80,Peer median risk-free (estimate)
+Sun Life,OSFI LF2,2023Q2,2023Q2,Group annuity,1462.7,"Insurance revenue in Canada, fiscal 2023",8132.8,5.46,5.37,4.96,4.77,4.65,1.79,2.13,1.75,1.73,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2023Q2,2023Q2,Individual annuity,421.7,"Insurance revenue in Canada, fiscal 2023",8132.8,5.36,5.03,4.79,4.84,4.65,1.69,1.79,1.58,1.8,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2023Q2,2023Q2,Individual life,1607.6,"Insurance revenue in Canada, fiscal 2023",8132.8,4.7,4.38,4.59,4.38,4.65,1.03,1.14,1.38,1.34,1.5,80,Own risk-free curve
+Sun Life,Dividend scale interest rate 2023,2023Q2,2023Q2,Participating,24200.0,Par account size,8132.8,6.0,6.0,6.0,6.0,6.0,2.33,2.76,2.79,2.96,2.85,80,Own risk-free curve
+Sun Life,OSFI LF2,2023Q3,2023Q3,Group annuity,1462.7,"Insurance revenue in Canada, fiscal 2023",8132.8,6.02,6.2,5.62,5.25,4.65,1.76,2.18,1.64,1.52,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2023Q3,2023Q3,Individual annuity,421.7,"Insurance revenue in Canada, fiscal 2023",8132.8,5.96,5.83,5.56,5.51,4.65,1.7,1.81,1.58,1.78,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2023Q3,2023Q3,Individual life,1607.6,"Insurance revenue in Canada, fiscal 2023",8132.8,5.29,5.25,5.36,5.01,4.65,1.03,1.23,1.38,1.28,1.5,80,Own risk-free curve
+Sun Life,Dividend scale interest rate 2023,2023Q3,2023Q3,Participating,24200.0,Par account size,8132.8,6.0,6.0,6.0,6.0,6.0,1.74,1.98,2.02,2.27,2.85,80,Own risk-free curve
+Sun Life,OSFI LF2,2023Q4,2023Q4,Group annuity,1462.7,"Insurance revenue in Canada, fiscal 2023",8132.8,4.77,5.01,4.59,4.52,4.95,1.6,1.9,1.46,1.5,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2023Q4,2023Q4,Individual annuity,421.7,"Insurance revenue in Canada, fiscal 2023",8132.8,4.65,4.63,4.48,4.75,4.95,1.48,1.52,1.35,1.73,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2023Q4,2023Q4,Individual life,1607.6,"Insurance revenue in Canada, fiscal 2023",8132.8,4.14,4.22,4.46,4.27,4.95,0.97,1.11,1.33,1.25,1.5,80,Own risk-free curve
+Sun Life,Dividend scale interest rate 2023,2023Q4,2023Q4,Participating,24200.0,Par account size,8132.8,6.0,6.0,6.0,6.0,6.0,2.83,2.89,2.87,2.98,2.55,80,Own risk-free curve
+Sun Life,OSFI LF2,2024Q1,2024Q1,Group annuity,1623.1,"Insurance revenue in Canada, fiscal 2024",8778.9,4.97,5.34,4.99,4.81,4.95,1.44,1.86,1.57,1.47,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2024Q1,2024Q1,Individual annuity,441.6,"Insurance revenue in Canada, fiscal 2024",8778.9,4.81,4.92,4.84,4.98,4.95,1.28,1.44,1.42,1.64,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2024Q1,2024Q1,Individual life,1641.1,"Insurance revenue in Canada, fiscal 2024",8778.9,4.35,4.49,4.76,4.57,4.95,0.82,1.01,1.34,1.23,1.5,80,Own risk-free curve
+Sun Life,Dividend scale interest rate 2024,2024Q1,2024Q1,Participating,24200.0,Par account size,8778.9,6.25,6.25,6.25,6.25,6.25,2.72,2.77,2.83,2.91,2.8,80,Own risk-free curve
+Sun Life,OSFI LF2,2024Q2,2024Q2,Group annuity,1623.1,"Insurance revenue in Canada, fiscal 2024",8778.9,4.86,5.3,5.04,4.89,4.95,1.34,1.78,1.58,1.51,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2024Q2,2024Q2,Individual annuity,441.6,"Insurance revenue in Canada, fiscal 2024",8778.9,4.75,4.95,4.97,5.09,4.95,1.23,1.43,1.51,1.71,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2024Q2,2024Q2,Individual life,1641.1,"Insurance revenue in Canada, fiscal 2024",8778.9,4.3,4.52,4.89,4.62,4.95,0.78,1.0,1.43,1.24,1.5,80,Own risk-free curve
+Sun Life,Dividend scale interest rate 2024,2024Q2,2024Q2,Participating,24200.0,Par account size,8778.9,6.25,6.25,6.25,6.25,6.25,2.73,2.73,2.79,2.87,2.8,80,Own risk-free curve
+Sun Life,OSFI LF2,2024Q3,2024Q3,Group annuity,1623.1,"Insurance revenue in Canada, fiscal 2024",8778.9,4.1,4.86,4.59,4.6,4.95,1.35,1.87,1.39,1.41,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2024Q3,2024Q3,Individual annuity,441.6,"Insurance revenue in Canada, fiscal 2024",8778.9,4.0,4.52,4.61,4.86,4.95,1.25,1.53,1.41,1.67,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2024Q3,2024Q3,Individual life,1641.1,"Insurance revenue in Canada, fiscal 2024",8778.9,3.64,4.04,4.66,4.41,4.95,0.89,1.05,1.46,1.22,1.5,80,Own risk-free curve
+Sun Life,Dividend scale interest rate 2024,2024Q3,2024Q3,Participating,24200.0,Par account size,8778.9,6.25,6.25,6.25,6.25,6.25,3.5,3.26,3.05,3.06,2.8,80,Own risk-free curve
+Sun Life,OSFI LF2,2024Q4,2024Q4,Group annuity,1623.1,"Insurance revenue in Canada, fiscal 2024",8778.9,4.07,4.54,4.55,4.35,4.95,1.08,1.26,1.17,0.96,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2024Q4,2024Q4,Individual annuity,441.6,"Insurance revenue in Canada, fiscal 2024",8778.9,4.1,4.43,4.56,4.61,4.95,1.11,1.15,1.18,1.22,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2024Q4,2024Q4,Individual life,1641.1,"Insurance revenue in Canada, fiscal 2024",8778.9,3.68,4.09,4.67,4.42,4.95,0.69,0.81,1.29,1.03,1.5,80,Own risk-free curve
+Sun Life,Dividend scale interest rate 2024,2024Q4,2024Q4,Participating,24200.0,Par account size,8778.9,6.25,6.25,6.25,6.25,6.25,3.26,2.97,2.87,2.86,2.8,80,Own risk-free curve
+Sun Life,OSFI LF2,2025Q1,2025Q1,Group annuity,1783.4,"Insurance revenue in Canada, fiscal 2025",9219.2,4.02,4.58,4.66,4.49,4.95,1.39,1.56,1.4,1.18,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2025Q1,2025Q1,Individual annuity,449.7,"Insurance revenue in Canada, fiscal 2025",9219.2,4.07,4.47,4.69,4.74,4.95,1.44,1.45,1.43,1.43,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2025Q1,2025Q1,Individual life,1700.9,"Insurance revenue in Canada, fiscal 2025",9219.2,3.46,3.96,4.65,4.46,4.95,0.83,0.94,1.39,1.15,1.5,80,Own risk-free curve
+Sun Life,Dividend scale interest rate 2025,2025Q1,2025Q1,Participating,24200.0,Par account size,9219.2,6.25,6.25,6.25,6.25,6.25,3.62,3.23,2.99,2.94,2.8,80,Own risk-free curve
+Sun Life,OSFI LF2,2025Q2,2025Q2,Group annuity,1783.4,"Insurance revenue in Canada, fiscal 2025",9219.2,4.12,4.79,4.91,4.72,4.95,1.27,1.44,1.3,1.05,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2025Q2,2025Q2,Individual annuity,449.7,"Insurance revenue in Canada, fiscal 2025",9219.2,4.19,4.68,4.95,4.96,4.95,1.34,1.33,1.34,1.29,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2025Q2,2025Q2,Individual life,1700.9,"Insurance revenue in Canada, fiscal 2025",9219.2,3.61,4.2,4.93,4.75,4.95,0.76,0.85,1.32,1.08,1.5,80,Own risk-free curve
+Sun Life,Dividend scale interest rate 2025,2025Q2,2025Q2,Participating,24200.0,Par account size,9219.2,6.25,6.25,6.25,6.25,6.25,3.4,2.9,2.64,2.58,2.8,80,Own risk-free curve
+Sun Life,OSFI LF2,2025Q3,2025Q3,Group annuity,1783.4,"Insurance revenue in Canada, fiscal 2025",9219.2,3.96,4.49,4.88,4.79,4.95,1.18,1.23,1.21,1.01,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2025Q3,2025Q3,Individual annuity,449.7,"Insurance revenue in Canada, fiscal 2025",9219.2,4.07,4.4,4.85,5.01,4.95,1.29,1.14,1.18,1.23,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2025Q3,2025Q3,Individual life,1700.9,"Insurance revenue in Canada, fiscal 2025",9219.2,3.57,4.15,4.84,4.84,4.95,0.79,0.89,1.17,1.06,1.5,80,Own risk-free curve
+Sun Life,Dividend scale interest rate 2025,2025Q3,2025Q3,Participating,24200.0,Par account size,9219.2,6.25,6.25,6.25,6.25,6.25,3.47,2.99,2.58,2.47,2.8,80,Own risk-free curve
+Sun Life,OSFI LF2,2025Q4,2025Q4,Group annuity,1783.4,"Insurance revenue in Canada, fiscal 2025",9219.2,4.18,4.69,5.1,5.07,4.95,1.17,1.17,1.21,1.03,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2025Q4,2025Q4,Individual annuity,449.7,"Insurance revenue in Canada, fiscal 2025",9219.2,4.28,4.59,5.08,5.25,4.95,1.27,1.07,1.19,1.21,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2025Q4,2025Q4,Individual life,1700.9,"Insurance revenue in Canada, fiscal 2025",9219.2,3.79,4.34,5.06,5.09,4.95,0.78,0.82,1.17,1.05,1.5,80,Own risk-free curve
+Sun Life,Dividend scale interest rate 2025,2025Q4,2025Q4,Participating,24200.0,Par account size,9219.2,6.25,6.25,6.25,6.25,6.25,3.24,2.73,2.36,2.21,2.8,80,Own risk-free curve
+Sun Life,OSFI LF2,2026Q1,2026Q1,Group annuity,1783.4,"Insurance revenue in Canada, fiscal 2025",9219.2,4.45,4.91,5.29,5.25,4.95,1.32,1.36,1.37,1.18,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2026Q1,2026Q1,Individual annuity,449.7,"Insurance revenue in Canada, fiscal 2025",9219.2,4.56,4.79,5.28,5.39,4.95,1.43,1.24,1.36,1.32,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2026Q1,2026Q1,Individual life,1700.9,"Insurance revenue in Canada, fiscal 2025",9219.2,4.0,4.47,5.17,5.19,4.95,0.87,0.92,1.25,1.12,1.5,80,Own risk-free curve
+Sun Life,Dividend scale interest rate 2026,2026Q1,2026Q1,Participating,24200.0,Par account size,9219.2,6.25,6.25,6.25,6.25,6.25,3.12,2.7,2.33,2.18,2.8,80,Own risk-free curve
+Sun Life,OSFI LF2,2026Q2,2026Q2,Group annuity,1783.4,"Insurance revenue in Canada, fiscal 2025",9219.2,4.22,4.6,4.91,4.95,4.95,1.17,1.15,1.14,1.01,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2026Q2,2026Q2,Individual annuity,449.7,"Insurance revenue in Canada, fiscal 2025",9219.2,4.33,4.52,4.9,5.17,4.95,1.28,1.07,1.13,1.23,1.5,80,Own risk-free curve
+Sun Life,OSFI LF2,2026Q2,2026Q2,Individual life,1700.9,"Insurance revenue in Canada, fiscal 2025",9219.2,3.9,4.31,4.99,5.05,4.95,0.85,0.86,1.22,1.11,1.5,80,Own risk-free curve
+Sun Life,Dividend scale interest rate 2026,2026Q2,2026Q2,Participating,24200.0,Par account size,9219.2,6.25,6.25,6.25,6.25,6.25,3.2,2.8,2.48,2.31,2.8,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2023Q2,2023Q2,Individual annuity,9.1,"Insurance revenue in Canada, fiscal 2023",208.7,5.27,5.02,5.08,4.87,5.15,1.64,1.79,1.86,1.89,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2023Q2,2023Q2,Individual life,65.7,"Insurance revenue in Canada, fiscal 2023",208.7,5.27,5.02,5.08,4.87,5.15,1.64,1.79,1.86,1.89,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2023Q3,2023Q3,Individual annuity,9.1,"Insurance revenue in Canada, fiscal 2023",208.7,5.92,5.83,5.79,5.72,5.15,1.66,1.81,1.82,2.04,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2023Q3,2023Q3,Individual life,65.7,"Insurance revenue in Canada, fiscal 2023",208.7,5.92,5.83,5.79,5.72,5.15,1.66,1.81,1.82,2.04,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2023Q4,2023Q4,Individual annuity,9.1,"Insurance revenue in Canada, fiscal 2023",208.7,4.74,4.79,4.91,4.79,5.15,1.57,1.7,1.79,1.82,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2023Q4,2023Q4,Individual life,65.7,"Insurance revenue in Canada, fiscal 2023",208.7,4.74,4.79,4.91,4.79,5.15,1.57,1.7,1.79,1.82,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2024Q1,2024Q1,Individual annuity,7.4,"Insurance revenue in Canada, fiscal 2024",264.2,4.89,5.09,5.21,5.06,5.15,1.39,1.65,1.77,1.76,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2024Q1,2024Q1,Individual life,72.2,"Insurance revenue in Canada, fiscal 2024",264.2,4.89,5.09,5.21,5.06,5.15,1.39,1.65,1.77,1.76,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2024Q2,2024Q2,Individual annuity,7.4,"Insurance revenue in Canada, fiscal 2024",264.2,4.91,5.16,5.31,5.16,5.15,1.4,1.65,1.82,1.79,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2024Q2,2024Q2,Individual life,72.2,"Insurance revenue in Canada, fiscal 2024",264.2,4.91,5.16,5.31,5.16,5.15,1.4,1.65,1.82,1.79,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2024Q3,2024Q3,Individual annuity,7.4,"Insurance revenue in Canada, fiscal 2024",264.2,4.04,4.63,5.06,4.87,5.15,1.31,1.63,1.89,1.67,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2024Q3,2024Q3,Individual life,72.2,"Insurance revenue in Canada, fiscal 2024",264.2,4.04,4.63,5.06,4.87,5.15,1.31,1.63,1.89,1.67,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2024Q4,2024Q4,Individual annuity,7.4,"Insurance revenue in Canada, fiscal 2024",264.2,4.2,4.74,5.07,4.97,5.15,1.18,1.47,1.7,1.59,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2024Q4,2024Q4,Individual life,72.2,"Insurance revenue in Canada, fiscal 2024",264.2,4.2,4.74,5.07,4.97,5.15,1.18,1.47,1.7,1.59,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2025Q1,2025Q1,Individual annuity,8.1,"Insurance revenue in Canada, fiscal 2025",294.9,3.95,4.6,5.05,4.91,5.15,1.29,1.56,1.79,1.59,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2025Q1,2025Q1,Individual life,75.2,"Insurance revenue in Canada, fiscal 2025",294.9,3.95,4.6,5.05,4.91,5.15,1.29,1.56,1.79,1.59,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2025Q2,2025Q2,Individual annuity,8.1,"Insurance revenue in Canada, fiscal 2025",294.9,4.1,4.78,5.27,5.1,5.15,1.19,1.44,1.65,1.42,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2025Q2,2025Q2,Individual life,75.2,"Insurance revenue in Canada, fiscal 2025",294.9,4.1,4.78,5.27,5.1,5.15,1.19,1.44,1.65,1.42,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2025Q3,2025Q3,Individual annuity,8.1,"Insurance revenue in Canada, fiscal 2025",294.9,3.89,4.67,5.32,5.16,5.15,1.11,1.41,1.67,1.41,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2025Q3,2025Q3,Individual life,75.2,"Insurance revenue in Canada, fiscal 2025",294.9,3.89,4.67,5.32,5.16,5.15,1.11,1.41,1.67,1.41,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2025Q4,2025Q4,Individual annuity,8.1,"Insurance revenue in Canada, fiscal 2025",294.9,4.12,4.83,5.41,5.38,5.15,1.08,1.34,1.51,1.37,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2025Q4,2025Q4,Individual life,75.2,"Insurance revenue in Canada, fiscal 2025",294.9,4.12,4.83,5.41,5.38,5.15,1.08,1.34,1.51,1.37,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2026Q1,2026Q1,Individual annuity,8.1,"Insurance revenue in Canada, fiscal 2025",294.9,4.31,4.93,5.51,5.54,5.15,1.15,1.39,1.56,1.51,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2026Q1,2026Q1,Individual life,75.2,"Insurance revenue in Canada, fiscal 2025",294.9,4.31,4.93,5.51,5.54,5.15,1.15,1.39,1.56,1.51,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2026Q2,2026Q2,Individual annuity,8.1,"Insurance revenue in Canada, fiscal 2025",294.9,4.16,4.77,5.35,5.41,5.15,1.08,1.34,1.56,1.46,1.5,80,Own risk-free curve
+Wawanesa Life,OSFI LF2,2026Q2,2026Q2,Individual life,75.2,"Insurance revenue in Canada, fiscal 2025",294.9,4.16,4.77,5.35,5.41,5.15,1.08,1.34,1.56,1.46,1.5,80,Own risk-free curve
+iA Financial,Dividend scale interest rate 2023,2023Q2,2023Q2,Participating,69.36,Par account size,,6.0,6.0,6.0,6.0,6.0,2.37,2.76,2.78,2.96,2.35,80,Peer median risk-free (estimate)
+iA Financial,Dividend scale interest rate 2023,2023Q3,2023Q3,Participating,69.36,Par account size,,6.0,6.0,6.0,6.0,6.0,1.74,1.98,2.03,2.27,2.35,80,Peer median risk-free (estimate)
+iA Financial,Dividend scale interest rate 2023,2023Q4,2023Q4,Participating,69.36,Par account size,,6.0,6.0,6.0,6.0,6.0,2.85,2.89,2.89,3.0,2.35,80,Peer median risk-free (estimate)
+iA Financial,Dividend scale interest rate 2024,2024Q1,2024Q1,Participating,69.36,Par account size,,6.25,6.25,6.25,6.25,6.25,2.75,2.78,2.82,2.91,2.6,80,Peer median risk-free (estimate)
+iA Financial,Dividend scale interest rate 2024,2024Q2,2024Q2,Participating,69.36,Par account size,,6.25,6.25,6.25,6.25,6.25,2.74,2.73,2.78,2.87,2.6,80,Peer median risk-free (estimate)
+iA Financial,Dividend scale interest rate 2024,2024Q3,2024Q3,Participating,69.36,Par account size,,6.25,6.25,6.25,6.25,6.25,3.52,3.25,3.07,3.06,2.6,80,Peer median risk-free (estimate)
+iA Financial,"Annual report, all products",2024Q4,2024Q4,Group annuity,,Not published by line,,4.44,4.99,5.4,5.29,5.15,1.45,1.72,2.03,1.91,1.5,70,Peer median risk-free (estimate)
+iA Financial,"Annual report, all products",2024Q4,2024Q4,Individual annuity,,Not published by line,,4.44,4.99,5.4,5.29,5.15,1.45,1.72,2.03,1.91,1.5,70,Peer median risk-free (estimate)
+iA Financial,"Annual report, all products",2024Q4,2024Q4,Individual life,,Not published by line,,4.44,4.99,5.4,5.29,5.15,1.45,1.72,2.03,1.91,1.5,70,Peer median risk-free (estimate)
+iA Financial,Dividend scale interest rate 2024,2024Q4,2024Q4,Participating,69.36,Par account size,,6.25,6.25,6.25,6.25,6.25,3.26,2.98,2.88,2.87,2.6,80,Peer median risk-free (estimate)
+iA Financial,Dividend scale interest rate 2025,2025Q1,2025Q1,Participating,69.36,Par account size,,6.35,6.35,6.35,6.35,6.35,3.71,3.32,3.09,3.03,2.7,80,Peer median risk-free (estimate)
+iA Financial,Dividend scale interest rate 2025,2025Q2,2025Q2,Participating,69.36,Par account size,,6.35,6.35,6.35,6.35,6.35,3.46,3.0,2.74,2.68,2.7,80,Peer median risk-free (estimate)
+iA Financial,Dividend scale interest rate 2025,2025Q3,2025Q3,Participating,69.36,Par account size,,6.35,6.35,6.35,6.35,6.35,3.57,3.09,2.68,2.57,2.7,80,Peer median risk-free (estimate)
+iA Financial,"Annual report, all products",2025Q4,2025Q4,Group annuity,,Not published by line,,4.39,5.08,5.62,5.8,5.15,1.36,1.56,1.72,1.77,1.5,70,Peer median risk-free (estimate)
+iA Financial,"Annual report, all products",2025Q4,2025Q4,Individual annuity,,Not published by line,,4.39,5.08,5.62,5.8,5.15,1.36,1.56,1.72,1.77,1.5,70,Peer median risk-free (estimate)
+iA Financial,"Annual report, all products",2025Q4,2025Q4,Individual life,,Not published by line,,4.39,5.08,5.62,5.8,5.15,1.36,1.56,1.72,1.77,1.5,70,Peer median risk-free (estimate)
+iA Financial,Dividend scale interest rate 2025,2025Q4,2025Q4,Participating,69.36,Par account size,,6.35,6.35,6.35,6.35,6.35,3.32,2.83,2.45,2.32,2.7,80,Peer median risk-free (estimate)
+iA Financial,Dividend scale interest rate 2026,2026Q1,2026Q1,Participating,69.36,Par account size,,6.35,6.35,6.35,6.35,6.35,3.21,2.8,2.42,2.29,2.7,80,Peer median risk-free (estimate)
+iA Financial,Dividend scale interest rate 2026,2026Q2,2026Q2,Participating,69.36,Par account size,,6.35,6.35,6.35,6.35,6.35,3.3,2.92,2.56,2.41,2.7,80,Peer median risk-free (estimate)
+ivari,OSFI LF2,2023Q2,2023Q2,Individual annuity,48.0,"Insurance revenue in Canada, fiscal 2023",777.8,5.22,4.98,5.08,4.97,5.15,1.55,1.74,1.86,1.93,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2023Q2,2023Q2,Individual life,729.7,"Insurance revenue in Canada, fiscal 2023",777.8,5.22,4.98,5.08,4.97,5.15,1.55,1.74,1.86,1.93,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2023Q3,2023Q3,Individual annuity,48.0,"Insurance revenue in Canada, fiscal 2023",777.8,5.78,5.8,5.76,5.7,5.15,1.52,1.77,1.78,1.96,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2023Q3,2023Q3,Individual life,729.7,"Insurance revenue in Canada, fiscal 2023",777.8,5.78,5.8,5.76,5.7,5.15,1.52,1.77,1.78,1.96,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2023Q4,2023Q4,Individual annuity,48.0,"Insurance revenue in Canada, fiscal 2023",777.8,4.58,4.75,4.83,4.88,5.15,1.41,1.63,1.7,1.86,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2023Q4,2023Q4,Individual life,729.7,"Insurance revenue in Canada, fiscal 2023",777.8,4.58,4.75,4.83,4.88,5.15,1.41,1.63,1.7,1.86,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2024Q1,2024Q1,Individual annuity,38.8,"Insurance revenue in Canada, fiscal 2024",821.7,4.83,5.06,5.11,5.18,5.15,1.3,1.58,1.69,1.84,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2024Q1,2024Q1,Individual life,782.8,"Insurance revenue in Canada, fiscal 2024",821.7,4.83,5.06,5.11,5.18,5.15,1.3,1.58,1.69,1.84,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2024Q2,2024Q2,Individual annuity,38.8,"Insurance revenue in Canada, fiscal 2024",821.7,4.78,5.11,5.3,5.17,5.15,1.26,1.59,1.83,1.79,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2024Q2,2024Q2,Individual life,782.8,"Insurance revenue in Canada, fiscal 2024",821.7,4.78,5.11,5.3,5.17,5.15,1.26,1.59,1.83,1.79,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2024Q3,2024Q3,Individual annuity,38.8,"Insurance revenue in Canada, fiscal 2024",821.7,3.97,4.56,5.06,4.94,5.15,1.22,1.56,1.86,1.75,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2024Q3,2024Q3,Individual life,782.8,"Insurance revenue in Canada, fiscal 2024",821.7,3.97,4.56,5.06,4.94,5.15,1.22,1.56,1.86,1.75,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2024Q4,2024Q4,Individual annuity,38.8,"Insurance revenue in Canada, fiscal 2024",821.7,4.09,4.69,5.1,4.99,5.15,1.1,1.41,1.72,1.6,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2024Q4,2024Q4,Individual life,782.8,"Insurance revenue in Canada, fiscal 2024",821.7,4.09,4.69,5.1,4.99,5.15,1.1,1.41,1.72,1.6,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2025Q1,2025Q1,Individual annuity,36.2,"Insurance revenue in Canada, fiscal 2025",849.3,3.84,4.52,5.06,4.97,5.15,1.2,1.5,1.8,1.66,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2025Q1,2025Q1,Individual life,813.0,"Insurance revenue in Canada, fiscal 2025",849.3,3.84,4.52,5.06,4.97,5.15,1.2,1.5,1.8,1.66,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2025Q2,2025Q2,Individual annuity,36.2,"Insurance revenue in Canada, fiscal 2025",849.3,3.96,4.74,5.26,5.17,5.15,1.11,1.39,1.65,1.5,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2025Q2,2025Q2,Individual life,813.0,"Insurance revenue in Canada, fiscal 2025",849.3,3.96,4.74,5.26,5.17,5.15,1.11,1.39,1.65,1.5,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2025Q3,2025Q3,Individual annuity,36.2,"Insurance revenue in Canada, fiscal 2025",849.3,3.8,4.63,5.34,5.26,5.15,1.02,1.37,1.66,1.48,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2025Q3,2025Q3,Individual life,813.0,"Insurance revenue in Canada, fiscal 2025",849.3,3.8,4.63,5.34,5.26,5.15,1.02,1.37,1.66,1.48,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2025Q4,2025Q4,Individual annuity,36.2,"Insurance revenue in Canada, fiscal 2025",849.3,4.03,4.8,5.44,5.45,5.15,1.02,1.28,1.55,1.41,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2025Q4,2025Q4,Individual life,813.0,"Insurance revenue in Canada, fiscal 2025",849.3,4.03,4.8,5.44,5.45,5.15,1.02,1.28,1.55,1.41,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2026Q1,2026Q1,Individual annuity,36.2,"Insurance revenue in Canada, fiscal 2025",849.3,4.18,4.89,5.53,5.59,5.15,1.05,1.34,1.61,1.52,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2026Q1,2026Q1,Individual life,813.0,"Insurance revenue in Canada, fiscal 2025",849.3,4.18,4.89,5.53,5.59,5.15,1.05,1.34,1.61,1.52,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2026Q2,2026Q2,Individual annuity,36.2,"Insurance revenue in Canada, fiscal 2025",849.3,4.09,4.74,5.37,5.45,5.15,1.04,1.29,1.6,1.51,1.5,80,Own risk-free curve
+ivari,OSFI LF2,2026Q2,2026Q2,Individual life,813.0,"Insurance revenue in Canada, fiscal 2025",849.3,4.09,4.74,5.37,5.45,5.15,1.04,1.29,1.6,1.51,1.5,80,Own risk-free curve
+Peer median,Median of 6 insurers,2023Q2,2023Q2,Group annuity,,,,5.17,5.07,4.98,4.76,4.9,1.58,1.81,1.78,1.73,1.5,,
+Peer median,Median of 9 insurers,2023Q2,2023Q2,Individual annuity,,,,5.22,5.01,5.0,4.84,5.15,1.64,1.74,1.81,1.8,1.5,,
+Peer median,Median of 11 insurers,2023Q2,2023Q2,Individual life,,,,5.02,4.98,5.0,4.76,5.15,1.39,1.72,1.71,1.72,1.5,,
+Peer median,Median of 10 insurers,2023Q2,2023Q2,Participating,,,,6.0,6.0,6.0,6.0,6.0,2.38,2.75,2.78,2.95,2.45,,
+Peer median,Median of 5 insurers,2023Q3,2023Q3,Group annuity,,,,5.76,5.79,5.62,5.4,4.65,1.55,1.75,1.75,1.78,1.5,,
+Peer median,Median of 8 insurers,2023Q3,2023Q3,Individual annuity,,,,5.78,5.79,5.7,5.53,5.15,1.59,1.76,1.77,1.79,1.5,,
+Peer median,Median of 10 insurers,2023Q3,2023Q3,Individual life,,,,5.63,5.69,5.63,5.5,5.03,1.4,1.67,1.77,1.79,1.5,,
+Peer median,Median of 9 insurers,2023Q3,2023Q3,Participating,,,,6.0,6.0,6.0,6.0,6.0,1.79,1.98,2.03,2.27,2.55,,
+Peer median,Median of 6 insurers,2023Q4,2023Q4,Group annuity,,,,4.56,4.83,4.75,4.67,5.05,1.45,1.72,1.66,1.69,1.5,,
+Peer median,Median of 9 insurers,2023Q4,2023Q4,Individual annuity,,,,4.59,4.74,4.83,4.79,5.15,1.47,1.63,1.7,1.78,1.5,,
+Peer median,Median of 11 insurers,2023Q4,2023Q4,Individual life,,,,4.49,4.74,4.83,4.79,5.15,1.32,1.63,1.7,1.78,1.5,,
+Peer median,Median of 10 insurers,2023Q4,2023Q4,Participating,,,,6.0,6.0,6.0,6.0,6.0,2.84,2.89,2.88,2.99,2.45,,
+Peer median,Median of 7 insurers,2024Q1,2024Q1,Group annuity,,,,4.8,5.05,5.12,5.15,4.95,1.35,1.58,1.69,1.74,1.5,,
+Peer median,Median of 11 insurers,2024Q1,2024Q1,Individual annuity,,,,4.81,4.99,5.11,5.14,5.15,1.35,1.58,1.69,1.76,1.5,,
+Peer median,Median of 13 insurers,2024Q1,2024Q1,Individual life,,,,4.59,4.95,5.11,5.06,4.95,1.09,1.48,1.69,1.69,1.5,,
+Peer median,Median of 11 insurers,2024Q1,2024Q1,Participating,,,,6.25,6.25,6.25,6.25,6.25,2.72,2.77,2.82,2.91,2.6,,
+Peer median,Median of 7 insurers,2024Q2,2024Q2,Group annuity,,,,4.78,5.1,5.25,5.14,4.95,1.31,1.65,1.78,1.81,1.5,,
+Peer median,Median of 11 insurers,2024Q2,2024Q2,Individual annuity,,,,4.78,5.1,5.3,5.16,5.15,1.27,1.58,1.78,1.79,1.5,,
+Peer median,Median of 13 insurers,2024Q2,2024Q2,Individual life,,,,4.66,5.08,5.25,5.14,4.95,1.15,1.56,1.78,1.79,1.5,,
+Peer median,Median of 11 insurers,2024Q2,2024Q2,Participating,,,,6.25,6.25,6.25,6.25,6.25,2.73,2.73,2.78,2.87,2.6,,
+Peer median,Median of 7 insurers,2024Q3,2024Q3,Group annuity,,,,4.1,4.72,4.94,4.94,5.15,1.37,1.72,1.76,1.7,1.5,,
+Peer median,Median of 11 insurers,2024Q3,2024Q3,Individual annuity,,,,4.04,4.62,5.06,4.94,5.15,1.28,1.56,1.8,1.7,1.5,,
+Peer median,Median of 13 insurers,2024Q3,2024Q3,Individual life,,,,3.83,4.56,4.94,4.87,5.15,1.06,1.56,1.76,1.67,1.5,,
+Peer median,Median of 11 insurers,2024Q3,2024Q3,Participating,,,,6.25,6.25,6.25,6.25,6.25,3.5,3.25,3.05,3.06,2.6,,
+Peer median,Median of 11 insurers,2024Q4,2024Q4,Group annuity,,,,4.01,4.54,5.1,4.83,5.15,1.02,1.26,1.73,1.49,1.5,,
+Peer median,Median of 15 insurers,2024Q4,2024Q4,Individual annuity,,,,4.1,4.6,5.1,4.9,5.15,1.1,1.33,1.72,1.52,1.5,,
+Peer median,Median of 17 insurers,2024Q4,2024Q4,Individual life,,,,3.95,4.53,5.0,4.83,5.15,0.94,1.26,1.62,1.49,1.5,,
+Peer median,Median of 11 insurers,2024Q4,2024Q4,Participating,,,,6.25,6.25,6.25,6.25,6.25,3.26,2.97,2.87,2.86,2.6,,
+Peer median,Median of 7 insurers,2025Q1,2025Q1,Group annuity,,,,4.02,4.61,4.96,4.83,5.15,1.3,1.56,1.71,1.51,1.5,,
+Peer median,Median of 11 insurers,2025Q1,2025Q1,Individual annuity,,,,3.95,4.6,5.04,4.89,5.15,1.29,1.51,1.76,1.58,1.5,,
+Peer median,Median of 13 insurers,2025Q1,2025Q1,Individual life,,,,3.7,4.52,4.94,4.83,5.15,1.04,1.5,1.62,1.51,1.5,,
+Peer median,Median of 11 insurers,2025Q1,2025Q1,Participating,,,,6.25,6.25,6.25,6.25,6.25,3.63,3.25,3.01,2.96,2.65,,
+Peer median,Median of 7 insurers,2025Q2,2025Q2,Group annuity,,,,4.07,4.79,5.16,5.01,5.15,1.16,1.43,1.55,1.36,1.5,,
+Peer median,Median of 11 insurers,2025Q2,2025Q2,Individual annuity,,,,4.04,4.72,5.24,5.1,5.15,1.16,1.39,1.62,1.42,1.5,,
+Peer median,Median of 13 insurers,2025Q2,2025Q2,Individual life,,,,3.82,4.55,5.16,5.01,5.15,0.94,1.23,1.55,1.36,1.5,,
+Peer median,Median of 11 insurers,2025Q2,2025Q2,Participating,,,,6.25,6.25,6.25,6.25,6.25,3.41,2.93,2.66,2.6,2.65,,
+Peer median,Median of 7 insurers,2025Q3,2025Q3,Group annuity,,,,3.96,4.69,5.22,5.11,5.15,1.18,1.41,1.54,1.35,1.5,,
+Peer median,Median of 11 insurers,2025Q3,2025Q3,Individual annuity,,,,3.9,4.67,5.3,5.16,5.15,1.11,1.37,1.55,1.35,1.5,,
+Peer median,Median of 13 insurers,2025Q3,2025Q3,Individual life,,,,3.71,4.63,5.19,5.11,5.15,0.88,1.37,1.51,1.35,1.5,,
+Peer median,Median of 11 insurers,2025Q3,2025Q3,Participating,,,,6.25,6.25,6.25,6.25,6.25,3.49,3.02,2.61,2.51,2.65,,
+Peer median,Median of 11 insurers,2025Q4,2025Q4,Group annuity,,,,3.9,4.69,5.36,5.3,5.15,0.87,1.17,1.46,1.28,1.5,,
+Peer median,Median of 15 insurers,2025Q4,2025Q4,Individual annuity,,,,4.03,4.67,5.36,5.3,5.15,1.03,1.18,1.51,1.37,1.5,,
+Peer median,Median of 17 insurers,2025Q4,2025Q4,Individual life,,,,3.86,4.6,5.36,5.3,5.15,0.87,1.18,1.5,1.37,1.5,,
+Peer median,Median of 11 insurers,2025Q4,2025Q4,Participating,,,,6.25,6.25,6.25,6.25,6.25,3.26,2.76,2.39,2.26,2.65,,
+Peer median,Median of 7 insurers,2026Q1,2026Q1,Group annuity,,,,4.29,4.91,5.48,5.39,5.15,1.11,1.36,1.54,1.35,1.5,,
+Peer median,Median of 10 insurers,2026Q1,2026Q1,Individual annuity,,,,4.25,4.9,5.49,5.46,5.15,1.09,1.35,1.54,1.43,1.5,,
+Peer median,Median of 13 insurers,2026Q1,2026Q1,Individual life,,,,4.06,4.89,5.48,5.39,5.15,0.97,1.36,1.52,1.35,1.5,,
+Peer median,Median of 11 insurers,2026Q1,2026Q1,Participating,,,,6.25,6.25,6.25,6.25,6.25,3.16,2.75,2.37,2.24,2.65,,
+Peer median,Median of 8 insurers,2026Q2,2026Q2,Group annuity,,,,4.21,4.83,5.32,5.36,5.08,1.19,1.44,1.51,1.56,1.5,,
+Peer median,Median of 11 insurers,2026Q2,2026Q2,Individual annuity,,,,4.19,4.77,5.35,5.41,5.15,1.1,1.34,1.52,1.46,1.5,,
+Peer median,Median of 13 insurers,2026Q2,2026Q2,Individual life,,,,4.09,4.77,5.29,5.27,5.15,1.04,1.34,1.5,1.43,1.5,,
+Peer median,Median of 11 insurers,2026Q2,2026Q2,Participating,,,,6.25,6.25,6.25,6.25,6.25,3.25,2.87,2.51,2.36,2.65,,
+Peer median,Median of 2 insurers,2026Q3,2026Q3,Group annuity,,,,4.28,4.99,5.77,5.83,4.63,1.18,1.54,1.92,1.94,0.96,,
+Peer median,Median of 2 insurers,2026Q3,2026Q3,Individual annuity,,,,4.21,4.92,5.7,5.76,4.63,1.1,1.46,1.85,1.87,0.96,,
+Peer median,Median of 2 insurers,2026Q3,2026Q3,Individual life,,,,4.08,4.8,5.58,5.63,4.47,0.99,1.34,1.73,1.75,0.79,,
+Peer median,Median of 1 insurers,2026Q3,2026Q3,Participating,,,,6.3,6.3,6.3,6.3,6.3,3.25,2.87,2.51,2.36,2.65,,

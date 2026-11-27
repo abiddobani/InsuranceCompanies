@@ -1,0 +1,129 @@
+{
+  "company_id": "assumption_life",
+  "name": "Assumption Life (Assumption Mutual Life Insurance Company / Assomption Vie)",
+  "as_of": "2025-12-31",
+  "ownership": "Mutual (owned by participating policyholders); Moncton, NB. Subsidiaries: Louisbourg Investments 70%, Lavvi 52%, Atlantic Holdings (1987) 100%",
+  "regulator": "FCNB (New Brunswick), which applies OSFI LICAT for solvency; OSFI guidelines followed (B-15 reporting)",
+  "metrics": [
+    {"metric": "Total assets", "value": 2.6, "unit": "C$bn", "as_of": "2025-12-31", "source": "https://www.assomption.ca/en/individuals/about-us/press-releases/2026/assumption-life-reports-a-record-year-driven-by-the-strength-of-its-people", "note": "Record; +13% y/y per Insurance Portal (2026-03-05). Consolidated incl. segregated funds."},
+    {"metric": "Invested assets (note 4, carrying value, incl. par and pass-through fund units)", "value": 1250.4, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf", "note": "Of which investment fund units 379.6 (returns passed to UL policyholders) and 67.3 matched to participating contracts; debt securities 556.0, mortgages 181.7, preferred shares 79.7, cash 50.0. AR 2025 note 4."},
+    {"metric": "Segregated funds net assets", "value": 1114.9, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf", "note": "AR 2025 fair-value hierarchy table (990.7 in 2024). Seg fund investment contract liabilities 639.8, insurance contract liabilities 475.0."},
+    {"metric": "Louisbourg Investments AUM", "value": 3.1, "unit": "C$bn", "as_of": "2025-12-31", "source": "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf", "note": "Up from 2.8bn in 2024; 'strongest year of growth in its history' (AR 2025 p.20). Website shows '+3,3 G$' undated (https://www.louisbourg.com/fr-ca/). Includes Assumption/Louisbourg seg funds and third-party institutional/private wealth."},
+    {"metric": "Insurance revenue (IFRS 17)", "value": 159.7, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf", "note": "FY2025 vs 146.9 FY2024. Insurance service result 16.5 (14.0)."},
+    {"metric": "Gross premiums", "value": 488.4, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://insurance-portal.ca/article/assumption-lifes-net-profit-down-5-in-2025/", "note": "+26% y/y; net premiums 450.3. Company highlights cite 'C$577mm premiums and deposits' (non-IFRS, unaudited)."},
+    {"metric": "Net income (total / attributable to policyholders)", "value": 13.1, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf", "note": "FY2025 profit 13.065 (11.836 in 2024); attributable to policyholders 12.006 (12.592), down 5%; NCI 1.059. No core/underlying earnings measure published. No interim reporting (annual only)."},
+    {"metric": "Policyholders' equity", "value": 211.9, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://insurance-portal.ca/article/assumption-lifes-net-profit-down-5-in-2025/", "note": "+8% from 196.6."},
+    {"metric": "Solvency ratio (LICAT total, FCNB/OSFI basis)", "value": 167, "unit": "%", "as_of": "2025-12-31", "source": "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf", "note": "165% in 2024. Available capital 398.7mm, required capital 238.7mm (AR note 26). Supervisory target 100%; internal target not disclosed. Core ratio not disclosed."},
+    {"metric": "Financial leverage ratio", "value": null, "unit": "%", "as_of": "2025-12-31", "source": "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf", "note": "No debt capital; only lease liabilities (interest 0.176mm). Leverage effectively nil (inferred from FS)."},
+    {"metric": "Credit rating (AM Best FSR)", "value": null, "unit": "A- (Excellent)", "as_of": "2026-02-27", "source": "https://www.assomption.ca/en/individuals/about-us/press-releases/2026/assumption-life-reports-a-record-year-driven-by-the-strength-of-its-people", "note": "Held 26 consecutive years per company. Not rated by S&P/Moody's/DBRS/Fitch (none found)."},
+    {"metric": "Investment team size (Louisbourg Investments)", "value": 28, "unit": "staff", "as_of": "2026-11-03", "source": "https://www.louisbourg.com/fr-ca/a-propos/equipe/", "note": "Counts all Louisbourg staff on website: 7 portfolio managers + Directeur des placements + ~6 investment assistants/portfolio accountants; rest client service/ops. In-house insurer investment staff not disclosed."},
+    {"metric": "Employees", "value": 291, "unit": "people", "as_of": "2026-03-05", "source": "https://insurance-portal.ca/article/assumption-lifes-net-profit-down-5-in-2025/", "note": "Incl. students/temporary; recruiting 22 more in 2026. Group incl. Louisbourg and Lavvi per AR staff list."},
+    {"metric": "Key management compensation (all directors + executives, aggregate)", "value": 4.643, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf", "note": "AR note 27: salaries/short-term 4.443 + pension 0.200. Individual pay not disclosed (mutual, no proxy circular)."}
+  ],
+  "business_mix": {
+    "basis": "IFRS 17 insurance revenue by line, FY2025 (total C$159.7mm). Excludes investment-contract (seg fund/RIA) fee revenue reported in other operating revenue (C$17.5mm).",
+    "as_of": "2025-12-31",
+    "source": "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf",
+    "items": [
+      {"label": "Individual insurance", "pct": 47.5},
+      {"label": "Group insurance (PAA)", "pct": 41.3},
+      {"label": "Annuities and pensions", "pct": 11.3}
+    ],
+    "note": "Sales mix FY2025 (Insurance Portal): individual insurance C$16.6mm (+22%), group C$7.4mm (+4%), investments & retirement C$400.5mm (+26%). Liability mix: annuities/pensions C$939.6mm and individual insurance C$533.2mm of insurance contract liabilities incl. seg fund-backed."
+  },
+  "people": [
+    {"role": "CEO", "name": "Sébastien Dupuis", "title": "President and CEO (CPA, CA, ICD.D)", "reports_to": "Board of Directors (Chair Marc Landry)", "entity": "Assumption Mutual Life Insurance Company", "seat_since": 2019, "firm_since": 2001, "industry_since": null, "prior": "Assumption Life since 2001: director of finance, CRO, VP & CFO, VP CFO & strategic partnerships; succeeded André Vincent 2019-01-01", "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.assomption.ca/en/individuals/about-us/press-releases/2018/assumption-life-announces-retirement-of-president-and-ceo-and-names-successor", "https://www.assomption.ca/en/individuals/about-us/our-team"], "note": "Mutual: no proxy circular; only aggregate key-management comp (C$4.6mm, 2025) disclosed. firm_since 2001 per his own quote; pre-2001 career not disclosed."},
+    {"role": "CIO / most senior investment officer", "name": null, "title": "No CIO or VP Investments disclosed at the insurer", "reports_to": null, "entity": "Assumption Mutual Life Insurance Company", "seat_since": null, "firm_since": null, "industry_since": null, "prior": null, "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.assomption.ca/en/individuals/about-us/our-team"], "note": "Senior management lists CFO & Chief Actuary (Michel Allain), VP Offer Management, VP Sales, VP Group, CIO/CTO (technology) and no investment officer. Investment policy and credit policy are referenced in FS note 5; the CFO chairs the Climate Risk Governance Committee (B-15 report). Likely the CFO/Chief Actuary oversees the general account (inferred)."},
+    {"role": "CFO and Chief Actuary", "name": "Michel Allain", "title": "Vice President, Chief Financial Officer and Chief Actuary (FSA, FCIA)", "reports_to": "CEO", "entity": "Assumption Mutual Life Insurance Company", "seat_since": null, "firm_since": null, "industry_since": null, "prior": null, "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.assomption.ca/en/individuals/about-us/our-team", "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf"], "note": "Quoted in AR 2025 highlights on risk management. Start dates and prior firms not found (search budget exhausted before bio lookup)."},
+    {"role": "Head of public markets / affiliated asset manager CEO", "name": "Luc Gaudet", "title": "Président-directeur général, Louisbourg Investments (CFA)", "reports_to": "Louisbourg board (Assumption Life 70% owner)", "entity": "Louisbourg Investments Inc. (70% subsidiary)", "seat_since": null, "firm_since": null, "industry_since": null, "prior": null, "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.louisbourg.com/fr-ca/a-propos/equipe/"], "note": "Mathieu Roy, CFA, is Directeur des placements (head of investments) at Louisbourg; 7 portfolio managers incl. Daniel Robichaud (international equities). Whether Louisbourg manages the insurer's general account is not disclosed; it manages the Assumption/Louisbourg segregated funds."},
+    {"role": "CRO", "name": "Isabelle Bourgeois", "title": "Chief Risk Officer and Chief of Internal Audit (CPA, CA)", "reports_to": null, "entity": "Assumption Mutual Life Insurance Company", "seat_since": null, "firm_since": null, "industry_since": null, "prior": null, "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.assomption.ca/en/individuals/about-us/our-team"], "note": "Listed in 'Leadership Team' (second tier), not senior management; combined CRO/internal audit role. B-15 report: CRO provides annual updates to the Audit Committee."},
+    {"role": "Appointed Actuary", "name": "Lyne Francoeur", "title": "Appointed Actuary (FCIA, FSA, MAAA)", "reports_to": null, "entity": "Assumption Mutual Life Insurance Company", "seat_since": null, "firm_since": null, "industry_since": null, "prior": null, "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf"], "note": "Signed AA report Feb 2026."},
+    {"role": "Board Chair", "name": "Marc Landry", "title": "Chairman of the Board (CPA, CMA); CTO, Major Drilling", "reports_to": "Members", "entity": "Assumption Mutual Life Insurance Company", "seat_since": 2025, "firm_since": 2017, "industry_since": null, "prior": "Board member since 2017; chaired audit committee 2021-2024", "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.assomption.ca/en/individuals/about-us/press-releases/2025/marc-landry-appointed-chair-of-assumption-life’s-board-of-directors"], "note": "Board includes Nathalie Proteau (VP Asset Allocation & External Management, Fonds de solidarité FTQ) and Luc Farmer (actuary): investment expertise sits at board level."}
+  ],
+  "pm_structure": {
+    "summary": "Who manages the C$0.8bn non-par general account is not disclosed. Investment and mortgage credit policies set limits in-house; 70%-owned Louisbourg Investments (C$3.1bn AUM) runs the Assumption/Louisbourg seg funds and third-party mandates; other seg funds sub-advised by CI, Fidelity, Franklin Templeton and ETF-based portfolios.",
+    "manager_entities": ["Louisbourg Investments Inc. (70% owned, Dieppe NB; offices Moncton, Halifax, Québec, Montréal, Vancouver)", "CI Investments (sub-advisor, Assumption/CI seg funds)", "Fidelity Investments Canada (sub-advisor)", "Franklin Templeton (Templeton Growth GIF)", "Vanguard / iShares ETFs (portfolio funds)"],
+    "bullets": [
+      "No CIO at the insurer; FS note 5 says credit risk is run 'through the Group's investment policy' with limits by geography, issuer type, rating, maturity",
+      "Louisbourg (est. 1991, 28 staff, 7 PMs) grew AUM 2.8bn to 3.1bn in 2025; five strategies top-quartile in RBC Pooled Fund Survey",
+      "Seg fund shelf: Assumption/Louisbourg funds plus Assumption/CI, Fidelity and Templeton sub-advised funds (seg fund FS, 2025)",
+      "Mortgage book (C$182mm) underwritten in-house under a specific credit policy; commercial, insured and other residential",
+      "Lavvi (52%) is the group's insurtech platform subsidiary, not an asset manager"
+    ],
+    "sources": ["https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf", "https://www.louisbourg.com/fr-ca/", "https://www.louisbourg.com/fr-ca/a-propos/equipe/", "https://www.assomption.ca/getmedia/960f1934-96db-4e8c-8723-717943948379/FIA-YE2025-EFS-FINAL-EN-(April-28,-2026).pdf"]
+  },
+  "rotation_commentary": [
+    {"year": 2025, "text": "No portfolio-repositioning narrative in AR 2025; commentary is on seg-fund fee cuts, Louisbourg AUM growth and a 2026-2030 strategic plan ('human, simple, accessible').", "source": "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf"},
+    {"year": 2025, "text": "Note 4 shows a surplus-style book: C$87.7mm government bonds and C$25.0mm insured mortgages at amortized cost; C$64.6mm preferred shares designated FVOCI (no recycling).", "source": "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf"},
+    {"year": 2026, "text": "CEO: growth 'put pressure on operations'; 2026 spend goes to admin-system upgrades for individual and group platforms, partners to be chosen in 2026 (no asset-mix guidance).", "source": "https://insurance-portal.ca/article/assumption-lifes-net-profit-down-5-in-2025/"}
+  ],
+  "target_allocations": [],
+  "leverage": {
+    "debt_outstanding": [],
+    "financial_leverage_ratio_pct": null,
+    "issuance": [],
+    "securities_lending": {"amount_cad_mm": null, "as_of": "2025-12-31", "text": "No securities lending disclosed in AR 2025 notes.", "source": "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf"},
+    "repos": {"amount_cad_mm": null, "as_of": "2025-12-31", "text": "No repurchase / reverse repurchase agreements disclosed; liquidity note only says credit lines are available if needed.", "source": "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf"},
+    "structured_indirect": [
+      {"text": "No CLO/ABS/fund-finance exposure disclosed. Debt securities are government (C$445mm) and corporate (C$111mm); mortgages C$182mm direct. Investment fund units C$380mm are UL pass-through.", "amount_cad_mm": null, "source": "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf"},
+      {"text": "Contingent commitment: Assumption has agreed to provide Assuris a credit facility drawable on demand (amount not stated).", "amount_cad_mm": null, "source": "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf"}
+    ],
+    "note": "No debt, LRCNs or preferred shares; borrowing costs C$0.18mm are lease interest. Undisbursed approved mortgages C$7.1mm (1-6 months)."
+  },
+  "partnerships": {
+    "underwriters": [],
+    "deals": [
+      {"year": 2025, "text": "Goose Insurance partnership (Sep 2025): whole life and renewable term sold in Goose's app; Assumption is the carrier (Pierre Martin, Chief Digital Officer, quoted).", "source": "https://www.newswire.ca/news-releases/goose-insurance-and-assumption-life-partner-to-revolutionize-whole-life-insurance-distribution-895111944.html"},
+      {"year": 2025, "text": "Louisbourg Investments referral arrangements with PPI and New Outlook Wealth to grow private wealth distribution.", "source": "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf"},
+      {"year": 2021, "text": "UV Insurance distributes Assumption Life's segregated funds and registered investment accounts Canada-wide (effective 2021-09-15); Assumption remains insurer.", "source": "https://www.assomption.ca/en/individuals/about-us/press-releases/2021/uv-insurance-and-assumption-life-join-forces-for-the-marketing-of-segregated-funds-and-registered-i"},
+      {"year": 2025, "text": "Lavvi (52% subsidiary) deployed its digital platform at Assumption Life and signed carrier partners; 'strongest financial performance to date'.", "source": "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf"}
+    ],
+    "sponsorships": [
+      {"year": 2025, "text": "Presenting sponsor (2nd year) of NB Ride Against Cancer: C$275k raised for Wellspring NB, Friends of The Moncton Hospital Foundation, CHU Dumont Foundation.", "source": "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf"},
+      {"year": 2025, "text": "Annual Assumption Life golf tournament since 2001 for Atlantic Cancer Research Institute; C$2mm+ raised since inception.", "source": "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf"},
+      {"year": 2025, "text": "B Corp certified; 160+ community projects, 3,100+ employee volunteer hours; first SmileZone in NB at The Moncton Hospital.", "source": "https://www.assomption.ca/en/individuals/about-us/press-releases/2026/assumption-life-reports-a-record-year-driven-by-the-strength-of-its-people"}
+    ],
+    "bank_relationships": [
+      {"text": "No bank distribution or dealer relationships disclosed; distribution is via independent advisors/MGAs (PPI referral deal for Louisbourg). No capital-markets issuance, so no bookrunners.", "source": "https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf"}
+    ]
+  },
+  "risk": {
+    "appetite": [
+      "Board approves risk appetites; investment policy sets limits by geography, issuer type, average rating and maturity",
+      "Mortgage credit policy: industry limits, excluded sectors, single-borrower caps, collateral required",
+      "Reinsurers must carry minimum A- financial strength rating (compliant at YE2025)"
+    ],
+    "governance": [
+      "Board oversight via Audit Committee (also oversees climate risk); no separate board risk committee disclosed",
+      "CRO Isabelle Bourgeois also Chief of Internal Audit; Executive Committee and Climate Risk Governance Committee (chaired by CFO)",
+      "Annual Financial Condition Testing (FCT) by valuation actuary, presented to Board and filed with FCNB"
+    ],
+    "capital_target": "Supervisory target total ratio 100% (FCNB aligned with OSFI); actual 167% at YE2025 = capacity to absorb ~C$160mm of adverse results. Internal target not disclosed.",
+    "sensitivities": [
+      "Rates -50bp: profit -C$0.5mm, equity +C$3.6mm, CSM -C$0.2mm; +50bp: profit +C$0.06mm, equity -C$3.7mm (2025, C$000 in AR)",
+      "Corporate spreads +50bp: profit +C$1.8mm, equity -C$1.9mm; provincial spreads +50bp: profit -C$1.3mm, equity -C$3.7mm, CSM -C$0.4mm",
+      "Equities -10%: no profit/equity impact, CSM -C$4.7mm (seg fund & equity exposure absorbed in CSM); +10%: CSM +C$4.3mm",
+      "Ultimate discount rate +/-10bp: profit +C$0.2mm / -C$0.2mm",
+      "Mortality +2% (life): CSM -C$8.8mm gross / -C$2.4mm net of reinsurance; profit -C$1.8mm gross / -C$0.6mm net"
+    ],
+    "hedging": [
+      "No derivative or seg-fund dynamic hedging program disclosed; seg fund guarantee risk managed via investment policy limits and reinsurance",
+      "Heavy use of reinsurance: allocation of reinsurance premiums C$41.8mm vs insurance revenue C$159.7mm (2025)"
+    ],
+    "events": [
+      "No regulatory actions or risk events disclosed; profit to policyholders -5% in 2025 on strategic-plan investment spend"
+    ],
+    "sources": ["https://www.assomption.ca/getmedia/855cedde-0f99-4dc6-9d0b-08c7869e6bbb/AssomptionVie_RA_EN-2025.pdf", "https://www.assomption.ca/getmedia/5944e22f-35b9-4b80-8f03-734618540fe8/Assomption-Vie-B15-Implementation_Reporting-template-May-20-2026_ENG.pdf", "https://www.assomption.ca/en/individuals/about-us/our-team"]
+  },
+  "gaps": [
+    "General-account manager not disclosed: neither the AR, the B-15 report nor Louisbourg's site says who manages the insurer's own bonds/mortgages (in-house vs Louisbourg).",
+    "No CIO or head of investments at the insurer; org chart below CEO for investments is unknown.",
+    "Mutual: no proxy circular, so no individual compensation; only aggregate key-management comp (C$4.6mm, 2025).",
+    "Bios (year joined, prior firms) for CFO Michel Allain, CRO Isabelle Bourgeois and Louisbourg's Luc Gaudet/Mathieu Roy not found before the search budget ran out.",
+    "Core LICAT ratio, internal capital target range and ORSA details not disclosed.",
+    "No interim (quarterly) financials; FY2025 is the latest.",
+    "Consolidated statement of financial position did not extract from the PDF text layer; total assets taken from highlights/press (C$2.6bn).",
+    "No disclosed target asset allocation or repositioning narrative."
+  ],
+  "notes": "Assumption Life is a C$2.6bn-asset NB mutual whose balance sheet is dominated by segregated funds (C$1.1bn) and UL pass-through fund units (C$0.38bn); the non-par general account is roughly C$0.8bn (government bonds 50%, mortgages 22%, corporates 13%, preferreds 8%). Economics are driven by fee income on investments & retirement sales (C$400mm in 2025) and heavy reinsurance of individual life. The group's asset-management capability sits in 70%-owned Louisbourg Investments (C$3.1bn AUM, Luc Gaudet CEO, Mathieu Roy head of investments), whose role on the general account is not disclosed. Personal library not available in this session; public sources used. WebSearch budget was exhausted near the end of the task, so a few bio lookups (Allain, Bourgeois, Gaudet) were not completed."
+}

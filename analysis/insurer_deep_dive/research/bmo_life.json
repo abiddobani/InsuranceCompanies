@@ -1,0 +1,415 @@
+{
+  "company_id": "bmo_life",
+  "name": "BMO Life Assurance Company (BMO Insurance)",
+  "as_of": "2025-10-31",
+  "ownership": "Indirect wholly owned subsidiary of Bank of Montreal (TSX/NYSE: BMO); part of BMO Wealth Management",
+  "regulator": "OSFI",
+  "metrics": [
+    {
+      "metric": "Total assets (BMO Life Assurance, legal entity)",
+      "value": 22097.3,
+      "unit": "C$mm",
+      "as_of": "2025-10-31",
+      "source": "OSFI LF1 return (repo data/osfi/LF1_core.csv.gz)",
+      "note": "Jul 31, 2026: 24,411.6. Company FS on bmo.com (https://www.bmo.com/advisor/PDFs/bmo-life-assurance-company-consolidated-financial-statements-e.pdf) could not be retrieved (server refuses non-browser clients)."
+    },
+    {
+      "metric": "Segregated fund net assets",
+      "value": 2142.2,
+      "unit": "C$mm",
+      "as_of": "2025-10-31",
+      "source": "OSFI LF1 return (repo data/osfi/LF1_core.csv.gz)",
+      "note": "Jul 31, 2026: 2,442.8"
+    },
+    {
+      "metric": "General-account invested assets",
+      "value": 14648.8,
+      "unit": "C$mm",
+      "as_of": "2025-10-31",
+      "source": "OSFI LF2/LCA via repo analysis/investment_risk/dashboard/osfi_metrics.csv",
+      "note": "Jul 31, 2026 portfolio 18,244.3 (portfolio_composition). Bank MD&A: securities designated FVTPL held by insurance subsidiaries 13,536 (Oct 2025)."
+    },
+    {
+      "metric": "Total equity (BMO Life Assurance)",
+      "value": 1446.4,
+      "unit": "C$mm",
+      "as_of": "2025-10-31",
+      "source": "OSFI LF1 return (repo data/osfi/LF1_core.csv.gz)",
+      "note": "Jul 31, 2026: 1,548.2"
+    },
+    {
+      "metric": "Net income (BMO Life Assurance, legal entity)",
+      "value": 339.7,
+      "unit": "C$mm",
+      "as_of": "2025-10-31",
+      "source": "OSFI LF1 return (repo data/osfi/LF1_core.csv.gz)",
+      "note": "FY2025 vs 235.7 FY2024. 9M FY2026 (to Jul 31, 2026): 284.9."
+    },
+    {
+      "metric": "BMO Insurance net income (bank reporting, within Wealth Management)",
+      "value": 316.0,
+      "unit": "C$mm",
+      "as_of": "2025-10-31",
+      "source": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
+      "note": "FY2025 vs 236 FY2024 (+34%). Insurance revenue 503 (+37%) 'due to favourable market movements and a gain on the sale of a portfolio of insurance contracts'. Insurance service result 421 (2024: 340); insurance investment result 124 (105)."
+    },
+    {
+      "metric": "LICAT total ratio",
+      "value": 134.1,
+      "unit": "%",
+      "as_of": "2025-10-31",
+      "source": "OSFI LCA return via repo analysis/investment_risk/dashboard/osfi_metrics.csv",
+      "note": "Company LICAT PDF (https://www.bmo.com/assets/pdfs/insurance/bmo_life_insurance_company_licat_ratios_public_disclosures_summary_827e.pdf) unreachable. AM Best: 'favorable LICAT ratio', BCAR at strongest level (Jan 2025)."
+    },
+    {
+      "metric": "Financial leverage ratio",
+      "value": null,
+      "unit": "%",
+      "as_of": "",
+      "source": "",
+      "note": "Not disclosed; no external debt found."
+    },
+    {
+      "metric": "Credit rating - AM Best",
+      "value": null,
+      "unit": "FSR A (Excellent) / ICR a (Excellent), stable",
+      "as_of": "2025-01-09",
+      "source": "https://insurancenewsnet.com/oarticle/am-best-affirms-credit-ratings-of-bmo-life-assurance-company-4",
+      "note": "Affirmed Jan 9, 2025; 2026 affirmation not verified (search budget exhausted). No other agency ratings found."
+    },
+    {
+      "metric": "Employees",
+      "value": null,
+      "unit": "people",
+      "as_of": "",
+      "source": "",
+      "note": "Not disclosed publicly for BMO Life; BMO's Public Accountability Statement not retrievable from bmo.com."
+    },
+    {
+      "metric": "Investments team headcount",
+      "value": null,
+      "unit": "people",
+      "as_of": "",
+      "source": "",
+      "note": "Not disclosed."
+    },
+    {
+      "metric": "Derivatives notional",
+      "value": 3252.4,
+      "unit": "C$mm",
+      "as_of": "2025-10-31",
+      "source": "OSFI LF3 return (repo analysis/portfolio_composition/off_balance_sheet.csv)",
+      "note": "Currency 848.3; equity 234.4; fixed income linear 2,169.7 (17.8% of portfolio). No repos reported."
+    },
+    {
+      "metric": "Listed ticker (parent)",
+      "value": null,
+      "unit": "BMO (TSX/NYSE)",
+      "as_of": "",
+      "source": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
+      "note": ""
+    }
+  ],
+  "business_mix": {
+    "basis": "Qualitative product lines (no earnings or premium split published for BMO Life)",
+    "as_of": "2025-10-31",
+    "source": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
+    "items": [
+      {
+        "label": "Individual life (term, whole, universal) and critical illness - advisor/MGA channel",
+        "pct": null
+      },
+      {
+        "label": "Annuities incl. pension risk transfer (group annuity buy-outs/buy-ins) and structured settlements",
+        "pct": null
+      },
+      {
+        "label": "Creditor insurance (bank channel)",
+        "pct": null
+      },
+      {
+        "label": "Reinsurance (BMO Reinsurance Limited)",
+        "pct": null
+      },
+      {
+        "label": "Segregated funds (BMO GIF) with BMO Asset Management portfolios",
+        "pct": null
+      }
+    ],
+    "note": "Bank MD&A: 'life insurance, annuities (which include the pension risk transfer business), accident and sickness insurance, and creditor insurance, as well as the reinsurance business'. Direct-marketing A&S block (~180k policies) sold to UV Insurance June 2025."
+  },
+  "people": [
+    {
+      "role": "Group Head (parent-level)",
+      "name": "Deland Kamanga",
+      "title": "Group Head, BMO Wealth Management",
+      "reports_to": "Darryl White, CEO, BMO",
+      "entity": "Bank of Montreal",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": null,
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://advisor.ca/news/industry-news/bmo-insurance-welcomes-back-rohit-thomas/"
+      ],
+      "note": "BMO Insurance president reports to him (Mar 2023). BMO 2026 proxy circular not retrieved (bmo.com blocks fetches); whether he is an NEO and his pay not verified."
+    },
+    {
+      "role": "CEO",
+      "name": "Rohit Thomas",
+      "title": "President and CEO, BMO Insurance",
+      "reports_to": "Deland Kamanga, Group Head BMO Wealth Management",
+      "entity": "BMO Life Assurance Company",
+      "seat_since": 2023,
+      "firm_since": 2023,
+      "industry_since": null,
+      "prior": "VP Life & Health, TD Insurance (~3 yrs to 2023); earlier ~8 years at BMO incl. head of its pensions (PRT) business; director Burgundy Asset Management, BMO Insurance Solutions, BMO Life Assurance",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://advisor.ca/news/industry-news/bmo-insurance-welcomes-back-rohit-thomas/",
+        "https://elevatefestival.ca/festival-speakers/rohit-thomas/",
+        "https://insurance-portal.ca/article/uv-insurance-acquires-200000-policies-from-bmo-life/"
+      ],
+      "note": "President effective Mar 27, 2023 (rejoined BMO); CEO title by 2025. Not an NEO of Bank of Montreal (inferred); compensation not disclosed."
+    },
+    {
+      "role": "Vice-Chair",
+      "name": "Peter McCarthy",
+      "title": "Vice Chair, Insurance",
+      "reports_to": "Deland Kamanga",
+      "entity": "BMO Insurance",
+      "seat_since": 2023,
+      "firm_since": 2009,
+      "industry_since": null,
+      "prior": "President & CEO BMO Insurance 2009-2023; President & CEO AIG Life Canada 1999-2009",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://advisor.ca/news/industry-news/bmo-insurance-welcomes-back-rohit-thomas/"
+      ],
+      "note": "Current status (2026) not verified."
+    },
+    {
+      "role": "CIO",
+      "name": null,
+      "title": "Not publicly identified",
+      "reports_to": null,
+      "entity": "BMO Insurance",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": null,
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://www.bmo.com/advisor/PDFs/bmo-gif-client-guide-595e.pdf"
+      ],
+      "note": "No BMO Insurance investment executive found in public sources. BMO Asset Management Inc. (BMO GAM) is portfolio manager of BMO GIF seg-fund portfolios."
+    },
+    {
+      "role": "CFO",
+      "name": null,
+      "title": "Chief Financial Officer, BMO Insurance (role advertised 2026)",
+      "reports_to": "CFO, BMO Wealth Management (dotted line to BMO Insurance CEO)",
+      "entity": "BMO Insurance",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": null,
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://builtintoronto.com/job/chief-financial-officer-bmo-insurance/8644836"
+      ],
+      "note": "2026 job posting; works 'in partnership with BMO Insurance's Appointed Actuary'. Incumbent not identified."
+    },
+    {
+      "role": "CRO",
+      "name": null,
+      "title": "Chief Risk Officer, BMO Insurance",
+      "reports_to": "CRO, BMO Wealth Management",
+      "entity": "BMO Insurance",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": null,
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm"
+      ],
+      "note": "Reporting line from bank MD&A FY2025; name not disclosed."
+    }
+  ],
+  "pm_structure": {
+    "summary": "General-account manager not publicly disclosed; seg funds are BMO GIF portfolios managed by BMO Asset Management Inc. (BMO Global Asset Management). In-house insurance ALM team with BMO GAM/BMO Capital Markets support is likely but unverified (inferred).",
+    "manager_entities": [
+      "BMO Asset Management Inc. / BMO Global Asset Management (seg-fund portfolios; C$221bn Canadian AUM, May 2025)",
+      "BMO Insurance in-house investments/ALM (inferred, not disclosed)"
+    ],
+    "bullets": [
+      "BMO GIF guarantee options invest in ETF Portfolio funds with BMO Asset Management Inc. as portfolio manager (client guide).",
+      "AM Best (Jan 2025): company 'extending asset duration through diverse strategies' to manage long-duration PRT/annuity business.",
+      "Bank MD&A: securities designated at FVTPL held by insurance subsidiaries to back insurance and investment contract liabilities 13,536 (Oct 2025); investment properties moved to fair value (IAS 40) to align with insurance returns.",
+      "OSFI composition (Jul 2026): corporates 54%, govts 17%, equities 9.5%, real estate equity 7.5%, infrastructure equity 8.2% - a notably high real-asset share for a bank sub.",
+      "No investment-management fee or service agreement disclosed (company FS unreachable)."
+    ],
+    "sources": [
+      "https://www.bmo.com/advisor/PDFs/bmo-gif-client-guide-595e.pdf",
+      "https://insurancenewsnet.com/oarticle/am-best-affirms-credit-ratings-of-bmo-life-assurance-company-4",
+      "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm"
+    ]
+  },
+  "rotation_commentary": [
+    {
+      "year": 2025,
+      "text": "AM Best: BMO Life 'extending asset duration through diverse strategies'; longevity risk exposure 'significantly increased' with PRT growth; first international PRT transaction completed.",
+      "source": "https://insurancenewsnet.com/oarticle/am-best-affirms-credit-ratings-of-bmo-life-assurance-company-4"
+    },
+    {
+      "year": 2025,
+      "text": "Insurance revenue +37% to 503 incl. gain on sale of a portfolio of insurance contracts (UV Insurance block); FVTPL securities backing liabilities up to 13,536 from 12,214.",
+      "source": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm"
+    },
+    {
+      "year": 2025,
+      "text": "BMO Insurance ranked leading Canadian PRT provider in 2025 (LIMRA data) and won the largest single-day Canadian PRT transaction, C$525mm (per BMO market outlook; company-reported).",
+      "source": "https://www.bmo.com/advisor/PDFs/bmoi-canadianprt-marketoutlook-report.pdf"
+    },
+    {
+      "year": 2025,
+      "text": "June 2025: ~200,000-policy direct-marketing and par whole life block (~C$50mm premium) transferred to UV Insurance by assumption reinsurance - exits small legacy blocks.",
+      "source": "https://insurance-portal.ca/article/uv-insurance-acquires-200000-policies-from-bmo-life/"
+    }
+  ],
+  "target_allocations": [],
+  "leverage": {
+    "debt_outstanding": [
+      {
+        "type": "External senior / subordinated debt, LRCNs, preferred shares",
+        "amount_cad_mm": 0,
+        "as_of": "2025-10-31",
+        "source": "OSFI LF1 return (repo data/osfi/LF1_core.csv.gz)",
+        "note": "None found; capital from parent. Company FS not retrievable to confirm any intra-group sub debt."
+      }
+    ],
+    "financial_leverage_ratio_pct": null,
+    "issuance": [],
+    "securities_lending": {
+      "amount_cad_mm": null,
+      "as_of": "",
+      "text": "Not disclosed; nothing reported in OSFI LF3 off-balance-sheet data.",
+      "source": "OSFI LF3 return (repo analysis/portfolio_composition/off_balance_sheet.csv)"
+    },
+    "repos": {
+      "amount_cad_mm": 0,
+      "as_of": "2025-10-31",
+      "text": "No repos reported in OSFI LF3 for BMO Life Assurance.",
+      "source": "OSFI LF3 return (repo analysis/portfolio_composition/off_balance_sheet.csv)"
+    },
+    "structured_indirect": [
+      {
+        "text": "Derivatives notional (OSFI LF3, Oct 2025): FX 848.3; equity 234.4; fixed income linear 2,169.7.",
+        "amount_cad_mm": 3252.4,
+        "source": "OSFI LF3 return (repo analysis/portfolio_composition/off_balance_sheet.csv)"
+      },
+      {
+        "text": "Reinsurance ceded to independent reinsurers mitigates insurance risk; BMO Reinsurance Limited (Barbados-domiciled affiliate) publishes separate FS (Oct 31, 2025).",
+        "amount_cad_mm": null,
+        "source": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm"
+      }
+    ]
+  },
+  "partnerships": {
+    "underwriters": [],
+    "deals": [
+      {
+        "year": 2009,
+        "text": "BMO acquires AIG Life Insurance Company of Canada for ~C$308mm; becomes BMO Life Assurance (Peter McCarthy stays as CEO).",
+        "source": "https://www.insurancejournal.com/news/international/2009/01/13/96907.htm"
+      },
+      {
+        "year": 2017,
+        "text": "Yellow Pages buys annuities from BMO Life Assurance to transfer ~C$210mm of DB pension obligations (~50% of plan).",
+        "source": "https://www.marketsgroup.org/?p=23639"
+      },
+      {
+        "year": 2025,
+        "text": "First international pension risk transfer transaction completed (AM Best, Jan 2025).",
+        "source": "https://insurancenewsnet.com/oarticle/am-best-affirms-credit-ratings-of-bmo-life-assurance-company-4"
+      },
+      {
+        "year": 2025,
+        "text": "June 6, 2025: ~200,000 policies (180k direct-marketing A&S/term, 15k par whole life; ~C$50mm premiums) transferred to UV Insurance via OSFI-regulated assumption reinsurance; gain recognised FY2025. Advisers not named (Fasken acted for UV per its site).",
+        "source": "https://insurance-portal.ca/article/uv-insurance-acquires-200000-policies-from-bmo-life/"
+      },
+      {
+        "year": 2025,
+        "text": "Largest single-day Canadian PRT deal (C$525mm) won by BMO Insurance; leading PRT provider 2025 per LIMRA (company outlook).",
+        "source": "https://www.bmo.com/advisor/PDFs/bmoi-canadianprt-marketoutlook-report.pdf"
+      }
+    ],
+    "sponsorships": [],
+    "bank_relationships": [
+      {
+        "text": "Bank-owned: creditor insurance via BMO bank channels; individual products via MGAs/advisors; PRT via consultants; BMO GAM manages seg-fund portfolios.",
+        "source": "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm"
+      },
+      {
+        "text": "AM Best: no significant dividends to parent in prior three years; plans to pay dividends while maintaining target risk-adjusted capital.",
+        "source": "https://insurancenewsnet.com/oarticle/am-best-affirms-credit-ratings-of-bmo-life-assurance-company-4"
+      }
+    ]
+  },
+  "risk": {
+    "appetite": [
+      "Not published for BMO Life; managed within BMO's enterprise risk appetite. AM Best assesses ERM 'appropriate'; flags longevity risk from long-duration PRT business."
+    ],
+    "governance": [
+      "CRO, BMO Insurance reports to CRO, Wealth Management (second line); internal risk committees and BMO Insurance subsidiary boards provide governance.",
+      "Risk Committee of BMO Insurance reports quarterly to the insurance companies' boards; reinsurance used to transfer/cede insurance risk."
+    ],
+    "capital_target": "Not disclosed; 'target risk-adjusted capital' maintained while paying dividends (AM Best). LICAT total 134% (Oct 31, 2025, OSFI).",
+    "sensitivities": [
+      "None published for BMO Life; bank-level insurance risk sensitivities (interest rate, equity) sit in BMO's MD&A market-risk section (not extracted here)."
+    ],
+    "hedging": [
+      "Fixed-income derivatives notional 2,170 and FX 848 (OSFI LF3) consistent with duration extension and currency hedging for PRT/international business (inferred)."
+    ],
+    "events": [
+      "June 2025 block sale to UV Insurance (gain in FY2025 insurance revenue).",
+      "Jan 2025: first international PRT transaction.",
+      "IFRS 17 adopted by bank Nov 1, 2023 (full retrospective); CSM 1,550 at transition, 1,210 remaining Oct 2025."
+    ],
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/927971/000119312525307982/d938207dex992.htm",
+      "https://insurancenewsnet.com/oarticle/am-best-affirms-credit-ratings-of-bmo-life-assurance-company-4",
+      "https://insurance-portal.ca/article/uv-insurance-acquires-200000-policies-from-bmo-life/"
+    ]
+  },
+  "gaps": [
+    "bmo.com refused every fetch (curl HTTP/1.1 and HTTP/2, WebFetch 503): BMO Life FS, LICAT PDF, PRT outlook and Public Accountability Statement not read directly; balance sheet from OSFI LF1 in repo.",
+    "Bank-owned subsidiary: Rohit Thomas and other insurance executives are not NEOs; BMO's 2026 circular not retrieved so Kamanga's pay unverified.",
+    "No CIO, head of fixed income or CRO publicly named; CFO role was advertised in 2026 (vacant or newly filled).",
+    "General-account manager (in-house vs BMO GAM) not disclosed; marked inferred.",
+    "No business-mix percentages, sensitivities or internal capital target published.",
+    "2026 AM Best affirmation and the FY2026 BMO MD&A insurance figures not checked (web search budget exhausted).",
+    "OSFI LF1 shows two BMO entities (Assurance Co. 22,097; the near-identical second row likely BMO Life Insurance Company); Assurance Co. used."
+  ],
+  "notes": "Fiscal year ends Oct 31. 'BMO Insurance' bank-segment income (316) sits inside BMO Wealth Management and includes BMO Reinsurance Ltd and BMO Life Insurance Co.; OSFI legal-entity NI for BMO Life Assurance is 339.7. BMO Insurance Solutions and Burgundy Asset Management boards cited in Thomas's speaker bio."
+}

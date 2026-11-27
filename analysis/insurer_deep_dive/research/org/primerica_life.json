@@ -1,0 +1,167 @@
+{
+  "company_id": "primerica_life",
+  "operating_entities": {
+    "source_url": "https://www.primerica.com/public/primerica_disclosures.html",
+    "page_title": "PFSI Disclosures / Primerica General & Recruiting Disclosures - U.S. & Canada, Canada only (primerica.com legal disclosures page)",
+    "retrieved": "2026-11-03",
+    "entities": [
+      {
+        "name": "Primerica, Inc.",
+        "parent": null,
+        "description": "'a public company listed on the New York Stock Exchange (PRI) ... a diversified financial services distribution company serving middle-income households in the United States and Canada through licensed sales representatives'; 'conducts its core business activities in the United States and Canada through companies that are direct or indirect wholly owned subsidiaries of Primerica, Inc. ... Each subsidiary of Primerica, Inc., and not Primerica, Inc., is responsible for its own obligations to its customers.'"
+      },
+      {
+        "name": "Primerica Life Insurance Company",
+        "parent": "Primerica, Inc.",
+        "description": "'In the U.S. (except in New York), term life insurance products are underwritten by Primerica Life Insurance Company, Executive Offices: Duluth, Georgia.'"
+      },
+      {
+        "name": "National Benefit Life Insurance Company",
+        "parent": "Primerica, Inc.",
+        "description": "'In New York, term life insurance products are underwritten by National Benefit Life Insurance Company, Home Office: Long Island City, New York.'"
+      },
+      {
+        "name": "PFS Investments Inc. (dba Primerica Advisors)",
+        "parent": "Primerica, Inc.",
+        "description": "'In the U.S., securities and advisory services are offered by PFS Investments Inc., 1 Primerica Parkway, Duluth, Georgia 30099-0001, member FINRA'; 'conducts its advisory business under the name Primerica Advisors'."
+      },
+      {
+        "name": "Primerica Brokerage Services, Inc. (PBSI)",
+        "parent": "Primerica, Inc.",
+        "description": "Broker-dealer named with PFSI in the business-continuity disclosure (introducing broker-dealer for managed accounts per the 10-K)."
+      },
+      {
+        "name": "Primerica Shareholder Services, Inc.",
+        "parent": "Primerica, Inc.",
+        "description": "Shareholder-servicing / transfer-agent entity to which mutual-fund investment cheques are made payable."
+      },
+      {
+        "name": "Primerica Mortgage, LLC",
+        "parent": "Primerica, Inc.",
+        "description": "US mortgage company, NMLS #1723477, state-licensed (Colorado, Hawaii, Kansas, Missouri, New Mexico, Texas listings)."
+      },
+      {
+        "name": "Primerica Client Services, Inc.",
+        "parent": "Primerica, Inc.",
+        "description": "Contracting entity for the Primerica Legal Protection Program and IDTheftDefense (with Pre-Paid Legal Services, Inc. d/b/a LegalShield)."
+      },
+      {
+        "name": "Primerica Financial Services Ltd.",
+        "parent": "Primerica, Inc.",
+        "description": "Canada: 'Primerica Financial Services Ltd. representatives market term life insurance and segregated fund products underwritten by Primerica Life Insurance Company of Canada ... also market segregated fund products underwritten by The Canada Life Assurance Company ... [and] No Medical and Simplified Issue Life and Critical Illness Insurance which is offered through Canada Protection Plan Inc. and is underwritten by Foresters Life Insurance Company'."
+      },
+      {
+        "name": "Primerica Life Insurance Company of Canada",
+        "parent": "Primerica, Inc.",
+        "description": "Canadian underwriter of term life and segregated fund products, 'Head Office: Mississauga, Ontario'; also party (with PFSL Investments Canada Ltd.) to the Surex auto/home and 8Twelve mortgage referral agreements."
+      },
+      {
+        "name": "PFSL Investments Canada Ltd.",
+        "parent": "Primerica, Inc.",
+        "description": "'mutual fund dealer, Head Office: Mississauga, Ontario' that sponsors Primerica Representatives to sell mutual funds in Canada."
+      }
+    ],
+    "ga_manager_statement": {
+      "text": "We use a third-party investment advisor to assist us in the management of our investing activities. Our investment advisor reports to our investment committee.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm (FY2025 10-K, Investments section; NOT from the entities page, which names no general-account manager)"
+    },
+    "note": "The page says each subsidiary is 'direct or indirect wholly owned' but does not give the intermediate chain (the 10-K shows PLICC held via Primerica Financial Services (Canada) Ltd.), so parent is shown as Primerica, Inc. for all. Third parties named on the page (Canada Life, Canada Protection Plan Inc./Foresters Life, Surex.com, 8Twelve Mortgage, Answer Financial, LegalShield, American Bankers Insurance Co. of Florida) are counterparties, not Primerica entities, and are excluded. The about-primerica.html footnote repeats the three life companies and the two investment dealers. The Canadian site primerica.ca could not be reached from this session (host not in the allowed network list; proxy 502), so its own Canadian legal page was not checked."
+  },
+  "ceo": {
+    "name": "John A. Adams",
+    "title": "Chief Executive Officer, Primerica Life Insurance Company of Canada; Executive Vice President, Primerica, Inc.",
+    "entity": "Primerica Life Insurance Company of Canada",
+    "reports_to": "Primerica, Inc. CEO Glenn J. Williams (inferred; 'significant employee' of the parent)",
+    "seat_since": "2003",
+    "firm_since": "2000",
+    "industry_since": "1996",
+    "prior": "KPMG LLP (from 1980); Director, Financial Services, McMaster University (1992-1996); Treasurer, Old Republic Insurance (Canada) group (1996-2000); Primerica Life Canada VP Finance, then CFO (2000-2003); CEO PFSL Investments Canada from 2006; EVP Primerica, Inc. since 2018-05; Board Chair, Federation of Independent Dealers since 2026-01",
+    "tenure_source": "company bio (investors.primerica.com management page: CEO since 2003); press release (investors.primerica.com 2014: joined Primerica Canada and PFSL in 2000); Federation of Independent Dealers board bio (industry dates; gives CEO date as 2002)",
+    "comp_total": null,
+    "comp_currency": "USD",
+    "comp_year": null,
+    "comp_source": "Not disclosed: not a named executive officer in the 2026 proxy (NEOs: Williams, Schneider, Tan)",
+    "sources": [
+      "https://investors.primerica.com/corporate-governance/management",
+      "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm",
+      "https://www.independentdealers.ca/board-of-directors",
+      "https://investors.primerica.com/news-events/press-releases/detail/166/john-adams-primerica-executive-named-second-vice-chair-of"
+    ],
+    "note": "Group CEO is Glenn J. Williams (CEO since 2015-04; joined 1981; 2025 total compensation US$5,638,658 per 2026 proxy). Rosie Orlando is President of PLICC (since 2022-11; joined 1992; EVP Primerica, Inc. since 2024-10; pay not disclosed). Sources conflict on Adams' CEO start (company page 2003; FID bio 2002); company page used."
+  },
+  "cio": {
+    "name": "Tracy X. Tan",
+    "title": "Executive Vice President and Chief Financial Officer, Primerica, Inc. (no Chief Investment Officer title exists; CFO oversees treasury and capital markets, and the senior-management investment committee supervises the third-party investment advisor)",
+    "entity": "Primerica, Inc.",
+    "reports_to": "Glenn J. Williams, CEO",
+    "seat_since": "2023-12",
+    "firm_since": "2023-10",
+    "industry_since": "2015",
+    "prior": "CFO, Strategic Link Consulting (2018-2023); SVP & CFO, Assurant Global Housing (2015-2018); VP Finance & divisional CFO, Novelis North America (2013-2015); VP & divisional CFO, Southwire (2005-2013); General Electric (1996-2005)",
+    "tenure_source": "company bio (investors.primerica.com management page); press release (Business Wire 2023-09-14)",
+    "comp_total": 2581705,
+    "comp_currency": "USD",
+    "comp_year": 2025,
+    "comp_source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526139047/pri-20260326.htm",
+    "sources": [
+      "https://investors.primerica.com/corporate-governance/management",
+      "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm",
+      "https://www.businesswire.com/news/home/20230914088579/en/Primerica-Names-Tracy-Tan-as-Successor-to-Chief-Financial-Officer"
+    ],
+    "note": "Designated most senior investment officer by remit: bio says she 'oversees all aspects of the Company's finance function ... including planning and analysis, controllership, investor relations, treasury, tax, and capital markets'. FY2025 10-K: 'We have an investment committee composed of members of our senior management team that is responsible for establishing and maintaining our investment guidelines and supervising our investment activity ... We use a third-party investment advisor to assist us in the management of our investing activities. Our investment advisor reports to our investment committee.' Committee members and the advisor are not named (Conning, Inc. signed as 'Investment Manager' for Primerica Life Insurance Company in a 2014 SEC exhibit; not confirmed current). Canadian-dollar assets backing Primerica Life Canada are held inside this group construct; there is no Canadian investment team. industry_since = 2015 (first insurance role, Assurant); comp kept from first-round file (2026 proxy)."
+  },
+  "cio_direct_reports": [],
+  "other_leaders": [
+    {
+      "name": "Tracy X. Tan",
+      "title": "Executive Vice President and Chief Financial Officer",
+      "entity": "Primerica, Inc.",
+      "reports_to": "Glenn J. Williams, CEO",
+      "seat_since": "2023-12",
+      "firm_since": "2023-10",
+      "industry_since": "2015",
+      "prior": "CFO, Strategic Link Consulting (2018-2023); SVP & CFO, Assurant Global Housing (2015-2018); VP Finance & divisional CFO, Novelis North America (2013-2015); VP & divisional CFO, Southwire (2005-2013); General Electric (1996-2005)",
+      "tenure_source": "company bio (investors.primerica.com management page); press release (Business Wire 2023-09-14)",
+      "comp_total": 2581705,
+      "comp_currency": "USD",
+      "comp_year": 2025,
+      "comp_source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526139047/pri-20260326.htm",
+      "sources": [
+        "https://investors.primerica.com/corporate-governance/management",
+        "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm",
+        "https://www.businesswire.com/news/home/20230914088579/en/Primerica-Names-Tracy-Tan-as-Successor-to-Chief-Financial-Officer"
+      ],
+      "note": "Same person as the cio entry (no CIO title at Primerica). 2025 total compensation US$2,581,705 (salary, stock awards, non-equity incentive, other) per 2026 proxy."
+    },
+    {
+      "name": "Stacey K. Geer",
+      "title": "Executive Vice President, Deputy General Counsel, Chief Governance and Risk Officer, and Corporate Secretary",
+      "entity": "Primerica, Inc.",
+      "reports_to": "CEO / Board (governance and risk)",
+      "seat_since": "2024-05",
+      "firm_since": "2010-02",
+      "industry_since": "2010",
+      "prior": "Deputy General Counsel, Mueller Water Products (2007-2010); Chief Securities Counsel, BellSouth (2001-2007); Partner, King & Spalding (2000-2001)",
+      "tenure_source": "company bio (investors.primerica.com management page: named CRO May 2024; joined Feb 2010)",
+      "comp_total": null,
+      "comp_currency": "USD",
+      "comp_year": null,
+      "comp_source": "Not disclosed (not an NEO in the 2026 proxy)",
+      "sources": [
+        "https://investors.primerica.com/corporate-governance/management",
+        "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm"
+      ],
+      "note": "Chief Risk Officer of the parent since 2024-05; no separate CRO named for Primerica Life Canada."
+    }
+  ],
+  "gaps": [
+    "No Chief Investment Officer title at Primerica; the CFO is designated by remit. Members of the senior-management investment committee are not named in the 10-K, 10-Q, proxy or management page, so cio_direct_reports is empty.",
+    "Treasurer / Assistant Treasurer (a job posting says the Assistant Treasurer manages, monitors and ensures compliance of the investment portfolio) not identifiable: SEC filings name no treasurer; an undated Florida corporate filing lists a 'Michael K. Wells' as Treasurer of a Primerica entity (unverified, possibly stale); EDGAR full-text search for 'Vice President and Treasurer' returned only indenture boilerplate.",
+    "Third-party investment advisor not named in any current filing (Conning, Inc. appears as PLIC's investment manager in a 2014 SEC exhibit only).",
+    "primerica.ca (Canadian site) unreachable from this environment; Canadian legal/leadership pages not reviewed.",
+    "Canadian leadership pay (Adams, Orlando) not disclosed; Adams' CEO start date conflicts between sources (2003 company page vs 2002 FID bio).",
+    "Tenure dates null: none for named people except Adams/Tan/Geer are complete; LinkedIn not fetchable and no search snippet showed experience lines (all dates are from company bios/press releases).",
+    "Web-search budget exhausted this session before a search for the current Primerica Treasurer on state-registry or conference sources could be completed."
+  ],
+  "notes": "Primerica Life Canada is a captive term-life underwriter inside a US distribution group; investments are run at group level (US$4.1bn portfolio, Jun 2026) by an unnamed third-party advisor under a senior-management investment committee, with CAD assets earmarked against Canadian liabilities. Parent executives (Williams CEO, Schneider President, Tan CFO) are the only NEOs; Canadian executives are 'significant employees'. First-round file: analysis/insurer_deep_dive/research/primerica_life.json (compensation figures retained: Williams US$5,638,658; Schneider US$4,028,346; Tan US$2,581,705; 2025, 2026 proxy)."
+}

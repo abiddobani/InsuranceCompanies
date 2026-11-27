@@ -1,0 +1,75 @@
+{
+  "company_id": "equitable_life",
+  "operating_entities": null,
+  "ceo": {
+    "name": "Fabien Jeudy, FSA, FCIA",
+    "title": "President and Chief Executive Officer",
+    "entity": "The Equitable Life Insurance Company of Canada",
+    "reports_to": "Board of Directors (Chair Douglas S. Alexander)",
+    "seat_since": "2021-07",
+    "firm_since": "2021-07",
+    "industry_since": null,
+    "prior": "Sun Life: CEO Sun Life Hong Kong 2017-2021; SVP & COO Asia regional functions; earlier actuarial and finance roles at Sun Life",
+    "tenure_source": "press release (appointment announced 2021-03-30, took office 2021-07-05 succeeding Ronald Beettam)",
+    "comp_total": null,
+    "comp_currency": "CAD",
+    "comp_year": null,
+    "comp_source": "",
+    "sources": ["https://www.equitable.ca/en/who-we-are/news/equitable-life-of-canada-appoints-new-president-and-ceo", "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf"],
+    "note": "Mutual company: no proxy circular, no executive pay disclosed. industry_since left null (round-1 value 1990 was inferred from graduation year, not a sourced start date). Heads the 11-person Senior Management list in AR 2025 p.56."
+  },
+  "cio": {
+    "name": "Eugene Lundrigan, CFA",
+    "title": "Executive Vice-President, Chief Investment Officer",
+    "entity": "The Equitable Life Insurance Company of Canada (in-house Asset Management division; no affiliated asset manager)",
+    "reports_to": "President & CEO Fabien Jeudy (inferred: EVP on Senior Management list; CEO quoted as hiring him to 'lead our investment and asset management teams')",
+    "seat_since": "2025-09",
+    "firm_since": "2025-09",
+    "industry_since": null,
+    "prior": "President, Sun Life Capital Management (Canada) / SLC Management Canada and Head of Institutional Business (joined Sun Life Investment Management 2014); Sun Life Financial from 1997-10 (Senior Managing Director, Canadian Public Fixed Income; roles in Canada and Asia); Trading Desk Manager, Bank of Canada before 1997",
+    "tenure_source": "press release (joined 'effective immediately', 2025-09-15); Sun Life start 1997-10 and Bank of Canada role from MarketScreener insider experience page and Carleton alumni profile (aggregator); '30+ years' per press release, start year not stated",
+    "comp_total": null,
+    "comp_currency": "CAD",
+    "comp_year": null,
+    "comp_source": "",
+    "sources": ["https://www.equitable.ca/why-equitable/news/2025/09/equitable-welcomes-new-executive-vice-president-and-chief-investment-officer", "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf", "https://alumni.carleton.ca/cu-mentors/lundrigan-eugene"],
+    "note": "Succeeded Tara Proper, CFA, FRM (EVP & CIO 2021-09 to 2025; 28 years at Equitable; consulting to end-2025). The AR 2025 confirms the transition ('We welcomed Eugene Lundrigan in the role of Executive Vice-President, Chief Investment Officer following Tara Proper's retirement'). Accountable for the C$7.3bn general-fund invested assets (YE2025). industry_since null: career start before Bank of Canada not dated in any source."
+  },
+  "cio_direct_reports": [],
+  "other_leaders": [
+    {
+      "name": "Melanie Kliska, FSA, FCIA",
+      "title": "Executive Vice-President, Chief Financial Officer",
+      "entity": "The Equitable Life Insurance Company of Canada",
+      "reports_to": "President & CEO Fabien Jeudy",
+      "seat_since": "2023-05",
+      "firm_since": "2012",
+      "industry_since": null,
+      "prior": "Equitable career: senior actuarial associate (2012), progressively senior roles, VP Financial Reporting and Capital Management (2022)",
+      "tenure_source": "press release (CFO effective 2023-05-12 succeeding Sheila Hart; announced 2023-01); company bio (joined 2012)",
+      "comp_total": null, "comp_currency": "CAD", "comp_year": null, "comp_source": "",
+      "sources": ["https://equitable.ca/why-equitable/news/2023/01/equitable-life-announces-executive-leadership-changes", "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf"],
+      "note": "Signed FY2025 statements (2026-02-20). Equitable's CRO job posting states the CRO reports to the EVP & CFO, so the risk function sits under her."
+    },
+    {
+      "name": null,
+      "title": "Chief Risk Officer - not named by Equitable (not on the AR 2025 Senior Management list; reports to EVP & CFO per job posting)",
+      "entity": "The Equitable Life Insurance Company of Canada",
+      "reports_to": "EVP & CFO Melanie Kliska (per Equitable CRO job posting); presents to Senior Risk and Capital Committee and Board",
+      "seat_since": null, "firm_since": null, "industry_since": null,
+      "prior": "",
+      "tenure_source": "",
+      "comp_total": null, "comp_currency": "CAD", "comp_year": null, "comp_source": "",
+      "sources": ["https://tietalent.com/en/jobs/p-241521736/waterloo-chief-risk-officer", "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf"],
+      "note": "AR 2025 describes the second line as 'led by the Chief Risk Officer, Chief Compliance Officer, Chief Actuary and Head of Technology Risk & Governance' without names. A data aggregator (wiza.co) lists Lisa Zwicker as 'AVP, Risk Management and CRO' - unverified, so not entered as a name. Chief Actuary (Appointed Actuary) is Phillip K. Watson, FSA, FCIA, CQF, SVP (AR 2025)."
+    }
+  ],
+  "gaps": [
+    "No operating-entities page on equitable.ca. Checked 2026-11-03: /why-equitable/who-we-are (JavaScript-rendered, no server-side content), /why-equitable, /terms-of-use (defines 'Equitable' as The Equitable Life Insurance Company of Canada and refers to 'affiliated companies' without naming them), /why-equitable/our-leadership-team/executive-team (JS widget; CMS API /en-CA/api/widget/get-items returns 500), site footer. The only entity list on the site is inside the Annual Report 2025 PDF (p.57 'Subsidiaries': Equilife Investment Management Inc.; 262695 Holdings Limited; 1000605596 Ontario Inc.; 16521401 Canada Corp.; 272nd Street Holdings Ltd. - all at One Westmount Road North, Waterloo except the last, Vancouver), which is a document rather than a web page, so operating_entities is null per the brief.",
+    "CIO direct reports: none publicly named. Equitable publishes no investment-team page. Job postings show the division's structure - a 'Private Investments' department headed by a 'VP, Private Investments' (Manager, Credit reports to that VP), a 'Public Investments' department (Investment Analyst Equity, Senior Quantitative Analyst postings) and in-house commercial mortgage origination - but no names. Aggregator-only names, all unverified and therefore excluded: Scott Hetherington 'SVP Investments' (wiza.co), Paul English 'SVP Investments' (joined 2007; equitable.ca bio now 404), Karl Brecht 'Alternative Investments head' (ZoomInfo).",
+    "Tenure: LinkedIn not accessible; no search snippets surfaced experience dates. Null fields: Jeudy industry_since; Lundrigan industry_since; Kliska industry_since; CRO all fields.",
+    "Executive-team bio pages (equitable.ca/en/who-we-are/our-leadership/<name>) return 404 to fetch tools; titles taken from AR 2025 Senior Management list (p.56) and press releases.",
+    "Mutual: no compensation disclosure for any officer."
+  ],
+  "notes": "Senior Management per AR 2025 p.56 (11 people): Jeudy (CEO); EVPs Avaria (Group Insurance), Brown (CHRO & Communications), Carbell (Chief Strategy & Impact), Crosbie (Individual Wealth), Kliska (CFO), Lundrigan (CIO), Reeves (Individual Insurance), Sarda (CIO - information), Simpson (Chief Legal Officer & Corporate Secretary); SVP Watson (Chief Actuary). General account (C$7.26bn invested assets YE2025: bonds 2,734; equities 2,533; private placements 853; property 545; mortgages 518) is managed by the in-house Asset Management division under the EVP & CIO with Asset Management Committee and Board Investment Committee oversight; external funds only for PE, infrastructure equity and part of real estate. Personal library not available in this session; public sources used."
+}

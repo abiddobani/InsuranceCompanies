@@ -1,0 +1,142 @@
+{
+  "company_id": "wawanesa_life",
+  "operating_entities": {
+    "source_url": "https://www.wawanesa.com/canada/about-us/about-financial.html",
+    "page_title": "Financial ratings - Wawanesa Insurance (with 'Company information' page https://www.wawanesa.com/canada/about-us/)",
+    "retrieved": "2026-11-03",
+    "entities": [
+      {
+        "name": "The Wawanesa Mutual Insurance Company (Wawanesa Insurance)",
+        "parent": null,
+        "description": "'Wawanesa Insurance is a Canadian mutual company, owned by the people it protects. Founded in 1896 in the Village of Wawanesa, Manitoba ... one of Canada's largest property and casualty insurers' with national headquarters in Winnipeg; 'rated by A.M. Best Company with a financial strength rating of A (Excellent)' (Company information and Financial ratings pages)."
+      },
+      {
+        "name": "The Wawanesa Life Insurance Company (Wawanesa Life)",
+        "parent": "The Wawanesa Mutual Insurance Company",
+        "description": "'Wawanesa Insurance's wholly owned subsidiary company and individual rating is: Life/Health subsidiary The Wawanesa Life Insurance Company (Winnipeg, MB), rated with a financial strength rating of A (Excellent).' Company information page: 'We're 100% Canadian owned and operated, including our subsidiary, Wawanesa Life.'"
+      }
+    ],
+    "ga_manager_statement": {
+      "text": "",
+      "source": ""
+    },
+    "note": "wawanesa.com has no leadership or legal-entities page: /canada/about-us/leadership-team, /about-leadership.html, /about-executive.html, /our-companies and /about-companies.html all return the site's 404 page; wawanesalife.com links back to the same Company information page. Western Financial Group (brokerage) is named as a line of business in the Jan 2025 executive release and the 2025 Report to Members, but not on the about pages, so it is excluded here per the brief. The about pages name no general-account manager; the 2025 Report says 'Where feasible, we engage with investment managers' and the Life FS cite external investment managers; a Benefits Canada article title refers to Wawanesa Mutual's 'journey with OCIO' (article not accessible)."
+  },
+  "ceo": {
+    "name": "Evan Johnston",
+    "title": "President and Chief Executive Officer, The Wawanesa Mutual Insurance Company (also President & CEO of The Wawanesa Life Insurance Company; signs the Life financial statements)",
+    "entity": "The Wawanesa Mutual Insurance Company / The Wawanesa Life Insurance Company",
+    "reports_to": "Board of Directors (Chair: Catherine Best)",
+    "seat_since": "2025-01",
+    "firm_since": "2016",
+    "industry_since": "2016",
+    "prior": "Vice President, General Counsel and Corporate Secretary, Stuart Olson Inc. (construction) until 2016; at Wawanesa: EVP Strategy & Related Businesses before CEO; BComm (Hons), MBA, LLB, CFA, CIP",
+    "tenure_source": "press release (wawanesa.com CEO succession, Sep 2024: joined Wawanesa 2016 from Stuart Olson; CEO effective 2025-01-01); 2025 Report to Members (director since 2025)",
+    "comp_total": null,
+    "comp_currency": "CAD",
+    "comp_year": null,
+    "comp_source": "Not disclosed (mutual; no proxy circular; Life FS have no key-management-compensation note)",
+    "sources": [
+      "https://www.wawanesa.com/canada/news/wawanesa-ceo-succession",
+      "https://www.wawanesa.com/canada/news/evan-johnston-announces-organizational-changes-and-executive-team-appointments",
+      "https://www.wawanesa.com/resources/docs/canada/annual-reports/Wawanesa-2025-Annual-Report.pdf?language_id=1",
+      "https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1"
+    ],
+    "note": "industry_since = 2016 because the only insurance employment in the sources is Wawanesa (prior role was general counsel of a construction company). Executive accountable for the Life company below him: Mike Brisebois, SVP Chief Claims & Life Co. Officer (2025 Report, listings as of 2026-05-28); Jocelyne Prefontaine held that role from 2025-01 and is now SVP Chief Strategy Officer."
+  },
+  "cio": {
+    "name": "Wes (Wesley) Peters",
+    "title": "Vice President, Investments",
+    "entity": "The Wawanesa Mutual Insurance Company (group investment function; Wawanesa Life has no separate investment team)",
+    "reports_to": "Gord Dowhan, SVP & Chief Financial Officer (inferred; not stated in any source)",
+    "seat_since": null,
+    "firm_since": null,
+    "industry_since": null,
+    "prior": "Alberta Public Service Pension Plan; Director, Investments, Saskatchewan Teachers' Federation; Canadian Pacific Railway; Mercer (Investments) (per RocketReach/ZoomInfo snippets; order and dates not shown); CFA (per LinkedIn handle wespeterscfa)",
+    "tenure_source": "aggregator snippets in web-search results only (ZoomInfo, RocketReach, Datanyze; pages themselves return 403); Benefits Canada described 'Wes Peters, the company's vice-president of investments' at a 2019 forum, so in seat by 2019",
+    "comp_total": null,
+    "comp_currency": "CAD",
+    "comp_year": null,
+    "comp_source": "Not disclosed (mutual)",
+    "sources": [
+      "https://www.zoominfo.com/p/Wesley-Peters/92019596",
+      "https://rocketreach.co/wesley-peters-email_12775729",
+      "https://www.benefitscanada.com/news/bencan/a-look-at-wawanesa-mutuals-journey-with-ocio/",
+      "https://www.wawanesa.com/resources/docs/canada/annual-reports/Wawanesa-2025-Annual-Report.pdf?language_id=1"
+    ],
+    "note": "Most senior investment officer identified; he does not appear on any wawanesa.com page (the site has no leadership page) nor in the 2025 Report's executive list, so he sits below the SVP tier. RocketReach places him in Calgary. The Benefits Canada headline ('A look at Wawanesa Mutual's journey with OCIO') indicates the group uses an outsourced-CIO arrangement; the article could not be opened (HTTP 403), so the OCIO provider is unnamed. Governance: the Board Investment Committee (Chair: Ashleigh Everett; members Chris Couture, Peter Dinsdale) 'directs the organization's investment strategy' (2025 Report p.56-57); Life FS cite external 'investment managers'. All tenure dates null: no company bio or press release found; LinkedIn not fetchable."
+  },
+  "cio_direct_reports": [],
+  "other_leaders": [
+    {
+      "name": "Gord (Gordon) Dowhan",
+      "title": "SVP, Chief Financial Officer",
+      "entity": "The Wawanesa Mutual Insurance Company",
+      "reports_to": "Evan Johnston, President & CEO",
+      "seat_since": "2022",
+      "firm_since": "2020",
+      "industry_since": null,
+      "prior": "Director, CPA Manitoba (board); FCPA, FCA, ICD.D; earlier career not found",
+      "tenure_source": "MarketScreener insider page (associated with Wawanesa since 2020; SVP & CFO since 2022); wawanesa.com Jan 2025 executive-team release confirms title",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "Not disclosed (mutual)",
+      "sources": [
+        "https://marketscreener.com/insider/GORDON-DOWHAN-A2BBJ4",
+        "https://www.wawanesa.com/canada/news/evan-johnston-announces-organizational-changes-and-executive-team-appointments",
+        "https://www.wawanesa.com/resources/docs/canada/annual-reports/Wawanesa-2025-Annual-Report.pdf?language_id=1"
+      ],
+      "note": "Signs the CFO letter in the 2025 Report to Members (investment-portfolio commentary sits in his remit). Dates are from an aggregator and unverified against a company source."
+    },
+    {
+      "name": "Maja Dos Santos",
+      "title": "SVP, Chief Risk Officer",
+      "entity": "The Wawanesa Mutual Insurance Company",
+      "reports_to": "Evan Johnston, President & CEO (inferred; executive leadership team)",
+      "seat_since": "2026",
+      "firm_since": "2003",
+      "industry_since": "2003",
+      "prior": "Wawanesa since 2003: roles of increasing responsibility across actuarial functions and enterprise risk management; FCIA, FCAS",
+      "tenure_source": "press coverage (Insurance Business Canada, 2026-06-29: 'joined Wawanesa in 2003'); appointment month not stated",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "Not disclosed (mutual)",
+      "sources": [
+        "https://www.insurancebusinessmag.com/ca/news/breaking-news/wawanesa-appoints-maja-dos-santos-julia-vul-to-executive-leadership-team-580716.aspx"
+      ],
+      "note": "Appointed to the executive leadership team as SVP & CRO in mid-2026 (article dated 2026-06-29), after the 2025 Report (listings as of 2026-05-28) showed James Bond as SVP Chief Risk & Legal Officer. industry_since set to 2003 (joined Wawanesa 2003; article says 22 years with the company; earlier employment unknown). Julia Vul was named VP Corporate Actuarial and Appointed Actuary at the same time."
+    },
+    {
+      "name": "James Bond, KC",
+      "title": "SVP, Chief Risk & Legal Officer (title as of 2026-05-28; SVP Chief Legal & Corporate Affairs Officer in the Jan 2025 team; risk responsibility passed to Maja Dos Santos mid-2026)",
+      "entity": "The Wawanesa Mutual Insurance Company",
+      "reports_to": "Evan Johnston, President & CEO",
+      "seat_since": "2025-01",
+      "firm_since": null,
+      "industry_since": "2014",
+      "prior": "President & COO, Western Life Assurance Company (Wawanesa group); Chief Legal Officer & Chief Compliance Officer, Western Financial Group (2014-11 to 2017-07); Associate Counsel, Alexander Holburn (2013-2014); BA, JD, ICD.D, CCEP-I",
+      "tenure_source": "wawanesa.com Jan 2025 executive-team release (seat); 2025 Report to Members p.59 (current title); Crunchbase snippet via search (prior roles; shows Chief Risk & Legal title from 2026-02)",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "Not disclosed (mutual)",
+      "sources": [
+        "https://www.wawanesa.com/canada/news/evan-johnston-announces-organizational-changes-and-executive-team-appointments",
+        "https://www.wawanesa.com/resources/docs/canada/annual-reports/Wawanesa-2025-Annual-Report.pdf?language_id=1",
+        "https://www.crunchbase.com/person/james-bond-2"
+      ],
+      "note": "Included because he was the CRO of record in the FY2025 report; firm_since null (joined Wawanesa group via Western Financial Group / Western Life, dates of transfer to Wawanesa Mutual not found). industry_since 2014 = first insurance-group role (Western Financial Group, Nov 2014)."
+    }
+  ],
+  "gaps": [
+    "No wawanesa.com leadership page (all candidate URLs 404); executive team taken from the Jan 2025 release and the 2025 Report to Members (listings as of 2026-05-28), which differ: Brisebois now SVP Chief Claims & Life Co. Officer, Prefontaine now SVP Chief Strategy Officer, Lambert Morvan SVP Chief Distribution Officer, Michael Lin SVP CITO; no release explaining these 2025-26 moves was found.",
+    "VP Investments (Wes Peters) is known only from aggregator snippets and a 2019 Benefits Canada mention; no company bio, press release or wawanesa.com page names him, so seat/firm/industry dates are all null and his reporting line (to the CFO) is inferred.",
+    "No direct reports of the VP Investments identified: the Oct 2025 'Senior Investment Analyst' posting confirms an internal Investment Team but the posting text (JS-rendered) could not be read; OCIO provider and external investment managers unnamed (Benefits Canada OCIO article and ZoomInfo/RocketReach/Datanyze/Crunchbase pages all return 403).",
+    "Dowhan dates (2020/2022) from MarketScreener only; his industry_since null. Bond firm_since null.",
+    "Compensation not disclosed (mutual; no key-management-compensation note in Life FS).",
+    "LinkedIn not fetchable; web-search budget (200 calls/turn, shared) exhausted before the OCIO article and Peters' tenure could be pursued further."
+  ],
+  "notes": "Wawanesa Life is a small, unlevered subsidiary of a P&C mutual with no investment staff of its own: the group Investment team (VP Investments Wes Peters, Investment Committee of the Board chaired by Ashleigh Everett) oversees external managers / an OCIO for both the P&C and Life general accounts; the Life FS refer to amounts 'due to the investment manager'. Executive accountability for the Life company moved from Jocelyne Prefontaine (SVP Chief Claims & Life Co. Officer, Jan 2025) to Mike Brisebois (same title, 2025 Report as of 2026-05-28); Prefontaine is now SVP Chief Strategy Officer. CRO succession: James Bond (SVP Chief Risk & Legal Officer in the FY2025 report) to Maja Dos Santos (SVP & CRO, announced 2026-06-29). First-round file: analysis/insurer_deep_dive/research/wawanesa_life.json (no pay figures to carry over)."
+}

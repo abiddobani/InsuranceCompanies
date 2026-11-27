@@ -1,0 +1,439 @@
+{
+ "company_id": "rbc_life",
+ "name": "RBC Life Insurance Company (RBC Insurance)",
+ "as_of": "2025-10-31",
+ "ownership": "Wholly owned by RBC Insurance Holdings Inc., a wholly owned subsidiary of Royal Bank of Canada (TSX/NYSE: RY)",
+ "regulator": "OSFI",
+ "metrics": [
+  {
+   "metric": "Total assets (RBC Life, legal entity)",
+   "value": 31815.3,
+   "unit": "C$mm",
+   "as_of": "2025-10-31",
+   "source": "OSFI LF1 return (repo data/osfi/LF1_core.csv.gz)",
+   "note": "Jul 31, 2026: 33,283.4. RBC Life publishes no standalone financial statements; OSFI return used."
+  },
+  {
+   "metric": "Segregated fund net assets",
+   "value": 3810.1,
+   "unit": "C$mm",
+   "as_of": "2025-10-31",
+   "source": "OSFI LF1 return (repo data/osfi/LF1_core.csv.gz)",
+   "note": "Jul 31, 2026: 4,417.8"
+  },
+  {
+   "metric": "General-account invested assets",
+   "value": 24589.2,
+   "unit": "C$mm",
+   "as_of": "2025-10-31",
+   "source": "OSFI LF2/LCA via repo analysis/investment_risk/dashboard/osfi_metrics.csv",
+   "note": "Jul 31, 2026 portfolio 25,730.1 (portfolio_composition). Par-account guide: team 'manages over $15 billion in assets' incl. >$2.5bn private assets (Oct 2025)."
+  },
+  {
+   "metric": "Total equity (RBC Life)",
+   "value": 3488.9,
+   "unit": "C$mm",
+   "as_of": "2025-10-31",
+   "source": "OSFI LF1 return (repo data/osfi/LF1_core.csv.gz)",
+   "note": "Jul 31, 2026: 3,784.4"
+  },
+  {
+   "metric": "Net income (RBC Life, legal entity)",
+   "value": 304.8,
+   "unit": "C$mm",
+   "as_of": "2025-10-31",
+   "source": "OSFI LF1 return (repo data/osfi/LF1_core.csv.gz)",
+   "note": "FY2025 (Oct YE). 9M FY2026 (to Jul 31, 2026): 247.0. AM Best cited ~C$340mm FY2024 under IFRS 17."
+  },
+  {
+   "metric": "RBC Insurance segment net income (bank segment, incl. reinsurance & other entities)",
+   "value": 828.0,
+   "unit": "C$mm",
+   "as_of": "2025-10-31",
+   "source": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+   "note": "FY2025 vs 729 FY2024 (+14%); Q4/25 98 (-40% y/y on actuarial assumption updates and reinsurance recaptures). Insurance Portal cites 820 attributable to common shareholders."
+  },
+  {
+   "metric": "RBC Insurance premiums and deposits",
+   "value": 7000.0,
+   "unit": "C$mm",
+   "as_of": "2025-10-31",
+   "source": "https://insurance-portal.ca/article/rbcs-wealth-management-and-insurance-profits-rise-in-2025/",
+   "note": "FY2025 ~7.0bn vs 6.1bn (+14.3%); insurance revenue ~1.3bn (+8%)."
+  },
+  {
+   "metric": "LICAT total ratio",
+   "value": 132.0,
+   "unit": "%",
+   "as_of": "2025-10-31",
+   "source": "https://www.rbcinsurance.com/en-ca/wp-content/uploads/sites/2/2021/06/LICAT-Public-Disclosure-Q42025_Eng.pdf",
+   "note": "2024: 135%. Core 109% (2024: 112%). AC 4,097.5; Tier 1 3,572.9; Tier 2 524.6; SA+ED 1,407.8; BSB 4,170.7 (C$mm). Decline 'primarily attributable to new business growth', offset by retained earnings and capital transfer from other RBC Insurance entities."
+  },
+  {
+   "metric": "Financial leverage ratio",
+   "value": null,
+   "unit": "%",
+   "as_of": "",
+   "source": "",
+   "note": "Not disclosed; no external debt at RBC Life. Tier 2 capital C$524.6mm (LICAT) implies intra-group subordinated/qualifying instruments (inferred)."
+  },
+  {
+   "metric": "Credit rating - AM Best",
+   "value": null,
+   "unit": "FSR A (Excellent) / ICR a+ (Excellent), stable",
+   "as_of": "2025-05-23",
+   "source": "https://insurancenewsnet.com/oarticle/am-best-affirms-credit-ratings-of-rbc-life-insurance-company-4",
+   "note": "Affirmed May 23, 2025. RBC 'does not guarantee support, but may provide additional capital at its discretion'. No S&P/Moody's/DBRS ratings on RBC Life found."
+  },
+  {
+   "metric": "Employees (RBC Life)",
+   "value": 1588,
+   "unit": "people",
+   "as_of": "2025-10-31",
+   "source": "https://www.rbc.com/community-sustainability/_assets-custom/pdf/public-accountability-statement-2025.pdf",
+   "note": "1,572 full-time (1,144 Ontario, 151 Quebec, 109 BC) + 16 part-time."
+  },
+  {
+   "metric": "Investments team",
+   "value": null,
+   "unit": "people",
+   "as_of": "2025-10-07",
+   "source": "https://assets.rbcinsurance.com/m/ebaad8f2bf982698/original/Understanding-RBC-Growth-Insurance-and-the-participating-account.pdf",
+   "note": "Headcount not disclosed. 'Core team of investment professionals'; average experience >25 years; collective >100 years; manages >C$15bn incl. >C$2.5bn alternatives."
+  },
+  {
+   "metric": "Repurchase agreements (encumbered assets)",
+   "value": 3625.4,
+   "unit": "C$mm",
+   "as_of": "2025-10-31",
+   "source": "OSFI LF3 return (repo analysis/portfolio_composition/off_balance_sheet.csv)",
+   "note": "14.1% of invested assets. No public explanation found (see leverage.repos)."
+  },
+  {
+   "metric": "Listed ticker (parent)",
+   "value": null,
+   "unit": "RY (TSX/NYSE)",
+   "as_of": "",
+   "source": "https://rbc.com/our-company/our-leadership.html",
+   "note": ""
+  }
+ ],
+ "business_mix": {
+  "basis": "Qualitative: RBC Insurance segment lines (no earnings or premium split by line published for RBC Life)",
+  "as_of": "2025-10-31",
+  "source": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+  "items": [
+   {
+    "label": "Canadian insurance: individual life & health (par and non-par), group benefits, travel, home & auto (via RBC Insurance Co. of Canada), group annuities/PRT, seg funds",
+    "pct": null
+   },
+   {
+    "label": "International insurance: longevity reinsurance and life retrocession (growth driver of FY2025 earnings)",
+    "pct": null
+   }
+  ],
+  "note": "RBC Life itself writes individual and group life, A&S, seg funds, individual and group annuities (PAS 2025). Segment NI 828 FY2025; P&D 7.0bn."
+ },
+ "people": [
+  {
+   "role": "Group Head (parent-level owner of insurance)",
+   "name": "Neil McLaughlin",
+   "title": "Group Head, RBC Wealth Management & Insurance",
+   "reports_to": "Dave McKay, President & CEO, RBC",
+   "entity": "Royal Bank of Canada",
+   "seat_since": 2026,
+   "firm_since": null,
+   "industry_since": null,
+   "prior": "Group Head RBC Wealth Management (Dec 2024-); Group Head Personal & Commercial Banking; led HSBC Canada integration",
+   "comp_total_cad": 6952188,
+   "comp_currency": "CAD",
+   "comp_year": 2025,
+   "comp_source": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026englishproxy.pdf",
+   "sources": [
+    "https://rbc.com/our-company/our-leadership.html",
+    "https://thelogic.co/news/exclusive/rbc-insurance-head-departure-shakeup/",
+    "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026englishproxy.pdf"
+   ],
+   "note": "Insurance added to his mandate June 2026 when insurance was combined with wealth ('One RBC'). SCT FY2025: salary 750,000; share awards 3,507,500; options 876,875; annual incentive 1,434,375; pension 361,000."
+  },
+  {
+   "role": "CEO (interim)",
+   "name": "Maria Winslow",
+   "title": "Interim CEO, RBC Insurance (SVP Individual & Group Insurance Products)",
+   "reports_to": "Neil McLaughlin",
+   "entity": "RBC Insurance / RBC Life Insurance Company",
+   "seat_since": 2026,
+   "firm_since": null,
+   "industry_since": null,
+   "prior": "More than two decades at RBC (Bloomberg Law); SVP individual and group insurance products",
+   "comp_total_cad": null,
+   "comp_currency": "CAD",
+   "comp_year": null,
+   "comp_source": null,
+   "sources": [
+    "https://thelogic.co/news/exclusive/rbc-insurance-head-departure-shakeup/",
+    "https://news.bloomberglaw.com/banking-law/rbc-head-of-insurance-publicover-to-depart-the-bank-next-month"
+   ],
+   "note": "Named interim CEO on Publicover's June 1, 2026 departure (The Logic, May 27, 2026). Not an NEO; compensation not disclosed. Bio not verified (search budget exhausted)."
+  },
+  {
+   "role": "Former CEO / Group Head",
+   "name": "Jennifer Publicover",
+   "title": "Group Head, RBC Insurance (departed June 1, 2026)",
+   "reports_to": "Dave McKay (until departure)",
+   "entity": "RBC Insurance",
+   "seat_since": 2023,
+   "firm_since": 2018,
+   "industry_since": 1998,
+   "prior": "Morgan Stanley ~20 years (investment banking, NY/London); SVP Products & Strategy RBC Wealth Management (2018-22); CEO RBC Insurance Jan 2023; Group Head Sep 2025",
+   "comp_total_cad": null,
+   "comp_currency": "CAD",
+   "comp_year": 2025,
+   "comp_source": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026englishproxy.pdf",
+   "sources": [
+    "https://www.rbc.com/newsroom/_assets-custom/pdf/profile-publicover.pdf",
+    "https://thelogic.co/news/exclusive/rbc-insurance-head-departure-shakeup/",
+    "https://www.rbc.com/investor-relations/_assets-custom/pdf/2026englishproxy.pdf"
+   ],
+   "note": "Not a named executive officer in RBC's 2026 circular (NEOs: McKay, Gibson, Neldner, McLaughlin, Douvas-type group heads); compensation not disclosed. industry_since 1998 inferred from '20 years at Morgan Stanley' before 2018."
+  },
+  {
+   "role": "CIO",
+   "name": "Abid Dobani",
+   "title": "Senior Vice President & Chief Investment Officer, RBC Insurance",
+   "reports_to": null,
+   "entity": "RBC Insurance (in-house investment team)",
+   "seat_since": null,
+   "firm_since": 2006,
+   "industry_since": null,
+   "prior": "Joined RBC 2006 as institutional rates trader; senior roles in RBC Capital Markets and as CFO in Toronto, Sydney and London; MBA MIT Sloan; BMath Waterloo",
+   "comp_total_cad": null,
+   "comp_currency": "CAD",
+   "comp_year": null,
+   "comp_source": null,
+   "sources": [
+    "https://advisor.rbcinsurance.com/en/?p=3886"
+   ],
+   "note": "'Oversees the global investment portfolio and risk-mitigating market transactions for RBC Insurance' (advisor site, c. Mar 2026). Reporting line not stated. Bank-owned sub: compensation not disclosed."
+  },
+  {
+   "role": "Head of public markets / fixed income",
+   "name": null,
+   "title": "Not publicly identified",
+   "reports_to": "CIO",
+   "entity": "RBC Insurance",
+   "seat_since": null,
+   "firm_since": null,
+   "industry_since": null,
+   "prior": null,
+   "comp_total_cad": null,
+   "comp_currency": "CAD",
+   "comp_year": null,
+   "comp_source": null,
+   "sources": [
+    "https://assets.rbcinsurance.com/m/ebaad8f2bf982698/original/Understanding-RBC-Growth-Insurance-and-the-participating-account.pdf"
+   ],
+   "note": "Par guide describes a 'core team of investment professionals from various industry sectors' covering all asset classes."
+  },
+  {
+   "role": "CRO",
+   "name": null,
+   "title": "Not publicly identified (RBC Insurance CRO)",
+   "reports_to": "Graeme Hepworth, Chief Risk Officer, RBC (inferred)",
+   "entity": "RBC Insurance",
+   "seat_since": null,
+   "firm_since": null,
+   "industry_since": null,
+   "prior": null,
+   "comp_total_cad": null,
+   "comp_currency": "CAD",
+   "comp_year": null,
+   "comp_source": null,
+   "sources": [
+    "https://rbc.com/our-company/our-leadership.html"
+   ],
+   "note": "Group CRO is Graeme Hepworth."
+  }
+ ],
+ "pm_structure": {
+  "summary": "General account run by an in-house RBC Insurance investment team under SVP & CIO Abid Dobani, following the same philosophy as RBC Global Asset Management and RBC Capital Markets; seg funds use RBC GAM solutions.",
+  "manager_entities": [
+   "RBC Insurance in-house investment team (RBC Life Insurance Company)",
+   "RBC Global Asset Management (segregated fund investment solutions; shared philosophy)",
+   "RBC Capital Markets (execution/structuring network; shared philosophy)"
+  ],
+  "bullets": [
+   "Par account 'collectively invested by the RBC Insurance investment team'; team manages >C$15bn incl. >C$2.5bn commercial mortgages, private fixed income and commercial real estate (Oct 2025).",
+   "Team 'follows the same investment philosophy as RBC Capital Markets and RBC Global Asset Management'; supported by RBC's global network (capital markets, infrastructure, real estate, asset management, risk).",
+   "CIO oversees 'risk-mitigating market transactions', leveraging RBC's Global Capital Markets relationships to diversify assets (advisor site).",
+   "RBC Insurance segregated funds (FundGrade A+ 2026) attributed to RBC GAM investment solutions.",
+   "No fee or service agreement between RBC Life and RBC GAM is publicly disclosed."
+  ],
+  "sources": [
+   "https://assets.rbcinsurance.com/m/ebaad8f2bf982698/original/Understanding-RBC-Growth-Insurance-and-the-participating-account.pdf",
+   "https://advisor.rbcinsurance.com/en/?p=3886",
+   "https://assets.rbcinsurance.com/m/1a05cacacc52e52/original/RBC-Insurance-segregated-funds-awarded-A-for-outstanding-performance.pdf"
+  ]
+ },
+ "rotation_commentary": [
+  {
+   "year": 2025,
+   "text": "Par account (RBC Growth Insurance) seeded from shareholder surplus; long-term target 50% fixed income (govt 5%, corporate 30%, private FI 5%, rest short-term/mortgages) and 50% non-fixed income (common shares 50%, commercial real estate 0%, max 50%).",
+   "source": "https://assets.rbcinsurance.com/m/ebaad8f2bf982698/original/Understanding-RBC-Growth-Insurance-and-the-participating-account.pdf"
+  },
+  {
+   "year": 2025,
+   "text": "Public bond quality target AA 25% / A 50% / BBB 25%; sector target corporate 85% / provincial 15%; existing general-fund corporate book shown as reference.",
+   "source": "https://assets.rbcinsurance.com/m/ebaad8f2bf982698/original/Understanding-RBC-Growth-Insurance-and-the-participating-account.pdf"
+  },
+  {
+   "year": 2025,
+   "text": "Alternatives >C$2.5bn of >C$15bn (commercial mortgages, private fixed income, commercial real estate) - c.17% of team-managed assets.",
+   "source": "https://assets.rbcinsurance.com/m/ebaad8f2bf982698/original/Understanding-RBC-Growth-Insurance-and-the-participating-account.pdf"
+  },
+  {
+   "year": 2025,
+   "text": "LICAT total ratio fell 135% to 132% 'primarily attributable to new business growth', offset by retained earnings and capital transfer from other RBC Insurance legal entities.",
+   "source": "https://www.rbcinsurance.com/en-ca/wp-content/uploads/sites/2/2021/06/LICAT-Public-Disclosure-Q42025_Eng.pdf"
+  },
+  {
+   "year": 2025,
+   "text": "Segment growth driven by longevity reinsurance and life retrocession (international); Q4 hit by annual actuarial assumption updates and reinsurance contract recaptures.",
+   "source": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf"
+  }
+ ],
+ "target_allocations": [
+  {
+   "asset_class": "Par account - fixed income",
+   "target": "50% (government bonds 5%, corporate bonds 30%, private fixed income 5%; short-term 0% max 15%)",
+   "source": "https://assets.rbcinsurance.com/m/ebaad8f2bf982698/original/Understanding-RBC-Growth-Insurance-and-the-participating-account.pdf"
+  },
+  {
+   "asset_class": "Par account - common shares",
+   "target": "50% (max 50%)",
+   "source": "https://assets.rbcinsurance.com/m/ebaad8f2bf982698/original/Understanding-RBC-Growth-Insurance-and-the-participating-account.pdf"
+  },
+  {
+   "asset_class": "Par account - commercial real estate",
+   "target": "0% target, max 50%",
+   "source": "https://assets.rbcinsurance.com/m/ebaad8f2bf982698/original/Understanding-RBC-Growth-Insurance-and-the-participating-account.pdf"
+  },
+  {
+   "asset_class": "Par account - public bonds by rating",
+   "target": "AA 25%, A 50%, BBB 25%, AAA 0%",
+   "source": "https://assets.rbcinsurance.com/m/ebaad8f2bf982698/original/Understanding-RBC-Growth-Insurance-and-the-participating-account.pdf"
+  }
+ ],
+ "leverage": {
+  "debt_outstanding": [
+   {
+    "type": "External senior / subordinated debt, LRCNs, preferred shares",
+    "amount_cad_mm": 0,
+    "as_of": "2025-10-31",
+    "source": "https://www.rbcinsurance.com/en-ca/wp-content/uploads/sites/2/2021/06/LICAT-Public-Disclosure-Q42025_Eng.pdf",
+    "note": "None public. Tier 2 capital C$524.6mm in LICAT disclosure (instrument type not disclosed; intra-group, inferred)."
+   }
+  ],
+  "financial_leverage_ratio_pct": null,
+  "issuance": [],
+  "securities_lending": {
+   "amount_cad_mm": null,
+   "as_of": "",
+   "text": "Not disclosed; no entry in OSFI LF3 off-balance-sheet data for RBC Life.",
+   "source": "OSFI LF3 return (repo analysis/portfolio_composition/off_balance_sheet.csv)"
+  },
+  "repos": {
+   "amount_cad_mm": 3625.4,
+   "as_of": "2025-10-31",
+   "text": "OSFI LF3 'Asset Financing - Encumbered Assets - Repos' 3,625.4 = 14.1% of invested assets, far above peers (BMO Life, Co-operators Life report none). No public explanation found in RBC's annual/quarterly reports, AM Best releases or RBC Insurance materials. Plausible drivers (inferred, unverified): (i) collateral/liquidity management for a large derivative hedging book (FX notional 3,813; FI linear 2,782; FI non-linear 786) tied to longevity reinsurance/retrocession and seg-fund exposures; (ii) secured funding of spread assets using RBC Capital Markets as counterparty; (iii) capital transfers between RBC Insurance entities noted in the LICAT disclosure.",
+   "source": "OSFI LF3 return (repo analysis/portfolio_composition/off_balance_sheet.csv)"
+  },
+  "structured_indirect": [
+   {
+    "text": "Derivatives notional (OSFI LF3, Oct 31, 2025): currency 3,813.4; fixed income linear 2,781.7; fixed income non-linear 785.8; equity 179.4 - total c.7.6bn, 29.4% of portfolio.",
+    "amount_cad_mm": 7560.3,
+    "source": "OSFI LF3 return (repo analysis/portfolio_composition/off_balance_sheet.csv)"
+   },
+   {
+    "text": "Private assets >C$2.5bn: commercial mortgages, private fixed income, commercial real estate (team-managed). No CLO/ABS/fund-finance/sidecar exposure disclosed.",
+    "amount_cad_mm": 2500,
+    "source": "https://assets.rbcinsurance.com/m/ebaad8f2bf982698/original/Understanding-RBC-Growth-Insurance-and-the-participating-account.pdf"
+   }
+  ]
+ },
+ "partnerships": {
+  "underwriters": [],
+  "deals": [
+   {
+    "year": 2023,
+    "text": "RBC Insurance launches RBC Growth Insurance participating whole life (Oct 2023); par account seeded from shareholder surplus.",
+    "source": "https://www.globalpacific.com/print/bulletins/rbc-insurance/2023-10-27/paving-new-future-participating-whole-life"
+   },
+   {
+    "year": 2025,
+    "text": "Growth in longevity reinsurance and life retrocession drives 14% segment earnings growth; Q4 recaptures of reinsurance contracts.",
+    "source": "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf"
+   },
+   {
+    "year": 2026,
+    "text": "Insurance combined with Wealth Management under Neil McLaughlin as RBC integrates insurance, personal banking and wealth ('One RBC').",
+    "source": "https://thelogic.co/news/exclusive/rbc-insurance-head-departure-shakeup/"
+   }
+  ],
+  "sponsorships": [
+   {
+    "year": 2026,
+    "text": "RBC Insurance community partners: Ronald McDonald House Charities, True Patriot Love, Junior Achievement, Park People, Wounded Warriors.",
+    "source": "https://www.rbcinsurance.com/en-ca/about/"
+   }
+  ],
+  "bank_relationships": [
+   {
+    "text": "Bank-owned: distribution through RBC branches/advice centres, proprietary sales force, third-party brokers and direct; investment team leverages RBC Capital Markets and RBC GAM.",
+    "source": "https://www.rbc.com/community-sustainability/_assets-custom/pdf/public-accountability-statement-2025.pdf"
+   },
+   {
+    "text": "Parent may provide capital at its discretion (no guarantee); capital transferred from other RBC Insurance legal entities in FY2025.",
+    "source": "https://insurancenewsnet.com/oarticle/am-best-affirms-credit-ratings-of-rbc-life-insurance-company-4"
+   }
+  ]
+ },
+ "risk": {
+  "appetite": [
+   "Not published for RBC Life; governed within RBC's enterprise risk appetite framework (RBC Annual Report risk section). AM Best assesses ERM as 'appropriate'."
+  ],
+  "governance": [
+   "RBC Life board and OSFI supervision; group CRO Graeme Hepworth; RBC Insurance CRO not publicly named.",
+   "Par account: policyholder dividend scale set to smooth volatility; investment policy with target/min/max ranges."
+  ],
+  "capital_target": "Not disclosed. OSFI supervisory targets 100% total / 70% core; RBC Life at 132% / 109% (Oct 31, 2025).",
+  "sensitivities": [
+   "None published by RBC Life; RBC group discloses insurance sensitivities only within consolidated market-risk disclosures (not entity-level)."
+  ],
+  "hedging": [
+   "Large derivative book vs portfolio (FX 14.8%, FI 13.9% of invested assets, OSFI LF3) consistent with FX and rate hedging of international reinsurance and seg-fund guarantees (inferred).",
+   "CIO mandate includes 'risk-mitigating market transactions'."
+  ],
+  "events": [
+   "June 2026: Group Head Jennifer Publicover departs; Maria Winslow interim CEO; insurance folded under Wealth Management.",
+   "Q4 FY2025: segment NI -40% y/y on unfavourable annual actuarial assumption updates and reinsurance recaptures.",
+   "2025: LICAT down 3 pts on new business growth."
+  ],
+  "sources": [
+   "https://www.rbcinsurance.com/en-ca/wp-content/uploads/sites/2/2021/06/LICAT-Public-Disclosure-Q42025_Eng.pdf",
+   "https://www.rbc.com/investor-relations/_assets-custom/pdf/2025q4release.pdf",
+   "https://thelogic.co/news/exclusive/rbc-insurance-head-departure-shakeup/",
+   "https://insurancenewsnet.com/oarticle/am-best-affirms-credit-ratings-of-rbc-life-insurance-company-4"
+  ]
+ },
+ "gaps": [
+  "RBC Life publishes no standalone financial statements, MD&A or sensitivities; balance-sheet figures come from OSFI LF1 returns already in the repo.",
+  "No public explanation of the C$3.6bn repo balance (14% of invested assets); hypotheses are marked inferred.",
+  "Bank-owned subsidiary: insurance executives (Winslow, Dobani) are not NEOs in RBC's circular; only Group Head McLaughlin's pay is disclosed.",
+  "Head of public markets / private markets and RBC Insurance CRO not publicly identified; investments team headcount not disclosed.",
+  "No earnings or premium split by line for RBC Life or the RBC Insurance segment.",
+  "Web search budget exhausted before verifying Maria Winslow's biography and start dates.",
+  "AM Best release does not discuss repos, securities lending or LICAT."
+ ],
+ "notes": "Fiscal year ends Oct 31. RBC Insurance segment numbers (828 NI FY2025) include RBC Insurance Company of Canada (P&C), reinsurance subsidiaries and other entities, so they exceed RBC Life legal-entity income (304.8)."
+}

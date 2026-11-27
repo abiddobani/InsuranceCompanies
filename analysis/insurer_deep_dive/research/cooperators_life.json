@@ -1,0 +1,497 @@
+{
+  "company_id": "cooperators_life",
+  "name": "Co-operators Life Insurance Company (CLIC)",
+  "as_of": "2025-12-31",
+  "ownership": "Co-operative: owned by The Co-operators Group Limited (45 member organisations) via Co-operators Financial Services Limited; under common control with Co-operators General (CGIC)",
+  "regulator": "OSFI",
+  "metrics": [
+    {
+      "metric": "Total assets (CLIC, legal entity)",
+      "value": 10968.4,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "OSFI LF1 return (repo data/osfi/LF1_core.csv.gz)",
+      "note": "Jun 30, 2026: 11,379.3. CLIC publishes no standalone FS; group IAR consolidates (CGL total assets 22,388.0)."
+    },
+    {
+      "metric": "Segregated fund net assets",
+      "value": 4315.0,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "OSFI LF1 return (repo data/osfi/LF1_core.csv.gz)",
+      "note": "Equals group seg funds 4,315.0 (IAR) - all seg funds sit in CLIC. Jun 30, 2026: 4,548.9."
+    },
+    {
+      "metric": "General-account invested assets",
+      "value": 5568.0,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "OSFI LF2/LCA via repo analysis/investment_risk/dashboard/osfi_metrics.csv",
+      "note": "Jun 30, 2026 portfolio 5,974.4. Group invested assets 14,629.9 (IAR), of which CLIC ~38%."
+    },
+    {
+      "metric": "Total equity (CLIC)",
+      "value": 1529.1,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "OSFI LF1 return (repo data/osfi/LF1_core.csv.gz)",
+      "note": "Incl. preferred shares 7.0. Jun 30, 2026: 1,660.7."
+    },
+    {
+      "metric": "Net income (CLIC, legal entity)",
+      "value": 70.3,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "OSFI LF1 return (repo data/osfi/LF1_core.csv.gz)",
+      "note": "FY2025. 1H2026: 124.2. Group (CGL) NI 695.3 (2024: 361.9), driven by P&C."
+    },
+    {
+      "metric": "Life return on equity (shareholder)",
+      "value": 9.5,
+      "unit": "%",
+      "as_of": "2025-12-31",
+      "source": "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf",
+      "note": "Target 13-17% annual: 'not achieved'. Life general expense ratio 20.7% vs 17.5% target."
+    },
+    {
+      "metric": "Group AUA (The Co-operators Group)",
+      "value": 79300.0,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf",
+      "note": "'$79.3 billion in assets under administration'."
+    },
+    {
+      "metric": "Addenda Capital AUM",
+      "value": 42500.0,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf",
+      "note": "'over $42.5 billion' (IAR); Addenda site says $42B."
+    },
+    {
+      "metric": "Wealth AUM/AUA (seg funds, mutual funds, investment contracts; ex Addenda, Aviso)",
+      "value": 7770.0,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf",
+      "note": "2026 target 7.9bn; CFIS mutual fund AUA 2.33bn."
+    },
+    {
+      "metric": "LICAT total ratio (CLIC consolidated)",
+      "value": 160.0,
+      "unit": "%",
+      "as_of": "2025-12-31",
+      "source": "https://www.cooperators.ca/-/media/cooperators/assets/about-us/documents/annual-reports/licat-2025.pdf",
+      "note": "2024: 168%. Core 119% (2024: 130%). AC 1,704.5; Tier 1 1,282.3; Tier 2 422.2 (+27%); SA+ED 361.4; BSB 1,294.2 (C$mm). Decline driven by LICAT 2025 guideline (new standard approach for seg-fund guarantee risk)."
+    },
+    {
+      "metric": "Financial leverage ratio",
+      "value": null,
+      "unit": "%",
+      "as_of": "",
+      "source": "",
+      "note": "Not disclosed; CLIC has no external debt (preferred shares 7.0)."
+    },
+    {
+      "metric": "Credit rating - AM Best (CLIC)",
+      "value": null,
+      "unit": "FSR A (Excellent) / ICR a (Excellent), stable",
+      "as_of": "2021-12-16",
+      "source": "https://insurancenewsnet.com/oarticle/am-best-upgrades-credit-ratings-of-co-operators-general-insurance-company-and-its-subsidiary-affirms-credit-ratings-of-co-operators-life-insurance-company",
+      "note": "Last release retrieved; IAR 2025 states all group ratings investment grade and refers to cooperators.ca (ratings page returned 404). CGIC: S&P A-, AM Best A, DBRS A (2025)."
+    },
+    {
+      "metric": "Employees (Co-operators group)",
+      "value": 7815,
+      "unit": "people",
+      "as_of": "2025-12-31",
+      "source": "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf",
+      "note": "Sum of IAR province table: 7,686 full-time + 129 part-time (Ontario 4,514 FT); CLIC-only headcount not disclosed."
+    },
+    {
+      "metric": "Addenda Capital employees",
+      "value": 170,
+      "unit": "people",
+      "as_of": "2026-11-03",
+      "source": "https://addendacapital.com/en",
+      "note": "'170+' employees, 4 offices (Montreal, Toronto, Guelph, Regina); investment-professional count not given."
+    },
+    {
+      "metric": "Listed ticker",
+      "value": null,
+      "unit": "",
+      "as_of": "",
+      "source": "",
+      "note": "None (co-operative). CGIC preference shares rated P-2 / Pfd-2."
+    }
+  ],
+  "business_mix": {
+    "basis": "Qualitative: life operations lines (no earnings or premium split published for CLIC)",
+    "as_of": "2025-12-31",
+    "source": "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf",
+    "items": [
+      {
+        "label": "Individual life & health insurance (advisor channel)",
+        "pct": null
+      },
+      {
+        "label": "Group benefits (incl. Smart Employee Benefits, The Edge Benefits)",
+        "pct": null
+      },
+      {
+        "label": "Wealth: retail and group wealth management, seg funds, mutual funds (CFIS)",
+        "pct": null
+      },
+      {
+        "label": "Creditor and travel via CUMIS (credit unions)",
+        "pct": null
+      }
+    ],
+    "note": "Life premiums and deposits +3.2% in 2025 (+4.3% ex a one-time 2024 acquisition), led by retail/group wealth, group benefits retention and individual insurance; mutual fund deposits +16.4%."
+  },
+  "people": [
+    {
+      "role": "CEO (group)",
+      "name": "Rob Wesseling",
+      "title": "President and CEO, The Co-operators Group Limited",
+      "reports_to": "Board (Chair Robert Moreau)",
+      "entity": "The Co-operators Group Limited",
+      "seat_since": 2016,
+      "firm_since": 1997,
+      "industry_since": 1997,
+      "prior": "Joined Co-operators 1997 as application architect; COO Sovereign General 2007-16; EVP National P&C 2011-16; CIP; Chair ICMIF",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://www.investmentexecutive.com/news/people/the-co-operators-announces-new-ceo/",
+        "https://cooperators.ca/en/about-us/corporate-overview/our-executive-team",
+        "https://www.cooperators.ca/en/about-us/corporate-overview/our-executive-team/robert-wesseling"
+      ],
+      "note": "CEO effective Dec 1, 2016. Co-operative: no proxy circular; pay not disclosed. Also a director of Addenda Capital."
+    },
+    {
+      "role": "Head of Co-operators Life",
+      "name": "Alec Blundell",
+      "title": "EVP and COO, Co-operators Life Insurance Company and CUMIS",
+      "reports_to": "Rob Wesseling (inferred)",
+      "entity": "Co-operators Life Insurance Company",
+      "seat_since": 2019,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "VP Individual Insurance & Chief Actuary, Co-operators Life; FCIA, FSA; BMath (actuarial) Waterloo",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://insurance-portal.ca/article/alec-blundell-appointed-evp-and-coo-of-co-operators-life-and-takes-helm-of-cumis/",
+        "https://www.cooperators.ca/en/about-us/corporate-overview/our-executive-team/alec-blundell"
+      ],
+      "note": "Appointed effective Mar 18, 2019, replacing Kevin Daniel. No separate 'President' of CLIC is listed; Wesseling is group CEO."
+    },
+    {
+      "role": "CFO (group)",
+      "name": "Karen Higgins",
+      "title": "EVP, Finance and Chief Financial Officer",
+      "reports_to": "Rob Wesseling",
+      "entity": "The Co-operators Group Limited",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": null,
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://cooperators.ca/en/about-us/corporate-overview/our-executive-team",
+        "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf"
+      ],
+      "note": "Also a director of Addenda Capital."
+    },
+    {
+      "role": "Head of asset-management affiliate",
+      "name": "Roger Beauchemin",
+      "title": "President and CEO, Addenda Capital Inc.",
+      "reports_to": "Addenda board (Chair Michael J. White); member of Co-operators executive team",
+      "entity": "Addenda Capital Inc.",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "Senior management roles at McLean Budden; CFA; BA Economics McGill; former Chair, Responsible Investment Association",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://cooperators.ca/en/about-us/corporate-overview/our-executive-team",
+        "https://addendacapital.com/en/who-we-are/our-leadership",
+        "https://www.cooperators.ca/en/about-us/corporate-overview/our-executive-team/roger-beauchemin"
+      ],
+      "note": "MarketScreener lists CEO start 2011-10-31 (unverified aggregator; not used)."
+    },
+    {
+      "role": "CIO",
+      "name": "Ian A. McKinnon",
+      "title": "Chief Investment Officer, Addenda Capital",
+      "reports_to": "Roger Beauchemin",
+      "entity": "Addenda Capital Inc. (asset-management affiliate, not the insurer)",
+      "seat_since": 2024,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "Addenda fixed-income analyst/PM since c.2000; Head of Fixed Income Investments 2014-16; CFA; responsible for Core Fixed Income and Preferred Shares strategies and balanced asset allocation",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://addendacapital.com/en/who-we-are/our-leadership",
+        "https://in.marketscreener.com/insider/IAN-MCKINNON-A074OI/experience",
+        "https://www.benefitsandpensionsmonitor.com/companies/addenda-capital/393621"
+      ],
+      "note": "CIO since 2024 per aggregators (MarketScreener/Form ADV); Addenda has not published an appointment release that we could retrieve. Dates partly from aggregators - verify."
+    },
+    {
+      "role": "Head of private markets (commercial mortgages)",
+      "name": "Adam Kot",
+      "title": "EVP, Commercial Mortgages, Addenda Capital",
+      "reports_to": "Roger Beauchemin",
+      "entity": "Addenda Capital Inc.",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": null,
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://addendacapital.com/en/who-we-are/our-leadership"
+      ],
+      "note": ""
+    },
+    {
+      "role": "CRO",
+      "name": null,
+      "title": "Chief Risk Officer (group) - not named publicly",
+      "reports_to": "Board Risk Committee oversight",
+      "entity": "The Co-operators Group Limited",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": null,
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": null,
+      "sources": [
+        "https://www.cooperators.ca/-/media/cooperators/assets/about-us/documents/annual-reports/2025-annual-financial-report.pdf"
+      ],
+      "note": "CGIC AFR: Risk Committee 'provides oversight of our Chief Risk Officer'; no executive-team listing with CRO title."
+    }
+  ],
+  "pm_structure": {
+    "summary": "General account managed by Addenda Capital Inc., the group's wholly owned asset manager (acquired 2008), on arm's-length fees 'consistent with external clients'; sustainable-investing policy applies to all assets; Management Investment Committee under Board Risk Committee oversight.",
+    "manager_entities": [
+      "Addenda Capital Inc. (Montreal; wholly owned by Co-operators since 2008; founded 1996; C$42.5bn AUM; 170+ staff)",
+      "Co-operators Financial Investment Services (CFIS) - mutual fund dealer",
+      "Aviso Wealth LP (minority interest, group)"
+    ],
+    "bullets": [
+      "CGIC AFR: 'The majority of Co-operators General's investment portfolio is managed by Addenda'; Addenda fee to CGIC C$8.1mm in 2025 (7.5 in 2024) 'consistent with Addenda's external clients'; annual contract.",
+      "IAR: 'Through our asset management company Addenda Capital Inc. Co-operators manages over $42.5 billion in assets' (incl. CLIC, CGIC and third-party clients).",
+      "Addenda asset classes: fixed income, equities, commercial mortgages (EVP Adam Kot), multi-asset; mortgages rated with Addenda's internal rating system.",
+      "Board Risk Committee oversees the sustainable investment strategy 'managed by the Management Investment Committee'.",
+      "Co-operators debt financing (mortgages and private commercial loans) authorised 2025: 80 loans, C$270.6mm.",
+      "Addenda board includes Rob Wesseling and Karen Higgins; Chair Michael J. White."
+    ],
+    "sources": [
+      "https://www.cooperators.ca/-/media/cooperators/assets/about-us/documents/annual-reports/2025-annual-financial-report.pdf",
+      "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf",
+      "https://addendacapital.com/en",
+      "https://addendacapital.com/en/who-we-are/about-us",
+      "https://addendacapital.com/en/who-we-are/our-leadership"
+    ]
+  },
+  "rotation_commentary": [
+    {
+      "year": 2025,
+      "text": "2030 Impact and Climate Investing Roadmap: 60% of invested assets in impact/climate-transition investments by 2030 (interim 50% by 2026); already C$8.75bn or 60.2% of group invested assets.",
+      "source": "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf"
+    },
+    {
+      "year": 2025,
+      "text": "Climate solutions target US$3bn by 2030 from US$2bn base (2024); financed-emissions intensity -40% by 2029 (vs 2020); net zero portfolio by 2050 (NZAOA).",
+      "source": "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf"
+    },
+    {
+      "year": 2025,
+      "text": "Group mix: bonds 63.8% (97.7% investment grade; AAA 21.6/AA 30.6/A 27.9/BBB 17.6/below 2.3), stocks 15.2% (Canadian preferreds 31.6% of stocks), mortgages 8.5% (5-yr loss ratio 0.62%), short-term 1.0%, other 11.5%.",
+      "source": "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf"
+    },
+    {
+      "year": 2025,
+      "text": "Invested assets +8.7%; bonds reinvested at higher yields as book grows and matures; steeper curve produced unrealised bond gains; strong common/preferred equity gains.",
+      "source": "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf"
+    },
+    {
+      "year": 2025,
+      "text": "CLIC Tier 2 capital +27% to 422.2 while LICAT fell to 160% under the 2025 guideline's seg-fund guarantee standard approach.",
+      "source": "https://www.cooperators.ca/-/media/cooperators/assets/about-us/documents/annual-reports/licat-2025.pdf"
+    }
+  ],
+  "target_allocations": [
+    {
+      "asset_class": "Impact and climate-transition investments",
+      "target": "60% of invested assets by YE2030; 50% by YE2026",
+      "source": "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf"
+    },
+    {
+      "asset_class": "Climate solutions",
+      "target": "US$3bn by YE2030 (US$2bn 2024 base)",
+      "source": "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf"
+    },
+    {
+      "asset_class": "Financed emissions intensity (listed equity & corporate bonds)",
+      "target": "-40% by YE2029 vs 2020; net zero 2050",
+      "source": "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf"
+    }
+  ],
+  "leverage": {
+    "debt_outstanding": [
+      {
+        "type": "Preferred shares (CLIC)",
+        "amount_cad_mm": 7.0,
+        "as_of": "2025-12-31",
+        "source": "OSFI LF1 return (repo data/osfi/LF1_core.csv.gz)",
+        "note": "Unchanged y/y."
+      },
+      {
+        "type": "External senior / subordinated debt, LRCNs, hybrids",
+        "amount_cad_mm": 0,
+        "as_of": "2025-12-31",
+        "source": "https://www.cooperators.ca/-/media/cooperators/assets/about-us/documents/annual-reports/licat-2025.pdf",
+        "note": "None found. Tier 2 capital 422.2 in LICAT (instrument type not disclosed; likely intra-group/qualifying items - inferred). CGIC (P&C parent affiliate) has rated preference shares."
+      }
+    ],
+    "financial_leverage_ratio_pct": null,
+    "issuance": [],
+    "securities_lending": {
+      "amount_cad_mm": null,
+      "as_of": "2025-12-31",
+      "text": "CLIC not disclosed. Affiliate CGIC lent securities 731.3 against collateral 775.2 (Dec 2025) via a program managed by a federally regulated FI - P&C entity, not CLIC.",
+      "source": "https://www.cooperators.ca/-/media/cooperators/assets/about-us/documents/annual-reports/2025-annual-financial-report.pdf"
+    },
+    "repos": {
+      "amount_cad_mm": 0,
+      "as_of": "2025-12-31",
+      "text": "No repos reported in OSFI LF3 for CLIC; only FX derivatives.",
+      "source": "OSFI LF3 return (repo analysis/portfolio_composition/off_balance_sheet.csv)"
+    },
+    "structured_indirect": [
+      {
+        "text": "FX derivatives notional 189.6 (3.2% of portfolio), OSFI LF3 Dec 2025; no CLO/ABS/fund-finance/sidecar exposure disclosed.",
+        "amount_cad_mm": 189.6,
+        "source": "OSFI LF3 return (repo analysis/portfolio_composition/off_balance_sheet.csv)"
+      },
+      {
+        "text": "Commercial mortgages ~8.5% of group invested assets; private commercial loans authorised 2025 C$270.6mm.",
+        "amount_cad_mm": 270.6,
+        "source": "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf"
+      }
+    ]
+  },
+  "partnerships": {
+    "underwriters": [],
+    "deals": [
+      {
+        "year": 2008,
+        "text": "Co-operators acquires Addenda Capital (founded 1996) and merges in Co-operators Investment Counselling; Addenda becomes group asset manager.",
+        "source": "https://addendacapital.com/en/who-we-are/about-us"
+      },
+      {
+        "year": 2019,
+        "text": "Alec Blundell named EVP & COO Co-operators Life and President & COO CUMIS (Mar 2019).",
+        "source": "https://insurance-portal.ca/article/alec-blundell-appointed-evp-and-coo-of-co-operators-life-and-takes-helm-of-cumis/"
+      },
+      {
+        "year": 2024,
+        "text": "One-time acquisition in life operations (unnamed) lifted 2024 premiums and deposits; 2025 growth 4.3% ex-acquisition.",
+        "source": "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf"
+      },
+      {
+        "year": 2020,
+        "text": "Launch of Co-operators Financial Investment Services (mutual fund dealer); AUA C$2.33bn by end-2025 from C$20mm.",
+        "source": "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf"
+      }
+    ],
+    "sponsorships": [
+      {
+        "year": 2009,
+        "text": "Naming rights to 'The Co-operators Centre' arena complex at Evraz Place, Regina (10-year, C$1.3mm) - dated; renewal status unknown.",
+        "source": "https://www.agcanada.com/daily/regina-ag-venues-new-arena-complex-named"
+      },
+      {
+        "year": 2025,
+        "text": "Community contributions 4.05% of pre-tax income (target 4-4.5%); Imagine Canada Caring Company; Prosper Canada financial-hardship report funded.",
+        "source": "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf"
+      }
+    ],
+    "bank_relationships": [
+      {
+        "text": "CUMIS (owned by Co-operators) distributes creditor, travel and other insurance through Canadian credit unions and caisses populaires - the group's bancassurance-style channel.",
+        "source": "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf"
+      },
+      {
+        "text": "Minority interest in Aviso Wealth LP (credit-union wealth platform).",
+        "source": "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf"
+      },
+      {
+        "text": "Structured settlements placed with life insurers rated A or higher (CGIC guarantees C$656.6mm).",
+        "source": "https://www.cooperators.ca/-/media/cooperators/assets/about-us/documents/annual-reports/2025-annual-financial-report.pdf"
+      }
+    ]
+  },
+  "risk": {
+    "appetite": [
+      "Risk appetite 'defines the types and amount of risk we are willing and able to responsibly accept'; describes risks avoided, assumed and limits (IAR).",
+      "Risk-based capital targets set with 'sophisticated modelling'; capital plans evaluated annually against risk profile.",
+      "Top 2025 risks: geopolitical, extreme weather/climate, cyber, future of work, shifting client preferences."
+    ],
+    "governance": [
+      "Board Risk Committee oversees ERM program, risk appetite, CRO and sustainable investment strategy (via Management Investment Committee).",
+      "ERM team identifies, assesses, quantifies (stress and sensitivity testing) and reports to Board Risk Committee, management and regulators.",
+      "Audit and Finance Committee oversees financial reporting incl. climate disclosures; OSFI thematic reviews on non-financial risk in 2025."
+    ],
+    "capital_target": "Internal risk-based capital targets not quantified. CLIC LICAT 160% total / 119% core (Dec 31, 2025) vs OSFI supervisory 100% / 70%.",
+    "sensitivities": [
+      "None published for CLIC (group IAR and CGIC AFR carry P&C sensitivities only)."
+    ],
+    "hedging": [
+      "FX derivatives notional 189.6 (OSFI LF3); seg-fund guarantee risk now under LICAT standard approach - no dynamic hedging program disclosed."
+    ],
+    "events": [
+      "LICAT 2025 guideline cut CLIC ratios (168% to 160% total; 130% to 119% core).",
+      "Life ROE 9.5% below 13-17% target; life expense ratio above target (2025).",
+      "OSFI thematic reviews on non-financial risk (2025)."
+    ],
+    "sources": [
+      "https://www.cooperators.ca/-/media/cooperators/assets/iar/documents/2025-integrated-annual-report.pdf",
+      "https://www.cooperators.ca/-/media/cooperators/assets/about-us/documents/annual-reports/licat-2025.pdf",
+      "https://www.cooperators.ca/-/media/cooperators/assets/about-us/documents/annual-reports/2025-annual-financial-report.pdf"
+    ]
+  },
+  "gaps": [
+    "Co-operative: no proxy circular; no executive compensation disclosed for any officer.",
+    "CLIC publishes no standalone financial statements, sensitivities or business-mix split; entity figures come from OSFI LF1 and the LICAT disclosure.",
+    "Group CRO not named publicly; no 'President' title for CLIC (Blundell is EVP & COO).",
+    "Addenda CEO/CIO start dates rely partly on aggregators (MarketScreener, Form ADV); Addenda bio pages returned 404.",
+    "Current AM Best rating for CLIC taken from a Dec 2021 release; cooperators.ca ratings page 404'd and web search budget was exhausted before a 2025/26 affirmation was found.",
+    "No sponsorship announcements found for 2024-26 beyond community contributions; the Regina arena naming is from 2009.",
+    "companies.csv lists CLIC as a subsidiary of CGIC; CGIC's AFR describes CLIC as an affiliate 'under common control' via CFSL/CGL - repo metadata may need correcting."
+  ],
+  "notes": "Group (CGL) figures are dominated by P&C (insurance revenue 6,908; NI 695.3). CLIC is roughly 38% of group invested assets and holds all seg funds. CGIC's 2025 annual financial report is the P&C entity's and was used only for group structure, Addenda fees, ratings framework and governance."
+}

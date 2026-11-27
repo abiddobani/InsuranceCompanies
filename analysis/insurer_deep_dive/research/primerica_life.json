@@ -1,0 +1,135 @@
+{
+  "company_id": "primerica_life",
+  "name": "Primerica Life Insurance Company of Canada (Primerica Life Canada / PLICC)",
+  "as_of": "2026-06-30",
+  "ownership": "Indirect wholly owned subsidiary of Primerica, Inc. (NYSE: PRI) via Primerica Financial Services (Canada) Ltd.",
+  "regulator": "OSFI (LICAT) and provincial superintendents; parent is SEC-registered, US life subsidiaries under state RBC",
+  "metrics": [
+    {"metric": "Total assets (Primerica Life Canada)", "value": null, "unit": "C$bn", "as_of": null, "source": null, "note": "Not separately reported by Primerica, Inc.; use OSFI return data in repo. Parent total invested assets portfolio US$4.1bn at 2026-06-30 (group)"},
+    {"metric": "Statutory capital and surplus (Primerica Life Canada)", "value": 903.3, "unit": "US$mm", "as_of": "2025-12-31", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm", "note": "10-K note 17 (reported in USD): 2024 US$696.2mm; satisfied OSFI requirements. Dividend capacity at Jan 1 2026 est. US$215.7mm after internal capital targets; ordinary dividends paid to parent in 2025 US$45.3mm"},
+    {"metric": "Group invested asset portfolio (Primerica, Inc.)", "value": 4.1, "unit": "US$bn", "as_of": "2026-06-30", "source": "https://d1io3yog0oux5.cloudfront.net/_4b9d60724f4444ba419b7b44fb662a07/primerica/db/2928/28581/presentation/Investor+Update+2Q26.pdf", "note": "Fixed income ~99%; duration 5.2y; book yield 4.4%; average rating A; 99% investment grade; net unrealised loss US$140mm. Fixed-maturity FV US$3.3bn at YE2025. Canadian-dollar assets held to back Canadian liabilities (amount not disclosed)"},
+    {"metric": "Canadian revenues (Primerica, Inc.)", "value": 440.8, "unit": "US$mm", "as_of": "2025-12-31", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm", "note": "13% of group revenue US$3,291.7mm; Canada = 14% of pre-tax income from continuing operations (2024: 13%/13%)"},
+    {"metric": "Net income (Primerica Life Canada)", "value": null, "unit": "C$mm", "as_of": null, "source": null, "note": "Not disclosed; Canadian pre-tax income is 14% of group (group pre-tax income not restated here). Group net income FY2025 per 10-K"},
+    {"metric": "LICAT ratio (Primerica Life Canada)", "value": null, "unit": "%", "as_of": "2026-06-30", "source": "https://investors.primerica.com/sec-filings/sec-filings/content/0001193125-26-337365/0001193125-26-337365.pdf", "note": "Not published by Primerica; 10-Q states Primerica Life Canada 'was in compliance with Canada's minimum capital requirements as defined by OSFI' at Jun 30, 2026. Use OSFI return data in repo"},
+    {"metric": "Financial leverage (Primerica, Inc.)", "value": null, "unit": "%", "as_of": "2025-12-31", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm", "note": "US$600mm senior notes outstanding; company does not publish a leverage ratio; Primerica Life Canada carries no debt"},
+    {"metric": "Credit ratings - Primerica, Inc. senior notes", "value": null, "unit": "Moody's Baa1 / S&P A- / AM Best a- (all stable)", "as_of": "2025-12-31", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm", "note": "Primerica Life (US) FSR: Moody's A1, S&P AA-, AM Best A+. No separate FSR for Primerica Life Canada disclosed in 10-K"},
+    {"metric": "Investments team headcount", "value": null, "unit": "people", "as_of": null, "source": null, "note": "Not disclosed; investing is delegated to a third-party investment advisor overseen by a senior-management investment committee"},
+    {"metric": "Employees (Primerica, Inc.)", "value": 2833, "unit": "people", "as_of": "2025-12-31", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm", "note": "Group; Canadian head office in Mississauga, ON. 151,524 life-licensed independent sales representatives (US + Canada)"},
+    {"metric": "CEO total compensation (Glenn J. Williams)", "value": 5638658, "unit": "US$", "as_of": "2025-12-31", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526139047/pri-20260326.htm", "note": "2026 proxy SCT; 2024: US$7,190,309"}
+  ],
+  "business_mix": {
+    "basis": "Primerica, Inc. revenues by country, FY2025 (US$3,291.7mm). Canadian subsidiary revenues are not split by line; group segments are Term Life, Investment & Savings Products (ISP, ~42% of operating revenues in 2025) and Corporate & Other",
+    "as_of": "2025-12-31",
+    "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm",
+    "items": [
+      {"label": "United States", "pct": 86.6},
+      {"label": "Canada (Primerica Life Canada term life, PFSL Investments Canada mutual funds, legacy Common Sense Funds seg funds)", "pct": 13.4}
+    ]
+  },
+  "people": [
+    {"role": "CEO (parent)", "name": "Glenn J. Williams", "title": "Chief Executive Officer, Primerica, Inc.", "reports_to": "Board of Directors", "entity": "Primerica, Inc.", "seat_since": 2015, "firm_since": 1981, "industry_since": 1981, "prior": "Primerica career: sales force 1981, home office 1983; President & CEO of Primerica Canada 1996-2000; EVP Field & Product Marketing (international) 2000-05; President 2005-15", "comp_total_cad": null, "comp_currency": "USD", "comp_year": 2025, "comp_source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526139047/pri-20260326.htm", "sources": ["https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm"], "note": "Total compensation US$5,638,658 for 2025 (salary 750,000; stock awards 2,749,907; non-equity incentive 1,917,000; other 221,751). CAD equivalent not computed (comp_total_cad null); USD figure in metrics"},
+    {"role": "President (parent)", "name": "Peter W. Schneider", "title": "President, Primerica, Inc.", "reports_to": "CEO", "entity": "Primerica, Inc.", "seat_since": 2015, "firm_since": 2000, "industry_since": 2000, "prior": "Partner, Rogers & Hardin LLP 1988-2000; Paul, Weiss associate; EVP, General Counsel & CAO Primerica 2000-15", "comp_total_cad": null, "comp_currency": "USD", "comp_year": 2025, "comp_source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526139047/pri-20260326.htm", "sources": [], "note": "2025 total US$4,028,346"},
+    {"role": "CFO (parent; treasury and capital markets, investment committee)", "name": "Tracy X. Tan", "title": "Executive Vice President and Chief Financial Officer", "reports_to": "CEO", "entity": "Primerica, Inc.", "seat_since": 2023, "firm_since": 2023, "industry_since": 2015, "prior": "CFO Strategic Link Consulting 2018-23; SVP & CFO Assurant Global Housing 2015-18; Novelis, Southwire, GE (from 1996)", "comp_total_cad": null, "comp_currency": "USD", "comp_year": 2025, "comp_source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526139047/pri-20260326.htm", "sources": ["https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm"], "note": "2025 total US$2,581,705. Oversees treasury, tax and capital markets; no Chief Investment Officer title exists at Primerica (investments run via investment committee + third-party advisor)"},
+    {"role": "CEO (Canada)", "name": "John A. Adams", "title": "Executive Vice President, Primerica, Inc.; Chief Executive Officer, Primerica Life Insurance Company of Canada", "reports_to": "Primerica, Inc. CEO (inferred)", "entity": "Primerica Life Insurance Company of Canada", "seat_since": 2003, "firm_since": null, "industry_since": 1980, "prior": "KPMG (1980); Director of Finance at a major Canadian university; Treasurer of an insurance group; Primerica Life Canada VP Finance then CFO; EVP Primerica, Inc. since May 2018; Board Chair, Federation of Independent Dealers since Jan 2026", "comp_total_cad": null, "comp_currency": "USD", "comp_year": null, "comp_source": null, "sources": ["https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm"], "note": "Classified as a 'significant employee', not a named executive officer; pay not disclosed in the 2026 proxy (NEOs: Williams, Schneider, Tan). Age 67 at Feb 2026"},
+    {"role": "President (Canada)", "name": "Rosie Orlando", "title": "Executive Vice President, Primerica, Inc.; President, Primerica Life Insurance Company of Canada", "reports_to": "John A. Adams (CEO, PLICC) (inferred)", "entity": "Primerica Life Insurance Company of Canada", "seat_since": 2022, "firm_since": 1992, "industry_since": 1992, "prior": "EVP & COO PLICC 2006-22; SVP Training & Development; York University BA", "comp_total_cad": null, "comp_currency": "USD", "comp_year": null, "comp_source": null, "sources": ["https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm"], "note": "President of PLICC since Nov 2022; EVP of Primerica, Inc. since Oct 2024; pay not disclosed"},
+    {"role": "CIO", "name": null, "title": null, "reports_to": null, "entity": null, "seat_since": null, "firm_since": null, "industry_since": null, "prior": null, "comp_total_cad": null, "comp_currency": "USD", "comp_year": null, "comp_source": null, "sources": [], "note": "No CIO role; a senior-management investment committee sets guidelines and supervises a third-party investment advisor that reports to the committee (advisor not named)"},
+    {"role": "CRO (parent)", "name": "Stacey K. Geer", "title": "EVP, Deputy General Counsel, Chief Governance and Risk Officer, and Corporate Secretary", "reports_to": "CEO / Board", "entity": "Primerica, Inc.", "seat_since": 2024, "firm_since": 2010, "industry_since": 2010, "prior": "Deputy GC Mueller Water Products 2007-10; Chief Securities Counsel BellSouth 2001-07; Partner King & Spalding", "comp_total_cad": null, "comp_currency": "USD", "comp_year": null, "comp_source": null, "sources": ["https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm"], "note": "Named Chief Risk Officer May 2024; also covers financings and M&A"}
+  ],
+  "pm_structure": {
+    "summary": "Group-level, outsourced construct: Primerica's investment committee (senior management) sets guidelines; a single unnamed third-party investment advisor manages the invested-asset portfolio and reports to the committee. Canadian-dollar assets are held within the group portfolio to back Canadian liabilities; there is no Canadian investment team or affiliated asset manager. Canadian segregated funds (legacy Common Sense Funds) use a third-party advisor for asset allocation; Canadian mutual-fund distribution relies on AGF and Mackenzie as manufacturers.",
+    "manager_entities": ["Third-party investment advisor (not named in 10-K/10-Q)", "Primerica, Inc. investment committee (oversight)"],
+    "bullets": [
+      "Conservative strategy: preservation of capital and liquidity; limits on asset type, issuer, credit quality, duration and country",
+      "Portfolio (Jun 30 2026, group US$4.1bn): public corporates 45.2%, MBS 15.8%, cash & equivalents 14.6%, private placements 8.7%, ABS 6.0%, government 5.6%, CMBS 1.9%, munis 1.1%, equities 0.3%",
+      "Ratings (amortised cost): AAA 18.4%, AA 13.6%, A 24.8%, BBB 42.4%, below IG 0.9%; duration 5.2y; book yield 4.4%",
+      "Term-life model means little spread/accumulation business: profitability less sensitive to investment income than peers",
+      "PFSL Fund Management Ltd. (Canadian fund manager) manages legacy Concert Series funds with a third-party advisor on allocation; PFSL Investments Canada is exclusive principal distributor of AGF and Mackenzie FuturePath 'PD Funds'",
+      "Seg funds: legacy Common Sense Funds underwritten by PLICC (sales fell sharply after June 2023 regulatory changes); since 2025 Primerica distributes Canada Life seg-fund contracts instead"
+    ],
+    "sources": ["https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm", "https://d1io3yog0oux5.cloudfront.net/_4b9d60724f4444ba419b7b44fb662a07/primerica/db/2928/28581/presentation/Investor+Update+2Q26.pdf"]
+  },
+  "rotation_commentary": [
+    {"year": 2026, "text": "Group portfolio grew to US$4.1bn; unrealised loss US$140mm is rate-driven, intent and ability to hold to maturity; growth in invested assets lifted net investment income (Q2 2026 NII US$43.7mm vs 40.9).", "source": "https://d1io3yog0oux5.cloudfront.net/_4b9d60724f4444ba419b7b44fb662a07/primerica/news/2026-08-05_Primerica_Reports_Second_Quarter_2026_383.pdf"},
+    {"year": 2025, "text": "Primerica Life Canada statutory capital rose to US$903.3mm from US$696.2mm while paying US$45.3mm dividends; dividend capacity US$215.7mm at Jan 1 2026.", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm"},
+    {"year": 2025, "text": "Shift of Canadian seg-fund business from PLICC's own Common Sense Funds to distributing Canada Life contracts (rolled out 2025) reduces PLICC's seg-fund growth and fee base.", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm"}
+  ],
+  "target_allocations": [],
+  "leverage": {
+    "debt_outstanding": [
+      {"type": "Primerica, Inc. 2.80% senior unsecured notes due Nov 19, 2031", "amount_cad_mm": null, "as_of": "2025-12-31", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm", "note": "US$600mm principal; issued Nov 2021 at 99.55%"},
+      {"type": "Primerica, Inc. revolving credit facility", "amount_cad_mm": null, "as_of": "2025-12-31", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm", "note": "Undrawn facility; size not captured in this review"},
+      {"type": "Vidalia Re surplus note / LLC note (redundant reserve XXX financing, US)", "amount_cad_mm": null, "as_of": "2025-12-31", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm", "note": "Surplus note issued by captive Vidalia Re to an LLC owned by a third-party service provider, with Hannover Re; matures Dec 31 2030; offsetting HTM 'LLC Note' held in the portfolio; interest expense US$58.0mm in 2025. US-only; no cash requirement expected"},
+      {"type": "Primerica Life Canada debt", "amount_cad_mm": 0.0, "as_of": "2025-12-31", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm", "note": "No debt, preferreds or hybrids at the Canadian subsidiary (inferred; parent relies on subsidiary dividends)"}
+    ],
+    "financial_leverage_ratio_pct": null,
+    "issuance": [
+      {"date": "2021-11-16", "instrument": "Primerica, Inc. 2.80% Senior Notes due 2031", "amount_cad_mm": null, "coupon_pct": 2.8, "maturity": "2031-11-19", "bookrunners": ["Wells Fargo Securities", "Citigroup", "J.P. Morgan", "BNY Mellon Capital Markets", "Goldman Sachs & Co.", "RBC Capital Markets", "Scotiabank"], "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312521333890/d430614d424b5.htm", "note": "US$600mm; joint book-running managers per prospectus supplement; underwriting discount 0.65%. No issuance 2023-2026"}
+    ],
+    "securities_lending": {"amount_cad_mm": null, "as_of": "2025-12-31", "text": "Primerica participates in securities lending with brokers 'to increase investment income with minimal risk' (10-K Note 5); amount on loan not extracted in this review", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm"},
+    "repos": {"amount_cad_mm": null, "as_of": "2025-12-31", "text": "No repurchase agreements disclosed", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm"},
+    "structured_indirect": [
+      {"text": "Group portfolio structured credit: MBS 15.8%, ABS 6.0%, CMBS 1.9% of US$4.1bn (~US$970mm combined); private placements 8.7% (~US$357mm)", "amount_cad_mm": null, "source": "https://d1io3yog0oux5.cloudfront.net/_4b9d60724f4444ba419b7b44fb662a07/primerica/db/2928/28581/presentation/Investor+Update+2Q26.pdf"},
+      {"text": "Redundant-reserve (XXX) financing via Vidalia Re surplus note / credit-enhanced LLC note held to maturity (US statutory, matures 2030)", "amount_cad_mm": null, "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm"},
+      {"text": "Heavy reinsurance: term life ceded on first-dollar quota-share YRT basis to a panel of reinsurers (US and Canada); IPO-era coinsurance agreements still in run-off", "amount_cad_mm": null, "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm"}
+    ]
+  },
+  "partnerships": {
+    "underwriters": [
+      {"dealer": "Wells Fargo Securities", "role": "joint book-runner, 2021 senior notes", "deals": 1, "note": "", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312521333890/d430614d424b5.htm"},
+      {"dealer": "Citigroup", "role": "joint book-runner, 2021 senior notes", "deals": 1, "note": "", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312521333890/d430614d424b5.htm"},
+      {"dealer": "J.P. Morgan", "role": "joint book-runner, 2021 senior notes", "deals": 1, "note": "", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312521333890/d430614d424b5.htm"},
+      {"dealer": "BNY Mellon Capital Markets", "role": "joint book-runner, 2021 senior notes", "deals": 1, "note": "", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312521333890/d430614d424b5.htm"},
+      {"dealer": "Goldman Sachs & Co.", "role": "joint book-runner, 2021 senior notes", "deals": 1, "note": "", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312521333890/d430614d424b5.htm"},
+      {"dealer": "RBC Capital Markets", "role": "joint book-runner, 2021 senior notes", "deals": 1, "note": "Only Canadian-bank dealer alongside Scotiabank", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312521333890/d430614d424b5.htm"},
+      {"dealer": "Scotiabank", "role": "joint book-runner, 2021 senior notes", "deals": 1, "note": "", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312521333890/d430614d424b5.htm"}
+    ],
+    "deals": [
+      {"year": 2025, "text": "Distribution agreement with The Canada Life Assurance Company: Primerica Canada reps sell Canada Life seg-fund contracts (trail + revenue share) instead of PLICC's own Common Sense Funds", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm"},
+      {"year": 2025, "text": "PFSL Investments Canada is exclusive principal distributor for AGF and Mackenzie FuturePath mutual-fund families (PD Funds)", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm"},
+      {"year": 2025, "text": "Canadian referral/product partners: 8Twelve Mortgage Corp. (mortgage referrals), SurexDirect.com (auto/home referrals, AB/ON/BC), The Edge Benefits (small-business health/accident), Pre-Paid Legal Services", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm"},
+      {"year": 2024, "text": "Primerica exited its US Senior Health (e-TeleQuote) business (discontinued operations); no Canadian impact", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526139047/pri-20260326.htm"}
+    ],
+    "sponsorships": [
+      {"year": 2026, "text": "Five regional sales-force summits in US and Canada in 2026 in lieu of the biennial international convention", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm"},
+      {"year": 2025, "text": "Primerica Foundation (chaired by Kathryn Kieser) funds US/Canada community programs; no named Canadian sports or arts sponsorships found", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm"}
+    ],
+    "bank_relationships": [
+      {"text": "Revolving credit facility with a bank group (lenders not captured); Hannover Re and a third-party LLC in the Vidalia Re reserve financing", "source": "https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm"}
+    ]
+  },
+  "risk": {
+    "appetite": [
+      "Investment guidelines restrict asset type, per-issuer, credit quality, duration and country; no non-US/Canada country >5% or corporate industry >10% of AFS portfolio",
+      "Internal capital targets at Primerica Life Canada govern dividend capacity (OSFI-required); US subs hold statutory capital well above RBC action levels"
+    ],
+    "governance": [
+      "Chief Governance and Risk Officer (Stacey Geer, since May 2024) at parent; senior-management investment committee supervises the third-party advisor",
+      "PLICC board and OSFI oversight; files quarterly/annual IFRS statements with OSFI; subject to CLHIA guidelines and provincial market-conduct regulators"
+    ],
+    "capital_target": "Primerica Life Canada maintains OSFI-required internal capital targets (values undisclosed); statutory capital & surplus US$903.3mm at 2025-12-31; dividend capacity US$215.7mm at 2026-01-01",
+    "sensitivities": [
+      "Rates +100bp: fair value of group fixed-maturity portfolio -US$147.0mm (-4%) at YE2025 (2024: -US$130.3mm)",
+      "CAD -10% vs USD: pre-tax income -US$13.6mm (2025); translated net investment in Canadian subsidiaries -US$40.8mm",
+      "Equity sensitivity mainly via ISP fee revenue on client assets, not the general account (equities 0.3% of portfolio)"
+    ],
+    "hedging": [
+      "Historically no hedge of the net investment in Canadian operations (may elect in future); CAD assets matched to CAD liabilities",
+      "No seg-fund dynamic hedging disclosed; Common Sense Funds guarantees supported by zero-coupon Government of Canada strips in the fund structure"
+    ],
+    "events": [
+      "June 2023 Canadian regulatory changes (deferred sales charge ban) cut PLICC seg-fund sales sharply; Canada Life distribution deal launched 2025",
+      "Audit fees fell in 2025 after 2024 costs for IFRS 17 adoption in Canada and discontinued US operations",
+      "Group rates/credit: unrealised losses from 2022-23 rate rises still US$140mm at Jun 2026"
+    ],
+    "sources": ["https://www.sec.gov/Archives/edgar/data/1475922/000119312526082233/pri-20251231.htm", "https://investors.primerica.com/sec-filings/sec-filings/content/0001193125-26-337365/0001193125-26-337365.pdf", "https://d1io3yog0oux5.cloudfront.net/_4b9d60724f4444ba419b7b44fb662a07/primerica/db/2928/28581/presentation/Investor+Update+2Q26.pdf"]
+  },
+  "gaps": [
+    "Primerica Life Canada standalone total assets, invested assets, net income and LICAT ratio are not published by Primerica, Inc. (only statutory capital US$903.3mm and dividends); rely on OSFI return data in the repo",
+    "Third-party investment advisor managing the general account is not named in any filing; no Canadian investment team or CIO",
+    "Canadian leadership pay (John Adams, Rosie Orlando) not disclosed: they are 'significant employees', not NEOs",
+    "Securities-lending balance and revolving-credit-facility size not extracted (10-K Notes 5 and 12 not read in full)",
+    "Canadian business mix by line (term life vs ISP vs seg funds) not disclosed; only country revenue split",
+    "Canadian sponsorships not found; web-search budget exhausted before a dedicated search"
+  ],
+  "notes": "Primerica Life Canada is a captive term-life underwriter inside a US distribution company: Canada is ~13% of group revenue (US$441mm) and ~14% of pre-tax income, with statutory capital of US$903mm and an upstream dividend of US$45mm in 2025. There is no Canadian investment function; the group's US$4.1bn portfolio (99% fixed income, A average, 5.2y duration, 42% BBB) is run by an unnamed third-party advisor under a management investment committee, with CAD assets earmarked against CAD reserves. Parent leverage is a single US$600mm 2.80% 2031 note (bookrunners Wells, Citi, JPM, BNY, Goldman, RBC, Scotia) plus a US-only XXX surplus-note structure. Sources: Primerica, Inc. FY2025 10-K (Feb 2026), Q2 2026 10-Q (Aug 2026), 2026 proxy (Apr 2, 2026), Investor Update 2Q26, Q2 2026 earnings release, Nov 2021 424B5 prospectus supplement."
+}

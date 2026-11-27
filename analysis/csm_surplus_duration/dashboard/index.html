@@ -1,0 +1,788 @@
+<meta name="dash-one-writer">
+<style>
+  .cs { display: flex; flex-direction: column; gap: var(--cds-gap-lg); font-family: var(--font-anthropic-sans); color: var(--color-fg); }
+  .cs-head { display: flex; flex-direction: column; gap: var(--cds-gap-sm); max-width: 68rem; }
+  .cs-head h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+  .cs-take { font-size: var(--cds-font-size-body); margin: 0; line-height: 1.55; }
+  .cs .cs-take b, .cs .cs-note b, .cs .cs-prose b { font-weight: 600; font-variant-numeric: tabular-nums; }
+  .cs-scope { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; line-height: 1.5; }
+  .cs-tabs { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); border-bottom: 1px solid var(--color-border-line); }
+  .cs-tabs button { font: inherit; font-size: var(--cds-font-size-body); padding: var(--cds-pad-sm) var(--cds-pad-md); background: transparent; color: var(--color-fg-muted); border: 0; border-bottom: 2px solid transparent; cursor: pointer; margin-bottom: -1px; }
+  .cs-tabs button[aria-selected="true"] { color: var(--color-fg); border-bottom-color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+  .cs-tabs button:focus-visible, .cs th button:focus-visible { outline: 2px solid var(--color-fg); outline-offset: -2px; }
+  .cs-page { display: flex; flex-direction: column; gap: var(--cds-gap-md); }
+  .cs-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 30rem), 1fr)); gap: var(--cds-gap-md); }
+  .cs-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); display: flex; flex-direction: column; gap: var(--cds-gap-sm); min-width: 0; }
+  .cs-card h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; text-wrap: balance; }
+  .cs-card h3 { font-size: var(--cds-font-size-body); font-weight: var(--cds-font-weight-medium); margin: var(--cds-gap-sm) 0 0; }
+  .cs-note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: 0; line-height: 1.5; max-width: 76rem; }
+  .cs-prose { font-size: var(--cds-font-size-body); line-height: 1.55; margin: 0; max-width: 72rem; }
+  .cs-prose + .cs-prose { margin-top: var(--cds-gap-xs); }
+  .cs-prose ol, .cs-prose ul { margin: 0; padding-left: 1.3rem; display: flex; flex-direction: column; gap: var(--cds-gap-xs); }
+  .cs-chart { position: relative; min-height: 18rem; }
+  .cs-chart-lg { min-height: 30rem; }
+  .cs-chart svg { display: block; overflow: visible; }
+  .cs-chart text { font-family: var(--font-anthropic-sans); font-size: 11px; fill: var(--color-fg); }
+  .cs-chart .cs-mt { fill: var(--color-fg-muted); }
+  .cs-chart .cs-ft { font-weight: 600; }
+  .cs-legend { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs) var(--cds-gap-md); font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .cs-legend span { display: inline-flex; align-items: center; gap: 0.35rem; }
+  .cs-sw { width: 0.75rem; height: 0.75rem; border-radius: 3px; flex: none; background: var(--cds-chart-muted); display: inline-block; }
+  .cs-sw-dot { border-radius: 50%; }
+  .cs-sw-diamond { width: 0.6rem; height: 0.6rem; border-radius: 0; transform: rotate(45deg); background: transparent; border: 1.5px solid var(--cds-chart-reference); }
+  .cs-sw-line { width: 1rem; height: 0; border-top: 2px solid var(--cds-chart-muted); border-radius: 0; background: transparent; }
+  .cs-sw-dash { width: 1rem; height: 0; border-top: 2px dashed var(--color-fg-muted); border-radius: 0; background: transparent; }
+  .cs-sw-band { background: var(--cds-chart-grid); border: 1px solid var(--cds-chart-muted); }
+  .cs-heat { position: relative; overflow-x: auto; min-height: 24rem; }
+  .cs-hgrid { display: grid; gap: 2px; font-size: var(--cds-font-size-caption); min-width: 40rem; }
+  .cs-hcol { color: var(--color-fg-muted); text-align: center; line-height: 1.2; padding: 0 2px 4px; align-self: end; }
+  .cs-hrow { white-space: nowrap; padding-right: var(--cds-pad-sm); align-self: center; position: sticky; left: 0; background: var(--color-panel); z-index: 1; overflow: hidden; text-overflow: ellipsis; }
+  .cs-hrow.is-focus { font-weight: 600; }
+  .cs-hcell { position: relative; height: 1.8rem; display: flex; align-items: center; justify-content: center; font-variant-numeric: tabular-nums; }
+  .cs-hfill { position: absolute; inset: 0; border-radius: 3px; }
+  .cs-hempty { position: absolute; inset: 0; border-radius: 3px; border: 1px dashed var(--color-border-line); }
+  .cs-hval { position: relative; }
+  .cs-hcell.is-est .cs-hval { font-style: italic; }
+  .cs-hcell.is-focus .cs-hfill { outline: 2px solid var(--color-fg); outline-offset: 0; }
+  .cs-tablebox { overflow: auto; max-height: 34rem; }
+  .cs table { border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; width: 100%; }
+  .cs th { position: sticky; top: 0; background: var(--color-panel); text-align: left; font-weight: var(--cds-font-weight-medium); color: var(--color-fg-muted); padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: bottom; z-index: 1; }
+  .cs th button { font: inherit; color: inherit; background: transparent; border: 0; padding: 0; cursor: pointer; text-align: inherit; }
+  .cs th[aria-sort="ascending"] button::after { content: " ↑"; }
+  .cs th[aria-sort="descending"] button::after { content: " ↓"; }
+  .cs td { text-align: left; padding: var(--cds-pad-xs) var(--cds-pad-sm); border-bottom: 1px solid var(--color-border-line); vertical-align: top; line-height: 1.45; }
+  .cs td.cs-n, .cs th.cs-n { text-align: right; white-space: nowrap; }
+  .cs td.cs-w { min-width: 16rem; }
+  .cs tr.is-focus td { font-weight: 600; background: color-mix(in srgb, var(--cds-chart-grid) 70%, transparent); }
+  .cs td .cs-tag { display: inline-block; font-size: 0.85em; color: var(--color-fg-muted); font-weight: 400; }
+  .cs-tip { position: absolute; z-index: 5; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius); box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); line-height: 1.45; max-width: 22rem; }
+  .cs-tip-h { color: var(--cds-text-secondary); }
+  .cs-tip-v { font-weight: 600; font-variant-numeric: tabular-nums; margin-left: auto; padding-left: var(--cds-pad-sm); }
+  .cs-tip-row { display: flex; align-items: center; gap: 0.35rem; }
+  .cs-tip-row i { width: 0.6rem; height: 0.6rem; border-radius: 2px; flex: none; }
+  .cs-tip-n { color: var(--cds-text-secondary); margin-top: 2px; }
+  [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+  [data-dash-source-state=empty] { color: transparent; }
+</style>
+
+<div class="cs">
+  <header class="cs-head">
+    <h1>CSM and surplus durations</h1>
+    <p class="cs-take" data-read>RBC Life's CSM portfolio has an estimated duration of <b><span data-draw="v" data-fmt="d1" data-source="results" data-field="csm_portfolio_duration" data-where="company_id=rbc_life">—</span> years</b> against a CSM run-off duration of <b><span data-draw="v" data-fmt="d1" data-source="results" data-field="csm_runoff_duration" data-where="company_id=rbc_life">—</span> years</b>, and its surplus portfolio <b><span data-draw="v" data-fmt="d1" data-source="results" data-field="surplus_portfolio_duration" data-where="company_id=rbc_life">—</span> years</b>. Peer medians are <b><span data-draw="v" data-fmt="d1" data-source="headline" data-field="value" data-where="metric=med_csm_pf">—</span></b>, <b><span data-draw="v" data-fmt="d1" data-source="headline" data-field="value" data-where="metric=med_runoff">—</span></b> and <b><span data-draw="v" data-fmt="d1" data-source="headline" data-field="value" data-where="metric=med_sur_pf">—</span> years</b>. RBC Life holds <b>C$<span data-draw="v" data-fmt="bn1" data-source="fvoci" data-field="fvoci_total" data-where="company_id=rbc_life">—</span> bn</b> at FVOCI (<b><span data-draw="v" data-fmt="pct0" data-source="fvoci_share" data-field="fvoci_share" data-where="company_id=rbc_life">—</span>%</b> of invested assets) with an unrealized gain of <b>C$<span data-draw="v" data-fmt="c0" data-source="fvoci" data-field="aoci_fvoci" data-where="company_id=rbc_life">—</span> mm</b> in AOCI. No peer publishes a numeric OCI or FVOCI limit.</p>
+    <p class="cs-scope">Fiscal 2025 year end (RBC Life and BMO Life October 31, others December 31), C$ millions. No insurer reports which assets back its CSM or surplus, so every portfolio duration here is an estimate built from published designations, maturity tables and the general-account mix; the Method tab has the steps and each insurer's sources. Durations are modified durations in years; equity, real estate and alternatives count as zero. RBC Life is highlighted throughout.</p>
+  </header>
+
+  <nav class="cs-tabs" role="tablist" aria-label="Pages">
+    <button type="button" role="tab" data-tab="overview" aria-selected="true">Overview</button>
+    <button type="button" role="tab" data-tab="csm" aria-selected="false">CSM portfolio</button>
+    <button type="button" role="tab" data-tab="surplus" aria-selected="false">Surplus portfolio</button>
+    <button type="button" role="tab" data-tab="classes" aria-selected="false">By asset class</button>
+    <button type="button" role="tab" data-tab="net" aria-selected="false">Net rate exposure</button>
+    <button type="button" role="tab" data-tab="fvoci" aria-selected="false">FVOCI and OCI limits</button>
+    <button type="button" role="tab" data-tab="method" aria-selected="false">Method and sources</button>
+  </nav>
+
+  <section class="cs-page" id="overview" data-page="overview">
+    <div class="cs-card" id="dots-card">
+      <h2 id="dots-title">Estimated duration of the CSM and surplus portfolios, with the CSM's own run-off duration</h2>
+      <p class="cs-note">Each row is one insurer, largest CSM plus surplus first. The CSM run-off duration is how long, on average, the CSM takes to come into income; a CSM portfolio shorter than its run-off leaves the insurer short duration on the locked-in CSM. Hover for amounts and how each figure was reached.</p>
+      <div class="cs-legend"><span><i class="cs-sw cs-sw-dot" data-draw="sw" data-c="0"></i>CSM portfolio</span><span><i class="cs-sw cs-sw-dot" data-draw="sw" data-c="1"></i>Surplus portfolio</span><span><i class="cs-sw cs-sw-diamond"></i>CSM run-off duration</span><span><i class="cs-sw cs-sw-band"></i>RBC Life</span></div>
+      <div class="cs-chart cs-chart-lg" data-draw="dots" data-source="results"></div>
+    </div>
+    <div class="cs-card" id="summary-card">
+      <h2>Summary by insurer</h2>
+      <p class="cs-note">Net CSM is insurance contracts issued less reinsurance held. Surplus is total equity less goodwill and intangibles. Gap is CSM portfolio duration less CSM run-off duration. Implied net duration comes from each insurer's disclosed rate sensitivity of equity (Net rate exposure tab). Select a heading to sort.</p>
+      <div class="cs-tablebox">
+        <table data-source="results" data-row-key="company_id">
+          <thead><tr>
+            <th data-field="company" data-sort="company"><button type="button">Insurer</button></th>
+            <th class="cs-n" data-field="csm_net_cad_mm" data-sort="csm_net_cad_mm"><button type="button">Net CSM</button></th>
+            <th class="cs-n" data-field="csm_runoff_duration" data-sort="csm_runoff_duration"><button type="button">CSM run-off duration</button></th>
+            <th class="cs-n" data-field="csm_portfolio_duration" data-sort="csm_portfolio_duration"><button type="button">CSM portfolio duration</button></th>
+            <th class="cs-n" data-field="duration_gap_csm" data-sort="duration_gap_csm"><button type="button">Gap</button></th>
+            <th class="cs-n" data-field="surplus_cad_mm" data-sort="surplus_cad_mm"><button type="button">Surplus</button></th>
+            <th class="cs-n" data-field="surplus_portfolio_duration" data-sort="surplus_portfolio_duration"><button type="button">Surplus portfolio duration</button></th>
+            <th class="cs-n" data-field="implied_net_pool_duration" data-sort="implied_net_pool_duration"><button type="button">Implied net duration</button></th>
+            <th data-field="csm_basis"><button type="button" disabled>CSM run-off basis</button></th>
+            <th data-field="pool_basis"><button type="button" disabled>Portfolio basis</button></th>
+          </tr></thead>
+          <tbody data-draw="sum-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="cs-page" id="csm" data-page="csm" hidden>
+    <div class="cs-card" id="csm-pf-card">
+      <h2>CSM portfolio: asset mix and where its duration comes from</h2>
+      <p class="cs-note">Left, the share of the estimated CSM portfolio in each asset class. Right, each class's contribution to the portfolio's duration (share times class duration), so the bar's length is the portfolio duration; the diamond marks the CSM run-off duration. The CSM portfolio holds fixed income first, so its mix is mostly bonds and mortgages.</p>
+      <div class="cs-legend" data-draw="class-legend"></div>
+      <div class="cs-chart cs-chart-lg" data-draw="pf" data-pf="CSM" data-source="breakdown results"></div>
+    </div>
+    <div class="cs-grid">
+      <div class="cs-card" id="runoff-card">
+        <h2>Share of today's CSM recognised in income, by year</h2>
+        <p class="cs-note">Cumulative, from each insurer's disclosed CSM schedule or, where none is published (RBC Life among them), a run-off at its 2025 release rate. Grey lines are the other peers, the dashed line their median.</p>
+        <div class="cs-legend"><span><i class="cs-sw cs-sw-line" data-draw="sw-line" data-c="0"></i>RBC Life</span><span><i class="cs-sw cs-sw-dash"></i>Peer median</span><span><i class="cs-sw cs-sw-line"></i>Other peers</span></div>
+        <div class="cs-chart" data-draw="runoff" data-source="runoff_cum"></div>
+      </div>
+      <div class="cs-card" id="gap-card">
+        <h2>CSM portfolio duration less CSM run-off duration (years)</h2>
+        <p class="cs-note">Negative: the assets behind the CSM are shorter than the CSM's run-off, so falling rates reduce asset income relative to the locked-in CSM. This is an asset-only view and ignores hedges, which the Net rate exposure tab picks up.</p>
+        <div class="cs-chart" data-draw="gap" data-source="results"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="cs-page" id="surplus" data-page="surplus" hidden>
+    <div class="cs-card" id="sur-pf-card">
+      <h2>Surplus portfolio: asset mix and where its duration comes from</h2>
+      <p class="cs-note">Surplus takes the pool's equity, real estate and alternatives first, so its duration is diluted by assets with no rate duration. Left, the mix; right, each class's contribution to duration. The diamond marks the duration of the insurer's general-account fixed income for comparison.</p>
+      <div class="cs-legend" data-draw="class-legend"></div>
+      <div class="cs-chart cs-chart-lg" data-draw="pf" data-pf="Surplus" data-source="breakdown results"></div>
+    </div>
+  </section>
+
+  <section class="cs-page" id="classes" data-page="classes" hidden>
+    <div class="cs-card" id="heat-card">
+      <h2>Duration by asset class inside the CSM and surplus pool (years)</h2>
+      <p class="cs-note">Duration each asset class carries in the pool, from the insurer's own maturity tables where they cover the pool's assets; italic cells are proxies (no maturity table, or a liability-mix proxy from OSFI returns). Hover for the general-account duration of the same class and the basis. Blank cells: the class is not held or the insurer is not covered.</p>
+      <div class="cs-heat" data-draw="heat" data-source="class_durations results"></div>
+    </div>
+  </section>
+
+  <section class="cs-page" id="net" data-page="net" hidden>
+    <div class="cs-card" id="net-card">
+      <h2>Asset duration of the pool against the net duration implied by disclosed sensitivities (years)</h2>
+      <p class="cs-note">The asset duration is the estimated duration of the CSM and surplus portfolios together. The implied net duration divides each insurer's disclosed after-tax change in equity for a rate move by the pool and grosses it up for tax, so it includes liabilities measured at current rates, the CSM's own sensitivity and hedges. A net duration near zero means the IFRS balance sheet is close to immune to parallel rate moves. RBC Life publishes no rate sensitivity.</p>
+      <div class="cs-legend"><span><i class="cs-sw cs-sw-dot" data-draw="sw" data-c="0"></i>Asset duration of the pool (estimate)</span><span><i class="cs-sw cs-sw-dot" data-draw="sw" data-c="2"></i>Implied net duration (from disclosures)</span></div>
+      <div class="cs-chart cs-chart-lg" data-draw="net" data-source="pool_dur"></div>
+    </div>
+  </section>
+
+  <section class="cs-page" id="fvoci" data-page="fvoci" hidden>
+    <div class="cs-card" id="fvoci-card">
+      <h2>Assets held at FVOCI, share of invested assets</h2>
+      <p class="cs-note">Debt and equity measured at fair value through OCI, whose price moves go to AOCI rather than income. For most peers FVOCI marks the surplus or CSM book; Manulife's FVOCI book also backs liabilities under the IFRS 17 OCI option, and Primerica Canada holds its whole bond book there. Insurers with no bar hold everything at fair value through profit or loss or amortized cost.</p>
+      <div class="cs-legend"><span><i class="cs-sw" data-draw="sw" data-c="0"></i>Bonds</span><span><i class="cs-sw" data-draw="sw" data-c="3"></i>Mortgages and loans</span><span><i class="cs-sw" data-draw="sw" data-c="5"></i>Equities</span></div>
+      <div class="cs-chart cs-chart-lg" data-draw="fvoci-bars" data-source="fvoci_share"></div>
+    </div>
+    <div class="cs-card" id="fvoci-table-card">
+      <h2>FVOCI exposure, OCI rate sensitivity and stated limits</h2>
+      <p class="cs-note">AOCI is the unrealized gain or loss on FVOCI assets at year end. The OCI sensitivity is quoted as each insurer discloses it; where nothing is disclosed, the estimate is FVOCI fixed income times the pool's fixed-income duration for a 50bp fall, after tax. No insurer publishes a numeric limit on OCI or on FVOCI holdings; the last column quotes what each says.</p>
+      <div class="cs-tablebox">
+        <table data-source="fvoci" data-row-key="company_id">
+          <thead><tr>
+            <th data-field="company">Insurer</th>
+            <th class="cs-n" data-field="fvoci_total">FVOCI assets</th>
+            <th class="cs-n" data-source="fvoci_share" data-field="fvoci_share">Share of invested</th>
+            <th class="cs-n" data-field="aoci_fvoci">AOCI on FVOCI</th>
+            <th data-field="oci_rate_sensitivity">OCI rate sensitivity (disclosed)</th>
+            <th class="cs-n" data-field="oci_per_50bp_estimated">OCI for a 50bp fall (estimate)</th>
+            <th data-field="disclosed_limits">Stated limits</th>
+            <th data-field="source_sensitivity">Source</th>
+          </tr></thead>
+          <tbody data-draw="fvoci-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section class="cs-page" id="method" data-page="method" hidden>
+    <div class="cs-card" id="method-card">
+      <h2>How the estimates are built</h2>
+      <div class="cs-prose">
+        <ol>
+          <li><b>Class durations.</b> Each debt maturity bucket in the notes gets a representative term (table below) and the modified duration of a par bond at a flat <b><span data-draw="v" data-fmt="pct2" data-source="parameters" data-field="value" data-where="parameter=yield">—</span>%</b> yield. Equity, real estate and alternatives carry no rate duration. With no maturity table, bonds take a proxy from the insurer's liability mix in its OSFI returns.</li>
+          <li><b>CSM run-off duration.</b> The disclosed CSM recognition schedule is spread evenly within each bucket and the open-ended last bucket decays geometrically; the Macaulay duration of that stream is the run-off duration. Without a schedule, a geometric run-off at the 2025 release rate is used, scaled by <b><span data-draw="v" data-fmt="d3" data-source="parameters" data-field="value" data-where="parameter=release_rate_calibration">—</span></b>, the median ratio of the two methods where both can be computed.</li>
+          <li><b>Pool.</b> CSM portfolio plus surplus portfolio equals net CSM plus equity less goodwill and intangibles. Where an insurer separates these assets (FVOCI and amortized cost designation, or Beneva's assets outside its matching portfolio) the pool takes that mix and any shortfall is filled at general-account weights; otherwise the pool mirrors the general account. Designated fixed income with no maturity data takes the peer median of <b><span data-draw="v" data-fmt="d1" data-source="parameters" data-field="value" data-where="parameter=peer_pool_fi_duration">—</span> years</b>.</li>
+          <li><b>Split.</b> Surplus takes the pool's equity, real estate and alternatives first; the CSM portfolio takes fixed income; the remaining fixed income is shared in proportion.</li>
+          <li><b>Check.</b> Where the after-tax rate sensitivity of equity is disclosed, it is grossed up at a <b><span data-draw="v" data-fmt="pct1" data-source="parameters" data-field="value" data-where="parameter=tax_rate">—</span>%</b> tax rate and divided by the pool to give its implied net duration.</li>
+        </ol>
+      </div>
+      <p class="cs-note">RBC Life publishes no maturity table, CSM schedule or rate sensitivity, so its CSM run-off uses its release rate from OSFI returns, its pool is its FVOCI and amortized cost book, and that book's fixed income takes the peer FVOCI duration. Its unrealized gain on FVOCI debt, when most peers show losses, points to a short or recently bought book, which fits that assumption.</p>
+    </div>
+    <div class="cs-card" id="params-card">
+      <h2>Parameters</h2>
+      <div class="cs-tablebox">
+        <table data-source="parameters" data-row-key="parameter">
+          <thead><tr><th data-field="parameter">Parameter</th><th class="cs-n" data-field="value">Value</th><th data-field="note">Note</th></tr></thead>
+          <tbody data-draw="params-body"></tbody>
+        </table>
+      </div>
+    </div>
+    <div class="cs-card" id="sources-card">
+      <h2>Sources and notes by insurer</h2>
+      <div class="cs-tablebox">
+        <table data-source="results" data-row-key="company_id">
+          <thead><tr>
+            <th data-field="company">Insurer</th>
+            <th data-field="csm_source">CSM</th>
+            <th data-field="surplus_source">Surplus</th>
+            <th data-field="pool_source">Portfolio mix</th>
+            <th data-field="sensitivity_source">Sensitivity</th>
+            <th data-field="notes">Notes</th>
+          </tr></thead>
+          <tbody data-draw="src-body"></tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+</div>
+
+<script>
+(() => {
+  const FOCUS = 'rbc_life';
+  const CLASSES = ['Government bonds', 'Corporate bonds', 'Private debt', 'Mortgages & loans', 'Cash', 'Public equity', 'Real estate & alternatives'];
+
+  // ---------- calculations (readers see these in Sources) ----------
+  dash.calc('headline', {
+    inputs: ['results'],
+    title: 'Peer medians',
+    description: 'Median CSM portfolio, CSM run-off and surplus portfolio durations across peers other than RBC Life.',
+    fn: (results) => {
+      const peers = results.filter((r) => r.company_id !== 'rbc_life');
+      const med = (k) => d3.median(peers.filter((r) => r[k] !== '' && r[k] != null), (r) => +r[k]);
+      return [
+        { metric: 'med_csm_pf', value: Math.round(med('csm_portfolio_duration') * 10) / 10 },
+        { metric: 'med_runoff', value: Math.round(med('csm_runoff_duration') * 10) / 10 },
+        { metric: 'med_sur_pf', value: Math.round(med('surplus_portfolio_duration') * 10) / 10 },
+      ];
+    },
+  });
+  dash.calc('runoff_cum', {
+    inputs: ['runoff'],
+    title: 'Cumulative CSM recognised',
+    description: 'Running total of the yearly share of CSM recognised, years 1 to 40, per insurer and the peer median.',
+    fn: (runoff) => {
+      const out = [];
+      runoff.forEach((r) => {
+        let c = 0;
+        for (let y = 1; y <= 40; y++) { c += +r['y' + y]; out.push({ company_id: r.company_id, company: r.company, basis: r.basis, year: y, cum_share: c }); }
+      });
+      for (let y = 1; y <= 40; y++) {
+        const v = out.filter((o) => o.year === y && o.company_id !== 'rbc_life' && o.company_id !== 'peer_median').map((o) => o.cum_share);
+        out.push({ company_id: 'peer_median', company: 'Peer median', basis: '', year: y, cum_share: d3.median(v) });
+      }
+      return out;
+    },
+  });
+  dash.calc('pool_dur', {
+    inputs: ['results'],
+    title: 'Pool asset and net duration',
+    description: 'Size-weighted duration of the CSM and surplus portfolios together, beside the net duration implied by disclosed sensitivities.',
+    fn: (results) => results.filter((r) => r.csm_portfolio_duration !== '' || r.surplus_portfolio_duration !== '').map((r) => {
+      const c = +r.csm_net_cad_mm || 0, s = +r.surplus_cad_mm || 0;
+      const dc = r.csm_portfolio_duration === '' ? 0 : +r.csm_portfolio_duration, ds = +r.surplus_portfolio_duration;
+      return { company_id: r.company_id, company: r.company, pool_cad_mm: c + s, asset_duration: (c * dc + s * ds) / (c + s),
+        implied_net_duration: r.implied_net_pool_duration === '' ? null : +r.implied_net_pool_duration };
+    }),
+  });
+  dash.calc('fvoci_share', {
+    inputs: ['fvoci'],
+    title: 'FVOCI as share of invested assets',
+    description: 'FVOCI bonds, mortgages and loans, and equities divided by invested assets.',
+    fn: (fvoci) => fvoci.filter((r) => r.invested_total !== '').map((r) => {
+      const inv = +r.invested_total, n = (k) => +r[k] || 0;
+      return { company_id: r.company_id, company: r.company, invested_cad_mm: inv, fvoci_cad_mm: n('fvoci_total'),
+        bonds: n('fvoci_bonds') / inv, mortgages_loans: n('fvoci_mortgages_loans') / inv, equities: n('fvoci_equities') / inv,
+        fvoci_share: n('fvoci_total') / inv };
+    }),
+  });
+
+  // ---------- helpers ----------
+  const ok = (...ids) => ids.every((id) => dash.data(id).status === 'ok');
+  const rows = (id) => dash.data(id).data || [];
+  const blank = (v) => v === '' || v == null || (typeof v === 'number' && isNaN(v));
+  const minus = (s) => String(s).replace(/^-/, '−');
+  const F = {
+    d1: (v) => minus(d3.format('.1f')(+v)), d2: (v) => minus(d3.format('.2f')(+v)), d3: (v) => d3.format('.3f')(+v),
+    c0: (v) => minus(d3.format(',.0f')(+v)), s1: (v) => minus(d3.format('+.1f')(+v)), bn1: (v) => d3.format(',.1f')(+v / 1000),
+    pct0: (v) => d3.format('.0f')(+v * 100), pct1: (v) => d3.format('.1f')(+v * 100), pct2: (v) => d3.format('.2f')(+v * 100),
+  };
+  const resolveCache = {};
+  const resolve = (c) => {
+    if (resolveCache[c]) return resolveCache[c];
+    const el = document.createElement('span');
+    el.style.color = c; el.style.display = 'none';
+    document.querySelector('.cs').append(el);
+    const v = getComputedStyle(el).color; el.remove();
+    return (resolveCache[c] = v);
+  };
+  const css = (name) => resolve(`var(${name})`);
+  const classColor = (c) => dash.colors[CLASSES.indexOf(c) % dash.colors.length];
+  const state = () => ({ tab: dash.params().tab || 'overview' });
+  const svgIn = (el, h) => {
+    const w = Math.max(el.clientWidth || 600, 300);
+    el.replaceChildren();
+    const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${w} ${h}`).attr('height', h);
+    return { svg, w, h };
+  };
+  const tipIn = (el) => { const t = document.createElement('div'); t.className = 'cs-tip'; t.hidden = true; el.append(t); return t; };
+  const showTip = (el, tip, event, build) => {
+    tip.replaceChildren(); build(tip); tip.hidden = false;
+    const box = el.getBoundingClientRect();
+    let x = event.clientX - box.left + 12, y = event.clientY - box.top + 12;
+    const tw = tip.offsetWidth, th = tip.offsetHeight;
+    if (x + tw > box.width) x = Math.max(0, event.clientX - box.left - tw - 12);
+    if (y + th > box.height) y = Math.max(0, event.clientY - box.top - th - 12);
+    tip.style.left = x + 'px'; tip.style.top = y + 'px';
+  };
+  const tipLine = (tip, text, cls) => { const d = document.createElement('div'); if (cls) d.className = cls; d.textContent = text; tip.append(d); return d; };
+  const tipRow = (tip, color, label, value) => {
+    const d = document.createElement('div'); d.className = 'cs-tip-row';
+    if (color) { const i = document.createElement('i'); i.style.background = color; d.append(i); }
+    const l = document.createElement('span'); l.textContent = label; d.append(l);
+    const v = document.createElement('span'); v.className = 'cs-tip-v'; v.textContent = value; d.append(v);
+    tip.append(d);
+  };
+  const failed = (el, ...ids) => {
+    if (ids.some((id) => ['error', 'connect', 'declined'].includes(dash.data(id).status))) {
+      el.replaceChildren(); const p = document.createElement('p'); p.className = 'cs-note'; p.textContent = 'Failed to load'; el.append(p); return true;
+    }
+    if (!ok(...ids)) { el.replaceChildren(); el.classList.add('dash-skeleton'); return true; }
+    el.classList.remove('dash-skeleton');
+    return false;
+  };
+  const axisStyle = (g) => {
+    g.attr('font-size', null).attr('font-family', null);
+    g.selectAll('text').attr('class', 'cs-mt');
+    g.selectAll('line').attr('stroke', css('--cds-chart-axis'));
+    g.select('.domain').remove();
+  };
+  const vgrid = (svg, x, ticks, y0, y1) => svg.append('g').selectAll('line').data(ticks).join('line')
+    .attr('x1', x).attr('x2', x).attr('y1', y0).attr('y2', y1).attr('stroke', css('--cds-chart-grid'));
+  const textW = (svg, s, cls) => { const t = svg.append('text').attr('class', cls || null).text(s); const w = t.node().getComputedTextLength(); t.remove(); return w; };
+  const focusBand = (svg, y, id, x0, x1) => {
+    if (y(id) == null) return;
+    const pad = y.step() * y.paddingInner() / 2;
+    svg.append('rect').attr('x', x0).attr('width', x1 - x0).attr('y', y(id) - pad).attr('height', y.bandwidth() + 2 * pad)
+      .attr('fill', css('--cds-chart-grid')).attr('rx', 3);
+  };
+  const rowLabels = (svg, y, data, x) => svg.append('g').selectAll('text').data(data).join('text')
+    .attr('x', x).attr('y', (d) => y(d.company_id) + y.bandwidth() / 2).attr('dy', '0.32em').attr('text-anchor', 'end')
+    .attr('class', (d) => (d.company_id === FOCUS ? 'cs-ft' : null)).text((d) => d.company);
+  const sizeOrder = (res) => res.slice().sort((a, b) => ((+b.csm_net_cad_mm || 0) + (+b.surplus_cad_mm || 0)) - ((+a.csm_net_cad_mm || 0) + (+a.surplus_cad_mm || 0)));
+
+  // ---------- tabs ----------
+  const tabs = [...document.querySelectorAll('.cs-tabs [data-tab]')];
+  tabs.forEach((b) => b.addEventListener('click', () => { dash.setParams({ tab: b.dataset.tab }); dash.setLink(b.dataset.tab); }));
+  const named = location.hash.slice(1);
+  if (named && document.querySelector(`[data-page="${named}"]`)) dash.setParams({ tab: named });
+  dash.onData(() => {
+    const s = state();
+    tabs.forEach((b) => b.setAttribute('aria-selected', String(b.dataset.tab === s.tab)));
+    document.querySelectorAll('[data-page]').forEach((p) => { p.hidden = p.dataset.page !== s.tab; });
+  });
+
+  // ---------- small drawings ----------
+  dash.draw('v', (el) => {
+    const id = el.dataset.source;
+    if (!ok(id)) { el.textContent = '—'; return; }
+    const [k, val] = (el.dataset.where || '').split('=');
+    const r = rows(id).find((x) => String(x[k]) === val);
+    const v = r ? r[el.dataset.field] : '';
+    el.textContent = blank(v) ? '—' : F[el.dataset.fmt || 'd1'](v);
+  });
+  dash.draw('sw', (el) => { el.style.background = dash.colors[+el.dataset.c]; });
+  dash.draw('sw-line', (el) => { el.style.borderTopColor = dash.colors[+el.dataset.c]; });
+  dash.draw('class-legend', (el) => {
+    el.replaceChildren(...CLASSES.map((c) => {
+      const s = document.createElement('span'); const i = document.createElement('i'); i.className = 'cs-sw'; i.style.background = classColor(c);
+      s.append(i, document.createTextNode(c)); return s;
+    }));
+  });
+
+  // ---------- overview: dot plot ----------
+  dash.draw('dots', (el) => {
+    if (failed(el, 'results')) return;
+    const data = sizeOrder(rows('results')).filter((r) => r.status === '');
+    const H = Math.max(360, data.length * 26 + 50);
+    const { svg, w } = svgIn(el, H);
+    const lw = d3.max(data, (d) => textW(svg, d.company, 'cs-ft'));
+    const sizeW = Math.min(150, (w - lw) * 0.28);
+    const m = { l: lw + 12, r: 12 + sizeW + 12, t: 22, b: 40 };
+    const y = d3.scaleBand(data.map((d) => d.company_id), [m.t, H - m.b]).padding(0.25);
+    const vals = data.flatMap((d) => [d.csm_portfolio_duration, d.surplus_portfolio_duration, d.csm_runoff_duration]).filter((v) => !blank(v)).map(Number);
+    const x = d3.scaleLinear([0, Math.max(10, d3.max(vals))], [m.l, w - m.r]).nice();
+    focusBand(svg, y, FOCUS, 0, w);
+    vgrid(svg, (t) => x(t), x.ticks(6), m.t - 4, H - m.b);
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(6).tickSize(0).tickPadding(8)).call(axisStyle);
+    svg.append('text').attr('x', w - m.r).attr('y', H - 2).attr('text-anchor', 'end').attr('class', 'cs-mt').text('Duration, years');
+    rowLabels(svg, y, data, m.l - 12);
+    // size bars at right
+    const xs = d3.scaleLinear([0, d3.max(data, (d) => (+d.csm_net_cad_mm || 0) + (+d.surplus_cad_mm || 0))], [0, sizeW]);
+    const sx = w - sizeW - 4;
+    svg.append('text').attr('x', sx).attr('y', 10).attr('class', 'cs-mt').text('CSM + surplus, C$ bn');
+    const sg = svg.append('g').selectAll('g').data(data).join('g').attr('transform', (d) => `translate(${sx},${y(d.company_id) + y.bandwidth() * 0.2})`);
+    sg.append('rect').attr('width', (d) => xs(+d.csm_net_cad_mm || 0)).attr('height', y.bandwidth() * 0.6).attr('fill', dash.colors[0]).attr('opacity', 0.55).attr('rx', 2);
+    sg.append('rect').attr('x', (d) => xs(+d.csm_net_cad_mm || 0)).attr('width', (d) => xs(+d.surplus_cad_mm || 0)).attr('height', y.bandwidth() * 0.6).attr('fill', dash.colors[1]).attr('opacity', 0.55).attr('rx', 2);
+    sg.append('text').attr('x', (d) => xs((+d.csm_net_cad_mm || 0) + (+d.surplus_cad_mm || 0)) + 4).attr('y', y.bandwidth() * 0.3).attr('dy', '0.32em').attr('class', 'cs-mt')
+      .text((d) => (blank(d.surplus_cad_mm) ? 'CSM only' : F.bn1((+d.csm_net_cad_mm || 0) + (+d.surplus_cad_mm || 0))));
+    // connector between the two portfolios
+    const g = svg.append('g');
+    data.forEach((d) => {
+      const cy = y(d.company_id) + y.bandwidth() / 2;
+      const pts = [d.csm_portfolio_duration, d.surplus_portfolio_duration, d.csm_runoff_duration].filter((v) => !blank(v)).map(Number);
+      if (pts.length > 1) g.append('line').attr('x1', x(d3.min(pts))).attr('x2', x(d3.max(pts))).attr('y1', cy).attr('y2', cy).attr('stroke', css('--cds-chart-muted')).attr('stroke-width', 1.5);
+      if (!blank(d.csm_runoff_duration)) {
+        g.append('path').attr('d', d3.symbol(d3.symbolDiamond, 70)()).attr('transform', `translate(${x(+d.csm_runoff_duration)},${cy})`)
+          .attr('fill', css('--color-panel')).attr('stroke', css('--cds-chart-reference')).attr('stroke-width', 1.5);
+      }
+      [['csm_portfolio_duration', 0], ['surplus_portfolio_duration', 1]].forEach(([k, c]) => {
+        if (blank(d[k])) return;
+        g.append('circle').attr('cx', x(+d[k])).attr('cy', cy).attr('r', d.company_id === FOCUS ? 6 : 5).attr('fill', dash.colors[c])
+          .attr('stroke', css('--color-panel')).attr('stroke-width', 1.5);
+      });
+      if (pts.length === 0) g.append('text').attr('x', m.l).attr('y', cy).attr('dy', '0.32em').attr('class', 'cs-mt').text('not available');
+    });
+    const tip = tipIn(el);
+    svg.append('g').selectAll('rect').data(data).join('rect').attr('x', 0).attr('width', w).attr('y', (d) => y(d.company_id)).attr('height', y.bandwidth())
+      .attr('fill', 'transparent')
+      .on('pointermove', (e, d) => showTip(el, tip, e, (t) => {
+        tipLine(t, d.company, 'cs-tip-h');
+        tipRow(t, dash.colors[0], 'CSM portfolio', blank(d.csm_portfolio_duration) ? 'n/a' : F.d1(d.csm_portfolio_duration) + ' y');
+        tipRow(t, dash.colors[1], 'Surplus portfolio', blank(d.surplus_portfolio_duration) ? 'n/a' : F.d1(d.surplus_portfolio_duration) + ' y');
+        tipRow(t, null, 'CSM run-off', blank(d.csm_runoff_duration) ? 'n/a' : F.d1(d.csm_runoff_duration) + ' y');
+        tipRow(t, null, 'Net CSM', blank(d.csm_net_cad_mm) ? 'n/a' : 'C$' + F.c0(d.csm_net_cad_mm) + ' mm');
+        tipRow(t, null, 'Surplus', blank(d.surplus_cad_mm) ? 'n/a' : 'C$' + F.c0(d.surplus_cad_mm) + ' mm');
+        if (d.csm_basis) tipLine(t, 'Run-off: ' + d.csm_basis, 'cs-tip-n');
+        if (d.pool_basis) tipLine(t, 'Portfolio: ' + d.pool_basis, 'cs-tip-n');
+      }))
+      .on('pointerleave', () => { tip.hidden = true; });
+  });
+
+  // ---------- overview: summary table ----------
+  let sortKey = null, sortDir = -1;
+  document.querySelectorAll('#summary-card th[data-sort]').forEach((th) => th.querySelector('button').addEventListener('click', () => {
+    const k = th.dataset.sort;
+    sortDir = sortKey === k ? -sortDir : (k === 'company' ? 1 : -1); sortKey = k;
+    document.querySelectorAll('#summary-card th[data-sort]').forEach((o) => o.setAttribute('aria-sort', o === th ? (sortDir > 0 ? 'ascending' : 'descending') : 'none'));
+    dash.draw('sum-body');
+  }));
+  const cell = (tr, text, cls) => { const td = document.createElement('td'); if (cls) td.className = cls; td.textContent = text; tr.append(td); return td; };
+  dash.draw('sum-body', (tb) => {
+    if (!ok('results')) { tb.replaceChildren(); return; }
+    let data = sizeOrder(rows('results'));
+    if (sortKey) {
+      data = data.slice().sort((a, b) => {
+        const va = a[sortKey], vb = b[sortKey];
+        if (blank(va) && blank(vb)) return 0; if (blank(va)) return 1; if (blank(vb)) return -1;
+        return sortKey === 'company' ? sortDir * va.localeCompare(vb) : sortDir * (+va - +vb);
+      });
+    }
+    tb.replaceChildren(...data.map((r) => {
+      const tr = document.createElement('tr'); tr.dataset.key = r.company_id; if (r.company_id === FOCUS) tr.className = 'is-focus';
+      cell(tr, r.company);
+      const n = (k, f) => cell(tr, blank(r[k]) ? '' : f(r[k]), 'cs-n');
+      n('csm_net_cad_mm', F.c0); n('csm_runoff_duration', F.d1); n('csm_portfolio_duration', F.d1); n('duration_gap_csm', F.s1);
+      n('surplus_cad_mm', F.c0); n('surplus_portfolio_duration', F.d1); n('implied_net_pool_duration', F.d1);
+      cell(tr, r.status || r.csm_basis); cell(tr, r.pool_basis);
+      return tr;
+    }));
+  });
+
+  // ---------- portfolio mix + duration contribution ----------
+  dash.draw('pf', (el) => {
+    if (failed(el, 'breakdown', 'results')) return;
+    const pf = el.dataset.pf;
+    const res = sizeOrder(rows('results'));
+    const br = rows('breakdown').filter((r) => r.portfolio === pf);
+    const ids = res.map((r) => r.company_id).filter((id) => br.some((b) => b.company_id === id));
+    const data = res.filter((r) => ids.includes(r.company_id));
+    const H = Math.max(320, data.length * 26 + 50);
+    const { svg, w } = svgIn(el, H);
+    const lw = d3.max(data, (d) => textW(svg, d.company, 'cs-ft'));
+    const m = { l: lw + 12, r: 40, t: 22, b: 40 };
+    const gapX = 36;
+    const pw = w - m.l - m.r - gapX;
+    const leftW = pw * 0.42, rightW = pw * 0.58;
+    const y = d3.scaleBand(ids, [m.t, H - m.b]).padding(0.25);
+    const xa = d3.scaleLinear([0, 1], [m.l, m.l + leftW]);
+    const refKey = pf === 'CSM' ? 'csm_runoff_duration' : 'general_account_fi_duration';
+    const maxD = d3.max([...data.map((d) => +d[pf === 'CSM' ? 'csm_portfolio_duration' : 'surplus_portfolio_duration'] || 0), ...data.map((d) => +d[refKey] || 0)]);
+    const xb = d3.scaleLinear([0, Math.max(8, maxD)], [m.l + leftW + gapX, w - m.r]).nice();
+    focusBand(svg, y, FOCUS, 0, w);
+    vgrid(svg, (t) => xa(t), [0, 0.25, 0.5, 0.75, 1], m.t - 4, H - m.b);
+    vgrid(svg, (t) => xb(t), xb.ticks(5), m.t - 4, H - m.b);
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(xa).tickValues([0, 0.5, 1]).tickFormat(d3.format('.0%')).tickSize(0).tickPadding(8)).call(axisStyle);
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(xb).ticks(5).tickSize(0).tickPadding(8)).call(axisStyle);
+    svg.append('text').attr('x', m.l).attr('y', 10).attr('class', 'cs-mt').text('Share of portfolio');
+    svg.append('text').attr('x', xb(0)).attr('y', 10).attr('class', 'cs-mt').text('Contribution to duration, years');
+    rowLabels(svg, y, data.map((d) => ({ company_id: d.company_id, company: d.company })), m.l - 12);
+    const tip = tipIn(el);
+    data.forEach((d) => {
+      const parts = CLASSES.map((c) => br.find((b) => b.company_id === d.company_id && b.asset_class === c)).filter(Boolean);
+      let a = 0, b = 0;
+      const y0 = y(d.company_id), bh = y.bandwidth();
+      parts.forEach((p) => {
+        const wgt = +p.weight, con = +p.contribution;
+        const hover = (e) => showTip(el, tip, e, (t) => {
+          tipLine(t, d.company + ', ' + pf.toLowerCase() + ' portfolio', 'cs-tip-h');
+          tipRow(t, classColor(p.asset_class), p.asset_class, '');
+          tipRow(t, null, 'Amount', 'C$' + F.c0(p.amount_cad_mm) + ' mm');
+          tipRow(t, null, 'Share', d3.format('.1%')(wgt));
+          tipRow(t, null, 'Class duration', F.d1(p.duration) + ' y');
+          tipRow(t, null, 'Contribution', F.d2(con) + ' y');
+          tipLine(t, 'Duration basis: ' + p.duration_basis, 'cs-tip-n');
+        });
+        svg.append('rect').attr('x', xa(a)).attr('width', Math.max(0, xa(a + wgt) - xa(a) - 0.5)).attr('y', y0).attr('height', bh)
+          .attr('fill', classColor(p.asset_class)).on('pointermove', hover).on('pointerleave', () => { tip.hidden = true; });
+        a += wgt;
+        if (con > 0) {
+          svg.append('rect').attr('x', xb(b)).attr('width', Math.max(0, xb(b + con) - xb(b) - 0.5)).attr('y', y0).attr('height', bh)
+            .attr('fill', classColor(p.asset_class)).on('pointermove', hover).on('pointerleave', () => { tip.hidden = true; });
+          b += con;
+        }
+      });
+      svg.append('text').attr('x', xb(b) + 5).attr('y', y0 + bh / 2).attr('dy', '0.32em').attr('class', d.company_id === FOCUS ? 'cs-ft' : null).text(F.d1(b));
+      if (!blank(d[refKey])) {
+        svg.append('path').attr('d', d3.symbol(d3.symbolDiamond, 60)()).attr('transform', `translate(${xb(+d[refKey])},${y0 + bh / 2})`)
+          .attr('fill', css('--color-panel')).attr('stroke', css('--cds-chart-reference')).attr('stroke-width', 1.5).attr('pointer-events', 'none');
+      }
+    });
+    svg.append('text').attr('x', w - m.r + 36).attr('y', H - 2).attr('text-anchor', 'end').attr('class', 'cs-mt')
+      .text(pf === 'CSM' ? '◇ CSM run-off duration' : '◇ general-account fixed-income duration');
+  });
+
+  // ---------- CSM run-off curves ----------
+  dash.draw('runoff', (el) => {
+    if (failed(el, 'runoff_cum')) return;
+    const data = rows('runoff_cum');
+    const H = 300;
+    const { svg, w } = svgIn(el, H);
+    const m = { l: 40, r: 110, t: 10, b: 40 };
+    const x = d3.scaleLinear([0, 40], [m.l, w - m.r]);
+    const y = d3.scaleLinear([0, 1], [H - m.b, m.t]);
+    svg.append('g').selectAll('line').data(y.ticks(4)).join('line').attr('x1', m.l).attr('x2', w - m.r).attr('y1', y).attr('y2', y).attr('stroke', css('--cds-chart-grid'));
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).tickValues([0, 5, 10, 15, 20, 30, 40]).tickSize(0).tickPadding(8)).call(axisStyle);
+    svg.append('g').attr('transform', `translate(${m.l},0)`).call(d3.axisLeft(y).ticks(4).tickFormat(d3.format('.0%')).tickSize(0).tickPadding(6)).call(axisStyle);
+    svg.append('text').attr('x', w - m.r).attr('y', H - 2).attr('text-anchor', 'end').attr('class', 'cs-mt').text('Years from year end');
+    const by = d3.group(data, (d) => d.company_id);
+    const line = d3.line().x((d) => x(d.year)).y((d) => y(d.cum_share));
+    const withZero = (pts) => [{ year: 0, cum_share: 0 }, ...pts];
+    for (const [id, pts] of by) {
+      if (id === FOCUS || id === 'peer_median') continue;
+      svg.append('path').attr('d', line(withZero(pts))).attr('fill', 'none').attr('stroke', css('--cds-chart-muted')).attr('stroke-width', 1).attr('opacity', 0.8);
+    }
+    const draw = (id, color, dash_) => {
+      const pts = by.get(id); if (!pts) return null;
+      svg.append('path').attr('d', line(withZero(pts))).attr('fill', 'none').attr('stroke', color).attr('stroke-width', 2)
+        .attr('stroke-linecap', dash_ ? 'butt' : 'round').attr('stroke-linejoin', 'round').attr('stroke-dasharray', dash_ ? '5 3' : null);
+      return pts;
+    };
+    const med = draw('peer_median', css('--color-fg-muted'), true);
+    const foc = draw(FOCUS, dash.colors[0], false);
+    // end labels at year 10, moved apart
+    const labs = [];
+    if (foc) labs.push({ t: 'RBC Life ' + d3.format('.0%')(foc[9].cum_share) + ' by year 10', v: foc[9].cum_share, c: dash.colors[0], b: true });
+    if (med) labs.push({ t: 'Median ' + d3.format('.0%')(med[9].cum_share), v: med[9].cum_share, c: css('--color-fg-muted') });
+    labs.sort((a, b) => b.v - a.v);
+    let last = -Infinity;
+    labs.forEach((l) => { let yy = y(l.v); if (yy - last < 14) yy = last + 14; last = yy; l.y = yy; });
+    labs.forEach((l) => {
+      svg.append('circle').attr('cx', x(10)).attr('cy', y(l.v)).attr('r', 3).attr('fill', l.c);
+      svg.append('text').attr('x', x(10) + 8).attr('y', l.y + 14).attr('dy', '0.32em').attr('class', l.b ? 'cs-ft' : 'cs-mt').text(l.t);
+    });
+    const tip = tipIn(el);
+    const rule = svg.append('line').attr('y1', m.t).attr('y2', H - m.b).attr('stroke', css('--cds-chart-reference')).attr('opacity', 0);
+    svg.append('rect').attr('x', m.l).attr('y', m.t).attr('width', w - m.r - m.l).attr('height', H - m.t - m.b).attr('fill', 'transparent')
+      .on('pointermove', (e) => {
+        const yr = Math.max(1, Math.min(40, Math.round(x.invert(d3.pointer(e)[0]))));
+        rule.attr('x1', x(yr)).attr('x2', x(yr)).attr('opacity', 1);
+        showTip(el, tip, e, (t) => {
+          tipLine(t, 'Year ' + yr, 'cs-tip-h');
+          if (foc) tipRow(t, dash.colors[0], 'RBC Life', d3.format('.0%')(foc[yr - 1].cum_share));
+          if (med) tipRow(t, css('--color-fg-muted'), 'Peer median', d3.format('.0%')(med[yr - 1].cum_share));
+        });
+      })
+      .on('pointerleave', () => { tip.hidden = true; rule.attr('opacity', 0); });
+  });
+
+  // ---------- CSM gap bars ----------
+  dash.draw('gap', (el) => {
+    if (failed(el, 'results')) return;
+    const data = rows('results').filter((r) => !blank(r.duration_gap_csm)).sort((a, b) => +a.duration_gap_csm - +b.duration_gap_csm);
+    const H = Math.max(280, data.length * 20 + 40);
+    const { svg, w } = svgIn(el, H);
+    const lw = d3.max(data, (d) => textW(svg, d.company, 'cs-ft'));
+    const m = { l: lw + 12, r: 40, t: 8, b: 26 };
+    const y = d3.scaleBand(data.map((d) => d.company_id), [m.t, H - m.b]).padding(0.25);
+    const ext = d3.max(data, (d) => Math.abs(+d.duration_gap_csm));
+    const x = d3.scaleLinear([-ext, ext], [m.l + 30, w - m.r]).nice();
+    focusBand(svg, y, FOCUS, 0, w);
+    vgrid(svg, (t) => x(t), x.ticks(6), m.t, H - m.b);
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(6).tickFormat((v) => minus(d3.format('+.0f')(v))).tickSize(0).tickPadding(8)).call(axisStyle);
+    svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', m.t).attr('y2', H - m.b).attr('stroke', css('--cds-chart-reference'));
+    rowLabels(svg, y, data, m.l - 12);
+    const tip = tipIn(el);
+    svg.append('g').selectAll('rect').data(data).join('rect')
+      .attr('x', (d) => Math.min(x(0), x(+d.duration_gap_csm))).attr('width', (d) => Math.abs(x(+d.duration_gap_csm) - x(0)))
+      .attr('y', (d) => y(d.company_id)).attr('height', y.bandwidth()).attr('rx', 2)
+      .attr('fill', (d) => (d.company_id === FOCUS ? dash.colors[0] : css('--cds-chart-muted')))
+      .on('pointermove', (e, d) => showTip(el, tip, e, (t) => {
+        tipLine(t, d.company, 'cs-tip-h');
+        tipRow(t, null, 'CSM portfolio', F.d1(d.csm_portfolio_duration) + ' y');
+        tipRow(t, null, 'CSM run-off', F.d1(d.csm_runoff_duration) + ' y');
+        tipRow(t, null, 'Gap', F.s1(d.duration_gap_csm) + ' y');
+      }))
+      .on('pointerleave', () => { tip.hidden = true; });
+    svg.append('g').selectAll('text.v').data(data).join('text').attr('class', (d) => (d.company_id === FOCUS ? 'cs-ft' : 'cs-mt'))
+      .attr('x', (d) => x(+d.duration_gap_csm) + (+d.duration_gap_csm < 0 ? -4 : 4)).attr('text-anchor', (d) => (+d.duration_gap_csm < 0 ? 'end' : 'start'))
+      .attr('y', (d) => y(d.company_id) + y.bandwidth() / 2).attr('dy', '0.32em').text((d) => F.s1(d.duration_gap_csm));
+  });
+
+  // ---------- class heatmap ----------
+  dash.draw('heat', (el) => {
+    if (failed(el, 'class_durations', 'results')) return;
+    const cd = rows('class_durations');
+    const order = sizeOrder(rows('results')).map((r) => r.company_id).filter((id) => cd.some((c) => c.company_id === id));
+    const max = d3.max(cd, (r) => +r.pool_duration || 0);
+    const lo = css('--color-panel'), hi = dash.colors[0];
+    const ramp = d3.interpolateRgb(lo, hi);
+    const grid = document.createElement('div'); grid.className = 'cs-hgrid';
+    grid.style.gridTemplateColumns = `minmax(8rem, max-content) repeat(${CLASSES.length}, minmax(4.5rem, 1fr))`;
+    const head = document.createElement('div'); grid.append(head);
+    CLASSES.forEach((c) => { const h = document.createElement('div'); h.className = 'cs-hcol'; h.textContent = c; grid.append(h); });
+    const tip = tipIn(el);
+    order.forEach((id) => {
+      const rr = cd.filter((r) => r.company_id === id);
+      const lab = document.createElement('div'); lab.className = 'cs-hrow' + (id === FOCUS ? ' is-focus' : ''); lab.textContent = rr[0].company; grid.append(lab);
+      CLASSES.forEach((c) => {
+        const r = rr.find((x) => x.asset_class === c);
+        const cellEl = document.createElement('div'); cellEl.className = 'cs-hcell' + (id === FOCUS ? ' is-focus' : '');
+        const v = r ? +r.pool_duration : NaN;
+        if (!r || !(v > 0)) {
+          const e = document.createElement('div'); e.className = 'cs-hempty'; cellEl.append(e);
+          if (r && v === 0) { const t = document.createElement('span'); t.className = 'cs-hval'; t.style.color = css('--color-fg-muted'); t.textContent = '0'; cellEl.append(t); }
+        } else {
+          const est = /proxy|assumed|median/i.test(r.basis);
+          if (est) cellEl.classList.add('is-est');
+          const f = document.createElement('div'); f.className = 'cs-hfill'; f.style.background = ramp(0.12 + 0.88 * v / max); cellEl.append(f);
+          const t = document.createElement('span'); t.className = 'cs-hval'; t.textContent = F.d1(v);
+          t.style.color = v / max > 0.55 ? '#fff' : css('--color-fg'); cellEl.append(t);
+        }
+        if (r) cellEl.addEventListener('pointermove', (e) => showTip(el, tip, e, (t) => {
+          tipLine(t, r.company + ', ' + c, 'cs-tip-h');
+          tipRow(t, null, 'In the CSM and surplus pool', F.d1(r.pool_duration) + ' y');
+          tipRow(t, null, 'In the general account', F.d1(r.general_account_duration) + ' y');
+          tipLine(t, 'Basis: ' + r.basis, 'cs-tip-n');
+        }));
+        cellEl.addEventListener('pointerleave', () => { tip.hidden = true; });
+        grid.append(cellEl);
+      });
+    });
+    el.replaceChildren(grid, tip);
+  });
+
+  // ---------- net exposure ----------
+  dash.draw('net', (el) => {
+    if (failed(el, 'pool_dur')) return;
+    const data = rows('pool_dur').slice().sort((a, b) => b.pool_cad_mm - a.pool_cad_mm);
+    const H = Math.max(320, data.length * 26 + 50);
+    const { svg, w } = svgIn(el, H);
+    const lw = d3.max(data, (d) => textW(svg, d.company, 'cs-ft'));
+    const m = { l: lw + 12, r: 150, t: 10, b: 40 };
+    const y = d3.scaleBand(data.map((d) => d.company_id), [m.t, H - m.b]).padding(0.25);
+    const vals = data.flatMap((d) => [d.asset_duration, d.implied_net_duration]).filter((v) => v != null);
+    const x = d3.scaleLinear([Math.min(-1, d3.min(vals)), Math.max(8, d3.max(vals))], [m.l, w - m.r]).nice();
+    focusBand(svg, y, FOCUS, 0, w);
+    vgrid(svg, (t) => x(t), x.ticks(8), m.t, H - m.b);
+    svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', m.t).attr('y2', H - m.b).attr('stroke', css('--cds-chart-reference'));
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(8).tickFormat((v) => minus(d3.format('.0f')(v))).tickSize(0).tickPadding(8)).call(axisStyle);
+    svg.append('text').attr('x', w - m.r).attr('y', H - 2).attr('text-anchor', 'end').attr('class', 'cs-mt').text('Duration, years');
+    rowLabels(svg, y, data, m.l - 12);
+    const tip = tipIn(el);
+    data.forEach((d) => {
+      const cy = y(d.company_id) + y.bandwidth() / 2;
+      if (d.implied_net_duration != null) svg.append('line').attr('x1', x(d.asset_duration)).attr('x2', x(d.implied_net_duration)).attr('y1', cy).attr('y2', cy).attr('stroke', css('--cds-chart-muted')).attr('stroke-width', 2);
+      svg.append('circle').attr('cx', x(d.asset_duration)).attr('cy', cy).attr('r', 5).attr('fill', dash.colors[0]).attr('stroke', css('--color-panel')).attr('stroke-width', 1.5);
+      if (d.implied_net_duration != null) svg.append('circle').attr('cx', x(d.implied_net_duration)).attr('cy', cy).attr('r', 5).attr('fill', dash.colors[2]).attr('stroke', css('--color-panel')).attr('stroke-width', 1.5);
+      svg.append('text').attr('x', w - m.r + 10).attr('y', cy).attr('dy', '0.32em').attr('class', d.company_id === FOCUS ? 'cs-ft' : 'cs-mt')
+        .text(d.implied_net_duration == null ? 'no sensitivity disclosed' : 'offset ' + F.d1(d.asset_duration - d.implied_net_duration) + ' y');
+    });
+    svg.append('g').selectAll('rect').data(data).join('rect').attr('x', 0).attr('width', w).attr('y', (d) => y(d.company_id)).attr('height', y.bandwidth()).attr('fill', 'transparent')
+      .on('pointermove', (e, d) => showTip(el, tip, e, (t) => {
+        tipLine(t, d.company, 'cs-tip-h');
+        tipRow(t, null, 'CSM + surplus', 'C$' + F.c0(d.pool_cad_mm) + ' mm');
+        tipRow(t, dash.colors[0], 'Asset duration (estimate)', F.d1(d.asset_duration) + ' y');
+        tipRow(t, dash.colors[2], 'Implied net duration', d.implied_net_duration == null ? 'not disclosed' : F.d1(d.implied_net_duration) + ' y');
+      }))
+      .on('pointerleave', () => { tip.hidden = true; });
+  });
+
+  // ---------- FVOCI ----------
+  const FV = [['bonds', 0, 'Bonds'], ['mortgages_loans', 3, 'Mortgages and loans'], ['equities', 5, 'Equities']];
+  dash.draw('fvoci-bars', (el) => {
+    if (failed(el, 'fvoci_share')) return;
+    const data = rows('fvoci_share').slice().sort((a, b) => b.fvoci_share - a.fvoci_share);
+    const H = Math.max(300, data.length * 24 + 40);
+    const { svg, w } = svgIn(el, H);
+    const lw = d3.max(data, (d) => textW(svg, d.company, 'cs-ft'));
+    const m = { l: lw + 12, r: 150, t: 8, b: 26 };
+    const y = d3.scaleBand(data.map((d) => d.company_id), [m.t, H - m.b]).padding(0.25);
+    const x = d3.scaleLinear([0, Math.max(0.2, d3.max(data, (d) => d.fvoci_share))], [m.l, w - m.r]).nice();
+    focusBand(svg, y, FOCUS, 0, w);
+    vgrid(svg, (t) => x(t), x.ticks(5), m.t, H - m.b);
+    svg.append('g').attr('transform', `translate(0,${H - m.b})`).call(d3.axisBottom(x).ticks(5).tickFormat(d3.format('.0%')).tickSize(0).tickPadding(8)).call(axisStyle);
+    rowLabels(svg, y, data, m.l - 12);
+    const tip = tipIn(el);
+    data.forEach((d) => {
+      let a = 0;
+      const y0 = y(d.company_id);
+      FV.forEach(([k, c, lab]) => {
+        if (!(d[k] > 0)) return;
+        svg.append('rect').attr('x', x(a)).attr('width', Math.max(0.5, x(a + d[k]) - x(a) - 0.5)).attr('y', y0).attr('height', y.bandwidth())
+          .attr('fill', dash.colors[c]).attr('opacity', d.company_id === FOCUS ? 1 : 0.75);
+        a += d[k];
+      });
+      svg.append('text').attr('x', x(a) + 6).attr('y', y0 + y.bandwidth() / 2).attr('dy', '0.32em').attr('class', d.company_id === FOCUS ? 'cs-ft' : 'cs-mt')
+        .text(d.fvoci_cad_mm > 0 ? d3.format('.0%')(d.fvoci_share) + ' · C$' + F.c0(d.fvoci_cad_mm) + ' mm' : 'none');
+    });
+    svg.append('g').selectAll('rect.h').data(data).join('rect').attr('x', 0).attr('width', w).attr('y', (d) => y(d.company_id)).attr('height', y.bandwidth()).attr('fill', 'transparent')
+      .on('pointermove', (e, d) => showTip(el, tip, e, (t) => {
+        tipLine(t, d.company, 'cs-tip-h');
+        FV.forEach(([k, c, lab]) => tipRow(t, dash.colors[c], lab, d3.format('.1%')(d[k])));
+        tipRow(t, null, 'FVOCI total', 'C$' + F.c0(d.fvoci_cad_mm) + ' mm');
+        tipRow(t, null, 'Invested assets', 'C$' + F.c0(d.invested_cad_mm) + ' mm');
+      }))
+      .on('pointerleave', () => { tip.hidden = true; });
+  });
+  dash.draw('fvoci-body', (tb) => {
+    if (!ok('fvoci', 'fvoci_share')) { tb.replaceChildren(); return; }
+    const sh = new Map(rows('fvoci_share').map((r) => [r.company_id, r]));
+    tb.replaceChildren(...rows('fvoci').map((r) => {
+      const tr = document.createElement('tr'); tr.dataset.key = r.company_id; if (r.company_id === FOCUS) tr.className = 'is-focus';
+      cell(tr, r.company);
+      cell(tr, blank(r.fvoci_total) ? '' : F.c0(r.fvoci_total), 'cs-n');
+      const s = sh.get(r.company_id); cell(tr, s ? d3.format('.1%')(s.fvoci_share) : '', 'cs-n');
+      cell(tr, blank(r.aoci_fvoci) ? '' : F.c0(r.aoci_fvoci), 'cs-n');
+      cell(tr, r.oci_rate_sensitivity, 'cs-w');
+      cell(tr, blank(r.oci_per_50bp_estimated) ? '' : '+' + F.c0(r.oci_per_50bp_estimated), 'cs-n');
+      cell(tr, r.disclosed_limits, 'cs-w');
+      cell(tr, r.source_sensitivity || r.source_fvoci, 'cs-w');
+      return tr;
+    }));
+  });
+
+  // ---------- method tables ----------
+  dash.draw('params-body', (tb) => {
+    if (!ok('parameters')) { tb.replaceChildren(); return; }
+    tb.replaceChildren(...rows('parameters').map((r) => {
+      const tr = document.createElement('tr'); tr.dataset.key = r.parameter;
+      cell(tr, r.parameter); cell(tr, r.value, 'cs-n'); cell(tr, r.note); return tr;
+    }));
+  });
+  dash.draw('src-body', (tb) => {
+    if (!ok('results')) { tb.replaceChildren(); return; }
+    tb.replaceChildren(...rows('results').map((r) => {
+      const tr = document.createElement('tr'); tr.dataset.key = r.company_id; if (r.company_id === FOCUS) tr.className = 'is-focus';
+      cell(tr, r.company); cell(tr, r.csm_source, 'cs-w'); cell(tr, r.surplus_source, 'cs-w'); cell(tr, r.pool_source, 'cs-w');
+      cell(tr, r.sensitivity_source, 'cs-w'); cell(tr, r.notes || r.status, 'cs-w'); return tr;
+    }));
+  });
+
+  const go = document.getElementById(named);
+  if (go && !go.dataset.page) go.scrollIntoView();
+})();
+</script>

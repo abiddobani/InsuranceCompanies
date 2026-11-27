@@ -1,0 +1,177 @@
+company_id,company,focus,period,below_ig_share_of_bonds_pct
+manulife,Manulife,0,2023Q1,4.0156
+manulife,Manulife,0,2023Q2,4.418
+manulife,Manulife,0,2023Q3,4.5085
+manulife,Manulife,0,2023Q4,4.502
+manulife,Manulife,0,2024Q1,4.8173
+manulife,Manulife,0,2024Q2,4.7537
+manulife,Manulife,0,2024Q3,4.5747
+manulife,Manulife,0,2024Q4,4.6046
+manulife,Manulife,0,2025Q1,4.3476
+manulife,Manulife,0,2025Q2,4.3252
+manulife,Manulife,0,2025Q3,4.2382
+manulife,Manulife,0,2025Q4,4.2531
+manulife,Manulife,0,2026Q1,4.4246
+manulife,Manulife,0,2026Q2,4.5637
+sun_life,Sun Life,0,2023Q1,2.5308
+sun_life,Sun Life,0,2023Q2,2.7544
+sun_life,Sun Life,0,2023Q3,2.9702
+sun_life,Sun Life,0,2023Q4,2.6092
+sun_life,Sun Life,0,2024Q1,2.4995
+sun_life,Sun Life,0,2024Q2,2.665
+sun_life,Sun Life,0,2024Q3,2.5982
+sun_life,Sun Life,0,2024Q4,2.2509
+sun_life,Sun Life,0,2025Q1,2.2129
+sun_life,Sun Life,0,2025Q2,2.2986
+sun_life,Sun Life,0,2025Q3,2.1428
+sun_life,Sun Life,0,2025Q4,2.1772
+sun_life,Sun Life,0,2026Q1,2.1587
+sun_life,Sun Life,0,2026Q2,2.1318
+canada_life,Canada Life,0,2023Q1,0.4441
+canada_life,Canada Life,0,2023Q2,0.4993
+canada_life,Canada Life,0,2023Q3,0.573
+canada_life,Canada Life,0,2023Q4,0.5459
+canada_life,Canada Life,0,2024Q1,0.5399
+canada_life,Canada Life,0,2024Q2,0.5464
+canada_life,Canada Life,0,2024Q3,0.7206
+canada_life,Canada Life,0,2024Q4,0.7391
+canada_life,Canada Life,0,2025Q1,0.78
+canada_life,Canada Life,0,2025Q2,0.9635
+canada_life,Canada Life,0,2025Q3,0.9793
+canada_life,Canada Life,0,2025Q4,1.0538
+canada_life,Canada Life,0,2026Q1,1.1027
+canada_life,Canada Life,0,2026Q2,1.0321
+rbc_life,RBC Life,1,2023Q4,0.1541
+rbc_life,RBC Life,1,2024Q1,0.1438
+rbc_life,RBC Life,1,2024Q2,0.1395
+rbc_life,RBC Life,1,2024Q3,0.1216
+rbc_life,RBC Life,1,2024Q4,0.1117
+rbc_life,RBC Life,1,2025Q1,0.1067
+rbc_life,RBC Life,1,2025Q2,0.1039
+rbc_life,RBC Life,1,2025Q3,0.0945
+rbc_life,RBC Life,1,2025Q4,0.091
+rbc_life,RBC Life,1,2026Q1,0.0887
+rbc_life,RBC Life,1,2026Q2,0.0832
+bmo_life,BMO Life,0,2023Q4,0.0
+bmo_life,BMO Life,0,2024Q1,0.0
+bmo_life,BMO Life,0,2024Q2,0.0
+bmo_life,BMO Life,0,2024Q3,0.0
+bmo_life,BMO Life,0,2024Q4,0.0
+bmo_life,BMO Life,0,2025Q1,0.0
+bmo_life,BMO Life,0,2025Q2,0.0
+bmo_life,BMO Life,0,2025Q3,0.0
+bmo_life,BMO Life,0,2025Q4,0.0
+bmo_life,BMO Life,0,2026Q1,0.0
+bmo_life,BMO Life,0,2026Q2,0.0
+ivari,ivari,0,2023Q1,0.0
+ivari,ivari,0,2023Q2,0.0
+ivari,ivari,0,2023Q3,0.0
+ivari,ivari,0,2023Q4,0.0
+ivari,ivari,0,2024Q1,0.0
+ivari,ivari,0,2024Q2,0.0
+ivari,ivari,0,2024Q3,0.0
+ivari,ivari,0,2024Q4,0.0
+ivari,ivari,0,2025Q1,0.0
+ivari,ivari,0,2025Q2,0.0
+ivari,ivari,0,2025Q3,0.0235
+ivari,ivari,0,2025Q4,0.0368
+ivari,ivari,0,2026Q1,0.0385
+ivari,ivari,0,2026Q2,0.0386
+empire_life,Empire Life,0,2023Q1,0.0
+empire_life,Empire Life,0,2023Q2,0.0
+empire_life,Empire Life,0,2023Q3,0.0
+empire_life,Empire Life,0,2023Q4,0.0
+empire_life,Empire Life,0,2024Q1,0.0
+empire_life,Empire Life,0,2024Q2,0.0
+empire_life,Empire Life,0,2024Q3,0.0
+empire_life,Empire Life,0,2024Q4,0.5539
+empire_life,Empire Life,0,2025Q1,0.6036
+empire_life,Empire Life,0,2025Q2,0.8742
+empire_life,Empire Life,0,2025Q3,1.0379
+empire_life,Empire Life,0,2025Q4,1.0863
+empire_life,Empire Life,0,2026Q1,1.0883
+empire_life,Empire Life,0,2026Q2,0.9539
+equitable_life,Equitable Life,0,2023Q1,0.2608
+equitable_life,Equitable Life,0,2023Q2,0.3231
+equitable_life,Equitable Life,0,2023Q3,0.2901
+equitable_life,Equitable Life,0,2023Q4,0.1546
+equitable_life,Equitable Life,0,2024Q1,0.1598
+equitable_life,Equitable Life,0,2024Q2,0.0
+equitable_life,Equitable Life,0,2024Q3,0.1865
+equitable_life,Equitable Life,0,2024Q4,0.0
+equitable_life,Equitable Life,0,2025Q1,0.0
+equitable_life,Equitable Life,0,2025Q2,0.0
+equitable_life,Equitable Life,0,2025Q3,0.0
+equitable_life,Equitable Life,0,2025Q4,0.0
+equitable_life,Equitable Life,0,2026Q1,0.0
+equitable_life,Equitable Life,0,2026Q2,0.3328
+cooperators_life,Co-operators Life,0,2023Q1,1.7906
+cooperators_life,Co-operators Life,0,2023Q2,3.1127
+cooperators_life,Co-operators Life,0,2023Q3,2.0993
+cooperators_life,Co-operators Life,0,2023Q4,1.6573
+cooperators_life,Co-operators Life,0,2024Q1,1.6537
+cooperators_life,Co-operators Life,0,2024Q2,1.4109
+cooperators_life,Co-operators Life,0,2024Q3,1.4177
+cooperators_life,Co-operators Life,0,2024Q4,1.3754
+cooperators_life,Co-operators Life,0,2025Q1,1.3882
+cooperators_life,Co-operators Life,0,2025Q2,1.4003
+cooperators_life,Co-operators Life,0,2025Q3,1.4654
+cooperators_life,Co-operators Life,0,2025Q4,1.7263
+cooperators_life,Co-operators Life,0,2026Q1,1.6467
+cooperators_life,Co-operators Life,0,2026Q2,1.6178
+wawanesa_life,Wawanesa Life,0,2023Q1,0.0
+wawanesa_life,Wawanesa Life,0,2023Q2,0.0
+wawanesa_life,Wawanesa Life,0,2023Q3,0.0
+wawanesa_life,Wawanesa Life,0,2023Q4,0.0
+wawanesa_life,Wawanesa Life,0,2024Q1,0.0
+wawanesa_life,Wawanesa Life,0,2024Q2,0.0
+wawanesa_life,Wawanesa Life,0,2024Q3,0.0
+wawanesa_life,Wawanesa Life,0,2024Q4,0.0
+wawanesa_life,Wawanesa Life,0,2025Q1,0.0
+wawanesa_life,Wawanesa Life,0,2025Q2,0.0
+wawanesa_life,Wawanesa Life,0,2025Q3,0.0
+wawanesa_life,Wawanesa Life,0,2025Q4,0.0
+wawanesa_life,Wawanesa Life,0,2026Q1,0.0
+wawanesa_life,Wawanesa Life,0,2026Q2,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q1,0.2641
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q2,0.2491
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q3,0.2657
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q4,0.2713
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q1,0.294
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q2,0.2871
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q3,0.2895
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q4,0.292
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q1,0.2894
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q2,0.2886
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q3,0.2881
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q4,0.2759
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q1,0.2957
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q2,0.029
+canadian_premier,Canadian Premier Life,0,2023Q1,0.0
+canadian_premier,Canadian Premier Life,0,2023Q2,0.0
+canadian_premier,Canadian Premier Life,0,2023Q3,0.0
+canadian_premier,Canadian Premier Life,0,2023Q4,0.0
+canadian_premier,Canadian Premier Life,0,2024Q1,0.0
+canadian_premier,Canadian Premier Life,0,2024Q2,0.0
+canadian_premier,Canadian Premier Life,0,2024Q3,0.0
+canadian_premier,Canadian Premier Life,0,2024Q4,0.0
+canadian_premier,Canadian Premier Life,0,2025Q1,0.0
+canadian_premier,Canadian Premier Life,0,2025Q2,0.0
+canadian_premier,Canadian Premier Life,0,2025Q3,0.0
+canadian_premier,Canadian Premier Life,0,2025Q4,0.0
+canadian_premier,Canadian Premier Life,0,2026Q1,0.0
+canadian_premier,Canadian Premier Life,0,2026Q2,0.0
+primerica_life,Primerica Life,0,2023Q1,13.7368
+primerica_life,Primerica Life,0,2023Q2,0.0007
+primerica_life,Primerica Life,0,2023Q3,0.0007
+primerica_life,Primerica Life,0,2023Q4,0.0007
+primerica_life,Primerica Life,0,2024Q1,0.0003
+primerica_life,Primerica Life,0,2024Q2,0.0003
+primerica_life,Primerica Life,0,2024Q3,0.0003
+primerica_life,Primerica Life,0,2024Q4,0.0003
+primerica_life,Primerica Life,0,2025Q1,0.0003
+primerica_life,Primerica Life,0,2025Q2,0.0002
+primerica_life,Primerica Life,0,2025Q3,0.0002
+primerica_life,Primerica Life,0,2025Q4,0.0002
+primerica_life,Primerica Life,0,2026Q1,0.0002
+primerica_life,Primerica Life,0,2026Q2,0.0

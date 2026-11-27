@@ -1,0 +1,10 @@
+company_id,as_of,aaa,aa,a,bbb,below_ig,unrated,govt_not_rated,scope,source
+sun_life,2025-12-31,17,22,38,22,1,0,0,Debt securities (85.6Bn); loans separately 96% IG,SLF 2025 annual MD&A Debt Securities by Credit Rating
+manulife,2025-12-31,7,24,39,26,4,0,0,Debt securities and private placements (265.9Bn),MFC 2025 annual MD&A Debt Securities and Private Placement Debt by Credit Quality
+canada_life,2025-12-31,15,19,36,28,2,0,0,Great-West Lifeco bonds (174.5Bn),GWO 2025 annual MD&A Bond portfolio quality
+ia,2025-12-31,5,27,36,31,1,0,0,Bonds (31.1Bn),iA 2025 annual MD&A Bonds by Credit Rating
+empire_life,2025-12-31,6,21,44,28,1,0,0,Bonds (7.9Bn),Empire Life 2025 FS note 24.4
+equitable_life,2025-12-31,8.9,35.4,31.8,23.9,0,0,0,Bonds (2.7Bn),Equitable 2025 annual report note (a)(iii)
+foresters_life,2025-12-31,10.8,39.5,26.8,22.6,0.3,0,0,Bonds (0.66Bn),Foresters Life 2025 FS note on credit risk
+assumption_life,2025-12-31,1.0,52.5,35.6,4.0,0,6.9,0,Debt securities (0.56Bn),Assumption Life 2025 annual report note on credit risk
+beneva,2025-12-31,0.5,4.4,16.1,19.4,1.2,5.5,52.8,"Bonds and private debt (6.8Bn): 52.9% government (Canada, Quebec, provinces, municipalities) not rated in the note, plus 5.5% unrated private debt",Beneva 2025 annual report note on credit risk

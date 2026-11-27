@@ -1,0 +1,577 @@
+{
+  "company_id": "empire_life",
+  "name": "The Empire Life Insurance Company",
+  "as_of": "2026-06-30",
+  "ownership": "Subsidiary of E-L Financial Corporation Limited (TSX: ELF); Empire Life prefs/LRCNs listed, reporting issuer since 2015",
+  "regulator": "OSFI",
+  "metrics": [
+    {
+      "metric": "Total assets",
+      "value": 22.02,
+      "unit": "C$bn",
+      "as_of": "2026-06-30",
+      "source": "https://www.empire.ca/docs/pdf/2026Q2MDA-EN-web.pdf",
+      "note": "C$20.78bn at 2025-12-31. Includes C$10.93bn segregated fund assets."
+    },
+    {
+      "metric": "General fund assets",
+      "value": 11.087,
+      "unit": "C$bn",
+      "as_of": "2026-06-30",
+      "source": "https://www.empire.ca/docs/pdf/2026Q2MDA-EN-web.pdf",
+      "note": "MD&A AUM reconciliation; C$10.64bn at 2025-12-31. Invested assets (FVTPL financial assets incl. cash) C$10.24bn at 2026-06-30 (Q2 FS note 3): bonds 8.32bn, prefs 0.71bn, common 0.74bn, mortgages 0.06bn, loans 0.09bn."
+    },
+    {
+      "metric": "Wealth Management AUM (seg funds + fixed annuities)",
+      "value": 11.907,
+      "unit": "C$bn",
+      "as_of": "2026-06-30",
+      "source": "https://www.empire.ca/docs/pdf/2026Q2MDA-EN-web.pdf",
+      "note": "Seg funds C$10.91bn (c.C$10.6bn with guarantees), fixed annuities C$1.0bn. Company AUM (general + seg funds) = total assets C$22.0bn."
+    },
+    {
+      "metric": "Common shareholders' net income FY2025",
+      "value": 201,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf",
+      "note": "FY2024 C$281mm. Shareholders' NI C$212mm; NI before tax C$295mm. No core/underlying earnings measure disclosed."
+    },
+    {
+      "metric": "Common shareholders' net income H1 2026",
+      "value": 89,
+      "unit": "C$mm",
+      "as_of": "2026-06-30",
+      "source": "https://www.empire.ca/docs/pdf/2026Q2MDA-EN-web.pdf",
+      "note": "Q2 2026 C$83mm (Q2 2025 C$32mm); H1 2025 C$102mm. ROE 10.7% (Q2 2026)."
+    },
+    {
+      "metric": "LICAT total ratio",
+      "value": 159,
+      "unit": "%",
+      "as_of": "2026-06-30",
+      "source": "https://www.empire.ca/docs/pdf/2026Q2MDA-EN-web.pdf",
+      "note": "Core ratio 114%. YE2025 153%/116%. Internal targets not disclosed ('well above internal targets'); OSFI supervisory targets 100% total / 70% core. 2025 LICAT guideline change (seg fund guarantee capital) not restated."
+    },
+    {
+      "metric": "Financial leverage ratio",
+      "value": null,
+      "unit": "%",
+      "as_of": "",
+      "source": "",
+      "note": "Not disclosed. Capital instruments outstanding at 2026-06-30: sub debt C$649mm, prefs + LRCN C$494mm (MD&A Sources of Capital)."
+    },
+    {
+      "metric": "Credit ratings (Morningstar DBRS)",
+      "value": null,
+      "unit": "rating",
+      "as_of": "2026-08-05",
+      "source": "https://www.empire.ca/docs/pdf/2026Q2MDA-EN-web.pdf",
+      "note": "FSR A (high); Issuer A (high); Sub debt A; Prefs Pfd-2 (high); LRCN A (low); all Stable; upgraded in 2025. AM Best withdrew its A (Excellent)/'a' ratings in May 2021 at the company's request (https://www.businesswire.com/news/home/20210527005699/en/)."
+    },
+    {
+      "metric": "Investment team headcount",
+      "value": 27,
+      "unit": "people",
+      "as_of": "2026-11-03",
+      "source": "https://www.empirelifeinvestments.ca/investment-team",
+      "note": "Count of named staff on Empire Life Investments Inc. team page: CIO, 14 equities, 6 fixed income/private placements, 2 multi-strategy GIF, 4 portfolio analytics. Manages general fund and seg funds. No official headcount disclosed."
+    },
+    {
+      "metric": "Employees",
+      "value": 1211,
+      "unit": "people",
+      "as_of": "2025-12-31",
+      "source": "https://www.empire.ca/docs/pdf/PublicAccountabilityStatement-EN-web.pdf",
+      "note": "1,201 full-time + 10 part-time in Canada (995 Ontario, 107 Quebec); excludes contract/agency workers. Public Accountability Report 2025."
+    },
+    {
+      "metric": "Market share",
+      "value": null,
+      "unit": "%",
+      "as_of": "2025-12-31",
+      "source": "https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf",
+      "note": "~6% segregated funds, ~6% group benefits, ~8% new life insurance premiums; among 10 largest Canadian lifecos by total assets (AR 2025 MD&A)."
+    }
+  ],
+  "business_mix": {
+    "basis": "Insurance revenue by operating segment, FY2025 (IFRS 17)",
+    "as_of": "2025-12-31",
+    "source": "https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf",
+    "items": [
+      {
+        "label": "Group Solutions (group benefits)",
+        "pct": 47.9,
+        "note": "C$733mm insurance revenue; NIBT -C$13mm"
+      },
+      {
+        "label": "Individual Insurance",
+        "pct": 35.6,
+        "note": "C$544mm insurance revenue; NIBT C$183mm"
+      },
+      {
+        "label": "Wealth Management (seg funds, annuities, GRS)",
+        "pct": 16.5,
+        "note": "C$253mm insurance revenue; NIBT C$86mm; Capital & Surplus NIBT C$39mm not in revenue split"
+      }
+    ]
+  },
+  "people": [
+    {
+      "role": "CEO",
+      "name": "Mark Sylvia",
+      "title": "President and Chief Executive Officer",
+      "reports_to": "Board (Chair Duncan N.R. Jackman, CEO of E-L Financial)",
+      "entity": "The Empire Life Insurance Company",
+      "seat_since": 2014,
+      "firm_since": 2014,
+      "industry_since": 1988,
+      "prior": "Founder Clarity Underwriting (2010); CEO Echelon General Insurance 1999-2010; President & CEO Hartford Life Canada 1988-1999",
+      "comp_total_cad": 2250000,
+      "comp_currency": "CAD",
+      "comp_year": 2025,
+      "comp_source": "https://finance.yahoo.com/quote/ELF.TO/profile",
+      "sources": [
+        "https://www.empire.ca/bios/mark-sylvia",
+        "https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf"
+      ],
+      "note": "Also Chair of Empire Life Investments Inc. Comp figure is an aggregator (Yahoo Finance) restatement of E-L Financial's 2026 circular (FY2025 pay, c.C$2.25mm); the circular itself was not retrievable (not on e-lfinancial.ca; SEDAR+ blocked) - verify before use. industry_since 1988 inferred from Hartford start year. Key management personnel comp (all directors + executive officers) C$11.3mm in 2025 (AR Note 22)."
+    },
+    {
+      "role": "CIO",
+      "name": "Paul Holba, CFA",
+      "title": "Senior Vice-President and Chief Investment Officer, Empire Life; President and CIO, Empire Life Investments Inc.",
+      "reports_to": "CEO (inferred; member of Executive Leadership Team, Asset Management Committee, Product Review Management Committee)",
+      "entity": "Empire Life / Empire Life Investments Inc. (wholly owned asset manager)",
+      "seat_since": 2022,
+      "firm_since": 2009,
+      "industry_since": 1989,
+      "prior": "20+ yrs at global investment managers and a Canadian bank's asset-management arm (unnamed); Empire Life retail distribution 2009; VP Investments ELII 2010",
+      "comp_total_cad": 956010,
+      "comp_currency": "CAD",
+      "comp_year": 2025,
+      "comp_source": "https://finance.yahoo.com/quote/ELF.TO/profile",
+      "sources": [
+        "https://www.empire.ca/bios/paul-holba",
+        "https://www.advisor.ca/news/industry-news/paul-holba-named-new-chief-investment-officer-at-empire-life/",
+        "https://www.empirelifeinvestments.ca/investment-team"
+      ],
+      "note": "Appointed SVP & CIO effective 2022-07-04. industry_since inferred (20+ years before 2009). Comp is an aggregator figure attributed to E-L Financial's circular (FY2025); not verified against the circular. CIO sits at the insurer and runs the in-house manager ELII; oversees in-house managers and external investment firms."
+    },
+    {
+      "role": "Head of fixed income / public credit",
+      "name": "Geoff Johnston, CFA",
+      "title": "Fixed Income and Private Placements (leads fixed income team)",
+      "reports_to": "CIO (inferred)",
+      "entity": "Empire Life Investments Inc.",
+      "seat_since": null,
+      "firm_since": 2004,
+      "industry_since": 1995,
+      "prior": "A leading investment counselling firm and a major insurance company (unnamed); 30+ years fixed income",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.empirelifeinvestments.ca/investment-team"
+      ],
+      "note": "Oversees fixed income, private placement and alternative asset programs per team page. industry_since inferred from '30+ years'. Comp not disclosed (not an NEO)."
+    },
+    {
+      "role": "Head of alternatives / private markets",
+      "name": "Albert Ngo, MFE",
+      "title": "Senior Portfolio Manager and Head of Alternative Assets",
+      "reports_to": "Geoff Johnston / CIO (inferred)",
+      "entity": "Empire Life Investments Inc.",
+      "seat_since": null,
+      "firm_since": 2018,
+      "industry_since": 2009,
+      "prior": "Co-managed a fixed-income portfolio at a leading global investment firm; senior fixed income roles at Canadian and US institutions (unnamed)",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.empirelifeinvestments.ca/investment-team",
+        "https://www.empire.ca/news/2018/15/empire-life-investments-appoints-albert-ngo-portfolio-manager-fixed-income"
+      ],
+      "note": "Michael Schroeter, CFA (joined 2022, 20+ yrs) runs Private Placements. industry_since inferred from '16+ years'."
+    },
+    {
+      "role": "CRO",
+      "name": "Kathy Thompson, FSA, FCIA",
+      "title": "Senior Vice-President and Chief Risk Officer (status unverified)",
+      "reports_to": "CEO and Risk and Capital Committee of the Board (Board reporting responsibility per AR 2025)",
+      "entity": "The Empire Life Insurance Company",
+      "seat_since": 2018,
+      "firm_since": 1989,
+      "industry_since": 1989,
+      "prior": "Career at Empire Life: actuarial analyst (1989), VP Group Operations (2008), VP & Corporate Actuary, VP Risk Management",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.globaldata.com/company-profile/the-empire-life-insurance-co/executives/",
+        "https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf"
+      ],
+      "note": "(inferred) Thompson was SVP & CRO from Sept 2018 per her former empire.ca bio (now serves Gillian Purvis's bio). The 2025 Annual Report 'Corporate Management' list and the current leadership page show no CRO; the CRO is a member of the Asset Management and Product Management Review Committees. Current CRO identity should be confirmed."
+    },
+    {
+      "role": "CFO",
+      "name": "Rebecca Rycroft, FSA, FCIA",
+      "title": "Senior Vice-President and Chief Financial Officer",
+      "reports_to": "CEO",
+      "entity": "The Empire Life Insurance Company",
+      "seat_since": 2022,
+      "firm_since": 2021,
+      "industry_since": null,
+      "prior": "CFO, Munich Re Canada (Life & Health); joined Empire Life 2021 as SVP Corporate Finance",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.empire.ca/news/2022/10/empire-life-announces-leadership-appointments",
+        "https://www.empire.ca/bios/rebecca-rycroft-fsa-fcia"
+      ],
+      "note": "Shares capital-management Board reporting with the CRO."
+    }
+  ],
+  "pm_structure": {
+    "summary": "In-house: wholly owned Empire Life Investments Inc. (ELII, est. 2011) runs the general account and most seg funds under the SVP & CIO; external sub-advisers (Fidelity) and LP funds for alternatives.",
+    "manager_entities": [
+      "Empire Life Investments Inc. (in-house, wholly owned)",
+      "External sub-advisers for seg funds (e.g., Fidelity Investments Canada, 2025 GIF launches)",
+      "External LP managers for private equity / infrastructure / high-yield mortgage funds (Level 3 LP investments)"
+    ],
+    "bullets": [
+      "CIO, Asset Management Committee and Board Investment Committee oversee in-house and external managers; monthly asset-mix reporting",
+      "Board Investment Guidelines allow private debt, LRCNs, mortgages, real estate, PE, infrastructure, high-yield mortgages",
+      "Four Fidelity-powered seg funds added 2025; Multi-Strategy GIF team selects third-party funds",
+      "Related-party investment services with E-L Financial group at market terms; amounts 'not significant' (AR Note 22)",
+      "Securities lending via custodian as agent; derivatives: no leverage, strict counterparty limits"
+    ],
+    "sources": [
+      "https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf",
+      "https://www.empire.ca/docs/pdf/2026Q2MDA-EN-web.pdf",
+      "https://www.empirelifeinvestments.ca/investment-team"
+    ]
+  },
+  "rotation_commentary": [
+    {
+      "year": 2024,
+      "text": "Q1 2024: 'updated its asset mix, reducing exposure to equity risk' in assets backing liabilities and surplus (AR 2025 MD&A).",
+      "source": "https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf"
+    },
+    {
+      "year": 2025,
+      "text": "2025: bond book shifted within IG - AA 39%->21%, A 26%->44%, BBB ~28-29% (YE2024 vs YE2025, Note 24).",
+      "source": "https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf"
+    },
+    {
+      "year": 2025,
+      "text": "LP/alternatives commitments C$96.6mm at YE2025 (C$75.5mm YE2024), callable to Jul-2030; Level 3 LP equity C$30.8mm at Q2 2026.",
+      "source": "https://www.empire.ca/docs/pdf/ConsolidatedFinancialStatements2026-Q2-EN-web.pdf"
+    },
+    {
+      "year": 2026,
+      "text": "Portfolio 'actively managed to optimize yield, quality and liquidity... duration-matched'; swap and equity hedges sized to LICAT; 2026 NI driven by non-fixed income.",
+      "source": "https://www.empire.ca/docs/pdf/2026Q2MDA-EN-web.pdf"
+    }
+  ],
+  "target_allocations": [
+    {
+      "asset_class": "Participating account - bonds",
+      "target": "65.0% (actual 61.3% at YE2025)",
+      "source": "https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf"
+    },
+    {
+      "asset_class": "Participating account - common shares",
+      "target": "22.5% (actual 17.5%)",
+      "source": "https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf"
+    },
+    {
+      "asset_class": "Participating account - preferred shares",
+      "target": "9.5% (actual 12.2%)",
+      "source": "https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf"
+    },
+    {
+      "asset_class": "Participating account - mortgages / cash",
+      "target": "2.0% / 1.0% (actual 0.9% / 5.9%)",
+      "source": "https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf"
+    }
+  ],
+  "leverage": {
+    "debt_outstanding": [
+      {
+        "type": "Subordinated debentures Series 2021-1, 2.024% due 2031-09-24 (reset CORRA+0.67%+CAS from 2026-09-24)",
+        "amount_cad_mm": 200,
+        "as_of": "2026-06-30",
+        "source": "https://www.empire.ca/docs/pdf/2026Q2MDA-EN-web.pdf",
+        "note": "Redemption at par announced 2026-07-28, effective 2026-09-24 (https://www.empire.ca/news/2026/29/empire-life-announces-redemption-200-million-2024-subordinated-debentures)"
+      },
+      {
+        "type": "Subordinated debentures Series 2023-1, 5.503% due 2033-01-13 (reset CORRA+2.26% from 2028-01-13)",
+        "amount_cad_mm": 200,
+        "as_of": "2026-06-30",
+        "source": "https://www.empire.ca/docs/pdf/2026Q2MDA-EN-web.pdf",
+        "note": ""
+      },
+      {
+        "type": "Subordinated debentures Series 2026-1, 4.221% due 2036-05-26 (reset CORRA+1.17% from 2031-05-26)",
+        "amount_cad_mm": 249,
+        "as_of": "2026-06-30",
+        "source": "https://www.empire.ca/docs/pdf/2026Q2MDA-EN-web.pdf",
+        "note": "C$250mm face, net of issue costs"
+      },
+      {
+        "type": "Preferred shares Series 3 (non-cumulative rate reset; earliest redemption 2028-01-17)",
+        "amount_cad_mm": 100,
+        "as_of": "2026-06-30",
+        "source": "https://www.empire.ca/docs/pdf/2026Q2MDA-EN-web.pdf",
+        "note": "4,000,000 shares; dividend C$0.3866875/qtr; Series 6 proceeds may be used to repurchase"
+      },
+      {
+        "type": "Preferred shares Series 6, 6.00% fixed-rate reset (first reset 2031-04-17; GoC5y + 310.3bp)",
+        "amount_cad_mm": 197,
+        "as_of": "2026-06-30",
+        "source": "https://www.empire.ca/docs/pdf/2026Q2MDA-EN-web.pdf",
+        "note": "C$200mm face, 200,000 shares at C$1,000, issued 2025-12-11"
+      },
+      {
+        "type": "Limited Recourse Capital Notes Series 1 (earliest redemption 2026-04-17; yield shown 6.177%)",
+        "amount_cad_mm": 197,
+        "as_of": "2026-06-30",
+        "source": "https://www.empire.ca/docs/pdf/2026Q2MDA-EN-web.pdf",
+        "note": "C$200mm face issued Feb 2021; classified as equity"
+      }
+    ],
+    "financial_leverage_ratio_pct": null,
+    "issuance": [
+      {
+        "date": "2023-01-13",
+        "instrument": "Subordinated unsecured fixed/floating debentures Series 2023-1 (private placement)",
+        "amount_cad_mm": 200,
+        "coupon_pct": 5.503,
+        "maturity": "2033-01-13",
+        "bookrunners": [
+          "RBC Dominion Securities (lead)",
+          "Scotia Capital (lead)",
+          "TD Securities",
+          "BMO Nesbitt Burns",
+          "CIBC World Markets",
+          "National Bank Financial"
+        ],
+        "source": "https://www.empire.ca/news/2023/10/empire-life-announces-200-million-offering-5503-subordinated-debentures"
+      },
+      {
+        "date": "2025-12-11",
+        "instrument": "Non-Cumulative 5-Year Fixed Rate Reset Preferred Shares Series 6 (private placement, C$1,000/sh)",
+        "amount_cad_mm": 200,
+        "coupon_pct": 6.0,
+        "maturity": "perpetual; reset 2031-04-17 at GoC5y+310.3bp",
+        "bookrunners": [
+          "RBC Capital Markets (lead)",
+          "Scotiabank (lead)",
+          "BMO Capital Markets",
+          "CIBC Capital Markets",
+          "National Bank Capital Markets",
+          "TD Securities"
+        ],
+        "source": "https://www.empire.ca/news/2025/05/empire-life-announces-offering-200-million-non-cumulative-5-year-fixed-rate-reset"
+      },
+      {
+        "date": "2026-05-25",
+        "instrument": "Subordinated unsecured fixed/floating debentures Series 2026-1 (private placement; DBRS provisional A)",
+        "amount_cad_mm": 250,
+        "coupon_pct": 4.221,
+        "maturity": "2036-05-26",
+        "bookrunners": [
+          "Scotia Capital (lead)",
+          "CIBC World Markets (lead)",
+          "RBC Dominion Securities (lead)",
+          "BMO Nesbitt Burns",
+          "National Bank Financial",
+          "TD Securities"
+        ],
+        "source": "https://www.newswire.ca/news-releases/empire-life-announces-250-million-offering-of-4-221-subordinated-debentures-880592186.html"
+      },
+      {
+        "date": "2026-09-24",
+        "instrument": "Redemption of C$200mm 2.024% Series 2021-1 subordinated debentures at par plus accrued",
+        "amount_cad_mm": -200,
+        "coupon_pct": 2.024,
+        "maturity": "2031-09-24 (redeemed early)",
+        "bookrunners": [],
+        "source": "https://www.empire.ca/news/2026/29/empire-life-announces-redemption-200-million-2024-subordinated-debentures"
+      }
+    ],
+    "securities_lending": {
+      "amount_cad_mm": 1708.5,
+      "as_of": "2026-06-30",
+      "text": "General fund securities loaned C$1,708mm vs collateral received C$1,743mm (seg funds a further C$1,883mm loaned / C$1,921mm collateral; total C$3,591mm / C$3,663mm). YE2025 GF C$1,384mm / C$1,412mm. Custodian is lending agent and indemnifies shortfalls; 2025 lending income C$3.2mm (GF C$1.5mm).",
+      "source": "https://www.empire.ca/docs/pdf/ConsolidatedFinancialStatements2026-Q2-EN-web.pdf"
+    },
+    "repos": {
+      "amount_cad_mm": null,
+      "as_of": "2025-12-31",
+      "text": "No securities sold under repurchase agreements or reverse repos disclosed on the balance sheet or in FS notes (FY2025, Q2 2026). Financial collateral pledged to derivative counterparties C$130.9mm at 2026-06-30 (C$123.2mm at YE2025); derivative notional C$2.66bn at YE2025 (interest rate swaps C$1.03bn, cross-currency swaps C$114mm, plus equity/FX derivatives).",
+      "source": "https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf"
+    },
+    "structured_indirect": [
+      {
+        "text": "Private debt and limited recourse capital notes held within the bond portfolio (eligible asset classes); amounts not separately disclosed",
+        "amount_cad_mm": null,
+        "source": "https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf"
+      },
+      {
+        "text": "Level 3 limited partnership investments (PE/infrastructure/high-yield mortgage funds) valued at manager NAV: C$30.8mm common shares + C$22.3mm bonds at 2026-06-30",
+        "amount_cad_mm": 53.2,
+        "source": "https://www.empire.ca/docs/pdf/ConsolidatedFinancialStatements2026-Q2-EN-web.pdf"
+      },
+      {
+        "text": "Undrawn investment commitments (payable to 2030-07-19)",
+        "amount_cad_mm": 96.6,
+        "source": "https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf"
+      },
+      {
+        "text": "Investment guidelines permit debt financing of advisor companies / MGAs (minimum underwriting requirements and limits); Loans C$85.7mm at 2026-06-30",
+        "amount_cad_mm": 85.7,
+        "source": "https://www.empire.ca/docs/pdf/2026Q2MDA-EN-web.pdf"
+      },
+      {
+        "text": "No CLO, ABS, fund-finance, SRT, sidecar, funding-agreement or FHLB-type exposure disclosed",
+        "amount_cad_mm": null,
+        "source": "https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf"
+      }
+    ]
+  },
+  "partnerships": {
+    "underwriters": [
+      {
+        "dealer": "RBC Capital Markets / RBC Dominion Securities",
+        "role": "lead",
+        "deals": 3,
+        "note": "Lead on 2023 sub debt, 2025 Series 6 prefs, 2026 sub debt",
+        "source": "https://www.newswire.ca/news-releases/empire-life-announces-250-million-offering-of-4-221-subordinated-debentures-880592186.html"
+      },
+      {
+        "dealer": "Scotia Capital / Scotiabank",
+        "role": "lead",
+        "deals": 3,
+        "note": "Lead on 2023 sub debt, 2025 prefs, 2026 sub debt",
+        "source": "https://www.empire.ca/news/2025/05/empire-life-announces-offering-200-million-non-cumulative-5-year-fixed-rate-reset"
+      },
+      {
+        "dealer": "CIBC World Markets",
+        "role": "lead / co-lead",
+        "deals": 3,
+        "note": "Lead on 2026 sub debt; syndicate on 2023 and 2025 deals",
+        "source": "https://www.newswire.ca/news-releases/empire-life-announces-250-million-offering-of-4-221-subordinated-debentures-880592186.html"
+      },
+      {
+        "dealer": "TD Securities, BMO Nesbitt Burns, National Bank Financial",
+        "role": "syndicate",
+        "deals": 3,
+        "note": "Syndicate members on all three 2023-2026 issues",
+        "source": "https://www.empire.ca/news/2023/10/empire-life-announces-200-million-offering-5503-subordinated-debentures"
+      }
+    ],
+    "deals": [
+      {
+        "year": 2025,
+        "text": "Acquired 80% / majority stake in Specialty Life Inc. (simplified-issue life) from Insurance Supermarket; control from 2025-12-12; terms undisclosed",
+        "source": "https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf"
+      },
+      {
+        "year": 2025,
+        "text": "Launched four seg funds sub-advised by Fidelity Investments Canada and Canada's first RDSP seg-fund product; national Group RSP rollout",
+        "source": "https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf"
+      },
+      {
+        "year": 2024,
+        "text": "Bought out its own DB pension obligations for retirees and deferreds via annuity purchase from a financial institution (settled by YE2024)",
+        "source": "https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf"
+      },
+      {
+        "year": 2022,
+        "text": "Acquired six firms and formed wholly owned MGA TruStone Financial Inc. (operates independently; BridgeForce relationship continued)",
+        "source": "https://www.investmentexecutive.com/news/industry/empire-makes-six-acquisitions-forms-new-mga/"
+      },
+      {
+        "year": 2019,
+        "text": "Minority stake in Ontario MGA The Gryphin Advantage Inc.; investments in associates/JV C$113mm at YE2025",
+        "source": "https://www.empire.ca/news/2019/13/empire-life-invests-gryphin-advantage-inc"
+      }
+    ],
+    "sponsorships": [
+      {
+        "year": 2025,
+        "text": "Title sponsor, Intercultural Arts Festival, Kingston (second consecutive year); community sponsorships C$125,624, donations C$356,187, total contributions C$564,452",
+        "source": "https://www.empire.ca/docs/pdf/PublicAccountabilityStatement-EN-web.pdf"
+      },
+      {
+        "year": 2023,
+        "text": "C$100,000 centennial donation to Kingston-area charities",
+        "source": "https://www.empire.ca/news/2023/13/empire-life-donates-100000-commemorate-centennial-year"
+      }
+    ],
+    "bank_relationships": [
+      {
+        "text": "No bancassurance; distribution via independent advisors, MGAs (incl. owned TruStone, stake in Gryphin) and specialty partnership channels in Group Solutions",
+        "source": "https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf"
+      },
+      {
+        "text": "Capital-markets relationships concentrated in the Big-6 bank dealers (RBC, Scotia, CIBC leads); custodian acts as securities-lending agent (name not disclosed)",
+        "source": "https://www.empire.ca/docs/pdf/2026Q2MDA-EN-web.pdf"
+      }
+    ]
+  },
+  "risk": {
+    "appetite": [
+      "Accepts market, credit and insurance risk within Board tolerances when rewarded; liquidity run to high confidence of meeting obligations",
+      "Risk capacity set by ability to grow available capital incl. market access; must maintain or improve external FSR",
+      "No leverage in derivatives; concentration, credit-quality and counterparty limits in Board Investment Guidelines"
+    ],
+    "governance": [
+      "Board + six committees: Audit (stress testing), Conduct Review, HR, Investment (ALM), IT Oversight, Risk and Capital (ERM, appetite, capital)",
+      "Management: Asset Management Committee (market/credit/liquidity/ALM/capital) and Product Management Review Committee; CRO on both",
+      "CRO reports to Board on risk and capital (capital shared with CFO); three lines of defence incl. independent risk, compliance, internal audit"
+    ],
+    "capital_target": "Internal LICAT targets not disclosed ('well above internal targets'); OSFI minimums 90% total / 55% core, supervisory 100% / 70%. LICAT total 159%, core 114% at 2026-06-30.",
+    "sensitivities": [
+      "Equity -10%/-20%: NI -C$13mm/-C$30mm; CSM -C$98mm/-C$200mm; LICAT -3/-5pts net of hedge (seg guarantees -5/-10, hedge +2/+5) (Jun-26)",
+      "Equity +10%/+20%: NI +C$14mm/+C$26mm; CSM +C$92mm/+C$177mm; LICAT +2/+5pts (Jun-26)",
+      "Rates -50bp parallel: LICAT total +1pt (2026-06-30; was -1pt at YE2025)",
+      "Rates +50bp/-50bp: P&L and equity -C$44mm/+C$36mm; CSM -C$20mm/-C$14mm; +/-100bp: -C$83mm/+C$72mm (YE2025)",
+      "Seg fund assets C$10.9bn, of which ~C$10.6bn with guarantees; all guarantees policy-based (not deposit-based)"
+    ],
+    "hedging": [
+      "Equity hedging program protects LICAT from equity declines (Equity Risk Hedging Policy); quarterly report to Risk and Capital Committee",
+      "Interest rate hedging program using swaps to limit LICAT sensitivity (Interest Rate Risk Hedging Policy); IRS notional C$1.03bn at YE2025",
+      "CSM absorbs most seg-fund guarantee P&L volatility under IFRS 17; cross-currency swaps for FX"
+    ],
+    "events": [
+      "2025: transition to updated OSFI LICAT guideline (seg fund guarantee capital and hedging treatment) reduced ratios; not restated",
+      "2025: Morningstar DBRS upgraded FSR/Issuer to A (high), sub debt to A, LRCN to A (low), prefs to Pfd-2 (high); reconfirmed 2026-08-05",
+      "2021: AM Best ratings withdrawn at company request",
+      "OSFI B-15 climate disclosure from FY2025; FCT/stress testing under Audit Committee; CRO reports model and third-party risk to Board"
+    ],
+    "sources": [
+      "https://www.empire.ca/docs/pdf/2026Q2MDA-EN-web.pdf",
+      "https://www.empire.ca/docs/pdf/AnnualReport2025-EN-web.pdf"
+    ]
+  },
+  "gaps": [
+    "E-L Financial 2026 management information circular not retrievable (not posted on e-lfinancial.ca; SEDAR+ not fetchable): NEO compensation for Mark Sylvia and Paul Holba taken from Yahoo Finance aggregator (FY2025) and flagged; Geoff Johnston/CRO/CFO pay not disclosed",
+    "Current CRO not identified on 2025 Annual Report management list or leadership page; Kathy Thompson (SVP & CRO since 2018) status unverified",
+    "Internal LICAT target range not disclosed; financial leverage ratio not disclosed",
+    "No breakdown of private debt / alternatives within bonds; no disclosed target allocations for the non-par general account (only participating account targets)",
+    "Investment team headcount is a count of names on the ELII team page, not an official figure",
+    "No repo/reverse-repo activity disclosed; no structured credit, fund finance or SRT exposure disclosed",
+    "AM Best no longer rates Empire Life (withdrawn 2021); only DBRS ratings available",
+    "Sponsorship list limited to Public Accountability Report items; no sports/naming-rights deals found"
+  ],
+  "notes": "Sources: Q2 2026 MD&A (dated 2026-08-05) and interim FS; 2025 Annual Report (dated 2026-02-26) incl. Notes 3, 13, 21, 22, 24 and Participating Account Management Policy; Public Accountability Report 2025; empire.ca press releases; empirelifeinvestments.ca team page (accessed 2026-11-03). Segment NIBT FY2025: Wealth C$86mm, Group -C$13mm, Individual C$183mm, Capital & Surplus C$39mm. Common shares 985,076 'substantially held' by E-L Financial. The library of textbooks (MANDATES) was not available in this session; public sources used. Firecrawl credits were exhausted mid-task; WebSearch/WebFetch/curl used instead."
+}

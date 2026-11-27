@@ -1,0 +1,221 @@
+company_id,company,metric,status,is_focus
+manulife,Manulife,Rate sensitivity,Disclosed,0
+manulife,Manulife,Spread sensitivity,Disclosed,0
+manulife,Manulife,Equity sensitivity,Disclosed,0
+manulife,Manulife,Alternatives sensitivity,Disclosed,0
+manulife,Manulife,Capital sensitivity,Disclosed,0
+manulife,Manulife,Market risk capital,Regulatory data,0
+manulife,Manulife,Credit risk capital,Regulatory data,0
+manulife,Manulife,Bond rating split,Disclosed,0
+manulife,Manulife,Mortgage arrears,Regulatory data,0
+manulife,Manulife,Sector concentration,Regulatory data,0
+manulife,Manulife,Liquid assets measure,Disclosed,0
+canada_life,Canada Life,Rate sensitivity,Disclosed,0
+canada_life,Canada Life,Spread sensitivity,Disclosed,0
+canada_life,Canada Life,Equity sensitivity,Disclosed,0
+canada_life,Canada Life,Alternatives sensitivity,Disclosed,0
+canada_life,Canada Life,Capital sensitivity,Disclosed,0
+canada_life,Canada Life,Market risk capital,Regulatory data,0
+canada_life,Canada Life,Credit risk capital,Regulatory data,0
+canada_life,Canada Life,Bond rating split,Disclosed,0
+canada_life,Canada Life,Mortgage arrears,Regulatory data,0
+canada_life,Canada Life,Sector concentration,Regulatory data,0
+canada_life,Canada Life,Liquid assets measure,Disclosed,0
+sun_life,Sun Life,Rate sensitivity,Disclosed,0
+sun_life,Sun Life,Spread sensitivity,Disclosed,0
+sun_life,Sun Life,Equity sensitivity,Disclosed,0
+sun_life,Sun Life,Alternatives sensitivity,Disclosed,0
+sun_life,Sun Life,Capital sensitivity,Disclosed,0
+sun_life,Sun Life,Market risk capital,Regulatory data,0
+sun_life,Sun Life,Credit risk capital,Regulatory data,0
+sun_life,Sun Life,Bond rating split,Disclosed,0
+sun_life,Sun Life,Mortgage arrears,Regulatory data,0
+sun_life,Sun Life,Sector concentration,Regulatory data,0
+sun_life,Sun Life,Liquid assets measure,Regulatory data,0
+ia,iA Financial Group,Rate sensitivity,Disclosed,0
+ia,iA Financial Group,Spread sensitivity,Disclosed,0
+ia,iA Financial Group,Equity sensitivity,Disclosed,0
+ia,iA Financial Group,Alternatives sensitivity,Disclosed,0
+ia,iA Financial Group,Capital sensitivity,Disclosed,0
+ia,iA Financial Group,Market risk capital,Not available,0
+ia,iA Financial Group,Credit risk capital,Not available,0
+ia,iA Financial Group,Bond rating split,Disclosed,0
+ia,iA Financial Group,Mortgage arrears,Not available,0
+ia,iA Financial Group,Sector concentration,Not available,0
+ia,iA Financial Group,Liquid assets measure,Regulatory data,0
+rbc_life,RBC Life,Rate sensitivity,Not available,1
+rbc_life,RBC Life,Spread sensitivity,Not available,1
+rbc_life,RBC Life,Equity sensitivity,Not available,1
+rbc_life,RBC Life,Alternatives sensitivity,Not available,1
+rbc_life,RBC Life,Capital sensitivity,Not available,1
+rbc_life,RBC Life,Market risk capital,Regulatory data,1
+rbc_life,RBC Life,Credit risk capital,Regulatory data,1
+rbc_life,RBC Life,Bond rating split,Regulatory data,1
+rbc_life,RBC Life,Mortgage arrears,Regulatory data,1
+rbc_life,RBC Life,Sector concentration,Regulatory data,1
+rbc_life,RBC Life,Liquid assets measure,Regulatory data,1
+bmo_life,BMO Life,Rate sensitivity,Not available,0
+bmo_life,BMO Life,Spread sensitivity,Not available,0
+bmo_life,BMO Life,Equity sensitivity,Not available,0
+bmo_life,BMO Life,Alternatives sensitivity,Not available,0
+bmo_life,BMO Life,Capital sensitivity,Not available,0
+bmo_life,BMO Life,Market risk capital,Regulatory data,0
+bmo_life,BMO Life,Credit risk capital,Regulatory data,0
+bmo_life,BMO Life,Bond rating split,Regulatory data,0
+bmo_life,BMO Life,Mortgage arrears,Regulatory data,0
+bmo_life,BMO Life,Sector concentration,Regulatory data,0
+bmo_life,BMO Life,Liquid assets measure,Regulatory data,0
+beneva,Beneva,Rate sensitivity,Disclosed,0
+beneva,Beneva,Spread sensitivity,Not available,0
+beneva,Beneva,Equity sensitivity,Disclosed,0
+beneva,Beneva,Alternatives sensitivity,Not available,0
+beneva,Beneva,Capital sensitivity,Not available,0
+beneva,Beneva,Market risk capital,Not available,0
+beneva,Beneva,Credit risk capital,Not available,0
+beneva,Beneva,Bond rating split,Disclosed,0
+beneva,Beneva,Mortgage arrears,Not available,0
+beneva,Beneva,Sector concentration,Not available,0
+beneva,Beneva,Liquid assets measure,Regulatory data,0
+ivari,ivari,Rate sensitivity,Not available,0
+ivari,ivari,Spread sensitivity,Not available,0
+ivari,ivari,Equity sensitivity,Not available,0
+ivari,ivari,Alternatives sensitivity,Not available,0
+ivari,ivari,Capital sensitivity,Not available,0
+ivari,ivari,Market risk capital,Regulatory data,0
+ivari,ivari,Credit risk capital,Regulatory data,0
+ivari,ivari,Bond rating split,Regulatory data,0
+ivari,ivari,Mortgage arrears,Not available,0
+ivari,ivari,Sector concentration,Regulatory data,0
+ivari,ivari,Liquid assets measure,Regulatory data,0
+empire_life,Empire Life,Rate sensitivity,Disclosed,0
+empire_life,Empire Life,Spread sensitivity,Not available,0
+empire_life,Empire Life,Equity sensitivity,Disclosed,0
+empire_life,Empire Life,Alternatives sensitivity,Not available,0
+empire_life,Empire Life,Capital sensitivity,Disclosed,0
+empire_life,Empire Life,Market risk capital,Regulatory data,0
+empire_life,Empire Life,Credit risk capital,Regulatory data,0
+empire_life,Empire Life,Bond rating split,Disclosed,0
+empire_life,Empire Life,Mortgage arrears,Regulatory data,0
+empire_life,Empire Life,Sector concentration,Regulatory data,0
+empire_life,Empire Life,Liquid assets measure,Regulatory data,0
+equitable_life,Equitable Life,Rate sensitivity,Disclosed,0
+equitable_life,Equitable Life,Spread sensitivity,Disclosed,0
+equitable_life,Equitable Life,Equity sensitivity,Disclosed,0
+equitable_life,Equitable Life,Alternatives sensitivity,Disclosed,0
+equitable_life,Equitable Life,Capital sensitivity,Not available,0
+equitable_life,Equitable Life,Market risk capital,Regulatory data,0
+equitable_life,Equitable Life,Credit risk capital,Regulatory data,0
+equitable_life,Equitable Life,Bond rating split,Disclosed,0
+equitable_life,Equitable Life,Mortgage arrears,Regulatory data,0
+equitable_life,Equitable Life,Sector concentration,Regulatory data,0
+equitable_life,Equitable Life,Liquid assets measure,Regulatory data,0
+cooperators_life,Co-operators Life,Rate sensitivity,Not available,0
+cooperators_life,Co-operators Life,Spread sensitivity,Not available,0
+cooperators_life,Co-operators Life,Equity sensitivity,Not available,0
+cooperators_life,Co-operators Life,Alternatives sensitivity,Not available,0
+cooperators_life,Co-operators Life,Capital sensitivity,Not available,0
+cooperators_life,Co-operators Life,Market risk capital,Regulatory data,0
+cooperators_life,Co-operators Life,Credit risk capital,Regulatory data,0
+cooperators_life,Co-operators Life,Bond rating split,Regulatory data,0
+cooperators_life,Co-operators Life,Mortgage arrears,Regulatory data,0
+cooperators_life,Co-operators Life,Sector concentration,Regulatory data,0
+cooperators_life,Co-operators Life,Liquid assets measure,Regulatory data,0
+uv_insurance,UV Insurance,Rate sensitivity,Not available,0
+uv_insurance,UV Insurance,Spread sensitivity,Not available,0
+uv_insurance,UV Insurance,Equity sensitivity,Not available,0
+uv_insurance,UV Insurance,Alternatives sensitivity,Not available,0
+uv_insurance,UV Insurance,Capital sensitivity,Not available,0
+uv_insurance,UV Insurance,Market risk capital,Not available,0
+uv_insurance,UV Insurance,Credit risk capital,Not available,0
+uv_insurance,UV Insurance,Bond rating split,Not available,0
+uv_insurance,UV Insurance,Mortgage arrears,Not available,0
+uv_insurance,UV Insurance,Sector concentration,Not available,0
+uv_insurance,UV Insurance,Liquid assets measure,Regulatory data,0
+wawanesa_life,Wawanesa Life,Rate sensitivity,Disclosed,0
+wawanesa_life,Wawanesa Life,Spread sensitivity,Not available,0
+wawanesa_life,Wawanesa Life,Equity sensitivity,Disclosed,0
+wawanesa_life,Wawanesa Life,Alternatives sensitivity,Not available,0
+wawanesa_life,Wawanesa Life,Capital sensitivity,Not available,0
+wawanesa_life,Wawanesa Life,Market risk capital,Regulatory data,0
+wawanesa_life,Wawanesa Life,Credit risk capital,Regulatory data,0
+wawanesa_life,Wawanesa Life,Bond rating split,Regulatory data,0
+wawanesa_life,Wawanesa Life,Mortgage arrears,Not available,0
+wawanesa_life,Wawanesa Life,Sector concentration,Regulatory data,0
+wawanesa_life,Wawanesa Life,Liquid assets measure,Regulatory data,0
+assumption_life,Assumption Life,Rate sensitivity,Disclosed,0
+assumption_life,Assumption Life,Spread sensitivity,Disclosed,0
+assumption_life,Assumption Life,Equity sensitivity,Disclosed,0
+assumption_life,Assumption Life,Alternatives sensitivity,Not available,0
+assumption_life,Assumption Life,Capital sensitivity,Not available,0
+assumption_life,Assumption Life,Market risk capital,Not available,0
+assumption_life,Assumption Life,Credit risk capital,Not available,0
+assumption_life,Assumption Life,Bond rating split,Disclosed,0
+assumption_life,Assumption Life,Mortgage arrears,Not available,0
+assumption_life,Assumption Life,Sector concentration,Not available,0
+assumption_life,Assumption Life,Liquid assets measure,Regulatory data,0
+foresters_life,Foresters Life,Rate sensitivity,Disclosed,0
+foresters_life,Foresters Life,Spread sensitivity,Not available,0
+foresters_life,Foresters Life,Equity sensitivity,Disclosed,0
+foresters_life,Foresters Life,Alternatives sensitivity,Not available,0
+foresters_life,Foresters Life,Capital sensitivity,Not available,0
+foresters_life,Foresters Life,Market risk capital,Regulatory data,0
+foresters_life,Foresters Life,Credit risk capital,Regulatory data,0
+foresters_life,Foresters Life,Bond rating split,Disclosed,0
+foresters_life,Foresters Life,Mortgage arrears,Not available,0
+foresters_life,Foresters Life,Sector concentration,Regulatory data,0
+foresters_life,Foresters Life,Liquid assets measure,Regulatory data,0
+canadian_premier,Canadian Premier Life,Rate sensitivity,Not available,0
+canadian_premier,Canadian Premier Life,Spread sensitivity,Not available,0
+canadian_premier,Canadian Premier Life,Equity sensitivity,Not available,0
+canadian_premier,Canadian Premier Life,Alternatives sensitivity,Not available,0
+canadian_premier,Canadian Premier Life,Capital sensitivity,Not available,0
+canadian_premier,Canadian Premier Life,Market risk capital,Regulatory data,0
+canadian_premier,Canadian Premier Life,Credit risk capital,Regulatory data,0
+canadian_premier,Canadian Premier Life,Bond rating split,Regulatory data,0
+canadian_premier,Canadian Premier Life,Mortgage arrears,Not available,0
+canadian_premier,Canadian Premier Life,Sector concentration,Regulatory data,0
+canadian_premier,Canadian Premier Life,Liquid assets measure,Regulatory data,0
+primerica_life,Primerica Life,Rate sensitivity,Not available,0
+primerica_life,Primerica Life,Spread sensitivity,Not available,0
+primerica_life,Primerica Life,Equity sensitivity,Not available,0
+primerica_life,Primerica Life,Alternatives sensitivity,Not available,0
+primerica_life,Primerica Life,Capital sensitivity,Not available,0
+primerica_life,Primerica Life,Market risk capital,Regulatory data,0
+primerica_life,Primerica Life,Credit risk capital,Regulatory data,0
+primerica_life,Primerica Life,Bond rating split,Regulatory data,0
+primerica_life,Primerica Life,Mortgage arrears,Not available,0
+primerica_life,Primerica Life,Sector concentration,Regulatory data,0
+primerica_life,Primerica Life,Liquid assets measure,Regulatory data,0
+humania,Humania,Rate sensitivity,Not available,0
+humania,Humania,Spread sensitivity,Not available,0
+humania,Humania,Equity sensitivity,Not available,0
+humania,Humania,Alternatives sensitivity,Not available,0
+humania,Humania,Capital sensitivity,Not available,0
+humania,Humania,Market risk capital,Not available,0
+humania,Humania,Credit risk capital,Not available,0
+humania,Humania,Bond rating split,Not available,0
+humania,Humania,Mortgage arrears,Not available,0
+humania,Humania,Sector concentration,Not available,0
+humania,Humania,Liquid assets measure,Regulatory data,0
+desjardins,Desjardins Insurance,Rate sensitivity,Disclosed,0
+desjardins,Desjardins Insurance,Spread sensitivity,Not available,0
+desjardins,Desjardins Insurance,Equity sensitivity,Disclosed,0
+desjardins,Desjardins Insurance,Alternatives sensitivity,Disclosed,0
+desjardins,Desjardins Insurance,Capital sensitivity,Not available,0
+desjardins,Desjardins Insurance,Market risk capital,Not available,0
+desjardins,Desjardins Insurance,Credit risk capital,Not available,0
+desjardins,Desjardins Insurance,Bond rating split,Not available,0
+desjardins,Desjardins Insurance,Mortgage arrears,Not available,0
+desjardins,Desjardins Insurance,Sector concentration,Not available,0
+desjardins,Desjardins Insurance,Liquid assets measure,Not available,0
+canada_protection_plan,Canada Protection Plan,Rate sensitivity,Not available,0
+canada_protection_plan,Canada Protection Plan,Spread sensitivity,Not available,0
+canada_protection_plan,Canada Protection Plan,Equity sensitivity,Not available,0
+canada_protection_plan,Canada Protection Plan,Alternatives sensitivity,Not available,0
+canada_protection_plan,Canada Protection Plan,Capital sensitivity,Not available,0
+canada_protection_plan,Canada Protection Plan,Market risk capital,Not available,0
+canada_protection_plan,Canada Protection Plan,Credit risk capital,Not available,0
+canada_protection_plan,Canada Protection Plan,Bond rating split,Not available,0
+canada_protection_plan,Canada Protection Plan,Mortgage arrears,Not available,0
+canada_protection_plan,Canada Protection Plan,Sector concentration,Not available,0
+canada_protection_plan,Canada Protection Plan,Liquid assets measure,Not available,0

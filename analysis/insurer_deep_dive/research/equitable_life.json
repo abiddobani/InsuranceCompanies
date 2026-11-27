@@ -1,0 +1,412 @@
+{
+  "company_id": "equitable_life",
+  "name": "The Equitable Life Insurance Company of Canada (Equitable)",
+  "as_of": "2025-12-31",
+  "ownership": "Mutual (owned by participating policyholders); no listed securities",
+  "regulator": "OSFI",
+  "metrics": [
+    {
+      "metric": "Total assets",
+      "value": 12.703,
+      "unit": "C$bn",
+      "as_of": "2025-12-31",
+      "source": "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf",
+      "note": "+24% y/y (C$10.21bn at YE2024). General fund C$7.90bn + segregated funds C$4.80bn. No interim financials published (mutual, annual reporting only)."
+    },
+    {
+      "metric": "Total invested assets (general fund)",
+      "value": 7.264,
+      "unit": "C$bn",
+      "as_of": "2025-12-31",
+      "source": "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf",
+      "note": "Bonds 2,734; equities 2,533; private placements 853; investment property 545; mortgages 518; cash/ST 61; derivatives 14; seed capital 6 (C$mm). C$6.29bn at YE2024."
+    },
+    {
+      "metric": "Segregated fund assets",
+      "value": 4.799,
+      "unit": "C$bn",
+      "as_of": "2025-12-31",
+      "source": "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf",
+      "note": "+43% y/y (C$3.36bn YE2024); Individual Wealth deposits C$1.82bn in 2025. No separate AUM/AUMA measure published; brochure cites 'C$12.7bn of assets under administration' (= total assets)."
+    },
+    {
+      "metric": "Net income FY2025",
+      "value": 180.4,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf",
+      "note": "FY2024 C$186.9mm. All income attributed to participating policyholders' equity. No core/underlying earnings measure; no YTD 2026 figure published."
+    },
+    {
+      "metric": "Premiums and deposits FY2025",
+      "value": 4272,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf",
+      "note": "+27% y/y. Policyholder dividends paid C$176mm; claims and benefits C$1.62bn."
+    },
+    {
+      "metric": "LICAT total ratio",
+      "value": 159,
+      "unit": "%",
+      "as_of": "2025-12-31",
+      "source": "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf",
+      "note": "169% YE2024, 172% YE2023 (174% at Q1 2024 per DBRS). Capital resources C$3,208mm vs base solvency buffer C$2,018mm. Internal target not disclosed. Total balance sheet capital C$2,405mm (policyholders' equity 1,733 + CSM 672)."
+    },
+    {
+      "metric": "Financial leverage ratio",
+      "value": 0,
+      "unit": "%",
+      "as_of": "2025-12-31",
+      "source": "https://dbrs.morningstar.com/research/437785",
+      "note": "No debt, preferred shares or hybrids outstanding (DBRS: 'no debt outstanding'; FS show no borrowings)."
+    },
+    {
+      "metric": "Credit rating (Morningstar DBRS)",
+      "value": null,
+      "unit": "rating",
+      "as_of": "2024-08-12",
+      "source": "https://dbrs.morningstar.com/research/437785",
+      "note": "FSR A (high), Issuer Rating A (high), Stable trends; upgraded to A (high) Sept 2020. AR 2025 (Feb 2026) states DBRS confirmed A (high) Stable. No AM Best, S&P or Moody's ratings."
+    },
+    {
+      "metric": "Investment team headcount",
+      "value": null,
+      "unit": "people",
+      "as_of": "",
+      "source": "",
+      "note": "Not disclosed. In-house 'Asset Management division' led by EVP & CIO; job postings reference a VP Private Investments and credit team (Waterloo). Team page not published."
+    },
+    {
+      "metric": "Employees",
+      "value": 1400,
+      "unit": "people",
+      "as_of": "2026-04-27",
+      "source": "https://advisor.equitable.ca/advisor/getattachment/a50db86e-b9f8-4000-9aa0-a9c0ce6283fb/1629_Why-do-business-with-Equitable_EN_2026-04-27_PA_AODA.pdf",
+      "note": "'More than 1,400 employees across the country' (company brochure). Canada's Top 100 Employers listing shows 1,084 FT + 42 PT (undated)."
+    }
+  ],
+  "business_mix": {
+    "basis": "Premiums and deposits by line of business, FY2025",
+    "as_of": "2025-12-31",
+    "source": "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf",
+    "items": [
+      {
+        "label": "Individual Wealth (seg funds, GIFs, annuities)",
+        "pct": 42.5,
+        "note": "C$1,815mm deposits (+43% y/y); new sales C$1,815mm"
+      },
+      {
+        "label": "Individual Insurance (par whole life, term, UL, CI)",
+        "pct": 39.0,
+        "note": "C$1,668mm premiums (+20%); new business sales C$307mm (+39%)"
+      },
+      {
+        "label": "Group Insurance (benefits)",
+        "pct": 18.5,
+        "note": "C$789mm premiums (+11%); new sales C$111mm"
+      }
+    ]
+  },
+  "people": [
+    {
+      "role": "CEO",
+      "name": "Fabien Jeudy, FSA, FCIA",
+      "title": "President and Chief Executive Officer",
+      "reports_to": "Board (Chair Douglas S. Alexander)",
+      "entity": "The Equitable Life Insurance Company of Canada",
+      "seat_since": 2021,
+      "firm_since": 2021,
+      "industry_since": 1990,
+      "prior": "Sun Life: CEO Sun Life Hong Kong 2017-2021, SVP & COO Asia regional functions, earlier actuarial roles; Concordia actuarial math 1990",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.equitable.ca/en/who-we-are/news/equitable-life-of-canada-appoints-new-president-and-ceo",
+        "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf"
+      ],
+      "note": "Appointed 2021-03-30, took office 2021-07-05 succeeding Ronald Beettam. industry_since 1990 inferred from graduation year. Mutual company: no proxy circular; executive compensation not disclosed."
+    },
+    {
+      "role": "CIO",
+      "name": "Eugene Lundrigan",
+      "title": "Executive Vice-President, Chief Investment Officer",
+      "reports_to": "CEO (inferred; EVP on executive team)",
+      "entity": "The Equitable Life Insurance Company of Canada (in-house Asset Management division)",
+      "seat_since": 2025,
+      "firm_since": 2025,
+      "industry_since": 1995,
+      "prior": "Head of Institutional Business and President, SLC Management Canada; senior roles at Sun Life (Canada, Asia) and Bank of Canada",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.equitable.ca/why-equitable/news/2025/09/equitable-welcomes-new-executive-vice-president-and-chief-investment-officer",
+        "https://equitable.ca/en/who-we-are/our-leadership/eugene-lundrigan"
+      ],
+      "note": "Appointed 2025-09-15, succeeding Tara Proper, CFA, FRM (EVP & CIO 2021-2025, retired after 28 years; consulting to end-2025). industry_since inferred from '30+ years'. CIO sits inside the insurer; no affiliated asset-management company."
+    },
+    {
+      "role": "Head of public markets / fixed income",
+      "name": null,
+      "title": "Not identified",
+      "reports_to": "CIO",
+      "entity": "The Equitable Life Insurance Company of Canada",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.equitable.ca/en/who-we-are/our-leadership/paul-english-biography"
+      ],
+      "note": "No public disclosure. Paul English (SVP Investments, joined 2007) had a leadership bio that now returns 404; current status unknown. Job postings reference a 'Private Investments, VP' and a credit team in Waterloo (names not given)."
+    },
+    {
+      "role": "CFO",
+      "name": "Melanie Kliska, FSA, FCIA",
+      "title": "Executive Vice-President, Chief Financial Officer",
+      "reports_to": "CEO",
+      "entity": "The Equitable Life Insurance Company of Canada",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf"
+      ],
+      "note": "Signed FY2025 statements (2026-02-20). CRO role reports to the EVP CFO per Equitable's CRO job posting."
+    },
+    {
+      "role": "Chief Actuary",
+      "name": "Phillip K. Watson, FCIA",
+      "title": "Senior Vice-President, Chief Actuary (Appointed Actuary)",
+      "reports_to": "CFO/CEO (not stated)",
+      "entity": "The Equitable Life Insurance Company of Canada",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf"
+      ],
+      "note": "Second-line risk oversight shared by CRO, Chief Compliance Officer, Chief Actuary and Head of Technology Risk & Governance."
+    },
+    {
+      "role": "CRO",
+      "name": "Lisa Zwicker",
+      "title": "AVP, Risk Management and Chief Risk Officer (inferred, unverified)",
+      "reports_to": "EVP & CFO (per job posting); presents to Senior Risk and Capital Committee and Board",
+      "entity": "The Equitable Life Insurance Company of Canada",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://wiza.co/d/equitable-life/52eb/lisa-zwicker",
+        "https://tietalent.com/en/jobs/p-241521736/waterloo-chief-risk-officer"
+      ],
+      "note": "(inferred) Name from a third-party data aggregator only; Equitable does not name its CRO in the annual report. A CRO vacancy was advertised (Waterloo, reporting to EVP CFO) - timing of hire unknown."
+    }
+  ],
+  "pm_structure": {
+    "summary": "In-house Asset Management division (bottom-up credit, active duration, ETFs for public equity) manages the general account; external funds for PE, infrastructure equity and part of real estate; no affiliated manager.",
+    "manager_entities": [
+      "Equitable Asset Management division (in-house; CIO Eugene Lundrigan)",
+      "External fund managers: PE (buyout, co-invest, mezzanine, secondaries), infrastructure equity (4 managers from 2025), property funds",
+      "Third-party fund managers underlying segregated funds / GIFs (inferred)"
+    ],
+    "bullets": [
+      "Strategic asset allocation per portfolio with active tilts; own credit research for bonds, private placements and commercial mortgages",
+      "Public equity via ETFs; preferred shares IG-focused for tax-advantaged dividends",
+      "Investment property direct and via external funds; commercial mortgages originated in-house (LTV to 75%, CMHC-insured above)",
+      "Oversight: Asset Management Committee and Board Investment Committee; custodian is securities-lending agent with borrower indemnity",
+      "GF managed assets (AR p.11): bonds 38%, public equity 26%, private placements 12%, property 8%, mortgages 7%, prefs 6%, PE 2%, other 1%"
+    ],
+    "sources": [
+      "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf"
+    ]
+  },
+  "rotation_commentary": [
+    {
+      "year": 2025,
+      "text": "2025: initiated infrastructure equity via four fund commitments with four external managers; build-out continues in 2026 across geography, strategy, sector.",
+      "source": "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf"
+    },
+    {
+      "year": 2025,
+      "text": "2025: private placements +38% to C$853mm, mortgages +19% to C$518mm, property +19% to C$545mm; public bonds flat at C$2.73bn.",
+      "source": "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf"
+    },
+    {
+      "year": 2025,
+      "text": "2025: corporates 65% of bond book (60% in 2024); governments used for liquidity/duration; new Equitable GIFs launched Nov 2025.",
+      "source": "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf"
+    },
+    {
+      "year": 2024,
+      "text": "2024 AR: close to 60% of private-placement energy exposure is renewable (solar, wind, hydro, biogas); mortgages include affordable rental housing.",
+      "source": "https://cdn.equitable.ca/forms/unsecured/compliance/2024-Annual-Report.pdf"
+    }
+  ],
+  "target_allocations": [
+    {
+      "asset_class": "All",
+      "target": "Not published; AR states a strategic asset allocation is set per portfolio and actively managed around it",
+      "source": "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf"
+    }
+  ],
+  "leverage": {
+    "debt_outstanding": [
+      {
+        "type": "None - no senior, subordinated, LRCN, preferred or hybrid capital outstanding",
+        "amount_cad_mm": 0,
+        "as_of": "2025-12-31",
+        "source": "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf",
+        "note": "Mutual; capital = participating policyholders' equity C$1,733mm + CSM C$672mm"
+      }
+    ],
+    "financial_leverage_ratio_pct": 0,
+    "issuance": [],
+    "securities_lending": {
+      "amount_cad_mm": 898.1,
+      "as_of": "2025-12-31",
+      "text": "Securities loaned C$898.1mm (C$968.9mm at YE2024) against collateral of C$1,026.3mm (C$1,045.8mm); custodian is lending agent, marks daily and indemnifies borrower default. Loaned securities remain in invested assets.",
+      "source": "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf"
+    },
+    "repos": {
+      "amount_cad_mm": null,
+      "as_of": "2025-12-31",
+      "text": "No repurchase or reverse repurchase agreements disclosed. Derivative collateral: C$0.3mm bonds pledged, nil held (CSA with major Canadian bank counterparties); derivatives C$14.5mm assets.",
+      "source": "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf"
+    },
+    "structured_indirect": [
+      {
+        "text": "Private placements (illiquid private fixed income with covenants/collateral; includes infrastructure such as port, rail, school-bus and renewables)",
+        "amount_cad_mm": 853.2,
+        "source": "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf"
+      },
+      {
+        "text": "Commercial mortgages (office, retail, multi-family, industrial; uninsured up to 75% LTV)",
+        "amount_cad_mm": 517.5,
+        "source": "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf"
+      },
+      {
+        "text": "Investment property (direct + external funds)",
+        "amount_cad_mm": 545.5,
+        "source": "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf"
+      },
+      {
+        "text": "Private equity funds (~2% of general fund managed assets) and infrastructure equity funds (4 commitments, 2025); amounts and undrawn commitments not disclosed",
+        "amount_cad_mm": null,
+        "source": "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf"
+      },
+      {
+        "text": "No CLO/ABS, fund finance, SRT, sidecar or funding-agreement exposure disclosed",
+        "amount_cad_mm": null,
+        "source": "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf"
+      }
+    ]
+  },
+  "partnerships": {
+    "underwriters": [],
+    "deals": [
+      {
+        "year": 2026,
+        "text": "Partnership with Empathy for enhanced loss/bereavement support (Mar 2026); RxFood added to all group benefits plans at no cost (Mar 2026)",
+        "source": "https://www.equitable.ca/why-equitable/news"
+      },
+      {
+        "year": 2025,
+        "text": "New Equitable GIFs (Nov 2025); EVP & CIO hired from SLC Management (Sep 2025); EVP Strategy & Impact (Carbell) and EVP Individual Insurance (Reeves) named Mar 2025",
+        "source": "https://www.equitable.ca/why-equitable/news/2025/03/equitable-announces-leadership-changes-focused-on-growth-and-strategy"
+      },
+      {
+        "year": 2021,
+        "text": "CEO succession: Fabien Jeudy (ex-Sun Life Hong Kong) succeeded Ronald Beettam (July 2021)",
+        "source": "https://www.equitable.ca/en/who-we-are/news/equitable-life-of-canada-appoints-new-president-and-ceo"
+      }
+    ],
+    "sponsorships": [
+      {
+        "year": 2026,
+        "text": "The Equitable Foundation: C$500,000 in donations to food-insecurity charities (Jul 2026); 2025 Impact Report released May 2026",
+        "source": "https://www.equitable.ca/why-equitable/news"
+      },
+      {
+        "year": 2020,
+        "text": "C$4.6mm donation to Waterloo Region health care (centennial)",
+        "source": "https://equitable.ca/en/who-we-are/news/?year=2020"
+      }
+    ],
+    "bank_relationships": [
+      {
+        "text": "No bank ownership or bancassurance; distributes through independent advisors and MGAs. Derivative counterparties are major Canadian financial institutions under credit support agreements.",
+        "source": "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf"
+      }
+    ]
+  },
+  "risk": {
+    "appetite": [
+      "Take risks only if aligned with purpose and creating long-term sustainable value for clients; understand impact on clients, partners, financial strength and reputation",
+      "Investment and lending policies set eligible assets, diversification and exposure/concentration/quality limits; equity mostly backs par/UL pass-through",
+      "Reinsurance placed only with counterparties rated A or better"
+    ],
+    "governance": [
+      "Board with Audit, Conduct Review, Governance/Compliance/Nominating, HR & Compensation and Investment Committees (independent directors)",
+      "Senior Risk and Capital Committee and Asset Management Committee at management level; Appointed Actuary owns valuation assumptions",
+      "Three lines: business/corporate functions; CRO, Chief Compliance Officer, Chief Actuary, Head of Technology Risk; Internal Audit"
+    ],
+    "capital_target": "Internal target not disclosed; LICAT 159% at YE2025 (OSFI supervisory 100%). Annual 5-year FCT confirmed resilience to adverse scenarios (2025).",
+    "sensitivities": [
+      "Equity -10% / -35%: net income and equity -C$41.8mm / -C$146.2mm (YE2025); symmetric upside",
+      "Interest rates -50bp: net income -C$2.8mm, CSM -C$4.8mm; +50bp: net income -C$1.2mm, CSM +C$2.6mm (YE2025)",
+      "Credit spreads -50bp / +50bp: net income +C$3.5mm / +C$1.3mm (YE2025)",
+      "FX -10%: net income -C$10.2mm; investment property -10%: net income -C$21.2mm (YE2025)",
+      "Insurance: 2% mortality, 5% morbidity, 10% lapse and 5% expense sensitivities disclosed in FS note 10 (amounts in AR)"
+    ],
+    "hedging": [
+      "Asset-liability management program manages rate mismatch; derivatives (C$14.5mm FV) with Canadian bank counterparties under CSAs",
+      "Seg fund minimum death/maturity guarantees reserved in general fund; no dynamic hedging program described",
+      "Equity backing par/UL passes through to policyholders via dividend scale / credited rates, limiting shareholder-equivalent exposure"
+    ],
+    "events": [
+      "2025: LICAT fell to 159% from 169% as capital resources now include seg-fund amounts under updated OSFI rules and growth consumed buffer",
+      "2025: CIO transition (Proper retired; Lundrigan hired from SLC Management); 2025 Board refresh (4 retirements, 2 additions)",
+      "DBRS A (high) confirmed Aug 2024 and (per AR) in 2025; no regulatory actions disclosed"
+    ],
+    "sources": [
+      "https://www.equitable.ca/getmedia/8d614bdc-875a-4b2d-8fe7-ac560fbe80b4/annual-report-2025.pdf",
+      "https://dbrs.morningstar.com/research/437785"
+    ]
+  },
+  "gaps": [
+    "Mutual company: no proxy circular; no executive compensation disclosed for any officer",
+    "No interim (Q1-Q3 2026) financial statements or capital ratio published; latest data is FY2025 (Feb 2026)",
+    "Head of fixed income / public markets and head of private investments not publicly named; CRO name only from a data aggregator (unverified)",
+    "Investment team headcount, target asset allocation and internal LICAT target not disclosed",
+    "Segregated-fund sub-adviser roster not confirmed (inferred that GIFs use third-party fund managers)",
+    "Executive team web page is JavaScript-rendered and bio pages return 404 to fetch tools; titles taken from annual report signatures and press releases",
+    "No sponsorships (sports/arts/naming) found for 2025-2026; only Foundation donations",
+    "DBRS 2025/2026 confirmation press release not located (AR states rating confirmed)"
+  ],
+  "notes": "Primary source: Equitable Annual Report 2025 (approved 2026-02-20; six-year highlights, asset management section pp.10-11, risk management pp.13-14, FS notes 4-5 on invested assets, securities lending and market-risk sensitivities). Equitable's three lines of business per AR: Individual Insurance, Group Insurance (benefits), Individual Wealth (Savings & Retirement). Founded 1920, HQ Waterloo ON. Library of textbooks (MANDATES) not available in this session; public sources used. Firecrawl credits exhausted mid-task; WebSearch/WebFetch/curl used instead."
+}

@@ -1,0 +1,102 @@
+{
+  "company_id": "humania",
+  "operating_entities": null,
+  "ceo": {
+    "name": "Nicolas Moskiou",
+    "title": "President and Chief Executive Officer (FSA)",
+    "entity": "Humania Assurance Inc.",
+    "reports_to": "Board of Directors (Chair Joanne Vézina)",
+    "seat_since": "2024-05",
+    "firm_since": null,
+    "industry_since": null,
+    "prior": "Humania: Executive VP Product, Innovation & Partnerships; earlier led group insurance, operations and customer experience. Before Humania: National Bank of Canada (Practice Lead, AI); Banque Nationale Assurances (Chief Actuary, product manufacturing & performance); Croix Bleue du Québec (Head Actuary); AXA (Senior Actuary). BSc Actuarial Science, Concordia",
+    "tenure_source": "press release (interim CEO December 2023, confirmed 2024-05-27); conference bio (InsurTechNY 2024: 'more than six years at Humania')",
+    "comp_total": null,
+    "comp_currency": "CAD",
+    "comp_year": null,
+    "comp_source": "Mutual (LS Mutual Management); no proxy circular; HR Committee sets CEO pay, amount undisclosed",
+    "sources": [
+      "https://www.humania.ca/en/news/appointment-nicolas-moskiou-president-ceo/",
+      "https://www.humania.ca/actualites/changement-a-direction-humania-assurance/",
+      "https://www.insurtechny.com/speakers/nicolas-moskiou/",
+      "https://www.humania.ca/en/about-us/executive-team"
+    ],
+    "note": "firm_since left null: the 2024 conference bio says 'more than six years at Humania' (implies 2017-2018) but no source gives the year. Interim CEO from 2023-12-22 after Marc Peliel's departure."
+  },
+  "cio": {
+    "name": "Luc Bergeron",
+    "title": "Vice-President, Investment and Special Projects (FCIA, FSA)",
+    "entity": "Humania Assurance Inc.",
+    "reports_to": "President and CEO (inferred: listed on the executive team in the 2025 annual report)",
+    "seat_since": "2025",
+    "firm_since": null,
+    "industry_since": null,
+    "prior": "Humania: Vice-President, Finance and Treasurer (title held in the FY2023 and FY2024 annual reports; co-signed the FY2023 and FY2024 management reports with the CEO); member of the board Investment Committee in FY2023-FY2024",
+    "tenure_source": "annual reports (FY2023 FR, FY2024 EN, FY2025 EN executive-team pages and management-report signatures)",
+    "comp_total": null,
+    "comp_currency": "CAD",
+    "comp_year": null,
+    "comp_source": "Mutual; no compensation disclosed",
+    "sources": [
+      "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf",
+      "https://www.humania.ca/wp-content/documents/en/1050-005-Rapport-Annuel-2024-EN.pdf",
+      "https://www.humania.ca/_media/document/rapport-annuel-2023-web-fr.pdf",
+      "https://www.humania.ca/en/about-us/executive-team"
+    ],
+    "note": "Most senior officer with an investment title. seat_since 2025: he signed the FY2024 management report (2025-02-20) as VP Finance and Treasury; Dimitri Georgoulas became SVP Finance on 2025-05-01 and signed the FY2025 report (2026-02-12); the FY2025 annual report (published April 2026) lists Bergeron as VP Investment and Special Projects. He is NOT on the humania.ca executive-team page (EN or FR) as of 2026-11-03, so he may have left or the role may be transitional; treat 2026 status as unverified. firm_since null: he was already VP Finance and Treasurer in the FY2023 report and no earlier source was found. Portfolios are run by external managers selected by the board Investment Committee (FY2025 AR), so his role is oversight, not portfolio management."
+  },
+  "cio_direct_reports": [],
+  "other_leaders": [
+    {
+      "name": "Dimitri Georgoulas",
+      "title": "Senior Vice-President, Finance (and Treasurer)",
+      "entity": "Humania Assurance Inc.",
+      "reports_to": "President and CEO",
+      "seat_since": "2025-05",
+      "firm_since": "2025-05",
+      "industry_since": null,
+      "prior": "Prior firms not disclosed ('impressive track record and proven skills in financial management')",
+      "tenure_source": "press release (appointment 2025-05-01, published 2025-05-13)",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "Mutual; no compensation disclosed",
+      "sources": [
+        "https://www.humania.ca/en/news/humania-appoints-two-new-vice-presidents-to-drive-its-ambition-and-spirit-of-innovation/",
+        "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf",
+        "https://www.humania.ca/en/about-us/executive-team"
+      ],
+      "note": "CFO equivalent. Co-signed the FY2025 management report as 'Senior Vice-President, Finance and Treasurer'. The 2025 climate report assigns the SVP Finance responsibility for internal controls and sustainability disclosures. No LinkedIn snippet found (search returned no matching profile)."
+    },
+    {
+      "name": "Alina Dudau",
+      "title": "Vice-President, Actuary (A.S.A.); Chief Actuary and head of risk management",
+      "entity": "Humania Assurance Inc.",
+      "reports_to": "President and CEO",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "Humania: Chief Actuary (title in FY2023 and FY2024 annual reports); member of the board Investment Committee in FY2023-FY2024",
+      "tenure_source": "annual reports (FY2023-FY2025)",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "Mutual; no compensation disclosed",
+      "sources": [
+        "https://www.humania.ca/en/about-us/executive-team",
+        "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf",
+        "https://www.humania.ca/wp-content/documents/en/26008-HUMANIA-ASSURANCE-RAPPORT-CLIMAT-ENG-NUMERIQUE-2025-20260707.pdf"
+      ],
+      "note": "CRO equivalent. The Audit and Risk Committee report (FY2023-FY2025 ARs) says the committee meets privately with 'the Chief Actuary who is also head of risk management'; the 2025 climate report assigns the 'Vice-President, Actuarial' responsibility 'for the overall management of risks within the organization'. Appointed Actuary is external (Marie-Andrée Boucher, FCIA, FSA). Dates null: Chief Actuary since at least FY2023; no appointment release or LinkedIn snippet found."
+    }
+  ],
+  "gaps": [
+    "No operating-entities page on humania.ca. Pages checked (2026-11-03): /en/about-us/ and /a-propos-humania-assurance/ (FR), /en/about-us/executive-team and /a-propos/equipe-de-direction/, /en/about-us/board-of-directors/, /en/terms-of-use/ and /conditions-dutilisation/ (name only 'Humania Assurance Inc.' as site operator), /en/consumer-protection/, /en/assuris-member/, /en/legal-notice/ (404), sitemap.xml and page-sitemap.xml. Structure is stated only in PDFs: the 2025 climate report ('Humania Insurance Inc. is a subsidiary of La Survivance, Mutuelle de gestion' with 'its subsidiary La Survivance-Voyage') and the annual report (consolidated as LS Mutual Management; LS Travel / Humania Travel Insurance business unit led by VP Martin Houde Bergeron).",
+    "CIO direct reports: none disclosed. The general account is run by external investment managers selected by the board Investment Committee (members FY2025: Martin Leroux, Chair; Daniel Pellerin; Michel Pelletier, external expert); manager names are not disclosed.",
+    "Luc Bergeron's 2026 status is unverified (in the FY2025 annual report but not on the current executive-team page).",
+    "Tenure nulls: Moskiou firm_since/industry_since; Bergeron firm_since/industry_since; Georgoulas industry_since; Dudau all three. Web searches for LinkedIn snippets returned no matching profiles for Bergeron, Dudau or Georgoulas; MarketScreener pages return 403 to curl; the session's web-search budget was exhausted before French-language follow-ups.",
+    "Mutual: no proxy circular, no compensation for any executive.",
+    "Executive team on the site as of 2026-11-03 (for completeness): Moskiou (CEO), Dudau (VP Actuary), Luc Thibault (SVP Operations, appointed 2025-05-01), Georgoulas (SVP Finance), Kim Rochette (VP Culture, Talent & CX), Jean-Benoît Forgues (VP Legal Affairs & Compliance, Corporate Secretary), Valérie Le Roux (VP Products & Partnerships), Martin Houde Bergeron (VP Humania Travel Insurance)."
+  ],
+  "notes": "Humania Assurance Inc. (Saint-Hyacinthe) is a subsidiary of La Survivance, Mutuelle de gestion (LS Mutual Management) with a travel subsidiary (La Survivance-Voyage / LS Travel); its own website has no entities page, so operating_entities is null per the brief. The senior investment officer is Luc Bergeron, VP Investment and Special Projects (moved from VP Finance and Treasurer in 2025 when Dimitri Georgoulas arrived as SVP Finance), with no investment staff beneath him disclosed because the C$0.4bn general account is outsourced to unnamed external managers under a board Investment Committee that includes an external expert. The CFO (Georgoulas, since 2025-05) and the risk head (Alina Dudau, VP Actuary / Chief Actuary and head of risk management) both report to the CEO. Personal library not available in this session; public sources used. Bigdata.com and Firecrawl not used per brief."
+}

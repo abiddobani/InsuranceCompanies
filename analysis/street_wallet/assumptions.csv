@@ -1,0 +1,25 @@
+product,group,relative_trading_weight,one_way_cost_bps,turnover,maturities_per_year
+"Government bonds (federal, provincial, municipal)",Rates,1.5,3.0,"share of gross flows net of maturities, allocated by holdings x weight",0.06
+Investment-grade public corporate bonds,Corporate bonds,1.0,12.0,"share of gross flows net of maturities, allocated by holdings x weight",0.06
+Below-investment-grade bonds,Corporate bonds,1.0,35.0,"share of gross flows net of maturities, allocated by holdings x weight",0.06
+Private placements,Not street,0.3,0.0,"share of gross flows net of maturities, allocated by holdings x weight",0.06
+Mortgages and other loans,Not street,0.4,0.0,"share of gross flows net of maturities, allocated by holdings x weight",0.1
+Common shares,Equities,1.5,10.0,"share of gross flows net of maturities, allocated by holdings x weight",
+Preferred shares,Equities,0.5,25.0,"share of gross flows net of maturities, allocated by holdings x weight",
+Real estate,Not street,0.1,0.0,"share of gross flows net of maturities, allocated by holdings x weight",
+"Private equity, infrastructure and other funds",Not street,0.3,0.0,"share of gross flows net of maturities, allocated by holdings x weight",
+Money market (cash and short-term),Rates,,0.5,6 rolls a year; flows above 100% of assets,
+Interest rate swaps,Rates & credit derivatives,,0.125/0.75/3,traded per year per unit outstanding by term <1y/1-5y/>5y: 1.10/0.43/0.20,
+Bond forwards and FRAs,Rates & credit derivatives,,1/1/1,traded per year per unit outstanding by term <1y/1-5y/>5y: 4.00/4.00/4.00,
+Interest rate and bond futures,Rates & credit derivatives,,0.25/0.25/0.25,traded per year per unit outstanding by term <1y/1-5y/>5y: 4.00/4.00/4.00,
+Interest rate options and swaptions,Rates & credit derivatives,,5/5/5,traded per year per unit outstanding by term <1y/1-5y/>5y: 1.00/0.33/0.10,
+Credit default swaps,Rates & credit derivatives,,2/2/2,traded per year per unit outstanding by term <1y/1-5y/>5y: 2.00/2.00/2.00,
+FX spot and forwards,FX,,1.5/1.5/1.5,traded per year per unit outstanding by term <1y/1-5y/>5y: 4.00/4.00/4.00,
+FX futures,FX,,0.5/0.5/0.5,traded per year per unit outstanding by term <1y/1-5y/>5y: 4.00/4.00/4.00,
+FX and cross-currency swaps,FX,,2/5/10,traded per year per unit outstanding by term <1y/1-5y/>5y: 1.10/0.43/0.20,
+FX options,FX,,10/10/10,traded per year per unit outstanding by term <1y/1-5y/>5y: 1.00/0.33/0.10,
+Equity index futures,Equity derivatives,,0.5/0.5/0.5,traded per year per unit outstanding by term <1y/1-5y/>5y: 4.00/4.00/4.00,
+Equity options,Equity derivatives,,10/10/10,traded per year per unit outstanding by term <1y/1-5y/>5y: 1.00/0.33/0.10,
+Equity swaps,Equity derivatives,,5/5/5,traded per year per unit outstanding by term <1y/1-5y/>5y: 1.00/0.33/0.10,
+"Equity-related contracts (OSFI, type not split)",Equity derivatives,,8/8/8,traded per year per unit outstanding by term <1y/1-5y/>5y: 1.00/0.33/0.10,
+Commodity and other contracts,Commodities,,5/5/5,traded per year per unit outstanding by term <1y/1-5y/>5y: 1.00/0.33/0.10,

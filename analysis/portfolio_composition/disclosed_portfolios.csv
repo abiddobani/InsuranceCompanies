@@ -1,0 +1,81 @@
+company_id,as_of,source,level3,amount_cad_mm,note
+manulife,2026-06-30,MFC Q2 2026 report to shareholders note 3(a),Cash,27540,Cash and short-term securities
+manulife,2026-06-30,MFC Q2 2026 report to shareholders note 3(a),Government Bonds,87664,"Canadian 18,550 + U.S. 27,004 + other government and agency 42,110"
+manulife,2026-06-30,MFC Q2 2026 report to shareholders note 3(a),Corporate Bonds,131739,
+manulife,2026-06-30,MFC Q2 2026 report to shareholders note 3(a),Asset Backed Securities,3470,Mortgage / asset-backed securities
+manulife,2026-06-30,MFC Q2 2026 report to shareholders note 3(a),Common Shares,48273,Public equities; preferred not split out
+manulife,2026-06-30,MFC Q2 2026 report to shareholders note 3(a) and non-GAAP section,Commercial Mortgages,30395,"Mortgages 59,100 less 28,705 held by Manulife Bank (bank-funded, excluded)"
+manulife,2026-06-30,MFC Q2 2026 report to shareholders note 3(a),Illiquid Term Loans,54883,Private placements
+manulife,2026-06-30,MFC Q2 2026 report to shareholders note 3(a),Real Estate Equity,9759,Investment property (own-use property 2,698 excluded)
+manulife,2026-06-30,MFC Q2 2026 report to shareholders note 3(a) footnote 8,Infrastructure Equity,19841,ALDA infrastructure
+manulife,2026-06-30,MFC Q2 2026 report to shareholders note 3(a) footnote 8,Other Private Equity,32711,"ALDA private equity 20,042 + timber and agriculture 6,182 + energy 1,878 + various other ALDA 4,609"
+manulife,2026-06-30,MFC Q2 2026 report to shareholders note 3(a) footnote 9,Policy & Other Loans,5056,"Various other invested assets, of which 4,507 leveraged leases"
+manulife,2026-06-30,excluded,EXCLUDED: Bank-funded loans,31748,"Loans to Bank clients 3,043 + Manulife Bank mortgages 28,705"
+manulife,2026-06-30,excluded,EXCLUDED: Own-use property,2698,
+sun_life,2026-06-30,SLF Q2 2026 supplementary financial information: Investments,Cash,14788,"Cash, cash equivalents and short-term securities"
+sun_life,2026-06-30,SLF Q2 2026 supplementary financial information: Investments,Government Bonds,30559,
+sun_life,2026-06-30,SLF Q2 2026 supplementary financial information: Investments,Corporate Bonds,46552,
+sun_life,2026-06-30,SLF Q2 2026 supplementary financial information: Investments,Asset Backed Securities,16125,"Government and agency 4,107 + other 12,018"
+sun_life,2026-06-30,SLF Q2 2026 supplementary financial information: Investments,Common Shares,14298,Equity securities; common/preferred not split out
+sun_life,2026-06-30,SLF Q2 2026 supplementary financial information: Investments,Commercial Mortgages,13178,Includes 3,913 multi-family residential and 3,121 insured
+sun_life,2026-06-30,SLF Q2 2026 supplementary financial information: Investments,Illiquid Term Loans,45948,Corporate loans (private placements)
+sun_life,2026-06-30,SLF Q2 2026 supplementary financial information: Statements of financial position,Other Private Equity,17383,"Other financial invested assets 15,542 (limited partnerships and funds, type split not disclosed) + other non-financial invested assets 1,841"
+sun_life,2026-06-30,SLF Q2 2026 supplementary financial information: Investments,Real Estate Equity,9795,Investment property
+sun_life,2026-06-30,excluded,EXCLUDED: Derivative assets,1618,Shown off balance sheet as notional
+canada_life,2026-06-30,GWO Q2 2026 supplement: invested assets by segment,_bonds,73107,"Canada non-par 27,793 + Europe 35,396 + Capital and Risk Solutions 9,918; split with OSFI Canada Life Assurance bond mix"
+canada_life,2026-06-30,GWO Q2 2026 supplement: invested assets by segment,Commercial Mortgages,13448,"Canada non-par 4,510 + Europe 8,038 + CRS 900"
+canada_life,2026-06-30,GWO Q2 2026 supplement: invested assets by segment,Real Estate Equity,2701,"Canada non-par 890 + Europe 1,811"
+canada_life,2026-06-30,GWO Q2 2026 supplement: invested assets by segment,_stocks,4990,"Canada non-par 4,552 + Europe 388 + CRS 50; split public/private with Lifeco-wide 14,041 / 8,064"
+canada_life,2026-06-30,GWO Q2 2026 supplement: invested assets by segment,Cash,4836,"Canada non-par 1,866 + Europe 2,463 + CRS 507"
+canada_life,2026-06-30,excluded,EXCLUDED: Participating account,65433,Canada Participating segment
+canada_life,2026-06-30,excluded,EXCLUDED: Empower (U.S.),93315,U.S. segment is Empower; not part of Canada Life
+ia,2026-06-30,iA Q2 2026 supplemental information package: invested assets,Cash,2378,Cash and short-term investments
+ia,2026-06-30,iA Q2 2026 supplemental information package: invested assets,Government Bonds,8838,"Governments 7,924 + municipalities 914"
+ia,2026-06-30,iA Q2 2026 supplemental information package: invested assets,Corporate Bonds,16072,Corporates - public issues
+ia,2026-06-30,iA Q2 2026 supplemental information package: invested assets,Illiquid Term Loans,5733,Corporates - private issues
+ia,2026-06-30,iA Q2 2026 supplemental information package: invested assets,Common Shares,3936,"Public equity 4,428 less preferred 492; includes index-linked UL backing"
+ia,2026-06-30,iA Q2 2026 supplemental information package: invested assets,Preferred Shares,492,
+ia,2026-06-30,iA Q2 2026 supplemental information package: loans,Commercial Mortgages,1080,75% multi-residential; 52% insured
+ia,2026-06-30,iA Q2 2026 supplemental information package: loans,Private Liquid Loans,329,Corporate loans rated BB or lower
+ia,2026-06-30,iA Q2 2026 supplemental information package: loans,Policy & Other Loans,2419,Car loans and other loans (iA Auto Finance)
+ia,2026-06-30,iA Q2 2026 supplemental information package: investment properties,Real Estate Equity,1578,"Investment properties 1,381 + indirectly owned 197"
+ia,2026-06-30,iA Q2 2026 supplemental information package: stocks,Other Private Equity,3274,Private equity and infrastructure (not split)
+ia,2026-06-30,iA Q2 2026 supplemental information package: other,Other / Unclassified,51,Other investments at FVTPL and amortized cost
+ia,2026-06-30,excluded,EXCLUDED: Derivative assets,1106,Shown off balance sheet as notional
+assumption_life,2025-12-31,Assumption Life 2025 annual report note 4,Cash,50.040,
+assumption_life,2025-12-31,Assumption Life 2025 annual report note 4,Government Bonds,400.728,"444,979 less 44,251 matched to participating contracts"
+assumption_life,2025-12-31,Assumption Life 2025 annual report note 4,Corporate Bonds,107.668,"111,056 less 3,388 participating"
+assumption_life,2025-12-31,Assumption Life 2025 annual report note 4,Common Shares,0.488,
+assumption_life,2025-12-31,Assumption Life 2025 annual report note 4,Preferred Shares,64.576,"79,745 less 15,169 participating"
+assumption_life,2025-12-31,Assumption Life 2025 annual report note 4,Commercial Mortgages,177.161,"Commercial 104,953 (ex 4,513 participating) + insured residential 28,767 + other residential 43,442"
+assumption_life,2025-12-31,Assumption Life 2025 annual report note 4,Policy & Other Loans,2.786,Other invested assets
+assumption_life,2025-12-31,excluded,EXCLUDED: Participating account,67.321,Fair value of assets matched to participating contracts
+assumption_life,2025-12-31,excluded,EXCLUDED: Pass-through fund units,379.644,Investment fund units whose return is passed to policyholders (UL)
+beneva,2025-12-31,Beneva 2025 annual report note 5,Cash,904.8,
+beneva,2025-12-31,Beneva 2025 annual report note 5,Government Bonds,3593.3,"Canada, Quebec and provinces 2,689.6 + municipalities, school boards, hospitals 903.7"
+beneva,2025-12-31,Beneva 2025 annual report note 5,Corporate Bonds,2831.3,
+beneva,2025-12-31,Beneva 2025 annual report note 5,Illiquid Term Loans,376.7,Private debt
+beneva,2025-12-31,Beneva 2025 annual report note 5,Common Shares,369.0,
+beneva,2025-12-31,Beneva 2025 annual report note 5,Preferred Shares,1023.0,
+beneva,2025-12-31,Beneva 2025 annual report note 5,Other Private Equity,1623.3,"Investments in private companies 1,533.9 + joint venture and associates 89.4"
+beneva,2025-12-31,Beneva 2025 annual report note 5,Other / Unclassified,394.7,"Mutual funds 7,079.9 less 6,685.2 pass-through; bond, equity and diversified funds not split"
+beneva,2025-12-31,Beneva 2025 annual report note 5,Commercial Mortgages,634.5,"Residential 590.4 + non-residential 44.1"
+beneva,2025-12-31,Beneva 2025 annual report note 5,Policy & Other Loans,345.5,Other loans (note 19)
+beneva,2025-12-31,Beneva 2025 annual report note 5,Real Estate Equity,49.3,Investment properties
+beneva,2025-12-31,excluded,EXCLUDED: Pass-through mutual funds,6685.2,Mutual funds whose return is passed to policyholders
+beneva,2025-12-31,excluded,EXCLUDED: Derivative assets,42.2,
+humania,2025-12-31,Humania 2025 annual report summary statement of financial position,Cash,24.494,"Cash 22,959 + money market 1,535"
+humania,2025-12-31,Humania 2025 annual report summary statement of financial position,Bonds (issuer n/d),316.738,Government/corporate split not published
+humania,2025-12-31,Humania 2025 annual report summary statement of financial position,Common Shares,0.500,
+humania,2025-12-31,Humania 2025 annual report summary statement of financial position,Infrastructure Equity,14.262,Infrastructure funds
+humania,2025-12-31,Humania 2025 annual report summary statement of financial position,Real Estate Equity,19.647,Real estate funds
+humania,2025-12-31,Humania 2025 annual report summary statement of financial position,Other Private Debt,3.200,Private debt funds
+humania,2025-12-31,Humania 2025 annual report summary statement of financial position,Policy & Other Loans,27.223,Loans (type not published)
+humania,2025-12-31,excluded,EXCLUDED: Derivative assets,0.149,
+uv_insurance,2025-12-31,UV Insurance 2025 annual report summary statement of financial position,Cash,83.205,"Cash 25,751 + money market 57,454"
+uv_insurance,2025-12-31,UV Insurance 2025 annual report summary statement of financial position,Bonds (issuer n/d),1925.983,Government/corporate split not published
+uv_insurance,2025-12-31,UV Insurance 2025 annual report summary statement of financial position,Preferred Shares,103.347,
+uv_insurance,2025-12-31,UV Insurance 2025 annual report summary statement of financial position,Common Shares,121.317,
+uv_insurance,2025-12-31,UV Insurance 2025 annual report summary statement of financial position,Other Private Equity,102.449,Private investments (type not published)
+uv_insurance,2025-12-31,UV Insurance 2025 annual report summary statement of financial position,Policy & Other Loans,52.635,Loans (type not published)
+uv_insurance,2025-12-31,excluded,EXCLUDED: Derivative assets,4.968,

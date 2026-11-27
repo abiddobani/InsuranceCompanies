@@ -1,0 +1,143 @@
+{
+  "company_id": "uv_insurance",
+  "operating_entities": null,
+  "ceo": {
+    "name": "Charles Guay",
+    "title": "Chief Executive Officer (Président-directeur général)",
+    "entity": "The Union Life Mutual Assurance Company (L'Union-Vie, compagnie mutuelle d'assurance), doing business as UV Insurance / UV Assurance",
+    "reports_to": "Board of Directors (Chair Alain Bédard, ICD.D, FSA, FCIA)",
+    "seat_since": "2026-09",
+    "firm_since": "2026-09",
+    "industry_since": null,
+    "prior": "National Bank of Canada (head of investment funds division); President & CEO Standard Life Canada (to the Manulife acquisition); President & CEO Manulife Quebec and CEO of Manulife's Canadian group benefits and group retirement operations; founder of an executive strategy/governance consultancy; chair of SuccessFinder; director of Pomerleau and AGF Management",
+    "tenure_source": "press release (appointed 2026-07-09, effective 2026-09-14)",
+    "comp_total": null,
+    "comp_currency": "CAD",
+    "comp_year": null,
+    "comp_source": "Mutual; no proxy circular; compensation undisclosed",
+    "sources": [
+      "https://www.uvassurance.ca/en/newsroom/charles-guay-appointed-ceo-of-uv-insurance",
+      "https://www.uvassurance.ca/en/discover-uv/management-team",
+      "https://www.uvassurance.ca/en/newsroom/with-a-profound-sense-of-accomplishment-uv-insurance-president-and-ceo-steps-down-after-10-years-of-service"
+    ],
+    "note": "Succeeded Christian Mercier (CEO December 2016 to September 2026). industry_since null: the release says '25 years of experience in the Canadian financial services industry' (implies ~2001) but gives no start year."
+  },
+  "cio": {
+    "name": "Pierre Parenteau",
+    "title": "Senior Vice President, Actuarial and Finance, and Appointed Actuary (FSA, FCAS, FCIA, CERA); most senior officer over finance, corporate actuarial and risk, under whom oversight of the external asset manager is presumed to sit",
+    "entity": "The Union Life Mutual Assurance Company (UV Insurance)",
+    "reports_to": "Chief Executive Officer",
+    "seat_since": "2021-03",
+    "firm_since": "2021-03",
+    "industry_since": null,
+    "prior": "More than 30 years in insurance and financial services at appointment (firms not named in the release); Insurance Portal reports he previously worked with Rohit Thomas (now BMO Insurance CEO) at TD; succeeded Luc Pellerin at UV",
+    "tenure_source": "press release (appointment announced 2021-02-15, joined 2021-03-08)",
+    "comp_total": null,
+    "comp_currency": "CAD",
+    "comp_year": null,
+    "comp_source": "Mutual; no compensation disclosed",
+    "sources": [
+      "https://www.uvassurance.ca/en/newsroom/appointment-of-pierre-parenteau-as-senior-vp-actuarial-and-finances",
+      "https://www.uvassurance.ca/en/discover-uv/management-team",
+      "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf",
+      "https://insurance-portal.ca/article/uv-insurance-acquires-200000-policies-from-bmo-life/"
+    ],
+    "note": "UV has no CIO or investment officer. The FY2025 annual report (Chair's message) states: 'In 2025, we issued a tender for the management of our assets and selected Sun Life Capital as the new manager of our various portfolios', i.e. the C$2.4bn general account is fully outsourced to SLC Management, with a board Investment Committee (President Fabienne Lacoste, CFA; Chair Marco Fillion; members Benoît Durocher, Lisa To) overseeing. Parenteau is named here as the accountable executive because the annual report's management chart groups Finance (Richard Dionne) and Risk (Eric Timmons) under 'Actuarial and Finance', and a 2026 UV job posting for VP Corporate Actuarial says that role reports to the 'PVP Actuariat et Finance'; no source explicitly says he oversees the SLC mandate (inferred). industry_since null: 'more than 30 years' at 2021 implies pre-1991 but no year is given."
+  },
+  "cio_direct_reports": [
+    {
+      "name": "Hugo Boutin-Ouellet",
+      "title": "Vice President, Corporate Actuary (FSA, FCIA, MAAA, EMBA)",
+      "entity": "The Union Life Mutual Assurance Company (UV Insurance)",
+      "reports_to": "Pierre Parenteau, SVP Actuarial and Finance",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": null,
+      "tenure_source": null,
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.uvassurance.ca/en/discover-uv/management-team",
+        "https://www.simplyhired.ca/job/6B78FlYcgRH8ei95-aviVSkcgbJXaa3nfIlfOxqAAD8Sf9OdtgetCQ"
+      ],
+      "note": "New on the 2026 management-team page; not in the FY2025 annual report (March 2026). Reporting line comes from the UV job posting for 'Vice-président, Actuariat corporatif' (search snippet: the role 'reports to the PVP Actuariat et Finance' and covers capital management, actuarial modelling, ESG strategy and actuarial governance); the posting page itself returns 403 to fetch tools. No appointment release or LinkedIn snippet found.",
+      "reporting_line": "stated"
+    },
+    {
+      "name": "Eric Timmons",
+      "title": "Chief Risk Management Officer (ASA, AICA)",
+      "entity": "The Union Life Mutual Assurance Company (UV Insurance)",
+      "reports_to": "Pierre Parenteau, SVP Actuarial and Finance (per FY2025 annual report chart grouping; inferred)",
+      "seat_since": "2025",
+      "firm_since": "2004",
+      "industry_since": "2004",
+      "prior": "UV Insurance only: actuarial analyst (2004), head of Investment-Retirement department, Senior Director Actuarial & Finance and Chief Compliance Officer (2017), Senior Director Project Office & Strategic Planning and Corporate Secretary (2023-03), CRO (2025)",
+      "tenure_source": "press release (2023-03-06: 'with UV Insurance since 2004, where he began his career as an actuarial analyst'); FY2025 annual report ('Appointed as Chief Risk Management Officer' in 2025)",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.uvassurance.ca/en/newsroom/uv-insurance-officially-launches-project-office-and-strategic-planning-and-appoints-eric-timmons-as-its-lead",
+        "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf",
+        "https://www.uvassurance.ca/en/discover-uv/management-team"
+      ],
+      "note": "industry_since 2004 because the release says he began his career at UV in 2004. The AR chart places 'Chief Risk Management Officer' under 'Actuarial and Finance'; a CRO would normally also have a functional line to the Audit and Risk Management Committee (Chair Marco Fillion).",
+      "reporting_line": "inferred from title"
+    },
+    {
+      "name": "Richard Dionne",
+      "title": "Senior Manager (Senior Director), Finance (CPA)",
+      "entity": "The Union Life Mutual Assurance Company (UV Insurance)",
+      "reports_to": "Pierre Parenteau, SVP Actuarial and Finance (AR chart: 'Actuarial and Finance'; inferred)",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": null,
+      "tenure_source": null,
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.uvassurance.ca/en/discover-uv/management-team",
+        "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf"
+      ],
+      "note": "Website title 'Senior Manager, Finances'; annual report 'Senior Director, Finance, Actuarial and Finance'. No bio or dates found.",
+      "reporting_line": "inferred from title"
+    }
+  ],
+  "other_leaders": [
+    {
+      "name": "Eric Timmons",
+      "title": "Chief Risk Management Officer (ASA, AICA)",
+      "entity": "The Union Life Mutual Assurance Company (UV Insurance)",
+      "reports_to": "SVP Actuarial and Finance (inferred); Audit and Risk Management Committee functionally (inferred)",
+      "seat_since": "2025",
+      "firm_since": "2004",
+      "industry_since": "2004",
+      "prior": "UV Insurance only since 2004 (see cio_direct_reports)",
+      "tenure_source": "press release (2023-03-06) and FY2025 annual report",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.uvassurance.ca/en/newsroom/uv-insurance-officially-launches-project-office-and-strategic-planning-and-appoints-eric-timmons-as-its-lead",
+        "https://www.uvassurance.ca/app/uploads/2026/03/rapport-annuel-2025-en-lowres.pdf"
+      ],
+      "note": "CRO. The CFO function is held by Pierre Parenteau (SVP Actuarial and Finance; see cio). The general account is managed by an external, unaffiliated manager (SLC Management / Sun Life Capital, selected by tender in 2025), so there is no affiliated asset-manager head."
+    }
+  ],
+  "gaps": [
+    "No operating-entities page on uvassurance.ca. Pages checked (2026-11-03): /en/discover-uv and /decouvrir-uv, /en/discover-uv/management-team and /decouvrir-uv/equipe-de-direction, /en/discover-uv/board-of-directors, /en/discover-uv/our-history, /en/discover-uv/purpose, /en/terms-of-use and /conditions-dutilisation, /en/legal-notice (404), /avis-legal (404), sitemap index and page sitemaps. The Terms of Use say only that 'UV Insurance refers to The Union Life Mutual Assurance Company, its affiliates and related companies' and that the site 'belongs to The Union Life Mutual Assurance Company'; the footer says 'The UV Insurance brand name and logo are registered trademarks used under licence'; press releases say 'UV Insurance is a trade name and trademark of The Union Life Mutual Assurance Company'. No affiliate is named on any page. The FY2025 financial statements refer to 'L'Union-Vie, Compagnie mutuelle d'assurance and its subsidiaries' without naming them.",
+    "No CIO; the accountable executive over investments (Parenteau) and the reporting lines of Timmons and Dionne are inferred from the annual-report management chart; only Boutin-Ouellet's line is stated (job posting).",
+    "Tenure nulls: Guay industry_since; Parenteau industry_since; Boutin-Ouellet all three; Dionne all three. Web searches for LinkedIn snippets returned nothing for Parenteau, Boutin-Ouellet or Timmons; theofficialboard.com and simplyhired return 403 to fetch tools; the session's web-search budget was exhausted before French-language follow-ups.",
+    "Mutual: no proxy circular; no compensation for any executive.",
+    "SLC Management mandate terms (fees, asset classes, start date) and the prior manager are not disclosed."
+  ],
+  "notes": "UV Insurance (The Union Life Mutual Assurance Company, Drummondville) has no entities page and no CIO: the C$2.4bn general account was moved to SLC Management (Sun Life Capital) after a 2025 tender under a board Investment Committee presided by Fabienne Lacoste, CFA. The executive accountable for finance, corporate actuarial and risk is Pierre Parenteau (SVP Actuarial and Finance, Appointed Actuary; joined 2021-03), with VP Corporate Actuary Hugo Boutin-Ouellet (reporting line stated in a 2026 job posting), CRO Eric Timmons (UV since 2004, CRO since 2025) and Senior Manager Finance Richard Dionne beneath him per the annual-report chart. New CEO Charles Guay (ex-Standard Life Canada, Manulife Quebec) took over from Christian Mercier on 2026-09-14. Other 2026 management changes: Geneviève Bourgeois to SVP Insurance Operations (2026-01, at UV ~7 years). Personal library not available in this session; public sources used. Bigdata.com and Firecrawl not used per brief."
+}

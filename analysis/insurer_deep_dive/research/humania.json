@@ -1,0 +1,120 @@
+{
+  "company_id": "humania",
+  "name": "Humania Assurance Inc. (consolidated as LS Mutual Management / La Survivance, mutuelle de gestion)",
+  "as_of": "2025-12-31",
+  "ownership": "100% owned by LS Mutual Management (La Survivance, mutuelle de gestion), a Quebec mutual management corporation of ~100,000 members; share-capital structure since 2013 allows outside partners",
+  "regulator": "AMF (Quebec); CARLI capital framework",
+  "metrics": [
+    {"metric": "Total assets (LS Mutual Management consolidated)", "value": 652.5, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf", "note": "678.0 in 2024. Summary consolidated statements only; full notes available at head office on request."},
+    {"metric": "Investments (general account)", "value": 406.2, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf", "note": "Bonds 316.7, loans 27.2, cash 23.0, real estate funds 19.6, infrastructure funds 14.3, private debt funds 3.2 (new in 2025), money market 1.5, shares 0.5 (29.8 in 2024), derivatives 0.1. 424.4 in 2024."},
+    {"metric": "Reinsurance contract assets", "value": 210.3, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf", "note": "32% of total assets: heavily reinsured book (insurance contract liabilities 472.9)."},
+    {"metric": "AUM / segregated funds", "value": null, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf", "note": "No asset-management arm; no segregated funds on balance sheet. Not applicable."},
+    {"metric": "Insurance revenue (IFRS 17)", "value": 214.3, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf", "note": "200.3 in 2024 (+7%). Insurance service result 13.3 (11.6); net expense from reinsurance 13.0 (3.5)."},
+    {"metric": "Net income", "value": 4.8, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf", "note": "8.2 in 2024 (-41%). Attributable to policyholders 4.07 (6.93); NCI (LS Travel) 0.73. Net investment result 5.4 vs 19.0: investment income 13.5, fair-value change -6.8, expenses -1.3. No core-earnings measure; no interim reporting."},
+    {"metric": "Comprehensive income", "value": 5.9, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf", "note": "10.2 in 2024."},
+    {"metric": "Total equity", "value": 167.3, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf", "note": "Members' equity 139.1, NCI 27.8, AOCI 0.4. Equity/assets 25.6%."},
+    {"metric": "Solvency ratio (CARLI)", "value": 184, "unit": "%", "as_of": "2025-12-31", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf", "note": "AR 2025 overview page. Components (available/required capital) and internal target ratio not disclosed; Audit & Risk Committee 'recommended the Company's target ratio' to the Board."},
+    {"metric": "Financial leverage ratio", "value": null, "unit": "%", "as_of": "2025-12-31", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf", "note": "No debt on summary balance sheet (lease liabilities 0.5; other finance expenses 0.04). Effectively unlevered (inferred)."},
+    {"metric": "Credit ratings", "value": null, "unit": "", "as_of": "2026-11-03", "source": null, "note": "No AM Best, S&P, Moody's, DBRS or Fitch rating found."},
+    {"metric": "Investment team size", "value": null, "unit": "people", "as_of": "2025-12-31", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf", "note": "One VP Investment and Special Projects (Luc Bergeron) in the 2025 AR executive list; portfolios run by external managers overseen by the board Investment Committee. Headcount not disclosed."},
+    {"metric": "Employees", "value": 200, "unit": "people (over 200)", "as_of": "2025-12-31", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf", "note": "Chair's message: 'over 200 of our employees'. Head office Saint-Hyacinthe, QC."}
+  ],
+  "business_mix": {
+    "basis": "Not disclosed by line; summary statements give one consolidated insurance revenue figure (C$214.3mm, FY2025). Qualitative mix from AR: individual life/health (incl. insurance without medical exam, HuGO Life, Oneday, Emma), group insurance, travel insurance (LS Travel / Humania Travel Insurance, incl. Tour+Med), mortgage/debt protection.",
+    "as_of": "2025-12-31",
+    "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf",
+    "items": [],
+    "note": "Distribution income and other income C$1.2mm. Sales team split: individual insurance (Amélie Jodoin, National VP) and group insurance (Philippe Berbari, National VP)."
+  },
+  "people": [
+    {"role": "CEO", "name": "Nicolas Moskiou", "title": "President and Chief Executive Officer (FSA)", "reports_to": "Board of Directors (Chair Joanne Vézina)", "entity": "Humania Assurance Inc.", "seat_since": 2024, "firm_since": 2018, "industry_since": null, "prior": "Humania EVP Product, Innovation & Partnerships; earlier led group insurance, operations, CX. Before: National Bank (AI practice lead), National Bank Insurance (chief actuary), Croix Bleue du Québec (head actuary), AXA (senior actuary)", "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.humania.ca/en/news/appointment-nicolas-moskiou-president-ceo/", "https://www.insurtechny.com/speakers/nicolas-moskiou/"], "note": "Interim CEO from Dec 2023 after Marc Peliel's departure; confirmed 2024-05-27. firm_since 2018 is inferred from 'more than six years at Humania' in a conference bio. Comp not disclosed (mutual; HR Committee sets CEO pay)."},
+    {"role": "CIO / most senior investment officer", "name": "Luc Bergeron", "title": "Vice-President, Investment and Special Projects (FCIA, FSA)", "reports_to": "CEO (inferred)", "entity": "Humania Assurance Inc.", "seat_since": null, "firm_since": null, "industry_since": null, "prior": null, "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf", "https://www.humania.ca/en/about-us/executive-team"], "note": "Listed in the 2025 AR executive team (page 18). Not on the humania.ca executive-team page as of 2026-11-03, so he may have left or the role may have been folded into Finance; treat as unverified for 2026. Title pairing read from AR layout (inferred)."},
+    {"role": "Head of fixed income / public markets", "name": null, "title": "Not applicable: external managers run the portfolios", "reports_to": null, "entity": null, "seat_since": null, "firm_since": null, "industry_since": null, "prior": null, "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf"], "note": "Investment Committee 'selects investment managers' and 'analyzed managers' performance'; manager names not disclosed."},
+    {"role": "CFO", "name": "Dimitri Georgoulas", "title": "Senior Vice-President, Finance and Treasurer", "reports_to": "CEO", "entity": "Humania Assurance Inc.", "seat_since": 2025, "firm_since": 2025, "industry_since": null, "prior": "Track record in financial management (prior firms not disclosed)", "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.humania.ca/en/news/humania-appoints-two-new-vice-presidents-to-drive-its-ambition-and-spirit-of-innovation", "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf"], "note": "Appointed 2025-05-01; co-signed 2026 management report as SVP Finance and Treasurer."},
+    {"role": "Chief Actuary / head of risk management", "name": "Alina Dudau", "title": "Vice-President, Actuary (A.S.A.)", "reports_to": "CEO", "entity": "Humania Assurance Inc.", "seat_since": null, "firm_since": null, "industry_since": null, "prior": null, "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.humania.ca/en/about-us/executive-team", "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf"], "note": "Audit & Risk Committee report says the 'Chief Actuary who is also head of risk management' meets the committee privately; that this is Dudau is inferred from the title. Appointed Actuary is Marie-Andrée Boucher, FCIA, FSA (external signatory, Montreal)."},
+    {"role": "Board Investment Committee Chair", "name": "Martin Leroux", "title": "Director since 2024; Chair, Investment Committee (FCIA, FSA, CERA)", "reports_to": "Board", "entity": "LS Mutual Management / Humania Assurance", "seat_since": 2024, "firm_since": 2024, "industry_since": null, "prior": null, "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf"], "note": "Committee members: Daniel Pellerin (director since 2025, actuary) and Michel Pelletier (external expert). Committee also acts as investment committee of LS Travel."},
+    {"role": "Prior CEO (now CFO of Securian Canada)", "name": "Marc Peliel", "title": "President and CEO 2021-2023; VP Finance & Treasurer 2016-2021", "reports_to": null, "entity": "Humania Assurance Inc.", "seat_since": 2021, "firm_since": 2016, "industry_since": null, "prior": "Chaired Aurrea Signature until its 2019 sale to IDC Worldsource; CPA, CMA", "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://insurance-portal.ca/life/humania-appoints-new-president-and-ceo/", "https://www.humania.ca/en/news/change-in-the-management-of-humania-assurance/"], "note": "Departure announced 2023-12-22; joined Securian Canada (Canadian Premier) as CFO in March 2026. Cross-link to canadian_premier.json."}
+  ],
+  "pm_structure": {
+    "summary": "Outsourced model: the board Investment Committee (directors, officers and external experts) sets the investment policy, selects external investment managers within its authority (board approves larger mandates), reviews manager performance quarterly and monitors asset-liability matching. Manager names are not disclosed. Private-market exposure is via funds (real estate, infrastructure, private debt).",
+    "manager_entities": ["External managers (unnamed) selected by the Investment Committee"],
+    "bullets": [
+      "Investment Committee recommends investment policy to Board; quarterly review of policy, manager reports and ALM matching",
+      "Committee also oversees LS Travel's portfolio; external expert member (Michel Pelletier) sits on it",
+      "Single internal VP Investment & Special Projects (Luc Bergeron, FCIA FSA) in 2025 AR; no in-house trading desk disclosed",
+      "Alternatives held through funds: real estate C$19.6mm, infrastructure C$14.3mm, private debt C$3.2mm (first allocation 2025)",
+      "Cash-flow hedge accounting used (derivative assets C$0.1mm, liabilities C$0.1mm; OCI hedge reserve movements)"
+    ],
+    "sources": ["https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf"]
+  },
+  "rotation_commentary": [
+    {"year": 2025, "text": "Data, not narrative: public shares fell from C$29.8mm to C$0.5mm while bonds rose C$5.7mm and a first C$3.2mm private-debt fund allocation appeared (AR balance sheet).", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf"},
+    {"year": 2025, "text": "Net investment result fell to C$5.4mm from C$19.0mm (fair-value change -C$6.8mm); no management commentary on the drivers or on target mix.", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf"},
+    {"year": 2025, "text": "Strategy narrative is operational (2025-2027 plan: digital transformation, IWME product line, travel embedded insurance); no asset-allocation targets published.", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf"}
+  ],
+  "target_allocations": [],
+  "leverage": {
+    "debt_outstanding": [],
+    "financial_leverage_ratio_pct": null,
+    "issuance": [],
+    "securities_lending": {"amount_cad_mm": null, "as_of": "2025-12-31", "text": "Not disclosed (summary statements only).", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf"},
+    "repos": {"amount_cad_mm": null, "as_of": "2025-12-31", "text": "Not disclosed; no repo line on the summary balance sheet.", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf"},
+    "structured_indirect": [
+      {"text": "Fund-based alternatives: real estate funds C$19.6mm, infrastructure funds C$14.3mm, private debt funds C$3.2mm; loans C$27.2mm (type not disclosed).", "amount_cad_mm": 37.1, "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf"}
+    ],
+    "note": "No senior/sub debt, preferred shares or LRCNs. Lease liabilities C$0.5mm."
+  },
+  "partnerships": {
+    "underwriters": [],
+    "deals": [
+      {"year": 2025, "text": "Launched Oneday simplified-issue life brand; enhanced Emma (Quebec insurtech) life product; supported launch of Amoré AI life platform with EXOS Wealth Systems and Acceptiv.", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf"},
+      {"year": 2025, "text": "Travel insurance embedded-distribution strategy: coverage built into partners' booking platforms; cruise-specific product.", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf"},
+      {"year": 2021, "text": "Earlier strategic moves cited at Peliel's appointment: launch of L2A, alliance with Emma, acquisition of Tour+Med (travel; now LS Travel/Humania Travel Insurance).", "source": "https://insurance-portal.ca/life/humania-appoints-new-president-and-ceo/"},
+      {"year": 2019, "text": "Sold MGA Aurrea Signature to IDC Worldsource.", "source": "https://insurance-portal.ca/life/humania-appoints-new-president-and-ceo/"},
+      {"year": 2013, "text": "LS Mutual Life Insurance Company renamed Humania Assurance Inc.; parent LS Mutual Management kept mutual ownership while allowing share capital.", "source": "https://www.humania.ca/en/news/ls-mutual-becomes-humania-assurance-inc/"}
+    ],
+    "sponsorships": [
+      {"year": 2025, "text": "Main sponsor of the Course des récoltes (C$10,000 to Moisson Maskoutaine); Leucan Ski Challenge (C$10,400 donated).", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf"},
+      {"year": 2025, "text": "Partner of YMCA Gala for Peace; SOCODEVI charity golf tournament; RJCCQ Grands Prix de la Relève d'affaires (Young Volunteer award).", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf"},
+      {"year": 2025, "text": "Fintech Cadence innovation competition on snowbird travel insurance: C$35,000 prizes, 150+ registrations.", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf"}
+    ],
+    "bank_relationships": [
+      {"text": "No bank distribution agreements or dealer relationships disclosed; distribution via independent advisors, MGAs and travel partners.", "source": "https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf"}
+    ]
+  },
+  "risk": {
+    "appetite": [
+      "Risk appetite determined by the Board; integrated risk management policy allocates resources by appetite",
+      "Audit & Risk Committee recommends the capital target ratio and risk appetite to the Board annually",
+      "Board tone: 'maintain a prudent risk management approach'; disciplined growth and capitalization"
+    ],
+    "governance": [
+      "Board Audit and Risk Management Committee (4 independent directors, Chair Paul Buron) reviews FCT, stress tests, capital report, risk profile",
+      "Chief Actuary doubles as head of risk management; appointed actuary Marie-Andrée Boucher (FCIA, FSA)",
+      "Board Investment Committee (Chair Martin Leroux) oversees managers and ALM matching; Governance & Ethics Committee monitors AI and fair-treatment rules"
+    ],
+    "capital_target": "CARLI solvency ratio 184% at YE2025; internal target ratio set by Board on committee recommendation but not published.",
+    "sensitivities": [
+      "No market or insurance sensitivities published (summary statements only)"
+    ],
+    "hedging": [
+      "Cash-flow hedges in place (OCI hedge reserve: -C$0.6mm net movement 2025); instruments and notionals not disclosed",
+      "Extensive reinsurance: reinsurance contract assets C$210mm vs insurance liabilities C$473mm"
+    ],
+    "events": [
+      "Net income -41% in 2025 on weaker investment result; CEO change Dec 2023 (Peliel out, Moskiou interim then confirmed May 2024)",
+      "Cybersecurity audits and action plans reviewed by Audit & Risk Committee; no regulatory actions disclosed"
+    ],
+    "sources": ["https://www.humania.ca/wp-content/documents/en/1050-005-annual-report-2025.pdf"]
+  },
+  "gaps": [
+    "Only summary consolidated statements are public: no notes, no bond issuer/rating split, no sensitivities, no securities lending/repo, no derivative notionals.",
+    "External investment managers are not named; mandate structure and fees undisclosed.",
+    "Mutual: no proxy circular, so no compensation for any executive.",
+    "Business mix by line (individual vs group vs travel) not disclosed.",
+    "CARLI components, core ratio and internal target not disclosed.",
+    "Luc Bergeron (VP Investment) appears in the 2025 AR but not on the current executive-team web page; status in 2026 unverified.",
+    "Bios (joined/industry start) for Bergeron, Dudau and Georgoulas not found; search budget exhausted before French-press lookups (Journal de l'assurance, Les Affaires)."
+  ],
+  "notes": "Humania is a C$0.65bn-asset Saint-Hyacinthe mutual (reported through its parent LS Mutual Management) with a C$0.41bn general account that is 78% bonds, outsourced to unnamed external managers under a board Investment Committee that includes an external expert. The book is heavily reinsured (reinsurance assets = 32% of total assets) and unlevered, with CARLI at 184%. 2025 saw public equities sold down to near zero and a first private-debt fund allocation, but management offers no rotation narrative. Its former CEO Marc Peliel is now CFO of Securian Canada. Personal library not available in this session; public sources used."
+}

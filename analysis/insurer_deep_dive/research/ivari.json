@@ -1,0 +1,152 @@
+{
+  "company_id": "ivari",
+  "name": "ivari (Sagicor Canada segment)",
+  "as_of": "2026-06-30",
+  "ownership": "Wholly owned by ivari Holdings Inc., a subsidiary of Sagicor Financial Company Ltd. (TSX: SFC) since Oct 3, 2023 (acquired from Wilton Re)",
+  "regulator": "OSFI (LICAT); parent Sagicor voluntarily reports a Group LICAT",
+  "metrics": [
+    {"metric": "Total assets (ivari)", "value": 15.025, "unit": "C$bn", "as_of": "2025-12-31", "source": "https://ivari.ca/files/CS124.pdf", "note": "ivari 2025 Annual Report; 2024: C$14.59bn. Includes C$2.97bn reinsurance contract held assets and C$0.62bn segregated funds"},
+    {"metric": "General-account invested assets", "value": 11136.7, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://ivari.ca/files/CS124.pdf", "note": "Bonds & debentures 6,006.0; exchange-traded and mutual funds 3,587.0 (mostly backing UL policyholder funds); short-term 1,295.7; other invested 127.1; cash 84.6; accrued income 36.3"},
+    {"metric": "Segment assets under management (Sagicor Canada)", "value": 8762.6, "unit": "US$mm", "as_of": "2026-06-30", "source": "https://investors.sagicor.com/image/SFC_MDA_Q2_2026.pdf", "note": "Sagicor non-IFRS measure; US$8,577.5mm at 2025-12-31; segment total assets US$11,455.0mm and financial investments US$8,110.5mm at 2025-12-31 (2025 Annual Report, note 4.2)"},
+    {"metric": "Net income (ivari, FY2025)", "value": 120.5, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://ivari.ca/files/CS124.pdf", "note": "ivari statutory IFRS 17 net income (annual report highlights). Dividends paid to parent C$80mm in each of 2025 and 2024"},
+    {"metric": "Core earnings to shareholders (Sagicor Canada segment)", "value": 103.3, "unit": "US$mm", "as_of": "2025-12-31", "source": "https://www.newswire.ca/news-releases/sagicor-financial-reports-fourth-quarter-and-full-year-2025-results-and-announces-11-dividend-increase-889306849.html", "note": "FY2025 +19% y/y (2024: 86.9); segment net income to shareholders US$76.2mm (2024: 96.2). H1 2026 core US$49.0mm, net income US$69.6mm; Q2 2026 core 26.5 / NI 70.3; core ROE 12.1%"},
+    {"metric": "Net premium (Sagicor Canada)", "value": 431.0, "unit": "US$mm", "as_of": "2025-12-31", "source": "https://www.newswire.ca/news-releases/sagicor-financial-reports-fourth-quarter-and-full-year-2025-results-and-announces-11-dividend-increase-889306849.html", "note": "H1 2026: US$230.5mm (+7%). New business CSM FY2025 US$44.4mm; total new life sales C$96.1mm (ivari AR)"},
+    {"metric": "Net CSM (Sagicor Canada)", "value": 548.2, "unit": "US$mm", "as_of": "2026-06-30", "source": "https://investors.sagicor.com/image/SFC_MDA_Q2_2026.pdf", "note": "2025-12-31: US$566.3mm"},
+    {"metric": "LICAT Total ratio (ivari)", "value": 129.0, "unit": "%", "as_of": "2025-12-31", "source": "https://ivari.ca/files/LICAT.pdf", "note": "Core 98%; 2024: 131% / 97%. Tier 1 C$1,531mm, Tier 2 C$443mm, surplus allowance C$640mm, BSB C$2,023mm. Above internal targets (not quantified). Lowest LICAT in the peer set"},
+    {"metric": "Group LICAT (Sagicor)", "value": 134.0, "unit": "%", "as_of": "2026-06-30", "source": "https://investors.sagicor.com/image/SFC_MDA_Q2_2026.pdf", "note": "2025-12-31: 136%; 2024: 139%"},
+    {"metric": "Total equity (ivari)", "value": 1282.4, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://ivari.ca/files/CS124.pdf", "note": "Capital stock 911.8 + contributed capital 1,486.1 - deficit 1,115.4"},
+    {"metric": "Financial leverage ratio (Sagicor group)", "value": 27.4, "unit": "%", "as_of": "2026-06-30", "source": "https://investors.sagicor.com/image/SFC_MDA_Q2_2026.pdf", "note": "2025-12-31: 26.9%. Target 'near or below 30%'. ivari itself carries no debt (funds-withheld reinsurance deposit C$944mm is the only financing-like liability)"},
+    {"metric": "Credit rating - AM Best FSR (ivari)", "value": null, "unit": "A (Excellent), ICR 'a', stable", "as_of": "2026-07-16", "source": "https://investors.sagicor.com/image/SFC_MDA_Q2_2026.pdf", "note": "Upgraded from A- / a- on Jul 16, 2026"},
+    {"metric": "Credit rating - Morningstar DBRS FSR (ivari)", "value": null, "unit": "A (low), stable", "as_of": "2026-04-10", "source": "https://investors.sagicor.com/image/SFC_MDA_Q2_2026.pdf", "note": "Confirmed Apr 10, 2026; Sagicor issuer/senior debt upgraded to BBB"},
+    {"metric": "Credit rating - Fitch IFS (ivari)", "value": null, "unit": "A-, stable", "as_of": "2025-12-31", "source": "https://investors.sagicor.com/image/SFC_Annual_Report_2025.pdf", "note": "Affirmed 2025; Sagicor Financial IDR BBB (Fitch), BBB positive (S&P)"},
+    {"metric": "Investments team headcount", "value": null, "unit": "people", "as_of": null, "source": null, "note": "Not disclosed"},
+    {"metric": "Employees (ivari)", "value": 300, "unit": "people", "as_of": "2025-12-31", "source": "https://ivari.ca/files/CS124.pdf", "note": "'over 300 people' in Toronto; Sagicor group 5,600+ employees and advisors"},
+    {"metric": "Key management compensation (ivari, aggregate)", "value": 4.569, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://ivari.ca/files/CS124.pdf", "note": "Directors and senior management (2024: C$4.42mm); key management also receive Sagicor RSUs vesting over 3 years"}
+  ],
+  "business_mix": {
+    "basis": "Sagicor group core earnings to shareholders by segment, FY2025 (Sagicor Canada US$103.3mm of group US$142.3mm; remainder Sagicor Life USA, Sagicor Jamaica, Sagicor Life Caribbean, net of Head Office losses)",
+    "as_of": "2025-12-31",
+    "source": "https://www.newswire.ca/news-releases/sagicor-financial-reports-fourth-quarter-and-full-year-2025-results-and-announces-11-dividend-increase-889306849.html",
+    "items": [
+      {"label": "Sagicor Canada (ivari) share of group core earnings", "pct": 72.6},
+      {"label": "Other Sagicor segments net of head office", "pct": 27.4}
+    ],
+    "alt_bases": [
+      {"basis": "ivari product focus (qualitative, Sagicor AIF/MD&A): individual life (universal life and term), segregated funds/annuities (closed-ish block C$618mm), accident & sickness; all sold in Canada via independent advisors; ranked 2nd in Canadian universal life by market share, 8th in life new business premiums", "items": []}
+    ]
+  },
+  "people": [
+    {"role": "CEO", "name": "Andre G. Mousseau", "title": "President and Chief Executive Officer, ivari (also President & CEO, Sagicor Financial Company Ltd. and Sagicor USA)", "reports_to": "ivari Board (Chair: Gilbert S. Palter) / Sagicor Board (Chair: Mahmood Khimji)", "entity": "ivari / Sagicor Financial Company Ltd.", "seat_since": 2024, "firm_since": 2019, "industry_since": null, "prior": "Sagicor Group CFO 2019-2023, Group COO 2021-2023; Sagicor CEO since Apr 1, 2023; named ivari CEO effective Jul 31, 2024 (succeeding Todd Lawrence); 20+ years in financial services", "comp_total_cad": null, "comp_currency": "USD", "comp_year": null, "comp_source": null, "sources": ["https://ivari.ca/files/CS124.pdf", "https://investors.sagicor.com/image/SFC_Annual_Information_Form_2025.pdf", "https://investors.sagicor.com/image/SFC+Fixed+Income+Investor+Update+%28Q2+2026%29.pdf"], "note": "Sagicor's 2026 management information circular (filed Apr 2026 via notice-and-access on SEDAR+) discloses his pay but could not be retrieved in this session (sagicor.com blocks fetches; investor site hosts only 2022-2023 circulars). Aggregator figure of ~US$2.1mm total (SimplyWall.st, year unstated) is unverified and deliberately not entered"},
+    {"role": "CFO", "name": "Kathryn Jenkins", "title": "Chief Financial Officer, ivari (signs ivari FS) and Group Chief Financial Officer, Sagicor Financial", "reports_to": "CEO", "entity": "ivari / Sagicor Financial Company Ltd.", "seat_since": 2023, "firm_since": 2023, "industry_since": null, "prior": "20+ years in insurance and financial services; CPA, CA and CPA (Illinois); appointed Sagicor Group CFO Mar 1, 2023", "comp_total_cad": null, "comp_currency": "USD", "comp_year": null, "comp_source": null, "sources": ["https://ivari.ca/files/CS124.pdf", "https://investors.sagicor.com/image/SFC+Fixed+Income+Investor+Update+%28Q2+2026%29.pdf"], "note": "Carolyn Ling was EVP & CFO of ivari as of 2024 (joined Jan 2020, CLHIA speaker bio); the FY2025 statements are signed by Jenkins as CFO"},
+    {"role": "CIO", "name": null, "title": null, "reports_to": null, "entity": null, "seat_since": null, "firm_since": null, "industry_since": null, "prior": null, "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": [], "note": "Not identified in ivari AR, Sagicor AIF, MD&A or investor decks. ivari's FS describe an Asset-Liability Management working group that oversees market-risk strategy, investment and hedging performance; Sagicor's board has a Capital Allocation and Investment Committee"},
+    {"role": "Group CRO", "name": "Lynda Gauthier", "title": "Group Chief Risk Officer and Chief Sustainability Officer, Sagicor Financial", "reports_to": "Sagicor CEO / Board Risk Committee", "entity": "Sagicor Financial Company Ltd.", "seat_since": 2022, "firm_since": null, "industry_since": null, "prior": "20+ years in risk, capital markets, investor relations and sustainability; MBA Chicago Booth", "comp_total_cad": null, "comp_currency": "USD", "comp_year": null, "comp_source": null, "sources": ["https://investors.sagicor.com/image/SFC+Fixed+Income+Investor+Update+%28Q2+2026%29.pdf"], "note": "ivari has its own Chief Risk Officer (unnamed in AR) reporting into the Risk and Capital Committee"},
+    {"role": "Group Chief Actuary", "name": "Nari Persad", "title": "Senior Vice President and Chief Actuary, Sagicor Financial", "reports_to": "Sagicor CEO", "entity": "Sagicor Financial Company Ltd.", "seat_since": 2017, "firm_since": null, "industry_since": null, "prior": "Crown Life, Canada Life, TD Life, Swiss Re Life & Health, Dion Durrell; FCIA, FSA", "comp_total_cad": null, "comp_currency": "USD", "comp_year": null, "comp_source": null, "sources": ["https://investors.sagicor.com/image/SFC+Fixed+Income+Investor+Update+%28Q2+2026%29.pdf"], "note": "ivari Appointed Actuary: Devika Prashad, FCIA"},
+    {"role": "Head of capital markets / corporate development", "name": "George Sipsis", "title": "EVP, Corporate Development and Capital Markets, Sagicor Financial", "reports_to": "Sagicor CEO", "entity": "Sagicor Financial Company Ltd.", "seat_since": 2023, "firm_since": 2021, "industry_since": null, "prior": "Scotiabank investment banking (real estate and financial services groups), Toronto", "comp_total_cad": null, "comp_currency": "USD", "comp_year": null, "comp_source": null, "sources": ["https://investors.sagicor.com/image/SFC+Fixed+Income+Investor+Update+%28Q2+2026%29.pdf"], "note": "Owns M&A, capital raising, IR and rating-agency engagement (relevant to ivari-related debt)"}
+  ],
+  "pm_structure": {
+    "summary": "No external or affiliated asset manager is disclosed; ivari's general account appears to be run in-house under an ALM working group and Board Investment and Risk Committee, with a distinctive construct: ~C$3.6bn (32% of invested assets) sits in ETFs and mutual funds replicating universal-life policyholder fund options, hedged with equity-index and interest-rate futures; the C$6.0bn bond book is 90% >10-year, 34% government/provincial-heavy. Sagicor says ivari has 'margin expansion on investment portfolio' upside.",
+    "manager_entities": ["ivari (in-house ALM / investments; inferred, no manager named)", "Sagicor Financial (group Capital Allocation and Investment Committee oversight)"],
+    "bullets": [
+      "Board Investment and Risk Committee (IRC) and Audit & Conduct Review Committee oversee risk; management Risk and Capital Committee (RCC) sets limits",
+      "ALM working group oversees market-risk strategy, policy compliance, investment and hedging performance",
+      "Bond book C$6.0bn: provincial 1,785, corporate 3,566, foreign issuers 408, federal 245; AAA 6%/AA 29%/A 29%/BBB 36%; 90% matures >10 years; avg yield 5.0% corporate",
+      "C$3.59bn ETFs/mutual funds (ETF 1,381; MF 2,026; other 179) back UL index-linked and seg-fund exposures; futures/money-market strategy hedges credited rates",
+      "Short-term investments C$1.30bn (49% AAA) include futures margin; private placements held (valued by model) but amount not broken out",
+      "Sagicor group portfolio: 68% debt securities, limited real estate/private debt/private equity; group private debt US$305mm (2024: 147) in a new 'other financial invested assets' category"
+    ],
+    "sources": ["https://ivari.ca/files/CS124.pdf", "https://investors.sagicor.com/image/SFC+Fixed+Income+Investor+Update+%28Q2+2026%29.pdf", "https://investors.sagicor.com/image/SFC_Annual_Report_2025.pdf"]
+  },
+  "rotation_commentary": [
+    {"year": 2026, "text": "Sagicor flags 'margin expansion on investment portfolio' at ivari and says it is 'optimizing our balance sheet' in Canada (Q2 2026 call); core earnings up on higher expected investment earnings.", "source": "https://investors.sagicor.com/image/Sagicor+Financial+Company+Ltd.+Second+Quarter+2026+Earnings+Call+Transcript.pdf"},
+    {"year": 2026, "text": "CEO acknowledged IFRS 17 market volatility is 'more pronounced' than big public peers and that curbing tails/hedging the investment program is under active board discussion.", "source": "https://investors.sagicor.com/image/Sagicor+Financial+Company+Ltd.+Second+Quarter+2026+Earnings+Call+Transcript.pdf"},
+    {"year": 2025, "text": "Bonds fell to C$6.01bn from C$6.11bn (governments -C$215mm, corporates +C$91mm, energy +C$89mm) while ETFs/mutual funds rose to C$3.59bn from C$3.07bn; short-term up to C$1.30bn.", "source": "https://ivari.ca/files/CS124.pdf"},
+    {"year": 2025, "text": "Sagicor group introduced an 'other financial invested assets' category for private debt and private equity; group private debt doubled to US$305mm.", "source": "https://investors.sagicor.com/image/SFC_Annual_Report_2025.pdf"}
+  ],
+  "target_allocations": [],
+  "leverage": {
+    "debt_outstanding": [
+      {"type": "ivari: funds-withheld deposit from reinsurer (Term-to-100 block, 1998 treaty)", "amount_cad_mm": 944.1, "as_of": "2025-12-31", "source": "https://ivari.ca/files/CS124.pdf", "note": "Interest ~8.54% p.a. (C$77.7mm expense 2025); scheduled repayments C$84-90mm/yr 2026-2030, running to 2077; fair value C$1,157mm"},
+      {"type": "ivari: credit facility for general corporate purposes", "amount_cad_mm": null, "as_of": "2025-12-31", "source": "https://ivari.ca/files/CS124.pdf", "note": "Size and drawn amount not disclosed"},
+      {"type": "Sagicor: 5.30% senior unsecured notes due 2028 (US$550mm)", "amount_cad_mm": null, "as_of": "2026-06-30", "source": "https://investors.sagicor.com/image/SFC_MDA_Q2_2026.pdf", "note": "Carrying US$545.9mm; original US$400mm plus US$150mm add-on; AM Best issue rating bbb+"},
+      {"type": "Sagicor: 6.359% senior unsecured notes due 2029 (C$250mm inaugural Canadian bond, 2024)", "amount_cad_mm": 250.0, "as_of": "2026-06-30", "source": "https://investors.sagicor.com/image/SFC_MDA_Q2_2026.pdf", "note": "Carrying US$174.7mm"},
+      {"type": "Sagicor: CORRA + 132.5bp term loan due 2027 (C$200mm refinancing of ivari acquisition loan)", "amount_cad_mm": 200.0, "as_of": "2026-06-30", "source": "https://investors.sagicor.com/image/SFC_MDA_Q2_2026.pdf", "note": "Carrying US$140.7mm; refinanced the US$320mm senior secured term loan used to buy ivari"},
+      {"type": "Sagicor: SOFR + 145bp revolving credit facility (US$225mm)", "amount_cad_mm": null, "as_of": "2026-06-30", "source": "https://investors.sagicor.com/image/SFC_MDA_Q2_2026.pdf", "note": "US$91.9mm drawn (Dec 2025: 72.0); upsized from US$175mm in 2025"},
+      {"type": "Sagicor: other bonds and bank loans (6.0% and 9.5% unsecured bonds due 2026, FHLB Dallas advances at Sagicor Life USA)", "amount_cad_mm": null, "as_of": "2026-06-30", "source": "https://investors.sagicor.com/image/SFC_MDA_Q2_2026.pdf", "note": "US$70mm combined; total group notes & loans payable US$1,023.4mm"}
+    ],
+    "financial_leverage_ratio_pct": 27.4,
+    "issuance": [
+      {"date": "2026-09-25", "instrument": "Sagicor 5.503% Series 2026-1 Senior Unsecured Notes due Sep 25, 2031 (Canadian private placement)", "amount_cad_mm": 350.0, "coupon_pct": 5.503, "maturity": "2031-09-25", "bookrunners": ["National Bank Financial (co-lead)", "RBC Dominion Securities (co-lead)", "BMO Nesbitt Burns", "Scotia Capital", "Citigroup Global Markets Canada", "J.P. Morgan Securities Canada", "Acumen Capital Finance Partners"], "source": "https://investors.sagicor.com/2026-09-25-Sagicor-Financial-Closes-C-350-Million-Private-Placement-Notes-Offering", "note": "Rated BBB (S&P), BBB (DBRS), BBB- (Fitch); proceeds for debt repayment (term loan / revolver, inferred)"},
+      {"date": "2024-01-01", "instrument": "Sagicor 6.359% unsecured senior notes due 2029 (inaugural Canadian bond)", "amount_cad_mm": 250.0, "coupon_pct": 6.359, "maturity": "2029", "bookrunners": [], "source": "https://investors.sagicor.com/image/SFC+Fixed+Income+Investor+Update+%28Q2+2026%29.pdf", "note": "Exact pricing date and dealers not in documents retrieved (timeline slide shows 2024)"},
+      {"date": "2023-10-03", "instrument": "US$320mm 5-year senior secured term loan (ivari acquisition financing) from a syndicate of international and Canadian banks", "amount_cad_mm": null, "coupon_pct": null, "maturity": "2028", "bookrunners": [], "source": "https://www.newswire.ca/news-releases/sagicor-financial-company-ltd-completes-acquisition-of-ivari-820567993.html", "note": "Since partly repaid/refinanced with the C$200mm CORRA term loan due 2027"}
+    ],
+    "securities_lending": {"amount_cad_mm": null, "as_of": "2025-12-31", "text": "No securities lending disclosed in ivari FY2025 statements", "source": "https://ivari.ca/files/CS124.pdf"},
+    "repos": {"amount_cad_mm": null, "as_of": "2025-12-31", "text": "No repurchase agreements disclosed; short-term investments pledged as futures margin (amount not broken out)", "source": "https://ivari.ca/files/CS124.pdf"},
+    "structured_indirect": [
+      {"text": "Funds-withheld reinsurance deposit (effectively 8.54% fixed-rate financing of a 1998 Term-to-100 coinsurance) C$944mm", "amount_cad_mm": 944.1, "source": "https://ivari.ca/files/CS124.pdf"},
+      {"text": "Reinsurance contract held assets C$2.97bn (20% of total assets); collateral held from reinsurers disclosed by rating", "amount_cad_mm": 2971.8, "source": "https://ivari.ca/files/CS124.pdf"},
+      {"text": "Exchange-traded equity-index and interest-rate futures plus OTC FX forwards (positive replacement cost C$0.1mm); credit derivatives permitted; no hedge accounting", "amount_cad_mm": null, "source": "https://ivari.ca/files/CS124.pdf"},
+      {"text": "Sagicor group: collateralized mortgage obligations US$1.69bn (mostly US agency, Sagicor Life USA), FHLB Dallas membership/advances, private debt US$305mm", "amount_cad_mm": null, "source": "https://investors.sagicor.com/image/SFC_Annual_Report_2025.pdf"}
+    ]
+  },
+  "partnerships": {
+    "underwriters": [
+      {"dealer": "National Bank Financial", "role": "lead financial advisor on ivari acquisition (2022-23); co-lead agent on C$350mm 2026 notes", "deals": 2, "note": "Also hosts Sagicor on its research coverage (Gabriel Dechaine)", "source": "https://investors.sagicor.com/2026-09-22-Sagicor-Financial-Prices-C-350-Million-Private-Placement-Notes-Offering"},
+      {"dealer": "RBC Dominion Securities", "role": "co-lead agent, C$350mm 5.503% notes due 2031", "deals": 1, "note": "", "source": "https://investors.sagicor.com/2026-09-22-Sagicor-Financial-Prices-C-350-Million-Private-Placement-Notes-Offering"},
+      {"dealer": "BMO Nesbitt Burns / Scotia Capital / Citigroup Canada / J.P. Morgan Canada / Acumen Capital", "role": "syndicate agents, C$350mm 2026 notes", "deals": 1, "note": "", "source": "https://investors.sagicor.com/2026-09-22-Sagicor-Financial-Prices-C-350-Million-Private-Placement-Notes-Offering"}
+    ],
+    "deals": [
+      {"year": 2023, "text": "Sagicor acquired ivari from Wilton Re for C$375mm (closed Oct 3, 2023; announced Aug 25, 2022), funded by US$320mm senior secured term loan; advisers NBF (Sagicor), Torys (ivari), Debevoise (Wilton Re)", "source": "https://www.newswire.ca/news-releases/sagicor-financial-company-ltd-completes-acquisition-of-ivari-820567993.html"},
+      {"year": 2025, "text": "ivari became the first Canadian life insurer to migrate all administrative data to DXC's Assure Cloud (policy administration outsourcing)", "source": "https://www.newswire.ca/news-releases/ivari-sets-new-industry-standard-first-canadian-life-insurer-to-migrate-to-dxc-s-assure-cloud-822757052.html"},
+      {"year": 2025, "text": "Sagicor agreed to merge Sagicor Life (Caribbean) into Sagicor Group Jamaica (closing expected 2026); Canada unaffected but group capital reset", "source": "https://investors.sagicor.com/image/SFC_Annual_Report_2025.pdf"},
+      {"year": 2026, "text": "AM Best upgraded ivari FSR to A (Jul 16, 2026); DBRS upgraded Sagicor to BBB and confirmed ivari A (low) (Apr 10, 2026)", "source": "https://investors.sagicor.com/image/SFC_MDA_Q2_2026.pdf"}
+    ],
+    "sponsorships": [
+      {"year": 2025, "text": "United Way Centraide Canada partnership with dollar-for-dollar employee match; ivari Healthy Steps Program youth-health grants; 12 paid volunteer hours per employee", "source": "https://ivari.ca/files/CS124.pdf"}
+    ],
+    "bank_relationships": [
+      {"text": "Sagicor revolver (US$225mm, SOFR+145bp) and CORRA term loan with a bank syndicate (banks not named in MD&A)", "source": "https://investors.sagicor.com/image/SFC_MDA_Q2_2026.pdf"},
+      {"text": "ivari maintains its own undisclosed credit facility for general corporate purposes", "source": "https://ivari.ca/files/CS124.pdf"}
+    ]
+  },
+  "risk": {
+    "appetite": [
+      "Capital-at-Risk framework sets risk appetite and target ranges for market and underwriting risks; quarterly shock testing; annual FCT over 5 years harmonised with ORSA",
+      "Target capital levels above regulatory minimums; LICAT ratios exceeded internal targets at YE2025 (targets not quantified)",
+      "Liquidity: coverage ratios stress-tested annually vs policy thresholds; contingency includes sale of liquid securities and parent capital support"
+    ],
+    "governance": [
+      "Board Investment and Risk Committee (IRC) and Audit & Conduct Review Committee (ACRC); management Risk and Capital Committee (RCC); CRO-led Risk Management function; Internal Audit as third line",
+      "ORSA report approved by the Board; risk policies approved annually by RCC/ACRC/Board",
+      "Group: Sagicor Board Risk Committee and Capital Allocation and Investment Committee; Group CRO Lynda Gauthier"
+    ],
+    "capital_target": "Internal LICAT targets above OSFI 100% Total / 70% Core (values not disclosed); actual 129% Total / 98% Core at 2025-12-31 (2024: 131% / 97%); Group LICAT 134% at 2026-06-30; Sagicor leverage target near/below 30%",
+    "sensitivities": [
+      "Rates -50bp: profit +C$34.8mm; +50bp: -C$42.7mm; -100bp: +C$60.7mm; +100bp: -C$91.9mm (after-tax, YE2025); CSM -4.9/+5.2 (pre-tax, 50bp)",
+      "Equities -10%: profit -C$28.0mm; -20%: -C$56.8mm (after-tax); CSM -0.9/-1.7 pre-tax",
+      "UL minimum interest guarantees and seg-fund death/maturity/withdrawal guarantees (withdrawal amount at risk C$79.0mm) are the key embedded-option exposures",
+      "Group (Sagicor): reported earnings volatility under IFRS 17 acknowledged as higher than larger peers"
+    ],
+    "hedging": [
+      "Semi-static seg-fund hedge: ~100% of equity and 100% of currency exposure hedged on an economic basis (equity-index futures)",
+      "UL index-linked and synthetic-bond-fund credited rates hedged with equity and interest-rate futures/money-market strategy",
+      "FX forwards and currency swaps for exposures outside target ranges; no hedge accounting applied"
+    ],
+    "events": [
+      "FY2025 net income C$120.5mm; segment net income to shareholders fell 21% in USD on unfavourable rate marks (higher rates), then H1 2026 net income US$69.6mm on lower rates/equities",
+      "LICAT Total slipped to 129% from 131% on Jan 1 2025 LICAT guideline changes, markets and assumption changes",
+      "Leadership: Todd Lawrence (CEO 2018-2024) succeeded by Sagicor CEO Andre Mousseau effective Jul 31, 2024; Carolyn Ling (EVP & CFO) replaced by Group CFO Kathryn Jenkins as FS signatory by FY2025",
+      "Ratings: AM Best FSR upgrade to A (Jul 2026); DBRS A (low) confirmed; Fitch A- affirmed"
+    ],
+    "sources": ["https://ivari.ca/files/CS124.pdf", "https://ivari.ca/files/LICAT.pdf", "https://investors.sagicor.com/image/SFC_MDA_Q2_2026.pdf", "https://investors.sagicor.com/image/SFC+Fixed+Income+Investor+Update+%28Q2+2026%29.pdf", "https://investors.sagicor.com/image/Sagicor+Financial+Company+Ltd.+Second+Quarter+2026+Earnings+Call+Transcript.pdf"]
+  },
+  "gaps": [
+    "Sagicor 2026 management information circular (2025 NEO pay for Mousseau, Jenkins et al.) not retrievable: sagicor.com returns 403 and investors.sagicor.com hosts only 2022-2023 circulars; SEDAR+ not reachable with available tools. No pay figure entered",
+    "No Chief Investment Officer or head of fixed income identified for ivari or Sagicor; manager of ivari's general account not disclosed (in-house ALM inferred)",
+    "ivari's CRO and current COO not named in public documents retrieved (Scott Gorman listed as EVP & COO on third-party directory only; unverified)",
+    "ivari credit facility size undisclosed; private placement holdings not broken out; investments-team headcount unknown",
+    "Dealer syndicate for the 2024 C$250mm 6.359% notes not found; web-search budget exhausted",
+    "Sagicor Canada segment total assets available only at 2025-12-31 (US$11.46bn); Q2 2026 MD&A gives AUM only",
+    "Internal LICAT target range not quantified; no spread, real-estate or alternatives sensitivities (none material)"
+  ],
+  "notes": "ivari is the largest Sagicor segment (US$11.5bn of US$25.1bn assets; ~73% of group core earnings) and the thinnest-capitalised name in the peer set (LICAT 129% Total / 98% Core). Balance sheet is distinctive: C$3.6bn of ETFs/mutual funds back UL policyholder funds, hedged with futures; a C$944mm funds-withheld reinsurance deposit accrues at 8.54% to 2077; bond book is long (90% >10y) and provincial-heavy. Parent leverage (27.4%) and financing (US$1.02bn notes/loans; C$350mm 2031 notes Sept 2026 via NBF/RBC) are the relevant funding story since ivari has no debt. All C$ figures from ivari's statutory FS; US$ figures from Sagicor MD&A. Sources: ivari 2025 Annual Report (CS124, Feb 2026) and LICAT disclosure; Sagicor Q2 2026 MD&A, Fixed Income Investor Update, Q2 2026 call transcript, 2025 Annual Report and AIF, Sept 2026 notes press releases, Oct 2023 acquisition release."
+}

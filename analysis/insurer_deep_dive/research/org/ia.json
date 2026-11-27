@@ -1,0 +1,537 @@
+{
+  "company_id": "ia",
+  "operating_entities": {
+    "source_url": "https://ia.ca/about-us/group-of-companies",
+    "page_title": "Industrial Alliance Group of Companies | iA Financial Group",
+    "retrieved": "2026-11-03",
+    "entities": [
+      {
+        "name": "iA Financial Corporation Inc.",
+        "parent": null,
+        "description": "Holding corporation; founded 2018; Quebec City; regulator n/a."
+      },
+      {
+        "name": "Industrial Alliance Insurance and Financial Services Inc.",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Life and health insurance corporation and financial services provider: personal insurance, individual wealth management, group insurance (employee plans, dealer services, special markets), group savings and retirement, auto and home insurance; founded 1892; Canada and United States; AMF."
+      },
+      {
+        "name": "Industrial Alliance Pacific General Insurance Corporation",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "General insurance corporation: extended warranties and replacement insurance; founded 1981, acquired 2001; AMF."
+      },
+      {
+        "name": "Industrial Alliance Auto and Home Insurance Inc.",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "General insurance corporation: property, casualty, third-party liability, auto insurance, legal assistance and expenses insurance; founded 1973; Quebec; AMF."
+      },
+      {
+        "name": "Prysm general insurance Inc.",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "General insurance and claim adjustment: property, fire, liability, automobile, legal insurance and assistance; founded 2015; Quebec; AMF."
+      },
+      {
+        "name": "iA Advantages Damage Insurance Inc.",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "General insurance agency: property, fire, liability and automobile insurance; founded 2016; Quebec; AMF."
+      },
+      {
+        "name": "SurexDirect.com Ltd.",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Damage insurance broker: property, fire, liability, automobile and travel insurance; founded 2010, majority holding acquired 2021; Calgary; Alberta Insurance Council."
+      },
+      {
+        "name": "iA Clarington Investments Inc.",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Investment fund and portfolio manager corporation: mutual and segregated funds and portfolio manager; founded 1999, acquired 2005; Toronto; AMF. Also operates under the trademark iA Wealth."
+      },
+      {
+        "name": "Industrial Alliance Investment Management Inc.",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Investment fund manager and advisor corporation: portfolio management for iA Financial Group general funds, mutual funds and segregated funds; supervision of external investment managers of mutual funds sold through some iA Financial Group entities; founded 1999, acquired 2004; Quebec City; AMF."
+      },
+      {
+        "name": "iA Global Asset Management Inc.",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Investment fund manager and advisor corporation: management of iA Financial Group's segregated funds and mutual funds; supervision of external investment managers of mutual funds sold through some iA Financial Group entities; founded 2021; Quebec City; AMF; website iagam.ca."
+      },
+      {
+        "name": "Investia Financial Services Inc.",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Mutual fund brokerage agency: funds from most major Canadian mutual fund managers; founded 1988; AMF and CIRO. Also operates under the trademark iA Wealth."
+      },
+      {
+        "name": "PPI Management Inc.",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Managing General Agent (insurance brokerage agency): life and health insurance, savings and retirement plans and segregated funds of most Canadian insurers; advanced planning and HNW concierge services; founded 1978, acquired 2018; Toronto; FSRA."
+      },
+      {
+        "name": "iA Private Wealth Inc.",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Securities dealer corporation: individual securities and funds; retirement, education, tax, business succession and estate planning; founded 1970, acquired 2002; Montreal; AMF and CIRO. Also operates under the trademark iA Wealth."
+      },
+      {
+        "name": "iA Wealth Insurance Services Inc.",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Insurance brokerage agency: life and health insurance, savings and retirement plans and segregated funds of most Canadian insurers; founded 2025; Toronto; FSRA."
+      },
+      {
+        "name": "Richardson Wealth Limited",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Securities dealer corporation: individual securities and funds; retirement, education, tax, business succession and estate planning; founded 2003, acquired 2025; Toronto; OSC and CIRO."
+      },
+      {
+        "name": "Richardson Wealth Insurance Services Limited",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Insurance brokerage agency: life and health insurance, savings and retirement plans and segregated funds of most Canadian insurers; HNW advanced planning; founded 2007, acquired 2025; Toronto; FSRA."
+      },
+      {
+        "name": "Michel Rhéaume et associés ltée (MRA)",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Insurance brokerage agency: disability and life insurance sold to members of associations or professional organizations in Quebec; founded 2003, acquired 2008; Montreal; AMF."
+      },
+      {
+        "name": "Industrial Alliance Trust Inc.",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Trust corporation and deposit-taking corporation: demand and term deposits for selected distributors; complementary trust services for iA Financial Group affiliates; founded 1999; OSFI and CDIC."
+      },
+      {
+        "name": "WGI Service Plan Division Inc.",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Ancillary warranties provider: automotive and appliance warranty programs; founded 1985, acquired 2020; Vancouver."
+      },
+      {
+        "name": "WGI Manufacturing Inc.",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Chemical manufacturer for the automotive industry: sanitization and chemical products, recall/campaign fulfilment, road hazard and roadside programs, lease protection; founded 1983, acquired 2020; Toronto."
+      },
+      {
+        "name": "Lubrico Warranty Inc.",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Automotive warranty provider: third-party extended automotive warranties; founded 1977, acquired 2020; London, ON."
+      },
+      {
+        "name": "Global Warranty Corporation",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Automotive warranty provider: third-party extended automotive warranties; founded 1987, acquired 2025; London, ON."
+      },
+      {
+        "name": "iA Auto Finance Inc.",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Deposit-taking corporation: car loans for non-traditional clientele; founded 2010, acquired 2015; Oakville, ON."
+      },
+      {
+        "name": "National Warranties MRWV Limited",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Automotive warranty provider: extended automotive warranty programs and roadside assistance; founded 1990, acquired 2010; Laval, QC."
+      },
+      {
+        "name": "SAL Marketing Inc.",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Provider of aftermarket insurance and protection programs: creditor insurance, extended warranty and appearance protection, anti-theft and vehicle replacement coverage; founded 1995; Vancouver."
+      },
+      {
+        "name": "IA American Life Insurance Company",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Accident, life and health insurance company: accident, life and health, annuities; founded 1980, acquired 2008; Waco, TX; Texas Department of Insurance."
+      },
+      {
+        "name": "American-Amicable Life Insurance Company of Texas",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Life insurance corporation: life insurance, annuities; founded 1910, acquired 2010; Waco, TX; Texas Department of Insurance."
+      },
+      {
+        "name": "iA American Warranty Corp.",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Service contract, guaranteed asset protection, and financial and insurance products administrator; founded 1985, acquired 2018; Albuquerque, NM."
+      },
+      {
+        "name": "Dealers Assurance Company",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Property and casualty insurance company: contractual liability insurance for service contracts, GAP, financial and insurance products; founded 1935, acquired 2018; Addison, TX; Ohio Department of Insurance."
+      },
+      {
+        "name": "iA American Warranty, L.P.",
+        "parent": "iA Financial Corporation Inc.",
+        "description": "Automotive finance and insurance products administrator: vehicle service contracts, ancillary warranties, GAP, training, retail technology; founded 1984, acquired 2020; Austin, TX."
+      }
+    ],
+    "ga_manager_statement": {
+      "text": "Industrial Alliance Investment Management Inc. - Products and services: Portfolio management for iA Financial Group general funds, mutual funds and segregated funds; supervision of external investment managers of mutual funds sold through some of iA Financial Group entities.",
+      "source": "https://ia.ca/about-us/group-of-companies"
+    },
+    "note": "The page is a flat list of entity cards (type of enterprise, products and services, year founded/acquired, office, territory, regulator, website); it names iA Financial Corporation Inc. as the 'Holding corporation' but does not draw an ownership tree, so every other entity is recorded with parent = iA Financial Corporation Inc. and intermediate holdings (e.g., U.S. entities under Industrial Alliance Insurance and Financial Services Inc.) are not shown. Page intro: 'iA Financial Group is one of the largest insurance and wealth management groups in Canada.' iagam.ca footer confirms 'iAGAM' is a tradename of Industrial Alliance Investment Management Inc. and iA Global Asset Management Inc."
+  },
+  "ceo": {
+    "name": "Denis Ricard",
+    "title": "President and Chief Executive Officer, iA Financial Group",
+    "entity": "iA Financial Corporation Inc. / Industrial Alliance Insurance and Financial Services Inc.",
+    "reports_to": "Board of Directors",
+    "seat_since": "2018-09",
+    "firm_since": "1985",
+    "industry_since": "1985",
+    "prior": "Career at iA since 1985 after actuarial studies (Universite Laval): actuarial, business development, corporate management; FCIA",
+    "tenure_source": "company bio (ia.ca executive committee) + proxy circular 2026",
+    "comp_total": 6218002,
+    "comp_currency": "CAD",
+    "comp_year": 2025,
+    "comp_source": "https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/annuel/2026/en/eng_iafin_2026_circ_shareholder_acc.pdf",
+    "sources": [
+      "https://ia.ca/about-us/executive-committee/ia-financial-corporation",
+      "https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/annuel/2026/en/eng_iafin_2026_circ_shareholder_acc.pdf"
+    ],
+    "note": "CEO since Sept 2018. 2025 SCT detail in first-round file."
+  },
+  "cio": {
+    "name": "Alain Bergeron",
+    "title": "Executive Vice-President and Chief Investment Officer, iA Financial Group; President and Chief Investment Officer, iA Global Asset Management",
+    "entity": "iA Financial Corporation Inc. (Investments sector) / iA Global Asset Management",
+    "reports_to": "President & CEO (Denis Ricard) - executive committee member",
+    "seat_since": "2019-09",
+    "firm_since": "2019-09",
+    "industry_since": null,
+    "prior": "Mackenzie Investments, SVP & Portfolio Manager (c.2013-19, >$20bn multi-asset/liquid alts); Canada Pension Plan Investment Board, 11 years (VP, Head of Global Tactical Asset Allocation; MarketScreener: 2002-12 to 2013-08); Chair, Wealthsimple Investment Advisory Committee 2015-19; M.Sc. financial engineering HEC Montreal, CFA, CMT",
+    "tenure_source": "press release 2019-07 (ia.ca newsroom; effective 2019-09-03) + iagam.ca/team bio; Globe & Mail appointment notice 2019 ('nineteen years of experience in the investment industry')",
+    "comp_total": 3511346,
+    "comp_currency": "CAD",
+    "comp_year": 2025,
+    "comp_source": "https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/annuel/2026/en/eng_iafin_2026_circ_shareholder_acc.pdf",
+    "sources": [
+      "https://ia.ca/newsroom/2019/july/ia-financial-group-appoints-alain-bergeron-as-evp-and-chief-investment-officer",
+      "https://iagam.ca/team/alain-bergeron",
+      "https://iagam.ca/team",
+      "https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/annuel/2026/en/eng_iafin_2026_circ_shareholder_acc.pdf",
+      "https://www.theglobeandmail.com/business/adv/appointmentnotices/article-alain-bergeron"
+    ],
+    "note": "iagam.ca/team now gives the title 'President and Chief Investment Officer, iA Global Asset Management' (resolves the first-round uncertainty). Bio: 'responsible for the management and oversight of iA's assets, including the insurer's general funds as well as the company's investment funds'; 'more than 25 years of experience' - start c.2000 (19 years as of 2019), derived, left null. 2025 SCT detail in first-round file."
+  },
+  "cio_direct_reports": [
+    {
+      "name": "Tej Rai",
+      "title": "Managing Director, General Funds and Asset Allocation",
+      "entity": "iA Global Asset Management (tradename of Industrial Alliance Investment Management Inc. and iA Global Asset Management Inc.)",
+      "reports_to": "Alain Bergeron, President & CIO iAGAM / EVP & CIO iA Financial Group",
+      "seat_since": null,
+      "firm_since": "2020-11",
+      "industry_since": null,
+      "prior": "Goldman Sachs Asset Management (New York), SECOR Asset Management (principal, senior PM); Wharton/Penn Engineering",
+      "tenure_source": "iA Clarington bio ('joined iAGAM in November of 2020') and ia.ca newsroom Apr 2021 (joined iAIM 2020 as SVP Asset Allocation); iagam.ca bio says 'prior to joining iA in 2021' - conflict noted; MD title date not given",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://iagam.ca/team/tej-rai",
+        "https://iaclarington.com/portfolio-managers/ia-global-asset-management-inc/tej-rai",
+        "https://iagam.ca/team"
+      ],
+      "note": "Heads the 'General Funds and Asset Liability Management' function on the team page (closest to a general-account portfolio head) and co-leads asset allocation. '15+ years' experience, start not dated.",
+      "reporting_line": "inferred from title"
+    },
+    {
+      "name": "Alexandre Bannon",
+      "title": "Senior Vice-President, Head of Asset Liability Management",
+      "entity": "iA Global Asset Management (tradename of Industrial Alliance Investment Management Inc. and iA Global Asset Management Inc.)",
+      "reports_to": "Alain Bergeron, President & CIO iAGAM / EVP & CIO iA Financial Group",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "Risk management within the iA investment team (prior roles); M.Sc. financial engineering Laval, FRM",
+      "tenure_source": "iagam.ca bio (no dates); MarketScreener lists a 2021-07-31 start as 'Market Strategist' (aggregator, unverified)",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://iagam.ca/team/alexandre-bannon",
+        "https://ca.marketscreener.com/insider/ALEXANDRE-BANNON-A1VFFQ/",
+        "https://iagam.ca/team"
+      ],
+      "note": "Bio: 'responsible for establishing investment strategies for iA Financial Group's general funds' and relationships with business units/subsidiaries. 'More than 15 years' experience, start not dated.",
+      "reporting_line": "inferred from title"
+    },
+    {
+      "name": "Dominic Siciliano",
+      "title": "Senior Vice-President, Head of Fixed Income",
+      "entity": "iA Global Asset Management (tradename of Industrial Alliance Investment Management Inc. and iA Global Asset Management Inc.)",
+      "reports_to": "Alain Bergeron, President & CIO iAGAM / EVP & CIO iA Financial Group",
+      "seat_since": "2023-05",
+      "firm_since": "2023-05",
+      "industry_since": null,
+      "prior": "Addenda Capital (VP Portfolio Construction, Active Duration); Merrill Lynch 10 years; analyst, Montreal Exchange; B.Comm Concordia",
+      "tenure_source": "marketscreener (role start 2023-05-01; aggregator) + iagam.ca and iA Clarington bios (no dates)",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://iagam.ca/team/dominic-siciliano",
+        "https://ca.marketscreener.com/insider/DOMINIC-SICILIANO-A0NUYO/",
+        "https://iagam.ca/team"
+      ],
+      "note": "Appears under both 'Fixed Income and Corporate Bonds' and 'General Funds and ALM' on the team page. '25 years in financial markets' - start c.2000, derived, left null. A possible earlier iAIM stint (2008-18, third-party) is unverified.",
+      "reporting_line": "inferred from title"
+    },
+    {
+      "name": "Stéfanie Leduc",
+      "title": "Senior Vice President, Head of Corporate Bonds and Private Debt",
+      "entity": "iA Global Asset Management (tradename of Industrial Alliance Investment Management Inc. and iA Global Asset Management Inc.)",
+      "reports_to": "Alain Bergeron, President & CIO iAGAM / EVP & CIO iA Financial Group",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "Revenu Quebec (strategic mandates); Desjardins International Development (PE and debt to microfinance institutions); M.Sc. finance HEC Montreal, CFA, Stanford LEAD",
+      "tenure_source": "iagam.ca bio ('20 years of experience ... including five years as part of the iA team' - implies c.2021, derived, left null)",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://iagam.ca/team/stefanie-leduc",
+        "https://iagam.ca/team"
+      ],
+      "note": "Leads the Private Debt team (private placements for the general funds).",
+      "reporting_line": "inferred from title"
+    },
+    {
+      "name": "Claude Sirois",
+      "title": "Managing Director, Real Assets and Private Equity",
+      "entity": "iA Global Asset Management (tradename of Industrial Alliance Investment Management Inc. and iA Global Asset Management Inc.)",
+      "reports_to": "Alain Bergeron, President & CIO iAGAM / EVP & CIO iA Financial Group",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "30+ years international commercial real estate executive; B.Real Estate McGill, MBA HEC Montreal, C.Dir.",
+      "tenure_source": "iagam.ca bio and Quebec Real Estate Forum speaker bio (no dates)",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://iagam.ca/team/claude-sirois",
+        "https://informaconnect.com/quebec-real-estate-forum/speakers/claude-sirois",
+        "https://iagam.ca/team"
+      ],
+      "note": "Responsible for iA's real estate holdings (investments and asset management), commercial mortgages and private equity groups; infrastructure also listed under his strategies.",
+      "reporting_line": "inferred from title"
+    },
+    {
+      "name": "Jean-René Adam",
+      "title": "Managing Director, Head of Investment Funds, Public Equities and Global Trading",
+      "entity": "iA Global Asset Management (tradename of Industrial Alliance Investment Management Inc. and iA Global Asset Management Inc.)",
+      "reports_to": "Alain Bergeron, President & CIO iAGAM / EVP & CIO iA Financial Group",
+      "seat_since": null,
+      "firm_since": "2021",
+      "industry_since": null,
+      "prior": "British Columbia Investment Management Corporation (BCI), Hexavest (portfolio management and senior leadership); investment-banking research associate; M.Sc. finance Sherbrooke, CFA",
+      "tenure_source": "iagam.ca bio ('prior to joining iA in 2021')",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://iagam.ca/team/jr-adam",
+        "https://iagam.ca/team"
+      ],
+      "note": "Leads Fundamental and Quantitative Equity; Inderjit Takk (VP, Head of Global Trading, joined June 2024 from Mackenzie) sits under this function.",
+      "reporting_line": "inferred from title"
+    },
+    {
+      "name": "Sébastien Mc Mahon",
+      "title": "Chief Economist, iA Financial Group",
+      "entity": "iA Global Asset Management (tradename of Industrial Alliance Investment Management Inc. and iA Global Asset Management Inc.)",
+      "reports_to": "Alain Bergeron, President & CIO iAGAM / EVP & CIO iA Financial Group",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "Autorite des marches financiers, Desjardins, Quebec Ministry of Finance; M.A. Economics Laval, CFA",
+      "tenure_source": "iagam.ca bio (no dates)",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://iagam.ca/team/sebastien-mcmahon",
+        "https://iagam.ca/team"
+      ],
+      "note": "Heads 'Economy, Asset Allocation and Managed Solutions' macro function; spokesperson. Stepped back from asset-allocation PM duties May 2026 (first-round note).",
+      "reporting_line": "inferred from title"
+    },
+    {
+      "name": "Pierre Payeur",
+      "title": "Senior Vice-President, Head of Fund Management and Oversight",
+      "entity": "iA Global Asset Management (tradename of Industrial Alliance Investment Management Inc. and iA Global Asset Management Inc.)",
+      "reports_to": "Alain Bergeron, President & CIO iAGAM / EVP & CIO iA Financial Group",
+      "seat_since": null,
+      "firm_since": "1999",
+      "industry_since": null,
+      "prior": "Montreal Stock Exchange; a Danish bank (overseas); Laval, International MBA Ottawa, CFA",
+      "tenure_source": "iagam.ca bio ('before joining iA in 1999')",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://iagam.ca/team/pierre-payeur",
+        "https://iagam.ca/team"
+      ],
+      "note": "Selection and oversight of external managers for iA business units' fund platforms (not general-account assets).",
+      "reporting_line": "inferred from title"
+    },
+    {
+      "name": "Jean-Pierre Cornillaut",
+      "title": "Managing Director, Chief Operating Officer, Investments",
+      "entity": "iA Global Asset Management (tradename of Industrial Alliance Investment Management Inc. and iA Global Asset Management Inc.)",
+      "reports_to": "Alain Bergeron, President & CIO iAGAM / EVP & CIO iA Financial Group",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "CDPQ, 10+ years (digital strategy for the investment chain); MBA HEC Montreal, FRM",
+      "tenure_source": "iagam.ca bio (no dates)",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://iagam.ca/team/jean-pierre-cornillaut",
+        "https://iagam.ca/team"
+      ],
+      "note": "Investment operations, data/analytics; Patrick Migneron (VP Investments Operations), Anne Cepleanu (VP Investment Performance) listed in the same function.",
+      "reporting_line": "inferred from title"
+    },
+    {
+      "name": "Francis Jacob-Roy",
+      "title": "Vice President and Head of Investment Risk",
+      "entity": "iA Global Asset Management (tradename of Industrial Alliance Investment Management Inc. and iA Global Asset Management Inc.)",
+      "reports_to": "Alain Bergeron, President & CIO iAGAM / EVP & CIO iA Financial Group",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "Senior investment-risk roles at iA; investment consultant at BCI and Aon Hewitt; B.Sc. actuarial mathematics UdeM; ASA, ACIA, CFA, CAIA",
+      "tenure_source": "iagam.ca bio ('over 17 years of experience'; no dates)",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://iagam.ca/team/francis-jacob-roy",
+        "https://iagam.ca/team"
+      ],
+      "note": "Leads the investment-risk monitoring team for general funds and investment funds; second-line nature means the formal line may run to the CRO - not stated.",
+      "reporting_line": "inferred from title"
+    },
+    {
+      "name": "Jonathan Mercier",
+      "title": "Senior Vice-President, Head of Strategy and Transformation",
+      "entity": "iA Global Asset Management (tradename of Industrial Alliance Investment Management Inc. and iA Global Asset Management Inc.)",
+      "reports_to": "Alain Bergeron, President & CIO iAGAM / EVP & CIO iA Financial Group",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "Fiera Capital (5 years), CDPQ (external portfolios), Desjardins Global Asset Management, Desjardins Financial Security; B.Sc. actuarial mathematics UQAM, CFA",
+      "tenure_source": "iagam.ca bio (no dates)",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://iagam.ca/team/jonathan-mercier",
+        "https://iagam.ca/team"
+      ],
+      "note": "Bio: 'responsible for supporting iAGAM's Chief Investment Officer in managing the transformation and implementation of its strategy' - the one role whose link to the CIO is stated in a bio.",
+      "reporting_line": "stated"
+    },
+    {
+      "name": "Christian Felx",
+      "title": "Vice President, Head of Sustainable Investment",
+      "entity": "iA Global Asset Management (tradename of Industrial Alliance Investment Management Inc. and iA Global Asset Management Inc.)",
+      "reports_to": "Alain Bergeron, President & CIO iAGAM / EVP & CIO iA Financial Group",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "Desjardins Global Asset Management (Director and Head of Responsible Investment; PM, research, quant); M.Sc. economics UdeM, CFA",
+      "tenure_source": "iagam.ca bio (no dates)",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://iagam.ca/team/christian-felx",
+        "https://iagam.ca/team"
+      ],
+      "note": "ESG integration across investment teams.",
+      "reporting_line": "inferred from title"
+    },
+    {
+      "name": "Pavel Kuperman",
+      "title": "Vice-President, Head of Investment Strategy & Client Solutions",
+      "entity": "iA Global Asset Management (tradename of Industrial Alliance Investment Management Inc. and iA Global Asset Management Inc.)",
+      "reports_to": "Alain Bergeron, President & CIO iAGAM / EVP & CIO iA Financial Group",
+      "seat_since": null,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "National Bank Investments (8 years), Fidelity Investments, Dynamic Funds; B.A. economics York, CFA, CIM",
+      "tenure_source": "iagam.ca bio (no dates)",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://iagam.ca/team/pavel-kuperman",
+        "https://iagam.ca/team"
+      ],
+      "note": "Client-facing bridge between investment teams and distribution; not a portfolio function.",
+      "reporting_line": "inferred from title"
+    }
+  ],
+  "other_leaders": [
+    {
+      "name": "Eric Jobin",
+      "title": "Executive Vice-President, Chief Financial Officer and Chief Actuary",
+      "entity": "iA Financial Corporation Inc.",
+      "reports_to": "President & CEO",
+      "seat_since": "2023-08",
+      "firm_since": "1999",
+      "industry_since": "1999",
+      "prior": "Joined iA 1999 (Corporate Actuarial); VP Corporate Actuarial 2015; VP Actuarial & Finance Group Benefits 2017; EVP Group Benefits & Retirement Solutions 2020; EVP Operational Efficiency; CFO & Chief Actuary Aug 2023",
+      "tenure_source": "company bio (ia.ca executive committee) + proxy circular",
+      "comp_total": 3445515,
+      "comp_currency": "CAD",
+      "comp_year": 2025,
+      "comp_source": "https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/annuel/2026/en/eng_iafin_2026_circ_shareholder_acc.pdf",
+      "sources": [
+        "https://ia.ca/about-us/executive-committee/ia-financial-corporation",
+        "https://ia.ca/-/media/files/ia/investisseurs/rapportsfinanciers/annuel/2026/en/eng_iafin_2026_circ_shareholder_acc.pdf"
+      ],
+      "note": "Supervises Actuarial, Accounting & Tax, Capital Management, IR, Sustainability and Public Affairs."
+    },
+    {
+      "name": "Marie-Annick Bonneau",
+      "title": "Executive Vice-President and Chief Risk Officer",
+      "entity": "iA Financial Corporation Inc.",
+      "reports_to": "President & CEO; Board Risk, Governance and Ethics Committee",
+      "seat_since": "2025-10",
+      "firm_since": "1995",
+      "industry_since": "1995",
+      "prior": "Joined iA 1995 as legal advisor; director 2005; Director Regulatory & Operational Risk Management and Chief Compliance Officer from 2015; Head of Investor Relations 2019; lawyer, MBA Laval",
+      "tenure_source": "press release 2 Sep 2025 (effective 2025-10-01; succeeded Philippe Sarfati) + ia.ca leader bio",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://ia.ca/newsroom/2025/september/iafg-announces-the-appointment-of-marie-annick-bonneau-as-executive-vice-president-and-chief-risk-officer",
+        "https://ia.ca/our-leaders/marie-annick-bonneau-en"
+      ],
+      "note": "Not an NEO; pay undisclosed. ia.ca leader bio says 'early 2024' for the EVP & CRO move, conflicting with the Sept 2025 release (2025-10-01 used)."
+    }
+  ],
+  "gaps": [
+    "iagam.ca/team lists function heads without stating reporting lines; all direct reports except Mercier are 'inferred from title'. Whether the Head of Investment Risk (second line) and the Chief Compliance Officer report to the CIO or to the CRO is not stated.",
+    "Tenure: iagam.ca bios give 'joined iA' years only for Adam (2021), Payeur (1999), Bellefleur (2024), Takk (2024-06), Portelance (2021); Rai has conflicting 2020/2021 dates; Bannon, Sirois, Leduc, Mc Mahon, Cornillaut, Jacob-Roy, Felx, Kuperman have none and no LinkedIn snippet surfaced. Seat-start dates are null for all reports except Siciliano (MarketScreener).",
+    "Group-of-companies page gives no ownership tree; intermediate parents (e.g., U.S. entities, iA Auto Finance) not shown, so parent is recorded as iA Financial Corporation Inc. for all.",
+    "Industry start years for Bergeron and all iAGAM heads are given only as 'N years of experience' (not dated), left null.",
+    "Web-search budget exhausted before name-specific LinkedIn-snippet searches for Sirois, Leduc, Cornillaut, Jacob-Roy, Felx, Kuperman, Mc Mahon."
+  ],
+  "notes": "Alex Bellefleur (SVP, Head of Research, Asset Allocation; joined 2024 from OTPP), Inderjit Takk (VP, Head of Global Trading; joined 2024-06), Dan Bastasic (SVP Investments, iA Clarington Strategic Funds, Toronto) and Sylvain Portelance (Chief Compliance Officer; joined 2021) are on the team page but appear to sit under Rai/Adam or outside the investment line, so they are not listed as CIO direct reports. Pay figures carried from the first-round file (2026 circular, FY2025)."
+}

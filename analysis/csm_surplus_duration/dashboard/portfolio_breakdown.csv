@@ -1,0 +1,174 @@
+company_id,company,portfolio,asset_class,amount_cad_mm,weight,duration,contribution,duration_basis
+rbc_life,RBC Life,CSM,Corporate bonds,984.9,0.8392,5.0,4.197,pool-specific estimate
+rbc_life,RBC Life,CSM,Mortgages & loans,188.7,0.1608,5.0,0.804,assumed (no maturity table)
+rbc_life,RBC Life,Surplus,Corporate bonds,1917.1,0.5727,5.0,2.864,pool-specific estimate
+rbc_life,RBC Life,Surplus,Mortgages & loans,367.2,0.1097,5.0,0.549,assumed (no maturity table)
+rbc_life,RBC Life,Surplus,Public equity,512.4,0.1531,0.0,0.0,no rate duration
+rbc_life,RBC Life,Surplus,Real estate & alternatives,550.7,0.1645,0.0,0.0,no rate duration
+manulife,Manulife,CSM,Government bonds,6834.7,0.2573,11.43,2.939,disclosed maturities
+manulife,Manulife,CSM,Corporate bonds,10544.1,0.3969,7.89,3.13,disclosed maturities
+manulife,Manulife,CSM,Private debt,4279.6,0.1611,9.04,1.456,disclosed maturities
+manulife,Manulife,CSM,Mortgages & loans,2762.7,0.104,5.29,0.55,"disclosed maturities (MD&A: commercial mortgages 3.9y Canada, 5.3y U.S.)"
+manulife,Manulife,CSM,Cash,2146.8,0.0808,0.25,0.02,assumed
+manulife,Manulife,Surplus,Government bonds,5665.0,0.1499,11.43,1.713,disclosed maturities
+manulife,Manulife,Surplus,Corporate bonds,8739.6,0.2312,7.89,1.824,disclosed maturities
+manulife,Manulife,Surplus,Private debt,3547.2,0.0938,9.04,0.848,disclosed maturities
+manulife,Manulife,Surplus,Mortgages & loans,2289.9,0.0606,5.29,0.32,"disclosed maturities (MD&A: commercial mortgages 3.9y Canada, 5.3y U.S.)"
+manulife,Manulife,Surplus,Cash,1779.4,0.0471,0.25,0.012,assumed
+manulife,Manulife,Surplus,Public equity,6887.1,0.1822,0.0,0.0,no rate duration
+manulife,Manulife,Surplus,Real estate & alternatives,8888.8,0.2352,0.0,0.0,no rate duration
+sun_life,Sun Life,CSM,Government bonds,651.0,0.0449,9.48,0.426,pool-specific estimate
+sun_life,Sun Life,CSM,Corporate bonds,9559.2,0.6596,5.89,3.887,pool-specific estimate
+sun_life,Sun Life,CSM,Private debt,2609.6,0.1801,5.5,0.991,disclosed maturities
+sun_life,Sun Life,CSM,Mortgages & loans,1357.3,0.0937,3.09,0.289,disclosed maturities
+sun_life,Sun Life,CSM,Cash,315.0,0.0217,0.25,0.005,assumed
+sun_life,Sun Life,Surplus,Government bonds,379.5,0.0385,9.48,0.365,pool-specific estimate
+sun_life,Sun Life,Surplus,Corporate bonds,5572.9,0.5659,5.89,3.335,pool-specific estimate
+sun_life,Sun Life,Surplus,Private debt,1521.3,0.1545,5.5,0.85,disclosed maturities
+sun_life,Sun Life,Surplus,Mortgages & loans,791.3,0.0804,3.09,0.248,disclosed maturities
+sun_life,Sun Life,Surplus,Cash,183.7,0.0187,0.25,0.005,assumed
+sun_life,Sun Life,Surplus,Public equity,481.8,0.0489,0.0,0.0,no rate duration
+sun_life,Sun Life,Surplus,Real estate & alternatives,916.5,0.0931,0.0,0.0,no rate duration
+canada_life,Canada Life,CSM,Government bonds,1517.3,0.1121,11.19,1.255,pool-specific estimate
+canada_life,Canada Life,CSM,Corporate bonds,6513.6,0.4814,6.31,3.037,pool-specific estimate
+canada_life,Canada Life,CSM,Private debt,1434.0,0.106,11.19,1.186,assumed (no maturity table)
+canada_life,Canada Life,CSM,Mortgages & loans,3321.5,0.2455,5.24,1.287,assumed (no maturity table)
+canada_life,Canada Life,CSM,Cash,743.6,0.055,0.25,0.014,assumed
+canada_life,Canada Life,Surplus,Government bonds,1370.6,0.097,11.19,1.085,pool-specific estimate
+canada_life,Canada Life,Surplus,Corporate bonds,5883.9,0.4163,6.31,2.626,pool-specific estimate
+canada_life,Canada Life,Surplus,Private debt,1295.4,0.0917,11.19,1.026,assumed (no maturity table)
+canada_life,Canada Life,Surplus,Mortgages & loans,3000.4,0.2123,5.24,1.113,assumed (no maturity table)
+canada_life,Canada Life,Surplus,Cash,671.7,0.0475,0.25,0.012,assumed
+canada_life,Canada Life,Surplus,Public equity,357.2,0.0253,0.0,0.0,no rate duration
+canada_life,Canada Life,Surplus,Real estate & alternatives,1553.3,0.1099,0.0,0.0,no rate duration
+ia,iA Financial Group,CSM,Government bonds,1835.1,0.2399,10.91,2.617,disclosed maturities
+ia,iA Financial Group,CSM,Corporate bonds,3336.5,0.4361,10.91,4.758,disclosed maturities
+ia,iA Financial Group,CSM,Private debt,1257.9,0.1644,10.91,1.794,assumed (no maturity table)
+ia,iA Financial Group,CSM,Mortgages & loans,726.7,0.095,4.05,0.384,disclosed maturities
+ia,iA Financial Group,CSM,Cash,493.8,0.0645,0.25,0.016,assumed
+ia,iA Financial Group,Surplus,Government bonds,430.9,0.1029,10.91,1.122,disclosed maturities
+ia,iA Financial Group,Surplus,Corporate bonds,783.5,0.187,10.91,2.04,disclosed maturities
+ia,iA Financial Group,Surplus,Private debt,295.4,0.0705,10.91,0.769,assumed (no maturity table)
+ia,iA Financial Group,Surplus,Mortgages & loans,170.7,0.0407,4.05,0.165,disclosed maturities
+ia,iA Financial Group,Surplus,Cash,115.9,0.0277,0.25,0.007,assumed
+ia,iA Financial Group,Surplus,Public equity,1135.4,0.271,0.0,0.0,no rate duration
+ia,iA Financial Group,Surplus,Real estate & alternatives,1257.3,0.3001,0.0,0.0,no rate duration
+beneva,Beneva,CSM,Government bonds,285.5,0.3144,7.17,2.254,disclosed maturities
+beneva,Beneva,CSM,Corporate bonds,301.0,0.3316,7.17,2.377,disclosed maturities
+beneva,Beneva,CSM,Private debt,19.3,0.0213,9.12,0.194,disclosed maturities
+beneva,Beneva,CSM,Mortgages & loans,112.3,0.1237,2.37,0.293,disclosed maturities
+beneva,Beneva,CSM,Cash,189.8,0.2091,0.25,0.052,assumed
+beneva,Beneva,Surplus,Government bonds,517.0,0.1222,7.17,0.876,disclosed maturities
+beneva,Beneva,Surplus,Corporate bonds,545.2,0.1289,7.17,0.924,disclosed maturities
+beneva,Beneva,Surplus,Private debt,35.0,0.0083,9.12,0.076,disclosed maturities
+beneva,Beneva,Surplus,Mortgages & loans,203.4,0.0481,2.37,0.114,disclosed maturities
+beneva,Beneva,Surplus,Cash,343.8,0.0813,0.25,0.02,assumed
+beneva,Beneva,Surplus,Public equity,1305.7,0.3087,0.0,0.0,no rate duration
+beneva,Beneva,Surplus,Real estate & alternatives,1280.0,0.3026,0.0,0.0,no rate duration
+empire_life,Empire Life,CSM,Government bonds,628.5,0.4642,10.56,4.903,disclosed maturities
+empire_life,Empire Life,CSM,Corporate bonds,550.7,0.4068,10.56,4.296,disclosed maturities
+empire_life,Empire Life,CSM,Private debt,105.8,0.0782,10.56,0.825,assumed (no maturity table)
+empire_life,Empire Life,CSM,Mortgages & loans,22.4,0.0165,6.0,0.099,assumed (no maturity table)
+empire_life,Empire Life,CSM,Cash,46.4,0.0342,0.25,0.009,assumed
+empire_life,Empire Life,Surplus,Government bonds,769.6,0.3572,10.56,3.772,disclosed maturities
+empire_life,Empire Life,Surplus,Corporate bonds,674.4,0.313,10.56,3.305,disclosed maturities
+empire_life,Empire Life,Surplus,Private debt,129.6,0.0601,10.56,0.635,assumed (no maturity table)
+empire_life,Empire Life,Surplus,Mortgages & loans,27.4,0.0127,6.0,0.076,assumed (no maturity table)
+empire_life,Empire Life,Surplus,Cash,56.8,0.0264,0.25,0.007,assumed
+empire_life,Empire Life,Surplus,Public equity,457.8,0.2125,0.0,0.0,no rate duration
+empire_life,Empire Life,Surplus,Real estate & alternatives,38.9,0.0181,0.0,0.0,no rate duration
+equitable_life,Equitable Life,CSM,Government bonds,167.6,0.2494,12.86,3.208,disclosed maturities
+equitable_life,Equitable Life,CSM,Corporate bonds,279.3,0.4156,5.82,2.417,disclosed maturities
+equitable_life,Equitable Life,CSM,Private debt,129.2,0.1923,3.83,0.737,disclosed maturities
+equitable_life,Equitable Life,CSM,Mortgages & loans,84.8,0.1263,2.56,0.323,disclosed maturities
+equitable_life,Equitable Life,CSM,Cash,11.0,0.0164,0.25,0.004,assumed
+equitable_life,Equitable Life,Surplus,Government bonds,179.2,0.1034,12.86,1.33,disclosed maturities
+equitable_life,Equitable Life,Surplus,Corporate bonds,298.5,0.1723,5.82,1.002,disclosed maturities
+equitable_life,Equitable Life,Surplus,Private debt,138.2,0.0797,3.83,0.306,disclosed maturities
+equitable_life,Equitable Life,Surplus,Mortgages & loans,90.7,0.0523,2.56,0.134,disclosed maturities
+equitable_life,Equitable Life,Surplus,Cash,11.8,0.0068,0.25,0.002,assumed
+equitable_life,Equitable Life,Surplus,Public equity,856.0,0.4941,0.0,0.0,no rate duration
+equitable_life,Equitable Life,Surplus,Real estate & alternatives,158.2,0.0913,0.0,0.0,no rate duration
+bmo_life,BMO Life,CSM,Government bonds,138.4,0.1139,10.48,1.193,pool-specific estimate
+bmo_life,BMO Life,CSM,Corporate bonds,635.2,0.5227,8.75,4.571,pool-specific estimate
+bmo_life,BMO Life,CSM,Private debt,5.8,0.0047,10.48,0.05,assumed (no maturity table)
+bmo_life,BMO Life,CSM,Mortgages & loans,263.0,0.2164,5.08,1.099,assumed (no maturity table)
+bmo_life,BMO Life,CSM,Cash,172.9,0.1423,0.25,0.036,assumed
+bmo_life,BMO Life,Surplus,Government bonds,131.0,0.0919,10.48,0.963,pool-specific estimate
+bmo_life,BMO Life,Surplus,Corporate bonds,600.9,0.4217,8.75,3.688,pool-specific estimate
+bmo_life,BMO Life,Surplus,Private debt,5.5,0.0038,10.48,0.04,assumed (no maturity table)
+bmo_life,BMO Life,Surplus,Mortgages & loans,248.9,0.1746,5.08,0.887,assumed (no maturity table)
+bmo_life,BMO Life,Surplus,Cash,163.6,0.1148,0.25,0.029,assumed
+bmo_life,BMO Life,Surplus,Public equity,147.8,0.1037,0.0,0.0,no rate duration
+bmo_life,BMO Life,Surplus,Real estate & alternatives,127.4,0.0894,0.0,0.0,no rate duration
+ivari,ivari,CSM,Government bonds,200.6,0.2675,12.69,3.395,proxy from liability mix (OSFI LF3)
+ivari,ivari,CSM,Corporate bonds,308.7,0.4117,12.69,5.224,proxy from liability mix (OSFI LF3)
+ivari,ivari,CSM,Private debt,88.3,0.1178,12.69,1.495,assumed (no maturity table)
+ivari,ivari,CSM,Cash,152.2,0.203,0.25,0.051,assumed
+ivari,ivari,Surplus,Government bonds,147.4,0.1164,12.69,1.477,proxy from liability mix (OSFI LF3)
+ivari,ivari,Surplus,Corporate bonds,226.8,0.1791,12.69,2.272,proxy from liability mix (OSFI LF3)
+ivari,ivari,Surplus,Private debt,64.9,0.0512,12.69,0.65,assumed (no maturity table)
+ivari,ivari,Surplus,Cash,111.9,0.0883,0.25,0.022,assumed
+ivari,ivari,Surplus,Public equity,690.1,0.5449,0.0,0.0,no rate duration
+ivari,ivari,Surplus,Real estate & alternatives,25.4,0.0201,0.0,0.0,no rate duration
+cooperators_life,Co-operators Life,CSM,Government bonds,19.0,0.0728,10.32,0.751,pool-specific estimate
+cooperators_life,Co-operators Life,CSM,Corporate bonds,149.5,0.572,5.86,3.353,pool-specific estimate
+cooperators_life,Co-operators Life,CSM,Mortgages & loans,90.5,0.3462,5.05,1.75,assumed (no maturity table)
+cooperators_life,Co-operators Life,CSM,Cash,2.4,0.009,0.25,0.002,assumed
+cooperators_life,Co-operators Life,Surplus,Government bonds,78.6,0.0542,10.32,0.559,pool-specific estimate
+cooperators_life,Co-operators Life,Surplus,Corporate bonds,617.9,0.4259,5.86,2.497,pool-specific estimate
+cooperators_life,Co-operators Life,Surplus,Mortgages & loans,374.0,0.2578,5.05,1.303,assumed (no maturity table)
+cooperators_life,Co-operators Life,Surplus,Cash,9.7,0.0067,0.25,0.002,assumed
+cooperators_life,Co-operators Life,Surplus,Public equity,364.6,0.2513,0.0,0.0,no rate duration
+cooperators_life,Co-operators Life,Surplus,Real estate & alternatives,5.8,0.004,0.0,0.0,no rate duration
+primerica_life,Primerica Life,CSM,Government bonds,131.6,0.259,13.0,3.367,pool-specific estimate
+primerica_life,Primerica Life,CSM,Corporate bonds,349.2,0.6872,9.0,6.183,pool-specific estimate
+primerica_life,Primerica Life,CSM,Cash,27.3,0.0538,0.25,0.013,assumed
+primerica_life,Primerica Life,Surplus,Government bonds,189.0,0.259,13.0,3.367,pool-specific estimate
+primerica_life,Primerica Life,Surplus,Corporate bonds,501.6,0.6872,9.0,6.183,pool-specific estimate
+primerica_life,Primerica Life,Surplus,Cash,39.3,0.0538,0.25,0.013,assumed
+foresters_life,Foresters Life,CSM,Government bonds,29.2,0.3695,4.69,1.733,pool-specific estimate
+foresters_life,Foresters Life,CSM,Corporate bonds,44.8,0.5665,4.69,2.658,pool-specific estimate
+foresters_life,Foresters Life,CSM,Cash,5.1,0.0641,0.25,0.016,assumed
+foresters_life,Foresters Life,Surplus,Government bonds,90.5,0.2991,4.69,1.403,pool-specific estimate
+foresters_life,Foresters Life,Surplus,Corporate bonds,138.7,0.4586,4.69,2.152,pool-specific estimate
+foresters_life,Foresters Life,Surplus,Cash,15.7,0.0519,0.25,0.013,assumed
+foresters_life,Foresters Life,Surplus,Public equity,35.7,0.1181,0.0,0.0,no rate duration
+foresters_life,Foresters Life,Surplus,Real estate & alternatives,21.9,0.0724,0.0,0.0,no rate duration
+wawanesa_life,Wawanesa Life,CSM,Government bonds,42.9,0.4051,12.23,4.955,implied by disclosed asset sensitivity
+wawanesa_life,Wawanesa Life,CSM,Corporate bonds,62.6,0.5905,12.23,7.222,implied by disclosed asset sensitivity
+wawanesa_life,Wawanesa Life,CSM,Cash,0.5,0.0043,0.25,0.001,assumed
+wawanesa_life,Wawanesa Life,Surplus,Government bonds,87.2,0.2668,12.23,3.263,implied by disclosed asset sensitivity
+wawanesa_life,Wawanesa Life,Surplus,Corporate bonds,127.1,0.3889,12.23,4.756,implied by disclosed asset sensitivity
+wawanesa_life,Wawanesa Life,Surplus,Cash,0.9,0.0028,0.25,0.001,assumed
+wawanesa_life,Wawanesa Life,Surplus,Public equity,18.9,0.0577,0.0,0.0,no rate duration
+wawanesa_life,Wawanesa Life,Surplus,Real estate & alternatives,92.7,0.2836,0.0,0.0,no rate duration
+assumption_life,Assumption Life,CSM,Government bonds,95.7,0.719,11.02,7.925,disclosed maturities
+assumption_life,Assumption Life,CSM,Corporate bonds,8.4,0.0635,5.62,0.357,disclosed maturities
+assumption_life,Assumption Life,CSM,Mortgages & loans,24.2,0.1821,2.86,0.521,disclosed maturities
+assumption_life,Assumption Life,CSM,Cash,4.7,0.0354,0.25,0.009,assumed
+assumption_life,Assumption Life,Surplus,Government bonds,99.6,0.4698,11.02,5.178,disclosed maturities
+assumption_life,Assumption Life,Surplus,Corporate bonds,8.8,0.0415,5.62,0.233,disclosed maturities
+assumption_life,Assumption Life,Surplus,Mortgages & loans,25.2,0.119,2.86,0.34,disclosed maturities
+assumption_life,Assumption Life,Surplus,Cash,4.9,0.0231,0.25,0.006,assumed
+assumption_life,Assumption Life,Surplus,Public equity,73.4,0.3466,0.0,0.0,no rate duration
+canadian_premier,Canadian Premier,CSM,Government bonds,12.9,0.1709,4.2,0.718,pool-specific estimate
+canadian_premier,Canadian Premier,CSM,Corporate bonds,55.0,0.7307,4.46,3.259,pool-specific estimate
+canadian_premier,Canadian Premier,CSM,Mortgages & loans,1.9,0.0252,4.2,0.106,assumed (no maturity table)
+canadian_premier,Canadian Premier,CSM,Cash,5.5,0.0733,0.25,0.018,assumed
+canadian_premier,Canadian Premier,Surplus,Government bonds,36.2,0.1258,4.2,0.529,pool-specific estimate
+canadian_premier,Canadian Premier,Surplus,Corporate bonds,154.6,0.538,4.46,2.4,pool-specific estimate
+canadian_premier,Canadian Premier,Surplus,Mortgages & loans,5.3,0.0185,4.2,0.078,assumed (no maturity table)
+canadian_premier,Canadian Premier,Surplus,Cash,15.5,0.0539,0.25,0.013,assumed
+canadian_premier,Canadian Premier,Surplus,Public equity,75.8,0.2637,0.0,0.0,no rate duration
+uv_insurance,UV Insurance,Surplus,Corporate bonds,221.1,0.8062,10.0,8.062,peer default (10y)
+uv_insurance,UV Insurance,Surplus,Mortgages & loans,6.0,0.022,6.0,0.132,assumed (no maturity table)
+uv_insurance,UV Insurance,Surplus,Cash,9.5,0.0348,0.25,0.009,assumed
+uv_insurance,UV Insurance,Surplus,Public equity,25.8,0.0941,0.0,0.0,no rate duration
+uv_insurance,UV Insurance,Surplus,Real estate & alternatives,11.8,0.0429,0.0,0.0,no rate duration
+humania,Humania,Surplus,Corporate bonds,112.4,0.7801,10.0,7.801,peer default (10y)
+humania,Humania,Surplus,Private debt,1.1,0.0079,10.0,0.079,assumed (no maturity table)
+humania,Humania,Surplus,Mortgages & loans,9.7,0.067,6.0,0.402,assumed (no maturity table)
+humania,Humania,Surplus,Cash,8.7,0.0603,0.25,0.015,assumed
+humania,Humania,Surplus,Public equity,0.2,0.0012,0.0,0.0,no rate duration
+humania,Humania,Surplus,Real estate & alternatives,12.0,0.0835,0.0,0.0,no rate duration

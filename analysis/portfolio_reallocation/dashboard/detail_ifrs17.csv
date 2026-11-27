@@ -1,0 +1,1915 @@
+company_id,company,focus,period,level1,level2,level3,amount_cad_mm,share_pct
+manulife,Manulife,0,2023Q1,Internally Managed,Public Fixed Income,Government Bonds,81515.578,19.9037
+manulife,Manulife,0,2023Q1,Internally Managed,Public Fixed Income,Corporate Bonds,135333.127,33.0443
+manulife,Manulife,0,2023Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,39288.309,9.593
+manulife,Manulife,0,2023Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,52128.343,12.7282
+manulife,Manulife,0,2023Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,2838.992,0.6932
+manulife,Manulife,0,2023Q1,Internally Managed,Public Equity,Common Shares,24824.529,6.0614
+manulife,Manulife,0,2023Q1,Internally Managed,Public Equity,Preferred Shares,0.709,0.0002
+manulife,Manulife,0,2023Q1,Internally Managed,Cash & Cash Equivalents,Cash,18690.251,4.5636
+manulife,Manulife,0,2023Q1,Externally Managed,Equity,Real Estate Equity,11202.096,2.7352
+manulife,Manulife,0,2023Q1,Externally Managed,Equity,Other Private Equity,43728.117,10.6771
+manulife,Manulife,0,2023Q2,Internally Managed,Public Fixed Income,Government Bonds,79657.401,19.8834
+manulife,Manulife,0,2023Q2,Internally Managed,Public Fixed Income,Corporate Bonds,127957.344,31.9396
+manulife,Manulife,0,2023Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,38293.215,9.5584
+manulife,Manulife,0,2023Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,51458.641,12.8447
+manulife,Manulife,0,2023Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,2767.745,0.6909
+manulife,Manulife,0,2023Q2,Internally Managed,Public Equity,Common Shares,25073.836,6.2587
+manulife,Manulife,0,2023Q2,Internally Managed,Public Equity,Preferred Shares,0.767,0.0002
+manulife,Manulife,0,2023Q2,Internally Managed,Cash & Cash Equivalents,Cash,20926.517,5.2235
+manulife,Manulife,0,2023Q2,Externally Managed,Equity,Real Estate Equity,10715.404,2.6747
+manulife,Manulife,0,2023Q2,Externally Managed,Equity,Other Private Equity,43771.902,10.926
+manulife,Manulife,0,2023Q3,Internally Managed,Public Fixed Income,Government Bonds,76747.837,19.3841
+manulife,Manulife,0,2023Q3,Internally Managed,Public Fixed Income,Corporate Bonds,125476.596,31.6915
+manulife,Manulife,0,2023Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,37462.365,9.4618
+manulife,Manulife,0,2023Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,51012.406,12.8841
+manulife,Manulife,0,2023Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,2600.129,0.6567
+manulife,Manulife,0,2023Q3,Internally Managed,Public Equity,Common Shares,24271.118,6.1301
+manulife,Manulife,0,2023Q3,Internally Managed,Public Equity,Preferred Shares,0.701,0.0002
+manulife,Manulife,0,2023Q3,Internally Managed,Cash & Cash Equivalents,Cash,22039.679,5.5665
+manulife,Manulife,0,2023Q3,Externally Managed,Equity,Real Estate Equity,10640.278,2.6874
+manulife,Manulife,0,2023Q3,Externally Managed,Equity,Other Private Equity,45680.739,11.5375
+manulife,Manulife,0,2023Q4,Internally Managed,Public Fixed Income,Government Bonds,84739.076,20.4427
+manulife,Manulife,0,2023Q4,Internally Managed,Public Fixed Income,Corporate Bonds,132016.989,31.8481
+manulife,Manulife,0,2023Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,40999.05,9.8907
+manulife,Manulife,0,2023Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,52421.462,12.6463
+manulife,Manulife,0,2023Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,2534.631,0.6115
+manulife,Manulife,0,2023Q4,Internally Managed,Public Equity,Common Shares,25529.585,6.1588
+manulife,Manulife,0,2023Q4,Internally Managed,Public Equity,Preferred Shares,0.87,0.0002
+manulife,Manulife,0,2023Q4,Internally Managed,Cash & Cash Equivalents,Cash,20242.202,4.8833
+manulife,Manulife,0,2023Q4,Externally Managed,Equity,Real Estate Equity,10457.759,2.5229
+manulife,Manulife,0,2023Q4,Externally Managed,Equity,Other Private Equity,45578.642,10.9955
+manulife,Manulife,0,2024Q1,Internally Managed,Public Fixed Income,Government Bonds,82552.29,20.2378
+manulife,Manulife,0,2024Q1,Internally Managed,Public Fixed Income,Corporate Bonds,122133.191,29.9412
+manulife,Manulife,0,2024Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,41180.051,10.0954
+manulife,Manulife,0,2024Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,52604.704,12.8961
+manulife,Manulife,0,2024Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,2482.562,0.6086
+manulife,Manulife,0,2024Q1,Internally Managed,Public Equity,Common Shares,27691.764,6.7887
+manulife,Manulife,0,2024Q1,Internally Managed,Public Equity,Preferred Shares,3.294,0.0008
+manulife,Manulife,0,2024Q1,Internally Managed,Cash & Cash Equivalents,Cash,21316.134,5.2257
+manulife,Manulife,0,2024Q1,Externally Managed,Equity,Real Estate Equity,10453.965,2.5628
+manulife,Manulife,0,2024Q1,Externally Managed,Equity,Other Private Equity,47492.842,11.6429
+manulife,Manulife,0,2024Q2,Internally Managed,Public Fixed Income,Government Bonds,82278.328,20.1712
+manulife,Manulife,0,2024Q2,Internally Managed,Public Fixed Income,Corporate Bonds,119097.898,29.1978
+manulife,Manulife,0,2024Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,42479.101,10.4141
+manulife,Manulife,0,2024Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,53030.683,13.0009
+manulife,Manulife,0,2024Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,2441.455,0.5985
+manulife,Manulife,0,2024Q2,Internally Managed,Public Equity,Common Shares,27968.931,6.8568
+manulife,Manulife,0,2024Q2,Internally Managed,Public Equity,Preferred Shares,3.247,0.0008
+manulife,Manulife,0,2024Q2,Internally Managed,Cash & Cash Equivalents,Cash,21996.718,5.3927
+manulife,Manulife,0,2024Q2,Externally Managed,Equity,Real Estate Equity,10408.536,2.5517
+manulife,Manulife,0,2024Q2,Externally Managed,Equity,Other Private Equity,48194.912,11.8154
+manulife,Manulife,0,2024Q3,Internally Managed,Public Fixed Income,Government Bonds,87433.927,20.5052
+manulife,Manulife,0,2024Q3,Internally Managed,Public Fixed Income,Corporate Bonds,124923.882,29.2974
+manulife,Manulife,0,2024Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,43904.482,10.2966
+manulife,Manulife,0,2024Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,54082.999,12.6837
+manulife,Manulife,0,2024Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,2393.24,0.5613
+manulife,Manulife,0,2024Q3,Internally Managed,Public Equity,Common Shares,30847.346,7.2344
+manulife,Manulife,0,2024Q3,Internally Managed,Public Equity,Preferred Shares,2.962,0.0007
+manulife,Manulife,0,2024Q3,Internally Managed,Cash & Cash Equivalents,Cash,22771.788,5.3405
+manulife,Manulife,0,2024Q3,Externally Managed,Equity,Real Estate Equity,10304.131,2.4165
+manulife,Manulife,0,2024Q3,Externally Managed,Equity,Other Private Equity,49734.337,11.6638
+manulife,Manulife,0,2024Q4,Internally Managed,Public Fixed Income,Government Bonds,88376.483,20.1001
+manulife,Manulife,0,2024Q4,Internally Managed,Public Fixed Income,Corporate Bonds,126770.077,28.8323
+manulife,Manulife,0,2024Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,45142.822,10.2672
+manulife,Manulife,0,2024Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,54447.027,12.3833
+manulife,Manulife,0,2024Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,2431.001,0.5529
+manulife,Manulife,0,2024Q4,Internally Managed,Public Equity,Common Shares,33722.512,7.6698
+manulife,Manulife,0,2024Q4,Internally Managed,Public Equity,Preferred Shares,2.061,0.0005
+manulife,Manulife,0,2024Q4,Internally Managed,Cash & Cash Equivalents,Cash,25650.576,5.8339
+manulife,Manulife,0,2024Q4,Externally Managed,Equity,Real Estate Equity,10588.682,2.4083
+manulife,Manulife,0,2024Q4,Externally Managed,Equity,Other Private Equity,52549.541,11.9517
+manulife,Manulife,0,2025Q1,Internally Managed,Public Fixed Income,Government Bonds,90806.235,20.5028
+manulife,Manulife,0,2025Q1,Internally Managed,Public Fixed Income,Corporate Bonds,126310.812,28.5192
+manulife,Manulife,0,2025Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,45414.546,10.254
+manulife,Manulife,0,2025Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,55105.176,12.442
+manulife,Manulife,0,2025Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,2510.315,0.5668
+manulife,Manulife,0,2025Q1,Internally Managed,Public Equity,Common Shares,33997.021,7.676
+manulife,Manulife,0,2025Q1,Internally Managed,Public Equity,Preferred Shares,1.948,0.0004
+manulife,Manulife,0,2025Q1,Internally Managed,Cash & Cash Equivalents,Cash,25202.621,5.6904
+manulife,Manulife,0,2025Q1,Externally Managed,Equity,Real Estate Equity,10491.856,2.3689
+manulife,Manulife,0,2025Q1,Externally Managed,Equity,Other Private Equity,53056.955,11.9795
+manulife,Manulife,0,2025Q2,Internally Managed,Public Fixed Income,Government Bonds,88942.747,20.4149
+manulife,Manulife,0,2025Q2,Internally Managed,Public Fixed Income,Corporate Bonds,123630.543,28.3768
+manulife,Manulife,0,2025Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,44809.985,10.2852
+manulife,Manulife,0,2025Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,55479.288,12.7341
+manulife,Manulife,0,2025Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,2636.595,0.6052
+manulife,Manulife,0,2025Q2,Internally Managed,Public Equity,Common Shares,34666.414,7.9569
+manulife,Manulife,0,2025Q2,Internally Managed,Public Equity,Preferred Shares,1.634,0.0004
+manulife,Manulife,0,2025Q2,Internally Managed,Cash & Cash Equivalents,Cash,23609.664,5.4191
+manulife,Manulife,0,2025Q2,Externally Managed,Equity,Real Estate Equity,10141.95,2.3279
+manulife,Manulife,0,2025Q2,Externally Managed,Equity,Other Private Equity,51756.654,11.8796
+manulife,Manulife,0,2025Q3,Internally Managed,Public Fixed Income,Government Bonds,91032.506,19.9571
+manulife,Manulife,0,2025Q3,Internally Managed,Public Fixed Income,Corporate Bonds,129742.22,28.4435
+manulife,Manulife,0,2025Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,46981.866,10.2999
+manulife,Manulife,0,2025Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,56746.679,12.4406
+manulife,Manulife,0,2025Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,2684.962,0.5886
+manulife,Manulife,0,2025Q3,Internally Managed,Public Equity,Common Shares,39277.478,8.6108
+manulife,Manulife,0,2025Q3,Internally Managed,Public Equity,Preferred Shares,1.265,0.0003
+manulife,Manulife,0,2025Q3,Internally Managed,Cash & Cash Equivalents,Cash,25663.509,5.6262
+manulife,Manulife,0,2025Q3,Externally Managed,Equity,Real Estate Equity,10245.186,2.2461
+manulife,Manulife,0,2025Q3,Externally Managed,Equity,Other Private Equity,53764.834,11.7869
+manulife,Manulife,0,2025Q4,Internally Managed,Public Fixed Income,Government Bonds,87733.953,19.2449
+manulife,Manulife,0,2025Q4,Internally Managed,Public Fixed Income,Corporate Bonds,130692.151,28.668
+manulife,Manulife,0,2025Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,47470.042,10.4128
+manulife,Manulife,0,2025Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,57118.544,12.5292
+manulife,Manulife,0,2025Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,2877.679,0.6312
+manulife,Manulife,0,2025Q4,Internally Managed,Public Equity,Common Shares,40971.31,8.9873
+manulife,Manulife,0,2025Q4,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+manulife,Manulife,0,2025Q4,Internally Managed,Cash & Cash Equivalents,Cash,25290.173,5.5475
+manulife,Manulife,0,2025Q4,Externally Managed,Equity,Real Estate Equity,10050.724,2.2047
+manulife,Manulife,0,2025Q4,Externally Managed,Equity,Other Private Equity,53677.352,11.7744
+manulife,Manulife,0,2026Q1,Internally Managed,Public Fixed Income,Government Bonds,89528.026,19.502
+manulife,Manulife,0,2026Q1,Internally Managed,Public Fixed Income,Corporate Bonds,129880.343,28.2921
+manulife,Manulife,0,2026Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,48194.877,10.4984
+manulife,Manulife,0,2026Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,57813.47,12.5936
+manulife,Manulife,0,2026Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,3014.943,0.6568
+manulife,Manulife,0,2026Q1,Internally Managed,Public Equity,Common Shares,40659.755,8.857
+manulife,Manulife,0,2026Q1,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+manulife,Manulife,0,2026Q1,Internally Managed,Cash & Cash Equivalents,Cash,24901.952,5.4244
+manulife,Manulife,0,2026Q1,Externally Managed,Equity,Real Estate Equity,9612.064,2.0938
+manulife,Manulife,0,2026Q1,Externally Managed,Equity,Other Private Equity,55464.61,12.0819
+manulife,Manulife,0,2026Q2,Internally Managed,Public Fixed Income,Government Bonds,91905.715,19.0491
+manulife,Manulife,0,2026Q2,Internally Managed,Public Fixed Income,Corporate Bonds,135208.823,28.0244
+manulife,Manulife,0,2026Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,50641.125,10.4963
+manulife,Manulife,0,2026Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,59100.019,12.2495
+manulife,Manulife,0,2026Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,3199.597,0.6632
+manulife,Manulife,0,2026Q2,Internally Managed,Public Equity,Common Shares,48273.203,10.0055
+manulife,Manulife,0,2026Q2,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+manulife,Manulife,0,2026Q2,Internally Managed,Cash & Cash Equivalents,Cash,26931.349,5.582
+manulife,Manulife,0,2026Q2,Externally Managed,Equity,Real Estate Equity,9759.479,2.0228
+manulife,Manulife,0,2026Q2,Externally Managed,Equity,Other Private Equity,57448.723,11.9073
+sun_life,Sun Life,0,2023Q1,Internally Managed,Public Fixed Income,Government Bonds,37246.919,23.1029
+sun_life,Sun Life,0,2023Q1,Internally Managed,Public Fixed Income,Corporate Bonds,33179.523,20.5801
+sun_life,Sun Life,0,2023Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,41184.162,25.5451
+sun_life,Sun Life,0,2023Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,14863.843,9.2195
+sun_life,Sun Life,0,2023Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,996.077,0.6178
+sun_life,Sun Life,0,2023Q1,Internally Managed,Public Equity,Common Shares,7364.209,4.5678
+sun_life,Sun Life,0,2023Q1,Internally Managed,Public Equity,Preferred Shares,45.132,0.028
+sun_life,Sun Life,0,2023Q1,Internally Managed,Cash & Cash Equivalents,Cash,7098.068,4.4027
+sun_life,Sun Life,0,2023Q1,Externally Managed,Equity,Real Estate Equity,10033.184,6.2232
+sun_life,Sun Life,0,2023Q1,Externally Managed,Equity,Other Private Equity,9210.449,5.7129
+sun_life,Sun Life,0,2023Q2,Internally Managed,Public Fixed Income,Government Bonds,34282.926,22.2094
+sun_life,Sun Life,0,2023Q2,Internally Managed,Public Fixed Income,Corporate Bonds,30220.899,19.5779
+sun_life,Sun Life,0,2023Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,42900.711,27.7923
+sun_life,Sun Life,0,2023Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,14376.179,9.3133
+sun_life,Sun Life,0,2023Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,982.127,0.6362
+sun_life,Sun Life,0,2023Q2,Internally Managed,Public Equity,Common Shares,6964.971,4.5121
+sun_life,Sun Life,0,2023Q2,Internally Managed,Public Equity,Preferred Shares,44.597,0.0289
+sun_life,Sun Life,0,2023Q2,Internally Managed,Cash & Cash Equivalents,Cash,5591.79,3.6225
+sun_life,Sun Life,0,2023Q2,Externally Managed,Equity,Real Estate Equity,9924.798,6.4296
+sun_life,Sun Life,0,2023Q2,Externally Managed,Equity,Other Private Equity,9073.129,5.8778
+sun_life,Sun Life,0,2023Q3,Internally Managed,Public Fixed Income,Government Bonds,31774.061,20.9956
+sun_life,Sun Life,0,2023Q3,Internally Managed,Public Fixed Income,Corporate Bonds,28869.89,19.0766
+sun_life,Sun Life,0,2023Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,43219.387,28.5585
+sun_life,Sun Life,0,2023Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,14045.227,9.2808
+sun_life,Sun Life,0,2023Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,999.177,0.6602
+sun_life,Sun Life,0,2023Q3,Internally Managed,Public Equity,Common Shares,6853.721,4.5288
+sun_life,Sun Life,0,2023Q3,Internally Managed,Public Equity,Preferred Shares,39.673,0.0262
+sun_life,Sun Life,0,2023Q3,Internally Managed,Cash & Cash Equivalents,Cash,6569.434,4.3409
+sun_life,Sun Life,0,2023Q3,Externally Managed,Equity,Real Estate Equity,9874.046,6.5246
+sun_life,Sun Life,0,2023Q3,Externally Managed,Equity,Other Private Equity,9091.862,6.0077
+sun_life,Sun Life,0,2023Q4,Internally Managed,Public Fixed Income,Government Bonds,35742.735,21.9766
+sun_life,Sun Life,0,2023Q4,Internally Managed,Public Fixed Income,Corporate Bonds,31533.369,19.3884
+sun_life,Sun Life,0,2023Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,45795.747,28.1577
+sun_life,Sun Life,0,2023Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,14143.262,8.696
+sun_life,Sun Life,0,2023Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,983.239,0.6045
+sun_life,Sun Life,0,2023Q4,Internally Managed,Public Equity,Common Shares,6945.698,4.2706
+sun_life,Sun Life,0,2023Q4,Internally Managed,Public Equity,Preferred Shares,32.174,0.0198
+sun_life,Sun Life,0,2023Q4,Internally Managed,Cash & Cash Equivalents,Cash,8839.652,5.4351
+sun_life,Sun Life,0,2023Q4,Externally Managed,Equity,Real Estate Equity,9648.76,5.9326
+sun_life,Sun Life,0,2023Q4,Externally Managed,Equity,Other Private Equity,8975.509,5.5186
+sun_life,Sun Life,0,2024Q1,Internally Managed,Public Fixed Income,Government Bonds,35662.081,22.2476
+sun_life,Sun Life,0,2024Q1,Internally Managed,Public Fixed Income,Corporate Bonds,31470.397,19.6327
+sun_life,Sun Life,0,2024Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,46612.186,29.0788
+sun_life,Sun Life,0,2024Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,14032.55,8.7541
+sun_life,Sun Life,0,2024Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,997.177,0.6221
+sun_life,Sun Life,0,2024Q1,Internally Managed,Public Equity,Common Shares,7572.616,4.7241
+sun_life,Sun Life,0,2024Q1,Internally Managed,Public Equity,Preferred Shares,31.961,0.0199
+sun_life,Sun Life,0,2024Q1,Internally Managed,Cash & Cash Equivalents,Cash,7755.35,4.8381
+sun_life,Sun Life,0,2024Q1,Externally Managed,Equity,Real Estate Equity,9479.174,5.9135
+sun_life,Sun Life,0,2024Q1,Externally Managed,Equity,Other Private Equity,6682.71,4.169
+sun_life,Sun Life,0,2024Q2,Internally Managed,Public Fixed Income,Government Bonds,35089.271,21.682
+sun_life,Sun Life,0,2024Q2,Internally Managed,Public Fixed Income,Corporate Bonds,31194.802,19.2756
+sun_life,Sun Life,0,2024Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,48283.773,29.835
+sun_life,Sun Life,0,2024Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,14377.359,8.8839
+sun_life,Sun Life,0,2024Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,1004.177,0.6205
+sun_life,Sun Life,0,2024Q2,Internally Managed,Public Equity,Common Shares,8252.119,5.0991
+sun_life,Sun Life,0,2024Q2,Internally Managed,Public Equity,Preferred Shares,31.443,0.0194
+sun_life,Sun Life,0,2024Q2,Internally Managed,Cash & Cash Equivalents,Cash,7437.287,4.5956
+sun_life,Sun Life,0,2024Q2,Externally Managed,Equity,Real Estate Equity,9399.029,5.8078
+sun_life,Sun Life,0,2024Q2,Externally Managed,Equity,Other Private Equity,6766.66,4.1812
+sun_life,Sun Life,0,2024Q3,Internally Managed,Public Fixed Income,Government Bonds,38550.969,22.5715
+sun_life,Sun Life,0,2024Q3,Internally Managed,Public Fixed Income,Corporate Bonds,32710.58,19.152
+sun_life,Sun Life,0,2024Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,50484.68,29.5586
+sun_life,Sun Life,0,2024Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,14423.976,8.4452
+sun_life,Sun Life,0,2024Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,996.527,0.5835
+sun_life,Sun Life,0,2024Q3,Internally Managed,Public Equity,Common Shares,9225.602,5.4016
+sun_life,Sun Life,0,2024Q3,Internally Managed,Public Equity,Preferred Shares,30.448,0.0178
+sun_life,Sun Life,0,2024Q3,Internally Managed,Cash & Cash Equivalents,Cash,8299.864,4.8595
+sun_life,Sun Life,0,2024Q3,Externally Managed,Equity,Real Estate Equity,9259.966,5.4217
+sun_life,Sun Life,0,2024Q3,Externally Managed,Equity,Other Private Equity,6812.391,3.9886
+sun_life,Sun Life,0,2024Q4,Internally Managed,Public Fixed Income,Government Bonds,39040.82,22.4948
+sun_life,Sun Life,0,2024Q4,Internally Managed,Public Fixed Income,Corporate Bonds,32567.199,18.7648
+sun_life,Sun Life,0,2024Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,50907.181,29.3321
+sun_life,Sun Life,0,2024Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,14437.955,8.319
+sun_life,Sun Life,0,2024Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,1039.327,0.5988
+sun_life,Sun Life,0,2024Q4,Internally Managed,Public Equity,Common Shares,9826.854,5.6621
+sun_life,Sun Life,0,2024Q4,Internally Managed,Public Equity,Preferred Shares,31.661,0.0182
+sun_life,Sun Life,0,2024Q4,Internally Managed,Cash & Cash Equivalents,Cash,9313.25,5.3662
+sun_life,Sun Life,0,2024Q4,Externally Managed,Equity,Real Estate Equity,9230.035,5.3182
+sun_life,Sun Life,0,2024Q4,Externally Managed,Equity,Other Private Equity,7160.356,4.1257
+sun_life,Sun Life,0,2025Q1,Internally Managed,Public Fixed Income,Government Bonds,39632.103,22.5703
+sun_life,Sun Life,0,2025Q1,Internally Managed,Public Fixed Income,Corporate Bonds,33411.614,19.0278
+sun_life,Sun Life,0,2025Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,52894.881,30.1234
+sun_life,Sun Life,0,2025Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,14605.964,8.318
+sun_life,Sun Life,0,2025Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,1039.677,0.5921
+sun_life,Sun Life,0,2025Q1,Internally Managed,Public Equity,Common Shares,9656.518,5.4993
+sun_life,Sun Life,0,2025Q1,Internally Managed,Public Equity,Preferred Shares,30.321,0.0173
+sun_life,Sun Life,0,2025Q1,Internally Managed,Cash & Cash Equivalents,Cash,7757.346,4.4178
+sun_life,Sun Life,0,2025Q1,Externally Managed,Equity,Real Estate Equity,9276.621,5.283
+sun_life,Sun Life,0,2025Q1,Externally Managed,Equity,Other Private Equity,7289.075,4.1511
+sun_life,Sun Life,0,2025Q2,Internally Managed,Public Fixed Income,Government Bonds,39202.91,22.5688
+sun_life,Sun Life,0,2025Q2,Internally Managed,Public Fixed Income,Corporate Bonds,32350.304,18.6238
+sun_life,Sun Life,0,2025Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,52536.016,30.2445
+sun_life,Sun Life,0,2025Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,14036.646,8.0808
+sun_life,Sun Life,0,2025Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,1000.677,0.5761
+sun_life,Sun Life,0,2025Q2,Internally Managed,Public Equity,Common Shares,10587.374,6.0951
+sun_life,Sun Life,0,2025Q2,Internally Managed,Public Equity,Preferred Shares,30.457,0.0175
+sun_life,Sun Life,0,2025Q2,Internally Managed,Cash & Cash Equivalents,Cash,7504.074,4.32
+sun_life,Sun Life,0,2025Q2,Externally Managed,Equity,Real Estate Equity,9173.818,5.2813
+sun_life,Sun Life,0,2025Q2,Externally Managed,Equity,Other Private Equity,7282.068,4.1922
+sun_life,Sun Life,0,2025Q3,Internally Managed,Public Fixed Income,Government Bonds,39962.515,22.2341
+sun_life,Sun Life,0,2025Q3,Internally Managed,Public Fixed Income,Corporate Bonds,33377.018,18.5701
+sun_life,Sun Life,0,2025Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,54858.163,30.5216
+sun_life,Sun Life,0,2025Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,14117.423,7.8546
+sun_life,Sun Life,0,2025Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,1016.327,0.5655
+sun_life,Sun Life,0,2025Q3,Internally Managed,Public Equity,Common Shares,12056.871,6.7081
+sun_life,Sun Life,0,2025Q3,Internally Managed,Public Equity,Preferred Shares,31.904,0.0178
+sun_life,Sun Life,0,2025Q3,Internally Managed,Cash & Cash Equivalents,Cash,7775.926,4.3263
+sun_life,Sun Life,0,2025Q3,Externally Managed,Equity,Real Estate Equity,9194.471,5.1156
+sun_life,Sun Life,0,2025Q3,Externally Managed,Equity,Other Private Equity,7344.729,4.0864
+sun_life,Sun Life,0,2025Q4,Internally Managed,Public Fixed Income,Government Bonds,40109.869,22.1435
+sun_life,Sun Life,0,2025Q4,Internally Managed,Public Fixed Income,Corporate Bonds,33443.462,18.4631
+sun_life,Sun Life,0,2025Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,55055.534,30.3945
+sun_life,Sun Life,0,2025Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,13604.867,7.5108
+sun_life,Sun Life,0,2025Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,1006.527,0.5557
+sun_life,Sun Life,0,2025Q4,Internally Managed,Public Equity,Common Shares,12197.821,6.7341
+sun_life,Sun Life,0,2025Q4,Internally Managed,Public Equity,Preferred Shares,24.442,0.0135
+sun_life,Sun Life,0,2025Q4,Internally Managed,Cash & Cash Equivalents,Cash,9068.009,5.0062
+sun_life,Sun Life,0,2025Q4,Externally Managed,Equity,Real Estate Equity,9375.683,5.176
+sun_life,Sun Life,0,2025Q4,Externally Managed,Equity,Other Private Equity,7250.242,4.0026
+sun_life,Sun Life,0,2026Q1,Internally Managed,Public Fixed Income,Government Bonds,40464.025,22.0773
+sun_life,Sun Life,0,2026Q1,Internally Managed,Public Fixed Income,Corporate Bonds,34615.243,18.8862
+sun_life,Sun Life,0,2026Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,55295.754,30.1696
+sun_life,Sun Life,0,2026Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,13413.585,7.3185
+sun_life,Sun Life,0,2026Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,1016.027,0.5543
+sun_life,Sun Life,0,2026Q1,Internally Managed,Public Equity,Common Shares,12480.846,6.8096
+sun_life,Sun Life,0,2026Q1,Internally Managed,Public Equity,Preferred Shares,23.93,0.0131
+sun_life,Sun Life,0,2026Q1,Internally Managed,Cash & Cash Equivalents,Cash,8796.688,4.7995
+sun_life,Sun Life,0,2026Q1,Externally Managed,Equity,Real Estate Equity,9673.902,5.2781
+sun_life,Sun Life,0,2026Q1,Externally Managed,Equity,Other Private Equity,7503.312,4.0938
+sun_life,Sun Life,0,2026Q2,Internally Managed,Public Fixed Income,Government Bonds,41842.03,21.8055
+sun_life,Sun Life,0,2026Q2,Internally Managed,Public Fixed Income,Corporate Bonds,37102.747,19.3357
+sun_life,Sun Life,0,2026Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,57557.234,29.9953
+sun_life,Sun Life,0,2026Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,13177.315,6.8672
+sun_life,Sun Life,0,2026Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,1030.398,0.537
+sun_life,Sun Life,0,2026Q2,Internally Managed,Public Equity,Common Shares,14230.255,7.4159
+sun_life,Sun Life,0,2026Q2,Internally Managed,Public Equity,Preferred Shares,24.318,0.0127
+sun_life,Sun Life,0,2026Q2,Internally Managed,Cash & Cash Equivalents,Cash,9346.201,4.8707
+sun_life,Sun Life,0,2026Q2,Externally Managed,Equity,Real Estate Equity,9738.696,5.0752
+sun_life,Sun Life,0,2026Q2,Externally Managed,Equity,Other Private Equity,7838.196,4.0848
+canada_life,Canada Life,0,2023Q1,Internally Managed,Public Fixed Income,Government Bonds,35413.595,25.8912
+canada_life,Canada Life,0,2023Q1,Internally Managed,Public Fixed Income,Corporate Bonds,28185.298,20.6065
+canada_life,Canada Life,0,2023Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,21394.104,15.6414
+canada_life,Canada Life,0,2023Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,23209.228,16.9685
+canada_life,Canada Life,0,2023Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canada_life,Canada Life,0,2023Q1,Internally Managed,Public Equity,Common Shares,12921.97,9.4474
+canada_life,Canada Life,0,2023Q1,Internally Managed,Public Equity,Preferred Shares,71.23,0.0521
+canada_life,Canada Life,0,2023Q1,Internally Managed,Cash & Cash Equivalents,Cash,6140.07,4.4891
+canada_life,Canada Life,0,2023Q1,Externally Managed,Equity,Real Estate Equity,8298.338,6.067
+canada_life,Canada Life,0,2023Q1,Externally Managed,Equity,Other Private Equity,1144.701,0.8369
+canada_life,Canada Life,0,2023Q2,Internally Managed,Public Fixed Income,Government Bonds,33610.319,24.872
+canada_life,Canada Life,0,2023Q2,Internally Managed,Public Fixed Income,Corporate Bonds,27590.51,20.4172
+canada_life,Canada Life,0,2023Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,21886.584,16.1963
+canada_life,Canada Life,0,2023Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,23337.592,17.27
+canada_life,Canada Life,0,2023Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canada_life,Canada Life,0,2023Q2,Internally Managed,Public Equity,Common Shares,12373.976,9.1569
+canada_life,Canada Life,0,2023Q2,Internally Managed,Public Equity,Preferred Shares,65.057,0.0481
+canada_life,Canada Life,0,2023Q2,Internally Managed,Cash & Cash Equivalents,Cash,6927.453,5.1264
+canada_life,Canada Life,0,2023Q2,Externally Managed,Equity,Real Estate Equity,8185.701,6.0575
+canada_life,Canada Life,0,2023Q2,Externally Managed,Equity,Other Private Equity,1156.142,0.8556
+canada_life,Canada Life,0,2023Q3,Internally Managed,Public Fixed Income,Government Bonds,32581.951,24.4654
+canada_life,Canada Life,0,2023Q3,Internally Managed,Public Fixed Income,Corporate Bonds,27188.999,20.4159
+canada_life,Canada Life,0,2023Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,21858.134,16.413
+canada_life,Canada Life,0,2023Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,23280.95,17.4814
+canada_life,Canada Life,0,2023Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canada_life,Canada Life,0,2023Q3,Internally Managed,Public Equity,Common Shares,12069.294,9.0627
+canada_life,Canada Life,0,2023Q3,Internally Managed,Public Equity,Preferred Shares,52.621,0.0395
+canada_life,Canada Life,0,2023Q3,Internally Managed,Cash & Cash Equivalents,Cash,6833.508,5.1312
+canada_life,Canada Life,0,2023Q3,Externally Managed,Equity,Real Estate Equity,8044.826,6.0408
+canada_life,Canada Life,0,2023Q3,Externally Managed,Equity,Other Private Equity,1265.228,0.95
+canada_life,Canada Life,0,2023Q4,Internally Managed,Public Fixed Income,Government Bonds,34047.241,23.9089
+canada_life,Canada Life,0,2023Q4,Internally Managed,Public Fixed Income,Corporate Bonds,29523.33,20.7321
+canada_life,Canada Life,0,2023Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,24318.458,17.0771
+canada_life,Canada Life,0,2023Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,24449.208,17.1689
+canada_life,Canada Life,0,2023Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canada_life,Canada Life,0,2023Q4,Internally Managed,Public Equity,Common Shares,12837.872,9.0151
+canada_life,Canada Life,0,2023Q4,Internally Managed,Public Equity,Preferred Shares,55.506,0.039
+canada_life,Canada Life,0,2023Q4,Internally Managed,Cash & Cash Equivalents,Cash,7958.899,5.589
+canada_life,Canada Life,0,2023Q4,Externally Managed,Equity,Real Estate Equity,7849.156,5.5119
+canada_life,Canada Life,0,2023Q4,Externally Managed,Equity,Other Private Equity,1364.174,0.958
+canada_life,Canada Life,0,2024Q1,Internally Managed,Public Fixed Income,Government Bonds,33150.629,23.1284
+canada_life,Canada Life,0,2024Q1,Internally Managed,Public Fixed Income,Corporate Bonds,30771.055,21.4682
+canada_life,Canada Life,0,2024Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,24622.364,17.1784
+canada_life,Canada Life,0,2024Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,24699.81,17.2325
+canada_life,Canada Life,0,2024Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canada_life,Canada Life,0,2024Q1,Internally Managed,Public Equity,Common Shares,13561.317,9.4614
+canada_life,Canada Life,0,2024Q1,Internally Managed,Public Equity,Preferred Shares,57.473,0.0401
+canada_life,Canada Life,0,2024Q1,Internally Managed,Cash & Cash Equivalents,Cash,7247.304,5.0563
+canada_life,Canada Life,0,2024Q1,Externally Managed,Equity,Real Estate Equity,7806.028,5.4461
+canada_life,Canada Life,0,2024Q1,Externally Managed,Equity,Other Private Equity,1417.008,0.9886
+canada_life,Canada Life,0,2024Q2,Internally Managed,Public Fixed Income,Government Bonds,32364.342,22.4135
+canada_life,Canada Life,0,2024Q2,Internally Managed,Public Fixed Income,Corporate Bonds,30661.718,21.2344
+canada_life,Canada Life,0,2024Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,25924.365,17.9536
+canada_life,Canada Life,0,2024Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,24763.392,17.1496
+canada_life,Canada Life,0,2024Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canada_life,Canada Life,0,2024Q2,Internally Managed,Public Equity,Common Shares,12978.6,8.9882
+canada_life,Canada Life,0,2024Q2,Internally Managed,Public Equity,Preferred Shares,54.534,0.0378
+canada_life,Canada Life,0,2024Q2,Internally Managed,Cash & Cash Equivalents,Cash,8181.811,5.6662
+canada_life,Canada Life,0,2024Q2,Externally Managed,Equity,Real Estate Equity,7888.853,5.4633
+canada_life,Canada Life,0,2024Q2,Externally Managed,Equity,Other Private Equity,1578.736,1.0933
+canada_life,Canada Life,0,2024Q3,Internally Managed,Public Fixed Income,Government Bonds,34337.536,22.5769
+canada_life,Canada Life,0,2024Q3,Internally Managed,Public Fixed Income,Corporate Bonds,32062.415,21.081
+canada_life,Canada Life,0,2024Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,27623.129,18.1622
+canada_life,Canada Life,0,2024Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,25723.616,16.9133
+canada_life,Canada Life,0,2024Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canada_life,Canada Life,0,2024Q3,Internally Managed,Public Equity,Common Shares,14042.146,9.2327
+canada_life,Canada Life,0,2024Q3,Internally Managed,Public Equity,Preferred Shares,57.261,0.0376
+canada_life,Canada Life,0,2024Q3,Internally Managed,Cash & Cash Equivalents,Cash,8417.138,5.5343
+canada_life,Canada Life,0,2024Q3,Externally Managed,Equity,Real Estate Equity,8086.87,5.3171
+canada_life,Canada Life,0,2024Q3,Externally Managed,Equity,Other Private Equity,1741.22,1.1449
+canada_life,Canada Life,0,2024Q4,Internally Managed,Public Fixed Income,Government Bonds,36167.043,23.3613
+canada_life,Canada Life,0,2024Q4,Internally Managed,Public Fixed Income,Corporate Bonds,31730.683,20.4957
+canada_life,Canada Life,0,2024Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,29345.195,18.9549
+canada_life,Canada Life,0,2024Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,25477.453,16.4566
+canada_life,Canada Life,0,2024Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canada_life,Canada Life,0,2024Q4,Internally Managed,Public Equity,Common Shares,13899.529,8.9781
+canada_life,Canada Life,0,2024Q4,Internally Managed,Public Equity,Preferred Shares,54.359,0.0351
+canada_life,Canada Life,0,2024Q4,Internally Managed,Cash & Cash Equivalents,Cash,8142.338,5.2594
+canada_life,Canada Life,0,2024Q4,Externally Managed,Equity,Real Estate Equity,8234.72,5.319
+canada_life,Canada Life,0,2024Q4,Externally Managed,Equity,Other Private Equity,1764.838,1.14
+canada_life,Canada Life,0,2025Q1,Internally Managed,Public Fixed Income,Government Bonds,36396.624,23.1848
+canada_life,Canada Life,0,2025Q1,Internally Managed,Public Fixed Income,Corporate Bonds,32395.94,20.6363
+canada_life,Canada Life,0,2025Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,29863.582,19.0232
+canada_life,Canada Life,0,2025Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,26157.362,16.6623
+canada_life,Canada Life,0,2025Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canada_life,Canada Life,0,2025Q1,Internally Managed,Public Equity,Common Shares,14526.527,9.2534
+canada_life,Canada Life,0,2025Q1,Internally Managed,Public Equity,Preferred Shares,41.999,0.0268
+canada_life,Canada Life,0,2025Q1,Internally Managed,Cash & Cash Equivalents,Cash,7582.816,4.8303
+canada_life,Canada Life,0,2025Q1,Externally Managed,Equity,Real Estate Equity,8212.576,5.2314
+canada_life,Canada Life,0,2025Q1,Externally Managed,Equity,Other Private Equity,1807.579,1.1514
+canada_life,Canada Life,0,2025Q2,Internally Managed,Public Fixed Income,Government Bonds,35670.793,22.6293
+canada_life,Canada Life,0,2025Q2,Internally Managed,Public Fixed Income,Corporate Bonds,32253.815,20.4616
+canada_life,Canada Life,0,2025Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,30255.185,19.1937
+canada_life,Canada Life,0,2025Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,26145.09,16.5863
+canada_life,Canada Life,0,2025Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canada_life,Canada Life,0,2025Q2,Internally Managed,Public Equity,Common Shares,14750.696,9.3577
+canada_life,Canada Life,0,2025Q2,Internally Managed,Public Equity,Preferred Shares,44.989,0.0285
+canada_life,Canada Life,0,2025Q2,Internally Managed,Cash & Cash Equivalents,Cash,8568.763,5.436
+canada_life,Canada Life,0,2025Q2,Externally Managed,Equity,Real Estate Equity,8117.391,5.1496
+canada_life,Canada Life,0,2025Q2,Externally Managed,Equity,Other Private Equity,1824.115,1.1572
+canada_life,Canada Life,0,2025Q3,Internally Managed,Public Fixed Income,Government Bonds,35295.509,22.0704
+canada_life,Canada Life,0,2025Q3,Internally Managed,Public Fixed Income,Corporate Bonds,32591.909,20.3799
+canada_life,Canada Life,0,2025Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,31750.091,19.8535
+canada_life,Canada Life,0,2025Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,26561.631,16.6091
+canada_life,Canada Life,0,2025Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canada_life,Canada Life,0,2025Q3,Internally Managed,Public Equity,Common Shares,15615.726,9.7646
+canada_life,Canada Life,0,2025Q3,Internally Managed,Public Equity,Preferred Shares,15.514,0.0097
+canada_life,Canada Life,0,2025Q3,Internally Managed,Cash & Cash Equivalents,Cash,8082.31,5.0539
+canada_life,Canada Life,0,2025Q3,Externally Managed,Equity,Real Estate Equity,8133.109,5.0857
+canada_life,Canada Life,0,2025Q3,Externally Managed,Equity,Other Private Equity,1876.236,1.1732
+canada_life,Canada Life,0,2025Q4,Internally Managed,Public Fixed Income,Government Bonds,35949.341,22.2506
+canada_life,Canada Life,0,2025Q4,Internally Managed,Public Fixed Income,Corporate Bonds,32336.316,20.0144
+canada_life,Canada Life,0,2025Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,32254.934,19.964
+canada_life,Canada Life,0,2025Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,26009.117,16.0982
+canada_life,Canada Life,0,2025Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canada_life,Canada Life,0,2025Q4,Internally Managed,Public Equity,Common Shares,16087.665,9.9574
+canada_life,Canada Life,0,2025Q4,Internally Managed,Public Equity,Preferred Shares,3.0,0.0019
+canada_life,Canada Life,0,2025Q4,Internally Managed,Cash & Cash Equivalents,Cash,8704.965,5.3879
+canada_life,Canada Life,0,2025Q4,Externally Managed,Equity,Real Estate Equity,8277.257,5.1232
+canada_life,Canada Life,0,2025Q4,Externally Managed,Equity,Other Private Equity,1942.938,1.2026
+canada_life,Canada Life,0,2026Q1,Internally Managed,Public Fixed Income,Government Bonds,35859.075,22.2995
+canada_life,Canada Life,0,2026Q1,Internally Managed,Public Fixed Income,Corporate Bonds,32715.854,20.3449
+canada_life,Canada Life,0,2026Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,33115.752,20.5935
+canada_life,Canada Life,0,2026Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,25622.782,15.9339
+canada_life,Canada Life,0,2026Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canada_life,Canada Life,0,2026Q1,Internally Managed,Public Equity,Common Shares,15702.975,9.7651
+canada_life,Canada Life,0,2026Q1,Internally Managed,Public Equity,Preferred Shares,3.0,0.0019
+canada_life,Canada Life,0,2026Q1,Internally Managed,Cash & Cash Equivalents,Cash,7408.086,4.6068
+canada_life,Canada Life,0,2026Q1,Externally Managed,Equity,Real Estate Equity,8427.278,5.2406
+canada_life,Canada Life,0,2026Q1,Externally Managed,Equity,Other Private Equity,1951.691,1.2137
+canada_life,Canada Life,0,2026Q2,Internally Managed,Public Fixed Income,Government Bonds,37217.44,22.3933
+canada_life,Canada Life,0,2026Q2,Internally Managed,Public Fixed Income,Corporate Bonds,33758.285,20.312
+canada_life,Canada Life,0,2026Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,35177.726,21.166
+canada_life,Canada Life,0,2026Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,26033.36,15.664
+canada_life,Canada Life,0,2026Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canada_life,Canada Life,0,2026Q2,Internally Managed,Public Equity,Common Shares,16226.539,9.7633
+canada_life,Canada Life,0,2026Q2,Internally Managed,Public Equity,Preferred Shares,3.0,0.0018
+canada_life,Canada Life,0,2026Q2,Internally Managed,Cash & Cash Equivalents,Cash,7159.243,4.3076
+canada_life,Canada Life,0,2026Q2,Externally Managed,Equity,Real Estate Equity,8630.223,5.1927
+canada_life,Canada Life,0,2026Q2,Externally Managed,Equity,Other Private Equity,1993.306,1.1993
+ia,iA Financial Group,0,2023Q1,Internally Managed,Public Fixed Income,Government Bonds,9236.0,23.1218
+ia,iA Financial Group,0,2023Q1,Internally Managed,Public Fixed Income,Corporate Bonds,12712.0,31.8238
+ia,iA Financial Group,0,2023Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,5481.0,13.7214
+ia,iA Financial Group,0,2023Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,1574.0,3.9404
+ia,iA Financial Group,0,2023Q1,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+ia,iA Financial Group,0,2023Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,2173.0,5.44
+ia,iA Financial Group,0,2023Q1,Internally Managed,Public Equity,Common Shares,1898.0,4.7515
+ia,iA Financial Group,0,2023Q1,Internally Managed,Cash & Cash Equivalents,Cash,1589.0,3.978
+ia,iA Financial Group,0,2023Q1,Externally Managed,Equity,Real Estate Equity,1772.0,4.4361
+ia,iA Financial Group,0,2023Q1,Externally Managed,Equity,Other Private Equity,1970.0,4.9318
+ia,iA Financial Group,0,2023Q1,Other,Other,Other / Unclassified,1540.0,3.8553
+ia,iA Financial Group,0,2023Q2,Internally Managed,Public Fixed Income,Government Bonds,9565.0,23.3515
+ia,iA Financial Group,0,2023Q2,Internally Managed,Public Fixed Income,Corporate Bonds,13386.0,32.6799
+ia,iA Financial Group,0,2023Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,5337.0,13.0295
+ia,iA Financial Group,0,2023Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,1502.0,3.6669
+ia,iA Financial Group,0,2023Q2,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+ia,iA Financial Group,0,2023Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,2215.0,5.4076
+ia,iA Financial Group,0,2023Q2,Internally Managed,Public Equity,Common Shares,1891.0,4.6166
+ia,iA Financial Group,0,2023Q2,Internally Managed,Cash & Cash Equivalents,Cash,1513.0,3.6938
+ia,iA Financial Group,0,2023Q2,Externally Managed,Equity,Real Estate Equity,1750.0,4.2724
+ia,iA Financial Group,0,2023Q2,Externally Managed,Equity,Other Private Equity,2125.0,5.1879
+ia,iA Financial Group,0,2023Q2,Other,Other,Other / Unclassified,1677.0,4.0941
+ia,iA Financial Group,0,2023Q3,Internally Managed,Public Fixed Income,Government Bonds,8463.0,21.7804
+ia,iA Financial Group,0,2023Q3,Internally Managed,Public Fixed Income,Corporate Bonds,12845.0,33.058
+ia,iA Financial Group,0,2023Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,5168.0,13.3004
+ia,iA Financial Group,0,2023Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,1470.0,3.7832
+ia,iA Financial Group,0,2023Q3,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+ia,iA Financial Group,0,2023Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,2247.0,5.7829
+ia,iA Financial Group,0,2023Q3,Internally Managed,Public Equity,Common Shares,1843.0,4.7432
+ia,iA Financial Group,0,2023Q3,Internally Managed,Cash & Cash Equivalents,Cash,1190.0,3.0626
+ia,iA Financial Group,0,2023Q3,Externally Managed,Equity,Real Estate Equity,1668.0,4.2928
+ia,iA Financial Group,0,2023Q3,Externally Managed,Equity,Other Private Equity,2201.0,5.6645
+ia,iA Financial Group,0,2023Q3,Other,Other,Other / Unclassified,1761.0,4.5321
+ia,iA Financial Group,0,2023Q4,Internally Managed,Public Fixed Income,Government Bonds,9903.0,23.2367
+ia,iA Financial Group,0,2023Q4,Internally Managed,Public Fixed Income,Corporate Bonds,14358.0,33.69
+ia,iA Financial Group,0,2023Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,5679.0,13.3254
+ia,iA Financial Group,0,2023Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,1426.0,3.346
+ia,iA Financial Group,0,2023Q4,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+ia,iA Financial Group,0,2023Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,2234.0,5.2419
+ia,iA Financial Group,0,2023Q4,Internally Managed,Public Equity,Common Shares,2002.0,4.6975
+ia,iA Financial Group,0,2023Q4,Internally Managed,Cash & Cash Equivalents,Cash,1379.0,3.2357
+ia,iA Financial Group,0,2023Q4,Externally Managed,Equity,Real Estate Equity,1611.0,3.7801
+ia,iA Financial Group,0,2023Q4,Externally Managed,Equity,Other Private Equity,2113.0,4.958
+ia,iA Financial Group,0,2023Q4,Other,Other,Other / Unclassified,1913.0,4.4887
+ia,iA Financial Group,0,2024Q1,Internally Managed,Public Fixed Income,Government Bonds,9216.0,22.1613
+ia,iA Financial Group,0,2024Q1,Internally Managed,Public Fixed Income,Corporate Bonds,16275.0,39.1358
+ia,iA Financial Group,0,2024Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,4005.0,9.6306
+ia,iA Financial Group,0,2024Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,1339.0,3.2198
+ia,iA Financial Group,0,2024Q1,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+ia,iA Financial Group,0,2024Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,2230.0,5.3624
+ia,iA Financial Group,0,2024Q1,Internally Managed,Public Equity,Common Shares,2221.0,5.3407
+ia,iA Financial Group,0,2024Q1,Internally Managed,Cash & Cash Equivalents,Cash,1462.0,3.5156
+ia,iA Financial Group,0,2024Q1,Externally Managed,Equity,Real Estate Equity,1599.0,3.845
+ia,iA Financial Group,0,2024Q1,Externally Managed,Equity,Other Private Equity,2144.0,5.1556
+ia,iA Financial Group,0,2024Q1,Other,Other,Other / Unclassified,1095.0,2.6331
+ia,iA Financial Group,0,2024Q2,Internally Managed,Public Fixed Income,Government Bonds,9261.0,21.717
+ia,iA Financial Group,0,2024Q2,Internally Managed,Public Fixed Income,Corporate Bonds,16242.0,38.0874
+ia,iA Financial Group,0,2024Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,4213.0,9.8795
+ia,iA Financial Group,0,2024Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,1342.0,3.147
+ia,iA Financial Group,0,2024Q2,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+ia,iA Financial Group,0,2024Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,2247.0,5.2692
+ia,iA Financial Group,0,2024Q2,Internally Managed,Public Equity,Common Shares,2429.0,5.696
+ia,iA Financial Group,0,2024Q2,Internally Managed,Cash & Cash Equivalents,Cash,1990.0,4.6665
+ia,iA Financial Group,0,2024Q2,Externally Managed,Equity,Real Estate Equity,1576.0,3.6957
+ia,iA Financial Group,0,2024Q2,Externally Managed,Equity,Other Private Equity,2185.0,5.1238
+ia,iA Financial Group,0,2024Q2,Other,Other,Other / Unclassified,1159.0,2.7179
+ia,iA Financial Group,0,2024Q3,Internally Managed,Public Fixed Income,Government Bonds,9575.0,21.4681
+ia,iA Financial Group,0,2024Q3,Internally Managed,Public Fixed Income,Corporate Bonds,17323.0,38.8399
+ia,iA Financial Group,0,2024Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,4391.0,9.8451
+ia,iA Financial Group,0,2024Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,1275.0,2.8587
+ia,iA Financial Group,0,2024Q3,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+ia,iA Financial Group,0,2024Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,2273.0,5.0963
+ia,iA Financial Group,0,2024Q3,Internally Managed,Public Equity,Common Shares,2590.0,5.807
+ia,iA Financial Group,0,2024Q3,Internally Managed,Cash & Cash Equivalents,Cash,2097.0,4.7017
+ia,iA Financial Group,0,2024Q3,Externally Managed,Equity,Real Estate Equity,1578.0,3.538
+ia,iA Financial Group,0,2024Q3,Externally Managed,Equity,Other Private Equity,2266.0,5.0806
+ia,iA Financial Group,0,2024Q3,Other,Other,Other / Unclassified,1233.0,2.7645
+ia,iA Financial Group,0,2024Q4,Internally Managed,Public Fixed Income,Government Bonds,10173.0,22.319
+ia,iA Financial Group,0,2024Q4,Internally Managed,Public Fixed Income,Corporate Bonds,17829.0,39.1158
+ia,iA Financial Group,0,2024Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,4688.0,10.2852
+ia,iA Financial Group,0,2024Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,1193.0,2.6174
+ia,iA Financial Group,0,2024Q4,Internally Managed,Private Fixed Income,Private Liquid Loans,0.0,0.0
+ia,iA Financial Group,0,2024Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,2251.0,4.9386
+ia,iA Financial Group,0,2024Q4,Internally Managed,Public Equity,Common Shares,2641.0,5.7942
+ia,iA Financial Group,0,2024Q4,Internally Managed,Cash & Cash Equivalents,Cash,1566.0,3.4357
+ia,iA Financial Group,0,2024Q4,Externally Managed,Equity,Real Estate Equity,1519.0,3.3326
+ia,iA Financial Group,0,2024Q4,Externally Managed,Equity,Other Private Equity,2525.0,5.5397
+ia,iA Financial Group,0,2024Q4,Other,Other,Other / Unclassified,1195.0,2.6218
+ia,iA Financial Group,0,2025Q1,Internally Managed,Public Fixed Income,Government Bonds,9489.0,20.7746
+ia,iA Financial Group,0,2025Q1,Internally Managed,Public Fixed Income,Corporate Bonds,17925.0,39.2438
+ia,iA Financial Group,0,2025Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,4757.0,10.4147
+ia,iA Financial Group,0,2025Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,1168.0,2.5571
+ia,iA Financial Group,0,2025Q1,Internally Managed,Private Fixed Income,Private Liquid Loans,6.0,0.0131
+ia,iA Financial Group,0,2025Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,2257.0,4.9413
+ia,iA Financial Group,0,2025Q1,Internally Managed,Public Equity,Common Shares,2911.0,6.3732
+ia,iA Financial Group,0,2025Q1,Internally Managed,Cash & Cash Equivalents,Cash,1794.0,3.9277
+ia,iA Financial Group,0,2025Q1,Externally Managed,Equity,Real Estate Equity,1517.0,3.3212
+ia,iA Financial Group,0,2025Q1,Externally Managed,Equity,Other Private Equity,2727.0,5.9703
+ia,iA Financial Group,0,2025Q1,Other,Other,Other / Unclassified,1125.0,2.463
+ia,iA Financial Group,0,2025Q2,Internally Managed,Public Fixed Income,Government Bonds,9168.0,20.0148
+ia,iA Financial Group,0,2025Q2,Internally Managed,Public Fixed Income,Corporate Bonds,17567.0,38.3509
+ia,iA Financial Group,0,2025Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,4808.0,10.4964
+ia,iA Financial Group,0,2025Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,1106.0,2.4145
+ia,iA Financial Group,0,2025Q2,Internally Managed,Private Fixed Income,Private Liquid Loans,42.0,0.0917
+ia,iA Financial Group,0,2025Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,2256.0,4.9251
+ia,iA Financial Group,0,2025Q2,Internally Managed,Public Equity,Common Shares,3035.0,6.6258
+ia,iA Financial Group,0,2025Q2,Internally Managed,Cash & Cash Equivalents,Cash,2207.0,4.8181
+ia,iA Financial Group,0,2025Q2,Externally Managed,Equity,Real Estate Equity,1533.0,3.3467
+ia,iA Financial Group,0,2025Q2,Externally Managed,Equity,Other Private Equity,2669.0,5.8267
+ia,iA Financial Group,0,2025Q2,Other,Other,Other / Unclassified,1415.0,3.0891
+ia,iA Financial Group,0,2025Q3,Internally Managed,Public Fixed Income,Government Bonds,9309.0,19.8821
+ia,iA Financial Group,0,2025Q3,Internally Managed,Public Fixed Income,Corporate Bonds,17604.0,37.5985
+ia,iA Financial Group,0,2025Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,5016.0,10.7131
+ia,iA Financial Group,0,2025Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,1175.0,2.5096
+ia,iA Financial Group,0,2025Q3,Internally Managed,Private Fixed Income,Private Liquid Loans,145.0,0.3097
+ia,iA Financial Group,0,2025Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,2280.0,4.8696
+ia,iA Financial Group,0,2025Q3,Internally Managed,Public Equity,Common Shares,3491.0,7.4561
+ia,iA Financial Group,0,2025Q3,Internally Managed,Cash & Cash Equivalents,Cash,2324.0,4.9636
+ia,iA Financial Group,0,2025Q3,Externally Managed,Equity,Real Estate Equity,1444.0,3.0841
+ia,iA Financial Group,0,2025Q3,Externally Managed,Equity,Other Private Equity,2700.0,5.7666
+ia,iA Financial Group,0,2025Q3,Other,Other,Other / Unclassified,1333.0,2.847
+ia,iA Financial Group,0,2025Q4,Internally Managed,Public Fixed Income,Government Bonds,8861.0,19.253
+ia,iA Financial Group,0,2025Q4,Internally Managed,Public Fixed Income,Corporate Bonds,17147.0,37.2566
+ia,iA Financial Group,0,2025Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,5072.0,11.0203
+ia,iA Financial Group,0,2025Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,1157.0,2.5139
+ia,iA Financial Group,0,2025Q4,Internally Managed,Private Fixed Income,Private Liquid Loans,250.0,0.5432
+ia,iA Financial Group,0,2025Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,2280.0,4.9539
+ia,iA Financial Group,0,2025Q4,Internally Managed,Public Equity,Common Shares,3612.0,7.8481
+ia,iA Financial Group,0,2025Q4,Internally Managed,Cash & Cash Equivalents,Cash,2262.0,4.9148
+ia,iA Financial Group,0,2025Q4,Externally Managed,Equity,Real Estate Equity,1446.0,3.1418
+ia,iA Financial Group,0,2025Q4,Externally Managed,Equity,Other Private Equity,2843.0,6.1772
+ia,iA Financial Group,0,2025Q4,Other,Other,Other / Unclassified,1094.0,2.377
+ia,iA Financial Group,0,2026Q1,Internally Managed,Public Fixed Income,Government Bonds,8715.0,18.9403
+ia,iA Financial Group,0,2026Q1,Internally Managed,Public Fixed Income,Corporate Bonds,16329.0,35.4878
+ia,iA Financial Group,0,2026Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,5293.0,11.5033
+ia,iA Financial Group,0,2026Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,1104.0,2.3993
+ia,iA Financial Group,0,2026Q1,Internally Managed,Private Fixed Income,Private Liquid Loans,280.0,0.6085
+ia,iA Financial Group,0,2026Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,2339.0,5.0833
+ia,iA Financial Group,0,2026Q1,Internally Managed,Public Equity,Common Shares,4294.0,9.3321
+ia,iA Financial Group,0,2026Q1,Internally Managed,Cash & Cash Equivalents,Cash,2208.0,4.7986
+ia,iA Financial Group,0,2026Q1,Externally Managed,Equity,Real Estate Equity,1422.0,3.0904
+ia,iA Financial Group,0,2026Q1,Externally Managed,Equity,Other Private Equity,3014.0,6.5503
+ia,iA Financial Group,0,2026Q1,Other,Other,Other / Unclassified,1015.0,2.2059
+ia,iA Financial Group,0,2026Q2,Internally Managed,Public Fixed Income,Government Bonds,8838.0,18.6905
+ia,iA Financial Group,0,2026Q2,Internally Managed,Public Fixed Income,Corporate Bonds,16072.0,33.9889
+ia,iA Financial Group,0,2026Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,5733.0,12.1241
+ia,iA Financial Group,0,2026Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,1080.0,2.284
+ia,iA Financial Group,0,2026Q2,Internally Managed,Private Fixed Income,Private Liquid Loans,329.0,0.6958
+ia,iA Financial Group,0,2026Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,2419.0,5.1157
+ia,iA Financial Group,0,2026Q2,Internally Managed,Public Equity,Common Shares,4428.0,9.3643
+ia,iA Financial Group,0,2026Q2,Internally Managed,Cash & Cash Equivalents,Cash,2378.0,5.029
+ia,iA Financial Group,0,2026Q2,Externally Managed,Equity,Real Estate Equity,1381.0,2.9205
+ia,iA Financial Group,0,2026Q2,Externally Managed,Equity,Other Private Equity,3274.0,6.9238
+ia,iA Financial Group,0,2026Q2,Other,Other,Other / Unclassified,1354.0,2.8634
+rbc_life,RBC Life,1,2023Q4,Internally Managed,Public Fixed Income,Government Bonds,5783.716,28.4825
+rbc_life,RBC Life,1,2023Q4,Internally Managed,Public Fixed Income,Corporate Bonds,6682.542,32.9088
+rbc_life,RBC Life,1,2023Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,1659.147,8.1706
+rbc_life,RBC Life,1,2023Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,1508.145,7.427
+rbc_life,RBC Life,1,2023Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+rbc_life,RBC Life,1,2023Q4,Internally Managed,Public Equity,Common Shares,2497.185,12.2976
+rbc_life,RBC Life,1,2023Q4,Internally Managed,Public Equity,Preferred Shares,12.368,0.0609
+rbc_life,RBC Life,1,2023Q4,Internally Managed,Cash & Cash Equivalents,Cash,1635.529,8.0543
+rbc_life,RBC Life,1,2023Q4,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+rbc_life,RBC Life,1,2023Q4,Externally Managed,Equity,Other Private Equity,527.6,2.5982
+rbc_life,RBC Life,1,2024Q1,Internally Managed,Public Fixed Income,Government Bonds,6375.784,31.6501
+rbc_life,RBC Life,1,2024Q1,Internally Managed,Public Fixed Income,Corporate Bonds,6502.251,32.2779
+rbc_life,RBC Life,1,2024Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,1754.675,8.7104
+rbc_life,RBC Life,1,2024Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,1650.427,8.1929
+rbc_life,RBC Life,1,2024Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+rbc_life,RBC Life,1,2024Q1,Internally Managed,Public Equity,Common Shares,2576.428,12.7897
+rbc_life,RBC Life,1,2024Q1,Internally Managed,Public Equity,Preferred Shares,14.12,0.0701
+rbc_life,RBC Life,1,2024Q1,Internally Managed,Cash & Cash Equivalents,Cash,745.675,3.7016
+rbc_life,RBC Life,1,2024Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+rbc_life,RBC Life,1,2024Q1,Externally Managed,Equity,Other Private Equity,525.256,2.6074
+rbc_life,RBC Life,1,2024Q2,Internally Managed,Public Fixed Income,Government Bonds,6298.488,31.2373
+rbc_life,RBC Life,1,2024Q2,Internally Managed,Public Fixed Income,Corporate Bonds,6458.96,32.0331
+rbc_life,RBC Life,1,2024Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,1803.896,8.9464
+rbc_life,RBC Life,1,2024Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,1636.527,8.1163
+rbc_life,RBC Life,1,2024Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+rbc_life,RBC Life,1,2024Q2,Internally Managed,Public Equity,Common Shares,2566.651,12.7293
+rbc_life,RBC Life,1,2024Q2,Internally Managed,Public Equity,Preferred Shares,14.329,0.0711
+rbc_life,RBC Life,1,2024Q2,Internally Managed,Cash & Cash Equivalents,Cash,866.234,4.2961
+rbc_life,RBC Life,1,2024Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+rbc_life,RBC Life,1,2024Q2,Externally Managed,Equity,Other Private Equity,518.295,2.5705
+rbc_life,RBC Life,1,2024Q3,Internally Managed,Public Fixed Income,Government Bonds,7441.508,33.4559
+rbc_life,RBC Life,1,2024Q3,Internally Managed,Public Fixed Income,Corporate Bonds,7197.118,32.3572
+rbc_life,RBC Life,1,2024Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,1960.199,8.8128
+rbc_life,RBC Life,1,2024Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,1788.177,8.0394
+rbc_life,RBC Life,1,2024Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+rbc_life,RBC Life,1,2024Q3,Internally Managed,Public Equity,Common Shares,2682.203,12.0588
+rbc_life,RBC Life,1,2024Q3,Internally Managed,Public Equity,Preferred Shares,14.868,0.0668
+rbc_life,RBC Life,1,2024Q3,Internally Managed,Cash & Cash Equivalents,Cash,644.309,2.8967
+rbc_life,RBC Life,1,2024Q3,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+rbc_life,RBC Life,1,2024Q3,Externally Managed,Equity,Other Private Equity,514.33,2.3124
+rbc_life,RBC Life,1,2024Q4,Internally Managed,Public Fixed Income,Government Bonds,7840.145,33.7006
+rbc_life,RBC Life,1,2024Q4,Internally Managed,Public Fixed Income,Corporate Bonds,7488.507,32.1891
+rbc_life,RBC Life,1,2024Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,2087.045,8.9711
+rbc_life,RBC Life,1,2024Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,1787.42,7.6832
+rbc_life,RBC Life,1,2024Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+rbc_life,RBC Life,1,2024Q4,Internally Managed,Public Equity,Common Shares,2756.73,11.8497
+rbc_life,RBC Life,1,2024Q4,Internally Managed,Public Equity,Preferred Shares,14.799,0.0636
+rbc_life,RBC Life,1,2024Q4,Internally Managed,Cash & Cash Equivalents,Cash,782.42,3.3632
+rbc_life,RBC Life,1,2024Q4,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+rbc_life,RBC Life,1,2024Q4,Externally Managed,Equity,Other Private Equity,507.06,2.1796
+rbc_life,RBC Life,1,2025Q1,Internally Managed,Public Fixed Income,Government Bonds,8527.008,36.1316
+rbc_life,RBC Life,1,2025Q1,Internally Managed,Public Fixed Income,Corporate Bonds,7105.169,30.1069
+rbc_life,RBC Life,1,2025Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,2333.104,9.8861
+rbc_life,RBC Life,1,2025Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,1826.126,7.7379
+rbc_life,RBC Life,1,2025Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+rbc_life,RBC Life,1,2025Q1,Internally Managed,Public Equity,Common Shares,2724.565,11.5448
+rbc_life,RBC Life,1,2025Q1,Internally Managed,Public Equity,Preferred Shares,15.262,0.0647
+rbc_life,RBC Life,1,2025Q1,Internally Managed,Cash & Cash Equivalents,Cash,512.404,2.1712
+rbc_life,RBC Life,1,2025Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+rbc_life,RBC Life,1,2025Q1,Externally Managed,Equity,Other Private Equity,556.194,2.3568
+rbc_life,RBC Life,1,2025Q2,Internally Managed,Public Fixed Income,Government Bonds,8524.692,36.2626
+rbc_life,RBC Life,1,2025Q2,Internally Managed,Public Fixed Income,Corporate Bonds,7050.954,29.9936
+rbc_life,RBC Life,1,2025Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,2275.513,9.6797
+rbc_life,RBC Life,1,2025Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,1807.137,7.6873
+rbc_life,RBC Life,1,2025Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+rbc_life,RBC Life,1,2025Q2,Internally Managed,Public Equity,Common Shares,2822.009,12.0044
+rbc_life,RBC Life,1,2025Q2,Internally Managed,Public Equity,Preferred Shares,15.415,0.0656
+rbc_life,RBC Life,1,2025Q2,Internally Managed,Cash & Cash Equivalents,Cash,453.533,1.9293
+rbc_life,RBC Life,1,2025Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+rbc_life,RBC Life,1,2025Q2,Externally Managed,Equity,Other Private Equity,558.943,2.3777
+rbc_life,RBC Life,1,2025Q3,Internally Managed,Public Fixed Income,Government Bonds,9071.207,36.5502
+rbc_life,RBC Life,1,2025Q3,Internally Managed,Public Fixed Income,Corporate Bonds,7592.193,30.5909
+rbc_life,RBC Life,1,2025Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,2538.808,10.2295
+rbc_life,RBC Life,1,2025Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,1832.025,7.3817
+rbc_life,RBC Life,1,2025Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+rbc_life,RBC Life,1,2025Q3,Internally Managed,Public Equity,Common Shares,2971.079,11.9712
+rbc_life,RBC Life,1,2025Q3,Internally Managed,Public Equity,Preferred Shares,16.025,0.0646
+rbc_life,RBC Life,1,2025Q3,Internally Managed,Cash & Cash Equivalents,Cash,246.433,0.9929
+rbc_life,RBC Life,1,2025Q3,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+rbc_life,RBC Life,1,2025Q3,Externally Managed,Equity,Other Private Equity,550.732,2.219
+rbc_life,RBC Life,1,2025Q4,Internally Managed,Public Fixed Income,Government Bonds,8740.537,35.3863
+rbc_life,RBC Life,1,2025Q4,Internally Managed,Public Fixed Income,Corporate Bonds,7762.536,31.4268
+rbc_life,RBC Life,1,2025Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,2567.644,10.3952
+rbc_life,RBC Life,1,2025Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,1859.567,7.5285
+rbc_life,RBC Life,1,2025Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+rbc_life,RBC Life,1,2025Q4,Internally Managed,Public Equity,Common Shares,3017.911,12.2181
+rbc_life,RBC Life,1,2025Q4,Internally Managed,Public Equity,Preferred Shares,16.431,0.0665
+rbc_life,RBC Life,1,2025Q4,Internally Managed,Cash & Cash Equivalents,Cash,176.721,0.7155
+rbc_life,RBC Life,1,2025Q4,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+rbc_life,RBC Life,1,2025Q4,Externally Managed,Equity,Other Private Equity,559.003,2.2631
+rbc_life,RBC Life,1,2026Q1,Internally Managed,Public Fixed Income,Government Bonds,8214.024,33.187
+rbc_life,RBC Life,1,2026Q1,Internally Managed,Public Fixed Income,Corporate Bonds,8038.506,32.4778
+rbc_life,RBC Life,1,2026Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,2693.649,10.8831
+rbc_life,RBC Life,1,2026Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,1891.42,7.6419
+rbc_life,RBC Life,1,2026Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+rbc_life,RBC Life,1,2026Q1,Internally Managed,Public Equity,Common Shares,3029.871,12.2415
+rbc_life,RBC Life,1,2026Q1,Internally Managed,Public Equity,Preferred Shares,16.166,0.0653
+rbc_life,RBC Life,1,2026Q1,Internally Managed,Cash & Cash Equivalents,Cash,305.045,1.2325
+rbc_life,RBC Life,1,2026Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+rbc_life,RBC Life,1,2026Q1,Externally Managed,Equity,Other Private Equity,562.062,2.2709
+rbc_life,RBC Life,1,2026Q2,Internally Managed,Public Fixed Income,Government Bonds,8116.982,31.5467
+rbc_life,RBC Life,1,2026Q2,Internally Managed,Public Fixed Income,Corporate Bonds,8431.678,32.7697
+rbc_life,RBC Life,1,2026Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,3004.556,11.6772
+rbc_life,RBC Life,1,2026Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,1986.029,7.7187
+rbc_life,RBC Life,1,2026Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+rbc_life,RBC Life,1,2026Q2,Internally Managed,Public Equity,Common Shares,3205.931,12.4599
+rbc_life,RBC Life,1,2026Q2,Internally Managed,Public Equity,Preferred Shares,16.638,0.0647
+rbc_life,RBC Life,1,2026Q2,Internally Managed,Cash & Cash Equivalents,Cash,416.942,1.6204
+rbc_life,RBC Life,1,2026Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+rbc_life,RBC Life,1,2026Q2,Externally Managed,Equity,Other Private Equity,551.328,2.1427
+bmo_life,BMO Life,0,2023Q4,Internally Managed,Public Fixed Income,Government Bonds,1559.43,11.2005
+bmo_life,BMO Life,0,2023Q4,Internally Managed,Public Fixed Income,Corporate Bonds,8431.336,60.5573
+bmo_life,BMO Life,0,2023Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+bmo_life,BMO Life,0,2023Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,305.476,2.1941
+bmo_life,BMO Life,0,2023Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+bmo_life,BMO Life,0,2023Q4,Internally Managed,Public Equity,Common Shares,1373.852,9.8676
+bmo_life,BMO Life,0,2023Q4,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+bmo_life,BMO Life,0,2023Q4,Internally Managed,Cash & Cash Equivalents,Cash,747.913,5.3718
+bmo_life,BMO Life,0,2023Q4,Externally Managed,Equity,Real Estate Equity,1504.891,10.8087
+bmo_life,BMO Life,0,2023Q4,Externally Managed,Equity,Other Private Equity,0.0,0.0
+bmo_life,BMO Life,0,2024Q1,Internally Managed,Public Fixed Income,Government Bonds,1601.359,11.5671
+bmo_life,BMO Life,0,2024Q1,Internally Managed,Public Fixed Income,Corporate Bonds,8210.595,59.3076
+bmo_life,BMO Life,0,2024Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+bmo_life,BMO Life,0,2024Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,302.814,2.1873
+bmo_life,BMO Life,0,2024Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+bmo_life,BMO Life,0,2024Q1,Internally Managed,Public Equity,Common Shares,1372.605,9.9147
+bmo_life,BMO Life,0,2024Q1,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+bmo_life,BMO Life,0,2024Q1,Internally Managed,Cash & Cash Equivalents,Cash,894.504,6.4613
+bmo_life,BMO Life,0,2024Q1,Externally Managed,Equity,Real Estate Equity,1462.211,10.562
+bmo_life,BMO Life,0,2024Q1,Externally Managed,Equity,Other Private Equity,0.0,0.0
+bmo_life,BMO Life,0,2024Q2,Internally Managed,Public Fixed Income,Government Bonds,1720.28,11.7804
+bmo_life,BMO Life,0,2024Q2,Internally Managed,Public Fixed Income,Corporate Bonds,8811.608,60.3416
+bmo_life,BMO Life,0,2024Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+bmo_life,BMO Life,0,2024Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,344.169,2.3569
+bmo_life,BMO Life,0,2024Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,281.697,1.9291
+bmo_life,BMO Life,0,2024Q2,Internally Managed,Public Equity,Common Shares,1449.098,9.9234
+bmo_life,BMO Life,0,2024Q2,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+bmo_life,BMO Life,0,2024Q2,Internally Managed,Cash & Cash Equivalents,Cash,476.972,3.2663
+bmo_life,BMO Life,0,2024Q2,Externally Managed,Equity,Real Estate Equity,1519.049,10.4024
+bmo_life,BMO Life,0,2024Q2,Externally Managed,Equity,Other Private Equity,0.0,0.0
+bmo_life,BMO Life,0,2024Q3,Internally Managed,Public Fixed Income,Government Bonds,1837.759,12.1136
+bmo_life,BMO Life,0,2024Q3,Internally Managed,Public Fixed Income,Corporate Bonds,8974.74,59.1573
+bmo_life,BMO Life,0,2024Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,72.151,0.4756
+bmo_life,BMO Life,0,2024Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,297.315,1.9598
+bmo_life,BMO Life,0,2024Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,324.743,2.1406
+bmo_life,BMO Life,0,2024Q3,Internally Managed,Public Equity,Common Shares,1508.034,9.9403
+bmo_life,BMO Life,0,2024Q3,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+bmo_life,BMO Life,0,2024Q3,Internally Managed,Cash & Cash Equivalents,Cash,658.658,4.3416
+bmo_life,BMO Life,0,2024Q3,Externally Managed,Equity,Real Estate Equity,1497.577,9.8713
+bmo_life,BMO Life,0,2024Q3,Externally Managed,Equity,Other Private Equity,0.0,0.0
+bmo_life,BMO Life,0,2024Q4,Internally Managed,Public Fixed Income,Government Bonds,1886.246,11.9587
+bmo_life,BMO Life,0,2024Q4,Internally Managed,Public Fixed Income,Corporate Bonds,9245.003,58.6129
+bmo_life,BMO Life,0,2024Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,75.372,0.4779
+bmo_life,BMO Life,0,2024Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,337.385,2.139
+bmo_life,BMO Life,0,2024Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,281.014,1.7816
+bmo_life,BMO Life,0,2024Q4,Internally Managed,Public Equity,Common Shares,1553.5,9.8491
+bmo_life,BMO Life,0,2024Q4,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+bmo_life,BMO Life,0,2024Q4,Internally Managed,Cash & Cash Equivalents,Cash,896.603,5.6844
+bmo_life,BMO Life,0,2024Q4,Externally Managed,Equity,Real Estate Equity,1497.873,9.4964
+bmo_life,BMO Life,0,2024Q4,Externally Managed,Equity,Other Private Equity,0.0,0.0
+bmo_life,BMO Life,0,2025Q1,Internally Managed,Public Fixed Income,Government Bonds,1841.512,11.7317
+bmo_life,BMO Life,0,2025Q1,Internally Managed,Public Fixed Income,Corporate Bonds,9067.206,57.7644
+bmo_life,BMO Life,0,2025Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,73.703,0.4695
+bmo_life,BMO Life,0,2025Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,333.893,2.1271
+bmo_life,BMO Life,0,2025Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,250.469,1.5957
+bmo_life,BMO Life,0,2025Q1,Internally Managed,Public Equity,Common Shares,1428.535,9.1008
+bmo_life,BMO Life,0,2025Q1,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+bmo_life,BMO Life,0,2025Q1,Internally Managed,Cash & Cash Equivalents,Cash,1208.45,7.6987
+bmo_life,BMO Life,0,2025Q1,Externally Managed,Equity,Real Estate Equity,1493.11,9.5121
+bmo_life,BMO Life,0,2025Q1,Externally Managed,Equity,Other Private Equity,0.0,0.0
+bmo_life,BMO Life,0,2025Q2,Internally Managed,Public Fixed Income,Government Bonds,1799.353,11.7596
+bmo_life,BMO Life,0,2025Q2,Internally Managed,Public Fixed Income,Corporate Bonds,8740.411,57.1227
+bmo_life,BMO Life,0,2025Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,87.906,0.5745
+bmo_life,BMO Life,0,2025Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,330.279,2.1585
+bmo_life,BMO Life,0,2025Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,145.9,0.9535
+bmo_life,BMO Life,0,2025Q2,Internally Managed,Public Equity,Common Shares,1481.767,9.684
+bmo_life,BMO Life,0,2025Q2,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+bmo_life,BMO Life,0,2025Q2,Internally Managed,Cash & Cash Equivalents,Cash,1217.981,7.9601
+bmo_life,BMO Life,0,2025Q2,Externally Managed,Equity,Real Estate Equity,1497.524,9.787
+bmo_life,BMO Life,0,2025Q2,Externally Managed,Equity,Other Private Equity,0.0,0.0
+bmo_life,BMO Life,0,2025Q3,Internally Managed,Public Fixed Income,Government Bonds,2448.9,14.9169
+bmo_life,BMO Life,0,2025Q3,Internally Managed,Public Fixed Income,Corporate Bonds,8931.988,54.4071
+bmo_life,BMO Life,0,2025Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,100.521,0.6123
+bmo_life,BMO Life,0,2025Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,326.065,1.9861
+bmo_life,BMO Life,0,2025Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,145.656,0.8872
+bmo_life,BMO Life,0,2025Q3,Internally Managed,Public Equity,Common Shares,1569.343,9.5593
+bmo_life,BMO Life,0,2025Q3,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+bmo_life,BMO Life,0,2025Q3,Internally Managed,Cash & Cash Equivalents,Cash,1393.379,8.4874
+bmo_life,BMO Life,0,2025Q3,Externally Managed,Equity,Real Estate Equity,1501.111,9.1437
+bmo_life,BMO Life,0,2025Q3,Externally Managed,Equity,Other Private Equity,0.0,0.0
+bmo_life,BMO Life,0,2025Q4,Internally Managed,Public Fixed Income,Government Bonds,3021.852,17.0887
+bmo_life,BMO Life,0,2025Q4,Internally Managed,Public Fixed Income,Corporate Bonds,9068.682,51.2837
+bmo_life,BMO Life,0,2025Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,97.459,0.5511
+bmo_life,BMO Life,0,2025Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,332.058,1.8778
+bmo_life,BMO Life,0,2025Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,117.993,0.6673
+bmo_life,BMO Life,0,2025Q4,Internally Managed,Public Equity,Common Shares,1868.672,10.5674
+bmo_life,BMO Life,0,2025Q4,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+bmo_life,BMO Life,0,2025Q4,Internally Managed,Cash & Cash Equivalents,Cash,1680.666,9.5042
+bmo_life,BMO Life,0,2025Q4,Externally Managed,Equity,Real Estate Equity,1495.98,8.4598
+bmo_life,BMO Life,0,2025Q4,Externally Managed,Equity,Other Private Equity,0.0,0.0
+bmo_life,BMO Life,0,2026Q1,Internally Managed,Public Fixed Income,Government Bonds,3113.335,17.1794
+bmo_life,BMO Life,0,2026Q1,Internally Managed,Public Fixed Income,Corporate Bonds,9762.52,53.8696
+bmo_life,BMO Life,0,2026Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,103.825,0.5729
+bmo_life,BMO Life,0,2026Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,381.744,2.1065
+bmo_life,BMO Life,0,2026Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,109.916,0.6065
+bmo_life,BMO Life,0,2026Q1,Internally Managed,Public Equity,Common Shares,1633.62,9.0143
+bmo_life,BMO Life,0,2026Q1,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+bmo_life,BMO Life,0,2026Q1,Internally Managed,Cash & Cash Equivalents,Cash,1529.69,8.4408
+bmo_life,BMO Life,0,2026Q1,Externally Managed,Equity,Real Estate Equity,1487.842,8.2099
+bmo_life,BMO Life,0,2026Q1,Externally Managed,Equity,Other Private Equity,0.0,0.0
+bmo_life,BMO Life,0,2026Q2,Internally Managed,Public Fixed Income,Government Bonds,3154.03,17.2877
+bmo_life,BMO Life,0,2026Q2,Internally Managed,Public Fixed Income,Corporate Bonds,9901.268,54.2704
+bmo_life,BMO Life,0,2026Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,130.684,0.7163
+bmo_life,BMO Life,0,2026Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,378.418,2.0742
+bmo_life,BMO Life,0,2026Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,93.888,0.5146
+bmo_life,BMO Life,0,2026Q2,Internally Managed,Public Equity,Common Shares,1731.124,9.4886
+bmo_life,BMO Life,0,2026Q2,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+bmo_life,BMO Life,0,2026Q2,Internally Managed,Cash & Cash Equivalents,Cash,1362.388,7.4675
+bmo_life,BMO Life,0,2026Q2,Externally Managed,Equity,Real Estate Equity,1492.54,8.1808
+bmo_life,BMO Life,0,2026Q2,Externally Managed,Equity,Other Private Equity,0.0,0.0
+ivari,ivari,0,2023Q1,Internally Managed,Public Fixed Income,Government Bonds,2078.278,23.12
+ivari,ivari,0,2023Q1,Internally Managed,Public Fixed Income,Corporate Bonds,2853.472,31.7437
+ivari,ivari,0,2023Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,684.37,7.6133
+ivari,ivari,0,2023Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,0.005,0.0001
+ivari,ivari,0,2023Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+ivari,ivari,0,2023Q1,Internally Managed,Public Equity,Common Shares,2236.315,24.8781
+ivari,ivari,0,2023Q1,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+ivari,ivari,0,2023Q1,Internally Managed,Cash & Cash Equivalents,Cash,1067.513,11.8757
+ivari,ivari,0,2023Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+ivari,ivari,0,2023Q1,Externally Managed,Equity,Other Private Equity,69.135,0.7691
+ivari,ivari,0,2023Q2,Internally Managed,Public Fixed Income,Government Bonds,1975.248,21.3696
+ivari,ivari,0,2023Q2,Internally Managed,Public Fixed Income,Corporate Bonds,2963.704,32.0634
+ivari,ivari,0,2023Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,726.593,7.8608
+ivari,ivari,0,2023Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,0.003,0.0
+ivari,ivari,0,2023Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+ivari,ivari,0,2023Q2,Internally Managed,Public Equity,Common Shares,2316.172,25.058
+ivari,ivari,0,2023Q2,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+ivari,ivari,0,2023Q2,Internally Managed,Cash & Cash Equivalents,Cash,1194.556,12.9235
+ivari,ivari,0,2023Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+ivari,ivari,0,2023Q2,Externally Managed,Equity,Other Private Equity,66.981,0.7246
+ivari,ivari,0,2023Q3,Internally Managed,Public Fixed Income,Government Bonds,1732.964,19.9765
+ivari,ivari,0,2023Q3,Internally Managed,Public Fixed Income,Corporate Bonds,2716.532,31.3144
+ivari,ivari,0,2023Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,668.185,7.7024
+ivari,ivari,0,2023Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+ivari,ivari,0,2023Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+ivari,ivari,0,2023Q3,Internally Managed,Public Equity,Common Shares,2281.546,26.3002
+ivari,ivari,0,2023Q3,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+ivari,ivari,0,2023Q3,Internally Managed,Cash & Cash Equivalents,Cash,1208.559,13.9315
+ivari,ivari,0,2023Q3,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+ivari,ivari,0,2023Q3,Externally Managed,Equity,Other Private Equity,67.241,0.7751
+ivari,ivari,0,2023Q4,Internally Managed,Public Fixed Income,Government Bonds,2283.705,23.2603
+ivari,ivari,0,2023Q4,Internally Managed,Public Fixed Income,Corporate Bonds,3083.072,31.4022
+ivari,ivari,0,2023Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,766.598,7.8081
+ivari,ivari,0,2023Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+ivari,ivari,0,2023Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+ivari,ivari,0,2023Q4,Internally Managed,Public Equity,Common Shares,2486.052,25.3213
+ivari,ivari,0,2023Q4,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+ivari,ivari,0,2023Q4,Internally Managed,Cash & Cash Equivalents,Cash,1130.619,11.5157
+ivari,ivari,0,2023Q4,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+ivari,ivari,0,2023Q4,Externally Managed,Equity,Other Private Equity,67.979,0.6924
+ivari,ivari,0,2024Q1,Internally Managed,Public Fixed Income,Government Bonds,2198.29,22.3828
+ivari,ivari,0,2024Q1,Internally Managed,Public Fixed Income,Corporate Bonds,2957.784,30.1159
+ivari,ivari,0,2024Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,741.66,7.5515
+ivari,ivari,0,2024Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+ivari,ivari,0,2024Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+ivari,ivari,0,2024Q1,Internally Managed,Public Equity,Common Shares,2669.276,27.1783
+ivari,ivari,0,2024Q1,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+ivari,ivari,0,2024Q1,Internally Managed,Cash & Cash Equivalents,Cash,1183.475,12.05
+ivari,ivari,0,2024Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+ivari,ivari,0,2024Q1,Externally Managed,Equity,Other Private Equity,70.867,0.7216
+ivari,ivari,0,2024Q2,Internally Managed,Public Fixed Income,Government Bonds,2157.92,21.7732
+ivari,ivari,0,2024Q2,Internally Managed,Public Fixed Income,Corporate Bonds,2944.564,29.7104
+ivari,ivari,0,2024Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,735.191,7.418
+ivari,ivari,0,2024Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+ivari,ivari,0,2024Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+ivari,ivari,0,2024Q2,Internally Managed,Public Equity,Common Shares,2713.699,27.381
+ivari,ivari,0,2024Q2,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+ivari,ivari,0,2024Q2,Internally Managed,Cash & Cash Equivalents,Cash,1287.619,12.992
+ivari,ivari,0,2024Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+ivari,ivari,0,2024Q2,Externally Managed,Equity,Other Private Equity,71.885,0.7253
+ivari,ivari,0,2024Q3,Internally Managed,Public Fixed Income,Government Bonds,2274.987,21.8848
+ivari,ivari,0,2024Q3,Internally Managed,Public Fixed Income,Corporate Bonds,3106.044,29.8793
+ivari,ivari,0,2024Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,773.032,7.4364
+ivari,ivari,0,2024Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+ivari,ivari,0,2024Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+ivari,ivari,0,2024Q3,Internally Managed,Public Equity,Common Shares,2892.556,27.8256
+ivari,ivari,0,2024Q3,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+ivari,ivari,0,2024Q3,Internally Managed,Cash & Cash Equivalents,Cash,1266.548,12.1838
+ivari,ivari,0,2024Q3,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+ivari,ivari,0,2024Q3,Externally Managed,Equity,Other Private Equity,82.136,0.7901
+ivari,ivari,0,2024Q4,Internally Managed,Public Fixed Income,Government Bonds,2246.968,21.2585
+ivari,ivari,0,2024Q4,Internally Managed,Public Fixed Income,Corporate Bonds,3102.03,29.3483
+ivari,ivari,0,2024Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,764.049,7.2287
+ivari,ivari,0,2024Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+ivari,ivari,0,2024Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+ivari,ivari,0,2024Q4,Internally Managed,Public Equity,Common Shares,3069.091,29.0366
+ivari,ivari,0,2024Q4,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+ivari,ivari,0,2024Q4,Internally Managed,Cash & Cash Equivalents,Cash,1295.483,12.2565
+ivari,ivari,0,2024Q4,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+ivari,ivari,0,2024Q4,Externally Managed,Equity,Other Private Equity,92.106,0.8714
+ivari,ivari,0,2025Q1,Internally Managed,Public Fixed Income,Government Bonds,2202.898,20.8405
+ivari,ivari,0,2025Q1,Internally Managed,Public Fixed Income,Corporate Bonds,3173.197,30.02
+ivari,ivari,0,2025Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,836.847,7.917
+ivari,ivari,0,2025Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+ivari,ivari,0,2025Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+ivari,ivari,0,2025Q1,Internally Managed,Public Equity,Common Shares,3028.475,28.6509
+ivari,ivari,0,2025Q1,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+ivari,ivari,0,2025Q1,Internally Managed,Cash & Cash Equivalents,Cash,1236.893,11.7016
+ivari,ivari,0,2025Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+ivari,ivari,0,2025Q1,Externally Managed,Equity,Other Private Equity,91.954,0.8699
+ivari,ivari,0,2025Q2,Internally Managed,Public Fixed Income,Government Bonds,2091.69,19.5588
+ivari,ivari,0,2025Q2,Internally Managed,Public Fixed Income,Corporate Bonds,3193.327,29.86
+ivari,ivari,0,2025Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,819.696,7.6648
+ivari,ivari,0,2025Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+ivari,ivari,0,2025Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+ivari,ivari,0,2025Q2,Internally Managed,Public Equity,Common Shares,3240.28,30.299
+ivari,ivari,0,2025Q2,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+ivari,ivari,0,2025Q2,Internally Managed,Cash & Cash Equivalents,Cash,1221.046,11.4177
+ivari,ivari,0,2025Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+ivari,ivari,0,2025Q2,Externally Managed,Equity,Other Private Equity,128.307,1.1998
+ivari,ivari,0,2025Q3,Internally Managed,Public Fixed Income,Government Bonds,2155.567,19.4861
+ivari,ivari,0,2025Q3,Internally Managed,Public Fixed Income,Corporate Bonds,3112.635,28.1379
+ivari,ivari,0,2025Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,829.97,7.5028
+ivari,ivari,0,2025Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+ivari,ivari,0,2025Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+ivari,ivari,0,2025Q3,Internally Managed,Public Equity,Common Shares,3488.635,31.5369
+ivari,ivari,0,2025Q3,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+ivari,ivari,0,2025Q3,Internally Managed,Cash & Cash Equivalents,Cash,1354.421,12.2438
+ivari,ivari,0,2025Q3,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+ivari,ivari,0,2025Q3,Externally Managed,Equity,Other Private Equity,120.855,1.0925
+ivari,ivari,0,2025Q4,Internally Managed,Public Fixed Income,Government Bonds,2031.909,18.305
+ivari,ivari,0,2025Q4,Internally Managed,Public Fixed Income,Corporate Bonds,3180.31,28.6507
+ivari,ivari,0,2025Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,793.742,7.1506
+ivari,ivari,0,2025Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+ivari,ivari,0,2025Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+ivari,ivari,0,2025Q4,Internally Managed,Public Equity,Common Shares,3586.953,32.3141
+ivari,ivari,0,2025Q4,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+ivari,ivari,0,2025Q4,Internally Managed,Cash & Cash Equivalents,Cash,1380.249,12.4344
+ivari,ivari,0,2025Q4,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+ivari,ivari,0,2025Q4,Externally Managed,Equity,Other Private Equity,127.124,1.1452
+ivari,ivari,0,2026Q1,Internally Managed,Public Fixed Income,Government Bonds,1981.85,18.1113
+ivari,ivari,0,2026Q1,Internally Managed,Public Fixed Income,Corporate Bonds,3142.64,28.7192
+ivari,ivari,0,2026Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,791.038,7.2289
+ivari,ivari,0,2026Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+ivari,ivari,0,2026Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+ivari,ivari,0,2026Q1,Internally Managed,Public Equity,Common Shares,3558.924,32.5234
+ivari,ivari,0,2026Q1,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+ivari,ivari,0,2026Q1,Internally Managed,Cash & Cash Equivalents,Cash,1331.555,12.1685
+ivari,ivari,0,2026Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+ivari,ivari,0,2026Q1,Externally Managed,Equity,Other Private Equity,136.637,1.2487
+ivari,ivari,0,2026Q2,Internally Managed,Public Fixed Income,Government Bonds,2036.64,17.261
+ivari,ivari,0,2026Q2,Internally Managed,Public Fixed Income,Corporate Bonds,3134.357,26.5644
+ivari,ivari,0,2026Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,896.36,7.5969
+ivari,ivari,0,2026Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+ivari,ivari,0,2026Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+ivari,ivari,0,2026Q2,Internally Managed,Public Equity,Common Shares,4038.299,34.2255
+ivari,ivari,0,2026Q2,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+ivari,ivari,0,2026Q2,Internally Managed,Cash & Cash Equivalents,Cash,1545.151,13.0955
+ivari,ivari,0,2026Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+ivari,ivari,0,2026Q2,Externally Managed,Equity,Other Private Equity,148.275,1.2567
+empire_life,Empire Life,0,2023Q1,Internally Managed,Public Fixed Income,Government Bonds,3319.699,38.7826
+empire_life,Empire Life,0,2023Q1,Internally Managed,Public Fixed Income,Corporate Bonds,3190.12,37.2688
+empire_life,Empire Life,0,2023Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,467.938,5.4667
+empire_life,Empire Life,0,2023Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,112.983,1.3199
+empire_life,Empire Life,0,2023Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,48.779,0.5699
+empire_life,Empire Life,0,2023Q1,Internally Managed,Public Equity,Common Shares,738.677,8.6297
+empire_life,Empire Life,0,2023Q1,Internally Managed,Public Equity,Preferred Shares,480.041,5.6081
+empire_life,Empire Life,0,2023Q1,Internally Managed,Cash & Cash Equivalents,Cash,172.04,2.0099
+empire_life,Empire Life,0,2023Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+empire_life,Empire Life,0,2023Q1,Externally Managed,Equity,Other Private Equity,29.479,0.3444
+empire_life,Empire Life,0,2023Q2,Internally Managed,Public Fixed Income,Government Bonds,3355.952,38.7596
+empire_life,Empire Life,0,2023Q2,Internally Managed,Public Fixed Income,Corporate Bonds,3228.391,37.2864
+empire_life,Empire Life,0,2023Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,458.01,5.2898
+empire_life,Empire Life,0,2023Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,109.054,1.2595
+empire_life,Empire Life,0,2023Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,45.267,0.5228
+empire_life,Empire Life,0,2023Q2,Internally Managed,Public Equity,Common Shares,707.444,8.1706
+empire_life,Empire Life,0,2023Q2,Internally Managed,Public Equity,Preferred Shares,473.682,5.4708
+empire_life,Empire Life,0,2023Q2,Internally Managed,Cash & Cash Equivalents,Cash,247.735,2.8612
+empire_life,Empire Life,0,2023Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+empire_life,Empire Life,0,2023Q2,Externally Managed,Equity,Other Private Equity,32.831,0.3792
+empire_life,Empire Life,0,2023Q3,Internally Managed,Public Fixed Income,Government Bonds,3051.085,37.4649
+empire_life,Empire Life,0,2023Q3,Internally Managed,Public Fixed Income,Corporate Bonds,3025.62,37.1522
+empire_life,Empire Life,0,2023Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,443.741,5.4488
+empire_life,Empire Life,0,2023Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,102.564,1.2594
+empire_life,Empire Life,0,2023Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,43.471,0.5338
+empire_life,Empire Life,0,2023Q3,Internally Managed,Public Equity,Common Shares,667.355,8.1946
+empire_life,Empire Life,0,2023Q3,Internally Managed,Public Equity,Preferred Shares,484.079,5.9441
+empire_life,Empire Life,0,2023Q3,Internally Managed,Cash & Cash Equivalents,Cash,291.243,3.5762
+empire_life,Empire Life,0,2023Q3,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+empire_life,Empire Life,0,2023Q3,Externally Managed,Equity,Other Private Equity,34.696,0.426
+empire_life,Empire Life,0,2023Q4,Internally Managed,Public Fixed Income,Government Bonds,3553.329,38.692
+empire_life,Empire Life,0,2023Q4,Internally Managed,Public Fixed Income,Corporate Bonds,3418.816,37.2273
+empire_life,Empire Life,0,2023Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,475.544,5.1782
+empire_life,Empire Life,0,2023Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,98.679,1.0745
+empire_life,Empire Life,0,2023Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,47.165,0.5136
+empire_life,Empire Life,0,2023Q4,Internally Managed,Public Equity,Common Shares,683.184,7.4391
+empire_life,Empire Life,0,2023Q4,Internally Managed,Public Equity,Preferred Shares,519.359,5.6553
+empire_life,Empire Life,0,2023Q4,Internally Managed,Cash & Cash Equivalents,Cash,352.664,3.8401
+empire_life,Empire Life,0,2023Q4,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+empire_life,Empire Life,0,2023Q4,Externally Managed,Equity,Other Private Equity,34.891,0.3799
+empire_life,Empire Life,0,2024Q1,Internally Managed,Public Fixed Income,Government Bonds,3644.637,40.3191
+empire_life,Empire Life,0,2024Q1,Internally Managed,Public Fixed Income,Corporate Bonds,3398.115,37.5919
+empire_life,Empire Life,0,2024Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,493.701,5.4616
+empire_life,Empire Life,0,2024Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,96.821,1.0711
+empire_life,Empire Life,0,2024Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,47.442,0.5248
+empire_life,Empire Life,0,2024Q1,Internally Managed,Public Equity,Common Shares,514.103,5.6873
+empire_life,Empire Life,0,2024Q1,Internally Managed,Public Equity,Preferred Shares,593.967,6.5708
+empire_life,Empire Life,0,2024Q1,Internally Managed,Cash & Cash Equivalents,Cash,210.875,2.3328
+empire_life,Empire Life,0,2024Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+empire_life,Empire Life,0,2024Q1,Externally Managed,Equity,Other Private Equity,39.816,0.4405
+empire_life,Empire Life,0,2024Q2,Internally Managed,Public Fixed Income,Government Bonds,3698.383,40.7832
+empire_life,Empire Life,0,2024Q2,Internally Managed,Public Fixed Income,Corporate Bonds,3322.629,36.6396
+empire_life,Empire Life,0,2024Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,527.022,5.8116
+empire_life,Empire Life,0,2024Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,101.495,1.1192
+empire_life,Empire Life,0,2024Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,56.904,0.6275
+empire_life,Empire Life,0,2024Q2,Internally Managed,Public Equity,Common Shares,505.789,5.5775
+empire_life,Empire Life,0,2024Q2,Internally Managed,Public Equity,Preferred Shares,600.422,6.621
+empire_life,Empire Life,0,2024Q2,Internally Managed,Cash & Cash Equivalents,Cash,171.529,1.8915
+empire_life,Empire Life,0,2024Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+empire_life,Empire Life,0,2024Q2,Externally Managed,Equity,Other Private Equity,84.235,0.9289
+empire_life,Empire Life,0,2024Q3,Internally Managed,Public Fixed Income,Government Bonds,3916.686,41.0178
+empire_life,Empire Life,0,2024Q3,Internally Managed,Public Fixed Income,Corporate Bonds,3484.016,36.4866
+empire_life,Empire Life,0,2024Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,579.018,6.0638
+empire_life,Empire Life,0,2024Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,93.323,0.9773
+empire_life,Empire Life,0,2024Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,60.906,0.6378
+empire_life,Empire Life,0,2024Q3,Internally Managed,Public Equity,Common Shares,531.539,5.5666
+empire_life,Empire Life,0,2024Q3,Internally Managed,Public Equity,Preferred Shares,621.46,6.5083
+empire_life,Empire Life,0,2024Q3,Internally Managed,Cash & Cash Equivalents,Cash,181.075,1.8963
+empire_life,Empire Life,0,2024Q3,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+empire_life,Empire Life,0,2024Q3,Externally Managed,Equity,Other Private Equity,80.725,0.8454
+empire_life,Empire Life,0,2024Q4,Internally Managed,Public Fixed Income,Government Bonds,3895.099,40.7075
+empire_life,Empire Life,0,2024Q4,Internally Managed,Public Fixed Income,Corporate Bonds,3486.329,36.4354
+empire_life,Empire Life,0,2024Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,573.559,5.9942
+empire_life,Empire Life,0,2024Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,78.866,0.8242
+empire_life,Empire Life,0,2024Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,62.921,0.6576
+empire_life,Empire Life,0,2024Q4,Internally Managed,Public Equity,Common Shares,535.44,5.5959
+empire_life,Empire Life,0,2024Q4,Internally Managed,Public Equity,Preferred Shares,623.791,6.5192
+empire_life,Empire Life,0,2024Q4,Internally Managed,Cash & Cash Equivalents,Cash,220.036,2.2996
+empire_life,Empire Life,0,2024Q4,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+empire_life,Empire Life,0,2024Q4,Externally Managed,Equity,Other Private Equity,92.475,0.9665
+empire_life,Empire Life,0,2025Q1,Internally Managed,Public Fixed Income,Government Bonds,3948.621,41.234
+empire_life,Empire Life,0,2025Q1,Internally Managed,Public Fixed Income,Corporate Bonds,3475.194,36.2901
+empire_life,Empire Life,0,2025Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,586.042,6.1198
+empire_life,Empire Life,0,2025Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,74.15,0.7743
+empire_life,Empire Life,0,2025Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,64.232,0.6708
+empire_life,Empire Life,0,2025Q1,Internally Managed,Public Equity,Common Shares,522.19,5.453
+empire_life,Empire Life,0,2025Q1,Internally Managed,Public Equity,Preferred Shares,630.945,6.5887
+empire_life,Empire Life,0,2025Q1,Internally Managed,Cash & Cash Equivalents,Cash,182.908,1.91
+empire_life,Empire Life,0,2025Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+empire_life,Empire Life,0,2025Q1,Externally Managed,Equity,Other Private Equity,91.854,0.9592
+empire_life,Empire Life,0,2025Q2,Internally Managed,Public Fixed Income,Government Bonds,3855.847,41.1696
+empire_life,Empire Life,0,2025Q2,Internally Managed,Public Fixed Income,Corporate Bonds,3340.378,35.6658
+empire_life,Empire Life,0,2025Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,590.508,6.305
+empire_life,Empire Life,0,2025Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,71.886,0.7675
+empire_life,Empire Life,0,2025Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,63.339,0.6763
+empire_life,Empire Life,0,2025Q2,Internally Managed,Public Equity,Common Shares,558.311,5.9612
+empire_life,Empire Life,0,2025Q2,Internally Managed,Public Equity,Preferred Shares,636.322,6.7941
+empire_life,Empire Life,0,2025Q2,Internally Managed,Cash & Cash Equivalents,Cash,156.069,1.6664
+empire_life,Empire Life,0,2025Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+empire_life,Empire Life,0,2025Q2,Externally Managed,Equity,Other Private Equity,93.101,0.9941
+empire_life,Empire Life,0,2025Q3,Internally Managed,Public Fixed Income,Government Bonds,3922.183,40.6808
+empire_life,Empire Life,0,2025Q3,Internally Managed,Public Fixed Income,Corporate Bonds,3376.465,35.0206
+empire_life,Empire Life,0,2025Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,617.107,6.4006
+empire_life,Empire Life,0,2025Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,68.612,0.7116
+empire_life,Empire Life,0,2025Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,88.333,0.9162
+empire_life,Empire Life,0,2025Q3,Internally Managed,Public Equity,Common Shares,600.072,6.2239
+empire_life,Empire Life,0,2025Q3,Internally Managed,Public Equity,Preferred Shares,681.889,7.0725
+empire_life,Empire Life,0,2025Q3,Internally Managed,Cash & Cash Equivalents,Cash,194.506,2.0174
+empire_life,Empire Life,0,2025Q3,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+empire_life,Empire Life,0,2025Q3,Externally Managed,Equity,Other Private Equity,92.204,0.9563
+empire_life,Empire Life,0,2025Q4,Internally Managed,Public Fixed Income,Government Bonds,3868.407,39.5652
+empire_life,Empire Life,0,2025Q4,Internally Managed,Public Fixed Income,Corporate Bonds,3469.758,35.4879
+empire_life,Empire Life,0,2025Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,595.838,6.0941
+empire_life,Empire Life,0,2025Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,66.399,0.6791
+empire_life,Empire Life,0,2025Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,87.658,0.8965
+empire_life,Empire Life,0,2025Q4,Internally Managed,Public Equity,Common Shares,557.95,5.7066
+empire_life,Empire Life,0,2025Q4,Internally Managed,Public Equity,Preferred Shares,698.465,7.1437
+empire_life,Empire Life,0,2025Q4,Internally Managed,Cash & Cash Equivalents,Cash,319.806,3.2709
+empire_life,Empire Life,0,2025Q4,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+empire_life,Empire Life,0,2025Q4,Externally Managed,Equity,Other Private Equity,113.023,1.156
+empire_life,Empire Life,0,2026Q1,Internally Managed,Public Fixed Income,Government Bonds,3843.877,39.6874
+empire_life,Empire Life,0,2026Q1,Internally Managed,Public Fixed Income,Corporate Bonds,3467.301,35.7993
+empire_life,Empire Life,0,2026Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,579.736,5.9857
+empire_life,Empire Life,0,2026Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,64.838,0.6694
+empire_life,Empire Life,0,2026Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,82.955,0.8565
+empire_life,Empire Life,0,2026Q1,Internally Managed,Public Equity,Common Shares,570.46,5.8899
+empire_life,Empire Life,0,2026Q1,Internally Managed,Public Equity,Preferred Shares,693.972,7.1651
+empire_life,Empire Life,0,2026Q1,Internally Managed,Cash & Cash Equivalents,Cash,268.161,2.7687
+empire_life,Empire Life,0,2026Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+empire_life,Empire Life,0,2026Q1,Externally Managed,Equity,Other Private Equity,114.092,1.178
+empire_life,Empire Life,0,2026Q2,Internally Managed,Public Fixed Income,Government Bonds,4067.646,39.8532
+empire_life,Empire Life,0,2026Q2,Internally Managed,Public Fixed Income,Corporate Bonds,3564.264,34.9213
+empire_life,Empire Life,0,2026Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,684.369,6.7052
+empire_life,Empire Life,0,2026Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,58.706,0.5752
+empire_life,Empire Life,0,2026Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,85.722,0.8399
+empire_life,Empire Life,0,2026Q2,Internally Managed,Public Equity,Common Shares,620.65,6.0809
+empire_life,Empire Life,0,2026Q2,Internally Managed,Public Equity,Preferred Shares,711.447,6.9705
+empire_life,Empire Life,0,2026Q2,Internally Managed,Cash & Cash Equivalents,Cash,300.141,2.9407
+empire_life,Empire Life,0,2026Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+empire_life,Empire Life,0,2026Q2,Externally Managed,Equity,Other Private Equity,113.628,1.1133
+equitable_life,Equitable Life,0,2023Q1,Internally Managed,Public Fixed Income,Government Bonds,912.149,20.0543
+equitable_life,Equitable Life,0,2023Q1,Internally Managed,Public Fixed Income,Corporate Bonds,1122.528,24.6796
+equitable_life,Equitable Life,0,2023Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,418.025,9.1906
+equitable_life,Equitable Life,0,2023Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,332.962,7.3204
+equitable_life,Equitable Life,0,2023Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+equitable_life,Equitable Life,0,2023Q1,Internally Managed,Public Equity,Common Shares,1060.798,23.3224
+equitable_life,Equitable Life,0,2023Q1,Internally Managed,Public Equity,Preferred Shares,228.473,5.0231
+equitable_life,Equitable Life,0,2023Q1,Internally Managed,Cash & Cash Equivalents,Cash,37.067,0.8149
+equitable_life,Equitable Life,0,2023Q1,Externally Managed,Equity,Real Estate Equity,436.4,9.5946
+equitable_life,Equitable Life,0,2023Q1,Externally Managed,Equity,Other Private Equity,0.0,0.0
+equitable_life,Equitable Life,0,2023Q2,Internally Managed,Public Fixed Income,Government Bonds,978.154,20.8326
+equitable_life,Equitable Life,0,2023Q2,Internally Managed,Public Fixed Income,Corporate Bonds,1159.83,24.702
+equitable_life,Equitable Life,0,2023Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,424.767,9.0467
+equitable_life,Equitable Life,0,2023Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,329.979,7.0279
+equitable_life,Equitable Life,0,2023Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+equitable_life,Equitable Life,0,2023Q2,Internally Managed,Public Equity,Common Shares,1101.981,23.4699
+equitable_life,Equitable Life,0,2023Q2,Internally Managed,Public Equity,Preferred Shares,215.023,4.5795
+equitable_life,Equitable Life,0,2023Q2,Internally Managed,Cash & Cash Equivalents,Cash,40.36,0.8596
+equitable_life,Equitable Life,0,2023Q2,Externally Managed,Equity,Real Estate Equity,445.2,9.4818
+equitable_life,Equitable Life,0,2023Q2,Externally Managed,Equity,Other Private Equity,0.0,0.0
+equitable_life,Equitable Life,0,2023Q3,Internally Managed,Public Fixed Income,Government Bonds,980.932,20.8332
+equitable_life,Equitable Life,0,2023Q3,Internally Managed,Public Fixed Income,Corporate Bonds,1161.974,24.6782
+equitable_life,Equitable Life,0,2023Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,438.369,9.3101
+equitable_life,Equitable Life,0,2023Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,342.711,7.2785
+equitable_life,Equitable Life,0,2023Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+equitable_life,Equitable Life,0,2023Q3,Internally Managed,Public Equity,Common Shares,1091.101,23.173
+equitable_life,Equitable Life,0,2023Q3,Internally Managed,Public Equity,Preferred Shares,210.415,4.4688
+equitable_life,Equitable Life,0,2023Q3,Internally Managed,Cash & Cash Equivalents,Cash,35.659,0.7573
+equitable_life,Equitable Life,0,2023Q3,Externally Managed,Equity,Real Estate Equity,446.6,9.485
+equitable_life,Equitable Life,0,2023Q3,Externally Managed,Equity,Other Private Equity,0.75,0.0159
+equitable_life,Equitable Life,0,2023Q4,Internally Managed,Public Fixed Income,Government Bonds,1138.327,21.7018
+equitable_life,Equitable Life,0,2023Q4,Internally Managed,Public Fixed Income,Corporate Bonds,1304.269,24.8654
+equitable_life,Equitable Life,0,2023Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,503.857,9.6059
+equitable_life,Equitable Life,0,2023Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,349.685,6.6666
+equitable_life,Equitable Life,0,2023Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+equitable_life,Equitable Life,0,2023Q4,Internally Managed,Public Equity,Common Shares,1182.888,22.5514
+equitable_life,Equitable Life,0,2023Q4,Internally Managed,Public Equity,Preferred Shares,241.272,4.5998
+equitable_life,Equitable Life,0,2023Q4,Internally Managed,Cash & Cash Equivalents,Cash,85.547,1.6309
+equitable_life,Equitable Life,0,2023Q4,Externally Managed,Equity,Real Estate Equity,438.8,8.3656
+equitable_life,Equitable Life,0,2023Q4,Externally Managed,Equity,Other Private Equity,0.663,0.0126
+equitable_life,Equitable Life,0,2024Q1,Internally Managed,Public Fixed Income,Government Bonds,1016.559,18.9668
+equitable_life,Equitable Life,0,2024Q1,Internally Managed,Public Fixed Income,Corporate Bonds,1345.031,25.0954
+equitable_life,Equitable Life,0,2024Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,513.845,9.5872
+equitable_life,Equitable Life,0,2024Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,369.96,6.9027
+equitable_life,Equitable Life,0,2024Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+equitable_life,Equitable Life,0,2024Q1,Internally Managed,Public Equity,Common Shares,1341.381,25.0273
+equitable_life,Equitable Life,0,2024Q1,Internally Managed,Public Equity,Preferred Shares,290.527,5.4206
+equitable_life,Equitable Life,0,2024Q1,Internally Managed,Cash & Cash Equivalents,Cash,42.847,0.7994
+equitable_life,Equitable Life,0,2024Q1,Externally Managed,Equity,Real Estate Equity,438.8,8.1871
+equitable_life,Equitable Life,0,2024Q1,Externally Managed,Equity,Other Private Equity,0.724,0.0135
+equitable_life,Equitable Life,0,2024Q2,Internally Managed,Public Fixed Income,Government Bonds,1046.692,18.7901
+equitable_life,Equitable Life,0,2024Q2,Internally Managed,Public Fixed Income,Corporate Bonds,1448.235,25.9985
+equitable_life,Equitable Life,0,2024Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,514.703,9.2399
+equitable_life,Equitable Life,0,2024Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,369.846,6.6394
+equitable_life,Equitable Life,0,2024Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+equitable_life,Equitable Life,0,2024Q2,Internally Managed,Public Equity,Common Shares,1388.413,24.9246
+equitable_life,Equitable Life,0,2024Q2,Internally Managed,Public Equity,Preferred Shares,306.598,5.504
+equitable_life,Equitable Life,0,2024Q2,Internally Managed,Cash & Cash Equivalents,Cash,69.396,1.2458
+equitable_life,Equitable Life,0,2024Q2,Externally Managed,Equity,Real Estate Equity,425.9,7.6457
+equitable_life,Equitable Life,0,2024Q2,Externally Managed,Equity,Other Private Equity,0.675,0.0121
+equitable_life,Equitable Life,0,2024Q3,Internally Managed,Public Fixed Income,Government Bonds,1087.718,18.1588
+equitable_life,Equitable Life,0,2024Q3,Internally Managed,Public Fixed Income,Corporate Bonds,1525.27,25.4634
+equitable_life,Equitable Life,0,2024Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,588.853,9.8305
+equitable_life,Equitable Life,0,2024Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,407.599,6.8046
+equitable_life,Equitable Life,0,2024Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+equitable_life,Equitable Life,0,2024Q3,Internally Managed,Public Equity,Common Shares,1581.344,26.3996
+equitable_life,Equitable Life,0,2024Q3,Internally Managed,Public Equity,Preferred Shares,318.654,5.3197
+equitable_life,Equitable Life,0,2024Q3,Internally Managed,Cash & Cash Equivalents,Cash,58.322,0.9736
+equitable_life,Equitable Life,0,2024Q3,Externally Managed,Equity,Real Estate Equity,421.6,7.0384
+equitable_life,Equitable Life,0,2024Q3,Externally Managed,Equity,Other Private Equity,0.678,0.0113
+equitable_life,Equitable Life,0,2024Q4,Internally Managed,Public Fixed Income,Government Bonds,1075.033,17.137
+equitable_life,Equitable Life,0,2024Q4,Internally Managed,Public Fixed Income,Corporate Bonds,1614.104,25.7302
+equitable_life,Equitable Life,0,2024Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,617.178,9.8384
+equitable_life,Equitable Life,0,2024Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,433.832,6.9157
+equitable_life,Equitable Life,0,2024Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+equitable_life,Equitable Life,0,2024Q4,Internally Managed,Public Equity,Common Shares,1662.225,26.4973
+equitable_life,Equitable Life,0,2024Q4,Internally Managed,Public Equity,Preferred Shares,358.464,5.7142
+equitable_life,Equitable Life,0,2024Q4,Internally Managed,Cash & Cash Equivalents,Cash,52.458,0.8362
+equitable_life,Equitable Life,0,2024Q4,Externally Managed,Equity,Real Estate Equity,459.161,7.3194
+equitable_life,Equitable Life,0,2024Q4,Externally Managed,Equity,Other Private Equity,0.729,0.0116
+equitable_life,Equitable Life,0,2025Q1,Internally Managed,Public Fixed Income,Government Bonds,973.992,15.2693
+equitable_life,Equitable Life,0,2025Q1,Internally Managed,Public Fixed Income,Corporate Bonds,1570.712,24.6241
+equitable_life,Equitable Life,0,2025Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,747.581,11.7198
+equitable_life,Equitable Life,0,2025Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,448.436,7.0301
+equitable_life,Equitable Life,0,2025Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+equitable_life,Equitable Life,0,2025Q1,Internally Managed,Public Equity,Common Shares,1717.331,26.9226
+equitable_life,Equitable Life,0,2025Q1,Internally Managed,Public Equity,Preferred Shares,370.365,5.8062
+equitable_life,Equitable Life,0,2025Q1,Internally Managed,Cash & Cash Equivalents,Cash,31.665,0.4964
+equitable_life,Equitable Life,0,2025Q1,Externally Managed,Equity,Real Estate Equity,517.707,8.1161
+equitable_life,Equitable Life,0,2025Q1,Externally Managed,Equity,Other Private Equity,0.972,0.0152
+equitable_life,Equitable Life,0,2025Q2,Internally Managed,Public Fixed Income,Government Bonds,966.055,14.6076
+equitable_life,Equitable Life,0,2025Q2,Internally Managed,Public Fixed Income,Corporate Bonds,1604.945,24.2682
+equitable_life,Equitable Life,0,2025Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,758.746,11.4729
+equitable_life,Equitable Life,0,2025Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,467.407,7.0676
+equitable_life,Equitable Life,0,2025Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+equitable_life,Equitable Life,0,2025Q2,Internally Managed,Public Equity,Common Shares,1860.25,28.1287
+equitable_life,Equitable Life,0,2025Q2,Internally Managed,Public Equity,Preferred Shares,380.056,5.7468
+equitable_life,Equitable Life,0,2025Q2,Internally Managed,Cash & Cash Equivalents,Cash,85.408,1.2914
+equitable_life,Equitable Life,0,2025Q2,Externally Managed,Equity,Real Estate Equity,489.626,7.4036
+equitable_life,Equitable Life,0,2025Q2,Externally Managed,Equity,Other Private Equity,0.865,0.0131
+equitable_life,Equitable Life,0,2025Q3,Internally Managed,Public Fixed Income,Government Bonds,991.012,14.1118
+equitable_life,Equitable Life,0,2025Q3,Internally Managed,Public Fixed Income,Corporate Bonds,1702.866,24.2484
+equitable_life,Equitable Life,0,2025Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,838.991,11.947
+equitable_life,Equitable Life,0,2025Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,507.871,7.232
+equitable_life,Equitable Life,0,2025Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+equitable_life,Equitable Life,0,2025Q3,Internally Managed,Public Equity,Common Shares,2036.014,28.9923
+equitable_life,Equitable Life,0,2025Q3,Internally Managed,Public Equity,Preferred Shares,410.323,5.8429
+equitable_life,Equitable Life,0,2025Q3,Internally Managed,Cash & Cash Equivalents,Cash,43.683,0.622
+equitable_life,Equitable Life,0,2025Q3,Externally Managed,Equity,Real Estate Equity,490.928,6.9907
+equitable_life,Equitable Life,0,2025Q3,Externally Managed,Equity,Other Private Equity,0.913,0.013
+equitable_life,Equitable Life,0,2025Q4,Internally Managed,Public Fixed Income,Government Bonds,951.074,13.1172
+equitable_life,Equitable Life,0,2025Q4,Internally Managed,Public Fixed Income,Corporate Bonds,1782.739,24.5875
+equitable_life,Equitable Life,0,2025Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,853.248,11.768
+equitable_life,Equitable Life,0,2025Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,517.538,7.1379
+equitable_life,Equitable Life,0,2025Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+equitable_life,Equitable Life,0,2025Q4,Internally Managed,Public Equity,Common Shares,2084.823,28.7538
+equitable_life,Equitable Life,0,2025Q4,Internally Managed,Public Equity,Preferred Shares,448.078,6.1799
+equitable_life,Equitable Life,0,2025Q4,Internally Managed,Cash & Cash Equivalents,Cash,60.531,0.8348
+equitable_life,Equitable Life,0,2025Q4,Externally Managed,Equity,Real Estate Equity,545.482,7.5233
+equitable_life,Equitable Life,0,2025Q4,Externally Managed,Equity,Other Private Equity,7.077,0.0976
+equitable_life,Equitable Life,0,2026Q1,Internally Managed,Public Fixed Income,Government Bonds,1214.129,16.574
+equitable_life,Equitable Life,0,2026Q1,Internally Managed,Public Fixed Income,Corporate Bonds,1608.009,21.9508
+equitable_life,Equitable Life,0,2026Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,847.656,11.5713
+equitable_life,Equitable Life,0,2026Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,534.11,7.2911
+equitable_life,Equitable Life,0,2026Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+equitable_life,Equitable Life,0,2026Q1,Internally Managed,Public Equity,Common Shares,2028.189,27.6867
+equitable_life,Equitable Life,0,2026Q1,Internally Managed,Public Equity,Preferred Shares,457.668,6.2476
+equitable_life,Equitable Life,0,2026Q1,Internally Managed,Cash & Cash Equivalents,Cash,120.751,1.6484
+equitable_life,Equitable Life,0,2026Q1,Externally Managed,Equity,Real Estate Equity,482.033,6.5802
+equitable_life,Equitable Life,0,2026Q1,Externally Managed,Equity,Other Private Equity,32.962,0.45
+equitable_life,Equitable Life,0,2026Q2,Internally Managed,Public Fixed Income,Government Bonds,1128.767,14.4171
+equitable_life,Equitable Life,0,2026Q2,Internally Managed,Public Fixed Income,Corporate Bonds,1881.445,24.0306
+equitable_life,Equitable Life,0,2026Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,870.403,11.1172
+equitable_life,Equitable Life,0,2026Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,571.263,7.2964
+equitable_life,Equitable Life,0,2026Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+equitable_life,Equitable Life,0,2026Q2,Internally Managed,Public Equity,Common Shares,2296.797,29.3357
+equitable_life,Equitable Life,0,2026Q2,Internally Managed,Public Equity,Preferred Shares,490.4,6.2636
+equitable_life,Equitable Life,0,2026Q2,Internally Managed,Cash & Cash Equivalents,Cash,74.59,0.9527
+equitable_life,Equitable Life,0,2026Q2,Externally Managed,Equity,Real Estate Equity,482.548,6.1633
+equitable_life,Equitable Life,0,2026Q2,Externally Managed,Equity,Other Private Equity,33.15,0.4234
+cooperators_life,Co-operators Life,0,2023Q1,Internally Managed,Public Fixed Income,Government Bonds,1721.208,34.8533
+cooperators_life,Co-operators Life,0,2023Q1,Internally Managed,Public Fixed Income,Corporate Bonds,1292.842,26.1792
+cooperators_life,Co-operators Life,0,2023Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2023Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,601.23,12.1745
+cooperators_life,Co-operators Life,0,2023Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2023Q1,Internally Managed,Public Equity,Common Shares,768.682,15.5653
+cooperators_life,Co-operators Life,0,2023Q1,Internally Managed,Public Equity,Preferred Shares,278.341,5.6362
+cooperators_life,Co-operators Life,0,2023Q1,Internally Managed,Cash & Cash Equivalents,Cash,146.864,2.9739
+cooperators_life,Co-operators Life,0,2023Q1,Externally Managed,Equity,Real Estate Equity,5.843,0.1183
+cooperators_life,Co-operators Life,0,2023Q1,Externally Managed,Equity,Other Private Equity,123.425,2.4993
+cooperators_life,Co-operators Life,0,2023Q2,Internally Managed,Public Fixed Income,Government Bonds,1846.876,36.9913
+cooperators_life,Co-operators Life,0,2023Q2,Internally Managed,Public Fixed Income,Corporate Bonds,1296.04,25.9585
+cooperators_life,Co-operators Life,0,2023Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2023Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,589.001,11.7972
+cooperators_life,Co-operators Life,0,2023Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2023Q2,Internally Managed,Public Equity,Common Shares,764.016,15.3026
+cooperators_life,Co-operators Life,0,2023Q2,Internally Managed,Public Equity,Preferred Shares,254.912,5.1057
+cooperators_life,Co-operators Life,0,2023Q2,Internally Managed,Cash & Cash Equivalents,Cash,113.561,2.2745
+cooperators_life,Co-operators Life,0,2023Q2,Externally Managed,Equity,Real Estate Equity,5.843,0.117
+cooperators_life,Co-operators Life,0,2023Q2,Externally Managed,Equity,Other Private Equity,122.484,2.4532
+cooperators_life,Co-operators Life,0,2023Q3,Internally Managed,Public Fixed Income,Government Bonds,1645.742,34.6218
+cooperators_life,Co-operators Life,0,2023Q3,Internally Managed,Public Fixed Income,Corporate Bonds,1214.214,25.5437
+cooperators_life,Co-operators Life,0,2023Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2023Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,565.283,11.892
+cooperators_life,Co-operators Life,0,2023Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2023Q3,Internally Managed,Public Equity,Common Shares,760.02,15.9887
+cooperators_life,Co-operators Life,0,2023Q3,Internally Managed,Public Equity,Preferred Shares,239.371,5.0357
+cooperators_life,Co-operators Life,0,2023Q3,Internally Managed,Cash & Cash Equivalents,Cash,197.776,4.1607
+cooperators_life,Co-operators Life,0,2023Q3,Externally Managed,Equity,Real Estate Equity,5.843,0.1229
+cooperators_life,Co-operators Life,0,2023Q3,Externally Managed,Equity,Other Private Equity,125.229,2.6345
+cooperators_life,Co-operators Life,0,2023Q4,Internally Managed,Public Fixed Income,Government Bonds,2049.372,38.9752
+cooperators_life,Co-operators Life,0,2023Q4,Internally Managed,Public Fixed Income,Corporate Bonds,1374.462,26.1397
+cooperators_life,Co-operators Life,0,2023Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2023Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,526.322,10.0096
+cooperators_life,Co-operators Life,0,2023Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2023Q4,Internally Managed,Public Equity,Common Shares,805.182,15.313
+cooperators_life,Co-operators Life,0,2023Q4,Internally Managed,Public Equity,Preferred Shares,228.074,4.3375
+cooperators_life,Co-operators Life,0,2023Q4,Internally Managed,Cash & Cash Equivalents,Cash,145.78,2.7725
+cooperators_life,Co-operators Life,0,2023Q4,Externally Managed,Equity,Real Estate Equity,5.843,0.1111
+cooperators_life,Co-operators Life,0,2023Q4,Externally Managed,Equity,Other Private Equity,123.112,2.3414
+cooperators_life,Co-operators Life,0,2024Q1,Internally Managed,Public Fixed Income,Government Bonds,1805.192,34.8026
+cooperators_life,Co-operators Life,0,2024Q1,Internally Managed,Public Fixed Income,Corporate Bonds,1405.9,27.1046
+cooperators_life,Co-operators Life,0,2024Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2024Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,514.184,9.913
+cooperators_life,Co-operators Life,0,2024Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2024Q1,Internally Managed,Public Equity,Common Shares,856.909,16.5205
+cooperators_life,Co-operators Life,0,2024Q1,Internally Managed,Public Equity,Preferred Shares,246.277,4.748
+cooperators_life,Co-operators Life,0,2024Q1,Internally Managed,Cash & Cash Equivalents,Cash,229.691,4.4282
+cooperators_life,Co-operators Life,0,2024Q1,Externally Managed,Equity,Real Estate Equity,5.843,0.1126
+cooperators_life,Co-operators Life,0,2024Q1,Externally Managed,Equity,Other Private Equity,122.955,2.3705
+cooperators_life,Co-operators Life,0,2024Q2,Internally Managed,Public Fixed Income,Government Bonds,1811.993,34.741
+cooperators_life,Co-operators Life,0,2024Q2,Internally Managed,Public Fixed Income,Corporate Bonds,1559.729,29.9044
+cooperators_life,Co-operators Life,0,2024Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2024Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,486.802,9.3334
+cooperators_life,Co-operators Life,0,2024Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2024Q2,Internally Managed,Public Equity,Common Shares,755.944,14.4936
+cooperators_life,Co-operators Life,0,2024Q2,Internally Managed,Public Equity,Preferred Shares,240.807,4.6169
+cooperators_life,Co-operators Life,0,2024Q2,Internally Managed,Cash & Cash Equivalents,Cash,231.688,4.4421
+cooperators_life,Co-operators Life,0,2024Q2,Externally Managed,Equity,Real Estate Equity,5.843,0.112
+cooperators_life,Co-operators Life,0,2024Q2,Externally Managed,Equity,Other Private Equity,122.914,2.3566
+cooperators_life,Co-operators Life,0,2024Q3,Internally Managed,Public Fixed Income,Government Bonds,1923.37,34.7409
+cooperators_life,Co-operators Life,0,2024Q3,Internally Managed,Public Fixed Income,Corporate Bonds,1691.699,30.5563
+cooperators_life,Co-operators Life,0,2024Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2024Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,464.071,8.3823
+cooperators_life,Co-operators Life,0,2024Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2024Q3,Internally Managed,Public Equity,Common Shares,807.561,14.5866
+cooperators_life,Co-operators Life,0,2024Q3,Internally Managed,Public Equity,Preferred Shares,243.197,4.3927
+cooperators_life,Co-operators Life,0,2024Q3,Internally Managed,Cash & Cash Equivalents,Cash,276.758,4.9989
+cooperators_life,Co-operators Life,0,2024Q3,Externally Managed,Equity,Real Estate Equity,5.843,0.1055
+cooperators_life,Co-operators Life,0,2024Q3,Externally Managed,Equity,Other Private Equity,123.83,2.2367
+cooperators_life,Co-operators Life,0,2024Q4,Internally Managed,Public Fixed Income,Government Bonds,2073.968,36.716
+cooperators_life,Co-operators Life,0,2024Q4,Internally Managed,Public Fixed Income,Corporate Bonds,1785.519,31.6095
+cooperators_life,Co-operators Life,0,2024Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2024Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,468.056,8.2861
+cooperators_life,Co-operators Life,0,2024Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2024Q4,Internally Managed,Public Equity,Common Shares,784.173,13.8824
+cooperators_life,Co-operators Life,0,2024Q4,Internally Managed,Public Equity,Preferred Shares,276.318,4.8917
+cooperators_life,Co-operators Life,0,2024Q4,Internally Managed,Cash & Cash Equivalents,Cash,135.804,2.4042
+cooperators_life,Co-operators Life,0,2024Q4,Externally Managed,Equity,Real Estate Equity,3.373,0.0597
+cooperators_life,Co-operators Life,0,2024Q4,Externally Managed,Equity,Other Private Equity,121.473,2.1505
+cooperators_life,Co-operators Life,0,2025Q1,Internally Managed,Public Fixed Income,Government Bonds,2009.008,35.2309
+cooperators_life,Co-operators Life,0,2025Q1,Internally Managed,Public Fixed Income,Corporate Bonds,1881.201,32.9896
+cooperators_life,Co-operators Life,0,2025Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2025Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,470.227,8.2461
+cooperators_life,Co-operators Life,0,2025Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2025Q1,Internally Managed,Public Equity,Common Shares,791.498,13.8801
+cooperators_life,Co-operators Life,0,2025Q1,Internally Managed,Public Equity,Preferred Shares,287.908,5.0489
+cooperators_life,Co-operators Life,0,2025Q1,Internally Managed,Cash & Cash Equivalents,Cash,137.037,2.4031
+cooperators_life,Co-operators Life,0,2025Q1,Externally Managed,Equity,Real Estate Equity,3.373,0.0592
+cooperators_life,Co-operators Life,0,2025Q1,Externally Managed,Equity,Other Private Equity,122.158,2.1422
+cooperators_life,Co-operators Life,0,2025Q2,Internally Managed,Public Fixed Income,Government Bonds,2028.901,35.3648
+cooperators_life,Co-operators Life,0,2025Q2,Internally Managed,Public Fixed Income,Corporate Bonds,1854.409,32.3233
+cooperators_life,Co-operators Life,0,2025Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2025Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,448.61,7.8195
+cooperators_life,Co-operators Life,0,2025Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2025Q2,Internally Managed,Public Equity,Common Shares,800.502,13.9532
+cooperators_life,Co-operators Life,0,2025Q2,Internally Managed,Public Equity,Preferred Shares,298.392,5.2011
+cooperators_life,Co-operators Life,0,2025Q2,Internally Managed,Cash & Cash Equivalents,Cash,181.186,3.1582
+cooperators_life,Co-operators Life,0,2025Q2,Externally Managed,Equity,Real Estate Equity,3.373,0.0588
+cooperators_life,Co-operators Life,0,2025Q2,Externally Managed,Equity,Other Private Equity,121.689,2.1211
+cooperators_life,Co-operators Life,0,2025Q3,Internally Managed,Public Fixed Income,Government Bonds,2054.921,35.0789
+cooperators_life,Co-operators Life,0,2025Q3,Internally Managed,Public Fixed Income,Corporate Bonds,1852.651,31.626
+cooperators_life,Co-operators Life,0,2025Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2025Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,436.879,7.4578
+cooperators_life,Co-operators Life,0,2025Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2025Q3,Internally Managed,Public Equity,Common Shares,871.562,14.8782
+cooperators_life,Co-operators Life,0,2025Q3,Internally Managed,Public Equity,Preferred Shares,340.688,5.8158
+cooperators_life,Co-operators Life,0,2025Q3,Internally Managed,Cash & Cash Equivalents,Cash,174.075,2.9716
+cooperators_life,Co-operators Life,0,2025Q3,Externally Managed,Equity,Real Estate Equity,3.373,0.0576
+cooperators_life,Co-operators Life,0,2025Q3,Externally Managed,Equity,Other Private Equity,123.844,2.1141
+cooperators_life,Co-operators Life,0,2025Q4,Internally Managed,Public Fixed Income,Government Bonds,2035.4,34.9029
+cooperators_life,Co-operators Life,0,2025Q4,Internally Managed,Public Fixed Income,Corporate Bonds,1835.263,31.471
+cooperators_life,Co-operators Life,0,2025Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2025Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,440.373,7.5515
+cooperators_life,Co-operators Life,0,2025Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2025Q4,Internally Managed,Public Equity,Common Shares,846.502,14.5158
+cooperators_life,Co-operators Life,0,2025Q4,Internally Managed,Public Equity,Preferred Shares,357.509,6.1305
+cooperators_life,Co-operators Life,0,2025Q4,Internally Managed,Cash & Cash Equivalents,Cash,209.505,3.5926
+cooperators_life,Co-operators Life,0,2025Q4,Externally Managed,Equity,Real Estate Equity,3.373,0.0578
+cooperators_life,Co-operators Life,0,2025Q4,Externally Managed,Equity,Other Private Equity,103.683,1.7779
+cooperators_life,Co-operators Life,0,2026Q1,Internally Managed,Public Fixed Income,Government Bonds,1943.546,33.531
+cooperators_life,Co-operators Life,0,2026Q1,Internally Managed,Public Fixed Income,Corporate Bonds,1952.177,33.68
+cooperators_life,Co-operators Life,0,2026Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2026Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,444.527,7.6692
+cooperators_life,Co-operators Life,0,2026Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2026Q1,Internally Managed,Public Equity,Common Shares,833.474,14.3795
+cooperators_life,Co-operators Life,0,2026Q1,Internally Managed,Public Equity,Preferred Shares,350.151,6.041
+cooperators_life,Co-operators Life,0,2026Q1,Internally Managed,Cash & Cash Equivalents,Cash,167.952,2.8976
+cooperators_life,Co-operators Life,0,2026Q1,Externally Managed,Equity,Real Estate Equity,3.373,0.0582
+cooperators_life,Co-operators Life,0,2026Q1,Externally Managed,Equity,Other Private Equity,101.058,1.7435
+cooperators_life,Co-operators Life,0,2026Q2,Internally Managed,Public Fixed Income,Government Bonds,1756.982,29.4083
+cooperators_life,Co-operators Life,0,2026Q2,Internally Managed,Public Fixed Income,Corporate Bonds,2234.072,37.3939
+cooperators_life,Co-operators Life,0,2026Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2026Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,434.119,7.2663
+cooperators_life,Co-operators Life,0,2026Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+cooperators_life,Co-operators Life,0,2026Q2,Internally Managed,Public Equity,Common Shares,843.62,14.1205
+cooperators_life,Co-operators Life,0,2026Q2,Internally Managed,Public Equity,Preferred Shares,383.914,6.4259
+cooperators_life,Co-operators Life,0,2026Q2,Internally Managed,Cash & Cash Equivalents,Cash,217.733,3.6444
+cooperators_life,Co-operators Life,0,2026Q2,Externally Managed,Equity,Real Estate Equity,3.373,0.0565
+cooperators_life,Co-operators Life,0,2026Q2,Externally Managed,Equity,Other Private Equity,100.621,1.6842
+wawanesa_life,Wawanesa Life,0,2023Q1,Internally Managed,Public Fixed Income,Government Bonds,478.441,42.0684
+wawanesa_life,Wawanesa Life,0,2023Q1,Internally Managed,Public Fixed Income,Corporate Bonds,470.868,41.4025
+wawanesa_life,Wawanesa Life,0,2023Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q1,Internally Managed,Public Equity,Common Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q1,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q1,Internally Managed,Cash & Cash Equivalents,Cash,10.05,0.8837
+wawanesa_life,Wawanesa Life,0,2023Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q1,Externally Managed,Equity,Other Private Equity,177.935,15.6455
+wawanesa_life,Wawanesa Life,0,2023Q2,Internally Managed,Public Fixed Income,Government Bonds,473.598,41.2434
+wawanesa_life,Wawanesa Life,0,2023Q2,Internally Managed,Public Fixed Income,Corporate Bonds,486.472,42.3646
+wawanesa_life,Wawanesa Life,0,2023Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q2,Internally Managed,Public Equity,Common Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q2,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q2,Internally Managed,Cash & Cash Equivalents,Cash,7.382,0.6429
+wawanesa_life,Wawanesa Life,0,2023Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q2,Externally Managed,Equity,Other Private Equity,180.847,15.7491
+wawanesa_life,Wawanesa Life,0,2023Q3,Internally Managed,Public Fixed Income,Government Bonds,433.24,39.5654
+wawanesa_life,Wawanesa Life,0,2023Q3,Internally Managed,Public Fixed Income,Corporate Bonds,469.962,42.9191
+wawanesa_life,Wawanesa Life,0,2023Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q3,Internally Managed,Public Equity,Common Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q3,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q3,Internally Managed,Cash & Cash Equivalents,Cash,19.418,1.7733
+wawanesa_life,Wawanesa Life,0,2023Q3,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q3,Externally Managed,Equity,Other Private Equity,172.376,15.7422
+wawanesa_life,Wawanesa Life,0,2023Q4,Internally Managed,Public Fixed Income,Government Bonds,496.449,41.1335
+wawanesa_life,Wawanesa Life,0,2023Q4,Internally Managed,Public Fixed Income,Corporate Bonds,517.265,42.8582
+wawanesa_life,Wawanesa Life,0,2023Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q4,Internally Managed,Public Equity,Common Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q4,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q4,Internally Managed,Cash & Cash Equivalents,Cash,14.406,1.1936
+wawanesa_life,Wawanesa Life,0,2023Q4,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2023Q4,Externally Managed,Equity,Other Private Equity,178.802,14.8147
+wawanesa_life,Wawanesa Life,0,2024Q1,Internally Managed,Public Fixed Income,Government Bonds,463.944,39.3103
+wawanesa_life,Wawanesa Life,0,2024Q1,Internally Managed,Public Fixed Income,Corporate Bonds,510.227,43.2318
+wawanesa_life,Wawanesa Life,0,2024Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q1,Internally Managed,Public Equity,Common Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q1,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q1,Internally Managed,Cash & Cash Equivalents,Cash,23.123,1.9592
+wawanesa_life,Wawanesa Life,0,2024Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q1,Externally Managed,Equity,Other Private Equity,182.917,15.4987
+wawanesa_life,Wawanesa Life,0,2024Q2,Internally Managed,Public Fixed Income,Government Bonds,475.72,40.428
+wawanesa_life,Wawanesa Life,0,2024Q2,Internally Managed,Public Fixed Income,Corporate Bonds,516.684,43.9092
+wawanesa_life,Wawanesa Life,0,2024Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q2,Internally Managed,Public Equity,Common Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q2,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q2,Internally Managed,Cash & Cash Equivalents,Cash,0.898,0.0763
+wawanesa_life,Wawanesa Life,0,2024Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q2,Externally Managed,Equity,Other Private Equity,183.407,15.5864
+wawanesa_life,Wawanesa Life,0,2024Q3,Internally Managed,Public Fixed Income,Government Bonds,501.865,40.087
+wawanesa_life,Wawanesa Life,0,2024Q3,Internally Managed,Public Fixed Income,Corporate Bonds,543.8,43.4366
+wawanesa_life,Wawanesa Life,0,2024Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q3,Internally Managed,Public Equity,Common Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q3,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q3,Internally Managed,Cash & Cash Equivalents,Cash,7.923,0.6329
+wawanesa_life,Wawanesa Life,0,2024Q3,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q3,Externally Managed,Equity,Other Private Equity,198.353,15.8436
+wawanesa_life,Wawanesa Life,0,2024Q4,Internally Managed,Public Fixed Income,Government Bonds,496.224,39.3202
+wawanesa_life,Wawanesa Life,0,2024Q4,Internally Managed,Public Fixed Income,Corporate Bonds,534.393,42.3447
+wawanesa_life,Wawanesa Life,0,2024Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q4,Internally Managed,Public Equity,Common Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q4,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q4,Internally Managed,Cash & Cash Equivalents,Cash,35.684,2.8276
+wawanesa_life,Wawanesa Life,0,2024Q4,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2024Q4,Externally Managed,Equity,Other Private Equity,195.707,15.5076
+wawanesa_life,Wawanesa Life,0,2025Q1,Internally Managed,Public Fixed Income,Government Bonds,476.91,37.6121
+wawanesa_life,Wawanesa Life,0,2025Q1,Internally Managed,Public Fixed Income,Corporate Bonds,569.248,44.8945
+wawanesa_life,Wawanesa Life,0,2025Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q1,Internally Managed,Public Equity,Common Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q1,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q1,Internally Managed,Cash & Cash Equivalents,Cash,26.154,2.0627
+wawanesa_life,Wawanesa Life,0,2025Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q1,Externally Managed,Equity,Other Private Equity,195.657,15.4307
+wawanesa_life,Wawanesa Life,0,2025Q2,Internally Managed,Public Fixed Income,Government Bonds,483.288,37.8659
+wawanesa_life,Wawanesa Life,0,2025Q2,Internally Managed,Public Fixed Income,Corporate Bonds,556.641,43.6132
+wawanesa_life,Wawanesa Life,0,2025Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q2,Internally Managed,Public Equity,Common Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q2,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q2,Internally Managed,Cash & Cash Equivalents,Cash,26.272,2.0584
+wawanesa_life,Wawanesa Life,0,2025Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q2,Externally Managed,Equity,Other Private Equity,210.113,16.4625
+wawanesa_life,Wawanesa Life,0,2025Q3,Internally Managed,Public Fixed Income,Government Bonds,486.835,37.7423
+wawanesa_life,Wawanesa Life,0,2025Q3,Internally Managed,Public Fixed Income,Corporate Bonds,567.047,43.9608
+wawanesa_life,Wawanesa Life,0,2025Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q3,Internally Managed,Public Equity,Common Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q3,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q3,Internally Managed,Cash & Cash Equivalents,Cash,7.157,0.5549
+wawanesa_life,Wawanesa Life,0,2025Q3,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q3,Externally Managed,Equity,Other Private Equity,228.852,17.742
+wawanesa_life,Wawanesa Life,0,2025Q4,Internally Managed,Public Fixed Income,Government Bonds,466.104,36.3057
+wawanesa_life,Wawanesa Life,0,2025Q4,Internally Managed,Public Fixed Income,Corporate Bonds,551.874,42.9865
+wawanesa_life,Wawanesa Life,0,2025Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q4,Internally Managed,Public Equity,Common Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q4,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q4,Internally Managed,Cash & Cash Equivalents,Cash,26.216,2.042
+wawanesa_life,Wawanesa Life,0,2025Q4,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2025Q4,Externally Managed,Equity,Other Private Equity,239.638,18.6658
+wawanesa_life,Wawanesa Life,0,2026Q1,Internally Managed,Public Fixed Income,Government Bonds,387.974,30.1356
+wawanesa_life,Wawanesa Life,0,2026Q1,Internally Managed,Public Fixed Income,Corporate Bonds,543.909,42.2478
+wawanesa_life,Wawanesa Life,0,2026Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2026Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2026Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2026Q1,Internally Managed,Public Equity,Common Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2026Q1,Internally Managed,Public Equity,Preferred Shares,53.957,4.1911
+wawanesa_life,Wawanesa Life,0,2026Q1,Internally Managed,Cash & Cash Equivalents,Cash,41.756,3.2434
+wawanesa_life,Wawanesa Life,0,2026Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2026Q1,Externally Managed,Equity,Other Private Equity,259.831,20.1822
+wawanesa_life,Wawanesa Life,0,2026Q2,Internally Managed,Public Fixed Income,Government Bonds,397.62,30.0674
+wawanesa_life,Wawanesa Life,0,2026Q2,Internally Managed,Public Fixed Income,Corporate Bonds,579.592,43.8279
+wawanesa_life,Wawanesa Life,0,2026Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2026Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2026Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2026Q2,Internally Managed,Public Equity,Common Shares,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2026Q2,Internally Managed,Public Equity,Preferred Shares,57.703,4.3634
+wawanesa_life,Wawanesa Life,0,2026Q2,Internally Managed,Cash & Cash Equivalents,Cash,4.263,0.3224
+wawanesa_life,Wawanesa Life,0,2026Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+wawanesa_life,Wawanesa Life,0,2026Q2,Externally Managed,Equity,Other Private Equity,283.25,21.4189
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q1,Internally Managed,Public Fixed Income,Government Bonds,264.424,32.1756
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q1,Internally Managed,Public Fixed Income,Corporate Bonds,362.922,44.161
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q1,Internally Managed,Public Equity,Common Shares,10.053,1.2233
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q1,Internally Managed,Public Equity,Preferred Shares,57.038,6.9405
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q1,Internally Managed,Cash & Cash Equivalents,Cash,49.821,6.0623
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q1,Externally Managed,Equity,Other Private Equity,77.557,9.4373
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q2,Internally Managed,Public Fixed Income,Government Bonds,338.003,40.9389
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q2,Internally Managed,Public Fixed Income,Corporate Bonds,293.363,35.5321
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q2,Internally Managed,Public Equity,Common Shares,10.304,1.248
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q2,Internally Managed,Public Equity,Preferred Shares,53.317,6.4578
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q2,Internally Managed,Cash & Cash Equivalents,Cash,53.355,6.4624
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q2,Externally Managed,Equity,Other Private Equity,77.285,9.3608
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q3,Internally Managed,Public Fixed Income,Government Bonds,302.791,38.6557
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q3,Internally Managed,Public Fixed Income,Corporate Bonds,286.277,36.5475
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q3,Internally Managed,Public Equity,Common Shares,10.075,1.2862
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q3,Internally Managed,Public Equity,Preferred Shares,51.142,6.529
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q3,Internally Managed,Cash & Cash Equivalents,Cash,71.598,9.1405
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q3,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q3,Externally Managed,Equity,Other Private Equity,61.419,7.841
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q4,Internally Managed,Public Fixed Income,Government Bonds,297.436,36.9907
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q4,Internally Managed,Public Fixed Income,Corporate Bonds,302.58,37.6304
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q4,Internally Managed,Public Equity,Common Shares,10.814,1.3449
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q4,Internally Managed,Public Equity,Preferred Shares,54.192,6.7396
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q4,Internally Managed,Cash & Cash Equivalents,Cash,76.525,9.5171
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q4,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2023Q4,Externally Managed,Equity,Other Private Equity,62.536,7.7773
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q1,Internally Managed,Public Fixed Income,Government Bonds,257.993,33.1139
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q1,Internally Managed,Public Fixed Income,Corporate Bonds,296.485,38.0545
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q1,Internally Managed,Public Equity,Common Shares,11.435,1.4677
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q1,Internally Managed,Public Equity,Preferred Shares,57.684,7.4039
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q1,Internally Managed,Cash & Cash Equivalents,Cash,92.596,11.8849
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q1,Externally Managed,Equity,Other Private Equity,62.914,8.0751
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q2,Internally Managed,Public Fixed Income,Government Bonds,264.855,34.1714
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q2,Internally Managed,Public Fixed Income,Corporate Bonds,310.886,40.1102
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q2,Internally Managed,Public Equity,Common Shares,11.576,1.4935
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q2,Internally Managed,Public Equity,Preferred Shares,57.072,7.3634
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q2,Internally Managed,Cash & Cash Equivalents,Cash,67.876,8.7573
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q2,Externally Managed,Equity,Other Private Equity,62.814,8.1042
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q3,Internally Managed,Public Fixed Income,Government Bonds,265.908,33.6175
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q3,Internally Managed,Public Fixed Income,Corporate Bonds,323.437,40.8907
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q3,Internally Managed,Public Equity,Common Shares,12.451,1.5741
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q3,Internally Managed,Public Equity,Preferred Shares,59.407,7.5106
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q3,Internally Managed,Cash & Cash Equivalents,Cash,84.721,10.7109
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q3,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q3,Externally Managed,Equity,Other Private Equity,45.056,5.6962
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q4,Internally Managed,Public Fixed Income,Government Bonds,288.096,36.4837
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q4,Internally Managed,Public Fixed Income,Corporate Bonds,305.674,38.7098
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q4,Internally Managed,Public Equity,Common Shares,10.65,1.3487
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q4,Internally Managed,Public Equity,Preferred Shares,60.395,7.6483
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q4,Internally Managed,Cash & Cash Equivalents,Cash,79.924,10.1214
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q4,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2024Q4,Externally Managed,Equity,Other Private Equity,44.917,5.6882
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q1,Internally Managed,Public Fixed Income,Government Bonds,282.077,35.8411
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q1,Internally Managed,Public Fixed Income,Corporate Bonds,327.111,41.5632
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q1,Internally Managed,Public Equity,Common Shares,9.483,1.2049
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q1,Internally Managed,Public Equity,Preferred Shares,56.873,7.2264
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q1,Internally Managed,Cash & Cash Equivalents,Cash,66.174,8.4082
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q1,Externally Managed,Equity,Other Private Equity,45.303,5.7563
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q2,Internally Managed,Public Fixed Income,Government Bonds,278.255,34.9345
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q2,Internally Managed,Public Fixed Income,Corporate Bonds,337.782,42.408
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q2,Internally Managed,Public Equity,Common Shares,10.022,1.2582
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q2,Internally Managed,Public Equity,Preferred Shares,54.175,6.8016
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q2,Internally Managed,Cash & Cash Equivalents,Cash,70.776,8.8858
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q2,Externally Managed,Equity,Other Private Equity,45.495,5.7118
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q3,Internally Managed,Public Fixed Income,Government Bonds,270.924,32.4279
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q3,Internally Managed,Public Fixed Income,Corporate Bonds,351.805,42.1089
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q3,Internally Managed,Public Equity,Common Shares,9.913,1.1865
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q3,Internally Managed,Public Equity,Preferred Shares,51.607,6.177
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q3,Internally Managed,Cash & Cash Equivalents,Cash,105.063,12.5754
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q3,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q3,Externally Managed,Equity,Other Private Equity,46.153,5.5242
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q4,Internally Managed,Public Fixed Income,Government Bonds,304.857,37.3478
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q4,Internally Managed,Public Fixed Income,Corporate Bonds,352.312,43.1614
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q4,Internally Managed,Public Equity,Common Shares,10.104,1.2378
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q4,Internally Managed,Public Equity,Preferred Shares,57.59,7.0553
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q4,Internally Managed,Cash & Cash Equivalents,Cash,45.195,5.5368
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q4,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2025Q4,Externally Managed,Equity,Other Private Equity,46.208,5.6609
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q1,Internally Managed,Public Fixed Income,Government Bonds,246.187,30.8118
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q1,Internally Managed,Public Fixed Income,Corporate Bonds,372.003,46.5584
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q1,Internally Managed,Public Equity,Common Shares,10.079,1.2614
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q1,Internally Managed,Public Equity,Preferred Shares,65.602,8.2105
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q1,Internally Managed,Cash & Cash Equivalents,Cash,58.607,7.335
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q1,Externally Managed,Equity,Other Private Equity,46.525,5.8229
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q2,Internally Managed,Public Fixed Income,Government Bonds,257.314,31.3665
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q2,Internally Managed,Public Fixed Income,Corporate Bonds,394.578,48.099
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q2,Internally Managed,Public Equity,Common Shares,9.092,1.1083
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q2,Internally Managed,Public Equity,Preferred Shares,67.659,8.2476
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q2,Internally Managed,Cash & Cash Equivalents,Cash,44.62,5.4392
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+foresters_life,Foresters Life (incl. Canada Protection Plan),0,2026Q2,Externally Managed,Equity,Other Private Equity,47.083,5.7394
+canadian_premier,Canadian Premier Life,0,2023Q1,Internally Managed,Public Fixed Income,Government Bonds,226.24,24.882
+canadian_premier,Canadian Premier Life,0,2023Q1,Internally Managed,Public Fixed Income,Corporate Bonds,462.79,50.8979
+canadian_premier,Canadian Premier Life,0,2023Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2023Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2023Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2023Q1,Internally Managed,Public Equity,Common Shares,102.794,11.3053
+canadian_premier,Canadian Premier Life,0,2023Q1,Internally Managed,Public Equity,Preferred Shares,33.059,3.6358
+canadian_premier,Canadian Premier Life,0,2023Q1,Internally Managed,Cash & Cash Equivalents,Cash,84.368,9.2788
+canadian_premier,Canadian Premier Life,0,2023Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2023Q1,Externally Managed,Equity,Other Private Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2023Q2,Internally Managed,Public Fixed Income,Government Bonds,187.449,21.8805
+canadian_premier,Canadian Premier Life,0,2023Q2,Internally Managed,Public Fixed Income,Corporate Bonds,477.662,55.7565
+canadian_premier,Canadian Premier Life,0,2023Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2023Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2023Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2023Q2,Internally Managed,Public Equity,Common Shares,102.554,11.9709
+canadian_premier,Canadian Premier Life,0,2023Q2,Internally Managed,Public Equity,Preferred Shares,32.14,3.7516
+canadian_premier,Canadian Premier Life,0,2023Q2,Internally Managed,Cash & Cash Equivalents,Cash,56.888,6.6404
+canadian_premier,Canadian Premier Life,0,2023Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2023Q2,Externally Managed,Equity,Other Private Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2023Q3,Internally Managed,Public Fixed Income,Government Bonds,167.324,19.8682
+canadian_premier,Canadian Premier Life,0,2023Q3,Internally Managed,Public Fixed Income,Corporate Bonds,475.221,56.428
+canadian_premier,Canadian Premier Life,0,2023Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2023Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2023Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2023Q3,Internally Managed,Public Equity,Common Shares,104.309,12.3857
+canadian_premier,Canadian Premier Life,0,2023Q3,Internally Managed,Public Equity,Preferred Shares,30.74,3.6501
+canadian_premier,Canadian Premier Life,0,2023Q3,Internally Managed,Cash & Cash Equivalents,Cash,64.578,7.668
+canadian_premier,Canadian Premier Life,0,2023Q3,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2023Q3,Externally Managed,Equity,Other Private Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2023Q4,Internally Managed,Public Fixed Income,Government Bonds,195.686,20.8284
+canadian_premier,Canadian Premier Life,0,2023Q4,Internally Managed,Public Fixed Income,Corporate Bonds,477.953,50.8723
+canadian_premier,Canadian Premier Life,0,2023Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2023Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2023Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2023Q4,Internally Managed,Public Equity,Common Shares,110.041,11.7125
+canadian_premier,Canadian Premier Life,0,2023Q4,Internally Managed,Public Equity,Preferred Shares,25.683,2.7336
+canadian_premier,Canadian Premier Life,0,2023Q4,Internally Managed,Cash & Cash Equivalents,Cash,130.152,13.8531
+canadian_premier,Canadian Premier Life,0,2023Q4,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2023Q4,Externally Managed,Equity,Other Private Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q1,Internally Managed,Public Fixed Income,Government Bonds,196.1,22.4637
+canadian_premier,Canadian Premier Life,0,2024Q1,Internally Managed,Public Fixed Income,Corporate Bonds,477.351,54.6816
+canadian_premier,Canadian Premier Life,0,2024Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q1,Internally Managed,Public Equity,Common Shares,110.406,12.6472
+canadian_premier,Canadian Premier Life,0,2024Q1,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q1,Internally Managed,Cash & Cash Equivalents,Cash,89.108,10.2075
+canadian_premier,Canadian Premier Life,0,2024Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q1,Externally Managed,Equity,Other Private Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q2,Internally Managed,Public Fixed Income,Government Bonds,189.454,22.0454
+canadian_premier,Canadian Premier Life,0,2024Q2,Internally Managed,Public Fixed Income,Corporate Bonds,489.987,57.0163
+canadian_premier,Canadian Premier Life,0,2024Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q2,Internally Managed,Public Equity,Common Shares,111.662,12.9933
+canadian_premier,Canadian Premier Life,0,2024Q2,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q2,Internally Managed,Cash & Cash Equivalents,Cash,68.277,7.9449
+canadian_premier,Canadian Premier Life,0,2024Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q2,Externally Managed,Equity,Other Private Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q3,Internally Managed,Public Fixed Income,Government Bonds,177.145,20.2853
+canadian_premier,Canadian Premier Life,0,2024Q3,Internally Managed,Public Fixed Income,Corporate Bonds,481.506,55.1384
+canadian_premier,Canadian Premier Life,0,2024Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q3,Internally Managed,Public Equity,Common Shares,107.219,12.2779
+canadian_premier,Canadian Premier Life,0,2024Q3,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q3,Internally Managed,Cash & Cash Equivalents,Cash,107.398,12.2984
+canadian_premier,Canadian Premier Life,0,2024Q3,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q3,Externally Managed,Equity,Other Private Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q4,Internally Managed,Public Fixed Income,Government Bonds,179.007,21.0877
+canadian_premier,Canadian Premier Life,0,2024Q4,Internally Managed,Public Fixed Income,Corporate Bonds,518.731,61.1085
+canadian_premier,Canadian Premier Life,0,2024Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,2.5,0.2945
+canadian_premier,Canadian Premier Life,0,2024Q4,Internally Managed,Public Equity,Common Shares,98.574,11.6124
+canadian_premier,Canadian Premier Life,0,2024Q4,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q4,Internally Managed,Cash & Cash Equivalents,Cash,50.057,5.8969
+canadian_premier,Canadian Premier Life,0,2024Q4,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2024Q4,Externally Managed,Equity,Other Private Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2025Q1,Internally Managed,Public Fixed Income,Government Bonds,162.87,19.9613
+canadian_premier,Canadian Premier Life,0,2025Q1,Internally Managed,Public Fixed Income,Corporate Bonds,491.111,60.1906
+canadian_premier,Canadian Premier Life,0,2025Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2025Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2025Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,3.702,0.4537
+canadian_premier,Canadian Premier Life,0,2025Q1,Internally Managed,Public Equity,Common Shares,100.665,12.3375
+canadian_premier,Canadian Premier Life,0,2025Q1,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2025Q1,Internally Managed,Cash & Cash Equivalents,Cash,57.579,7.0569
+canadian_premier,Canadian Premier Life,0,2025Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2025Q1,Externally Managed,Equity,Other Private Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2025Q2,Internally Managed,Public Fixed Income,Government Bonds,144.083,18.0701
+canadian_premier,Canadian Premier Life,0,2025Q2,Internally Managed,Public Fixed Income,Corporate Bonds,452.062,56.695
+canadian_premier,Canadian Premier Life,0,2025Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2025Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2025Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,4.92,0.617
+canadian_premier,Canadian Premier Life,0,2025Q2,Internally Managed,Public Equity,Common Shares,169.21,21.2213
+canadian_premier,Canadian Premier Life,0,2025Q2,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2025Q2,Internally Managed,Cash & Cash Equivalents,Cash,27.083,3.3966
+canadian_premier,Canadian Premier Life,0,2025Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2025Q2,Externally Managed,Equity,Other Private Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2025Q3,Internally Managed,Public Fixed Income,Government Bonds,137.466,18.0223
+canadian_premier,Canadian Premier Life,0,2025Q3,Internally Managed,Public Fixed Income,Corporate Bonds,396.88,52.0326
+canadian_premier,Canadian Premier Life,0,2025Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2025Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2025Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,6.087,0.798
+canadian_premier,Canadian Premier Life,0,2025Q3,Internally Managed,Public Equity,Common Shares,170.976,22.4156
+canadian_premier,Canadian Premier Life,0,2025Q3,Internally Managed,Public Equity,Preferred Shares,5.825,0.7637
+canadian_premier,Canadian Premier Life,0,2025Q3,Internally Managed,Cash & Cash Equivalents,Cash,45.519,5.9677
+canadian_premier,Canadian Premier Life,0,2025Q3,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2025Q3,Externally Managed,Equity,Other Private Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2025Q4,Internally Managed,Public Fixed Income,Government Bonds,136.588,18.3772
+canadian_premier,Canadian Premier Life,0,2025Q4,Internally Managed,Public Fixed Income,Corporate Bonds,394.878,53.1287
+canadian_premier,Canadian Premier Life,0,2025Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2025Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2025Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,7.223,0.9718
+canadian_premier,Canadian Premier Life,0,2025Q4,Internally Managed,Public Equity,Common Shares,172.306,23.1828
+canadian_premier,Canadian Premier Life,0,2025Q4,Internally Managed,Public Equity,Preferred Shares,5.834,0.7849
+canadian_premier,Canadian Premier Life,0,2025Q4,Internally Managed,Cash & Cash Equivalents,Cash,26.419,3.5545
+canadian_premier,Canadian Premier Life,0,2025Q4,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2025Q4,Externally Managed,Equity,Other Private Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2026Q1,Internally Managed,Public Fixed Income,Government Bonds,126.256,18.0791
+canadian_premier,Canadian Premier Life,0,2026Q1,Internally Managed,Public Fixed Income,Corporate Bonds,355.813,50.9503
+canadian_premier,Canadian Premier Life,0,2026Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2026Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2026Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,8.576,1.228
+canadian_premier,Canadian Premier Life,0,2026Q1,Internally Managed,Public Equity,Common Shares,173.69,24.8714
+canadian_premier,Canadian Premier Life,0,2026Q1,Internally Managed,Public Equity,Preferred Shares,5.819,0.8332
+canadian_premier,Canadian Premier Life,0,2026Q1,Internally Managed,Cash & Cash Equivalents,Cash,28.199,4.0379
+canadian_premier,Canadian Premier Life,0,2026Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2026Q1,Externally Managed,Equity,Other Private Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2026Q2,Internally Managed,Public Fixed Income,Government Bonds,118.421,17.0521
+canadian_premier,Canadian Premier Life,0,2026Q2,Internally Managed,Public Fixed Income,Corporate Bonds,342.267,49.2849
+canadian_premier,Canadian Premier Life,0,2026Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2026Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2026Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2026Q2,Internally Managed,Public Equity,Common Shares,177.151,25.509
+canadian_premier,Canadian Premier Life,0,2026Q2,Internally Managed,Public Equity,Preferred Shares,5.837,0.8405
+canadian_premier,Canadian Premier Life,0,2026Q2,Internally Managed,Cash & Cash Equivalents,Cash,50.79,7.3135
+canadian_premier,Canadian Premier Life,0,2026Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+canadian_premier,Canadian Premier Life,0,2026Q2,Externally Managed,Equity,Other Private Equity,0.0,0.0
+primerica_life,Primerica Life,0,2023Q1,Internally Managed,Public Fixed Income,Government Bonds,166.324,56.8149
+primerica_life,Primerica Life,0,2023Q1,Internally Managed,Public Fixed Income,Corporate Bonds,111.812,38.1941
+primerica_life,Primerica Life,0,2023Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+primerica_life,Primerica Life,0,2023Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+primerica_life,Primerica Life,0,2023Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+primerica_life,Primerica Life,0,2023Q1,Internally Managed,Public Equity,Common Shares,0.0,0.0
+primerica_life,Primerica Life,0,2023Q1,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+primerica_life,Primerica Life,0,2023Q1,Internally Managed,Cash & Cash Equivalents,Cash,14.611,4.991
+primerica_life,Primerica Life,0,2023Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+primerica_life,Primerica Life,0,2023Q1,Externally Managed,Equity,Other Private Equity,0.0,0.0
+primerica_life,Primerica Life,0,2023Q2,Internally Managed,Public Fixed Income,Government Bonds,169.714,55.0415
+primerica_life,Primerica Life,0,2023Q2,Internally Managed,Public Fixed Income,Corporate Bonds,117.707,38.1747
+primerica_life,Primerica Life,0,2023Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+primerica_life,Primerica Life,0,2023Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+primerica_life,Primerica Life,0,2023Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+primerica_life,Primerica Life,0,2023Q2,Internally Managed,Public Equity,Common Shares,0.0,0.0
+primerica_life,Primerica Life,0,2023Q2,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+primerica_life,Primerica Life,0,2023Q2,Internally Managed,Cash & Cash Equivalents,Cash,20.917,6.7838
+primerica_life,Primerica Life,0,2023Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+primerica_life,Primerica Life,0,2023Q2,Externally Managed,Equity,Other Private Equity,0.0,0.0
+primerica_life,Primerica Life,0,2023Q3,Internally Managed,Public Fixed Income,Government Bonds,158.057,50.9815
+primerica_life,Primerica Life,0,2023Q3,Internally Managed,Public Fixed Income,Corporate Bonds,119.018,38.3894
+primerica_life,Primerica Life,0,2023Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+primerica_life,Primerica Life,0,2023Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+primerica_life,Primerica Life,0,2023Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+primerica_life,Primerica Life,0,2023Q3,Internally Managed,Public Equity,Common Shares,0.0,0.0
+primerica_life,Primerica Life,0,2023Q3,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+primerica_life,Primerica Life,0,2023Q3,Internally Managed,Cash & Cash Equivalents,Cash,32.953,10.629
+primerica_life,Primerica Life,0,2023Q3,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+primerica_life,Primerica Life,0,2023Q3,Externally Managed,Equity,Other Private Equity,0.0,0.0
+primerica_life,Primerica Life,0,2023Q4,Internally Managed,Public Fixed Income,Government Bonds,171.731,49.165
+primerica_life,Primerica Life,0,2023Q4,Internally Managed,Public Fixed Income,Corporate Bonds,128.037,36.6558
+primerica_life,Primerica Life,0,2023Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+primerica_life,Primerica Life,0,2023Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+primerica_life,Primerica Life,0,2023Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+primerica_life,Primerica Life,0,2023Q4,Internally Managed,Public Equity,Common Shares,0.0,0.0
+primerica_life,Primerica Life,0,2023Q4,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+primerica_life,Primerica Life,0,2023Q4,Internally Managed,Cash & Cash Equivalents,Cash,49.527,14.1791
+primerica_life,Primerica Life,0,2023Q4,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+primerica_life,Primerica Life,0,2023Q4,Externally Managed,Equity,Other Private Equity,0.0,0.0
+primerica_life,Primerica Life,0,2024Q1,Internally Managed,Public Fixed Income,Government Bonds,170.571,48.7923
+primerica_life,Primerica Life,0,2024Q1,Internally Managed,Public Fixed Income,Corporate Bonds,126.138,36.0821
+primerica_life,Primerica Life,0,2024Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+primerica_life,Primerica Life,0,2024Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+primerica_life,Primerica Life,0,2024Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+primerica_life,Primerica Life,0,2024Q1,Internally Managed,Public Equity,Common Shares,0.0,0.0
+primerica_life,Primerica Life,0,2024Q1,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+primerica_life,Primerica Life,0,2024Q1,Internally Managed,Cash & Cash Equivalents,Cash,52.877,15.1256
+primerica_life,Primerica Life,0,2024Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+primerica_life,Primerica Life,0,2024Q1,Externally Managed,Equity,Other Private Equity,0.0,0.0
+primerica_life,Primerica Life,0,2024Q2,Internally Managed,Public Fixed Income,Government Bonds,172.232,46.737
+primerica_life,Primerica Life,0,2024Q2,Internally Managed,Public Fixed Income,Corporate Bonds,151.508,41.1133
+primerica_life,Primerica Life,0,2024Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+primerica_life,Primerica Life,0,2024Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+primerica_life,Primerica Life,0,2024Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+primerica_life,Primerica Life,0,2024Q2,Internally Managed,Public Equity,Common Shares,0.0,0.0
+primerica_life,Primerica Life,0,2024Q2,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+primerica_life,Primerica Life,0,2024Q2,Internally Managed,Cash & Cash Equivalents,Cash,44.773,12.1496
+primerica_life,Primerica Life,0,2024Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+primerica_life,Primerica Life,0,2024Q2,Externally Managed,Equity,Other Private Equity,0.0,0.0
+primerica_life,Primerica Life,0,2024Q3,Internally Managed,Public Fixed Income,Government Bonds,191.553,48.8676
+primerica_life,Primerica Life,0,2024Q3,Internally Managed,Public Fixed Income,Corporate Bonds,167.721,42.7877
+primerica_life,Primerica Life,0,2024Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+primerica_life,Primerica Life,0,2024Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+primerica_life,Primerica Life,0,2024Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+primerica_life,Primerica Life,0,2024Q3,Internally Managed,Public Equity,Common Shares,0.0,0.0
+primerica_life,Primerica Life,0,2024Q3,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+primerica_life,Primerica Life,0,2024Q3,Internally Managed,Cash & Cash Equivalents,Cash,32.71,8.3447
+primerica_life,Primerica Life,0,2024Q3,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+primerica_life,Primerica Life,0,2024Q3,Externally Managed,Equity,Other Private Equity,0.0,0.0
+primerica_life,Primerica Life,0,2024Q4,Internally Managed,Public Fixed Income,Government Bonds,196.788,46.9058
+primerica_life,Primerica Life,0,2024Q4,Internally Managed,Public Fixed Income,Corporate Bonds,189.052,45.0618
+primerica_life,Primerica Life,0,2024Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+primerica_life,Primerica Life,0,2024Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+primerica_life,Primerica Life,0,2024Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+primerica_life,Primerica Life,0,2024Q4,Internally Managed,Public Equity,Common Shares,0.0,0.0
+primerica_life,Primerica Life,0,2024Q4,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+primerica_life,Primerica Life,0,2024Q4,Internally Managed,Cash & Cash Equivalents,Cash,33.699,8.0324
+primerica_life,Primerica Life,0,2024Q4,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+primerica_life,Primerica Life,0,2024Q4,Externally Managed,Equity,Other Private Equity,0.0,0.0
+primerica_life,Primerica Life,0,2025Q1,Internally Managed,Public Fixed Income,Government Bonds,204.569,47.4863
+primerica_life,Primerica Life,0,2025Q1,Internally Managed,Public Fixed Income,Corporate Bonds,188.547,43.7671
+primerica_life,Primerica Life,0,2025Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+primerica_life,Primerica Life,0,2025Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+primerica_life,Primerica Life,0,2025Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+primerica_life,Primerica Life,0,2025Q1,Internally Managed,Public Equity,Common Shares,0.0,0.0
+primerica_life,Primerica Life,0,2025Q1,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+primerica_life,Primerica Life,0,2025Q1,Internally Managed,Cash & Cash Equivalents,Cash,37.68,8.7466
+primerica_life,Primerica Life,0,2025Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+primerica_life,Primerica Life,0,2025Q1,Externally Managed,Equity,Other Private Equity,0.0,0.0
+primerica_life,Primerica Life,0,2025Q2,Internally Managed,Public Fixed Income,Government Bonds,203.0,44.5231
+primerica_life,Primerica Life,0,2025Q2,Internally Managed,Public Fixed Income,Corporate Bonds,213.16,46.7515
+primerica_life,Primerica Life,0,2025Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+primerica_life,Primerica Life,0,2025Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+primerica_life,Primerica Life,0,2025Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+primerica_life,Primerica Life,0,2025Q2,Internally Managed,Public Equity,Common Shares,0.0,0.0
+primerica_life,Primerica Life,0,2025Q2,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+primerica_life,Primerica Life,0,2025Q2,Internally Managed,Cash & Cash Equivalents,Cash,39.783,8.7254
+primerica_life,Primerica Life,0,2025Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+primerica_life,Primerica Life,0,2025Q2,Externally Managed,Equity,Other Private Equity,0.0,0.0
+primerica_life,Primerica Life,0,2025Q3,Internally Managed,Public Fixed Income,Government Bonds,193.365,40.7473
+primerica_life,Primerica Life,0,2025Q3,Internally Managed,Public Fixed Income,Corporate Bonds,250.105,52.7039
+primerica_life,Primerica Life,0,2025Q3,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+primerica_life,Primerica Life,0,2025Q3,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+primerica_life,Primerica Life,0,2025Q3,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+primerica_life,Primerica Life,0,2025Q3,Internally Managed,Public Equity,Common Shares,0.0,0.0
+primerica_life,Primerica Life,0,2025Q3,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+primerica_life,Primerica Life,0,2025Q3,Internally Managed,Cash & Cash Equivalents,Cash,31.077,6.5488
+primerica_life,Primerica Life,0,2025Q3,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+primerica_life,Primerica Life,0,2025Q3,Externally Managed,Equity,Other Private Equity,0.0,0.0
+primerica_life,Primerica Life,0,2025Q4,Internally Managed,Public Fixed Income,Government Bonds,183.244,39.3354
+primerica_life,Primerica Life,0,2025Q4,Internally Managed,Public Fixed Income,Corporate Bonds,242.569,52.0702
+primerica_life,Primerica Life,0,2025Q4,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+primerica_life,Primerica Life,0,2025Q4,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+primerica_life,Primerica Life,0,2025Q4,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+primerica_life,Primerica Life,0,2025Q4,Internally Managed,Public Equity,Common Shares,0.0,0.0
+primerica_life,Primerica Life,0,2025Q4,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+primerica_life,Primerica Life,0,2025Q4,Internally Managed,Cash & Cash Equivalents,Cash,40.037,8.5944
+primerica_life,Primerica Life,0,2025Q4,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+primerica_life,Primerica Life,0,2025Q4,Externally Managed,Equity,Other Private Equity,0.0,0.0
+primerica_life,Primerica Life,0,2026Q1,Internally Managed,Public Fixed Income,Government Bonds,181.961,40.3441
+primerica_life,Primerica Life,0,2026Q1,Internally Managed,Public Fixed Income,Corporate Bonds,237.292,52.612
+primerica_life,Primerica Life,0,2026Q1,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+primerica_life,Primerica Life,0,2026Q1,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+primerica_life,Primerica Life,0,2026Q1,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+primerica_life,Primerica Life,0,2026Q1,Internally Managed,Public Equity,Common Shares,0.0,0.0
+primerica_life,Primerica Life,0,2026Q1,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+primerica_life,Primerica Life,0,2026Q1,Internally Managed,Cash & Cash Equivalents,Cash,31.77,7.044
+primerica_life,Primerica Life,0,2026Q1,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+primerica_life,Primerica Life,0,2026Q1,Externally Managed,Equity,Other Private Equity,0.0,0.0
+primerica_life,Primerica Life,0,2026Q2,Internally Managed,Public Fixed Income,Government Bonds,171.322,39.4745
+primerica_life,Primerica Life,0,2026Q2,Internally Managed,Public Fixed Income,Corporate Bonds,227.083,52.3224
+primerica_life,Primerica Life,0,2026Q2,Internally Managed,Private Fixed Income,Illiquid Term Loans,0.0,0.0
+primerica_life,Primerica Life,0,2026Q2,Internally Managed,Private Fixed Income,Commercial Mortgages,0.0,0.0
+primerica_life,Primerica Life,0,2026Q2,Internally Managed,Private Fixed Income,Policy & Other Loans,0.0,0.0
+primerica_life,Primerica Life,0,2026Q2,Internally Managed,Public Equity,Common Shares,0.0,0.0
+primerica_life,Primerica Life,0,2026Q2,Internally Managed,Public Equity,Preferred Shares,0.0,0.0
+primerica_life,Primerica Life,0,2026Q2,Internally Managed,Cash & Cash Equivalents,Cash,35.602,8.2031
+primerica_life,Primerica Life,0,2026Q2,Externally Managed,Equity,Real Estate Equity,0.0,0.0
+primerica_life,Primerica Life,0,2026Q2,Externally Managed,Equity,Other Private Equity,0.0,0.0

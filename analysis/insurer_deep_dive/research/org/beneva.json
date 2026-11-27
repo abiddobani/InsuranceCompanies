@@ -1,0 +1,165 @@
+{
+ "company_id": "beneva",
+ "operating_entities": {
+  "source_url": "https://www.beneva.ca/en/media/20911/download",
+  "page_title": "Beneva 2025 Annual Report - 'Org chart, As at December 31, 2025' (report pp. 12-13; PDF page 8)",
+  "retrieved": "2026-11-03",
+  "entities": [
+   {
+    "name": "Beneva Mutual",
+    "parent": null,
+    "description": "Mutual at the top of the chart (owner, with Fonds de solidarité FTQ, of Beneva Group Inc.). Financial statements: Beneva Mutual accounts for Beneva Group Inc. as a joint venture and Société financière Beneva inc. as an associate."
+   },
+   {
+    "name": "Fonds de solidarité FTQ",
+    "parent": null,
+    "description": "Shown in the chart (shaded, external investor) alongside Beneva Mutual; holds its interest through Société financière Beneva inc."
+   },
+   {
+    "name": "Société de gestion Beneva inc.",
+    "parent": "Beneva Mutual",
+    "description": "Holding company between Beneva Mutual and Beneva Group Inc. (no description on the chart)."
+   },
+   {
+    "name": "Société financière Beneva inc.",
+    "parent": "Fonds de solidarité FTQ / Beneva Mutual",
+    "description": "Holding company (associate of Beneva Mutual) whose main asset is its investment in Beneva Group Inc. (FS note 4)."
+   },
+   {
+    "name": "Beneva Group Inc.",
+    "parent": "Société de gestion Beneva inc. / Société financière Beneva inc.",
+    "description": "Group holding company; owner of the 'Beneva' trademarks ('The Beneva name and logo are registered trademarks of Beneva Group Inc. used under licence', site footer)."
+   },
+   {
+    "name": "Beneva Inc.",
+    "parent": "Beneva Group Inc.",
+    "description": "The life and health insurer and parent of the operating subsidiaries ('Savings products are issued by Beneva Inc.'; site copyright 'Beneva Inc.'); A.M. Best A (Excellent), stable."
+   },
+   {
+    "name": "Beneva Real Estate Management Inc.",
+    "parent": "Beneva Inc.",
+    "description": "Real estate management subsidiary (no description on the chart)."
+   },
+   {
+    "name": "Beneva Insurance Company",
+    "parent": "Beneva Inc.",
+    "description": "P&C insurer (formerly La Capitale General Insurance Inc., renamed 2023-01-01); A.M. Best A (Excellent), stable."
+   },
+   {
+    "name": "Beneva Investment Services Inc.",
+    "parent": "Beneva Inc.",
+    "description": "Fund dealer subsidiary (no description on the chart)."
+   },
+   {
+    "name": "L'Unique General Insurance Inc.",
+    "parent": "Beneva Insurance Company",
+    "description": "P&C insurer (broker channel, Quebec); A.M. Best A (Excellent), stable."
+   },
+   {
+    "name": "Unica Insurance Inc.",
+    "parent": "Beneva Insurance Company",
+    "description": "Ontario-based P&C subsidiary; A.M. Best A (Excellent), stable."
+   },
+   {
+    "name": "Gore Insurance Company*",
+    "parent": "Beneva Insurance Company",
+    "description": "'* As at January 1, 2026' - Gore Mutual merged into Beneva effective 2026-01-01 ('Beneva and Gore Mutual combine operations', who-we-are timeline)."
+   }
+  ],
+  "ga_manager_statement": {
+   "text": "Beneva 'decreased the carbon intensity of its internally managed portfolio by 39% compared to 2021' (2025 results release, 2026-04-23) - i.e. the general fund is managed in-house; the Institutional Investment Services page states that for third-party institutional clients 'We only work with external managers'.",
+   "source": "https://www.beneva.ca/en/newsroom/beneva-2025-financial-results ; https://www.beneva.ca/en/savings-invesments/institutional-investment"
+  },
+  "note": "No HTML 'our companies' page exists on beneva.ca (checked /en/who-we-are, /en/legal, /en/joining-forces, /en/financial-information, /en/team; /en/about-us, /en/legal-notice and /en/about-us/our-companies return 404). The org chart in the 2025 Annual Report hosted on beneva.ca is the insurer's own entity disclosure; the financial-information page separately lists the four A.M. Best-rated entities (Beneva Inc., Beneva Insurance Company, L'Unique General Insurance Inc., Unica Insurance Inc.). The chart gives names only; descriptions are drawn from other beneva.ca pages and the FS notes as indicated."
+ },
+ "ceo": {
+  "name": "Jean-François Chalifoux",
+  "title": "President and CEO, Beneva",
+  "entity": "Beneva Inc.",
+  "reports_to": "Boards of Beneva Inc. / Beneva Mutual (Chair Jean St-Gelais per round 1)",
+  "seat_since": "2020",
+  "firm_since": "2015",
+  "industry_since": null,
+  "prior": "CEO, SSQ Insurance (2015-2020); earlier executive positions at major Canadian P&C and L&H insurers; FCIA, FCAS; BSc actuarial science Université Laval",
+  "tenure_source": "company bio (beneva.ca/en/team)",
+  "comp_total": null,
+  "comp_currency": "CAD",
+  "comp_year": null,
+  "comp_source": "",
+  "sources": [
+   "https://www.beneva.ca/en/team/jean-francois-chalifoux",
+   "https://old.investmentexecutive.com/news/people/ssq-names-new-ceo/"
+  ],
+  "note": "President and CEO 'since its creation in 2020' (La Capitale/SSQ merger 2020-07). industry_since null: bio gives no start year. Mutual: no proxy circular, pay not disclosed. CEO of the Year, Insurance Business Canada Awards 2025."
+ },
+ "cio": {
+  "name": null,
+  "title": "Not publicly identified (no Chief Investment Officer or VP Investments on the management team or in the 2025 Annual Report)",
+  "entity": "Beneva Inc.",
+  "reports_to": null,
+  "seat_since": null,
+  "firm_since": null,
+  "industry_since": null,
+  "prior": "",
+  "tenure_source": "",
+  "comp_total": null,
+  "comp_currency": "CAD",
+  "comp_year": null,
+  "comp_source": "",
+  "sources": [
+   "https://www.beneva.ca/en/team",
+   "https://www.beneva.ca/en/media/20911/download"
+  ],
+  "note": "The 11-person management team (beneva.ca, information as at 2026-04-01) and the AR's 'expanded leadership team' (Michel Fournier VP Risk Management, Josée Grondines VP Internal Audit, Frédéric Mantha VP AI and Data) contain no investment executive; the internally managed general fund (C$18.9bn total investments at 2025-12-31) sits under EVP Finance Mélissa Gilbert by inference (her La Capitale title covered 'Finance, Corporate Actuarial and Risk Management'). Board Investment Committee reviews the portfolio quarterly (AR note 7)."
+ },
+ "cio_direct_reports": [],
+ "other_leaders": [
+  {
+   "name": "Mélissa Gilbert",
+   "title": "Executive Vice-President and Leader, Finance (also interim Leader, Business Performance and Information Technology)",
+   "entity": "Beneva Inc.",
+   "reports_to": "Jean-François Chalifoux, President and CEO (inferred: management team)",
+   "seat_since": "2020",
+   "firm_since": "2018-12",
+   "industry_since": null,
+   "prior": "EVP Finance, Corporate Actuarial and Risk Management, La Capitale (Dec 2018 to the 2020 merger); previously CFO and strategic roles in service companies; FCPA, FCA, ASC",
+   "tenure_source": "company bio (beneva.ca) for 2018-12; seat 2020 inferred from merger date (bio says she played a key role in bringing La Capitale and SSQ together)",
+   "comp_total": null,
+   "comp_currency": "CAD",
+   "comp_year": null,
+   "comp_source": "",
+   "sources": [
+    "https://www.beneva.ca/en/team/melissa-gilbert",
+    "https://www.beneva.ca/en/media/20911/download"
+   ],
+   "note": "seat_since 2020 is inferred from the merger (not a stated appointment date). Likely senior executive over the in-house investment function (inferred). Pay not disclosed."
+  },
+  {
+   "name": "Michel Fournier",
+   "title": "Vice-President, Risk Management (functionally related to the Risk, Ethics and IT Management Committee of the Board)",
+   "entity": "Beneva Inc.",
+   "reports_to": "Functionally to the Board's Risk, Ethics and IT Management Committee (stated in AR); administrative line not stated",
+   "seat_since": null,
+   "firm_since": null,
+   "industry_since": null,
+   "prior": "",
+   "tenure_source": "",
+   "comp_total": null,
+   "comp_currency": "CAD",
+   "comp_year": null,
+   "comp_source": "",
+   "sources": [
+    "https://www.beneva.ca/en/media/20911/download"
+   ],
+   "note": "Listed among 'expanded leadership team members' (AR p.10-11, information as of 2026-04-01). No bio or tenure found; not on the beneva.ca team page."
+  }
+ ],
+ "gaps": [
+  "No named CIO / head of investments: searched beneva.ca team page, 2025 Annual Report leadership and org-chart pages, newsroom headlines (no investment appointments since 2020), institutional-investment page; web searches for 'Beneva' + 'Chief Investment Officer' / 'Vice-President, Investments' / 'vice-président placements' returned nothing before the search budget was exhausted.",
+  "No HTML corporate-structure page on beneva.ca; the annual-report org chart was used instead (see operating_entities.note). balcon.beneva.ca (lists affiliates) was unreachable (proxy 502).",
+  "Tenure dates: Chalifoux industry_since null; Gilbert seat_since inferred; Fournier all null; no LinkedIn snippets obtained.",
+  "Executive compensation not disclosed (mutual; no proxy circular).",
+  "Exact FTQ stake in Beneva Group Inc. not disclosed in the chart."
+ ],
+ "notes": "Management team (beneva.ca, as at 2026-04-01): Jean-François Chalifoux (President & CEO); Pierre Marc Bellavance (EVP Legal and Corporate Services); Christian Fournier (EVP P&C Insurance); Mélissa Gilbert (EVP Finance); Stéphane Morency (EVP Strategy, Customer Experience and Marketing); Sylvain Nolet (EVP Value Creation, effective 2026-05-04, replacing Patrick Cyr shown in the AR); Lara Nourcy (EVP Individual Insurance and Financial Services); Martin Robert (EVP Talent, Culture and Communication); Andy Taylor (EVP P&C Insurance, Ontario and West, effective 2026-01-01); Éric Trudel (EVP Group Insurance). FY2025: consolidated assets C$29.2bn, net income C$673.8M, solvency ratio 163% (financial-information page)."
+}

@@ -1,0 +1,46 @@
+company_id,as_of,factor,shock,ni_impact_cad_mm,licat_pts,tax_basis,denominator_cad_mm,denominator_label,source,note
+sun_life,2025-12-31,rates,-50bp,0,3.0,after-tax,199175,SLF general fund invested assets,"SLF 2025 annual MD&A, Interest Rate Sensitivities (p.61)",LICAT is SLF Inc.; rounded to $25MM / 0.5 pt
+sun_life,2025-12-31,rates,+50bp,-25,-3.0,after-tax,199175,SLF general fund invested assets,"SLF 2025 annual MD&A, Interest Rate Sensitivities (p.61)",
+sun_life,2025-12-31,credit_spreads,+50bp,-25,-2.5,after-tax,199175,SLF general fund invested assets,"SLF 2025 annual MD&A, Credit Spread Sensitivities (p.62)",
+sun_life,2025-12-31,public_equity,-10%,-225,-0.5,after-tax,199175,SLF general fund invested assets,"SLF 2025 annual MD&A, Private and Public Equity Market Sensitivities (p.61)",Public (-100) plus private (-125) equity; Sun Life shocks both together
+sun_life,2025-12-31,alternatives,-10%,-475,,after-tax,199175,SLF general fund invested assets,"SLF 2025 annual MD&A, Real Estate Sensitivities (p.62)",Real estate only; private equity is in the equity line
+manulife,2025-12-31,rates,-50bp,100,-1,after-tax,459900,MFC general fund invested assets,"MFC 2025 annual MD&A, Interest Rate and Spread Risk Sensitivities (p.63)",LICAT is MLI
+manulife,2025-12-31,rates,+50bp,-100,0,after-tax,459900,MFC general fund invested assets,"MFC 2025 annual MD&A, Interest Rate and Spread Risk Sensitivities (p.63)",
+manulife,2025-12-31,credit_spreads,+50bp,0,3,after-tax,459900,MFC general fund invested assets,"MFC 2025 annual MD&A, Interest Rate and Spread Risk Sensitivities (p.63)",Corporate spreads
+manulife,2025-12-31,public_equity,-10%,-450,-1,after-tax,459900,MFC general fund invested assets,"MFC 2025 annual MD&A, publicly traded equity performance risk (p.61-62)",After hedging and reinsurance
+manulife,2025-12-31,alternatives,-10%,-2200,-1,after-tax,459900,MFC general fund invested assets,"MFC 2025 annual MD&A, ALDA sensitivities (p.65)","ALDA: real estate, PE, infrastructure, timber, agriculture, energy"
+canada_life,2025-12-31,rates,-50bp,-50,0.5,after-tax,250051,Great-West Lifeco total invested assets,"GWO 2025 annual MD&A, Financial exposures and sensitivities (p.76)","Great-West Lifeco consolidated, incl. Empower; LICAT is Canada Life; ""< 1 point"" shown as 0.5"
+canada_life,2025-12-31,rates,+50bp,25,-1,after-tax,250051,Great-West Lifeco total invested assets,"GWO 2025 annual MD&A, Financial exposures and sensitivities (p.76)",
+canada_life,2025-12-31,credit_spreads,+50bp,150,-0.5,after-tax,250051,Great-West Lifeco total invested assets,"GWO 2025 annual MD&A, Financial exposures and sensitivities (p.76)","""< (1 point)"" shown as -0.5"
+canada_life,2025-12-31,public_equity,-10%,-50,-0.5,after-tax,250051,Great-West Lifeco total invested assets,"GWO 2025 annual MD&A, Financial exposures and sensitivities (p.76)","""< (1 point)"" shown as -0.5"
+canada_life,2025-12-31,alternatives,-10%,-600,-1,after-tax,250051,Great-West Lifeco total invested assets,"GWO 2025 annual MD&A, Financial exposures and sensitivities (p.76)",Other non-fixed income assets
+ia,2025-12-31,rates,-50bp,0,0.5,after-tax,46024,iA total investments,"iA 2025 annual MD&A, Market Risk Immediate Sensitivities",Solvency ratio (CARLI)
+ia,2025-12-31,rates,+50bp,-25,-0.5,after-tax,46024,iA total investments,"iA 2025 annual MD&A, Market Risk Immediate Sensitivities",
+ia,2025-12-31,credit_spreads,+50bp,-25,0.5,after-tax,46024,iA total investments,"iA 2025 annual MD&A, Market Risk Immediate Sensitivities",Corporate bond spreads
+ia,2025-12-31,public_equity,-10%,-100,-1.0,after-tax,46024,iA total investments,"iA 2025 annual MD&A, Market Risk Immediate Sensitivities",
+ia,2025-12-31,alternatives,-10%,-300,-1.0,after-tax,46024,iA total investments,"iA 2025 annual MD&A, Private Non-Fixed Income Asset Immediate Sensitivities","Private equity, investment property and infrastructure"
+empire_life,2025-12-31,rates,-50bp,36,-1,as disclosed (profit or loss),OSFI,OSFI LF2 total investments,"Empire Life 2025 FS note 24.2; 2025 annual MD&A (LICAT)",
+empire_life,2025-12-31,rates,+50bp,-44,,as disclosed (profit or loss),OSFI,OSFI LF2 total investments,Empire Life 2025 FS note 24.2,
+empire_life,2025-12-31,public_equity,-10%,-15,-2,as disclosed (profit or loss),OSFI,OSFI LF2 total investments,"Empire Life 2025 annual MD&A, Sensitivity to equity risk",Most equity risk sits in the CSM (seg fund guarantees)
+equitable_life,2025-12-31,rates,-50bp,-2.8,,after-tax,OSFI,OSFI LF2 total investments,Equitable 2025 annual report note (b)(ii),
+equitable_life,2025-12-31,rates,+50bp,-1.2,,after-tax,OSFI,OSFI LF2 total investments,Equitable 2025 annual report note (b)(ii),
+equitable_life,2025-12-31,credit_spreads,+50bp,1.3,,after-tax,OSFI,OSFI LF2 total investments,Equitable 2025 annual report note (b)(ii),
+equitable_life,2025-12-31,public_equity,-10%,-41.8,,after-tax,OSFI,OSFI LF2 total investments,Equitable 2025 annual report note (b)(i),
+equitable_life,2025-12-31,alternatives,-10%,-21.2,,after-tax,OSFI,OSFI LF2 total investments,Equitable 2025 annual report note (b)(iv),Investment property only
+beneva,2025-12-31,rates,-50bp,1.65,,after-tax,12145.4,Beneva general account (incl. P&C),Beneva 2025 annual report note on interest rate risk,Disclosed for 100bp; halved here
+beneva,2025-12-31,rates,+50bp,0.3,,after-tax,12145.4,Beneva general account (incl. P&C),Beneva 2025 annual report note on interest rate risk,Disclosed for 100bp; halved here
+beneva,2025-12-31,public_equity,-10%,-59.5,,after-tax,12145.4,Beneva general account (incl. P&C),Beneva 2025 annual report note on market price risk,"Disclosed for -15% (investments -74.7, guarantees -14.6); scaled by 10/15"
+desjardins,2025-12-31,rates,-50bp,5.5,,after-tax (after member dividends),,,Desjardins Group 2025 combined FS note 16 (life and health),Disclosed for 100bp; halved here; no invested-asset base published for the life company
+desjardins,2025-12-31,rates,+50bp,-11.5,,after-tax (after member dividends),,,Desjardins Group 2025 combined FS note 16 (life and health),"Disclosed for 100bp (-21 insurance, -2 other); halved here"
+desjardins,2025-12-31,public_equity,-10%,-70,,after-tax (after member dividends),,,Desjardins Group 2025 combined FS note 16 (life and health),Disclosed for -15%; scaled by 10/15
+desjardins,2025-12-31,alternatives,-10%,-106,,after-tax (after member dividends),,,Desjardins Group 2025 combined FS note 16 (life and health),Other markets
+assumption_life,2025-12-31,rates,-50bp,-0.5,,after-tax,803.4,Assumption general account (ex par),Assumption Life 2025 annual report FS note on interest rate risk,
+assumption_life,2025-12-31,rates,+50bp,0.064,,after-tax,803.4,Assumption general account (ex par),Assumption Life 2025 annual report FS note on interest rate risk,
+assumption_life,2025-12-31,credit_spreads,+50bp,0.584,,after-tax,803.4,Assumption general account (ex par),Assumption Life 2025 annual report FS note on interest rate risk,Corporate (+1.841) plus provincial (-1.257) spreads
+assumption_life,2025-12-31,public_equity,-10%,0,,after-tax,803.4,Assumption general account (ex par),Assumption Life 2025 annual report FS note on stock market risk,Impact lands in CSM (-4.7)
+foresters_life,2025-12-31,rates,-50bp,2.05,,pre-tax (derived),OSFI,OSFI LF2 total investments,Foresters Life 2025 FS note on interest rate risk,"Derived from 100bp: liabilities +36.9, backing assets +26.8, surplus assets +14.2; halved"
+foresters_life,2025-12-31,rates,+50bp,-2.7,,pre-tax (derived),OSFI,OSFI LF2 total investments,Foresters Life 2025 FS note on interest rate risk,"Derived from 100bp: liabilities -30.4, backing assets -23.3, surplus assets -12.5; halved"
+foresters_life,2025-12-31,public_equity,-10%,0,,pre-tax (derived),OSFI,OSFI LF2 total investments,Foresters Life 2025 FS note on equity market risk,Surplus impact nil; liability and asset changes offset
+wawanesa_life,2025-12-31,rates,-50bp,7.95,,as disclosed (profit or loss),OSFI,OSFI LF2 total investments,Wawanesa Life 2025 FS note 18,"Disclosed for 100bp (assets +91.5, contracts -75.6); halved"
+wawanesa_life,2025-12-31,rates,+50bp,-7.05,,as disclosed (profit or loss),OSFI,OSFI LF2 total investments,Wawanesa Life 2025 FS note 18,"Disclosed for 100bp (assets -75.7, contracts +61.5); halved"
+wawanesa_life,2025-12-31,public_equity,-10%,-9.857,,as disclosed (profit or loss),OSFI,OSFI LF2 total investments,Wawanesa Life 2025 FS note 18,

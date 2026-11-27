@@ -1,0 +1,564 @@
+{
+  "company_id": "desjardins",
+  "name": "Desjardins Insurance - Desjardins Financial Security Life Assurance Company (DFS), part of Desjardins Group",
+  "as_of": "2026-06-30",
+  "ownership": "Co-operative: indirect wholly owned sub of Fédération des caisses Desjardins du Québec (via Desjardins Financial Corporation); no listed equity",
+  "regulator": "AMF (Québec): CARLI guideline for DFS; Desjardins Group supervised by AMF under Basel III",
+  "metrics": [
+    {
+      "metric": "Total assets - Desjardins Group",
+      "value": 543.5,
+      "unit": "C$bn",
+      "as_of": "2026-06-30",
+      "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2026-2-e.pdf",
+      "note": "C$510.2bn at 2025-12-31. Group-level (caisses, bank-like treasury, P&C, wealth, L&H)."
+    },
+    {
+      "metric": "Segment assets - Wealth Management and Life and Health Insurance",
+      "value": 91.0,
+      "unit": "C$bn",
+      "as_of": "2026-06-30",
+      "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2026-2-e.pdf",
+      "note": "C$82.9bn at 2025-12-31 (Note 29 segment assets). Segment includes DFS, Desjardins Global Asset Management, Desjardins Investments, Worldsource and (from 2026-03-23) Guardian Capital. DFS standalone total assets not disclosed in Group reports."
+    },
+    {
+      "metric": "Insurance contract liabilities (Group, L&H + P&C) / segregated fund net assets",
+      "value": 34.7,
+      "unit": "C$bn",
+      "as_of": "2025-12-31",
+      "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf",
+      "note": "Insurance contract liabilities C$34.7bn; segregated fund net assets C$34.1bn (investment contracts C$30.5bn). General-account invested assets of DFS not separately disclosed."
+    },
+    {
+      "metric": "Assets under management - Desjardins Group",
+      "value": 305.7,
+      "unit": "C$bn",
+      "as_of": "2026-06-30",
+      "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2026-2-e.pdf",
+      "note": "C$122.8bn at 2025-12-31 (institutions/individuals C$29.1bn, investment funds C$93.7bn); jump reflects Guardian acquisition. AUA C$673.0bn at YE2025. DGAM alone: C$129bn AUM at 2026-03-31; DGAM + Guardian ~C$280bn AUM/AUA."
+    },
+    {
+      "metric": "Net surplus earnings - Wealth Management and L&H Insurance segment FY2025",
+      "value": 756,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf",
+      "note": "FY2024 C$633mm. Insurance service result C$617mm; net insurance finance result C$498mm; other income C$2,879mm. Group surplus earnings before member dividends C$3,811mm."
+    },
+    {
+      "metric": "Net surplus earnings - segment H1 2026",
+      "value": 382,
+      "unit": "C$mm",
+      "as_of": "2026-06-30",
+      "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2026-2-e.pdf",
+      "note": "Q2 2026 C$252mm (Q2 2025 C$226mm); H1 2025 C$394mm. Group surplus earnings before member dividends H1 2026 C$2,173mm."
+    },
+    {
+      "metric": "Insurance and annuity premiums - segment FY2025",
+      "value": 6496,
+      "unit": "C$mm",
+      "as_of": "2025-12-31",
+      "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf",
+      "note": "Group insurance C$4,458mm; individual insurance C$1,301mm; annuities C$737mm (C$1,476mm in 2024). Insurance revenue (IFRS 17) C$4,395mm. Net sales of savings products C$19.5bn."
+    },
+    {
+      "metric": "On-balance-sheet CSM - L&H",
+      "value": 2412,
+      "unit": "C$mm",
+      "as_of": "2026-06-30",
+      "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2026-2-e.pdf",
+      "note": "C$2,385mm at YE2025 (net of reinsurance CSM C$214mm); CSM on new sales C$90mm in 2025."
+    },
+    {
+      "metric": "Capital ratio - Desjardins Group Tier 1A / Total (Basel III, AMF)",
+      "value": 23.6,
+      "unit": "%",
+      "as_of": "2026-06-30",
+      "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2026-2-e.pdf",
+      "note": "Total capital ratio 26.0%; YE2025 23.7% / 26.1%. AMF minimum incl. buffers 8.0% Tier 1A. DFS/Desjardins Financial Corporation CARLI ratio not disclosed in Group reports (insurance holding deconsolidated for Group capital)."
+    },
+    {
+      "metric": "Financial leverage ratio",
+      "value": null,
+      "unit": "%",
+      "as_of": "",
+      "source": "",
+      "note": "Not disclosed for DFS. Group subordinated notes C$4.81bn vs equity C$42.3bn at YE2025; Group leverage ratio reported under Basel III (see MD&A)."
+    },
+    {
+      "metric": "Credit ratings - DFS (AM Best)",
+      "value": null,
+      "unit": "rating",
+      "as_of": "2026-05-26",
+      "source": "https://www.desjardins.com/en/news/dfs-receives-strong-credit-ratings-from-am-best.html",
+      "note": "FSR A (Excellent), Long-Term ICR a+ (Excellent), Stable outlook - first AM Best rating assigned to DFS. Federation: DBRS AA / Fitch AA / Moody's Aa1 / S&P A+ (deposits), NVCC sub notes A (low)/A/A2/BBB+, covered bonds AAA/Aaa, all Stable (YE2025)."
+    },
+    {
+      "metric": "Investment team headcount - DGAM",
+      "value": 100,
+      "unit": "people",
+      "as_of": "2026-03-31",
+      "source": "https://desjardins.com/ca/business/investment/global-asset-management",
+      "note": "'More than 100 investment specialists' (DGAM site, pre-Guardian). DGAM team page lists ~85 named professionals incl. 8 fixed income, ~15 equities, 13 infra/real estate, 6 quant, SAA/LDI and 10 responsible-investment staff. Guardian adds further teams (Toronto, UK)."
+    },
+    {
+      "metric": "Employees - Desjardins Group",
+      "value": 52515,
+      "unit": "FTE",
+      "as_of": "2025-12-31",
+      "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf",
+      "note": "'More than 100 investment specialists' (DGAM site, pre-Guardian). Team page lists ~85 named professionals: 8 fixed income, ~15 equities, 13 infra/real estate, 6 quant, SAA/LDI, 10 RI. Guardian adds Toronto/UK teams."
+    }
+  ],
+  "business_mix": {
+    "basis": "Insurance and annuity premiums of the Wealth Management and Life and Health Insurance segment by line, FY2025",
+    "as_of": "2025-12-31",
+    "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf",
+    "items": [
+      {
+        "label": "Group insurance (benefits, group retirement)",
+        "pct": 68.6,
+        "note": "C$4,458mm"
+      },
+      {
+        "label": "Individual insurance",
+        "pct": 20.0,
+        "note": "C$1,301mm"
+      },
+      {
+        "label": "Annuities (individual and group, incl. PRT)",
+        "pct": 11.3,
+        "note": "C$737mm, down from C$1,476mm in 2024"
+      }
+    ]
+  },
+  "people": [
+    {
+      "role": "CEO (Group)",
+      "name": "Denis Dubois",
+      "title": "President and Chief Executive Officer, Desjardins Group",
+      "reports_to": "Board of Directors of the Federation",
+      "entity": "Fédération des caisses Desjardins du Québec",
+      "seat_since": 2025,
+      "firm_since": 2003,
+      "industry_since": 2003,
+      "prior": "Desjardins career: EVP P&C Insurance (2016); President & COO DFS; EVP Wealth Management and L&H Insurance (2019-2025); actuary, Université Laval",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://coop.desjardins.com/ca/about-us/desjardins/governance-democracy/denis-dubois/index.jsp",
+        "https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf"
+      ],
+      "note": "Took office 2025-09-02 succeeding Guy Cormier (2016-2025; strategic advisor to Mar 2026). Co-operative: individual executive pay is not disclosed; Annual Report discloses only director compensation and describes the senior-executive annual incentive (deferred portion) and the 2024 long-term incentive plan. industry_since assumes career began at Desjardins (inferred)."
+    },
+    {
+      "role": "Insurer head",
+      "name": "Chantal Gagné",
+      "title": "Executive Vice-President, Life and Health Insurance, Desjardins Group; President and Chief Operating Officer, Desjardins Financial Security",
+      "reports_to": "Group President & CEO",
+      "entity": "Desjardins Financial Security Life Assurance Company",
+      "seat_since": 2025,
+      "firm_since": 2007,
+      "industry_since": 2007,
+      "prior": "Desjardins roles in P&C and L&H insurance; VP Life and Health Insurance and Independent Distribution; actuarial science, Université Laval",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.desjardins.com/ca/about-us/desjardins/governance-democracy/chantal-gagne/index.jsp",
+        "https://coop.desjardins.com/en/about-us/governance-democracy/management-committee.html"
+      ],
+      "note": "Appointed Sept 2025 when the combined Wealth/L&H EVP role was split. industry_since inferred (career start at Desjardins not confirmed). Pay not disclosed."
+    },
+    {
+      "role": "Head of wealth management",
+      "name": "Sébastien Vallée",
+      "title": "Executive Vice-President, Wealth Management, Desjardins Group",
+      "reports_to": "Group President & CEO",
+      "entity": "Fédération des caisses Desjardins du Québec",
+      "seat_since": 2025,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "VP Investment Solutions, Desjardins",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://coop.desjardins.com/en/about-us/governance-democracy/management-committee.html"
+      ],
+      "note": "Oversees asset management (DGAM/Guardian), Desjardins Investments, Worldsource and brokerage. Pay not disclosed."
+    },
+    {
+      "role": "CIO / head of affiliated asset manager",
+      "name": "George Mavroudis",
+      "title": "President and Chief Executive Officer, Desjardins Global Asset Management (DGAM)",
+      "reports_to": "EVP Wealth Management (inferred)",
+      "entity": "Desjardins Global Asset Management Inc. (indirect subsidiary of the Federation)",
+      "seat_since": 2026,
+      "firm_since": 2026,
+      "industry_since": null,
+      "prior": "President & CEO, Guardian Capital Group (TSX-listed asset manager) until acquisition by DGAM in March 2026",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.desjardins.com/en/news/desjardins-finalizes-acquisition-guardian-capital-group-limited.html",
+        "https://www.desjardins.com/ca/business/investment/global-asset-management/our-team"
+      ],
+      "note": "Named head of combined DGAM/Guardian on closing 2026-03-23. Nicolas Richard (former President & COO of DGAM and VP Investments at Desjardins Insurance) is now Head of Canada and UK. Prior Guardian pay was in Guardian's circulars (not DFS). DGAM investment leadership sits in the asset-management affiliate, not in DFS (inferred that DGAM manages the DFS general fund)."
+    },
+    {
+      "role": "Head of public markets",
+      "name": "Christian Duceppe",
+      "title": "Managing Director and Chief Investment Officer, Public Markets, DGAM",
+      "reports_to": "DGAM President & CEO (inferred)",
+      "entity": "Desjardins Global Asset Management Inc.",
+      "seat_since": 2022,
+      "firm_since": null,
+      "industry_since": null,
+      "prior": "Fixed income PM, then head of fixed income, corporate credit, infrastructure and private placements at Desjardins (aggregator dates: FI PM 1999, CIO 2022)",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.desjardins.com/ca/business/investment/global-asset-management/our-team",
+        "https://ca.marketscreener.com/insider/CHRISTIAN-DUCEPPE-A1QFQG/"
+      ],
+      "note": "Head of Fixed Income under him: Marie-Claude DesRoches (VP and Head of Fixed Income; FI team manages >C$76bn per undated DGAM job posting). seat_since 2022 from aggregator (inferred). Frédéric Angers is Managing Director and CIO, Private Markets (infrastructure, real estate, private investment)."
+    },
+    {
+      "role": "CRO (Group)",
+      "name": "Antoine Avril",
+      "title": "Executive Vice-President and Chief Risk Officer, Desjardins Group",
+      "reports_to": "Group President & CEO; Board Risk Management Commission",
+      "entity": "Fédération des caisses Desjardins du Québec",
+      "seat_since": 2023,
+      "firm_since": 2010,
+      "industry_since": null,
+      "prior": "Desjardins: VP Major Accounts and Real Estate Financing; VP and Chief Credit Risk Officer; earlier roles at European and Canadian FIs; MSc risk, LSE",
+      "comp_total_cad": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.desjardins.com/ca/about-us/desjardins/governance-democracy/antoine-avril/index.jsp",
+        "https://coop.desjardins.com/en/about-us/governance-democracy/management-committee.html"
+      ],
+      "note": "On the Group Management Committee since March 2023 (seat_since inferred from that date). Chief Compliance and Privacy Officer reports to the EVP Risk Management. Group CFO: Alain Leprohon, EVP Finance and CFO (Treasury Division sits under him)."
+    }
+  ],
+  "pm_structure": {
+    "summary": "DFS assets managed by affiliate Desjardins Global Asset Management (DGAM, C$129bn AUM pre-Guardian; ~C$280bn AUM/AUA after the Mar-2026 C$1.67bn Guardian deal) across fixed income, equities, infra, real estate, private investment and LDI (inferred mandate).",
+    "manager_entities": [
+      "Desjardins Global Asset Management Inc. (affiliate; CEO George Mavroudis; CIO Public Markets Christian Duceppe; CIO Private Markets Frédéric Angers)",
+      "Guardian Capital Group (acquired 2026-03-23; merged under DGAM)",
+      "Desjardins Investments / Desjardins Funds use external sub-advisers for retail funds",
+      "Worldsource Group (acquired 2023) - distribution, not GA management"
+    ],
+    "bullets": [
+      "DGAM clients include insurers and pensions; third-party profile: DGAM 'manages assets chiefly from the equity of insurance subsidiaries' (inferred DFS GA mandate)",
+      "DGAM capabilities: fixed income (>C$76bn), Canadian/global/EM equities, direct infrastructure and real estate, private investment, quant, SAA/LDI, index, RI",
+      "Group Treasury (under EVP Finance) runs funding, covered bonds, repos, securities lending; DFS runs its own rate and seg-fund hedging",
+      "DFS price-risk policy: hold the assets underlying par and seg-fund liabilities; limits by investment type, issuer, geography under a governance committee",
+      "2025 'one-time change to investment strategy': sold C$947mm FVOCI equities (gain C$225mm); insurance-held common shares C$898mm -> C$126mm"
+    ],
+    "sources": [
+      "https://desjardins.com/ca/business/investment/global-asset-management",
+      "https://www.desjardins.com/ca/business/investment/global-asset-management/our-team",
+      "https://www.desjardins.com/ressources/pdf/d50-etat-financier-mcd-2025-e.pdf",
+      "https://www.desjardins.com/en/news/desjardins-finalizes-acquisition-guardian-capital-group-limited.html"
+    ]
+  },
+  "rotation_commentary": [
+    {
+      "year": 2025,
+      "text": "2025: one-time strategy change sold C$947mm FVOCI equities held for insurance (common C$898mm -> C$126mm; prefs kept at C$885mm), gain C$225mm.",
+      "source": "https://www.desjardins.com/ressources/pdf/d50-etat-financier-mcd-2025-e.pdf"
+    },
+    {
+      "year": 2024,
+      "text": "2024: L&H took losses on bond disposals and a fair-value decline on infrastructure; 2025 net insurance finance result +39.5% to C$498mm.",
+      "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf"
+    },
+    {
+      "year": 2026,
+      "text": "2026: Guardian Capital (closed 2026-03-23) adds global equity, fixed income, private wealth; DGAM+Guardian ~C$280bn AUM/AUA; Group AUM C$306bn Q2-26.",
+      "source": "https://www.desjardins.com/en/news/desjardins-finalizes-acquisition-guardian-capital-group-limited.html"
+    },
+    {
+      "year": 2025,
+      "text": "DFS hedges seg-fund and UL minimum-rate guarantees; risk-mitigation effect +C$127mm in 2025; annuity premiums halved to C$737mm as PRT volumes fell.",
+      "source": "https://www.desjardins.com/ressources/pdf/d50-etat-financier-mcd-2025-e.pdf"
+    },
+    {
+      "year": 2026,
+      "text": "2026 L&H priorities: ease of business, sustainable growth, digital/data modernisation, sustainability; wealth: expand Ontario, Atlantic, West.",
+      "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf"
+    }
+  ],
+  "target_allocations": [
+    {
+      "asset_class": "All",
+      "target": "Not disclosed for DFS; policies set exposure limits by investment type, issuer and geography (FS Note 16)",
+      "source": "https://www.desjardins.com/ressources/pdf/d50-etat-financier-mcd-2025-e.pdf"
+    }
+  ],
+  "leverage": {
+    "debt_outstanding": [
+      {
+        "type": "Group NVCC subordinated notes (Federation issuer; DFS issues no public debt)",
+        "amount_cad_mm": 4810,
+        "as_of": "2025-12-31",
+        "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf",
+        "note": "C$3,962mm at YE2024; +C$1bn 3.856% due 2036 issued 2026-03-03"
+      },
+      {
+        "type": "Group covered bonds (legislative programme, C$32bn capacity)",
+        "amount_cad_mm": 17999,
+        "as_of": "2025-12-31",
+        "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf",
+        "note": "C$15,430mm at YE2024"
+      },
+      {
+        "type": "Group deposits",
+        "amount_cad_mm": 329494,
+        "as_of": "2025-12-31",
+        "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf",
+        "note": "Bank-type funding at caisse/Federation level, not the insurer"
+      }
+    ],
+    "financial_leverage_ratio_pct": null,
+    "issuance": [
+      {
+        "date": "2025-01-24",
+        "instrument": "Federation NVCC subordinated notes 4.264% due 2035 (prospectus supplement)",
+        "amount_cad_mm": 1250,
+        "coupon_pct": 4.264,
+        "maturity": "2035",
+        "bookrunners": [
+          "Desjardins Securities (lead)",
+          "RBC Capital Markets",
+          "Scotia Capital",
+          "BMO Nesbitt Burns",
+          "CIBC World Markets",
+          "TD Securities",
+          "Casgrain & Company",
+          "Laurentian Bank Securities",
+          "Manulife Wealth"
+        ],
+        "source": "https://www.fasken.com/en/experience/2025/02/issuance-of-c$1-25-billion-of-4,-d-,264-non-viability-contingent"
+      },
+      {
+        "date": "2025-05-26",
+        "instrument": "Repurchase of Federation NVCC subordinated notes due 2030-05-26",
+        "amount_cad_mm": -1000,
+        "coupon_pct": null,
+        "maturity": "2030-05-26",
+        "bookrunners": [],
+        "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf"
+      },
+      {
+        "date": "2025-06-26",
+        "instrument": "Federation NVCC subordinated notes CHF 220mm and JPY 20bn (multi-currency MTN programme)",
+        "amount_cad_mm": null,
+        "coupon_pct": null,
+        "maturity": "",
+        "bookrunners": [],
+        "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf"
+      },
+      {
+        "date": "2025-01-15",
+        "instrument": "Federation legislative covered bonds GBP 600mm; also CHF 175mm (Jan 29), EUR 750mm (May 29), GBP 500mm (Dec 2), CHF 335mm (Dec 17) in 2025",
+        "amount_cad_mm": null,
+        "coupon_pct": null,
+        "maturity": "",
+        "bookrunners": [],
+        "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf"
+      },
+      {
+        "date": "2026-03-03",
+        "instrument": "Federation NVCC subordinated notes 3.856% due 2036",
+        "amount_cad_mm": 1000,
+        "coupon_pct": 3.856,
+        "maturity": "2036",
+        "bookrunners": [
+          "Desjardins Securities (lead)",
+          "Scotia Capital (lead)",
+          "TD Securities (lead)"
+        ],
+        "source": "https://www.fasken.com/en/experience/2026/07/issuance-of-c-1-billion-of-3-856-non-viability-contingent-capital-notes-due-2036"
+      }
+    ],
+    "securities_lending": {
+      "amount_cad_mm": 15937,
+      "as_of": "2025-12-31",
+      "text": "Group 'commitments related to securities lent or sold under repurchase agreements' C$15,937mm (C$20,633mm YE2024), of which C$11,768mm trading book; securities lending governed by standard industry agreements with collateral. Split between lending and repo, and any DFS-level lending, not disclosed.",
+      "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf"
+    },
+    "repos": {
+      "amount_cad_mm": 22809,
+      "as_of": "2025-12-31",
+      "text": "Group securities borrowed or purchased under reverse repurchase agreements C$22,809mm (C$23,666mm YE2024; C$15,703mm trading); liabilities for securities lent/sold under repos C$15,937mm; securities sold short C$15,913mm. These are Federation treasury/Desjardins Securities activities, not DFS.",
+      "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf"
+    },
+    "structured_indirect": [
+      {
+        "text": "Group issues covered bonds and securitises CMHC-insured mortgages (NHA MBS/CMB) as routine funding",
+        "amount_cad_mm": 17999,
+        "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf"
+      },
+      {
+        "text": "DGAM private markets: direct infrastructure and real estate teams, private investment portfolio managers; L&H segment holds infrastructure investments (fair-value decline noted 2024)",
+        "amount_cad_mm": null,
+        "source": "https://www.desjardins.com/ca/business/investment/global-asset-management/our-team"
+      },
+      {
+        "text": "Insurance-held FVOCI securities C$1,083mm (prefs C$885mm) at YE2025",
+        "amount_cad_mm": 1083,
+        "source": "https://www.desjardins.com/ressources/pdf/d50-etat-financier-mcd-2025-e.pdf"
+      },
+      {
+        "text": "No CLO/ABS, fund finance, SRT or sidecar exposure disclosed for the insurer; Group uses IRB credit models and CVA charge for derivatives",
+        "amount_cad_mm": null,
+        "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf"
+      }
+    ]
+  },
+  "partnerships": {
+    "underwriters": [
+      {
+        "dealer": "Desjardins Securities (in-house dealer)",
+        "role": "lead",
+        "deals": 2,
+        "note": "Lead on Federation NVCC notes Jan 2025 and Mar 2026",
+        "source": "https://www.fasken.com/en/experience/2026/07/issuance-of-c-1-billion-of-3-856-non-viability-contingent-capital-notes-due-2036"
+      },
+      {
+        "dealer": "Scotia Capital, TD Securities",
+        "role": "lead / co-lead",
+        "deals": 2,
+        "note": "Co-leads Mar 2026; syndicate Jan 2025",
+        "source": "https://www.fasken.com/en/experience/2026/07/issuance-of-c-1-billion-of-3-856-non-viability-contingent-capital-notes-due-2036"
+      },
+      {
+        "dealer": "RBC, BMO Nesbitt Burns, CIBC, Casgrain, Laurentian Bank Securities, Manulife Wealth",
+        "role": "syndicate",
+        "deals": 1,
+        "note": "Jan 2025 NVCC syndicate (Fasken deal note)",
+        "source": "https://www.fasken.com/en/experience/2025/02/issuance-of-c$1-25-billion-of-4,-d-,264-non-viability-contingent"
+      }
+    ],
+    "deals": [
+      {
+        "year": 2026,
+        "text": "DGAM C$1.67bn (C$68/sh) take-private of Guardian Capital: announced 2025-08-28, closed 2026-03-23; ~C$280bn combined AUM/AUA; BLG counsel",
+        "source": "https://www.desjardins.com/en/news/desjardins-finalizes-acquisition-guardian-capital-group-limited.html"
+      },
+      {
+        "year": 2024,
+        "text": "Ford of Canada C$923mm group annuity buy-out split with RBC Insurance and Sun Life (WTW adviser); also acquired Insurance Co. of PEI (2024)",
+        "source": "https://www.wtwco.com/en-ca/news/2024/02/wtw-advises-on-ca-dollars-923-million-annuity-transaction-for-ford-of-canada-involving"
+      },
+      {
+        "year": 2023,
+        "text": "Acquired Guardian Capital's life insurance, mutual fund and securities distribution networks (Worldsource / IDC WIN) - reported at ~C$750mm",
+        "source": "https://www.blg.com/en/about-us/deals-and-suits/2026/03/desjardins-completes-1-67-billion-take-private-acquisition-of-guardian-capital-group-limited"
+      },
+      {
+        "year": 2025,
+        "text": "First Canadian institution to offer Advanced Life Deferred Annuities (ALDA) for individual savings",
+        "source": "https://newswire.ca/news-releases/desjardins-is-the-first-financial-institution-in-canada-to-offer-advanced-life-deferred-annuities-for-individual-savings-832267710.html"
+      },
+      {
+        "year": 2025,
+        "text": "New Group CEO Denis Dubois (Sept 2025); Wealth/L&H EVP role split between Chantal Gagné (L&H / DFS) and Sébastien Vallée (Wealth)",
+        "source": "https://www.desjardins.com/en/news/new-senior-management-structure.html"
+      }
+    ],
+    "sponsorships": [
+      {
+        "year": 2026,
+        "text": "Multi-year front-of-kit sponsor of Montréal Roses FC and Halifax Tides FC (Northern Super League), announced June 2026",
+        "source": "https://www.desjardins.com/en/news/desjardins-partners-montreal-roses-major-multi-year-agreement.html"
+      },
+      {
+        "year": 2025,
+        "text": "Founding partner, official financial institution and kit sponsor of AFC Toronto (Feb 2025); presenting sponsor Sudbury Wolves (OHL, Oct 2025)",
+        "source": "https://rocketrobinsoccerintoronto.com/reports25/25afc023.htm"
+      },
+      {
+        "year": 2025,
+        "text": "Desjardins Insurance: renewed naming rights for an ice pad at Kingston's INVISTA Centre; ALLIANCE Hockey partnership 2025-26",
+        "source": "https://www.cityofkingston.ca/news/posts/desjardins-insurance-renews-naming-rights-for-ice-pad-at-invista-centre/"
+      },
+      {
+        "year": 2025,
+        "text": "Group sponsorships, donations and scholarships C$133mm in 2025",
+        "source": "https://www.desjardins.com/content/dam/pdf/fr/nouvelles/CP_T4_2025_FR_Final.pdf"
+      }
+    ],
+    "bank_relationships": [
+      {
+        "text": "Bancassurance by construction: DFS sells via caisse network, agents, SFL/DFS Independent Network, Worldsource advisers, consultants, digital",
+        "source": "https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf"
+      },
+      {
+        "text": "Group capital-markets access via Desjardins Securities plus Big-6 bank dealers on NVCC and covered-bond issues",
+        "source": "https://www.fasken.com/en/experience/2025/02/issuance-of-c$1-25-billion-of-4,-d-,264-non-viability-contingent"
+      }
+    ]
+  },
+  "risk": {
+    "appetite": [
+      "Integrated Risk Management Framework; Group risk appetite approved by Federation Board; L&H rate policy caps surplus-earnings impact of rate shocks",
+      "L&H holds the specific assets underlying par and seg-fund liabilities so price risk is offset; limits per investment type, issuer, geography",
+      "Senior-executive variable pay deferred and tied to Group performance 'without encouraging excessive risk-taking' (LTIP 2024)"
+    ],
+    "governance": [
+      "Federation Board Risk Management Commission (CEO permanent guest); EVP & CRO Antoine Avril on Management Committee; CCO reports to EVP Risk",
+      "Three lines of defence across caisses, Federation and insurance subs; Risk Management Executive Division owns IRB and insurance risk models",
+      "Insurance investment compliance monitored under a governance committee; Desjardins Financial Corporation deconsolidated and held to AMF CARLI"
+    ],
+    "capital_target": "Group Tier 1A 23.6% / Total 26.0% at Jun-2026 vs AMF minimum incl. buffers 8.0% / 11.5%; Group describes Tier 1A target as 'high level'. DFS CARLI not disclosed.",
+    "sensitivities": [
+      "L&H rates +100bp: CSM +C$2mm, NSE -C$21mm, equity -C$50mm; -100bp: CSM -C$22mm, NSE +C$11mm, equity +C$42mm (YE2025, net)",
+      "L&H non-insurance financial instruments: +100bp NSE -C$2mm, equity -C$14mm; -100bp equity +C$13mm (YE2025)",
+      "L&H equity markets +15% / -15%: NSE +C$105mm / -C$105mm; equity +C$158mm / -C$159mm; CSM +C$9mm / -C$31mm (YE2025)",
+      "L&H assumptions (gross): mortality +2% CSM -C$102mm; morbidity +5% CSM -C$75mm/NSE -C$36mm; lapse +10% CSM -C$197mm; expenses +5% CSM -C$45mm",
+      "P&C: +5% claims cash flows NSE -C$270mm gross / -C$249mm net (YE2025)"
+    ],
+    "hedging": [
+      "L&H hedging program for segregated-fund guarantees and UL minimum interest-rate guarantees; 'effect of financial risk mitigation' +C$127mm in 2025",
+      "ALM rebalancing techniques to correct matching gaps under the interest-rate risk policy; sensitivities disclosed net of assets held for insurance activities",
+      "Equity instruments backing insurance designated FVOCI to dampen P&L volatility (C$1.08bn at YE2025 after 2025 disposals)"
+    ],
+    "events": [
+      "2026-03: Guardian Capital acquisition closed under DGAM; AM Best assigns first DFS ratings A / a+ (May 2026)",
+      "2025-09: CEO succession (Cormier to Dubois) and new management structure splitting Wealth and L&H",
+      "2025: one-time insurance investment-strategy change (sold C$947mm FVOCI equities); 2024 bond-disposal losses and infra write-down in L&H",
+      "No regulatory sanctions disclosed 2024-2026; Group under AMF bail-in/TLAC regime"
+    ],
+    "sources": [
+      "https://www.desjardins.com/ressources/pdf/d50-etat-financier-mcd-2025-e.pdf",
+      "https://www.desjardins.com/ressources/pdf/d50-rapport-annuel-mcd-2025-t4-e.pdf",
+      "https://www.desjardins.com/ressources/pdf/d50-rapport-trimestriel-mcd-2026-2-e.pdf"
+    ]
+  },
+  "gaps": [
+    "DFS standalone financial statements (total assets, invested assets, AMF CARLI solvency ratio, DFS leverage) not located online; Group reports disclose only the Wealth Management & L&H segment (assets C$91.0bn) and L&H sensitivities",
+    "Executive compensation not disclosed: co-operative publishes director compensation only; no figures for Dubois, Gagné, Mavroudis, Duceppe or Avril (Cormier/Dubois pay not disclosed in 2025 Annual Report)",
+    "DGAM management of the DFS general account is inferred from DGAM's institutional mandate and a third-party profile; no fee/service agreement disclosed",
+    "DFS-level securities lending, repo and derivative collateral not separable from Group treasury figures",
+    "Christian Duceppe's start dates (1999 FI PM, 2022 CIO) come from a data aggregator; Marie-Claude DesRoches tenure not found",
+    "Group AUM C$305.7bn at Q2 2026 vs DGAM C$129bn and 'C$280bn' combined DGAM+Guardian are on different bases (AUM vs AUM/AUA); not reconciled",
+    "No disclosed target asset allocation for DFS; group annuity/PRT pipeline and 2025-2026 PRT deals not found",
+    "Nicolas Richard bio page returned 403; Desjardins management-committee bios lack appointment dates for several roles"
+  ],
+  "notes": "Sources: Desjardins Group 2025 Annual Report (MD&A section 2.2.2, Tables 12/24/48, Note 16 sensitivities, Note 29 segments; governance section), Combined FS 2025, Q2 2026 Interim Report (dated Aug 2026), DGAM web pages (accessed 2026-11-03), Desjardins press releases, Fasken/BLG deal notes, AM Best release via desjardins.com. Segment 'Wealth Management and Life and Health Insurance' = DFS + DGAM + Desjardins Investments + Desjardins Trust + Worldsource (+ Guardian from 2026-03-23); DFS figures cannot be isolated. Library of textbooks (MANDATES) not available in this session; public sources used. Firecrawl credits were exhausted mid-task; WebSearch/WebFetch/curl used instead."
+}

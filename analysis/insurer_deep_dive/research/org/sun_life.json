@@ -1,0 +1,175 @@
+{
+  "company_id": "sun_life",
+  "operating_entities": {
+    "source_url": "https://www.sunlife.com/sl/pslf-canada/en/privacy/respecting-your-privacy-in-canada/sun-life-financial-group-of-companies/",
+    "page_title": "Sun Life Financial Group Of Companies | Sun Life Canada",
+    "retrieved": "2026-11-03",
+    "entities": [
+      {
+        "name": "Sun Life Financial Inc.",
+        "parent": null,
+        "description": "Listed as one of 'the following companies [that] apply Sun Life Financial's worldwide privacy commitment'; the page gives no per-entity description or ownership tree."
+      },
+      {
+        "name": "Sun Life Assurance Company of Canada",
+        "parent": null,
+        "description": "Listed as one of 'the following companies [that] apply Sun Life Financial's worldwide privacy commitment'; the page gives no per-entity description or ownership tree."
+      },
+      {
+        "name": "Sun Life Financial Trust Inc.",
+        "parent": null,
+        "description": "Listed as one of 'the following companies [that] apply Sun Life Financial's worldwide privacy commitment'; the page gives no per-entity description or ownership tree."
+      },
+      {
+        "name": "Sun Life Financial Advisory Inc.",
+        "parent": null,
+        "description": "Listed as one of 'the following companies [that] apply Sun Life Financial's worldwide privacy commitment'; the page gives no per-entity description or ownership tree."
+      },
+      {
+        "name": "Sun Life Financial Distributors (Canada) Inc.",
+        "parent": null,
+        "description": "Listed as one of 'the following companies [that] apply Sun Life Financial's worldwide privacy commitment'; the page gives no per-entity description or ownership tree."
+      },
+      {
+        "name": "Sun Life Financial Investment Services (Canada) Inc.",
+        "parent": null,
+        "description": "Listed as one of 'the following companies [that] apply Sun Life Financial's worldwide privacy commitment'; the page gives no per-entity description or ownership tree."
+      },
+      {
+        "name": "Sun Life Global Investments (Canada) Inc.",
+        "parent": null,
+        "description": "Listed as one of 'the following companies [that] apply Sun Life Financial's worldwide privacy commitment'; the page gives no per-entity description or ownership tree."
+      },
+      {
+        "name": "Sun Life Financial LTC Solutions Inc.",
+        "parent": null,
+        "description": "Listed as one of 'the following companies [that] apply Sun Life Financial's worldwide privacy commitment'; the page gives no per-entity description or ownership tree."
+      },
+      {
+        "name": "Sun Life Insurance (Canada) Limited",
+        "parent": null,
+        "description": "Listed as one of 'the following companies [that] apply Sun Life Financial's worldwide privacy commitment'; the page gives no per-entity description or ownership tree."
+      }
+    ],
+    "ga_manager_statement": {
+      "text": null,
+      "source": null
+    },
+    "note": "Page intro: 'The Sun Life Financial group of companies provide insurance and wealth management services to our customers around the world.' It is a flat list (Canada region) with no parent/child structure, so parent is null for every row; sunlife.com 'Who we are' separately identifies Sun Life Financial Inc. as the TSX/NYSE/PSE-listed holding company. No page on sunlife.com/sunlife.ca names who manages the general account; the fuller legal-entity disclosure is the annual-report appendix 'Subsidiaries and associates' PDF (sunlife.com/content/dam/.../subsidiaries-associates-2025-e.pdf), which is a filing extract, not a website entities page. sunlife.ca/en/legal/ returned HTTP 403; sunlife.com/sl/pslf-worldwide/en/legal/ is terms-of-use only."
+  },
+  "ceo": {
+    "name": "Kevin Strain",
+    "title": "President & Chief Executive Officer",
+    "entity": "Sun Life Financial Inc.",
+    "reports_to": "Board of Directors",
+    "seat_since": "2021-08",
+    "firm_since": "2002",
+    "industry_since": "1997",
+    "prior": "Clarica Life 1997-2002 (acquired by Sun Life 2002); CA; President Sun Life Canada 2012-17; EVP & CFO 2017-21",
+    "tenure_source": "proxy circular (SEC 6-K ex-99.1, 2026) bio",
+    "comp_total": 12766266,
+    "comp_currency": "CAD",
+    "comp_year": 2025,
+    "comp_source": "https://www.sec.gov/Archives/edgar/data/1097362/000106299326001587/exhibit99-1.htm",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1097362/000106299326001587/exhibit99-1.htm"
+    ],
+    "note": "CEO since 2021-08-07. firm_since counts the Sun Life entity (2002); 1997 if Clarica counted. industry_since = Clarica start."
+  },
+  "cio": {
+    "name": "Randy (Randolph) Brown",
+    "title": "Chief Investment Officer, Sun Life; Head of Insurance Asset Management, SLC Management; leads the Office of the CIO",
+    "entity": "Sun Life Financial Inc. / Sun Life Assurance Company of Canada (Office of the CIO, within the Sun Life Asset Management pillar, housed in SLC Management)",
+    "reports_to": "Tom Murphy, President, Sun Life Asset Management (Office of the CIO is listed as part of the Sun Life Asset Management pillar from 2026-01-01; the reporting line itself is not stated). At appointment (Jan 2016) he reported to Steve Peacher.",
+    "seat_since": "2016-01",
+    "firm_since": "2016-01",
+    "industry_since": null,
+    "prior": "Deutsche Asset & Wealth Management 2007-15 (Co-CIO Deutsche Asset Management; Global Head of Insurance & Pension Solutions; Head of AWM UK), BlackRock (co-head portfolio management, Financial Institutions Group), Morgan Stanley, Salomon Brothers",
+    "tenure_source": "press release Jan 2016 (Sun Life newsroom / Investment Executive / Insurance Asset Risk) + SLC Management bio via search snippet ('joined Sun Life at the start of 2016'); LinkedIn profile exists (linkedin.com/in/randy-brown-1662a17) but snippet carried no dates",
+    "comp_total": null,
+    "comp_currency": "CAD",
+    "comp_year": null,
+    "comp_source": "",
+    "sources": [
+      "https://www.investmentexecutive.com/news/people/sun-life-names-new-cio/",
+      "https://www.insuranceassetrisk.com/content/news/sun-life-financial-appoints-randy-brown-as-cio.html",
+      "https://www.slcmanagement.com/us/en/about-us/our-people/randolph-randy-brown/",
+      "https://www.sunlife.com/en/about-us/who-we-are/stories-and-insights/accelerating-on-our-ambition/",
+      "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q126-presentation.pdf"
+    ],
+    "note": "Not an NEO; pay undisclosed. Listed as 'Chief Investment Officer' on the Q1-2026 results presentation leadership slide. SLC bio: manages Sun Life's General Account globally (public and private fixed income, real estate equity/debt, infrastructure equity), leads the Office of the CIO, member of SLC Management Executive Committee and Sun Life Leadership Team; leads SLC's insurance business (US$119bn AUM). Steve Peacher (Executive Chair, SLC Management; NEO, 2025 total C$9,693,259) is described in the circular as responsible for the invested asset portfolio and SLC Management - the more senior investment executive by pay/governance, but Brown holds the CIO title and GA accountability. Industry start (~30 years) not dated in any source."
+  },
+  "cio_direct_reports": [],
+  "other_leaders": [
+    {
+      "name": "Tim Deacon",
+      "title": "Executive Vice-President & Chief Financial Officer",
+      "entity": "Sun Life Financial Inc.",
+      "reports_to": "President & CEO",
+      "seat_since": "2024-04",
+      "firm_since": "2024-04",
+      "industry_since": null,
+      "prior": "CFO, Ontario Teachers' Pension Plan (Apr 2021-Apr 2024); Manulife Group Controller & Global Chief Accounting Officer (2020-21)",
+      "tenure_source": "proxy circular + AIF Feb 2026",
+      "comp_total": 3685953,
+      "comp_currency": "CAD",
+      "comp_year": 2025,
+      "comp_source": "https://www.sec.gov/Archives/edgar/data/1097362/000106299326001587/exhibit99-1.htm",
+      "sources": [
+        "https://www.sec.gov/Archives/edgar/data/1097362/000106299326001587/exhibit99-1.htm",
+        "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-aif.pdf"
+      ],
+      "note": "Industry start year not disclosed."
+    },
+    {
+      "name": "Jacques Goulet",
+      "title": "Executive Vice-President & Chief Risk Officer (interim)",
+      "entity": "Sun Life Financial Inc.",
+      "reports_to": "President & CEO (access to Board Risk Committee)",
+      "seat_since": "2026-01",
+      "firm_since": "2018",
+      "industry_since": null,
+      "prior": "Mercer, 29-year career (Canada, Europe, U.S.; President Health & Wealth); joined Sun Life 2018 as President, Sun Life Canada; Executive Chair, Sun Life Canada from Sep 2024",
+      "tenure_source": "company bio (sunlife.com/en/about-us/leadership/jacques-goulet) + Dec 2025 disclosure",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.sunlife.com/en/about-us/leadership/jacques-goulet/",
+        "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-aif.pdf"
+      ],
+      "note": "Interim CRO pending a permanent appointment (succeeded Tom Murphy 2026-01-01). Industry start c.1989 if Mercer counts (29 years before 2018) - derived, left null. Not an NEO."
+    },
+    {
+      "name": "Tom Murphy",
+      "title": "President, Sun Life Asset Management",
+      "entity": "Sun Life Financial Inc. (asset-management pillar: MFS, SLC Management/GreenOak, Defined Benefit Solutions (PRT), Office of the CIO incl. Asia General Account team, Asia Asset Management, Aditya Birla SL AMC stake)",
+      "reports_to": "President & CEO",
+      "seat_since": "2026-01",
+      "firm_since": "2018",
+      "industry_since": null,
+      "prior": "Mercer 20 years (built and led investment-management businesses in Europe; Senior Partner); joined SLC Management 2018 as Head of Affiliate Development & Business Strategy; President SLC Fixed Income Apr 2022; EVP & CRO Dec 2022-Dec 2025; FSAI",
+      "tenure_source": "press release 6 Oct 2025 (sunlife.com) + AIF Feb 2026",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "",
+      "sources": [
+        "https://www.sunlife.com/en/about-us/who-we-are/stories-and-insights/accelerating-on-our-ambition/",
+        "https://www.aap.com.au/aapreleases/cision20251006ae90975",
+        "https://www.sunlife.com/content/dam/sunlife/regional/global-marketing/documents/com/pa-e-q425-2025-aif.pdf"
+      ],
+      "note": "Head of the affiliated asset-management pillar in which the Office of the CIO sits. 'More than 25 years of global asset management experience' - start year not stated. Not an NEO."
+    }
+  ],
+  "gaps": [
+    "CIO direct reports: no team page or release names the Office of the CIO leadership. SLC Management job postings show the structure (Managing Director & Chief of Staff, Office of the CIO; Associate Director Insurance Strategy, Office of the CIO; Associate Director Performance & Risk, Office of CIO; Director Portfolio Strategy & Analytics bridging SLC front office and Sun Life ALM/Capital/Risk/Finance) but not the holders. The 'Asia General Account team' inside the Office of the CIO is unnamed. slcmanagement.com (our-people pages) returns HTTP 403 to curl and WebFetch.",
+    "Peter Cramer (Senior Managing Director, Head of Insurance Portfolio Management & Trading, SLC Fixed Income) and Rich Familetti (President & CIO, Fixed Income, SLC Management, Sep 2025) run GA fixed income day-to-day but sit in SLC Fixed Income; no source says they report to Randy Brown, so they are not listed.",
+    "Global ALM: Brennan Kennedy was SVP, Global Asset Liability Management until he became Chief Actuary on 2025-10-04; his successor is not announced. ALM reported through the CRO (Murphy had oversight of Actuarial and ALM from Dec 2022), not the CIO.",
+    "Randy Brown: industry start year and any LinkedIn experience lines not retrievable; placement in the SLAM pillar is stated (Office of the CIO listed in the pillar) but 'reports to Tom Murphy' is inferred from that.",
+    "Entities page lists only the nine Canadian privacy-covered companies; SLC Management, MFS, BGO/GreenOak, Crescent, InfraRed, Sun Life (U.S.) etc. appear only in the annual-report subsidiaries PDF, which is not a website entities page under rule 1.",
+    "Web-search budget exhausted before searches for the Asia General Account head and Office-of-the-CIO MDs could be completed."
+  ],
+  "notes": "Oct 6 2025 announcement (sunlife.com 'Accelerating on our ambition'): Sun Life Asset Management brings together MFS, GreenOak (SLC Management rebrand), Defined Benefit Solutions (PRT), 'The Office of the CIO, including the Asia General Account team', Asia Asset Management and the Aditya Birla Sun Life AMC stake, under Tom Murphy as President from 2026-01-01. Pay figures carried from the first-round file (2026 circular, FY2025)."
+}

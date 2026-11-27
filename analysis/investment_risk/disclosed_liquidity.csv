@@ -1,0 +1,3 @@
+company_id,as_of,liquid_assets_cad_mm,base_cad_mm,ratio_pct,metric,source
+manulife,2025-12-31,276010,459900,60.0,"Cash, cash equivalents and marketable securities (IG government, corporate, securitized, public equity) / general fund invested assets",MFC 2025 annual MD&A Liquidity Risk Management Strategy
+canada_life,2025-12-31,127336,250051,50.9,Net liquid assets after removing non-liquid and pledged assets / total invested assets,GWO 2025 annual MD&A Liquidity

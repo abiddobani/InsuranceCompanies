@@ -1,0 +1,129 @@
+{
+  "company_id": "canadian_premier",
+  "operating_entities": {
+    "source_url": "https://www.securiancanada.ca/en-ca/legal-information",
+    "page_title": "Legal information (Trademarks, service marks and copyrights; Company information and availability) - Securian Canada",
+    "retrieved": "2026-11-03",
+    "entities": [
+      {
+        "name": "Securian Financial Group, Inc. (Securian Financial)",
+        "parent": null,
+        "description": "'Securian Financial is the marketing name for Securian Financial Group, Inc., and its subsidiaries. Insurance products are issued by subsidiary insurance companies.' Site footer: 'Securian Canada operates as an independent subsidiary of Securian Financial Group, Inc.'"
+      },
+      {
+        "name": "Securian Canada (brand)",
+        "parent": "Securian Financial Group, Inc. (Securian Financial)",
+        "description": "'\"Securian Canada\" is the brand name used by Canadian Premier Life Insurance Company and Canadian Premier General Insurance Company to do business in Canada.' Footer: 'Established in 1955, Securian Canada is a leading insurance provider that operates as an independent subsidiary of Securian Financial Group, Inc.'"
+      },
+      {
+        "name": "Canadian Premier Life Insurance Company",
+        "parent": "Securian Canada (brand)",
+        "description": "'Policies are underwritten by Canadian Premier Life Insurance Company and Canadian Premier General Insurance Company.' 'Canadian Premier Life Insurance Company is domiciled in Ontario and is authorized to transact business across Canada.' 'All insurance products described on this site are underwritten by Canadian Premier Life Insurance Company.'"
+      },
+      {
+        "name": "Canadian Premier General Insurance Company",
+        "parent": "Securian Canada (brand)",
+        "description": "'Policies are underwritten by Canadian Premier Life Insurance Company and Canadian Premier General Insurance Company.' The Important Disclosures page says financial statements for both companies are on the OSFI website."
+      }
+    ],
+    "ga_manager_statement": {
+      "text": "",
+      "source": "The Legal information page, the About page and the Important Disclosures page say nothing about who manages the companies' investment portfolio. The 2025 Climate Risk Management Report says only 'The Companies monitor their investment portfolio and report on carbon emissions associated with their investment activities.'"
+    },
+    "note": "'Securian Canada' is a brand, not a legal entity; it is kept as a node because the page itself structures the disclosure that way (brand used by the two underwriting companies, each described as an independent subsidiary of Securian Financial Group, Inc.). The page does not list Valeyo Inc. (services affiliate named as 'sister company' in a 2023 press release) or Securian Asset Management, so they are excluded per the brief. Same text appears in the footer of every securiancanada.ca page and on the Important Disclosures page (https://www.securiancanada.ca/en-ca/important-disclosures)."
+  },
+  "ceo": {
+    "name": "Nigel Branker",
+    "title": "Chief Executive Officer (FSA, FCIA)",
+    "entity": "Securian Canada (Canadian Premier Life Insurance Company and Canadian Premier General Insurance Company)",
+    "reports_to": "Board of Directors of Canadian Premier and, at appointment (2022), Bill Gould, Securian Financial EVP Affinity Solutions",
+    "seat_since": "2022-04",
+    "firm_since": "2022-04",
+    "industry_since": null,
+    "prior": "LifeWorks (formerly Morneau Shepell) 2012-2022, latterly President, Health & Productivity Solutions; earlier positions of increasing responsibility at global consulting firms (consulting actuary). BSc Western University. Director, CAFII",
+    "tenure_source": "press release / Insurance Portal (announced 2022-04-19); company bio ('more than 25 years of business leadership experience')",
+    "comp_total": null,
+    "comp_currency": "CAD",
+    "comp_year": null,
+    "comp_source": "Foreign-owned (Securian Financial, unlisted mutual holding company) subsidiary; no proxy circular, compensation undisclosed",
+    "sources": [
+      "https://www.securiancanada.ca/en-ca/about/nigel-branker",
+      "https://insurance-portal.ca/life/canadian-premier-taps-nigel-branker-as-new-chief-executive-officer",
+      "https://www.securiancanada.ca/en-ca/about"
+    ],
+    "note": "Succeeded Suzette Huovinen (CEO 2019-2022, returned to Securian Financial). industry_since null: bio says 'more than 25 years' (implies pre-2001) and LifeWorks from 2012, but no start year is given; the company bio links to his LinkedIn profile but the snippet was not obtained (web-search budget exhausted before the LinkedIn query)."
+  },
+  "cio": {
+    "name": null,
+    "title": "No chief investment officer or investment executive disclosed for the Canadian companies",
+    "entity": "Canadian Premier Life Insurance Company",
+    "reports_to": null,
+    "seat_since": null,
+    "firm_since": null,
+    "industry_since": null,
+    "prior": null,
+    "tenure_source": null,
+    "comp_total": null,
+    "comp_currency": "CAD",
+    "comp_year": null,
+    "comp_source": "",
+    "sources": [
+      "https://www.securiancanada.ca/en-ca/about",
+      "https://www.securiancanada.ca/pdfs/important-disclosures/2025-climate-risk-management-report.pdf"
+    ],
+    "note": "The leadership page lists five executives (CEO, CTO/CISO, Chief Human Experience Officer, Chief Legal Officer, CFO) and none with an investment title; the CFO oversees 'finance, actuarial and procurement'. The 2025 climate report says only that 'The Companies monitor their investment portfolio'. Investment management is most likely delegated to the parent's Securian Asset Management, Inc. (St. Paul, MN; parent CIO John Heshelman since May 2025 per a June 2025 Securian Financial release surfaced in search), but no public source confirms that it manages the Canadian general account, so the CIO is left unnamed and the direct-report list empty."
+  },
+  "cio_direct_reports": [],
+  "other_leaders": [
+    {
+      "name": "Marc Peliel",
+      "title": "Chief Financial Officer (CPA Canada and US, ICD.D); leads finance, actuarial and procurement",
+      "entity": "Securian Canada (Canadian Premier Life Insurance Company)",
+      "reports_to": "Chief Executive Officer (Nigel Branker)",
+      "seat_since": "2026-03",
+      "firm_since": "2026-03",
+      "industry_since": null,
+      "prior": "Humania Assurance: President & CEO 2021-2023, VP Finance & Treasurer 2016-2021; chaired Aurrea Signature until its 2019 sale; 'more than 25 years of leadership experience ... including more than 15 years in the insurance and financial service sectors'",
+      "tenure_source": "press release (joined March 2026; CFO appointment announced 2026-05-05); company bio",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "Not disclosed (foreign-owned subsidiary)",
+      "sources": [
+        "https://www.securiancanada.ca/en-ca/about/news-insights/news/securian-canada-names-marc-peliel-as-chief-financial-officer",
+        "https://www.securiancanada.ca/en-ca/about/marc-peliel",
+        "https://insurance-portal.ca/life/humania-appoints-new-president-and-ceo/"
+      ],
+      "note": "Succeeded Martin Fortier (FCIA, FSA; joined 2023-08 as SVP Actuarial, Risk & Product, CFO from 2024-11-27), whose departure was not announced. industry_since null: '15+ years in insurance and financial services' implies ~2010 but no year given. Cross-link to humania.json (prior CEO)."
+    },
+    {
+      "name": "Mark Geldernick",
+      "title": "Chief Legal Officer and Secretary; oversees Legal, Compliance and Risk Management departments and corporate development (the CRO title itself is unnamed)",
+      "entity": "Securian Canada (Canadian Premier Life Insurance Company)",
+      "reports_to": "Chief Executive Officer (inferred: executive leadership team member)",
+      "seat_since": "2024",
+      "firm_since": "2024",
+      "industry_since": null,
+      "prior": "Securian Financial (US parent): Vice President, Law, and Chief Risk Officer; 'more than 25 years of experience' in risk and legal, with acquisition experience",
+      "tenure_source": "company bio ('assumed the role in early 2024')",
+      "comp_total": null,
+      "comp_currency": "CAD",
+      "comp_year": null,
+      "comp_source": "Not disclosed",
+      "sources": [
+        "https://www.securiancanada.ca/en-ca/about/mark-geldernick",
+        "https://www.securiancanada.ca/pdfs/important-disclosures/2025-climate-risk-management-report.pdf"
+      ],
+      "note": "Closest disclosed risk leader. The 2025 climate report describes an unnamed 'Chief Risk Officer' who leads the risk framework and chairs the Risk and Capital Committee; Geldernick's bio says he 'provides oversight of the Legal, Compliance and Risk Management departments'. firm_since 2024 refers to Securian Canada; his tenure in the Securian group is longer (parent-company roles) but undated. industry_since null."
+    }
+  ],
+  "gaps": [
+    "No investment officer, investment staff or asset manager named for the Canadian general account; Securian Asset Management involvement is an inference. CIO unnamed, direct reports empty.",
+    "Chief Risk Officer named in the climate report but not identified on any public page; Appointed Actuary / Chief Actuary not named.",
+    "Tenure nulls: Branker industry_since; Peliel industry_since; Geldernick industry_since. LinkedIn snippets not obtained (web-search budget exhausted before per-person LinkedIn queries); MarketScreener returns 403 to curl.",
+    "Foreign-owned subsidiary of an unlisted mutual holding company: no proxy circular, no compensation for any executive.",
+    "Current leadership page (2026-11-03) no longer shows Sharla Postic (Chief Administrative Officer, promoted to ELT 2023-09) or Kyros Ioannou (Chief Growth Officer, appointed 2023-12-07); their status is unverified.",
+    "Pages checked for entities: /en-ca/legal-information (used), /en-ca/about and /fr-ca/about, /en-ca/important-disclosures, /en-ca/about/faq, sitemap.xml. The old canadianpremier.ca domain redirects to the same content."
+  ],
+  "notes": "Securian Canada's Legal information page is a clean 'underwritten by' disclosure: the brand is used by Canadian Premier Life Insurance Company (Ontario-domiciled) and Canadian Premier General Insurance Company, each an independent subsidiary of Securian Financial Group, Inc.; no other affiliates are listed there. The Canadian ELT (Branker CEO since 2022-04; Peliel CFO since 2026-03 over finance, actuarial and procurement; Geldernick CLO since early 2024 over legal, compliance and risk; Mazhar CTO/CISO; Theodorou CHXO) contains no investment executive, consistent with a disclosure-light creditor/affinity insurer whose C$0.7bn public-market portfolio is presumably run by the US parent's asset manager. Personal library not available in this session; public sources used. Bigdata.com and Firecrawl not used per brief."
+}

@@ -1,0 +1,124 @@
+{
+  "company_id": "wawanesa_life",
+  "name": "The Wawanesa Life Insurance Company",
+  "as_of": "2025-12-31",
+  "ownership": "100%-owned subsidiary of The Wawanesa Mutual Insurance Company (policyholder-owned mutual, Winnipeg); no listing",
+  "regulator": "OSFI (LICAT); parent Wawanesa Mutual is an OSFI-regulated P&C mutual (MCT)",
+  "metrics": [
+    {"metric": "Total assets (Wawanesa Life)", "value": 2.007, "unit": "C$bn", "as_of": "2025-12-31", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1", "note": "General fund C$1,475.1mm + segregated funds C$532.0mm; 2024: C$1,895.6mm"},
+    {"metric": "General-account invested assets", "value": 1257.6, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1", "note": "'Investments including securities on loan': fixed income C$1,019.1mm, common stocks/pooled funds C$232.2mm, preferreds C$6.3mm; plus cash C$26.2mm. All FVTPL"},
+    {"metric": "Segregated funds net assets", "value": 532.0, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1", "note": "Management fees earned C$7.3mm"},
+    {"metric": "Group total assets (Wawanesa Mutual consolidated)", "value": 12.51, "unit": "C$bn", "as_of": "2025-12-31", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/Wawanesa-2025-Annual-Report.pdf?language_id=1", "note": "Group equity C$5.5bn; consolidated premiums C$4.1bn; consolidated net income C$556mm (record); MCT 290%"},
+    {"metric": "Net income (Wawanesa Life)", "value": 16.1, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1", "note": "Shareholder C$10.1mm + participating account C$6.0mm; 2024: C$14.2mm. Net investment income C$62.1mm (2024: C$78.6mm). No core-earnings measure"},
+    {"metric": "Insurance revenue", "value": 294.9, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1", "note": "2024: C$264.2mm; gross written premiums +9.5% y/y per group report"},
+    {"metric": "LICAT Total ratio", "value": 167.0, "unit": "%", "as_of": "2025-12-31", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-LICAT-Summary-Report.pdf?language_id=1", "note": "Core 140%; AC C$431.9mm (Tier 1 379.8, Tier 2 52.1), SA+ED C$121.6mm, BSB C$332.2mm. 2024: 165% Total. Above OSFI supervisory target and internal target (internal target not quantified)"},
+    {"metric": "Total equity (Wawanesa Life)", "value": 327.3, "unit": "C$mm", "as_of": "2025-12-31", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1", "note": "Shareholder equity C$228.2mm + participating account C$99.1mm"},
+    {"metric": "Financial leverage ratio", "value": 0.0, "unit": "%", "as_of": "2025-12-31", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1", "note": "No debt, preferred shares or hybrids at Wawanesa Life (inferred from balance sheet: only trade payables and tax liabilities)"},
+    {"metric": "Credit rating - AM Best FSR", "value": null, "unit": "A (Excellent)", "as_of": "2025-12-31", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/Wawanesa-2025-Annual-Report.pdf?language_id=1", "note": "Both Wawanesa Mutual and Wawanesa Life maintained A (Excellent) in 2025"},
+    {"metric": "Investments team headcount", "value": null, "unit": "people", "as_of": null, "source": null, "note": "Not disclosed; investments are managed at the group level (Investment Committee of the Board; external investment managers referenced for pricing)"},
+    {"metric": "Employees (group)", "value": 3200, "unit": "people", "as_of": "2025-12-31", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/Wawanesa-2025-Annual-Report.pdf?language_id=1", "note": "Wawanesa group; Life-only headcount not disclosed"},
+    {"metric": "Policies / lives", "value": 109000, "unit": "individuals insured (life)", "as_of": "2025-12-31", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/Wawanesa-2025-Annual-Report.pdf?language_id=1", "note": "C$31bn individual life volume in force; 138,000+ employees covered through group benefit plans"}
+  ],
+  "business_mix": {
+    "basis": "Net premiums and equivalents by line, FY2025 (C$227.8mm: Individual 69.2, Group 145.1, Annuity 13.5)",
+    "as_of": "2025-12-31",
+    "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/Wawanesa-2025-Annual-Report.pdf?language_id=1",
+    "items": [
+      {"label": "Group life & health", "pct": 63.7},
+      {"label": "Individual life, critical illness", "pct": 30.4},
+      {"label": "Annuities / segregated funds", "pct": 5.9}
+    ]
+  },
+  "people": [
+    {"role": "CEO", "name": "Evan Johnston", "title": "President and Chief Executive Officer, The Wawanesa Mutual Insurance Company; also President & CEO of The Wawanesa Life Insurance Company (signs Life FS)", "reports_to": "Board of Directors (Wawanesa Life Chair: Catherine Best)", "entity": "The Wawanesa Mutual Insurance Company / The Wawanesa Life Insurance Company", "seat_since": 2025, "firm_since": null, "industry_since": null, "prior": "Succeeded Jeff Goy (35-year Wawanesa career) as 10th President & CEO on Jan 1, 2025; prior Wawanesa executive roles (details not in sources found)", "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1", "https://www.wawanesa.com/canada/news/evan-johnston-announces-organizational-changes-and-executive-team-appointments"], "note": "Mutual: no proxy circular; compensation not disclosed"},
+    {"role": "Head of Life company", "name": "Jocelyne Prefontaine", "title": "SVP, Chief Claims and Life Company Officer", "reports_to": "President & CEO", "entity": "The Wawanesa Mutual Insurance Company", "seat_since": 2025, "firm_since": null, "industry_since": null, "prior": "Previously SVP & COO, Life Operations, leading Wawanesa Life", "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.wawanesa.com/canada/news/evan-johnston-announces-organizational-changes-and-executive-team-appointments"], "note": "Executive accountable for the Life company in the Jan 2025 reorganisation"},
+    {"role": "CFO", "name": "Gord Dowhan", "title": "SVP, Chief Financial Officer", "reports_to": "President & CEO", "entity": "The Wawanesa Mutual Insurance Company", "seat_since": null, "firm_since": null, "industry_since": null, "prior": null, "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.wawanesa.com/canada/news/evan-johnston-announces-organizational-changes-and-executive-team-appointments", "https://www.wawanesa.com/resources/docs/canada/annual-reports/Wawanesa-2025-Annual-Report.pdf?language_id=1"], "note": "Signs the CFO letter in the 2025 Report to Members; investment portfolio commentary sits in his remit (inferred)"},
+    {"role": "CIO", "name": null, "title": null, "reports_to": null, "entity": null, "seat_since": null, "firm_since": null, "industry_since": null, "prior": null, "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": [], "note": "No Chief Investment Officer or head of investments appears on the Jan 2025 executive team list or in the annual report; investments are governed by the Board Investment Committee with external investment managers (see pm_structure)"},
+    {"role": "Chief Actuary / strategy", "name": "Mike Brisebois", "title": "SVP, Chief Strategy & Corporate Actuarial Officer", "reports_to": "President & CEO", "entity": "The Wawanesa Mutual Insurance Company", "seat_since": 2025, "firm_since": null, "industry_since": null, "prior": null, "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.wawanesa.com/canada/news/evan-johnston-announces-organizational-changes-and-executive-team-appointments"], "note": ""},
+    {"role": "CRO", "name": null, "title": "SVP, Chief Risk & Legal Officer (name not captured; Life FS refer to Offices of the CRO, CCO and VP Chief Actuary & Risk Management)", "reports_to": "Risk Committee of the Board", "entity": "The Wawanesa Mutual Insurance Company", "seat_since": null, "firm_since": null, "industry_since": null, "prior": null, "comp_total_cad": null, "comp_currency": "CAD", "comp_year": null, "comp_source": null, "sources": ["https://www.wawanesa.com/resources/docs/canada/annual-reports/Wawanesa-2025-Annual-Report.pdf?language_id=1"], "note": "James Bond is SVP Chief Legal & Corporate Affairs Officer (Jan 2025); a 'SVP, Chief Risk & Legal Officer' signs the sustainability governance section of the 2025 report (name not extracted)"}
+  ],
+  "pm_structure": {
+    "summary": "Group-level construct: the Board Investment Committee approves Investment Policy Statements and guidelines; portfolios appear to be run through external investment managers (FS cite 'investment managers' as valuation sources and a payable 'due to the investment manager'), with Wawanesa Life itself acting as investment manager of its segregated funds. No in-house asset-management affiliate.",
+    "manager_entities": ["External investment managers (not named in FS)", "Wawanesa Life (manager/administrator of its own segregated funds, C$7.3mm fees 2025)"],
+    "bullets": [
+      "Investment Policy Statement sets maximum equity levels and credit limits; approved by Investment Committee of the Board (quarterly credit and interest-rate reporting)",
+      "Equities held largely via pooled funds (common stocks/pooled funds C$232mm); fixed income C$1.02bn, ~A-rated average (AAA 120, AA 293, A 366, BBB balance)",
+      "Securities lending run through the custodian's program (custodian guarantee, daily mark-to-market over-collateralisation)",
+      "Assets invested to match liability cash flows by segment (par vs non-par); interest-rate risk monitored by management and Board Investment Committee",
+      "Group ESG: PRI signatory, PCAF member (Jul 2026); impact-investment goal 10% of P&C and Life portfolios by 2030 (6% at YE2025)"
+    ],
+    "sources": ["https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1", "https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Mutual-Insurance-Company-consolidated-financial-statements.pdf?language_id=1", "https://www.wawanesa.com/resources/docs/canada/annual-reports/Wawanesa-2025-Annual-Report.pdf?language_id=1"]
+  },
+  "rotation_commentary": [
+    {"year": 2025, "text": "Common stocks rose to C$232mm from C$189mm (market gains; minimal purchases) while fixed income edged down to C$1.02bn; equities now ~19% of invested assets.", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1"},
+    {"year": 2025, "text": "Group: 'investments are managed in a conservative manner'; sustainable/impact allocation 6% of enterprise portfolio vs 10% target by 2030; Scope 3 financed-emissions target -25% by 2030.", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/Wawanesa-2025-Annual-Report.pdf?language_id=1"},
+    {"year": 2025, "text": "Fixed-income book is long: C$1.56bn of C$1.92bn undiscounted FI cash flows fall beyond five years (duration-matched to life liabilities).", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1"}
+  ],
+  "target_allocations": [
+    {"asset_class": "Impact / sustainable investments (P&C + Life portfolios)", "target": "At least 10% by 2030 (6% achieved at 2025-12-31)", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/Wawanesa-2025-Annual-Report.pdf?language_id=1"}
+  ],
+  "leverage": {
+    "debt_outstanding": [],
+    "financial_leverage_ratio_pct": 0.0,
+    "issuance": [],
+    "securities_lending": {"amount_cad_mm": 112.9, "as_of": "2025-12-31", "text": "Fixed-income securities on loan with fair value C$112.9mm (2024: C$143.8mm), via custodian program; collateral exceeds loan value, marked daily; cash collateral reinvested in custodian's Common Investment Account", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1"},
+    "repos": {"amount_cad_mm": null, "as_of": "2025-12-31", "text": "No repurchase or reverse repurchase agreements disclosed", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1"},
+    "structured_indirect": [
+      {"text": "No derivatives, CLO/ABS, mortgages, private credit, fund finance or sidecar exposure disclosed; portfolio is public fixed income plus pooled-fund equities (no Level 3 assets)", "amount_cad_mm": null, "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1"},
+      {"text": "Reinsurance: reinsurance contract held assets C$171.1mm; catastrophe cover for group business", "amount_cad_mm": 171.1, "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1"}
+    ]
+  },
+  "partnerships": {
+    "underwriters": [],
+    "deals": [
+      {"year": 2026, "text": "Group: acquired Everest Insurance Company of Canada (announced Mar 23 2026, closed Oct 1 2026; ~C$305mm commercial premiums, +30%); rebranded WSI, A Wawanesa Company", "source": "https://www.wawanesa.com/canada/news/wawanesa-introduces-wsi-creating-a-new-chapter-in-canadian-specialty-insurance"},
+      {"year": 2024, "text": "Group: sold Wawanesa General Insurance Company (US) to the Automobile Club of Southern California (closed Mar 31 2024; net proceeds US$89.9mm, gain C$53.3mm); no remaining foreign operations", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Mutual-Insurance-Company-consolidated-financial-statements.pdf?language_id=1"},
+      {"year": 2025, "text": "Related-party distribution: Western Financial Group (group broker) earned C$4.6mm commissions from Wawanesa Life and placed C$40.9mm of Life premiums", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1"}
+    ],
+    "sponsorships": [
+      {"year": 2026, "text": "Renewed ALUS partnership (climate-resilient farming); Climative AI wildfire-resilience pilot; joined PCAF; C2R2 youth climate grants C$150k", "source": "https://www.wawanesa.com/canada/news"},
+      {"year": 2025, "text": "First insurer to fund TRU Wildfire research (Thompson Rivers University); C$150k+ Community Wildfire Prevention Grants; ICLR and Climate Proof Canada member", "source": "https://www.wawanesa.com/canada/news?page=3"},
+      {"year": 2025, "text": "C$4mm community contributions incl. C$1.6mm to United Way; My Community Day volunteer program", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/Wawanesa-2025-Annual-Report.pdf?language_id=1"},
+      {"year": 2016, "text": "Official auto/home insurer of the Canadian Hockey League (multi-year, from Oct 2016); current status not confirmed", "source": "https://www.globenewswire.com/news-release/2016/10/20/985765/0/en/Wawanesa-Insurance-teams-up-with-Canadian-Hockey-League-in-new-multi-year-partnership.html"}
+    ],
+    "bank_relationships": [
+      {"text": "Custodian runs the securities-lending program and Common Investment Account (custodian not named)", "source": "https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1"}
+    ]
+  },
+  "risk": {
+    "appetite": [
+      "Board sets enterprise Risk Appetite and ERM/operational risk framework; liquidity policy embedded in the Risk Appetite statement",
+      "Investment Policy Statement caps equity exposure and sets credit-quality limits (BBB floor for ECL staging treated as investment grade)",
+      "LICAT-based internal target above OSFI 100% supervisory target (value not disclosed); 5-year LICAT projections in FCT"
+    ],
+    "governance": [
+      "Risk Committee of the Board plus a management Life Risk Committee; Offices of the CRO, Chief Compliance Officer and VP Chief Actuary & Risk Management support them",
+      "Investment Committee of the Board approves Investment Policy Statements and receives quarterly credit and interest-rate reporting",
+      "Executive Risk and Compliance Committee and Executive Sustainability Committee at group level"
+    ],
+    "capital_target": "Internal LICAT target above 100% supervisory target (not quantified); actual Total 167% / Core 140% at 2025-12-31 (2024: 165%)",
+    "sensitivities": [
+      "Rates +100bp: financial instruments -C$75.7mm, insurance/reinsurance contracts +C$61.5mm => net -C$14.1mm profit/equity; -100bp: +91.5/-75.6 => +C$15.9mm",
+      "Equities +/-10%: +/-C$9.9mm profit (financial instruments +/-17.2 offset by contracts -/+7.3); CSM +3.9/-4.0",
+      "Seg-fund guarantees 75-100% of deposits on death/maturity; unhedged (equity risk partly offset via UL credited rates and par dividend scale)"
+    ],
+    "hedging": [
+      "No derivatives or dynamic hedging program; mitigation via UL credited-rate pass-through, participating dividend scale and asset-liability cash-flow matching"
+    ],
+    "events": [
+      "2025: group record net income C$556mm after a loss-heavy 2024 (combined ratio 111.6% -> 97.8%); MCT up 18 pts to 290%",
+      "Jan 1 2025: CEO succession (Jeff Goy -> Evan Johnston) and executive restructure into four lines of business incl. Life",
+      "Wawanesa Life 2025: insurance service result turned positive (C$3.9mm vs -C$3.6mm); reinsurance result -C$17.9mm"
+    ],
+    "sources": ["https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-Audited-Wawanesa-Life-Insurance-Company-financial-statements.pdf?language_id=1", "https://www.wawanesa.com/resources/docs/canada/annual-reports/2025-LICAT-Summary-Report.pdf?language_id=1", "https://www.wawanesa.com/resources/docs/canada/annual-reports/Wawanesa-2025-Annual-Report.pdf?language_id=1"]
+  },
+  "gaps": [
+    "Mutual: no proxy circular; no individual or aggregate executive compensation disclosed (Life FS have no key-management-compensation note)",
+    "No Chief Investment Officer / head of investments identified; external investment managers and custodian not named",
+    "Wawanesa Life standalone employee count and investments-team size not disclosed",
+    "Internal LICAT target ratio not quantified",
+    "Spread and real-estate sensitivities not disclosed (none held)",
+    "Wawanesa leadership web page returned 404 and the web-search budget was exhausted before CRO name and Johnston's career history could be confirmed"
+  ],
+  "notes": "Small, unlevered, plain-vanilla life subsidiary of a large P&C mutual: C$2.0bn assets (26% seg funds), C$1.26bn general account that is 81% public fixed income and 19% pooled-fund equities, no derivatives, no debt, LICAT 167%. The only balance-sheet 'leverage' item is C$113mm of securities on loan through the custodian. Group context matters for the deck: Wawanesa Mutual (C$12.5bn assets, equity C$5.5bn, MCT 290%) sold its US P&C arm to AAA in 2024 and bought Everest Canada in Oct 2026. Sources: Wawanesa Life FY2025 audited FS, 2025 LICAT summary, Wawanesa 2025 Report to Members (integrated report, Jun 2026), Wawanesa Mutual FY2025 consolidated FS, wawanesa.com news releases (Jan 2025 executive team; 2025-2026 items)."
+}
