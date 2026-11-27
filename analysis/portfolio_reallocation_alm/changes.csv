@@ -1,0 +1,109 @@
+short_id,insurer,first_date,last_date,level2,level3,first_share_pct,last_share_pct,change_pp,first_mm,last_mm,reallocated_mm
+RBC,RBC Life,2024-01-31,2026-07-31,Cash & Cash Equivalent,Cash Equivalent,3.79,0.0,-3.79,705.6,0.0,-883.9
+RBC,RBC Life,2024-01-31,2026-07-31,Public Fixed Income,Government Bonds,32.81,35.01,2.21,6113.5,8173.1,515.0
+RBC,RBC Life,2024-01-31,2026-07-31,Public Fixed Income,Corporate Bonds,37.69,36.05,-1.64,7023.4,8414.7,-383.2
+RBC,RBC Life,2024-01-31,2026-07-31,Private Fixed Income,Illiquid Term Loan,9.47,13.04,3.57,1764.8,3044.9,834.2
+RBC,RBC Life,2024-01-31,2026-07-31,Private Fixed Income,Commercial Mortgages,8.56,8.54,-0.02,1595.2,1992.4,-5.8
+RBC,RBC Life,2024-01-31,2026-07-31,Public Equity,Common Shares,4.59,4.88,0.29,855.3,1139.6,68.1
+RBC,RBC Life,2024-01-31,2026-07-31,Public Equity,Preferred Shares,0.07,0.07,0.0,13.2,16.9,0.4
+RBC,RBC Life,2024-01-31,2026-07-31,Real Estate Equity,Real Estate Equity,0.0,0.0,0.0,0.0,0.0,0.0
+RBC,RBC Life,2024-01-31,2026-07-31,Others (unclassified),Others,3.03,2.41,-0.62,563.8,561.5,-144.8
+MFC,MFC,2023-12-31,2026-06-30,Cash & Cash Equivalent,Cash Equivalent,1.59,2.82,1.23,1143.8,1959.2,852.0
+MFC,MFC,2023-12-31,2026-06-30,Public Fixed Income,Government Bonds,21.96,20.48,-1.49,15761.3,14226.1,-1031.7
+MFC,MFC,2023-12-31,2026-06-30,Public Fixed Income,Corporate Bonds,34.22,30.13,-4.09,24555.0,20928.9,-2841.5
+MFC,MFC,2023-12-31,2026-06-30,Private Fixed Income,Illiquid Term Loan,10.63,11.28,0.66,7625.8,7838.7,456.6
+MFC,MFC,2023-12-31,2026-06-30,Private Fixed Income,Commercial Mortgages,13.59,13.17,-0.42,9750.3,9148.1,-290.7
+MFC,MFC,2023-12-31,2026-06-30,Public Equity,Common Shares,5.61,9.51,3.9,4027.1,6604.6,2706.2
+MFC,MFC,2023-12-31,2026-06-30,Public Equity,Preferred Shares,0.0,0.0,-0.0,0.2,0.0,-0.2
+MFC,MFC,2023-12-31,2026-06-30,Real Estate Equity,Real Estate Equity,2.71,2.17,-0.54,1945.1,1510.7,-372.3
+MFC,MFC,2023-12-31,2026-06-30,Others (unclassified),Others,9.69,10.44,0.75,6953.2,7252.6,521.6
+SLF,SLF,2023-12-31,2026-06-30,Cash & Cash Equivalent,Cash Equivalent,0.37,2.79,2.42,228.0,1966.1,1708.7
+SLF,SLF,2023-12-31,2026-06-30,Public Fixed Income,Government Bonds,24.3,24.44,0.14,15174.6,17231.8,96.1
+SLF,SLF,2023-12-31,2026-06-30,Public Fixed Income,Corporate Bonds,21.44,21.67,0.23,13387.5,15280.0,162.4
+SLF,SLF,2023-12-31,2026-06-30,Private Fixed Income,Illiquid Term Loan,36.33,40.67,4.34,22686.7,28679.4,3060.8
+SLF,SLF,2023-12-31,2026-06-30,Private Fixed Income,Commercial Mortgages,8.85,5.9,-2.95,5528.9,4159.9,-2083.6
+SLF,SLF,2023-12-31,2026-06-30,Public Equity,Common Shares,0.0,0.0,0.0,0.0,0.0,0.0
+SLF,SLF,2023-12-31,2026-06-30,Public Equity,Preferred Shares,0.03,0.02,-0.01,19.0,14.5,-6.9
+SLF,SLF,2023-12-31,2026-06-30,Real Estate Equity,Real Estate Equity,2.55,0.58,-1.97,1589.8,406.1,-1389.1
+SLF,SLF,2023-12-31,2026-06-30,Others (unclassified),Others,6.13,3.93,-2.2,3827.9,2774.1,-1548.5
+CLF,CLF,2023-12-31,2025-12-31,Cash & Cash Equivalent,Cash Equivalent,0.0,0.0,0.0,0.0,0.0,0.0
+CLF,CLF,2023-12-31,2025-12-31,Public Fixed Income,Government Bonds,28.0,26.26,-1.74,7432.5,7083.0,-469.4
+CLF,CLF,2023-12-31,2025-12-31,Public Fixed Income,Corporate Bonds,24.28,23.62,-0.66,6445.3,6371.2,-178.2
+CLF,CLF,2023-12-31,2025-12-31,Private Fixed Income,Illiquid Term Loan,21.77,25.52,3.75,5779.7,6883.2,1010.2
+CLF,CLF,2023-12-31,2025-12-31,Private Fixed Income,Commercial Mortgages,12.93,11.55,-1.38,3431.8,3114.2,-372.9
+CLF,CLF,2023-12-31,2025-12-31,Public Equity,Common Shares,7.2,7.42,0.22,1909.9,2000.2,59.5
+CLF,CLF,2023-12-31,2025-12-31,Public Equity,Preferred Shares,0.0,0.0,0.0,0.0,0.0,0.0
+CLF,CLF,2023-12-31,2025-12-31,Real Estate Equity,Real Estate Equity,2.17,1.87,-0.29,575.2,505.1,-79.4
+CLF,CLF,2023-12-31,2025-12-31,Others (unclassified),Others,3.66,3.77,0.11,970.3,1016.2,30.2
+BMO,BMO Life,2024-04-30,2026-07-31,Cash & Cash Equivalent,Cash Equivalent,5.85,6.1,0.25,673.5,954.9,39.1
+BMO,BMO Life,2024-04-30,2026-07-31,Public Fixed Income,Government Bonds,12.84,19.32,6.48,1478.9,3025.8,1015.0
+BMO,BMO Life,2024-04-30,2026-07-31,Public Fixed Income,Corporate Bonds,65.82,60.64,-5.18,7582.6,9498.7,-811.2
+BMO,BMO Life,2024-04-30,2026-07-31,Private Fixed Income,Illiquid Term Loan,0.0,0.8,0.8,0.0,125.4,125.4
+BMO,BMO Life,2024-04-30,2026-07-31,Private Fixed Income,Commercial Mortgages,2.43,2.32,-0.11,279.7,363.0,-17.2
+BMO,BMO Life,2024-04-30,2026-07-31,Public Equity,Common Shares,1.35,1.11,-0.24,155.4,174.5,-36.8
+BMO,BMO Life,2024-04-30,2026-07-31,Public Equity,Preferred Shares,0.0,0.0,0.0,0.0,0.0,0.0
+BMO,BMO Life,2024-04-30,2026-07-31,Real Estate Equity,Real Estate Equity,11.72,9.14,-2.58,1350.4,1431.9,-404.2
+BMO,BMO Life,2024-04-30,2026-07-31,Others (unclassified),Others,0.0,0.58,0.58,0.0,90.1,90.1
+BLU,BLU,2023-12-31,2026-06-30,Cash & Cash Equivalent,Cash Equivalent,0.0,0.0,0.0,0.0,0.0,0.0
+BLU,BLU,2023-12-31,2026-06-30,Public Fixed Income,Government Bonds,16.94,11.85,-5.09,882.1,910.9,-391.0
+BLU,BLU,2023-12-31,2026-06-30,Public Fixed Income,Corporate Bonds,70.63,72.31,1.69,3677.0,5556.6,129.7
+BLU,BLU,2023-12-31,2026-06-30,Private Fixed Income,Illiquid Term Loan,7.01,13.37,6.35,365.1,1027.2,488.3
+BLU,BLU,2023-12-31,2026-06-30,Private Fixed Income,Commercial Mortgages,3.26,1.17,-2.09,169.9,90.1,-160.7
+BLU,BLU,2023-12-31,2026-06-30,Public Equity,Common Shares,1.8,0.74,-1.06,93.5,56.7,-81.3
+BLU,BLU,2023-12-31,2026-06-30,Public Equity,Preferred Shares,0.36,0.55,0.19,18.7,42.5,14.9
+BLU,BLU,2023-12-31,2026-06-30,Real Estate Equity,Real Estate Equity,0.0,0.0,0.0,0.0,0.0,0.0
+BLU,BLU,2023-12-31,2026-06-30,Others (unclassified),Others,0.0,0.0,0.0,0.0,0.0,0.0
+EMP,Empire Life,2023-12-31,2026-06-30,Cash & Cash Equivalent,Cash Equivalent,0.0,0.0,0.0,0.0,0.0,0.0
+EMP,Empire Life,2023-12-31,2026-06-30,Public Fixed Income,Government Bonds,41.14,42.38,1.24,3174.1,3509.5,103.0
+EMP,Empire Life,2023-12-31,2026-06-30,Public Fixed Income,Corporate Bonds,39.58,37.14,-2.44,3053.9,3075.2,-202.3
+EMP,Empire Life,2023-12-31,2026-06-30,Private Fixed Income,Illiquid Term Loan,6.07,8.04,1.97,468.3,665.8,163.3
+EMP,Empire Life,2023-12-31,2026-06-30,Private Fixed Income,Commercial Mortgages,1.26,0.69,-0.57,97.2,57.1,-47.2
+EMP,Empire Life,2023-12-31,2026-06-30,Public Equity,Common Shares,6.48,4.54,-1.94,499.7,375.7,-160.6
+EMP,Empire Life,2023-12-31,2026-06-30,Public Equity,Preferred Shares,4.99,6.34,1.36,384.8,525.2,112.2
+EMP,Empire Life,2023-12-31,2026-06-30,Real Estate Equity,Real Estate Equity,0.0,0.0,0.0,0.0,0.0,0.0
+EMP,Empire Life,2023-12-31,2026-06-30,Others (unclassified),Others,0.5,0.88,0.38,38.2,72.5,31.5
+IVA,ivari,2023-12-31,2026-06-30,Cash & Cash Equivalent,Cash Equivalent,13.04,19.43,6.39,978.2,1521.7,500.2
+IVA,ivari,2023-12-31,2026-06-30,Public Fixed Income,Government Bonds,31.29,26.4,-4.89,2347.0,2067.7,-383.2
+IVA,ivari,2023-12-31,2026-06-30,Public Fixed Income,Corporate Bonds,42.25,40.63,-1.62,3168.5,3182.2,-126.6
+IVA,ivari,2023-12-31,2026-06-30,Private Fixed Income,Illiquid Term Loan,10.5,11.62,1.11,787.8,910.0,87.3
+IVA,ivari,2023-12-31,2026-06-30,Private Fixed Income,Commercial Mortgages,0.0,0.0,0.0,0.0,0.0,0.0
+IVA,ivari,2023-12-31,2026-06-30,Public Equity,Common Shares,1.98,0.0,-1.98,148.7,0.0,-155.3
+IVA,ivari,2023-12-31,2026-06-30,Public Equity,Preferred Shares,0.0,0.0,0.0,0.0,0.0,0.0
+IVA,ivari,2023-12-31,2026-06-30,Real Estate Equity,Real Estate Equity,0.0,0.0,0.0,0.0,0.0,0.0
+IVA,ivari,2023-12-31,2026-06-30,Others (unclassified),Others,0.93,1.92,0.99,69.9,150.5,77.6
+EQL,Equitable,2023-12-31,2026-06-30,Cash & Cash Equivalent,Cash Equivalent,0.0,0.0,0.0,0.0,0.0,0.0
+EQL,Equitable,2023-12-31,2026-06-30,Public Fixed Income,Government Bonds,33.57,24.05,-9.52,541.5,467.8,-185.1
+EQL,Equitable,2023-12-31,2026-06-30,Public Fixed Income,Corporate Bonds,29.48,32.21,2.73,475.6,626.4,53.0
+EQL,Equitable,2023-12-31,2026-06-30,Private Fixed Income,Illiquid Term Loan,12.42,17.84,5.42,200.3,346.9,105.4
+EQL,Equitable,2023-12-31,2026-06-30,Private Fixed Income,Commercial Mortgages,8.53,10.94,2.41,137.6,212.9,46.9
+EQL,Equitable,2023-12-31,2026-06-30,Public Equity,Common Shares,0.0,0.0,0.0,0.0,0.0,0.0
+EQL,Equitable,2023-12-31,2026-06-30,Public Equity,Preferred Shares,7.16,13.06,5.9,115.5,254.0,114.7
+EQL,Equitable,2023-12-31,2026-06-30,Real Estate Equity,Real Estate Equity,8.84,1.9,-6.94,142.6,36.9,-135.0
+EQL,Equitable,2023-12-31,2026-06-30,Others (unclassified),Others,0.0,0.0,0.0,0.0,0.0,0.0
+COP,Co-operators Life,2023-12-31,2026-06-30,Cash & Cash Equivalent,Cash Equivalent,1.33,1.46,0.13,26.5,35.6,3.3
+COP,Co-operators Life,2023-12-31,2026-06-30,Public Fixed Income,Government Bonds,42.14,32.2,-9.94,838.4,782.2,-241.3
+COP,Co-operators Life,2023-12-31,2026-06-30,Public Fixed Income,Corporate Bonds,28.26,40.95,12.68,562.3,994.5,308.1
+COP,Co-operators Life,2023-12-31,2026-06-30,Private Fixed Income,Illiquid Term Loan,0.0,0.0,0.0,0.0,0.0,0.0
+COP,Co-operators Life,2023-12-31,2026-06-30,Private Fixed Income,Commercial Mortgages,10.82,7.96,-2.87,215.3,193.3,-69.6
+COP,Co-operators Life,2023-12-31,2026-06-30,Public Equity,Common Shares,12.51,10.16,-2.36,249.0,246.7,-57.3
+COP,Co-operators Life,2023-12-31,2026-06-30,Public Equity,Preferred Shares,4.69,7.04,2.35,93.3,170.9,57.0
+COP,Co-operators Life,2023-12-31,2026-06-30,Real Estate Equity,Real Estate Equity,0.12,0.06,-0.06,2.4,1.5,-1.4
+COP,Co-operators Life,2023-12-31,2026-06-30,Others (unclassified),Others,0.13,0.18,0.05,2.6,4.4,1.2
+IOF,Foresters Life,2023-12-31,2026-06-30,Cash & Cash Equivalent,Cash Equivalent,0.75,1.17,0.41,5.6,8.8,3.1
+IOF,Foresters Life,2023-12-31,2026-06-30,Public Fixed Income,Government Bonds,40.57,32.78,-7.79,300.5,246.4,-58.5
+IOF,Foresters Life,2023-12-31,2026-06-30,Public Fixed Income,Corporate Bonds,41.28,50.27,9.0,305.7,377.8,67.6
+IOF,Foresters Life,2023-12-31,2026-06-30,Private Fixed Income,Illiquid Term Loan,0.0,0.0,0.0,0.0,0.0,0.0
+IOF,Foresters Life,2023-12-31,2026-06-30,Private Fixed Income,Commercial Mortgages,0.0,0.0,0.0,0.0,0.0,0.0
+IOF,Foresters Life,2023-12-31,2026-06-30,Public Equity,Common Shares,1.48,1.16,-0.32,10.9,8.7,-2.4
+IOF,Foresters Life,2023-12-31,2026-06-30,Public Equity,Preferred Shares,7.39,8.62,1.23,54.7,64.8,9.2
+IOF,Foresters Life,2023-12-31,2026-06-30,Real Estate Equity,Real Estate Equity,0.0,0.0,0.0,0.0,0.0,0.0
+IOF,Foresters Life,2023-12-31,2026-06-30,Others (unclassified),Others,8.53,6.0,-2.53,63.2,45.1,-19.0
+WAW,Wawanesa Life,2023-12-31,2026-06-30,Cash & Cash Equivalent,Cash Equivalent,0.03,0.0,-0.03,0.2,0.0,-0.2
+WAW,Wawanesa Life,2023-12-31,2026-06-30,Public Fixed Income,Government Bonds,42.39,31.04,-11.35,328.1,260.3,-95.2
+WAW,Wawanesa Life,2023-12-31,2026-06-30,Public Fixed Income,Corporate Bonds,44.17,45.25,1.08,341.8,379.5,9.1
+WAW,Wawanesa Life,2023-12-31,2026-06-30,Private Fixed Income,Illiquid Term Loan,0.0,0.0,0.0,0.0,0.0,0.0
+WAW,Wawanesa Life,2023-12-31,2026-06-30,Private Fixed Income,Commercial Mortgages,0.0,0.0,0.0,0.0,0.0,0.0
+WAW,Wawanesa Life,2023-12-31,2026-06-30,Public Equity,Common Shares,0.0,0.0,0.0,0.0,0.0,0.0
+WAW,Wawanesa Life,2023-12-31,2026-06-30,Public Equity,Preferred Shares,0.0,4.51,4.51,0.0,37.8,37.8
+WAW,Wawanesa Life,2023-12-31,2026-06-30,Real Estate Equity,Real Estate Equity,0.0,0.0,0.0,0.0,0.0,0.0
+WAW,Wawanesa Life,2023-12-31,2026-06-30,Others (unclassified),Others,13.41,19.2,5.79,103.8,161.0,48.5
