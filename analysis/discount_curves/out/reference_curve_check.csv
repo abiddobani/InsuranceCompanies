@@ -1,0 +1,79 @@
+pair,as_at,reference,tenor,risk_free,rbc_spot,rbc_premium
+fy2024,2024-10-31,BMO Life (ALM repo basis),1,3.27,4.1,0.83
+fy2024,2024-10-31,BMO Life (ALM repo basis),2,3.06,3.95,0.89
+fy2024,2024-10-31,BMO Life (ALM repo basis),5,3.06,4.012,0.952
+fy2024,2024-10-31,BMO Life (ALM repo basis),10,3.27,4.526,1.256
+fy2024,2024-10-31,BMO Life (ALM repo basis),20,3.33,5.165,1.835
+fy2024,2024-10-31,BMO Life (ALM repo basis),30,3.33,5.109,1.779
+fy2024,2024-10-31,TD Life,1,3.21,4.1,0.89
+fy2024,2024-10-31,TD Life,2,3.07,3.95,0.88
+fy2024,2024-10-31,TD Life,5,3.01,4.012,1.002
+fy2024,2024-10-31,TD Life,10,3.26,4.526,1.266
+fy2024,2024-10-31,TD Life,20,3.4,5.165,1.765
+fy2024,2024-10-31,TD Life,30,3.38,5.109,1.729
+fy2024,2024-10-31,CIBC Life,1,3.33,4.1,0.77
+fy2024,2024-10-31,CIBC Life,2,2.92,3.95,1.03
+fy2024,2024-10-31,CIBC Life,5,2.75,4.012,1.262
+fy2024,2024-10-31,CIBC Life,10,3.0,4.526,1.526
+fy2024,2024-10-31,CIBC Life,20,3.21,5.165,1.955
+fy2024,2024-10-31,CIBC Life,30,3.2,5.109,1.909
+fy2024,2024-10-31,Median of the three,1,3.27,4.1,0.83
+fy2024,2024-10-31,Median of the three,2,3.06,3.95,0.89
+fy2024,2024-10-31,Median of the three,5,3.01,4.012,1.002
+fy2024,2024-10-31,Median of the three,10,3.26,4.526,1.266
+fy2024,2024-10-31,Median of the three,20,3.33,5.165,1.835
+fy2024,2024-10-31,Median of the three,30,3.33,5.109,1.779
+fy2024,2024-10-31,"RBC Life seg fund curve, spot (est)",1,3.97,4.1,0.13
+fy2024,2024-10-31,"RBC Life seg fund curve, spot (est)",2,3.72,3.95,0.23
+fy2024,2024-10-31,"RBC Life seg fund curve, spot (est)",5,2.649,4.012,1.363
+fy2024,2024-10-31,"RBC Life seg fund curve, spot (est)",10,2.962,4.526,1.565
+fy2024,2024-10-31,"RBC Life seg fund curve, spot (est)",20,3.866,5.165,1.298
+fy2024,2024-10-31,"RBC Life seg fund curve, spot (est)",30,3.985,5.109,1.124
+fy2025,2025-10-31,BMO Life (ALM repo basis),1,2.21,3.15,0.94
+fy2025,2025-10-31,BMO Life (ALM repo basis),2,2.28,3.235,0.955
+fy2025,2025-10-31,BMO Life (ALM repo basis),5,2.5,3.689,1.189
+fy2025,2025-10-31,BMO Life (ALM repo basis),10,2.91,4.504,1.594
+fy2025,2025-10-31,BMO Life (ALM repo basis),20,3.34,5.593,2.253
+fy2025,2025-10-31,BMO Life (ALM repo basis),30,3.26,5.751,2.491
+fy2025,2025-10-31,TD Life,1,2.26,3.15,0.89
+fy2025,2025-10-31,TD Life,2,2.33,3.235,0.905
+fy2025,2025-10-31,TD Life,5,2.61,3.689,1.079
+fy2025,2025-10-31,TD Life,10,3.06,4.504,1.444
+fy2025,2025-10-31,TD Life,20,3.48,5.593,2.113
+fy2025,2025-10-31,TD Life,30,3.57,5.751,2.181
+fy2025,2025-10-31,CIBC Life,1,2.32,3.15,0.83
+fy2025,2025-10-31,CIBC Life,2,2.42,3.235,0.815
+fy2025,2025-10-31,CIBC Life,5,2.73,3.689,0.959
+fy2025,2025-10-31,CIBC Life,10,3.19,4.504,1.314
+fy2025,2025-10-31,CIBC Life,20,3.63,5.593,1.963
+fy2025,2025-10-31,CIBC Life,30,3.75,5.751,2.001
+fy2025,2025-10-31,Median of the three,1,2.26,3.15,0.89
+fy2025,2025-10-31,Median of the three,2,2.33,3.235,0.905
+fy2025,2025-10-31,Median of the three,5,2.61,3.689,1.079
+fy2025,2025-10-31,Median of the three,10,3.06,4.504,1.444
+fy2025,2025-10-31,Median of the three,20,3.48,5.593,2.113
+fy2025,2025-10-31,Median of the three,30,3.57,5.751,2.181
+fy2025,2025-10-31,"RBC Life seg fund curve, spot (est)",1,2.47,3.15,0.68
+fy2025,2025-10-31,"RBC Life seg fund curve, spot (est)",2,2.36,3.235,0.875
+fy2025,2025-10-31,"RBC Life seg fund curve, spot (est)",5,2.49,3.689,1.199
+fy2025,2025-10-31,"RBC Life seg fund curve, spot (est)",10,2.83,4.504,1.674
+fy2025,2025-10-31,"RBC Life seg fund curve, spot (est)",20,3.268,5.593,2.325
+fy2025,2025-10-31,"RBC Life seg fund curve, spot (est)",30,3.286,5.751,2.466
+mid2026,2026-07-31,BMO Life (ALM repo basis),1,2.59,3.1,0.51
+mid2026,2026-07-31,BMO Life (ALM repo basis),2,2.87,3.345,0.475
+mid2026,2026-07-31,BMO Life (ALM repo basis),5,3.15,3.907,0.757
+mid2026,2026-07-31,BMO Life (ALM repo basis),10,3.49,4.676,1.186
+mid2026,2026-07-31,BMO Life (ALM repo basis),20,3.91,5.663,1.753
+mid2026,2026-07-31,BMO Life (ALM repo basis),30,3.83,5.859,2.029
+mid2026,2026-07-31,TD Life,1,2.59,3.1,0.51
+mid2026,2026-07-31,TD Life,2,2.83,3.345,0.515
+mid2026,2026-07-31,TD Life,5,3.15,3.907,0.757
+mid2026,2026-07-31,TD Life,10,3.54,4.676,1.136
+mid2026,2026-07-31,TD Life,20,3.83,5.663,1.833
+mid2026,2026-07-31,TD Life,30,3.99,5.859,1.869
+mid2026,2026-07-31,"RBC Life seg fund curve, spot (est)",1,2.35,3.1,0.75
+mid2026,2026-07-31,"RBC Life seg fund curve, spot (est)",2,2.47,3.345,0.875
+mid2026,2026-07-31,"RBC Life seg fund curve, spot (est)",5,2.806,3.907,1.101
+mid2026,2026-07-31,"RBC Life seg fund curve, spot (est)",10,3.114,4.676,1.562
+mid2026,2026-07-31,"RBC Life seg fund curve, spot (est)",20,3.494,5.663,2.169
+mid2026,2026-07-31,"RBC Life seg fund curve, spot (est)",30,3.487,5.859,2.372
